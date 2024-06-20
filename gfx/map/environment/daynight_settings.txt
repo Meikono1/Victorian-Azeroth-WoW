@@ -1,0 +1,22 @@
+# Main Sun & Moon | Effects on sun during day night cycle
+sun_rotation_radius = 0.5				# Radius of sun rotation around axis
+sun_rotation_axis = { -0.5 0.0 0.9 }	# Center of the sun rotation
+
+sunset_sun_color = { 1.0 0.4 0.4 }		# Sunset color
+sunset_water_intensity = 0.1			# Sunset water brightness (has to be manually adjusted)
+sunset_color_min_value = 0.2			# Smoothstep min of sunset for color
+sunset_color_max_value = 1.0			# Smoothstep max of sunset for color
+
+sunset_intensity_min_value = 0.5		# Smoothstep min of sunset for intensity
+sunset_intensity_max_value = 1.0		# Smoothstep max of sunset for intensity
+
+debug_daynight_time = 0.0				# Will be removed
+night_angle_minmax = { 0.3 0.6 }		# Min/Max angle of moon at night
+
+night_intensity_min_value = 0.0			# Smoothstep min of "nightvalue" which affects moon intensity
+night_intensity_max_value = 0.5			# Smoothstep max of "nightvalue" which affects moon intensity
+night_sun_color = { 0.35 0.41 0.62 }	# Moon diffuse
+night_sun_intensity = 4.0				# Moon intensity
+night_sun_max_height = 0.1				# Moon min height (miss-labeled)
+night_cubemap_intensity = 2.5			# Night Cubbemap intensity
+night_water_intensity = 0.3				# Night water brightness (has to be manually adjusted)

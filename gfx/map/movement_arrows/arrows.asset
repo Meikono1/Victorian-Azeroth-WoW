@@ -1,0 +1,18 @@
+arrowType = {
+	name = "travelMoveArrow"
+	texture = "gfx/map/movement_arrows/movearrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	size = 1.0
+	subdivisions = 5
+	line_smoothing = yes
+}
+
+arrowType = {
+	name = "travelMoveArrowFlatMap"
+	texture = "gfx/map/movement_arrows/movearrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 3.0
+	subdivisions = 3
+	line_smoothing = yes
+}

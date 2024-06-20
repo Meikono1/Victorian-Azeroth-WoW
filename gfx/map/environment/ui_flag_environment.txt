@@ -1,0 +1,13 @@
+#
+# Top flag environment settings
+#
+
+# Sun
+sun_color = { 1.0 1.0 1.0 }
+sun_intensity = 5.0
+#			+Right/-Left    Height  -Front/+Back
+sun_direction = {  -0.33 	1.0 	-0.9 }	
+
+# Cubemap
+cubemap_intensity = 0.4
+cubemap = "gfx/map/environment/cubemap_blackbottom.dds"

@@ -1,0 +1,16 @@
+﻿
+southern_plantation_mesh = {
+	size = 4
+	construction_entity = "building_construction_4x4_entity"
+}
+
+american_mining_oilrig_01_mesh = {
+	size = 1
+
+	particles = {
+		"locator_chimney" = "particle_factory_smoke"
+		"locator_chimney_02" = "particle_factory_smoke"
+	}
+	
+	construction_entity = "building_construction_1x1_entity"
+}

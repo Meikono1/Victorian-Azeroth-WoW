@@ -1,0 +1,7 @@
+﻿mobilization = {
+	visible = {
+	   has_mobilizing_unit = yes
+	}
+	
+	entity = "vfx_mobilization_entity"
+}

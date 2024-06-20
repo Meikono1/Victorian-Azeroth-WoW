@@ -1,0 +1,9 @@
+﻿game_object_locator={
+	name="farm"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="locators"
+	instances={
+	}
+}

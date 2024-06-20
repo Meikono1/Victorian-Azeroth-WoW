@@ -1,0 +1,10 @@
+﻿POPS = {
+	s:STATE_GOTLAND = {
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 33208
+			}
+		}
+	}
+}

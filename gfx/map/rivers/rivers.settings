@@ -1,0 +1,21 @@
+"TextureUvScale" = 0.015625
+"FlowNormalUvScale" = 1.200000
+"FlowNormalSpeed" = 0.185000
+"FoamFactorNear" = 0.500000
+"FoamFactorFar" = 1.000000
+"FoamFactorFarZoomstep" = 10
+"NoiseScale" = 0.250000
+"NoiseSpeed" = 2.000000
+"FlattenMult" = 1.000000
+
+"OceanFadeRate" = 3.000000
+"BankAmount" = 0.100000
+"BankFade" = 0.000
+"Depth" = 0.150000
+"DepthWidthPower" = 1.000000
+"DepthFakeFactor" = 0.400000
+"ParallaxIterations" = 20
+
+"Bottom.DiffuseTexture" = "gfx/map/rivers/river_bottom_diffuse.dds"
+"Bottom.NormalTexture" = "gfx/map/rivers/river_bottom_normal.dds"
+"Bottom.MaterialTexture" = "gfx/map/rivers/river_bottom_properties.dds"

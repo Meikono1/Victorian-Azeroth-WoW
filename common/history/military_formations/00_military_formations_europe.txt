@@ -1,0 +1,222 @@
+﻿MILITARY_FORMATIONS = {
+	c:GBR ?= {
+		create_character = {
+			# John Colborne, 1st Baron Seaton
+			is_general = yes
+			first_name = John
+			last_name = Colborne
+			historical = yes
+			birth_date = 1778.2.16
+			hq = region_north_sea_coast
+			commander_rank = commander_rank_2
+			traits = {
+				basic_colonial_administrator
+				direct
+				tactful
+			}
+			save_scope_as = colborne_gen
+		}
+
+		scope:colborne_gen = {
+			transfer_to_formation = scope:home_army_army
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Matthew
+			last_name = Whitworth_Aylmer
+			age = 61
+			traits = {
+				reserved
+			}
+			save_scope_as = aylmer_gen
+		}
+
+		scope:aylmer_gen = {
+			transfer_to_formation = scope:army_med_army
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Henry
+			last_name = Hardinge
+			age = 51
+			traits = {
+				tactful
+				resupply_commander
+			}
+			save_scope_as = hardinge_gen
+		}
+
+		scope:hardinge_gen = {
+			transfer_to_formation = scope:west_indies_army
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Hugh
+			last_name = Gough
+			historical = yes
+			age = 57
+			hq = region_england
+			commander_rank = commander_rank_3
+			traits = {
+				direct
+				reckless
+			}
+			#Favoured infantry over artillery
+			save_scope_as = gough_gen
+		}
+
+		scope:gough_gen = {
+			transfer_to_formation = scope:army_india_army
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_italy
+			name = Mediterranean_Station
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_MALTA
+				count = 2
+			}
+
+			save_scope_as = med_fleet_gbr
+		}
+
+		create_character = { # Sea
+			is_admiral = yes
+			first_name = Thomas
+			last_name = Cochrane
+			historical = yes
+			hq = region_italy
+			commander_rank = commander_rank_2
+			age = 61
+			traits = {
+				reckless
+				expert_naval_commander
+				expert_convoy_raider
+			}
+			save_scope_as = thomas_adm
+		}
+
+		scope:thomas_adm = {
+			transfer_to_formation = scope:med_fleet_gbr
+		}	
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_new_england
+			name = North_America_and_West_Indies_Station
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BERMUDA
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_JAMAICA
+				count = 2
+			}
+			
+			save_scope_as = north_amer_fleet
+		}
+
+		create_character = { # Sea
+			is_admiral = yes
+			first_name = Sir_George
+			last_name = Cockburn
+			historical = yes
+			age = 64
+			hq = region_new_england
+			traits = {
+				innovative
+			}
+			save_scope_as = cockburn_adm
+			# Burnt down washington
+		}
+
+		scope:cockburn_adm = {
+			transfer_to_formation = scope:north_amer_fleet
+		}
+			
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_south_india
+			name = East_Indies_and_China_Station # Includes the 1 frigate of the Australia Station too
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_MALAYA
+				count = 6
+			}
+
+			save_scope_as = india_china_fleet
+		}
+
+		create_character = { # Sea
+			is_admiral = yes
+			first_name = James
+			last_name = Dundas
+			historical = yes
+			age = 51
+			hq = region_iberia
+			traits = {
+				cautious
+			}
+			save_scope_as = james_adm
+		}
+
+		scope:james_adm = {
+			transfer_to_formation = scope:india_china_fleet
+		}
+
+		activate_production_method = {
+			building_type = building_naval_base
+			production_method = pm_power_of_the_purse
+		}	
+		activate_production_method = {
+			building_type = building_barracks
+			production_method = pm_general_training
+		}			
+	}
+
+	c:POR ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_iberia
+			name = Marinha_Real_Portuguesa
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_AZORES
+				count = 1
+			}
+		}
+	}
+
+	c:SPA ?= {
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_iberia
+			name = Ejercito_del_Norte
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VALENCIA
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_VALENCIA
+				count = 2
+			}
+		}
+	}
+}

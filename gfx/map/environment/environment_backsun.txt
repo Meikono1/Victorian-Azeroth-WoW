@@ -1,0 +1,15 @@
+
+## Global environment settings
+
+# Sun
+sun_color = { 1.02 0.98 0.96 }
+sun_intensity = 10.0
+sun_direction = { -0.5 0.3 -0.3 }	#	+Right/-Left	Height  -Front/+Back
+
+# Offset overrides
+shadow_direction_offset = { 0.0 0.0 0.0 }
+
+# Cubemap
+cubemap_intensity = 1.5
+cubemap = "gfx/map/environment/cubemap_blackbottom.dds"
+cubemap_y_rotation = 90

@@ -1,0 +1,4 @@
+
+## Global environment settings
+
+saturation_scale = 0.0 			# Saturation

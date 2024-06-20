@@ -1,0 +1,21 @@
+﻿MILITARY_FORMATIONS = {
+	c:OMA ?= {
+		create_military_formation = { # If somebody can explain the reason behind these whacky ship names, please give me a call
+			type = fleet
+			hq_region = sr:region_arabic
+			name = Bahriat_alMasqat
+
+			combat_unit = { # Liverpool (?)
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_OMAN
+				count = 1
+			}
+
+			combat_unit = { # Shah Alam, Caroline, Humayun Shah, Prince of Wales (??), Piedemontaise
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_OMAN
+				count = 5
+			}
+		}
+	}
+}

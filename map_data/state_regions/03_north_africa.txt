@@ -1,0 +1,73 @@
+﻿STATE_WEST_SAHARA = {
+    id = 196
+    subsistence_building = "building_subsistence_pastures"
+    provinces = {}
+    impassable = { "x4D7B2F" "xEB7C20" "xA0EF00" "x36911C" "xA299F8" "xC67B33" "x362DCE" }
+    traits = { "state_trait_sahara_desert" }
+    city = "x5FCC52"
+    port = "xF23EA5"
+    farm = "x93E37A"
+    mine = "xBD040D"
+    wood = "xE63216"
+    arable_land = 20
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_sulfur_mining = 36
+        bg_fishing = 11
+    }
+    naval_exit_id = 3089
+}
+
+STATE_MAURITANIA = {
+    id = 197
+    subsistence_building = "building_subsistence_pastures"
+    provinces = {}
+    traits = { "state_trait_malaria" "state_trait_sahara_desert" }
+    city = "x2CBC0B"
+    port = "x32772F"
+    farm = "xB03040"
+    mine = "xAC39A0"
+    wood = "xB070C0"
+    arable_land = 30
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 45
+        bg_fishing = 15
+        bg_whaling = 3
+    }
+    naval_exit_id = 3088
+}
+
+STATE_INNER_MAURITANIA = {
+    id = 198
+    subsistence_building = "building_subsistence_pastures"
+    provinces = {}
+    impassable = { "xF7237C" "xB53884" "x4810FC" "xC0BC97" "x36AB5B" "xABECE6" "x5DF3C0" "x36B7F9" "x44DE38" "x13001D" "xEA8822" "xCF7001" "x7909BC" "xBDEDE0" "x577C8B" "x61D564" "xA6894A" "xF2F684" "x4F90FE" "x52FA05" "x6E746C" "x654CF8" "x57D5A9" "xB92E03" "xD9450D" "x88561A" "x31194F" "xEF1273" "xAB7050" "xD950C5" "x89EA99" "x61957F" "xF06D38" "x3C0D4E" "x2750DE" "x30719D" "xB641E9" "xDE33E1" "x2504D1" "x87B2CE" "x54B70E" "x7EB77F" "x593F25" "xE5D72E" "xFA8A80" "xE53421" }
+    traits = { "state_trait_malaria" "state_trait_sahara_desert" }
+    city = "x707040"
+    farm = "xACA020"
+    mine = "x5FED21"
+    wood = "x71E938"
+    arable_land = 20
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 27
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
+}
+
+STATE_WESTERN_MALI = {
+    id = 200
+    subsistence_building = "building_subsistence_orchards"
+    provinces = {}
+    traits = { "state_trait_malaria" "state_trait_niger_river" }
+    city = "x10FA1F"
+    farm = "xC4B6B4"
+    mine = "xEAE72D"
+    wood = "x901121"
+    arable_land = 50
+    arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" }
+}

@@ -1,0 +1,61 @@
+﻿POPS = {
+	s:STATE_MALTA = {
+		region_state:GBR = {
+			create_pop = {
+				culture = maltese
+				size = 117192
+			}
+			create_pop = {
+				culture = british
+				size = 2792
+			}
+		}
+	}
+	s:STATE_CAPE_VERDE = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 103532
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+		}
+	}
+
+	s:STATE_MADEIRA = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 103532
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+		}
+	}
+
+	s:STATE_CANARY_ISLANDS = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 208004
+			}
+		}
+	}
+
+	s:STATE_AZORES = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 103532
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 24666
+			}
+		}
+	}
+}

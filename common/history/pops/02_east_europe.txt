@@ -1,0 +1,26 @@
+﻿POPS = {
+	s:STATE_ROSTOV = {
+		region_state:RUS = {
+			create_pop = {
+				culture = ukrainian
+				size = 356600
+			}
+			create_pop = {
+				culture = greek
+				size = 4000
+			}
+			create_pop = {
+				culture = russian
+				size = 136004
+			}
+			create_pop = {
+				culture = tatar
+				size = 16204
+			}
+			create_pop = {
+				culture = mongol
+				size = 19996
+			}
+		}
+	}
+}
