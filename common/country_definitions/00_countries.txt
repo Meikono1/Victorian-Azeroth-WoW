@@ -109,7 +109,6 @@ CSA = {
 	tier = kingdom
 	
 	cultures = { dixie }
-	capital = STATE_VIRGINIA
 }
 
 FSA = {
@@ -2471,7 +2470,6 @@ ORG = {
 	tier = principality
 	
 	cultures = { yankee anglo_canadian }
-	capital = STATE_OREGON
 }
 
 COM = {
@@ -2515,7 +2513,6 @@ LKT = {
 	tier = principality
 	
 	cultures = { dakota }
-	capital = STATE_SOUTH_DAKOTA
 }
 
 NVJ = {
@@ -2537,7 +2534,6 @@ ARP = {
 	tier = principality
 	
 	cultures = { siouan }
-	capital = STATE_COLORADO
 }
 
 NZP = {
@@ -2548,7 +2544,6 @@ NZP = {
 	tier = principality
 	
 	cultures = { nez_perce }
-	capital = STATE_IDAHO
 }
 
 ABS = {
@@ -2559,7 +2554,6 @@ ABS = {
 	tier = principality
 	
 	cultures = { siouan }
-	capital = STATE_MONTANA
 }
 
 IRC = {

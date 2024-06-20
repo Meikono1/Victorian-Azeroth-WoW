@@ -1388,9 +1388,7 @@ VNZ = {
 
 ORG = {
 	states = {
-		STATE_OREGON
 		STATE_WASHINGTON
-		STATE_IDAHO
 		STATE_BRITISH_COLUMBIA
 	}
 	ai_will_do = { always = no }

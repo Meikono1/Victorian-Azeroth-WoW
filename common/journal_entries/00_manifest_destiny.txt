@@ -28,11 +28,6 @@ je_manifest_destiny_frontier_wars = {
 	
 	# note that if you change this, also update the decision
 	complete = {
-		owns_entire_state_region = STATE_MONTANA
-		owns_entire_state_region = STATE_WYOMING
-		owns_entire_state_region = STATE_COLORADO
-		owns_entire_state_region = STATE_NORTH_DAKOTA
-		owns_entire_state_region = STATE_SOUTH_DAKOTA
 		owns_entire_state_region = STATE_NEBRASKA
 		owns_entire_state_region = STATE_KANSAS
 	}

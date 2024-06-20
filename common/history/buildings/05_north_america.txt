@@ -48,70 +48,6 @@
 			}
 		}
 	}
-	s:STATE_VIRGINIA={
-		region_state:USA={
-			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
-			}
-			create_building={
-				building="building_arms_industry"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_automation_disabled" "pm_merchant_guilds_building_arms_industry" }
-			}
-			create_building={
-				building="building_iron_mine"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
-			}
-			create_building={
-				building="building_maize_farm"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_no_secondary" "pm_tools_disabled" "pm_homesteading" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_homesteading" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=4
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=7
-				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_shipyards"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
-			}
-			create_building={
-				building="building_military_shipyards"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden" "pm_merchant_guilds_building_military_shipyards" }
-			}
-			create_building={
-				building="building_port"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-	}
 	s:STATE_ALASKA={
 		region_state:RUS={
 			create_building={
@@ -124,62 +60,6 @@
 	}
 	s:STATE_WASHINGTON={
 		region_state:ORG={
-		}
-	}
-	s:STATE_OREGON={
-		region_state:ORG={
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
-		}
-	}
-	s:STATE_IDAHO={
-		region_state:ORG={
-		}
-		region_state:NZP={
-		}
-	}
-	s:STATE_COLORADO={
-		region_state:MEX={
-		}
-		region_state:ARP={
-		}
-		region_state:UTE={
-		}
-		region_state:USA={
-		}
-	}
-	s:STATE_WYOMING={
-		region_state:USA={
-		}
-		region_state:LKT={
-		}
-		region_state:ARP={
-		}
-	}
-	s:STATE_MONTANA={
-		region_state:USA={
-		}
-		region_state:ABS={
-		}
-		region_state:LKT={
-		}
-		region_state:BLF={
-		}
-	}
-	s:STATE_NORTH_DAKOTA={
-		region_state:USA={
-		}
-		region_state:LKT={
-		}
-	}
-	s:STATE_SOUTH_DAKOTA={
-		region_state:LKT={
-		}
-		region_state:USA={
 		}
 	}
 	s:STATE_NEBRASKA={
