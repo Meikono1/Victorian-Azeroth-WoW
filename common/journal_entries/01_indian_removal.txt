@@ -50,19 +50,6 @@
 		}
 	}
 	
-	invalid = {
-		OR = {
-			NOT = { owns_entire_state_region = STATE_GEORGIA }
-			NOT = {
-				AND = {
-					exists = c:SEQ
-					exists = c:USA
-					c:SEQ = { is_subject_of = c:USA }
-				}
-			}
-		}
-	}
-	
 	weight = 200
 	
 	should_be_pinned_by_default = yes

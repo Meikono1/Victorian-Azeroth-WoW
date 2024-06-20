@@ -121,12 +121,8 @@ CSA = {
 
 ASA = {
 	states = {
-		STATE_GEORGIA
 		STATE_LOUISIANA
 		STATE_SOUTH_CAROLINA
-		STATE_MISSISSIPPI
-		STATE_ALABAMA
-		STATE_FLORIDA
 	}
 
 	ai_will_do = { always = no }
@@ -877,18 +873,6 @@ SIB = {
 	}
 }
 
-UOM = {
-	states = {
-		STATE_MICHIGAN
-	}
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
 CAL = {
 	states = {
 		STATE_CALIFORNIA
@@ -1390,13 +1374,6 @@ ORG = {
 	states = {
 		STATE_WASHINGTON
 		STATE_BRITISH_COLUMBIA
-	}
-	ai_will_do = { always = no }
-}
-
-SEQ = {
-	states = {
-		STATE_OKLAHOMA
 	}
 	ai_will_do = { always = no }
 }
@@ -1932,30 +1909,6 @@ CLI = {
 	states = {
 		STATE_NORTH_CAROLINA
 		STATE_SOUTH_CAROLINA
-	}
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
-GRG = {
-	states = {
-		STATE_GEORGIA
-	}
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
-FLR = {
-	states = {
-		STATE_FLORIDA
 	}
 	
 	ai_will_do = { always = no }

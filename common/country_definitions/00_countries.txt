@@ -129,7 +129,6 @@ ASA = {
 	tier = kingdom
 	
 	cultures = { afro_american }
-	capital = STATE_GEORGIA
 }
 
 LOU = {
@@ -1885,7 +1884,6 @@ CHE = {
 	tier = principality
 	
 	cultures = { cherokee }
-	capital = STATE_ARKANSAS
 }
 
 COL = {
@@ -2491,7 +2489,6 @@ SEQ = {
 	tier = principality
 	
 	cultures = { cherokee siouan }
-	capital = STATE_OKLAHOMA
 }
 
 DKT = {
@@ -2502,7 +2499,6 @@ DKT = {
 	tier = principality
 	
 	cultures = { dakota }
-	capital = STATE_MINNESOTA
 }
 
 LKT = {
@@ -3041,8 +3037,6 @@ CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	tier = principality
 	
 	cultures = { algonquian }
-	
-	capital = STATE_MICHIGAN
 }
 
 MSC = { # Muscogee
@@ -3053,8 +3047,6 @@ MSC = { # Muscogee
 	tier = principality
 	
 	cultures = { caddoan }
-	
-	capital = STATE_FLORIDA
 }
 
 UTE = { # Ute
@@ -3077,8 +3069,6 @@ PWN = { # Pawnee
 	country_type = decentralized
 	
 	tier = principality
-	
-	capital = STATE_NEBRASKA
 }
 
 APC = { # Apacheria
@@ -3580,7 +3570,6 @@ UOM = {
 	tier = principality
 	
 	cultures = { yankee }
-	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
 
@@ -3912,7 +3901,6 @@ GRG = {
 	tier = principality
 	
 	cultures = { dixie }
-	capital = STATE_GEORGIA
 }
 
 
@@ -3924,7 +3912,6 @@ FLR = {
 	tier = principality
 	
 	cultures = { dixie }
-	capital = STATE_FLORIDA
 }
 
 PAK = {
@@ -3947,7 +3934,6 @@ TIS = {
 	tier = empire
 	
 	cultures = { cherokee iroquoian siouan }
-	capital = STATE_OKLAHOMA
 }
 
 NRTHRND = {

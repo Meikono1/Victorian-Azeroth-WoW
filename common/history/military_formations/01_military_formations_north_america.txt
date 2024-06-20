@@ -7,12 +7,6 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_TENNESSEE
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SOUTH_CAROLINA
 				count = 1
 			}
@@ -22,24 +16,6 @@
 			type = army
 			hq_region = sr:region_new_england
 			name = Regular_Army
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_OHIO
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_KENTUCKY
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_PENNSYLVANIA
-				count = 1
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -67,24 +43,6 @@
 
 		scope:gaines_gen = {
 			transfer_to_formation = scope:regular_army
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_dixie
-			name = Army_of_Florida
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_ALABAMA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_GEORGIA
-				count = 1
-			}
 		}
 
 		create_military_formation = {

@@ -465,8 +465,6 @@ owned_central_asia_region_states = {
 }
 
 owned_great_plains_region_states = {
-	owns_entire_state_region = STATE_NEBRASKA
-	owns_entire_state_region = STATE_KANSAS
 	owns_entire_state_region = STATE_NEW_MEXICO
 }
 
