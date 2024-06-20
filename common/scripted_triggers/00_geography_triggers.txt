@@ -20,8 +20,7 @@ state_is_in_south_america = {
 	OR = {
 		region = sr:region_brazil	
 		region = sr:region_la_plata
-		region = sr:region_andes	
-		region = sr:region_gran_colombia
+		region = sr:region_andes
 	}
 }
 
@@ -200,7 +199,6 @@ is_asian_farmland = {
 
 is_subtropic_farmland = {
 	OR = {
-		region = sr:region_gran_colombia
 		region = sr:region_andes
 		region = sr:region_brazil
 		region = sr:region_la_plata

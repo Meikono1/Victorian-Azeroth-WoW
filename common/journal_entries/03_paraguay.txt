@@ -110,10 +110,7 @@ je_expanding_paraguay = {
     }
 
     complete = {
-        owns_entire_state_region = STATE_CORRIENTES
         OR = {
-            country_or_subject_owns_entire_state_region = STATE_URUGUAY
-            country_or_subject_owns_entire_state_region = STATE_SANTA_FE
             country_or_subject_owns_entire_state_region = STATE_PARANA
             country_or_subject_owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL
         }
@@ -260,19 +257,6 @@ je_expanding_paraguay = {
                     kill_character = yes
                 }
             }
-            if = {
-                limit = {
-                    any_scope_state = {
-                        state_region = s:STATE_BAJO_PARAGUAY
-                    }
-                }
-                s:STATE_BAJO_PARAGUAY.region_state:PRG = {
-                    add_modifier = {
-                        name = thus_unto_tyrants_modifier
-                        months = long_modifier_time
-                    }
-                }
-            }
             add_modifier = {
                 name = a_broken_land_modifier
                 months = long_modifier_time
@@ -319,8 +303,6 @@ je_paraguayan_war = {
                 c:PRG = {
                     NOT = {
                         has_state_in_state_region = STATE_MATO_GROSSO
-                        has_state_in_state_region = STATE_CORRIENTES
-                        has_state_in_state_region = STATE_CHACO
                     }
                 }
             }
@@ -347,10 +329,7 @@ je_paraguayan_war = {
             has_variable = recently_lost_war
         }
         c:PRG ?= {
-            has_state_in_state_region = STATE_CORRIENTES
             OR = {
-                country_or_subject_owns_entire_state_region = STATE_URUGUAY
-                country_or_subject_owns_entire_state_region = STATE_SANTA_FE
                 country_or_subject_owns_entire_state_region = STATE_PARANA
                 country_or_subject_owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL
             }
@@ -377,9 +356,6 @@ je_paraguayan_war = {
                 target = {
                     any_scope_state = {
                         OR = {
-                            state_region = s:STATE_CORRIENTES
-                            state_region = s:STATE_URUGUAY
-                            state_region = s:STATE_SANTA_FE
                             state_region = s:STATE_PARANA
                             state_region = s:STATE_RIO_GRANDE_DO_SUL
                         }

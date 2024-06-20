@@ -52,13 +52,11 @@
 	}
 	c:BRZ ?= {
 		add_declared_interest = region_andes
-		add_declared_interest = region_gran_colombia
 	}		
 	c:USA ?= {
 		add_declared_interest = region_canada
 		add_declared_interest = region_brazil
 		add_declared_interest = region_pacific_coast
-		add_declared_interest = region_gran_colombia
 	}		
 	c:AUS ?= {
 		add_declared_interest = region_iberia

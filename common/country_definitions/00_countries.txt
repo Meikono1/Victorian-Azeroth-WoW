@@ -2141,7 +2141,6 @@ ARG = {
 	tier = kingdom
 	
 	cultures = { platinean }
-	capital = STATE_BUENOS_AIRES
 }
 
 BOL = {
@@ -2152,7 +2151,6 @@ BOL = {
 	tier = kingdom
 	
 	cultures = { south_andean }
-	capital = STATE_LA_PAZ
 }
 
 BRZ = {
@@ -2174,7 +2172,6 @@ CHL = {
 	tier = kingdom
 	
 	cultures = { south_andean }
-	capital = STATE_SANTIAGO
 }
 
 CLM = {
@@ -2185,7 +2182,6 @@ CLM = {
 	tier = kingdom
 	
 	cultures = { north_andean }
-	capital = STATE_CUNDINAMARCA
 }
 
 ECU = {
@@ -2196,7 +2192,6 @@ ECU = {
 	tier = principality
 	
 	cultures = { north_andean }
-	capital = STATE_ECUADOR
 	is_named_from_capital = yes
 }
 
@@ -2208,7 +2203,6 @@ PEU = {
 	tier = kingdom
 	
 	cultures = { south_andean }
-	capital = STATE_LIMA
 }
 
 PRG = {
@@ -2219,7 +2213,6 @@ PRG = {
 	tier = principality
 	
 	cultures = { platinean guarani }
-	capital = STATE_BAJO_PARAGUAY
 }
 
 URU = {
@@ -2230,7 +2223,6 @@ URU = {
 	tier = principality
 	
 	cultures = { platinean }
-	capital = STATE_URUGUAY
 	is_named_from_capital = yes
 }
 
@@ -2242,7 +2234,6 @@ VNZ = {
 	tier = kingdom
 	
 	cultures = { north_andean }
-	capital = STATE_MIRANDA
 }
 
 ISR = {
@@ -2327,7 +2318,6 @@ GCO = {
 	tier = empire
 	
 	cultures = { north_andean }
-	capital = STATE_CUNDINAMARCA
 }
 
 JAN = {
@@ -2370,7 +2360,6 @@ PAT = {
 	tier = principality
 	
 	cultures = { patagonian }
-	capital = STATE_PATAGONIA
 }
 
 THL = {
@@ -2381,7 +2370,6 @@ THL = {
 	tier = principality
 	
 	cultures = { patagonian }
-	capital = STATE_PATAGONIA
 }
 
 SLK = {
@@ -2392,7 +2380,6 @@ SLK = {
 	tier = principality
 	
 	cultures = { patagonian }
-	capital = STATE_ARAUCANIA
 }
 
 TNG = {
@@ -2884,8 +2871,6 @@ TWT = { # Tawantinsuyu
 	tier = kingdom
 	
 	cultures = { quechua }
-	
-	capital = STATE_LIMA
 }
 
 AYM = { # Aymara
@@ -2896,8 +2881,6 @@ AYM = { # Aymara
 	tier = principality
 	
 	cultures = { aimara }
-	
-	capital = STATE_LA_PAZ
 }
 
 WYU = { # Wayuu
@@ -2908,8 +2891,6 @@ WYU = { # Wayuu
 	tier = principality
 	
 	cultures = { guajiro }
-	
-	capital = STATE_ANTIOQUIA
 }
 
 TPI = { # Tupinamba
@@ -3066,8 +3047,6 @@ ORN = { # Orinoco
 	tier = principality
 	
 	cultures = { cariban }
-	
-	capital = STATE_MIRANDA
 }
 
 MUI = { # Muisca
@@ -3078,8 +3057,6 @@ MUI = { # Muisca
 	tier = principality
 	
 	cultures = { muisca }
-	
-	capital = STATE_CUNDINAMARCA
 }
 
 SRB = { # Sorbia
@@ -3340,7 +3317,6 @@ GNI = {
 	tier = principality
 	
 	cultures = { guarani }
-	capital = STATE_ALTO_PARAGUAY
 }
 
 KUR = {
@@ -3730,7 +3706,6 @@ PBC = {
     country_type = colonial
     tier = empire
     cultures = { south_andean }
-    capital = STATE_LA_PAZ
 }
 
 IQU = {
@@ -3738,7 +3713,6 @@ IQU = {
     country_type = unrecognized
     tier = principality
     cultures = { quechua }
-    capital = STATE_ICA
 }
 
 NPU = {
@@ -3746,7 +3720,6 @@ NPU = {
     country_type = colonial
     tier = principality
     cultures = { south_andean }
-    capital = STATE_LIMA
 }
 
 SPU = {
@@ -3754,7 +3727,6 @@ SPU = {
     country_type = colonial
     tier = principality
     cultures = { south_andean }
-    capital = STATE_ICA
 }
 
 RSM = {
@@ -3805,7 +3777,6 @@ PLT = {
 	tier = empire
 	
 	cultures = { platinean }
-	capital = STATE_BUENOS_AIRES
 }
 
 NCR = {

@@ -309,7 +309,6 @@ in_earthquake_zone = {
 		region = sr:region_japan
 		region = sr:region_la_plata
 		region = sr:region_andes
-		region = sr:region_gran_colombia
 		region = sr:region_central_america
 		region = sr:region_pacific_coast
 	}
@@ -321,7 +320,6 @@ in_volcanic_zone = {
 		region = sr:region_japan
 		region = sr:region_la_plata
 		region = sr:region_andes
-		region = sr:region_gran_colombia
 		region = sr:region_central_america
 		region = sr:region_pacific_coast
 		region = sr:region_zanj
@@ -525,46 +523,12 @@ european_colonies_south_africa = {
 }
 
 owned_andes_region_states = {
-	owns_entire_state_region = STATE_LA_PAZ
-	owns_entire_state_region = STATE_PASTAZA
-	owns_entire_state_region = STATE_JUJUY
-	owns_entire_state_region = STATE_ECUADOR
-	owns_entire_state_region = STATE_SANTA_CRUZ
-	owns_entire_state_region = STATE_AREQUIPA
-	owns_entire_state_region = STATE_CAJAMARCA
-	owns_entire_state_region = STATE_ICA
-	owns_entire_state_region = STATE_LIMA
-	owns_entire_state_region = STATE_POTOSI
-	owns_entire_state_region = STATE_TARAPACA
-	owns_entire_state_region = STATE_ANTOFAGASTA
 	owns_entire_state_region = STATE_ACRE
 }
 
-owned_gran_colombia_region_states = {
-	owns_entire_state_region = STATE_BOLIVAR
-	owns_entire_state_region = STATE_CUNDINAMARCA
-	owns_entire_state_region = STATE_CAUCA
-	owns_entire_state_region = STATE_GUAVIARE
-	owns_entire_state_region = STATE_ZULIA
-	owns_entire_state_region = STATE_ANTIOQUIA
-	owns_entire_state_region = STATE_MIRANDA
-	owns_entire_state_region = STATE_GUAYANA
-}
-
 owned_la_plata_region_states = {
-	owns_entire_state_region = STATE_SANTIAGO
-	owns_entire_state_region = STATE_PATAGONIA
-	owns_entire_state_region = STATE_ARAUCANIA
-	owns_entire_state_region = STATE_LOS_RIOS
 	owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
 	owns_entire_state_region = STATE_BAJO_PARAGUAY
-	owns_entire_state_region = STATE_ALTO_PARAGUAY
-	owns_entire_state_region = STATE_BUENOS_AIRES
-	owns_entire_state_region = STATE_CHACO
-	owns_entire_state_region = STATE_TUCUMAN
-	owns_entire_state_region = STATE_CORRIENTES
-	owns_entire_state_region = STATE_SANTA_FE
-	owns_entire_state_region = STATE_RIO_NEGRO
 }
 
 is_farm_building = {

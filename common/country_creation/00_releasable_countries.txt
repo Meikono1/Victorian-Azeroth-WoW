@@ -659,19 +659,6 @@ ZIM = {
 	ai_will_do = { always = no }
 }
 
-CLM = {
-	states = {
-		STATE_ANTIOQUIA
-		STATE_CUNDINAMARCA
-		STATE_CAUCA
-		STATE_GUAVIARE
-	}
-	
-	required_num_states = 3
-
-	ai_will_do = { always = no }
-}
-
 TUR = {
 	use_culture_states = yes
 	
@@ -1171,68 +1158,13 @@ SIA = {
 
 BOL = {
 	states = {
-		STATE_SANTA_CRUZ
-		STATE_POTOSI
-		STATE_LA_PAZ
 		STATE_ACRE
-		STATE_ANTOFAGASTA
 	}
 	ai_will_do = { always = no }
 }
 
 BRZ = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-CHL = {
-	states = {
-		STATE_SANTIAGO
-		STATE_LOS_RIOS
-	}
-	ai_will_do = { always = no }
-}
-
-ECU = {
-	states = {
-		STATE_ECUADOR
-		STATE_PASTAZA
-	}
-	ai_will_do = { always = no }
-}
-
-PEU = {
-	states = {
-		STATE_LIMA
-		STATE_CAJAMARCA
-		STATE_ICA
-		STATE_AREQUIPA
-		STATE_TARAPACA
-	}
-	ai_will_do = { always = no }
-}
-
-PRG = {
-	states = {
-		STATE_BAJO_PARAGUAY
-		STATE_ALTO_PARAGUAY
-	}
-	ai_will_do = { always = no }
-}
-
-URU = {
-	states = {
-		STATE_URUGUAY
-	}
-	ai_will_do = { always = no }
-}
-
-VNZ = {
-	states = {
-		STATE_MIRANDA
-		STATE_BOLIVAR
-		STATE_ZULIA
-	}
 	ai_will_do = { always = no }
 }
 
