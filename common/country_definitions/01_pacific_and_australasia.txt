@@ -8,7 +8,6 @@
 	cultures = { hawaiian }
 	religion = protestant
 	
-	capital = STATE_HAWAIIAN_ISLANDS
 	is_named_from_capital = yes
 }
 
@@ -527,5 +526,4 @@ PNS = { # Polynesia
 	tier = empire
 	
 	cultures = { hawaiian maori melanesian polynesian micronesian yuanzhumin }
-	capital = STATE_HAWAIIAN_ISLANDS
 }

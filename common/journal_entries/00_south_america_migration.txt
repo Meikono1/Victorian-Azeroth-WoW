@@ -312,7 +312,6 @@ je_american_west_migration = {
 		any_scope_state = {
 			OR = {
 				region = sr:region_pacific_coast
-				region = sr:region_great_plains
 			}
 		}
 	}
@@ -324,7 +323,6 @@ je_american_west_migration = {
 			is_incorporated = yes
 			OR = {
 				region = sr:region_pacific_coast
-				region = sr:region_great_plains
 			}
 			count >= 3
 		}
@@ -356,7 +354,6 @@ je_american_west_migration = {
 				is_incorporated = yes
 				OR = {
 					region = sr:region_pacific_coast
-					region = sr:region_great_plains
 				}
 			}
 			ROOT = {
@@ -392,7 +389,6 @@ je_american_west_migration = {
 					is_incorporated = yes
 					OR = {
 						region = sr:region_pacific_coast
-						region = sr:region_great_plains
 					}
 				}
 				ROOT = {
@@ -411,7 +407,6 @@ je_american_west_migration = {
 					is_incorporated = yes
 					OR = {
 						region = sr:region_pacific_coast
-						region = sr:region_great_plains
 					}
 				}
 				ROOT = {
@@ -457,7 +452,6 @@ je_american_west_migration = {
 				any_scope_state = {
 					OR = {
 						region = sr:region_pacific_coast
-						region = sr:region_great_plains
 					}
 				}
 			}

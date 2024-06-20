@@ -5,12 +5,7 @@
 	
 	# note that if you change this, also update the decision
 	complete = {
-		owns_entire_state_region = STATE_CALIFORNIA
-		owns_entire_state_region = STATE_NEVADA
-		owns_entire_state_region = STATE_UTAH
 		owns_entire_state_region = STATE_ARIZONA
-		owns_entire_state_region = STATE_NEW_MEXICO
-		owns_entire_state_region = STATE_TEXAS
 	}
 
 	on_complete = {

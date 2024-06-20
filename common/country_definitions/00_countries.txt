@@ -1862,7 +1862,6 @@ CAL = {
 	tier = principality
 	
 	cultures = { yankee mexican }
-	capital = STATE_CALIFORNIA
 }
 
 CAN = {
@@ -1873,7 +1872,6 @@ CAN = {
 	tier = kingdom
 	
 	cultures = { anglo_canadian franco_canadian }
-	capital = STATE_ONTARIO
 }
 
 CHE = {
@@ -1893,7 +1891,6 @@ COL = {
 	
 	tier = principality
 	
-	capital = STATE_BRITISH_COLUMBIA
 	cultures = { british }
 }
 
@@ -1929,7 +1926,6 @@ DES = {
 	tier = principality
 	
 	cultures = { yankee dixie }
-	capital = STATE_UTAH
 }
 
 DOM = {
@@ -2012,7 +2008,6 @@ MTC = {
 	tier = principality
 	
 	cultures = { metis }
-	capital = STATE_MANITOBA
 }
 
 HON = {
@@ -2095,7 +2090,6 @@ HBC = {
 	tier = principality
 	
 	cultures = { anglo_canadian }
-	capital = STATE_MANITOBA
 }
 
 ONT = {
@@ -2106,7 +2100,6 @@ ONT = {
 	tier = principality
 	
 	cultures = { anglo_canadian }
-	capital = STATE_ONTARIO
 	is_named_from_capital = yes
 }
 
@@ -2118,7 +2111,6 @@ NBS = {
 	tier = principality
 	
 	cultures = { anglo_canadian franco_canadian }
-	capital = STATE_NEW_BRUNSWICK
 }
 
 NVS = {
@@ -2129,7 +2121,6 @@ NVS = {
 	tier = principality
 	
 	cultures = { anglo_canadian }
-	capital = STATE_NEW_BRUNSWICK
 }
 
 TEX = {
@@ -2140,7 +2131,6 @@ TEX = {
 	tier = principality
 	
 	cultures = { dixie }
-	capital = STATE_TEXAS
 	is_named_from_capital = yes
 }
 
@@ -2478,7 +2468,6 @@ COM = {
 	tier = principality
 	
 	cultures = { comanche }
-	capital = STATE_TEXAS
 }
 
 SEQ = {
@@ -2560,7 +2549,6 @@ IRC = {
 	tier = principality
 	
 	cultures = { cree siouan }
-	capital = STATE_SASKATCHEWAN
 }
 
 JAM = {
@@ -2967,8 +2955,6 @@ PUE = { # Pueblo
 	tier = principality
 	
 	cultures = { pueblo }
-	
-	capital = STATE_NEW_MEXICO
 }
 
 NNV = { # Nunavut
@@ -2979,8 +2965,6 @@ NNV = { # Nunavut
 	tier = principality
 	
 	cultures = { inuit }
-	
-	capital = STATE_NUNAVUT
 }
 
 NVL = { # Navajoland
@@ -3015,8 +2999,6 @@ CSC = { # Cascadia
 	tier = principality
 	
 	cultures = { salish }
-	
-	capital = STATE_BRITISH_COLUMBIA
 }
 
 IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
@@ -3057,8 +3039,6 @@ UTE = { # Ute
 	country_type = decentralized
 	
 	tier = principality
-	
-	capital = STATE_UTAH
 }
 
 PWN = { # Pawnee
@@ -3079,8 +3059,6 @@ APC = { # Apacheria
 	country_type = decentralized
 	
 	tier = principality
-	
-	capital = STATE_NEW_MEXICO
 }
 
 BLF = { # Niitsitapi / Blackfoot Confederacy
@@ -3091,8 +3069,6 @@ BLF = { # Niitsitapi / Blackfoot Confederacy
 	country_type = decentralized
 	
 	tier = principality
-	
-	capital = STATE_ALBERTA
 }
 
 CCM = { # O'odham Country
@@ -3103,8 +3079,6 @@ CCM = { # O'odham Country
 	tier = principality
 	
 	cultures = { oodham }
-	
-	capital = STATE_CHIHUAHUA
 }
 
 ORN = { # Orinoco
@@ -3160,7 +3134,6 @@ RIO = {
 	tier = principality
 	
 	cultures = { mexican }
-	capital = STATE_RIO_GRANDE
 }
 
 PNI = {
@@ -3868,7 +3841,6 @@ NCR = {
 	tier = city_state
 	
 	cultures = { dixie }
-	capital = STATE_NORTH_CAROLINA
 }
 
 SCR = {
@@ -3879,7 +3851,6 @@ SCR = {
 	tier = city_state
 	
 	cultures = { dixie }
-	capital = STATE_SOUTH_CAROLINA
 }
 
 CLI = {
@@ -3890,7 +3861,6 @@ CLI = {
 	tier = principality
 	
 	cultures = { dixie }
-	capital = STATE_NORTH_CAROLINA
 }
 
 GRG = {
@@ -3948,7 +3918,7 @@ NRTHRND = {
 }
 
 KALIMDOR = {
-	color = { 185 242 255 }
+	color = { 50 172 65 }
 	
 	country_type = recognized
 	

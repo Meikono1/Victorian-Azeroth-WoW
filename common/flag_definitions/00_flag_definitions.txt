@@ -1583,9 +1583,6 @@ CAL = { # California
 		trigger = {
 			scope:actor ?= {
 				any_scope_state = {
-					state_region = s:STATE_CALIFORNIA
-				}
-				any_scope_state = {
 					state_region = s:STATE_BAJA_CALIFORNIA
 				}
 			}

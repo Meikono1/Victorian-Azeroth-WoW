@@ -328,7 +328,6 @@ in_volcanic_zone = {
 		region = sr:region_pacific_coast
 		region = sr:region_zanj
 		region = sr:region_italy
-		state_region = s:STATE_HAWAIIAN_ISLANDS
 	}
 }
 
@@ -464,16 +463,9 @@ owned_central_asia_region_states = {
 	owns_entire_state_region = STATE_KHIVA
 }
 
-owned_great_plains_region_states = {
-	owns_entire_state_region = STATE_NEW_MEXICO
-}
-
 owned_pacific_coast_region_states = {
 	owns_entire_state_region = STATE_WASHINGTON
-	owns_entire_state_region = STATE_NEVADA
-	owns_entire_state_region = STATE_UTAH
 	owns_entire_state_region = STATE_ARIZONA
-	owns_entire_state_region = STATE_CALIFORNIA
 	owns_entire_state_region = STATE_BAJA_CALIFORNIA
 }
 

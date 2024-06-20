@@ -248,25 +248,6 @@ PEU = {
 	ai_will_do = { always = yes }
 }
 
-CLI = {
-	states = {
-		STATE_NORTH_CAROLINA
-		STATE_SOUTH_CAROLINA
-	}
-
-	required_states_fraction = 1
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		OR = {
-			c:NCR ?= this
-			c:SCR ?= this
-		}
-		NOT = { has_game_rule = plausible_formable_nations }
-	}
-}
-
 PLT = {
 	states = {
 		STATE_BUENOS_AIRES

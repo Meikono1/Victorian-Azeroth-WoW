@@ -119,15 +119,6 @@ CSA = {
 	}
 }
 
-ASA = {
-	states = {
-		STATE_LOUISIANA
-		STATE_SOUTH_CAROLINA
-	}
-
-	ai_will_do = { always = no }
-}
-
 LOU = {
 	states = { 
 		STATE_LOUISIANA
@@ -568,8 +559,6 @@ CEY = {
 NEN = {
 	states = { 
 		STATE_MASSACHUSETTS
-		STATE_NEW_HAMPSHIRE
-		STATE_MAINE
 		STATE_CONNECTICUT
 		STATE_RHODE_ISLAND
 		STATE_VERMONT
@@ -601,14 +590,6 @@ AYM = {
 IRO = {
 	provinces = {
 		x195b49 x8c059d xe217b5 x70c080 x2ca754 x4b0747 xb343e6 x308000 x38c881 x01d042 xe7be2d xa6bed5 xedc7da x3cb274 x235e9f xa7b5fe x42d496 xb00080 x05187e x9484f3 xec2eaa x73a16c xfcf1be x99cb10
-	}
-
-	ai_will_do = { always = no }
-}
-
-TEX = {
-	states = { 
-		STATE_TEXAS
 	}
 
 	ai_will_do = { always = no }
@@ -871,14 +852,6 @@ SIB = {
 	possible = {
 		has_technology_researched = pan-nationalism
 	}
-}
-
-CAL = {
-	states = {
-		STATE_CALIFORNIA
-	}
-
-	ai_will_do = { always = no }
 }
 
 USA = {
@@ -1289,20 +1262,6 @@ SIA = {
 	ai_will_do = { always = no }
 }
 
-DES = {
-	states = {
-		STATE_UTAH
-	}
-	ai_will_do = { always = no }
-}
-
-ONT = {
-	states = {
-		STATE_ONTARIO
-	}
-	ai_will_do = { always = no }
-}
-
 BOL = {
 	states = {
 		STATE_SANTA_CRUZ
@@ -1373,7 +1332,6 @@ VNZ = {
 ORG = {
 	states = {
 		STATE_WASHINGTON
-		STATE_BRITISH_COLUMBIA
 	}
 	ai_will_do = { always = no }
 }
@@ -1873,43 +1831,6 @@ BHI = {
 
 CNW = {
 	provinces = { x1E38F8 x63EF7E xC900EF xA2DD9E }
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
-NCR = {
-	states = {
-		STATE_NORTH_CAROLINA
-	}
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
-SCR = {
-	states = {
-		STATE_SOUTH_CAROLINA
-	}
-	
-	ai_will_do = { always = no }
-	
-	possible = {
-		NOT = { has_game_rule = plausible_releasable_nations }
-	}
-}
-
-CLI = {
-	states = {
-		STATE_NORTH_CAROLINA
-		STATE_SOUTH_CAROLINA
-	}
 	
 	ai_will_do = { always = no }
 	
