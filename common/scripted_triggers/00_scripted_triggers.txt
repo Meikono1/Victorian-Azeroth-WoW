@@ -311,7 +311,6 @@ in_earthquake_zone = {
 		region = sr:region_andes
 		region = sr:region_gran_colombia
 		region = sr:region_central_america
-		region = sr:region_mexico
 		region = sr:region_pacific_coast
 	}
 }
@@ -324,7 +323,6 @@ in_volcanic_zone = {
 		region = sr:region_andes
 		region = sr:region_gran_colombia
 		region = sr:region_central_america
-		region = sr:region_mexico
 		region = sr:region_pacific_coast
 		region = sr:region_zanj
 		region = sr:region_italy
@@ -466,7 +464,6 @@ owned_central_asia_region_states = {
 owned_pacific_coast_region_states = {
 	owns_entire_state_region = STATE_WASHINGTON
 	owns_entire_state_region = STATE_ARIZONA
-	owns_entire_state_region = STATE_BAJA_CALIFORNIA
 }
 
 european_colonies_north_africa = {

@@ -14,23 +14,7 @@
 
 	complete = {
 		any_scope_state = {	
-			state_region = s:STATE_GUATEMALA
-			turmoil < 0.2
-		}
-		any_scope_state = {	
-			state_region = s:STATE_GUATEMALA
-			turmoil < 0.2
-		}
-		any_scope_state = {	
 			state_region = s:STATE_COSTA_RICA
-			turmoil < 0.2
-		}
-		any_scope_state = {	
-			state_region = s:STATE_SAN_SALVADOR
-			turmoil < 0.2
-		}
-		any_scope_state = {	
-			state_region = s:STATE_NICARAGUA
 			turmoil < 0.2
 		}
 	}
@@ -40,13 +24,8 @@
 			text = central_america_fail_tt
 			any_scope_state = {
 				OR = {
-					state_region = s:STATE_GUATEMALA
-					state_region = s:STATE_HONDURAS
 					state_region = s:STATE_COSTA_RICA
-					state_region = s:STATE_SAN_SALVADOR
-					state_region = s:STATE_NICARAGUA
 				}
-				count < 3
 			}
 		}
 	}
@@ -161,18 +140,6 @@ je_reunify_central_america = {
 	should_be_pinned_by_default = yes
 
 	complete = {
-		any_scope_state = {
-			state_region = s:STATE_SAN_SALVADOR
-		}
-		any_scope_state = {
-			state_region = s:STATE_GUATEMALA
-		}
-		any_scope_state = {
-			state_region = s:STATE_HONDURAS
-		}
-		any_scope_state = {
-			state_region = s:STATE_NICARAGUA
-		}
 		any_scope_state = {
 			state_region = s:STATE_COSTA_RICA
 		}

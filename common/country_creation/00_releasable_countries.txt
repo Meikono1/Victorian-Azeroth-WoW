@@ -313,29 +313,6 @@ XIN = {
 	ai_will_do = { always = no }
 }
 
-HAI = {
-	states = { STATE_HAITI }
-	
-	ai_will_do = { always = no }
-}
-
-DOM = {
-	states = { STATE_SANTO_DOMINGO }
-	
-	ai_will_do = { always = no }
-}
-
-WIN = {
-	STATES = {
-		STATE_WEST_INDIES
-		STATE_JAMAICA
-	}
-	
-	required_num_states = 2
-
-	ai_will_do = { always = no }
-}
-
 MAY = {
 	use_culture_states = yes
 
@@ -358,38 +335,8 @@ SPA = {
 	ai_will_do = { always = no }
 }
 
-ELS = {
-	states = { STATE_SAN_SALVADOR }
-	
-	ai_will_do = { always = no }
-}
-
-GUA = {
-	states = { STATE_GUATEMALA }
-	
-	ai_will_do = { always = no }
-}
-
 ALT = {
 	provinces = { xD9BEFE x78C465 xBD8628  }
-	
-	ai_will_do = { always = no }
-}
-
-NIC = {
-	states = { STATE_NICARAGUA }
-	
-	ai_will_do = { always = no }
-}
-
-HON = {
-	states = { STATE_HONDURAS }
-	
-	ai_will_do = { always = no }
-}
-
-COS = {
-	states = { STATE_COSTA_RICA }
 	
 	ai_will_do = { always = no }
 }
@@ -415,30 +362,6 @@ HAM = {
 BRE = {
 	provinces = { xC08061 x68BE66 }
 	
-	ai_will_do = { always = no }
-}
-
-CUB = {
-	states = { STATE_CUBA }
-	
-	ai_will_do = { always = no }
-}
-
-PCO = {
-	states = { STATE_PUERTO_RICO }
-	
-	ai_will_do = { always = no }
-}
-
-JAM = {
-	states = { STATE_JAMAICA }
-
-	ai_will_do = { always = no }
-}
-
-BAH = {
-	states = { STATE_BAHAMAS }
-
 	ai_will_do = { always = no }
 }
 
@@ -513,14 +436,6 @@ NZL = {
 	ai_will_do = { always = no }
 }
 
-YUC = {
-	states = { 
-		STATE_YUCATAN
-	}
-
-	ai_will_do = { always = no }
-}
-
 RIO = {
 
 	provinces = {
@@ -562,14 +477,6 @@ NEN = {
 		STATE_CONNECTICUT
 		STATE_RHODE_ISLAND
 		STATE_VERMONT
-	}
-
-	ai_will_do = { always = no }
-}
-
-PNM = {
-	states = { 
-		STATE_PANAMA
 	}
 
 	ai_will_do = { always = no }

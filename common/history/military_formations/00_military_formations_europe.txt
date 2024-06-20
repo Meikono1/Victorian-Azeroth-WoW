@@ -116,12 +116,6 @@
 				state_region = s:STATE_BERMUDA
 				count = 2
 			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_JAMAICA
-				count = 2
-			}
 			
 			save_scope_as = north_amer_fleet
 		}

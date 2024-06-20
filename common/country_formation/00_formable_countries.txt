@@ -18,17 +18,6 @@ LAO = {
 	ai_will_do = { always = yes }
 }
 
-WIN = {
-	STATES = {
-		STATE_WEST_INDIES
-		STATE_JAMAICA
-	}
-
-	required_states_fraction = 1
-	
-	ai_will_do = { always = yes }
-}
-
 ARA = {
 	states = {
 		STATE_YEMEN

@@ -16,14 +16,6 @@ state_is_in_north_america = {
 	}
 }
 
-state_is_in_central_america = {
-	OR = {
-		region = sr:region_mexico
-		region = sr:region_central_america
-		region = sr:region_caribbean
-	}
-}
-
 state_is_in_south_america = {
 	OR = {
 		region = sr:region_brazil	
@@ -208,13 +200,10 @@ is_asian_farmland = {
 
 is_subtropic_farmland = {
 	OR = {
-		region = sr:region_mexico
-		region = sr:region_central_america
 		region = sr:region_gran_colombia
 		region = sr:region_andes
 		region = sr:region_brazil
 		region = sr:region_la_plata
-		region = sr:region_caribbean
 	}
 }
 

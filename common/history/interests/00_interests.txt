@@ -47,7 +47,6 @@
 	}		
 	c:FRA ?= {
 		add_declared_interest = region_dixie
-		add_declared_interest = region_mexico
 		add_declared_interest = region_iberia
 		add_declared_interest = region_senegal
 	}
@@ -57,9 +56,6 @@
 	}		
 	c:USA ?= {
 		add_declared_interest = region_canada
-		add_declared_interest = region_central_america
-		add_declared_interest = region_caribbean
-		add_declared_interest = region_mexico
 		add_declared_interest = region_brazil
 		add_declared_interest = region_pacific_coast
 		add_declared_interest = region_gran_colombia
