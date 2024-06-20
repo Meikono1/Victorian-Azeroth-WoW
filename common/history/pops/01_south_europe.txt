@@ -24,19 +24,6 @@
 		}
 	}
 
-	s:STATE_MADEIRA = {
-		region_state:POR = {
-			create_pop = {
-				culture = portuguese
-				size = 103532
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 24666
-			}
-		}
-	}
-
 	s:STATE_CANARY_ISLANDS = {
 		region_state:SPA = {
 			create_pop = {

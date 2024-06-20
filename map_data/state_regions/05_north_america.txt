@@ -39,28 +39,6 @@ STATE_LOUISIANA = {
     naval_exit_id = 3060
 }
 
-STATE_NEW_YORK = {
-    id = 267
-    subsistence_building = "building_subsistence_farms"
-    provinces = {}
-    traits = { "state_trait_niagara_falls" "state_trait_american_chestnuts" "state_trait_new_york_harbor" }
-    city = "xE217B5"
-    port = "x377E55"
-    farm = "x01D042"
-    mine = "x9CC56A"
-    wood = "xD534B1"
-    arable_land = 120
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_iron_mining = 45
-        bg_logging = 20
-        bg_whaling = 5
-        bg_fishing = 6
-        bg_monuments = 1
-    }
-    naval_exit_id = 3067
-}
-
 STATE_VIRGINIA = {
     id = 268
     subsistence_building = "building_subsistence_farms"

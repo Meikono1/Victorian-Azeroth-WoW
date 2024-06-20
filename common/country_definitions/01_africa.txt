@@ -1002,7 +1002,6 @@ CAY = {
 	tier = principality
 	
 	cultures = { wolof }
-	capital = STATE_SENEGAL
 }
 
 JLF = {
@@ -1012,7 +1011,6 @@ JLF = {
 	tier = principality
 	
 	cultures = { wolof }
-	capital = STATE_SENEGAL
 }
 
 FTR = {
@@ -1022,7 +1020,6 @@ FTR = {
 	tier = principality
 	
 	cultures = { fulbe wolof }
-	capital = STATE_SENEGAL
 }
 
 KNG = {
@@ -1062,7 +1059,6 @@ KRT = {
 	tier = principality
 	
 	cultures = { bambara }
-	capital = STATE_WESTERN_MALI
 }
 
 SGU = {
@@ -1072,7 +1068,6 @@ SGU = {
 	tier = principality
 	
 	cultures = { bambara }
-	capital = STATE_WESTERN_MALI
 }
 
 TRZ = {
@@ -1082,7 +1077,6 @@ TRZ = {
 	tier = principality
 	
 	cultures = { bidan }
-	capital = STATE_MAURITANIA
 }
 
 KBU = {
@@ -1094,8 +1088,6 @@ KBU = {
 	cultures = { mande }
 	
 	religion = animist
-	
-	capital = STATE_GAMBIA
 }
 
 BND = {
@@ -1105,7 +1097,6 @@ BND = {
 	tier = principality
 	
 	cultures = { fulbe mande }
-	capital = STATE_GAMBIA
 }
 
 SRR = {
@@ -1117,7 +1108,6 @@ SRR = {
 	religion = animist
 	
 	cultures = { mande }
-	capital = STATE_GAMBIA
 }
 
 HAU = {
@@ -1235,7 +1225,6 @@ OUA = {
 	tier = principality
 	
 	cultures = { bidan }
-	capital = STATE_INNER_MAURITANIA
 }
 
 ADG = {
@@ -1267,7 +1256,6 @@ TIR = { # Tiris
 	tier = principality
 	
 	cultures = { haratin }
-	capital = STATE_MAURITANIA
 }
 
 IBL = { # Ibibioland
@@ -1449,7 +1437,6 @@ MAL = {
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { bambara fulbe wolof mande }
-	capital = STATE_WESTERN_MALI
 }
 
 AFS = { #Dynamic African Free State
@@ -1466,7 +1453,6 @@ SAH = { # Sahrawi
 	tier = principality
 	
 	cultures = { berber }
-	capital = STATE_WEST_SAHARA
 }
 
 TUG = {

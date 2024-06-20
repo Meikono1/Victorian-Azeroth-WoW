@@ -436,7 +436,6 @@ state_in_africa = {
 	custom_tooltip = {
 		text = state_in_africa_desc
 		OR = {
-			region = sr:region_north_africa
 			region = sr:region_senegal
 			region = sr:region_niger
 			region = sr:region_congo
@@ -490,9 +489,6 @@ owned_pacific_coast_region_states = {
 european_colonies_north_africa = {
 	or = {
 		owns_entire_state_region = STATE_NIGER
-		owns_entire_state_region = STATE_INNER_MAURITANIA
-		owns_entire_state_region = STATE_MAURITANIA
-		owns_entire_state_region = STATE_WEST_SAHARA
 	}
 }
 
@@ -502,11 +498,8 @@ european_colonies_west_africa = {
 		owns_entire_state_region = STATE_NIGERIA
 		owns_entire_state_region = STATE_EAST_HAUSALAND
 		owns_entire_state_region = STATE_VOLTA
-		owns_entire_state_region = STATE_WESTERN_MALI
 		owns_entire_state_region = STATE_LIBERIA
 		owns_entire_state_region = STATE_SIERRA_LEONE
-		owns_entire_state_region = STATE_GAMBIA
-		owns_entire_state_region = STATE_SENEGAL
 	}
 }
 

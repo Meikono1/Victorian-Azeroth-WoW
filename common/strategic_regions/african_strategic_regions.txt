@@ -6,18 +6,11 @@ region_ethiopia = {
 	states = { STATE_OROMIA STATE_SOMALILAND }
 }
 
-region_north_africa = {
-	graphical_culture = "arabic"
-	capital_province = xE6014A
-	map_color = { 0.7 1 0.1 }
-	states = { STATE_WEST_SAHARA }
-}
-
 region_senegal = {
 	graphical_culture = "african"
 	capital_province = x186409
 	map_color = { 72 208 203 }
-	states = { STATE_GAMBIA STATE_SENEGAL STATE_SIERRA_LEONE STATE_LIBERIA STATE_WESTERN_MALI STATE_MAURITANIA STATE_INNER_MAURITANIA }
+	states = { STATE_SIERRA_LEONE STATE_LIBERIA }
 }
 
 region_niger = {

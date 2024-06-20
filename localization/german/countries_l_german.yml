@@ -1135,6 +1135,8 @@
  TIS_ADJ: "Turtle-Insulanisch"
  NRTHRND: "Nordend"
  NRTHRND_ADJ: "Nordendisch"
+ KALIMDOR: "Kalimdor"
+ KALIMDOR_ADJ: "Kalimdorisch"
  #Dynamic countries
  dyn_c_united_sovereign_archduchy: "Vereinigtes Souveränes Erzherzogtum"
  dyn_c_united_sovereign_archduchy_adj: "Amerikanisch-erzherzöglich"

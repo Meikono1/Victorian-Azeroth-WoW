@@ -100,47 +100,6 @@ building_saint_basils_cathedral = {
 	required_construction = construction_cost_monument
 }
 
-building_statue_of_liberty = {
-	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/statue_of_liberty.dds"
-	expandable = no
-	downsizeable = no
-	unique = yes
-	locator = "statue_of_liberty_locator"
-	
-	entity_not_constructed = { }
-	entity_under_construction = { "building_construction_3x3_entity" }
-	entity_constructed = { "wonder_statue_of_liberty_01_entity"}
-	
-	city_gfx_interactions = {
-		clear_size_area = yes
-		size = 2
-	}
-	
-	production_method_groups = {
-		pmg_base_building_statue_of_liberty
-	}
-
-	unlocking_technologies = { 
-		steel_frame_buildings 
-	}
-	
-	required_construction = construction_cost_monument
-	
-	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_NEW_YORK
-			}
-		}
-	}
-	
-	ai_value = 10000
-
-	downsizeable = no
-}
-
 building_taj_mahal = {
 	building_group = bg_monuments
 	texture = "gfx/interface/icons/building_icons/taj_mahal.dds"

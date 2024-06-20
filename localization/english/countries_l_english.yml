@@ -1135,6 +1135,8 @@
  TIS_ADJ: "Turtle Islander"
  NRTHRND: "Northrend"
  NRTHRND_ADJ: "Northrendean"
+ KALIMDOR: "Kalimdor"
+ KALIMDOR_ADJ: "Kalimdorean"
   # Dynamic countries
  dyn_c_united_sovereign_archduchy:0 "United Sovereign Archduchy"
  dyn_c_united_sovereign_archduchy_adj:0 "Archducal American"

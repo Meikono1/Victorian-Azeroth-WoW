@@ -120,7 +120,6 @@ FSA = {
 	tier = kingdom
 	
 	cultures = { yankee }
-	capital = STATE_NEW_YORK
 }
 
 ASA = {
@@ -3038,8 +3037,6 @@ IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	tier = principality
 	
 	cultures = { iroquoian }
-	
-	capital = STATE_NEW_YORK
 }
 
 CTF = { # the Council of Three Fires, Niswa-mishkodewinan
@@ -3960,6 +3957,17 @@ TIS = {
 }
 
 NRTHRND = {
+	color = { 185 242 255 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RIPLASH_RUINS
+}
+
+KALIMDOR = {
 	color = { 185 242 255 }
 	
 	country_type = recognized

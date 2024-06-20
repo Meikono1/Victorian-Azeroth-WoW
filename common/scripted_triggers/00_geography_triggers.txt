@@ -3,8 +3,7 @@
 state_is_in_europe = {
 	OR = {
 		region = sr:region_iberia
-		region = sr:region_italy	
-		region = sr:region_baltic	
+		region = sr:region_italy
 	}
 }
 
@@ -47,7 +46,6 @@ state_is_in_americas = {
 state_is_in_africa = {
 	OR = {
 		region = sr:region_ethiopia
-		region = sr:region_north_africa
 		region = sr:region_senegal
 		region = sr:region_niger
 		region = sr:region_congo
@@ -190,7 +188,6 @@ is_arabic_farmland = {
 		region = sr:region_arabic
 		region = sr:region_persia
 		region = sr:region_central_asia
-		region = sr:region_north_africa
 		region = sr:region_senegal
 		region = sr:region_niger
 		region = sr:region_congo
@@ -231,7 +228,6 @@ is_arid_region = {
 		region = sr:region_niger
 		region = sr:region_zanj
 		region = sr:region_ethiopia
-		region = sr:region_north_africa
 		region = sr:region_senegal
 		region = sr:region_arabic
 		region = sr:region_persia
