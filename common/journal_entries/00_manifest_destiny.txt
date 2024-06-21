@@ -1,17 +1,1 @@
-﻿je_manifest_destiny_mexico = {
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
-	
-	group = je_group_historical_content
-	
-	# note that if you change this, also update the decision
-	complete = {
-		owns_entire_state_region = STATE_ARIZONA
-	}
-
-	on_complete = {
-		trigger_event = { id = manifest_destiny.1 }
-	}
-
-	weight = 100
-	should_be_pinned_by_default = yes
-}
+﻿

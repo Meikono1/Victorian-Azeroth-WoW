@@ -308,7 +308,6 @@ in_earthquake_zone = {
 		region = sr:region_himalayas
 		region = sr:region_japan
 		region = sr:region_la_plata
-		region = sr:region_andes
 		region = sr:region_central_america
 		region = sr:region_pacific_coast
 	}
@@ -319,7 +318,6 @@ in_volcanic_zone = {
 		region = sr:region_indonesia
 		region = sr:region_japan
 		region = sr:region_la_plata
-		region = sr:region_andes
 		region = sr:region_central_america
 		region = sr:region_pacific_coast
 		region = sr:region_zanj
@@ -459,11 +457,6 @@ owned_central_asia_region_states = {
 	owns_entire_state_region = STATE_KHIVA
 }
 
-owned_pacific_coast_region_states = {
-	owns_entire_state_region = STATE_WASHINGTON
-	owns_entire_state_region = STATE_ARIZONA
-}
-
 european_colonies_north_africa = {
 	or = {
 		owns_entire_state_region = STATE_NIGER
@@ -522,12 +515,7 @@ european_colonies_south_africa = {
 	}
 }
 
-owned_andes_region_states = {
-	owns_entire_state_region = STATE_ACRE
-}
-
 owned_la_plata_region_states = {
-	owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
 	owns_entire_state_region = STATE_BAJO_PARAGUAY
 }
 

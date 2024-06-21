@@ -1,12 +1,10 @@
 ﻿INTERESTS = {
 	c:GBR ?= {
-		add_declared_interest = region_brazil
 		add_declared_interest = region_south_china
 		add_declared_interest = region_north_china
 		add_declared_interest = region_persia
 		add_declared_interest = region_indonesia
 		add_declared_interest = region_japan
-		add_declared_interest = region_andes
 		add_declared_interest = region_manchuria
 	}
 	c:BIC ?= {
@@ -27,15 +25,9 @@
 	c:EGY ?= {
 		add_declared_interest = region_zanj
 		add_declared_interest = region_congo
-	}		
-	c:CHL ?= {	
-		add_declared_interest = region_andes		
 	}	
 	c:PER ?= {	
 		add_declared_interest = region_central_asia
-	}	
-	c:ARG ?= {	
-		add_declared_interest = region_brazil
 	}
 	c:SPA ?= {	
 		add_declared_interest = region_italy
@@ -49,13 +41,9 @@
 		add_declared_interest = region_dixie
 		add_declared_interest = region_iberia
 		add_declared_interest = region_senegal
-	}
-	c:BRZ ?= {
-		add_declared_interest = region_andes
 	}		
 	c:USA ?= {
 		add_declared_interest = region_canada
-		add_declared_interest = region_brazil
 		add_declared_interest = region_pacific_coast
 	}		
 	c:AUS ?= {

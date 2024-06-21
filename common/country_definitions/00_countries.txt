@@ -139,7 +139,6 @@ LOU = {
 	tier = principality
 	
 	cultures = { cajun afro_antillean }
-	capital = STATE_LOUISIANA
 }
 
 AGJ = {
@@ -150,7 +149,6 @@ AGJ = {
 	tier = kingdom
 	
 	cultures = { afro_brazilian }
-	capital = STATE_PERNAMBUCO
 }
 
 AMZ = {
@@ -161,7 +159,6 @@ AMZ = {
 	tier = kingdom
 	
 	cultures = { amazonian }
-	capital = STATE_AMAZONAS
 }
 
 GRI = {
@@ -172,7 +169,6 @@ GRI = {
 	tier = kingdom
 	
 	cultures = { guarani }
-	capital = STATE_AMAZONAS
 }
 
 JAP = {
@@ -644,7 +640,6 @@ PRA = { #Gao-Para
 	
 	cultures = { amazonic }
 	religion = catholic
-	capital = STATE_PARA
 }
 
 SAR = {
@@ -2066,7 +2061,6 @@ QUE = {
 	tier = principality
 	
 	cultures = { franco_canadian }
-	capital = STATE_QUEBEC
 	
 	is_named_from_capital = yes
 }
@@ -2161,7 +2155,6 @@ BRZ = {
 	tier = empire
 	
 	cultures = { brazilian }
-	capital = STATE_RIO_DE_JANEIRO
 }
 
 CHL = {
@@ -2390,7 +2383,6 @@ TNG = {
 	tier = principality
 	
 	cultures = { polynesian }
-	capital = STATE_TONGA
 }
 
 WIN = {
@@ -2481,7 +2473,6 @@ NVJ = {
 	tier = principality
 	
 	cultures = { navajo }
-	capital = STATE_ARIZONA
 }
 
 ARP = {
@@ -2901,8 +2892,6 @@ TPI = { # Tupinamba
 	tier = principality
 	
 	cultures = { tupinamba }
-	
-	capital = STATE_BAHIA
 }
 
 PUE = { # Pueblo
@@ -2933,8 +2922,6 @@ NVL = { # Navajoland
 	tier = principality
 	
 	cultures = { navajo }
-	
-	capital = STATE_ARIZONA
 }
 
 ATB = { # Athabaska
@@ -3097,7 +3084,6 @@ PNI = {
 	tier = principality
 	
 	cultures = { sulista }
-	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
 CEY = {
@@ -3640,7 +3626,6 @@ PAU = {
 	tier = principality
 	
 	cultures = { paulista }
-	capital = STATE_SAO_PAULO
 }
 
 EQT = {
@@ -3651,7 +3636,6 @@ EQT = {
 	tier = principality
 	
 	cultures = { nordestino }
-	capital = STATE_PERNAMBUCO
 }
 
 CTR = {
@@ -3662,7 +3646,6 @@ CTR = {
 	tier = principality
 	
 	cultures = { sulista }
-	capital = STATE_SANTA_CATARINA
 }
 
 MNG = {
@@ -3673,7 +3656,6 @@ MNG = {
 	tier = principality
 	
 	cultures = { brazilian }
-	capital = STATE_MINAS_GERAIS
 }
 
 BHI = {
@@ -3684,7 +3666,6 @@ BHI = {
 	tier = principality
 	
 	cultures = { nordestino }
-	capital = STATE_BAHIA
 }
 
 CNW = {

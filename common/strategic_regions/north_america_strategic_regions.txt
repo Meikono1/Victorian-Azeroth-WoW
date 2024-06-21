@@ -3,7 +3,7 @@
 region_canada = {
 	capital_province = x8C4FC7
 	map_color = { 0.21 0.81 0.82 }
-	states = { STATE_NORTHWEST_TERRITORIES STATE_QUEBEC  }
+	states = { STATE_NORTHWEST_TERRITORIES  }
 }
 
 region_new_england = {
@@ -15,11 +15,11 @@ region_new_england = {
 region_pacific_coast = {
 	capital_province = xBD0F03
 	map_color = { 0.471 0.824 0.196 }
-	states = { STATE_WASHINGTON STATE_ARIZONA STATE_ALASKA STATE_YUKON_TERRITORY }
+	states = { STATE_YUKON_TERRITORY }
 }
 
 region_dixie = {
 	capital_province = xD4D27E
 	map_color = { 0.25 1 1 }
-	states = { STATE_DISTRICT_OF_COLUMBIA STATE_DELAWARE STATE_LOUISIANA }
+	states = { STATE_DISTRICT_OF_COLUMBIA }
 }

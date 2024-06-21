@@ -119,27 +119,6 @@ CSA = {
 	}
 }
 
-LOU = {
-	states = { 
-		STATE_LOUISIANA
-	}
-
-	ai_will_do = { always = no }
-}
-
-AGJ = {
-	states = { 
-		STATE_PERNAMBUCO 
-		STATE_PARAIBA
-		STATE_RIO_GRANDE_DO_NORTE
-		STATE_BAHIA
-	}
-	
-	required_num_states = 2
-
-	ai_will_do = { always = no }
-}
-
 AMZ = {
 	use_culture_states = yes
 
@@ -444,20 +423,6 @@ RIO = {
 
 		# Mexican Texas
 		x3751A7 x24C127 x10CA7B x951736 x871357 xD08070 xB9118E xC9D330 x5D3843 x2DA551 x760779 x4E19F4 x6958D6 x6E8169 xBB8A78 x0E125F x90CE2B x860F5A x0D192D x6BB536 xA55E5C xB16A3C x8EBCC7 x94A617 x18F9D5 x03FDD9 xE222E2 xDB3E39 x27C614 xE3F481 x08F331 x3DAE0A xC7ED1C xFDD38C xD206BC x0030C0 xED08F5 xA3A810 x91A02C
-	}
-
-	ai_will_do = { always = no }
-}
-
-PNI = {
-	states = { 
-		STATE_RIO_GRANDE_DO_SUL
-	}
-
-	possible = {
-		hidden_trigger = {
-			NOT = { has_variable = sulistas_integrated }
-		}
 	}
 
 	ai_will_do = { always = no }
@@ -816,15 +781,6 @@ PAR = {
 	ai_will_do = { always = no }
 }
 
-PRA = {
-	states = {
-		STATE_PARA
-		STATE_AMAZONAS
-		STATE_ACRE
-	}
-	ai_will_do = { always = no }
-}
-
 KRA = {
 	provinces = { x906060 }
 	ai_will_do = { always = no }
@@ -1156,22 +1112,8 @@ SIA = {
 	ai_will_do = { always = no }
 }
 
-BOL = {
-	states = {
-		STATE_ACRE
-	}
-	ai_will_do = { always = no }
-}
-
 BRZ = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-ORG = {
-	states = {
-		STATE_WASHINGTON
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1593,75 +1535,12 @@ AIT = {
 	ai_will_do = { always = no }
 }
 
-EQT = {
-	states = { 
-		STATE_PERNAMBUCO
-		STATE_RIO_GRANDE_DO_NORTE
-		STATE_CEARA
-		STATE_PIAUI
-		STATE_PARAIBA
-		
-		STATE_MARANHAO
-	}
-
-	possible = {
-		hidden_trigger = {
-			NOT = { has_variable = nordestinos_integrated }
-		}
-	}
-
-	ai_will_do = { always = no }
-}
-
 PAU = {
 	use_culture_states = yes
 
 	possible = {
 		hidden_trigger = {
 			NOT = { has_variable = paulistas_integrated }
-		}
-	}
-
-	ai_will_do = { always = no }
-}
-
-CTR = {
-	states = { 
-		STATE_SANTA_CATARINA
-	}
-
-	possible = {
-		hidden_trigger = {
-			NOT = { has_variable = sulistas_integrated }
-		}
-	}
-
-	ai_will_do = { always = no }
-}
-
-MNG = {
-	states = {
-		STATE_MINAS_GERAIS
-		STATE_GOIAS
-	}
-
-	possible = {
-		hidden_trigger = {
-			has_journal_entry = je_brazilian_nation_building
-		}
-	}
-
-	ai_will_do = { always = no }
-}
-
-BHI = {
-	states = {
-		STATE_BAHIA
-	}
-
-	possible = {
-		hidden_trigger = {
-			NOT = { has_variable = nordestinos_integrated }
 		}
 	}
 

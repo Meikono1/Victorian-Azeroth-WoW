@@ -41,7 +41,6 @@ KNK = {
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_KANAK
 }
 
 PPU = {
@@ -63,7 +62,6 @@ HLA = { # Halia, for Bougainville
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_BOUGAINVILLE
 }
 
 BLA = { # Bilua
@@ -74,7 +72,6 @@ BLA = { # Bilua
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_SOLOMON_ISLANDS
 }
 
 BLG = { # Bulungan
@@ -107,7 +104,6 @@ FJI = { # Fiji
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_FIJI
 }
 
 SKH = { # Sakhalin
@@ -129,7 +125,6 @@ MCR = { # Micronesia
 	tier = principality
 	
 	cultures = { micronesian }
-	capital = STATE_EAST_MICRONESIA
 }
 
 
@@ -141,7 +136,6 @@ VNT = { # Vanuatu
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_VANUATU
 }
 
 NRU = { # Nauru
@@ -152,7 +146,6 @@ NRU = { # Nauru
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_NAURU
 }
 
 PLY = { # Tahiti
@@ -164,7 +157,6 @@ PLY = { # Tahiti
 	
 	cultures = { polynesian }
 	religion = protestant
-	capital = STATE_TAHITI
 }
 
 AOT = { # Aotearoa

@@ -43,13 +43,7 @@ ig_desires_laws_for_petition = {
 
 is_brazil_northeast_state = {
 	OR = {
-		state_region = s:STATE_PERNAMBUCO
-		state_region = s:STATE_PARAIBA
-		state_region = s:STATE_RIO_GRANDE_DO_NORTE
-		state_region = s:STATE_CEARA
 		state_region = s:STATE_PAUAI
-		state_region = s:STATE_MARANHAO
-		state_region = s:STATE_BAHIA
 	}
 }
 

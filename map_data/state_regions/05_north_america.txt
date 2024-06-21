@@ -14,93 +14,6 @@
     naval_exit_id = 3067
 }
 
-STATE_LOUISIANA = {
-    id = 266
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x71BEC1" }
-    traits = { "state_trait_mississippi_river" }
-    city = "xC1273E"
-    port = "x9A7554"
-    farm = "x18D465"
-    mine = "xEE0FAA"
-    wood = "x2BEBAE"
-    arable_land = 120
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
-    capped_resources = {
-        bg_coal_mining = 24
-        bg_sulfur_mining = 32
-        bg_logging = 13
-        bg_fishing = 12
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
-    naval_exit_id = 3060
-}
-
-STATE_ALASKA = {
-    id = 269
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0B215E" }
-    traits = { "state_trait_yukon_river_salmon_run" }
-    city = "xD82BF2"
-    port = "xF423DB"
-    farm = "x63763A"
-    mine = "xC887C5"
-    wood = "x17211C"
-    arable_land = 20
-    arable_resources = { "bg_livestock_ranches" }
-    capped_resources = {
-        bg_coal_mining = 32
-        bg_logging = 11
-        bg_whaling = 8
-        bg_fishing = 10
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 12
-    }
-    naval_exit_id = 3119
-}
-
-STATE_WASHINGTON = {
-    id = 270
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x68129D" "x8CF087" "xDAC21E" }
-    traits = { "state_trait_columbia_river" "state_trait_cascades" }
-    city = "xA4DD56"
-    port = "xCF4646"
-    farm = "x3575A8"
-    mine = "x3A17A7"
-    wood = "xA92FD8"
-    arable_land = 180
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_coal_mining = 32
-        bg_logging = 17
-        bg_fishing = 6
-    }
-    naval_exit_id = 3154
-}
-
-STATE_DELAWARE = {
-    id = 1023
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x708000" "xEBA646" }
-    city = "xEBA646"
-    port = "xEBA646"
-    farm = "xEBA646"
-    arable_land = 15
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
-    capped_resources = {
-        bg_logging = 4
-        bg_fishing = 5
-    }
-    naval_exit_id = 3067
-}
-
 STATE_RHODE_ISLAND = {
     id = 300
     subsistence_building = "building_subsistence_fishing_villages"
@@ -178,28 +91,6 @@ STATE_VERMONT = {
     }
 }
 
-STATE_QUEBEC = {
-    id = 312
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x23F6CC" }
-    impassable = { "xBB863E" "x972704" "xD93335" "x084179" "xABA573" "x141935" "x51949A" "x36876C" "xD99AA0" "x9315BC" "x5E9628" "xD20107" "x9B7A14" "x16CFCB" "xBD1776" "x1B97E4" "xC0A7EF" "x7020B3" "x12FF08" "xFE2408" "x25DC66" "xEB2882" "x1E71B4" "x1590F6" "x5B8149" "xE94E94" "xEB9966" "x9C5236" "x4D27E6" "xBB2C30" "x21D72E" "xA54A42" "x0AA539" "x4B32DC" "x247A18" "x7C3F68" "xC04BB6" "xE40566" "x7F0C4F" "xA9F068" "x5D1B1A" "xF0DE11" "xD822EC" "x290B54" "xC940C5" "xCD957E" "xD1352B" "x4A9F05" "xE2FFD8" "xFE2104" "x795074" "xB3AED8" "x0B737C" "x4D370F" "xAA9CDB" "xD4E8B5" "x32DFD2" "x54D79E" "x038C02" "xF7E5FD" "x6040C4" "xBA04A4" "x8E1DAC" "xC13D2C" "x9050B8" "x8CF0B9" "xF3DF90" "x307A15" "x6D2618" "x1F7BA8" "xA8BE58" "x907833" "x23F6CC" "xF306C9" "x62CE97" "x9B5749" "x06F336" "xC75269" "x11192E" "x7BDAD0" "xEABC88" "x5040AF" "x95E0DC" "x7B728D" "x561CF3" "xAB6FE2" "xCE0625" "x0000C0" "xBB606D" "x96B85F" "xEFCD73" "xD414F5" "x0B4DFD" "x0C6AE4" "x8B2119" "xB6023C" "x7D7012" "xE29144" "x2793A0" "x499FB6" "x864A3A" "x326543" "xD03CD5" "x53E74E" "x67C76E" "x0B9764" "xDDBFBD" "x085D59" "x788810" "xD5666E" "x8A6937" "x76A99E" "x92F132" "x69E64D" "xD4A5DD" "x062E92" "xE58487" "x4F1A54" "x773791" "xAE1EF2" "x79E1C6" "x7BB2F1" "xB671B8" "xEA49D9" "xABCF6B" "x5EF02F" "x13C360" "x63918E" "x939A08" "xCA5E91" "xD74D19" "x3ED2DB" "xC62D1B" "xFF1907" "x51CF24" "xDEEEDD" "x46467A" }
-    traits = { "state_trait_st_lawrence_river" }
-    city = "xB9DD91"
-    port = "xD84B92"
-    farm = "xE18042"
-    mine = "x39E87E"
-    wood = "x61804D"
-    arable_land = 200
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
-    capped_resources = {
-        bg_iron_mining = 60
-        bg_logging = 23
-        bg_whaling = 4
-        bg_fishing = 8
-    }
-    naval_exit_id = 3045
-}
-
 STATE_YUKON_TERRITORY = {
     id = 318
     subsistence_building = "building_subsistence_pastures"
@@ -254,25 +145,4 @@ STATE_BERMUDA = {
         bg_fishing = 2
     }
     naval_exit_id = 3078
-}
-
-STATE_ARIZONA = {
-    id = 324
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "xC96399" }
-    city = "xD331E1"
-    farm = "x894997"
-    mine = "xBF471B"
-    wood = "x177225"
-    arable_land = 40
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
-    capped_resources = {
-        bg_iron_mining = 21
-        bg_logging = 2
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
-    }
 }
