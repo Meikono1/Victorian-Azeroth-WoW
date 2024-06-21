@@ -1,4 +1,5 @@
 STATES = {
+	# Teldrassil
 	s:STATE_SHADOWGLEN = {
 		create_state = {
 			country = c:KALIMDOR
@@ -44,6 +45,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Bloodmyst Isle‎
 	s:STATE_WYRMSCARE_ISLAND = {
 		create_state = {
 			country = c:KALIMDOR
@@ -107,6 +109,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Azuremyst Isle‎
 	s:STATE_STILLPINE_HOLD = {
 		create_state = {
 			country = c:KALIMDOR
@@ -188,6 +191,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Darkshore‎
 	s:STATE_LOR_DANEL = {
 		create_state = {
 			country = c:KALIMDOR
@@ -251,7 +255,8 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
-	s:STATE_MOONGLAIVE = {
+	# Moonglade
+	s:STATE_MOONGLADE = {
 		create_state = {
 			country = c:KALIMDOR
 			owned_provinces = { x00150B x02EA6D x04E4D2 x059F5E x05C63C x05C757 x084C64 x0B75A6 x0D010B x0D4483 x0F6ED8 x102D34 x12E2BE x14EC3C x15BB4F x161E18 x1A08A5 x1D136D x1D745A x1E4E7C x1EC8FC x20B36F x23D587 x240567 x24B053 x253FA3 x284654 x293FD0 x29DE06 x29FAEF x2AE755 x2AFDCF x2BB631 x2BE42E x2D0E85 x2D89CE x2E4E07 x30E58E x31FC79 x3230E6 x33EEDF x350E3C x378A03 x387E90 x38BA37 x38CE28 x3A542B x3AED96 x3EB32E x3EBA6C x40FD62 x423A3C x43EF0F x450D66 x483C9E x49DA2B x4A7357 x4D7F05 x4D8F7B x4E1C53 x4EA4FA x4FFA55 x526C79 x52A1F4 x52E812 x53AE16 x54D127 x563573 x595269 x59B5A5 x59F52B x5A706A x5AD1CB x5BAEBD x5C657B x5CAFED x5D892B x61A22C x6329E1 x659004 x66526E x6900D7 x6BA627 x6C8722 x7183D3 x71A0CD x728DA4 x73D9B6 x73ECE8 x7504D8 x76ADA7 x7A369E x7A3B01 x7B5176 x7B7143 x7BB335 x7F647A x808907 x811307 x81445F x82B862 x82EE4E x834C0B x835FB9 x83F120 x84F4DF x87C93A x89BAB7 x8D7ED7 x8DE06D x8DFDBD x8EB4D8 x8EDB2A x977BF7 x97CEC8 x98294F x987E4C x994148 x9A1755 x9AC48B x9C5E1F x9C9A7C xA063E3 xA150BA xA151C9 xA290A7 xA34A24 xA3BE73 xA4E315 xA6B456 xA77CD4 xAB8C64 xABE819 xAC0A3D xB09521 xB0A60F xB1AAE7 xB27942 xB92D20 xB9B933 xBBA963 xBC747A xBC7BBC xBCCC4A xBD565B xBE03D9 xBEDE94 xC38223 xC46499 xC7269C xC73B88 xC7A430 xC98F3A xCBC2A9 xCC7056 xCD9C82 xCDC38F xCDD6B3 xD07CB8 xD2AD4C xD4E837 xD6D15C xD769A1 xDAA9F0 xDAD8E2 xDB42AA xDCB0F4 xDEAC95 xE0374B xE04ABF xE1303F xE1A2B1 xE1CE5E xE406FA xE4F6F8 xE5C8C4 xE5F662 xE7BB54 xE83180 xE8C6CA xE9C940 xEB4799 xEB9C26 xEE3F9A xEF0BBF xEF83F8 xF0E48E xF2B775 xF73AA8 xFA3B63 xFCB36B xFFA16B }
@@ -260,6 +265,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Winterspring‎
 	s:STATE_FROSTSABER_ROCK = {
 		create_state = {
 			country = c:KALIMDOR
@@ -314,6 +320,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Felwood
 	s:STATE_TALONBRANCH_GLADE = {
 		create_state = {
 			country = c:KALIMDOR
@@ -368,6 +375,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Mount Hyjal
 	s:STATE_NORDRASSIL = {
 		create_state = {
 			country = c:KALIMDOR
@@ -449,6 +457,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Azshara
 	s:STATE_TOWER_OF_ELDARA = {
 		create_state = {
 			country = c:KALIMDOR
@@ -530,15 +539,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
-	s:STATE_ORGRIMMAR = {
-		create_state = {
-			country = c:KALIMDOR
-			owned_provinces = { x0707C7 x082153 x0B40B9 x0DC085 x10547B x118D77 x12A5D2 x1A9915 x1B5812 x1FBB10 x20C1F0 x2557A8 x25ABA0 x262924 x271C30 x3000C0 x326F36 x328A2E x380F20 x3EA9C4 x3F7D99 x406FBA x441473 x493CD4 x4B1E93 x4C54AE x4D9EEE x4ECB15 x521409 x56175A x5806F4 x5A7228 x5FA5AF x605307 x617B18 x61804D x6480AE x66DFE7 x6DE406 x6FCB2D x70A0CE x71A015 x721A36 x740012 x7B5364 x804729 x8060C0 x89B43F x89FA93 x8C5AA9 x8CFA32 x8E075C x8E553E x8ED253 x960ABF x987579 x9C19E2 x9F961D xA1B5A5 xA5DE9D xA69AB7 xA8A05F xAB9C44 xB0C0C0 xB5326C xB5E4EC xB6F3E3 xB838EC xB95DB3 xB9DD91 xBB0F05 xBEE924 xC060C0 xC91FD7 xCB411E xD040C0 xD090A6 xD31A5C xD45D25 xD68A28 xD84B92 xDA0669 xDDEA3F xDE0FD5 xDE17D2 xDF6F96 xE18042 xE47745 xE4892F xE6153B xE9C5AA xEC29F7 xEE2FFF xF01C37 xF040C0 xF0C080 xF1721C xF6D76F xF723EE xFC2BFD xFCE590 xFD27C5 xFDA361 }
-		}
-
-		add_homeland = cu:kvaldir
-	}
-	
+	# Ashenvale
 	s:STATE_FOREST_SONG = {
 		create_state = {
 			country = c:KALIMDOR
@@ -683,6 +684,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	#Stonetalon Mountains‎
 	s:STATE_STONETALON_PEAK = {
 		create_state = {
 			country = c:KALIMDOR
@@ -764,6 +766,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Northern Barrens
 	s:STATE_FORGOTTEN_POOLS = {
 		create_state = {
 			country = c:KALIMDOR
@@ -813,6 +816,16 @@ STATES = {
 		create_state = {
 			country = c:KALIMDOR
 			owned_provinces = { x0DA38C x0E5459 x10EF40 x152D1C x20EFEA x3126CA x3C64D6 x3D20D1 x4DD008 x4EBC79 x519343 x52914C x552AD8 x58C211 x5C25CB x600AC6 x63D186 x65ECBE x686279 x69C041 x72C072 x7A6FA3 x7BCB55 x907040 x907080 x9088D5 x90EF40 x964591 x98E7D7 x9957D8 x9A0C09 xA70607 xB325C7 xB48FF1 xC27057 xC3EB7D xC464AE xC77E76 xD08FCB xD810EC xDCAB5D xE521E1 xE70FA4 xEBE1C7 xED77FB xEF5C1F xF0B481 xF3F2C9 xF41CC0 xFA595E xFCDEED xFE4123 }
+		}
+
+		add_homeland = cu:kvaldir
+	}
+	
+	# Durotar
+	s:STATE_ORGRIMMAR = {
+		create_state = {
+			country = c:KALIMDOR
+			owned_provinces = { x0707C7 x082153 x0B40B9 x0DC085 x10547B x118D77 x12A5D2 x1A9915 x1B5812 x1FBB10 x20C1F0 x2557A8 x25ABA0 x262924 x271C30 x3000C0 x326F36 x328A2E x380F20 x3EA9C4 x3F7D99 x406FBA x441473 x493CD4 x4B1E93 x4C54AE x4D9EEE x4ECB15 x521409 x56175A x5806F4 x5A7228 x5FA5AF x605307 x617B18 x61804D x6480AE x66DFE7 x6DE406 x6FCB2D x70A0CE x71A015 x721A36 x740012 x7B5364 x804729 x8060C0 x89B43F x89FA93 x8C5AA9 x8CFA32 x8E075C x8E553E x8ED253 x960ABF x987579 x9C19E2 x9F961D xA1B5A5 xA5DE9D xA69AB7 xA8A05F xAB9C44 xB0C0C0 xB5326C xB5E4EC xB6F3E3 xB838EC xB95DB3 xB9DD91 xBB0F05 xBEE924 xC060C0 xC91FD7 xCB411E xD040C0 xD090A6 xD31A5C xD45D25 xD68A28 xD84B92 xDA0669 xDDEA3F xDE0FD5 xDE17D2 xDF6F96 xE18042 xE47745 xE4892F xE6153B xE9C5AA xEC29F7 xEE2FFF xF01C37 xF040C0 xF0C080 xF1721C xF6D76F xF723EE xFC2BFD xFCE590 xFD27C5 xFDA361 }
 		}
 
 		add_homeland = cu:kvaldir
@@ -899,6 +912,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	#Desolace
 	s:STATE_FURIENS_POST = {
 		create_state = {
 			country = c:KALIMDOR
@@ -971,6 +985,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Mulgore
 	s:STATE_STONETALON_PASS = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1034,6 +1049,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Southern Barrens
 	s:STATE_HUNTERS_HILL = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1097,6 +1113,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Dustwallow Marsh
 	s:STATE_DREADMURK_SHORE = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1160,6 +1177,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Feralas
 	s:STATE_CAMP_ATAYA = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1250,6 +1268,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Thousend Needles
 	s:STATE_RAZORFEN_DOWNS = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1286,6 +1305,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Tanaris
 	s:STATE_ZUL_FARRAK = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1358,6 +1378,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Un'Goro Crater
 	s:STATE_THE_SHAPERS_TERRACE = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1394,6 +1415,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Silithus
 	s:STATE_HIVE_ASHI = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1439,6 +1461,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Uldum
 	s:STATE_KHARTUTS_TOMB = {
 		create_state = {
 			country = c:KALIMDOR
@@ -1547,6 +1570,7 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
+	# Ahn'Quiraj
 	s:STATE_TEMPLE_OF_AHN_QIRAJ = {
 		create_state = {
 			country = c:KALIMDOR
