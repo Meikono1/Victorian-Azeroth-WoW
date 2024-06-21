@@ -11,7 +11,6 @@
 				region = sr:region_north_sea_coast
 				region = sr:region_iberia
 				region = sr:region_italy
-				region = sr:region_baltic
 				#region = sr:region_dnieper
 			}
 		}
