@@ -1,4 +1,6 @@
 POPS = {
+	# 16k for 1 Unique or boss
+	# 5k for every other
 	s:STATE_RIPLASH_RUINS = {
 		region_state:NRTHRND = {
 			create_pop = {
@@ -24,6 +26,112 @@ POPS = {
 	s:STATE_AMBER_LEDGE = {
 	}
 	s:STATE_NEXUS = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = blue_dragonkin_dragon
+				size = 756000
+			}
+			create_pop = {
+				culture = blue_dragonkin_dragonspawn
+				size = 847000
+			}
+			create_pop = {
+				culture = blue_dragonkin_drakonid
+				size = 71000
+			}
+			create_pop = {
+				culture = blue_dragonkin_whelp
+				size = 175000
+			}
+			create_pop = {
+				culture = blue_dragonkin_human_cultist
+				size = 312000
+			}
+			create_pop = {
+				culture = blue_dragonkin_bloodelf_cultist
+				size = 16000
+			}
+			create_pop = {
+				culture = bronze_dragonkin_dragon
+				size = 10000
+			}
+			create_pop = {
+				culture = green_dragonkin_dragon
+				size = 10000
+			}
+			create_pop = {
+				culture = red_dragonkin_dragon
+				size = 63000
+			}
+			create_pop = {
+				culture = elemental_arcan
+				size = 111000
+			}
+			create_pop = {
+				culture = elemental_earth_ancient
+				size = 587000
+			}
+			create_pop = {
+				culture = elemental_earth_ent
+				size = 45000
+			}
+			create_pop = {
+				culture = elemental_earth_lasher
+				size = 220000
+			}
+			create_pop = {
+				culture = elemental_fire
+				size = 100000
+			}
+			create_pop = {
+				culture = elemental_mana_fiend
+				size = 80000
+			}
+			create_pop = {
+				culture = elemental_mana_voidwalker
+				size = 75000
+			}
+			create_pop = {
+				culture = nymph_crystalnymph
+				size = 30000
+			}
+			create_pop = {
+				culture = darnassus_nighelf
+				size = 25000
+			}
+			create_pop = {
+				culture = exodar_draenei
+				size = 30000
+			}
+			create_pop = {
+				culture = stormwind_human
+				size = 10000
+			}
+			create_pop = {
+				culture = ironforge_dwarf
+				size = 16000
+			}
+			create_pop = {
+				culture = mechanical_arcane_golem
+				size = 50000
+			}
+			create_pop = {
+				culture = orgimmar_orc
+				size = 16000
+			}
+			create_pop = {
+				culture = undercity_forsaken_undead
+				size = 10000
+			}
+			create_pop = {
+				culture = darkspeer_troll
+				size = 30000
+			}
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 25000
+			}
+		}
 	}
 	s:STATE_KASKALA = {
 	}
@@ -36,6 +144,60 @@ POPS = {
 	s:STATE_FIZZCRANK_PUMPING_STATION = {
 	}
 	s:STATE_DEATHS_STAND = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 32000
+			}
+			create_pop = {
+				culture = summon_demon
+				size = 16000
+			}
+			create_pop = {
+				culture = summon_undead
+				size = 16000
+			}
+			create_pop = {
+				culture = elemental_water
+				size = 185000
+			}
+			create_pop = {
+				culture = scourge_damned_taunka
+				size = 80000
+			}
+			create_pop = {
+				culture = scourge_zombie
+				size = 85000
+			}
+			create_pop = {
+				culture = scourge_ghoul
+				size = 20000
+			}
+			create_pop = {
+				culture = scourge_shade
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_human_cultist
+				size = 61000
+			}
+			create_pop = {
+				culture = san_layn
+				size = 25000
+			}
+			create_pop = {
+				culture = scourge_lich
+				size = 16000
+			}
+			create_pop = {
+				culture = taunka
+				size = 30000
+			}
+			create_pop = {
+				culture = ebonblade_deathknight
+				size = 16000
+			}
+		}
 	}
 	s:STATE_GEYSER_FIELDS = {
 	}

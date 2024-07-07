@@ -1,7 +1,7 @@
-kvaldir = {
-	color = rgb{ 56 148 79 }
+blue_dragonkin_dragon = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { german_speaking european_heritage }
+	traits = { blue_dragon dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -29,10 +29,10 @@ kvaldir = {
 	}
 }
 
-summon_undead = {
-	color = rgb{ 32 16 78 }
+blue_dragonkin_dragonspawn = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { undead_heritage }
+	traits = { blue_dragonspawn dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -60,10 +60,10 @@ summon_undead = {
 	}
 }
 
-scourge_ghoul = {
-	color = rgb{ 32 16 78 }
+blue_dragonkin_whelp = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { blue_dragon dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -91,10 +91,10 @@ scourge_ghoul = {
 	}
 }
 
-scourge_shade = {
-	color = rgb{ 32 16 78 }
+blue_dragonkin_drakonid = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { blue_drakonid dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -122,10 +122,10 @@ scourge_shade = {
 	}
 }
 
-scourge_lich = {
-	color = rgb{ 32 16 78 }
+bronze_dragonkin_dragon = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { bronze_dragon dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -153,10 +153,10 @@ scourge_lich = {
 	}
 }
 
-scourge_damned_taunka = {
-	color = rgb{ 32 16 78 }
+green_dragonkin_dragon = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { taunka scourge undead_heritage }
+	traits = { green_dragon dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -184,41 +184,10 @@ scourge_damned_taunka = {
 	}
 }
 
-scourge_zombie = {
-	color = rgb{ 32 16 78 }
+red_dragonkin_dragon = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-san_layn = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { scourge bloodelf_heritage undead_heritage }
+	traits = { red_dragon dragon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

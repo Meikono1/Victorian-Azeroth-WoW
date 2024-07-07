@@ -1,7 +1,7 @@
-kvaldir = {
-	color = rgb{ 56 148 79 }
+elemental_arcan = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { german_speaking european_heritage }
+	traits = { arcan_element elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -29,10 +29,10 @@ kvaldir = {
 	}
 }
 
-summon_undead = {
-	color = rgb{ 32 16 78 }
+elemental_fire = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { undead_heritage }
+	traits = { fire_element elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -60,10 +60,10 @@ summon_undead = {
 	}
 }
 
-scourge_ghoul = {
-	color = rgb{ 32 16 78 }
+elemental_water = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { water_element elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -91,10 +91,10 @@ scourge_ghoul = {
 	}
 }
 
-scourge_shade = {
-	color = rgb{ 32 16 78 }
+elemental_earth_ancient = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { earth_element elemental_ancient elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -122,10 +122,10 @@ scourge_shade = {
 	}
 }
 
-scourge_lich = {
-	color = rgb{ 32 16 78 }
+elemental_earth_ent = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { earth_element elemental_ent elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -153,10 +153,10 @@ scourge_lich = {
 	}
 }
 
-scourge_damned_taunka = {
-	color = rgb{ 32 16 78 }
+elemental_earth_lasher = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { taunka scourge undead_heritage }
+	traits = { earth_element elemental_lasher elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -184,10 +184,10 @@ scourge_damned_taunka = {
 	}
 }
 
-scourge_zombie = {
-	color = rgb{ 32 16 78 }
+elemental_mana_fiend = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge undead_heritage }
+	traits = { mana_element fiend elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -215,10 +215,10 @@ scourge_zombie = {
 	}
 }
 
-san_layn = {
-	color = rgb{ 32 16 78 }
+elemental_mana_voidwalker = {
+	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { scourge bloodelf_heritage undead_heritage }
+	traits = { mana_element voidwalker elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

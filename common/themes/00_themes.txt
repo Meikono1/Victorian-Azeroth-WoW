@@ -1,24 +1,26 @@
-﻿########## DEFAULT ##########
-gui_skin_base = {
-	category = ui_skin_theme
+﻿########## wow ###########
 
-	ui_skin = "default"
-}
-
-papermap_base = {
+papermap_wow = {
 	category = papermap_theme
 
-	papermap_textures_file = "gfx/map/textures/maptextures.settings"
+	papermap_textures_file = "gfx/map/textures/maptextures_wow.settings"
 
 	map_object = {
-		pdxmesh = "papermap_extension_top_mesh"
+		pdxmesh = "papermap_extension_top_ap1_mesh"
 		locator = "papermap_extension_top_locator"
 	}
 
 	map_object = {
-		pdxmesh = "papermap_extension_bottom_mesh"
+		pdxmesh = "papermap_extension_bottom_ap1_mesh"
 		locator = "papermap_extension_bottom_locator"
 	}
+}
+
+########## DEFAULT ##########
+gui_skin_base = {
+	category = ui_skin_theme
+
+	ui_skin = "default"
 }
 
 table_base = {
@@ -232,23 +234,3 @@ papermap_tainostatue = {
 		locator = papermap_object_4_locator
 	}
 }
-
-########## wow ###########
-
-papermap_wow = {
-	category = papermap_theme
-
-	papermap_textures_file = "gfx/map/textures/maptextures_wow.settings"
-
-	map_object = {
-		pdxmesh = "papermap_extension_top_ap1_mesh"
-		locator = "papermap_extension_top_locator"
-	}
-
-	map_object = {
-		pdxmesh = "papermap_extension_bottom_ap1_mesh"
-		locator = "papermap_extension_bottom_locator"
-	}
-}
-
-

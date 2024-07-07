@@ -1,2 +1,23 @@
 ﻿POWER_BLOCS = {
+	c:RUS = {
+		create_power_bloc = {
+			name = ROSSIYSKAYA_IMPERIYA
+
+			map_color = { 78 134 62 }
+
+			founding_date = 1825.12.1 # Coronation of Nicholas I
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
 }
