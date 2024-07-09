@@ -757,13 +757,13 @@ STATE_SOUTH_PACIFIC_OCEAN_07 = {
 
 STATE_SOUTH_PACIFIC_OCEAN_08 = {
     id = 3148
-    provinces = {}
+    provinces = { "80c3e1" }
     impassable = { "x80C3E1" }
 }
 
 STATE_EASTER_ISLAND = {
     id = 3149
-    provinces = {}
+    provinces = { "x29CACA" }
 }
 
 STATE_EASTERN_POLYNESIA = {
@@ -798,7 +798,7 @@ STATE_CENTROAMERICAN_SEA = {
 
 STATE_SOUTH_PACIFIC_OCEAN_09 = {
     id = 3156
-    provinces = {}
+    provinces = { "x48FDFD" }
 }
 
 STATE_NORTH_PHILIPPINES_SEA = {
