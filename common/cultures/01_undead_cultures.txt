@@ -153,6 +153,68 @@ scourge_lich = {
 	}
 }
 
+scourge_damned_orc = {
+	color = rgb{ 32 16 78 }
+	religion = protestant
+	traits = { taunka scourge undead_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+scourge_damned_tauren = {
+	color = rgb{ 32 16 78 }
+	religion = protestant
+	traits = { taunka scourge undead_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 scourge_damned_taunka = {
 	color = rgb{ 32 16 78 }
 	religion = protestant
@@ -188,6 +250,37 @@ scourge_zombie = {
 	color = rgb{ 32 16 78 }
 	religion = protestant
 	traits = { scourge undead_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+scourge_undead_nerubian = {
+	color = rgb{ 32 16 78 }
+	religion = protestant
+	traits = { scourge nerubian undead_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

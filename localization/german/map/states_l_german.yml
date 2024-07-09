@@ -785,7 +785,7 @@
  STATE_NEXUS: "Nexus"
  STATE_KASKALA: "Kaskala"
  STATE_WINTERFIN: "Winterflossen"
- STATE_BORGOT_OUTPOST: "Außenposten Bor'gorok"
+ STATE_BORGOROK_OUTPOST: "Außenposten Bor'gorok"
  STATE_FIZZCRANK_AIRSTRIP: "Landebahn Kurbelzisch"
  STATE_FIZZCRANK_PUMPING_STATION: "Kurbelzischs Pumpstation"
  STATE_DEATHS_STAND: "Todeswehr"

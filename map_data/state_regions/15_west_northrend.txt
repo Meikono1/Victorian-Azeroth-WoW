@@ -236,7 +236,7 @@ STATE_WINTERFIN = {
     }
 }
 
-STATE_BORGOT_OUTPOST = {
+STATE_BORGOROK_OUTPOST = {
     id = 1513
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x000A19" "x0B820F" "x1164D0" "x1376E8" "x20083F" "x4D0DB5" "x4D34C9" "x705ADB" "x71E0AB" "x93F601" "xA2EC4A" "xCB0338" "xEB5453" "xED815B" "xFC7F77" "xFD03D4" "xFEF0A7" }

@@ -62,6 +62,10 @@ dwarf_heritage = {
 	heritage = yes
 }
 
+gnome_heritage = {
+	heritage = yes
+}
+
 orc_heritage = {
 	heritage = yes
 }
@@ -90,6 +94,22 @@ tauren_heritage = {
 	heritage = yes
 }
 
+goblin_heritage = {
+	heritage = yes
+}
+
+magnatour_heritage = {
+	heritage = yes
+}
+
+kobold_heritage = {
+	heritage = yes
+}
+
+murloc_heritage = {
+	heritage = yes
+}
+
 dragon_heritage = {
 	heritage = yes
 }
@@ -99,6 +119,10 @@ mechanical_heritage = {
 }
 
 nymph_heritage = {
+	heritage = yes
+}
+
+tuskarr_heritage = {
 	heritage = yes
 }
 

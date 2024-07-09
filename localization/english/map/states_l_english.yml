@@ -786,7 +786,7 @@
  STATE_NEXUS: "Nexus"
  STATE_KASKALA: "Kaskala"
  STATE_WINTERFIN: "Winterfin"
- STATE_BORGOT_OUTPOST: "Bor'gorok Outpost"
+ STATE_BORGOROK_OUTPOST: "Bor'gorok Outpost"
  STATE_FIZZCRANK_AIRSTRIP: "Fizzcrank Airstrip"
  STATE_FIZZCRANK_PUMPING_STATION: "Fizzcrank Pumping Station"
  STATE_DEATHS_STAND: "Death's Stand"

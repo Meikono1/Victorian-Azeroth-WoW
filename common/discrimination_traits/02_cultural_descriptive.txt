@@ -94,6 +94,9 @@ horde = {
 arcan_element = {
 }
 
+air_element = {
+}
+
 earth_element = {
 }
 
@@ -106,7 +109,13 @@ mana_element = {
 water_element = {
 }
 
-taunka = {
+centaur = {
+}
+
+gorloc = {
+}
+
+magmoth_herd = {
 }
 
 ebon_blade = {
@@ -125,6 +134,9 @@ dryad = {
 }
 
 voidwalker = {
+}
+
+wizard = {
 }
 
 blue_dragon = {
@@ -158,5 +170,17 @@ elemental_ent = {
 }
 
 mechanical_golem = {
+}
+
+alert_bot = {
+}
+
+kaluak = {
+}
+
+nerubian = {
+}
+
+clockwork = {
 }
 
