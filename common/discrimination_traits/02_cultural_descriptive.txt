@@ -115,10 +115,25 @@ centaur = {
 gorloc = {
 }
 
+druid = {
+}
+
+nessingway = {
+}
+
 magmoth_herd = {
 }
 
+gammoth_herd = {
+}
+
 ebon_blade = {
+}
+
+mag_har = {
+}
+
+broken = {
 }
 
 scourge = {
@@ -182,5 +197,20 @@ nerubian = {
 }
 
 clockwork = {
+}
+
+makrura = {
+}
+
+kvaldir = {
+}
+
+riplash = {
+}
+
+siren = {
+}
+
+myrmidon = {
 }
 

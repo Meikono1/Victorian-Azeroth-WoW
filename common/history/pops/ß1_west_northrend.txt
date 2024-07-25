@@ -1,0 +1,708 @@
+POPS = {
+	# 16k for 1 Unique or boss
+	# 5k for every other
+	s:STATE_RIPLASH_RUINS = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = kaluak_tuskarr
+				size = 48000
+			}
+			create_pop = {
+				culture = kvaldir
+				size = 417000
+			}
+			create_pop = {
+				culture = naaga_riplash_siren
+				size = 51000
+			}
+			create_pop = {
+				culture = naaga_riplash_myrmidon
+				size = 10000
+			}
+		}
+	}
+	s:STATE_VALLIANCE_KEEP = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 709000
+			}
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 64000
+			}
+			create_pop = {
+				culture = gnomeregan_gnome
+				size = 112000
+			}
+			create_pop = {
+				culture = ironforge_dwarf
+				size = 284000
+			}
+			create_pop = {
+				culture = exodar_draenei
+				size = 48000
+			}
+			create_pop = {
+				culture = kirintor_bloodelf
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_human_cultist
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_undead_nerubian
+				size = 210000
+			}
+		}
+	}
+	s:STATE_WARSONG_KEEP = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 560000
+			}
+			create_pop = {
+				culture = maghar_orc
+				size = 16000
+			}
+			create_pop = {
+				culture = darkspeer_troll
+				size = 112000
+			}
+			create_pop = {
+				culture = thunderbluff_tauren
+				size = 64000
+			}
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 80000
+			}
+			create_pop = {
+				culture = kirintor_bloodelf
+				size = 16000
+			}
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 63000
+			}
+			create_pop = {
+				culture = undercity_forsaken_undead
+				size = 96000
+			}
+			create_pop = {
+				culture = scourge_undead_nerubian
+				size = 581000
+			}
+			create_pop = {
+				culture = magnatour_gammothherd
+				size = 97000
+			}
+			create_pop = {
+				culture = kobold_gammothherd
+				size = 420000
+			}
+		}
+	}
+	s:STATE_PLAIN_OF_NASAM = {
+	}
+	s:STATE_COAST_OF_ECHOS = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 126000
+			}
+			create_pop = {
+				culture = thunderbluff_tauren
+				size = 32000
+			}
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 16000
+			}
+			create_pop = {
+				culture = kaluak_tuskarr
+				size = 16000
+			}
+			create_pop = {
+				culture = kvaldir
+				size = 221000
+			}
+		}
+	}
+	s:STATE_WARSONG_FARM = {
+	}
+	s:STATE_FARSHIRE = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 79000
+			}
+			create_pop = {
+				culture = ironforge_dwarf
+				size = 16000
+			}
+			create_pop = {
+				culture = gnomeregan_gnome
+				size = 16000
+			}
+			create_pop = {
+				culture = mechanical_golem
+				size = 30000
+			}
+			create_pop = {
+				culture = scourge_ghoul
+				size = 135000
+			}
+			create_pop = {
+				culture = scourge_forsaken
+				size = 35000
+			}
+			create_pop = {
+				culture = scourge_human_cultist
+				size = 56000
+			}
+		}
+	}
+	s:STATE_DEHTA_CAMP = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 52000
+			}
+			create_pop = {
+				culture = cenarius_druid_tauren
+				size = 62000
+			}
+			create_pop = {
+				culture = nymph_frostnymph
+				size = 32000
+			}
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 16000
+			}
+			create_pop = {
+				culture = stormwind_human
+				size = 16000
+			}
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 16000
+			}
+			create_pop = {
+				culture = thunderbluff_tauren
+				size = 16000
+			}
+			create_pop = {
+				culture = gnomeregan_gnome
+				size = 75000
+			}
+			create_pop = {
+				culture = nessingway_human
+				size = 542000
+			}
+			create_pop = {
+				culture = nessingway_broken_draenei
+				size = 45000
+			}
+			create_pop = {
+				culture = nessingway_forsaken_undead
+				size = 61000
+			}
+			create_pop = {
+				culture = nessingway_tauren
+				size = 16000
+			}
+			create_pop = {
+				culture = mechanical_golem
+				size = 40000
+			}
+			create_pop = {
+				culture = kobold_gammothherd
+				size = 105000
+			}
+		}
+	}
+	s:STATE_AMBER_LEDGE = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = blue_dragonkin_dragon
+				size = 16000
+			}
+			create_pop = {
+				culture = blue_dragonkin_drakonid
+				size = 16000
+			}
+			create_pop = {
+				culture = blue_dragonkin_dragonspawn
+				size = 65000
+			}
+			create_pop = {
+				culture = blue_dragonkin_human_cultist
+				size = 202000
+			}
+			create_pop = {
+				culture = blue_dragonkin_gnome_cultist
+				size = 70000
+			}
+			create_pop = {
+				culture = kaluak_tuskarr
+				size = 159000
+			}
+			create_pop = {
+				culture = kirintor_human
+				size = 496000
+			}
+			create_pop = {
+				culture = red_dragonkin_dragon
+				size = 63000
+			}
+		}
+	}
+	s:STATE_NEXUS = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = blue_dragonkin_dragon
+				size = 756000
+			}
+			create_pop = {
+				culture = blue_dragonkin_dragonspawn
+				size = 847000
+			}
+			create_pop = {
+				culture = blue_dragonkin_drakonid
+				size = 71000
+			}
+			create_pop = {
+				culture = blue_dragonkin_whelp
+				size = 175000
+			}
+			create_pop = {
+				culture = blue_dragonkin_human_cultist
+				size = 312000
+			}
+			create_pop = {
+				culture = blue_dragonkin_bloodelf_cultist
+				size = 16000
+			}
+			create_pop = {
+				culture = bronze_dragonkin_dragon
+				size = 10000
+			}
+			create_pop = {
+				culture = green_dragonkin_dragon
+				size = 10000
+			}
+			create_pop = {
+				culture = red_dragonkin_dragon
+				size = 63000
+			}
+			create_pop = {
+				culture = elemental_arcan
+				size = 111000
+			}
+			create_pop = {
+				culture = elemental_earth_ancient
+				size = 587000
+			}
+			create_pop = {
+				culture = elemental_earth_ent
+				size = 45000
+			}
+			create_pop = {
+				culture = elemental_earth_lasher
+				size = 220000
+			}
+			create_pop = {
+				culture = elemental_fire
+				size = 100000
+			}
+			create_pop = {
+				culture = elemental_mana_fiend
+				size = 80000
+			}
+			create_pop = {
+				culture = elemental_mana_voidwalker
+				size = 75000
+			}
+			create_pop = {
+				culture = nymph_crystalnymph
+				size = 30000
+			}
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 25000
+			}
+			create_pop = {
+				culture = exodar_draenei
+				size = 30000
+			}
+			create_pop = {
+				culture = stormwind_human
+				size = 10000
+			}
+			create_pop = {
+				culture = ironforge_dwarf
+				size = 16000
+			}
+			create_pop = {
+				culture = mechanical_arcane_golem
+				size = 50000
+			}
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 16000
+			}
+			create_pop = {
+				culture = undercity_forsaken_undead
+				size = 10000
+			}
+			create_pop = {
+				culture = darkspeer_troll
+				size = 30000
+			}
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 25000
+			}
+		}
+	}
+	s:STATE_KASKALA = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = kaluak_tuskarr
+				size = 451000
+			}
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 16000
+			}
+			create_pop = {
+				culture = murloc_gorloc
+				size = 195000
+			}
+			create_pop = {
+				culture = kvaldir
+				size = 126000
+			}
+			create_pop = {
+				culture = mechanical_golem
+				size = 25000
+			}
+		}
+	}
+	s:STATE_WINTERFIN = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = murloc_winterfin
+				size = 649000
+			}
+			create_pop = {
+				culture = murloc_makrura
+				size = 16000
+			}
+			create_pop = {
+				culture = elemental_water
+				size = 25000
+			}
+		}
+	}
+	s:STATE_BORGOROK_OUTPOST = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = darkspeer_troll
+				size = 107000
+			}
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 385000
+			}
+			create_pop = {
+				culture = undercity_forsaken_undead
+				size = 30000
+			}
+			create_pop = {
+				culture = thunderbluff_tauren
+				size = 255000
+			}
+			create_pop = {
+				culture = taunka
+				size = 160000
+			}
+			create_pop = {
+				culture = elemental_fire
+				size = 61000
+			}
+			create_pop = {
+				culture = elemental_water
+				size = 16000
+			}
+			create_pop = {
+				culture = elemental_air
+				size = 136000
+			}
+			create_pop = {
+				culture = scourge_damned_orc
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_damned_tauren
+				size = 45000
+			}
+			create_pop = {
+				culture = scourge_damned_taunka
+				size = 45000
+			}
+		}
+	}
+	s:STATE_FIZZCRANK_AIRSTRIP = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = gnomeregan_gnome
+				size = 224000
+			}
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 16000
+			}
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 25000
+			}
+			create_pop = {
+				culture = darkspeer_troll
+				size = 30000
+			}
+			create_pop = {
+				culture = thunderbluff_tauren
+				size = 16000
+			}
+			create_pop = {
+				culture = magnatour_magmothherd
+				size = 136000
+			}
+			create_pop = {
+				culture = kobold_magmothherd
+				size = 261000
+			}
+		}
+	}
+	s:STATE_FIZZCRANK_PUMPING_STATION = {
+	}
+	s:STATE_DEATHS_STAND = {
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 32000
+			}
+			create_pop = {
+				culture = summon_demon
+				size = 16000
+			}
+			create_pop = {
+				culture = summon_undead
+				size = 16000
+			}
+			create_pop = {
+				culture = elemental_water
+				size = 185000
+			}
+			create_pop = {
+				culture = scourge_damned_taunka
+				size = 80000
+			}
+			create_pop = {
+				culture = scourge_zombie
+				size = 85000
+			}
+			create_pop = {
+				culture = scourge_ghoul
+				size = 20000
+			}
+			create_pop = {
+				culture = scourge_shade
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_human_cultist
+				size = 61000
+			}
+			create_pop = {
+				culture = san_layn
+				size = 25000
+			}
+			create_pop = {
+				culture = scourge_lich
+				size = 16000
+			}
+			create_pop = {
+				culture = taunka
+				size = 30000
+			}
+			create_pop = {
+				culture = ebonblade_deathknight
+				size = 16000
+			}
+		}
+	}
+	s:STATE_GEYSER_FIELDS = {	
+		region_state:NRTHRND = {
+			create_pop = {
+				culture = elemental_air
+				size = 375000
+			}
+			create_pop = {
+				culture = taunka
+				size = 659000
+			}
+			create_pop = {
+				culture = murloc_gorloc
+				size = 262000
+			}
+			create_pop = {
+				culture = gnomeregan_gnome
+				size = 112000
+			}
+			create_pop = {
+				culture = mechanical_mechagnome
+				size = 105000
+			}
+			create_pop = {
+				culture = mechanical_alert_bot
+				size = 140000
+			}
+			create_pop = {
+				culture = mechanical_golem
+				size = 252000
+			}
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 16000
+			}
+			create_pop = {
+				culture = scourge_undead_nerubian
+				size = 221000
+			}
+		}
+	}
+	s:STATE_TEMPEL_CITY_ENKILAH = {
+	}
+	s:STATE_TALRAMAS = {
+	}
+	s:STATE_MOSSLIGHT_PILLAR = {
+	}
+	s:STATE_SKYREACH_PILLAR = {
+	}
+	s:STATE_SUNTOUCHED_PILLAR = {
+	}
+	s:STATE_RAINSPEAKER_CANOPY = {
+	}
+	s:STATE_LIFEBLOOD_PILLAR = {
+	}
+	s:STATE_MAKERS_PERCH = {
+	}
+	s:STATE_GLIMMERING_PILLAR = {
+	}
+	s:STATE_SAVAGE_THICKET = {
+	}
+	s:STATE_LOST_LANDS = {
+	}
+	s:STATE_MAKERS_OVERLOOK = {
+	}
+	s:STATE_FOREST_OF_SHADOWS = {
+	}
+	s:STATE_BROKEN_TEMPLE = {
+	}
+	s:STATE_WINTERS_EDGE_TOWER = {
+	}
+	s:STATE_WINTERGRASP_FORTRESS = {
+	}
+	s:STATE_SUNKEN_RING = {
+	}
+	s:STATE_FLAMEWATCH_TOWER = {
+	}
+	s:STATE_WESTWIND_REFUGEE_CAMP = {
+	}
+	s:STATE_ICEMIST_VILLAGE = {
+	}
+	s:STATE_MOONREST_GARDENS = {
+	}
+	s:STATE_AGMARS_HAMMER = {
+	}
+	s:STATE_INDULE_VILLAGE = {
+	}
+	s:STATE_MOAKI = {
+	}
+	s:STATE_OBSIDIAN_DRAGONSHRINE = {
+	}
+	s:STATE_ANGRATHAR_THE_WRATHGATE = {
+	}
+	s:STATE_RUBY_DRAGONSHRINE = {
+	}
+	s:STATE_SOUTHERN_DRAGONSHRINES = {
+	}
+	s:STATE_WYRMREST_TEMPLE = {
+	}
+	s:STATE_GALAKRONDS_REST = {
+	}
+	s:STATE_CRYSTAL_VICE = {
+	}
+	s:STATE_NEW_HEARTHGLEN = {
+	}
+	s:STATE_NORTHERN_DRAGONSHRINE = {
+	}
+	s:STATE_VENOMSPITE = {
+	}
+	s:STATE_NAXXRAMAS = {
+	}
+	s:STATE_WINTERGARDE_KEEP = {
+	}
+	s:STATE_SCARLET_POINT = {
+	}
+	s:STATE_LIGHTS_TRUST = {
+	}
+	s:STATE_VIOLET_STAND = {
+	}
+	s:STATE_NORTHREND_DALARAN = {
+	}
+	s:STATE_FORLORN_WOODS = {
+	}
+	s:STATE_THE_UNBOUND_THICKET = {
+	}
+	s:STATE_ARGENT_VANGUARD = {
+	}
+	s:STATE_MORDRRETHAR = {
+	}
+	s:STATE_SCOURGEHOLME = {
+	}
+	s:STATE_SINDGRAGOSA_FALL = {
+	}
+	s:STATE_ARGENT_TOURNAMENT = {
+	}
+	s:STATE_FROZEN_HALLS = {
+	}
+	s:STATE_ICECROWN_CITADEL = {
+	}
+	s:STATE_CORPRETHAR = {
+	}
+	s:STATE_THE_FLESHWERKS = {
+	}
+	s:STATE_BALARGARDE_FORTRESS = {
+	}
+	s:STATE_ONSLAUGHT_HARBOR = {
+	}
+	s:STATE_YMIRHEIM = {
+	}
+	s:STATE_JOTUNHEIM = {
+	}
+	s:STATE_SAVAGE_LEDGE = {
+	}
+	s:STATE_THE_SHADOW_VAULT = {
+	}
+	s:STATE_ALDURTHAR = {
+	}
+	s:STATE_HROTHGAR_LANDING = {
+	}
+}

@@ -122,7 +122,15 @@ nymph_heritage = {
 	heritage = yes
 }
 
+forsaken = {
+	heritage = yes
+}
+
 tuskarr_heritage = {
+	heritage = yes
+}
+
+naaga_heritage = {
 	heritage = yes
 }
 
