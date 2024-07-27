@@ -354,38 +354,6 @@
 			}
 		}
 	}
-	s:STATE_DEIR_EZ_ZOR = {
-		region_state:TUR = {
-			create_pop = {
-				culture = mashriqi
-				religion = sunni
-				size = 144000
-			}
-			create_pop = {
-				culture = assyrian
-				religion = oriental_orthodox
-				size = 43996
-			}
-			create_pop = {
-				culture = kurdish
-				size = 49600
-			}
-			create_pop = {
-				culture = bedouin
-				size = 16000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
-				size = 300
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 200
-			}
-		}
-	}
 	s:STATE_BASRA = {
 		region_state:TUR = {
 			create_pop = {
@@ -490,23 +458,6 @@
 			create_pop = {
 				culture = bambara
 				size = 2200
-				pop_type = slaves
-			}
-		}
-	}
-	s:STATE_SISTAN = {
-		region_state:PER = {
-			create_pop = {
-				culture = persian
-				size = 113192
-			}
-			create_pop = {
-				culture = baluchi
-				size = 82300
-			}
-			create_pop = {
-				culture = somali
-				size = 9750
 				pop_type = slaves
 			}
 		}

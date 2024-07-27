@@ -137,37 +137,6 @@
 		scope:cockburn_adm = {
 			transfer_to_formation = scope:north_amer_fleet
 		}
-			
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_south_india
-			name = East_Indies_and_China_Station # Includes the 1 frigate of the Australia Station too
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_MALAYA
-				count = 6
-			}
-
-			save_scope_as = india_china_fleet
-		}
-
-		create_character = { # Sea
-			is_admiral = yes
-			first_name = James
-			last_name = Dundas
-			historical = yes
-			age = 51
-			hq = region_iberia
-			traits = {
-				cautious
-			}
-			save_scope_as = james_adm
-		}
-
-		scope:james_adm = {
-			transfer_to_formation = scope:india_china_fleet
-		}
 
 		activate_production_method = {
 			building_type = building_naval_base

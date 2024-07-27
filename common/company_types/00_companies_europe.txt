@@ -1,53 +1,4 @@
-﻿# Compagnie du Congo pour le Commerce et l'Industrie
-company_ccci = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/ccci.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
-	
-	flavored_company = yes
-	
-	building_types = {  
-		building_rubber_plantation
-		building_logging_camp
-		building_iron_mine
-	}
-	
-	potential = {
-		country_has_primary_culture = cu:wallonian
-	}
-	
-	possible = {
-		OR = {
-			any_subject_or_below = {
-				any_scope_state = {
-					region = sr:region_congo
-					any_scope_building = {
-						is_building_type = building_rubber_plantation
-						level >= 3
-					}
-				}
-			}
-			any_scope_state = {
-				region = sr:region_congo
-				any_scope_building = {
-					is_building_type = building_rubber_plantation
-					level >= 3
-				}
-			}
-		}
-	}
-	
-	prosperity_modifier = {
-		country_prestige_mult = 0.15
-		building_group_bg_rubber_mortality_mult = 0.2
-	}	
-	
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
-}
-
-# Société Franco-Belge
-company_franco_belge = {
+﻿company_franco_belge = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/franco_belge.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
@@ -655,51 +606,6 @@ company_lilpop = {
 	
 	prosperity_modifier = {
 		building_motor_industry_throughput_add = 0.1
-	}	
-	
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
-}
-
-# Companhia de Moçambique
-company_mozambique_company = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/mozambique_companhia_de_mocambique.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
-	
-	flavored_company = yes
-	
-	building_types = {  
-		building_cotton_plantation
-		building_tea_plantation
-		building_rice_farm
-	}
-	
-	potential = {
-		country_has_primary_culture = cu:portuguese
-	}
-	
-	possible = {
-		any_scope_state = {
-			OR = {
-				state_region = s:STATE_MOCAMBIQUE
-				state_region = s:STATE_ZAMBEZIA
-				state_region = s:STATE_LOURENCO_MARQUES
-			}
-			any_scope_building = {
-				OR = {
-					is_building_type = building_cotton_plantation
-					is_building_type = building_tea_plantation
-				}
-				level >= 3
-			}
-		}
-		has_technology_researched = mutual_funds
-	}
-	
-	prosperity_modifier = {
-		state_colony_growth_speed_mult = 0.1
-		state_colony_growth_creation_mult = 0.1
 	}	
 	
 	ai_weight = {

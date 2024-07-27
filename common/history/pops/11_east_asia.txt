@@ -1,168 +1,4 @@
 ﻿POPS = {
-	s:STATE_DZUNGARIA = {
-		region_state:CHI = {
-			# Based off estimates by James Millward and Wang Xilong
-			# Northern Xinjiang excluding Turfan and the Khumul Khanate
-			create_pop = {
-				culture = han # includes administrators and military personel
-				size = 120000
-			}
-			create_pop = {
-				culture = han # hui
-				religion = sunni
-				size = 60000
-			}
-			create_pop = {
-				culture = uighur
-				size = 4000
-			}
-			create_pop = {
-				culture = kazak
-				size = 10000
-			}
-			create_pop = {
-				culture = mongol # includes administrators and military personel
-				size = 12000
-			}
-			create_pop = {
-				culture = manchu # includes administrators and military personel
-				size = 9000
-			}
-			# Khumul Khanate
-			create_pop = {
-				culture = uighur
-				size = 12000
-			}
-			create_pop = {
-				culture = han
-				size = 200
-			}
-			create_pop = {
-				culture = han # hui
-				religion = sunni
-				size = 500
-			}
-			create_pop = {
-				culture = mongol
-				size = 1000
-			}
-			create_pop = {
-				culture = kazak
-				size = 500
-			}
-			create_pop = {
-				culture = mongol
-				size = 1000
-			}
-			# Turfan
-			create_pop = {
-				culture = uighur
-				size = 10000
-			}
-		}
-	}
-	s:STATE_TIANSHAN = {
-		region_state:CHI = {
-			# Based off estimates by James Millward and Wang Xilong
-			# Only some 'hundreds' Chinese merchants were settled in the Tarim Basis
-			create_pop = {
-				culture = han # includes administrators and military personel
-				size = 1300
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 400
-			}
-			create_pop = {
-				culture = uighur
-				size = 340000
-			}
-			create_pop = {
-				culture = mongol # includes administrators and military personel
-				size = 1000
-			}
-			create_pop = {
-				culture = manchu # includes administrators and military personel
-				size = 500
-			}
-			create_pop = {
-				culture = kirgiz
-				size = 16000
-			}
-			create_pop = {
-				culture = tajik
-				size = 9000
-			}
-			create_pop = {
-				culture = tibetan
-				size = 2000
-			}
-		}
-	}
-	s:STATE_SICHUAN = {
-		region_state:CHI = {
-			create_pop = {
-				culture = han # nanfaren
-				size = 9479900
-			}
-			create_pop = {
-				culture = manchu
-				size = 4096
-			}
-			create_pop = {
-				culture = tibetan
-				size = 1703796
-			}
-			create_pop = {
-				culture = yi
-				size = 1480000
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = animist
-				size = 1336004
-			}
-		}
-	}
-	s:STATE_YUNNAN = {
-		region_state:CHI = {
-			create_pop = {
-				culture = han # nanfaren
-				size = 3778092
-			}
-			create_pop = {
-				culture = manchu
-				size = 1904
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = animist
-				size = 1416000
-			}
-			create_pop = {
-				culture = zhuang
-				size = 85796
-			}
-			create_pop = {
-				culture = yi
-				size = 608596
-			}
-			create_pop = {
-				culture = yue
-				size = 188000
-			}
-			create_pop = {
-				culture = miao
-				size = 120000
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 40000
-			}
-		}
-	}
 	s:STATE_GUIZHOU = {
 		region_state:CHI = {
 			create_pop = {
@@ -205,23 +41,6 @@
 			create_pop = {
 				culture = han # nanfaren
 				size = 2568000
-			}
-		}
-	}
-	s:STATE_ALXA = {
-		region_state:CHI = {
-			# Alasha Ööled and Ejine Torghuud banner. Could not find accurate population data, but should be relatively low
-			create_pop = {
-				culture = mongol
-				size = 42992
-			}
-			create_pop = {
-				culture = manchu
-				size = 196
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 1600
 			}
 		}
 	}
@@ -305,58 +124,6 @@
 			}
 		}
 	}
-	s:STATE_OUTER_MANCHURIA = {
-		region_state:CHI = {
-			create_pop = {
-				culture = manchu
-				size = 1303996
-			}
-			create_pop = {
-				culture = korean
-				size = 11996
-			}
-			create_pop = {
-				culture = siberian
-				size = 32800
-			}
-		}
-	}
-	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
-			create_pop = {
-				culture = manchu
-				size = 5210800
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 3011992
-			}
-			create_pop = {
-				culture = korean
-				size = 504000
-			}
-			create_pop = {
-				culture = mongol
-				size = 80412
-			}
-		}
-	}
-	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
-			create_pop = {
-				culture = manchu
-				size = 2821200
-			}
-			create_pop = {
-				culture = siberian
-				size = 32000
-			}
-			create_pop = {
-				culture = mongol
-				size = 236404
-			}
-		}
-	}
 	s:STATE_SHANXI = {
 		region_state:CHI = {
 			create_pop = {
@@ -371,52 +138,6 @@
 			create_pop = {
 				culture = manchu
 				size = 2400
-			}
-		}
-	}
-	s:STATE_NINGXIA = {
-		region_state:CHI = {
-			create_pop = {
-				culture = han # nanfaren
-				size = 6637392
-			}
-			create_pop = {
-				culture = manchu
-				size = 2604
-			}
-			create_pop = {
-				culture = han # nanfaren
-				size = 1688000
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 492200
-			}
-		}
-	}
-	s:STATE_GANSU = {
-		region_state:CHI = {
-			create_pop = {
-				culture = han # nanfaren
-				size = 4233588
-			}
-			create_pop = {
-				culture = manchu
-				size = 4408
-			}
-			create_pop = {
-				culture = mongol
-				size = 1735900
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 401660
-			}
-			create_pop = {
-				culture = kazak
-				size = 48000
 			}
 		}
 	}
@@ -438,36 +159,6 @@
 				culture = han # nanfaren
 				religion = sunni
 				size = 216304
-			}
-		}
-	}
-	s:STATE_QINGHAI = {
-		region_state:CHI = {
-			create_pop = {
-				culture = tibetan
-				size = 819404
-			}
-			create_pop = {
-				culture = manchu
-				size = 596
-			}
-			create_pop = {
-				culture = mongol
-				size = 264000
-			}
-			create_pop = {
-				culture = kazak
-				religion = animist
-				size = 100000
-			}
-			create_pop = {
-				culture = kazak
-				size = 56000
-			}
-			create_pop = {
-				culture = han # nanfaren
-				religion = sunni
-				size = 8004
 			}
 		}
 	}
@@ -797,35 +488,6 @@
 			create_pop = {
 				culture = han # nanfaren
 				size = 16836004
-			}
-		}
-	}
-	# Population of Outer Mongolia should be somewhat over 600,000, but I could not find data for a more granular distribution in regards to West vs East. Due to the existence of more banners in the East, I have assumed this also means a somewhat higher population.
-	s:STATE_ULIASTAI = {
-		region_state:CHI = {
-			create_pop = {
-				culture = mongol
-				size = 270000
-			}
-			create_pop = {
-				culture = han
-				size = 623
-			}
-			create_pop = {
-				culture = kazak
-				size = 13000
-			}
-		}
-	}
-	s:STATE_URGA = {
-		region_state:CHI = {
-			create_pop = {
-				culture = mongol
-				size = 340000
-			}
-			create_pop = {
-				culture = han
-				size = 996
 			}
 		}
 	}
@@ -1163,67 +825,6 @@
 			}
 		}
 	}
-	s:STATE_KACHIN = {
-		region_state:BUR = {
-			create_pop = {
-				culture = kachin
-				size = 408000
-			}
-			create_pop = {
-				culture = shan
-				size = 92004
-			}
-			create_pop = {
-				culture = thai
-				religion = animist
-				size = 18000
-			}
-			create_pop = {
-				culture = burmese
-				size = 128400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kachin
-				size = 40000
-			}
-		}
-	}
-	s:STATE_SHAN_STATES = {
-		region_state:BUR = {
-			create_pop = {
-				culture = shan
-				size = 553996
-			}
-			create_pop = {
-				culture = kachin
-				size = 68000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = shan
-				size = 30000
-			}
-		}
-	}
-
-	s:STATE_BURMA = {
-		region_state:BUR = {
-			create_pop = {
-				culture = burmese
-				size = 1059596
-			}
-			create_pop = {
-				culture = kachin
-				size = 68000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = burmese
-				size = 50000
-			}
-		}
-	}
 	s:STATE_PEGU = {
 		region_state:BUR = {
 			create_pop = {
@@ -1372,16 +973,6 @@
 			}
 		}
 	}
-
-	s:STATE_RYUKYU_ISLANDS = {
-		region_state:JAP = {
-			create_pop = {
-				culture = japanese
-				size = 259181
-			}
-		}	
-	}
-	
 	s:STATE_CHUGOKU = {
 		region_state:JAP = {
 			create_pop = {

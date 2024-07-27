@@ -305,7 +305,6 @@ in_earthquake_zone = {
 		region = sr:region_south_china
 		region = sr:region_north_china
 		region = sr:region_manchuria
-		region = sr:region_himalayas
 		region = sr:region_japan
 		region = sr:region_pacific_coast
 	}
@@ -316,7 +315,6 @@ in_volcanic_zone = {
 		region = sr:region_indonesia
 		region = sr:region_japan
 		region = sr:region_pacific_coast
-		region = sr:region_zanj
 		region = sr:region_italy
 	}
 }
@@ -427,9 +425,6 @@ state_in_africa = {
 		OR = {
 			region = sr:region_senegal
 			region = sr:region_niger
-			region = sr:region_congo
-			region = sr:region_southern_africa
-			region = sr:region_zanj
 		}
 	}
 }
@@ -442,12 +437,6 @@ has_subsistence_building = {
 
 owned_central_asia_region_states = {
 	owns_entire_state_region = STATE_AKMOLINSK
-	owns_entire_state_region = STATE_SEMIRECHE
-	owns_entire_state_region = STATE_DZUNGARIA
-	owns_entire_state_region = STATE_TIANSHAN
-	owns_entire_state_region = STATE_JETISY
-	owns_entire_state_region = STATE_TAJIKISTAN
-	owns_entire_state_region = STATE_KIRGHIZIA
 	owns_entire_state_region = STATE_UZBEKIA
 	owns_entire_state_region = STATE_TURKMENIA
 	owns_entire_state_region = STATE_KHIVA
@@ -472,42 +461,7 @@ european_colonies_west_africa = {
 
 european_colonies_nile_basin = {
 	or = {
-		owns_entire_state_region = STATE_OROMIA
 		owns_entire_state_region = STATE_DONGOLA
-	}
-}
-
-european_colonies_central_africa = {
-	or = {
-		owns_entire_state_region = STATE_SOUTH_ANGOLA
-	}
-}
-
-european_colonies_east_africa = {
-	or = {
-		owns_entire_state_region = STATE_SOMALILAND
-		owns_entire_state_region = STATE_LINDI
-		owns_entire_state_region = STATE_ZANZIBAR
-		owns_entire_state_region = STATE_ZAMBEZIA
-		owns_entire_state_region = STATE_MOCAMBIQUE
-		owns_entire_state_region = STATE_NORTH_MADAGASCAR
-		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-	}
-}
-
-european_colonies_south_africa = {
-	or = {
-		owns_entire_state_region = STATE_EASTERN_CAPE
-		owns_entire_state_region = STATE_CAPE_COLONY
-		owns_entire_state_region = STATE_NORTHERN_CAPE
-		owns_entire_state_region = STATE_VRYSTAAT
-		owns_entire_state_region = STATE_NAMAQUALAND
-		owns_entire_state_region = STATE_BOTSWANA
-		owns_entire_state_region = STATE_TRANSVAAL
-		owns_entire_state_region = STATE_LOURENCO_MARQUES
-		owns_entire_state_region = STATE_ZAMBEZI
-		owns_entire_state_region = STATE_HEREROLAND
-		owns_entire_state_region = STATE_ZULULAND
 	}
 }
 

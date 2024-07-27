@@ -26,7 +26,6 @@ ARA = {
 		STATE_NEJD
 		STATE_BAGHDAD
 		STATE_MOSUL
-		STATE_DEIR_EZ_ZOR
 		STATE_BASRA
 	}
 
@@ -39,50 +38,12 @@ ARA = {
 	}
 }
 
-ZIM = {
-	states = {
-		STATE_ZAMBEZI
-	}
-	required_states_fraction = 0.75
-
-	ai_will_do = { always = yes }
-}
-
-BLH = {
-	states = {
-		STATE_BALUCHISTAN
-	}
-
-	required_states_fraction = 0.75
-	ai_will_do = { always = yes }
-	
-	possible = {
-		has_technology_researched = nationalism
-	}
-}
-
-SAF = {
-	states = {
-		STATE_NORTHERN_CAPE
-		STATE_EASTERN_CAPE
-		STATE_CAPE_COLONY 
-	}
-
-	ai_will_do = { always = yes }
-}
-
 TRH = {
 	states = { 
 		STATE_UZBEKIA
-		STATE_KIRGHIZIA
-		STATE_TAJIKISTAN
 		STATE_TURKMENIA
 		STATE_KHIVA
-		STATE_SEMIRECHE
 		STATE_AKMOLINSK
-		STATE_TIANSHAN
-		STATE_DZUNGARIA
-		STATE_JETISY
 	}
 
 	required_states_fraction = 0.5
@@ -124,29 +85,7 @@ IDN = {
 
 BHT = {
 	states = {
-		STATE_ASSAM 
-		STATE_AWADH 
-		STATE_BALUCHISTAN
-		STATE_BIHAR 
-		STATE_BOMBAY 
-		STATE_CENTRAL_INDIA 
-		STATE_CEYLON 
-		STATE_CIRCARS
-		STATE_DELHI 
-		STATE_GUJARAT 
-		STATE_HYDERABAD 
-		STATE_KASHMIR 
-		STATE_MADRAS 
-		STATE_MYSORE 
-		STATE_NAGPUR 
-		STATE_NORTH_BENGAL 
-		STATE_ORISSA 
-		STATE_PASHTUNISTAN
-		STATE_PUNJAB 
-		STATE_RAJPUTANA 
-		STATE_SINDH 
-		STATE_SOUTH_BENGAL 
-		STATE_TRAVANCORE
+		STATE_CENTRAL_INDIA
 	}
 
 	required_states_fraction = 0.75
@@ -187,9 +126,7 @@ CAU = {
 
 KAZ = {
 	states = {
-		STATE_SEMIRECHE
 		STATE_AKMOLINSK
-		STATE_JETISY
 	}
 
 	required_states_fraction = 0.75	
@@ -198,24 +135,5 @@ KAZ = {
 
 	possible = {
 		has_technology_researched = nationalism
-	}
-}
-
-PAK = {
-	states = {
-		STATE_BALUCHISTAN
-		STATE_PASHTUNISTAN
-		STATE_KASHMIR
-		STATE_PUNJAB
-		STATE_SINDH
-	}
-
-	required_states_fraction = 0.80 # 4/5 states needed
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan-nationalism
-		country_has_state_religion = rel:sunni
 	}
 }

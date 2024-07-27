@@ -1033,7 +1033,6 @@ AFG = {
 	tier = principality
 	
 	cultures = { pashtun tajik }
-	capital = STATE_EASTERN_AFGHANISTAN
 }
 
 ARM = {
@@ -1136,7 +1135,6 @@ KOK = {
 	tier = principality
 	
 	cultures = { kirgiz }
-	capital = STATE_KIRGHIZIA
 }
 
 KAZ = {
@@ -1147,7 +1145,6 @@ KAZ = {
 	tier = kingdom
 	
 	cultures = { kazak }
-	capital = STATE_SEMIRECHE
 }
 
 MUG = {
@@ -1158,7 +1155,6 @@ MUG = {
 	tier = empire
 	
 	cultures = { avadhi sindi kannada bengali }
-	capital = STATE_DELHI
 }
 
 NEJ = {
@@ -1284,7 +1280,6 @@ HND = {
 	tier = empire
 	
 	cultures = { kanauji marathi bihari tamil oriya gujarati }
-	capital = STATE_DELHI
 }
 
 AWA = {
@@ -1295,7 +1290,6 @@ AWA = {
 	tier = principality
 	
 	cultures = { avadhi }
-	capital = STATE_AWADH
 }
 
 BAS = {
@@ -1306,7 +1300,6 @@ BAS = {
 	tier = principality
 	
 	cultures = { telegu }
-	capital = STATE_NAGPUR
 }
 
 BER = {
@@ -1317,7 +1310,6 @@ BER = {
 	tier = principality
 	
 	cultures = { gujarati }
-	capital = STATE_GUJARAT
 }
 
 BHO = {
@@ -1339,7 +1331,6 @@ BIK = {
 	tier = principality
 	
 	cultures = { rajput }
-	capital = STATE_RAJPUTANA
 }
 
 BUN = {
@@ -1372,7 +1363,6 @@ HYD = {
 	tier = principality
 	
 	cultures = { avadhi }
-	capital = STATE_HYDERABAD
 	is_named_from_capital = yes
 }
 
@@ -1384,7 +1374,6 @@ BGL = {
 	tier = principality
 	
 	cultures = { bengali bihari }
-	capital = STATE_SOUTH_BENGAL
 }
 
 IND = {
@@ -1406,7 +1395,6 @@ JAI = {
 	tier = principality
 	
 	cultures = { rajput }
-	capital = STATE_RAJPUTANA
 }
 
 JAS = {
@@ -1417,7 +1405,6 @@ JAS = {
 	tier = principality
 	
 	cultures = { rajput }
-	capital = STATE_RAJPUTANA
 }
 
 JOD = {
@@ -1428,7 +1415,6 @@ JOD = {
 	tier = principality
 	
 	cultures = { rajput }
-	capital = STATE_RAJPUTANA
 }
 
 KAL = {
@@ -1439,7 +1425,6 @@ KAL = {
 	tier = principality
 	
 	cultures = { baluchi }
-	capital = STATE_BALUCHISTAN
 }
 
 KAS = {
@@ -1450,7 +1435,6 @@ KAS = {
 	tier = principality
 	
 	cultures = { kashmiri }
-	capital = STATE_KASHMIR
 }
 
 KUT = {
@@ -1461,7 +1445,6 @@ KUT = {
 	tier = principality
 	
 	cultures = { gujarati }
-	capital = STATE_GUJARAT
 }
 
 LAD = {
@@ -1472,7 +1455,6 @@ LAD = {
 	tier = principality
 	
 	cultures = { tibetan }
-	capital = STATE_KASHMIR
 }
 
 MAK = {
@@ -1483,7 +1465,6 @@ MAK = {
 	tier = principality
 	
 	cultures = { baluchi }
-	capital = STATE_BALUCHISTAN
 }
 
 MEW = {
@@ -1494,7 +1475,6 @@ MEW = {
 	tier = principality
 	
 	cultures = { rajput }
-	capital = STATE_RAJPUTANA
 }
 
 MYS = {
@@ -1505,7 +1485,6 @@ MYS = {
 	tier = principality
 	
 	cultures = { kannada }
-	capital = STATE_MYSORE
 	is_named_from_capital = yes
 }
 
@@ -1517,7 +1496,6 @@ NAG = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_NAGPUR
 	is_named_from_capital = yes
 }
 
@@ -1529,7 +1507,6 @@ NEP = {
 	tier = kingdom
 	
 	cultures = { nepali }
-	capital = STATE_HIMALAYAS
 }
 
 ORI = {
@@ -1540,7 +1517,6 @@ ORI = {
 	tier = principality
 	
 	cultures = { oriya }
-	capital = STATE_ORISSA
 	is_named_from_capital = yes
 }
 
@@ -1552,7 +1528,6 @@ PAN = {
 	tier = kingdom
 	
 	cultures = { panjabi }
-	capital = STATE_PUNJAB
 	is_named_from_capital = yes
 }
 
@@ -1564,7 +1539,6 @@ SIK = {
 	tier = principality
 	
 	cultures = { tibetan }
-	capital = STATE_HIMALAYAS
 }
 
 SIN = {
@@ -1575,8 +1549,6 @@ SIN = {
 	tier = principality
 	
 	cultures = { sindi }
-	capital = STATE_SINDH
-	is_named_from_capital = yes
 }
 
 TRA = {
@@ -1586,7 +1558,6 @@ TRA = {
 	
 	tier = principality
 	
-	capital = STATE_TRAVANCORE
 	cultures = { malayalam }
 	is_named_from_capital = yes
 }
@@ -1622,7 +1593,6 @@ BHU = {
 	tier = principality
 	
 	cultures = { tibetan }
-	capital = STATE_HIMALAYAS
 }
 
 LAN = {
@@ -1655,7 +1625,6 @@ BUR = {
 	tier = kingdom
 	
 	cultures = { burmese }
-	capital = STATE_BURMA
 }
 
 CAM = {
@@ -1801,7 +1770,6 @@ TIB = {
 	tier = kingdom
 	
 	cultures = { tibetan }
-	capital = STATE_LHASA
 }
 
 MGL = {
@@ -1812,7 +1780,6 @@ MGL = {
 	tier = kingdom
 	
 	cultures = { mongol }
-	capital = STATE_URGA
 }
 
 XIN = {
@@ -1823,7 +1790,6 @@ XIN = {
 	tier = kingdom
 	
 	cultures = { uighur }
-	capital = STATE_TIANSHAN
 }
 
 PHI = {
@@ -1845,8 +1811,6 @@ MCH = {
 	tier = kingdom
 	
 	cultures = { manchu }
-	capital = STATE_SOUTHERN_MANCHURIA
-	is_named_from_capital = yes
 }
 
 CAL = {
@@ -2331,7 +2295,6 @@ BIC = {
 	tier = principality
 	
 	cultures = { british }
-	capital = STATE_SOUTH_BENGAL
 }
 
 BRI = {
@@ -2630,8 +2593,6 @@ HZJ = { # Hazarajat
 	tier = principality
 
 	cultures = { hazara }
-
-	capital = STATE_WESTERN_AFGHANISTAN
 }
 
 TRC = { # Turkmenia
@@ -2653,7 +2614,6 @@ SIB = { # Siberia
 
 	tier = kingdom
 	cultures = { yakut siberian inuit }
-	capital = STATE_TOMSK
 }
 
 YAK = { # Yakutia
@@ -2676,8 +2636,6 @@ ASM = { # Assam
 	tier = principality
 	
 	cultures = { assamese }
-	
-	capital = STATE_ASSAM
 }
 
 MNP = { # Manipur
@@ -2688,8 +2646,6 @@ MNP = { # Manipur
 	tier = principality
 	
 	cultures = { manipuri }
-	
-	capital = STATE_ASSAM
 }
 
 TOB = { # Toba
@@ -2760,8 +2716,6 @@ KHN = { # Kachin
 	tier = principality
 	
 	cultures = { kachin }
-	
-	capital = STATE_KACHIN
 }
 
 AIN = { # Ainu Mosir
@@ -2820,9 +2774,6 @@ YUN = { # Yunnan
 	tier = principality
 	
 	cultures = { yi }
-	
-	capital = STATE_YUNNAN
-	is_named_from_capital = yes
 }
 
 YUE = { # Yue
@@ -3094,7 +3045,6 @@ CEY = {
 	tier = principality
 	
 	cultures = { sinhala }
-	capital = STATE_CEYLON
 }
 
 
@@ -3106,7 +3056,6 @@ BLH = {
 	tier = kingdom
 
 	cultures = { baluchi }
-	capital = STATE_BALUCHISTAN
 }
 
 NGF = {
@@ -3142,8 +3091,6 @@ TUV = {
 	country_type = unrecognized
 	tier = principality
 	cultures = { tuvan }
-	capital = STATE_TUVA
-
 }
 
 COR = {
@@ -3158,7 +3105,6 @@ TNS = {
 	country_type = unrecognized
 	tier = principality
 	cultures = { siberian }
-	capital = STATE_OKHOTSK
 }
 
 FER = {
@@ -3166,7 +3112,6 @@ FER = {
 	country_type = unrecognized
 	tier = principality
 	cultures = { siberian inuit }
-	capital = STATE_OKHOTSK
 }
 
 IUS = {
@@ -3267,7 +3212,6 @@ SIH = { #Sichuan
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_SICHUAN
 }
 
 SHA = { #Shandong
@@ -3283,7 +3227,6 @@ XIB = {
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han tibetan }
-	capital = STATE_NINGXIA
 }
 
 TPG = {
@@ -3469,7 +3412,6 @@ BHT = {
 	tier = hegemony
 	
 	cultures = { assamese avadhi baluchi bengali bihari gujarati kanauji kannada malayalam marathi oriya panjabi pashtun rajput sindi tamil telegu }
-	capital = STATE_DELHI
 }
 
 # Michigan
@@ -3573,7 +3515,6 @@ OZH = {
 	tier = principality
 	
 	cultures = { kazak }
-	capital = STATE_SEMIRECHE
 }
 
 CAU = {
@@ -3820,7 +3761,6 @@ PAK = {
 	
 	cultures = { kashmiri panjabi sindi baluchi pashtun }
 	religion = sunni
-	capital = STATE_SINDH
 }
 
 TIS = {
@@ -3846,6 +3786,17 @@ NRTHRND = {
 
 KALIMDOR = {
 	color = { 50 172 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RIPLASH_RUINS
+}
+
+EASTERNKINGDOMS = {
+	color = { 28 57 65 }
 	
 	country_type = recognized
 	

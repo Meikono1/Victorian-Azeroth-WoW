@@ -267,31 +267,6 @@ TIB = {
 	ai_will_do = { always = no }
 }
 
-MGL = {
-	states = { 
-		STATE_ULIASTAI
-		STATE_URGA
-	}
-
-	ai_will_do = { always = no }
-}
-
-MCH = {
-	states = { 
-		STATE_SOUTHERN_MANCHURIA
-		STATE_NORTHERN_MANCHURIA
-		STATE_OUTER_MANCHURIA
-	}
-
-	ai_will_do = { always = no }
-}
-
-XIN = {
-	states = { STATE_DZUNGARIA STATE_TIANSHAN STATE_JETISY }
-	
-	ai_will_do = { always = no }
-}
-
 MAY = {
 	use_culture_states = yes
 
@@ -428,14 +403,6 @@ RIO = {
 	ai_will_do = { always = no }
 }
 
-CEY = {
-	states = { 
-		STATE_CEYLON
-	}
-
-	ai_will_do = { always = no }
-}
-
 NEN = {
 	states = { 
 		STATE_MASSACHUSETTS
@@ -511,16 +478,6 @@ BOS = {
 	ai_will_do = { always = no }
 }
 
-SAF = {
-	states = {
-		STATE_NORTHERN_CAPE
-		STATE_EASTERN_CAPE
-		STATE_CAPE_COLONY
-	}
-
-	ai_will_do = { always = no }
-}
-
 BUL = {
 	use_culture_states = yes
 
@@ -543,33 +500,14 @@ IRQ = {
 	ai_will_do = { always = no }
 }
 
-TUV = {
-	states = {
-		STATE_TUVA
-	}
-	ai_will_do = { always = no }
-}
-
 YAK = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-TNS = {
-	states = {
-		STATE_OKHOTSK
-	}
-	ai_will_do = { always = no }
-}
-
 FER = {
 	states = {
-		STATE_OKHOTSK
-		STATE_KAMCHATKA
-		STATE_CHUKOTKA
-		STATE_OUTER_MANCHURIA
 		STATE_SAKHALIN
-		STATE_TRANS_BAIKAL
 	}
 	ai_will_do = { always = no }
 }
@@ -613,14 +551,6 @@ YUG = {
 		has_technology_researched = pan-nationalism
 	}
 	
-	ai_will_do = { always = no }
-}
-
-ZIM = {
-	states = {
-		STATE_ZAMBEZI
-	}
-
 	ai_will_do = { always = no }
 }
 
@@ -681,7 +611,6 @@ SLO = {
 KUR = {
 	states = {
 		STATE_MOSUL
-		STATE_DEIR_EZ_ZOR
 		STATE_LURISTAN
 	}
 
@@ -695,13 +624,7 @@ KUR = {
 SIB = {
 	states = {
 		STATE_YAKUTSK
-		STATE_IRKUTSK
-		STATE_TRANS_BAIKAL
-		STATE_OKHOTSK
-		STATE_CHUKOTKA
 		STATE_UPPER_YENISEYSK
-		STATE_TOMSK
-		STATE_KAMCHATKA
 	}
 
 	required_num_states = 4
@@ -831,14 +754,6 @@ KHI = {
 	ai_will_do = { always = no }
 }
 
-KOK = {
-	states = {
-		STATE_KIRGHIZIA
-		STATE_TAJIKISTAN
-	}
-	ai_will_do = { always = no }
-}
-
 NEJ = {
 	states = {
 		STATE_NEJD
@@ -894,22 +809,8 @@ BHN = {
 	ai_will_do = { always = no }
 }
 
-AWA = {
-	states = {
-		STATE_AWADH
-	}
-	ai_will_do = { always = no }
-}
-
 BAS = {
 	provinces = { x8ECE82 x013159 xF09DA1 x1170A0 xB56E8E x2F70FB x274E94 x66F24C x20BC2C xC38F66 }
-	ai_will_do = { always = no }
-}
-
-BER = {
-	states = {
-		STATE_GUJARAT
-	}
 	ai_will_do = { always = no }
 }
 
@@ -935,21 +836,6 @@ GWA = {
 	ai_will_do = { always = no }
 }
 
-HYD = {
-	states = {
-		STATE_HYDERABAD
-	}
-	ai_will_do = { always = no }
-}
-
-BGL = {
-	states = {
-		STATE_NORTH_BENGAL
-		STATE_SOUTH_BENGAL
-	}
-	ai_will_do = { always = no }
-}
-
 IND = {
 	provinces = { x1E9A75 x82DEEF x2A9BFB xFA701B xE9D03F xC0F1B9 x746A39 x14EB25 x585F79 x4CA2A3 xB8A7B3 x0E199B x70D0E0 xA9E591 }
 	ai_will_do = { always = no }
@@ -967,20 +853,6 @@ JAS = {
 
 JOD = {
 	provinces = { xBD1F80 x9A6A95 x7B1C30 x22627C xDD12D2 xD77479 xCA50D5 x4CEAC0 xCBE6C4 x0C11FE x425430 xD76ACC xA389C9 xBAD851 xC28B1B x4922B9 xE0B020 x2A57A1 x25467F x3FF532 x166BD9 x5C95B5 }
-	ai_will_do = { always = no }
-}
-
-KAL = {
-	states = {
-		STATE_BALUCHISTAN
-	}
-	ai_will_do = { always = no }
-}
-
-KAS = {
-	states = {
-		STATE_KASHMIR
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1006,27 +878,6 @@ MYS = {
 	ai_will_do = { always = no }
 }
 
-NAG = {
-	states = {
-		STATE_NAGPUR
-	}
-	ai_will_do = { always = no }
-}
-
-NEP = {
-	states = {
-		STATE_HIMALAYAS
-	}
-	ai_will_do = { always = no }
-}
-
-ORI = {
-	states = {
-		STATE_ORISSA
-	}
-	ai_will_do = { always = no }
-}
-
 PAN = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
@@ -1034,20 +885,6 @@ PAN = {
 
 SIK = {
 	provinces = { xE0B0E0 x2070E0 }
-	ai_will_do = { always = no }
-}
-
-SIN = {
-	states = {
-		STATE_SINDH
-	}
-	ai_will_do = { always = no }
-}
-
-TRA = {
-	states = {
-		STATE_TRAVANCORE
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1127,23 +964,9 @@ PRM = {
 	ai_will_do = { always = no }
 }
 
-HZJ = {
-	states = {
-		STATE_WESTERN_AFGHANISTAN
-	}
-	ai_will_do = { always = no }
-}
-
 TRC = {
 	states = {
 		STATE_TURKMENIA
-	}
-	ai_will_do = { always = no }
-}
-
-ASM = {
-	states = {
-		STATE_ASSAM
 	}
 	ai_will_do = { always = no }
 }
@@ -1190,13 +1013,6 @@ KHM = {
 	ai_will_do = { always = no }
 }
 
-KHN = {
-	states = {
-		STATE_KACHIN
-	}
-	ai_will_do = { always = no }
-}
-
 EZO = {
 	states = {
 		STATE_HOKKAIDO
@@ -1223,13 +1039,6 @@ YUN = {
 
 YUE = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-BLH = {
-	states = {
-		STATE_BALUCHISTAN
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1276,23 +1085,9 @@ GNG = {
 	ai_will_do = { always = no }
 }
 
-SIH = {
-	states = {
-		STATE_SICHUAN
-	}
-	ai_will_do = { always = no }
-}
-
 SHA = {
 	states = {
 		STATE_SHANDONG
-	}
-	ai_will_do = { always = no }
-}
-
-XIB = {
-	states = {
-		STATE_NINGXIA
 	}
 	ai_will_do = { always = no }
 }
@@ -1439,7 +1234,6 @@ HOB = {
 ASS = {
 	states = {
 		STATE_MOSUL
-		STATE_DEIR_EZ_ZOR
 	}
 	possible = {
 		has_technology_researched = nationalism

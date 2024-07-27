@@ -309,7 +309,7 @@ STATE_SEA_OF_JAPAN = {
 
 STATE_GULF_OF_MEXICO = {
     id = 3060
-    provinces = {}
+    provinces = { "x16CCE0" }
 }
 
 STATE_CARIBBEAN_SEA = {
@@ -606,7 +606,7 @@ STATE_GULF_OF_ALASKA = {
 
 STATE_SUMATRA_SEA = {
     id = 3120
-    provinces = { "x66C8FA" }
+    provinces = {}
 }
 
 STATE_GREAT_AUSTRALIAN_BIGHT = {
@@ -778,7 +778,7 @@ STATE_CHILEAN_SEA = {
 
 STATE_PERUVIAN_SEA = {
     id = 3152
-    provinces = {}
+    provinces = { "x15CBCB" }
 }
 
 STATE_PACIFIC_SEABOARD_01 = {

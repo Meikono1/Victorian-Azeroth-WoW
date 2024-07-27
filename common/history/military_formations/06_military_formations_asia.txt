@@ -51,12 +51,6 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ALXA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_HINGGAN
 				count = 5
 			}
@@ -87,18 +81,6 @@
 			type = army
 			hq_region = sr:region_north_china
 			name = Plain_White_Banner
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_NINGXIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_GANSU
-				count = 5
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
@@ -132,13 +114,6 @@
 			type = army
 			hq_region = sr:region_north_china
 			name = Bordered_Blue_Banner
-
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SICHUAN
-				count = 20
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
@@ -181,12 +156,6 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_YUNNAN
-				count = 10
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_HUNAN
 				count = 10
@@ -222,11 +191,6 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_SUZHOU
-				count = 10
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_YUNNAN
 				count = 10
 			}
 			save_scope_as = bordered_white_scope
@@ -439,49 +403,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_china
-			name = YunGui_Green_Standard_Army
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_QINGHAI
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_OUTER_MANCHURIA
-				count = 5
-			}
-		}
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_south_china
 			name = Sichuan_Green_Standard_Army
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SOUTHERN_MANCHURIA
-				count = 20
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_NORTHERN_MANCHURIA
-				count = 10
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_north_china
-			name = Bohai_Gulf_Fleet
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
-				state_region = s:STATE_FUJIAN
-				count = 7
-			}
-			save_scope_as = bohai_gulf_fleet
 		}
 
 		create_character = {

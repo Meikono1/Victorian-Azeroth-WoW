@@ -1,11 +1,4 @@
 ﻿# Strategic Regions in Africa
-region_ethiopia = {
-	graphical_culture = "arabic"
-	capital_province = x91C70C
-	map_color = { 0.33 0.5 0.66 }
-	states = { STATE_OROMIA STATE_SOMALILAND }
-}
-
 region_senegal = {
 	graphical_culture = "african"
 	capital_province = x186409
@@ -18,25 +11,4 @@ region_niger = {
 	capital_province = xCBCB87
 	map_color = { 0.66 0.25 0.33 }
 	states = { }
-}
-
-region_congo = {
-	graphical_culture = "african"
-	capital_province = xE9DE6C
-	map_color = { 0 0.5 0 }
-	states = { STATE_SOUTH_ANGOLA }
-}
-
-region_southern_africa = {
-	graphical_culture = "african"
-	capital_province = x41C0F0
-	map_color = { 0.761 0.134 0.735 }
-	states = { STATE_NAMAQUALAND STATE_BOTSWANA STATE_NORTHERN_CAPE STATE_CAPE_COLONY STATE_EASTERN_CAPE STATE_VRYSTAAT STATE_TRANSVAAL STATE_ZULULAND STATE_HEREROLAND STATE_LOURENCO_MARQUES  STATE_ZAMBEZI }
-}
-
-region_zanj = {
-	graphical_culture = "african"
-	capital_province = x3A7D3F
-	map_color = { 0.978 0.123 0.1 }
-	states = { STATE_ZANZIBAR STATE_LINDI STATE_MOCAMBIQUE STATE_SOUTH_MADAGASCAR STATE_NORTH_MADAGASCAR STATE_ZAMBEZIA }
 }

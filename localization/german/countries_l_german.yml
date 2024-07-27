@@ -1137,6 +1137,8 @@
  NRTHRND_ADJ: "Nordendisch"
  KALIMDOR: "Kalimdor"
  KALIMDOR_ADJ: "Kalimdorisch"
+ EASTERNKINGDOMS: "Östliches Königreich"
+ EASTERNKINGDOMS_ADJ: "Östliche Königreicher"
  #Dynamic countries
  dyn_c_united_sovereign_archduchy: "Vereinigtes Souveränes Erzherzogtum"
  dyn_c_united_sovereign_archduchy_adj: "Amerikanisch-erzherzöglich"

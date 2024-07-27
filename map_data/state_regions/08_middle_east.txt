@@ -108,7 +108,7 @@ STATE_BAGHDAD = {
 STATE_MOSUL = {
     id = 411
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x00B0A0" "x029A2B" "x07BB1D" "x0A79A0" "x111137" "x130A78" "x1F3350" "x2090E0" "x2F0CE8" "x389F34" "x4BE9F1" "x6F55BA" "xA2BD38" "xB09D9C" "xBAF0C7" "xC11149" "xD097E1" "xE4E63B" }
+    provinces = { "x07BB1D" "x0A79A0" "x130A78" "x2F0CE8" "x6F55BA" "xA2BD38" "xB09D9C" "xBAF0C7" "xC11149" "xD097E1" }
     traits = { "state_trait_tigris_river" }
     city = "x6F55BA"
     farm = "x07BB1D"
@@ -123,19 +123,6 @@ STATE_MOSUL = {
         type = "bg_oil_extraction"
         undiscovered_amount = 40
     }
-}
-
-STATE_DEIR_EZ_ZOR = {
-    id = 412
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0D20D8" "x19152C" "x1B437C" "x1ECFDA" "x1F78F4" "x205956" "x246A9F" "x24B968" "x479916" "x519F26" "x56095E" "x6BDF5C" "x849047" "x969057" "x97B814" "x9A097B" "xA6B14C" "xBD22F1" "xBF549D" "xC414B6" "xCE5C9A" "xE67DB6" "xF5D646" "xF98995" }
-    traits = { "state_trait_euphrates_river" }
-    city = "x849047"
-    farm = "x97B814"
-    mine = "x519F26"
-    wood = "x1ECFDA"
-    arable_land = 20
-    arable_resources = { "bg_livestock_ranches" "bg_tobacco_plantations" }
 }
 
 STATE_BASRA = {
@@ -202,23 +189,6 @@ STATE_LARISTAN = {
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 40
-    }
-    naval_exit_id = 3046
-}
-
-STATE_SISTAN = {
-    id = 416
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x0FC204" "x10F3F4" "x1E9374" "x20531A" "x20A19F" "x243D68" "x24B920" "x258E35" "x26DEEC" "x29CD3D" "x2EB9D4" "x2F10E8" "x2F2582" "x321257" "x3FE8A6" "x4131A0" "x4430D6" "x47F50F" "x48E7B8" "x4B4B04" "x4CEB3F" "x51274D" "x5D9506" "x6C7630" "x6E3249" "x838A84" "x89A8C6" "x91E7E0" "x945FA2" "x9CBF51" "x9D6744" "xA81990" "xA9F721" "xB33E22" "xB55662" "xB6CF46" "xB7864D" "xC68B25" "xC74971" "xC982BC" "xD547B8" "xEC93DC" "xFEEC0B" "xFF026E" }
-    city = "x20A19F"
-    port = "x945FA2"
-    farm = "x321257"
-    mine = "xEC93DC"
-    wood = "xFF026E"
-    arable_land = 15
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" }
-    capped_resources = {
-        bg_fishing = 4
     }
     naval_exit_id = 3046
 }

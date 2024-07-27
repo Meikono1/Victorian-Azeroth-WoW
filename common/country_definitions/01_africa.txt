@@ -48,7 +48,6 @@ MAD = {
 	tier = kingdom
 	
 	cultures = { malagasy }
-	capital = STATE_NORTH_MADAGASCAR
 }
 
 MAS = {
@@ -91,7 +90,6 @@ NAL = {
 	tier = principality
 	
 	cultures = { boer }
-	capital = STATE_ZULULAND
 }
 
 ORA = {
@@ -102,8 +100,6 @@ ORA = {
 	tier = principality
 	
 	cultures = { boer }
-	capital = STATE_VRYSTAAT
-	is_named_from_capital = yes
 }
 
 SAF = {
@@ -114,7 +110,6 @@ SAF = {
 	tier = kingdom
 	
 	cultures = { british boer }
-	capital = STATE_CAPE_COLONY
 }
 
 SOK = {
@@ -147,7 +142,6 @@ TRN = {
 	tier = principality
 	
 	cultures = { boer }
-	capital = STATE_TRANSVAAL
 	is_named_from_capital = yes
 }
 
@@ -170,7 +164,6 @@ ZAN = {
 	tier = principality
 	
 	cultures = { swahili }
-	capital = STATE_ZANZIBAR
 	is_named_from_capital = yes
 }
 
@@ -182,8 +175,6 @@ ZUL = {
 	tier = principality
 	
 	cultures = { zulu }
-	capital = STATE_ZULULAND
-	is_named_from_capital = yes
 }
 
 SIL = {
@@ -206,7 +197,6 @@ MTB = {
 	tier = principality
 	
 	cultures = { nguni shona }
-	capital = STATE_ZAMBEZI
 }
 
 MSH = {
@@ -217,7 +207,6 @@ MSH = {
 	tier = principality
 	
 	cultures = { shona }
-	capital = STATE_ZAMBEZI
 }
 
 MNC = {
@@ -228,7 +217,6 @@ MNC = {
 	tier = principality
 	
 	cultures = { shona }
-	capital = STATE_ZAMBEZIA
 }
 
 MSK = {
@@ -239,7 +227,6 @@ MSK = {
 	tier = principality
 	
 	cultures = { shona }
-	capital = STATE_ZAMBEZIA
 }
 
 NAM = {
@@ -250,7 +237,6 @@ NAM = {
 	tier = principality
 	
 	cultures = { khoisan }
-	capital = STATE_NAMAQUALAND
 }
 
 HRO = {
@@ -261,7 +247,6 @@ HRO = {
 	tier = principality
 	
 	cultures = { herero khoisan }
-	capital = STATE_HEREROLAND
 }
 
 LZO = {
@@ -283,7 +268,6 @@ TSW = {
 	tier = principality
 	
 	cultures = { tswana }
-	capital = STATE_BOTSWANA
 }
 
 WBL = { 
@@ -294,7 +278,6 @@ WBL = {
 	tier = principality
 	
 	cultures = { khoisan tswana }
-	capital = STATE_NORTHERN_CAPE
 }
 
 KZM = {
@@ -338,7 +321,6 @@ OVM = {
 	tier = principality
 	
 	cultures = { ovimbundu }
-	capital = STATE_SOUTH_ANGOLA
 }
 
 CHK = {
@@ -394,17 +376,6 @@ NYM = {
 	
 	cultures = { unyamwezi }
 	capital = STATE_TANGANYIKA
-}
-
-HHE = {
-	color = { 126 84 131 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { lacustrine_bantu }
-	capital = STATE_LINDI
 }
 
 BUG = {
@@ -494,7 +465,6 @@ BST = {
 	tier = principality
 	
 	cultures = { sotho }
-	capital = STATE_ZULULAND
 }
 
 TKE = {
@@ -651,28 +621,6 @@ LUO = {
 	capital = STATE_RIFT_VALLEY
 }
 
-GGO = {
-	color = { 244 228 166 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { lacustrine_bantu }
-	capital = STATE_LINDI
-}
-
-SNG = {
-	color = { 203 54 66 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { lacustrine_bantu }
-	capital = STATE_LINDI
-}
-
 KKY = {
 	color = { 169 52 90 }
 	
@@ -692,7 +640,6 @@ WSG = {
 	tier = principality
 	
 	cultures = { somali }
-	capital = STATE_SOMALILAND
 }
 
 GLD = {
@@ -703,7 +650,6 @@ GLD = {
 	tier = principality
 	
 	cultures = { somali }
-	capital = STATE_SOMALILAND
 }
 
 MJT = {
@@ -714,7 +660,6 @@ MJT = {
 	tier = principality
 	
 	cultures = { somali }
-	capital = STATE_SOMALILAND
 }
 
 DFR = {
@@ -736,7 +681,6 @@ ISQ = {
 	tier = principality
 	
 	cultures = { somali }
-	capital = STATE_SOMALILAND
 }
 
 HOB = {
@@ -747,7 +691,6 @@ HOB = {
 	tier = principality
 	
 	cultures = { somali }
-	capital = STATE_SOMALILAND
 }
 
 DAK = {
@@ -831,7 +774,6 @@ SHW = {
 	tier = principality
 	
 	cultures = { amhara oromo }
-	capital = STATE_OROMIA
 }
 
 HAR = {
@@ -842,7 +784,6 @@ HAR = {
 	tier = principality
 	
 	cultures = { somali amhara }
-	capital = STATE_OROMIA
 }
 
 BRN = {
@@ -1363,7 +1304,6 @@ LMW = { # Lomwe
 	tier = principality
 	
 	cultures = { lomwe }
-	capital = STATE_MOCAMBIQUE
 }
 
 MKU = { # Makua
@@ -1374,7 +1314,6 @@ MKU = { # Makua
 	tier = principality
 	
 	cultures = { makua }
-	capital = STATE_MOCAMBIQUE
 }
 
 SNA = { # Sena
@@ -1385,7 +1324,6 @@ SNA = { # Sena
 	tier = principality
 	
 	cultures = { sena }
-	capital = STATE_MOCAMBIQUE
 }
 
 BTG = { # Batonga
@@ -1396,7 +1334,6 @@ BTG = { # Batonga
 	tier = principality
 	
 	cultures = { tonga }
-	capital = STATE_LOURENCO_MARQUES
 }
 
 XHO = { # Xhosa
@@ -1407,7 +1344,6 @@ XHO = { # Xhosa
 	tier = principality
 	
 	cultures = { xhosa }
-	capital = STATE_EASTERN_CAPE
 }
 
 UYA = { # Uyao
@@ -1418,7 +1354,6 @@ UYA = { # Uyao
 	tier = principality
 	
 	cultures = { yao }
-	capital = STATE_MOCAMBIQUE
 }
 
 ZIM = {
@@ -1429,7 +1364,6 @@ ZIM = {
 	tier = kingdom
 	
 	cultures = { shona nguni}
-	capital = STATE_ZAMBEZIA
 }
 
 MAL = {
@@ -1483,7 +1417,6 @@ GZA = {
 	tier = principality
 	
 	cultures = { nguni }
-	capital = STATE_LOURENCO_MARQUES
 }
 
 MRV = {
