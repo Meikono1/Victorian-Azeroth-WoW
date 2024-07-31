@@ -1,4 +1,40 @@
-﻿building_angkor_wat = {
+﻿building_eiffel_tower = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/building_eiffel_tower.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "eiffel_tower_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_skyscraper_entity" }
+	entity_constructed = { "wonder_eiffel_tower_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_base_building_eiffel_tower
+	}
+
+	unlocking_technologies = { 
+		steel_frame_buildings 
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_angkor_wat = {
 	building_group = bg_monuments
 	texture = "gfx/interface/icons/building_icons/angkor_wat.dds"
 	expandable = no
@@ -21,15 +57,44 @@
 	}
 	
 	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_CAMBODIA
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
-	required_construction = construction_cost_monument	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_big_ben = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/big_ben.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "big_ben_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { "wonder_big_ben_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+	
+	production_method_groups = {
+		pmg_base_building_big_ben
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_forbidden_city = {
@@ -55,15 +120,75 @@ building_forbidden_city = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_BEIJING
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
 	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_hagia_sophia = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/hagia_sophia.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "hagia_sophia_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_hagia_sophia_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_base_building_hagia_sophia
+	}
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_mosque_of_djenne = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/mosque_of_djenne.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "mosque_of_djenne_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_great_mosque_of_djenne_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 4
+	}
+	
+	production_method_groups = {
+		pmg_base_building_mosque_of_djenne
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_saint_basils_cathedral = {
@@ -89,15 +214,50 @@ building_saint_basils_cathedral = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_MOSCOW
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
 	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_statue_of_liberty = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/statue_of_liberty.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "statue_of_liberty_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_statue_of_liberty_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+	
+	production_method_groups = {
+		pmg_base_building_statue_of_liberty
+	}
+
+	unlocking_technologies = { 
+		steel_frame_buildings 
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	ai_value = 10000
+
+	downsizeable = no
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_taj_mahal = {
@@ -123,15 +283,44 @@ building_taj_mahal = {
 	}
 
 	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_JAIPUR
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
 	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_vatican_city = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/vatican_city.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "vatican_city_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_vatican_city_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 6
+	
+	}
+	
+	production_method_groups = {
+		pmg_base_building_vatican_city
+	}
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_white_house = {
@@ -157,15 +346,12 @@ building_white_house = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = invalid
-			this = {
-				state_region = s:STATE_DISTRICT_OF_COLUMBIA
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
 	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 # Decorative only
@@ -191,6 +377,8 @@ building_machu_picchu = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_argebam = {
@@ -213,6 +401,8 @@ building_argebam = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_chichen_itza = {
@@ -235,6 +425,8 @@ building_chichen_itza = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_easter_island_heads = {
@@ -257,6 +449,8 @@ building_easter_island_heads = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_eye_of_sahara = {
@@ -279,6 +473,8 @@ building_eye_of_sahara = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_giza_necropolis = {
@@ -301,6 +497,8 @@ building_giza_necropolis = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_khaju_bridge = {
@@ -323,6 +521,8 @@ building_khaju_bridge = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_petra = {
@@ -345,6 +545,8 @@ building_petra = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 ### American Buildings DLC - models not present in basegame ###
@@ -369,6 +571,8 @@ building_capitol_hill = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_central_park = {
@@ -391,6 +595,8 @@ building_central_park = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 ### AP1 - models not present in basegame ###
@@ -415,6 +621,8 @@ building_martandsuntemple = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_observatorygreenwich = {
@@ -437,6 +645,8 @@ building_observatorygreenwich = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_temple_of_poseidon = {
@@ -459,6 +669,8 @@ building_temple_of_poseidon = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 building_wat_arun = {
@@ -481,4 +693,125 @@ building_wat_arun = {
 	production_method_groups = {
 		pmg_dummy
 	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+### BP1 ###
+
+building_cristo_redentor = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/building_cristo_redentor.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "cristo_redentor_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_christ_the_redeemer_01_entity" }
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_base_building_cristo_redentor
+	}
+
+	unlocking_technologies = { 
+		pneumatic_tools 
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		state_region = s:STATE_DALARAN_CRATER
+		owner = {
+			NOT = {
+				has_law = law_type:law_state_atheism 
+			}
+		}
+	}
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_power_bloc_statue = {
+
+	building_group = bg_monuments
+
+	city_type = city
+
+	levels_per_mesh = 1
+
+	expandable = no
+	
+	statue = yes
+	centerpiece_mesh_weight = 1
+
+	production_method_groups = {
+		pmg_base_building_power_bloc_statue
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_powerblock_statue.dds"
+
+	required_construction = construction_cost_monument
+
+	can_build_government = {
+		always = yes
+	}
+
+	can_build_private = {
+		always = no
+	}	
+	
+	possible = {
+		owner = {
+			is_in_power_bloc = yes
+		}
+		has_dlc_feature = power_bloc_features
+	}
+
+	ai_value = {
+		value = 0
+		
+		if = {
+			limit = { 
+				is_incorporated = yes	
+				state_population >= 500000
+			}
+			
+			add = {
+				value = state_population
+				divide = 1000
+				max = 5000
+			}
+		}
+
+		if = {
+			limit = { is_capital = yes }
+			add = 2500
+		}		
+					
+		owner = {
+			if = {
+				limit = { is_power_bloc_leader = yes }
+				multiply = 2.0
+			}						
+			
+			if = {
+				limit = { country_rank < rank_value:major_power }
+				multiply = 0.0
+			}
+			else_if = {
+				limit = { country_rank < rank_value:great_power }
+				multiply = 0.5
+			}			
+		}
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }

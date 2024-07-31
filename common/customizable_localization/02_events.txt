@@ -349,6 +349,25 @@ place_event = {
 		localization_key = place_event_destroyer
 	}
 
+
+	text = {
+		trigger = {
+			exists = c:SWE
+			this = c:SWE
+			owns_entire_state_region = STATE_SVEALAND
+		}
+		localization_key = place_event_gamla_stan
+	}
+
+	text = {
+		trigger = {
+			exists = c:SWE
+			this = c:SWE
+			owns_entire_state_region = STATE_SVEALAND
+		}
+		localization_key = place_event_gustav
+	}
+
 	text = {
 		trigger = {
 			exists = c:RUS

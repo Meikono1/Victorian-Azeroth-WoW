@@ -87,8 +87,6 @@ POPS = {
 	}
 	s:STATE_FORT_WILDERVAR = {
 	}
-	s:STATE_NORTH_SPEAR_TOWER = {
-	}
 	s:STATE_SKÖRN = {
 	}
 	s:STATE_VANGUARD_KEEP = {

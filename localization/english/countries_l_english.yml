@@ -1139,6 +1139,8 @@
  KALIMDOR_ADJ: "Kalimdorean"
  EASTERNKINGDOMS: "Eastern Kingdom"
  EASTERNKINGDOMS_ADJ: "Eastern Kindomer"
+ EASTERNKINGDOMS: "Outlands"
+ EASTERNKINGDOMS_ADJ: "Outlander"
   # Dynamic countries
  dyn_c_united_sovereign_archduchy:0 "United Sovereign Archduchy"
  dyn_c_united_sovereign_archduchy_adj:0 "Archducal American"

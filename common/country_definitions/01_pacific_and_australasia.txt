@@ -19,7 +19,6 @@ NTU = {
 	tier = principality
 	
 	cultures = { maori }
-	capital = STATE_SOUTH_ISLAND
 }
 
 NTO = {
@@ -30,7 +29,6 @@ NTO = {
 	tier = principality
 	
 	cultures = { maori }
-	capital = STATE_NORTH_ISLAND
 }
 
 KNK = {
@@ -51,7 +49,6 @@ PPU = {
 	tier = principality
 	
 	cultures = { melanesian }
-	capital = STATE_EASTERN_NEW_GUINEA
 }
 
 HLA = { # Halia, for Bougainville
@@ -82,7 +79,6 @@ BLG = { # Bulungan
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_EAST_BORNEO
 }
 
 KTI = { # Kutai
@@ -93,7 +89,6 @@ KTI = { # Kutai
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_EAST_BORNEO
 }
 
 FJI = { # Fiji
@@ -114,7 +109,6 @@ SKH = { # Sakhalin
 	tier = principality
 	
 	cultures = { ainu siberian }
-	capital = STATE_SAKHALIN
 }
 
 MCR = { # Micronesia
@@ -167,7 +161,6 @@ AOT = { # Aotearoa
 	tier = kingdom
 	
 	cultures = { maori }
-	capital = STATE_NORTH_ISLAND
 }
 
 ULR = { # Uluru
@@ -178,8 +171,6 @@ ULR = { # Uluru
 	country_type = decentralized
 	
 	cultures = { aborigine }
-	
-	capital = STATE_NORTHERN_TERRITORY
 }
 
 NSW = { # New South Wales
@@ -189,7 +180,6 @@ NSW = { # New South Wales
 	
 	tier = principality
 	
-	capital = STATE_NEW_SOUTH_WALES
 	cultures = { australian }
 }
 
@@ -200,7 +190,6 @@ WAS = { # Western Australia
 	
 	tier = principality
 	
-	capital = STATE_WESTERN_AUSTRALIA
 	cultures = { australian }
 }
 
@@ -211,7 +200,6 @@ SAS = { # South Australia
 
 	tier = principality
 	
-	capital = STATE_SOUTH_AUSTRALIA
 	cultures = { australian }
 }
 
@@ -222,7 +210,6 @@ UNT = { # United Tribes of New Zealand
 	
 	tier = principality
 	
-	capital = STATE_NORTH_ISLAND
 	cultures = { maori }
 	religion = protestant
 }
@@ -236,7 +223,6 @@ NNG = { # Noongar
 	tier = principality
 	
 	cultures = { aborigine }
-	capital = STATE_WESTERN_AUSTRALIA
 }
 
 KAU = { # Kaurna
@@ -248,7 +234,6 @@ KAU = { # Kaurna
 	tier = principality
 	
 	cultures = { aborigine }
-	capital = STATE_SOUTH_AUSTRALIA
 }
 
 GML = { # Gamilaraay
@@ -260,7 +245,6 @@ GML = { # Gamilaraay
 	tier = principality
 	
 	cultures = { aborigine }
-	capital = STATE_NEW_SOUTH_WALES
 }
 
 AST = {
@@ -270,7 +254,6 @@ AST = {
 	
 	tier = kingdom
 	
-	capital = STATE_NEW_SOUTH_WALES
 	cultures = { australian }
 }
 
@@ -281,7 +264,6 @@ NZL = {
 	
 	tier = principality
 	
-	capital = STATE_NORTH_ISLAND
 	cultures = { australian }
 }
 
@@ -292,7 +274,6 @@ TAS = {
 	
 	tier = principality
 	
-	capital = STATE_VICTORIA
 	cultures = { australian }
 }
 
@@ -304,7 +285,6 @@ DEI = {
 	tier = principality
 	
 	cultures = { dutch }
-	capital = STATE_WEST_JAVA
 }
 
 # Siak
@@ -316,7 +296,6 @@ SAK = {
 	tier = principality
 	
 	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
 }
 
 # Pontianak
@@ -328,7 +307,6 @@ PON = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_WEST_BORNEO
 }
 
 # Sambas
@@ -340,7 +318,6 @@ SMB = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_WEST_BORNEO
 }
 
 # Jambi
@@ -352,7 +329,6 @@ JMB = {
 	tier = principality
 	
 	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
 }
 
 # Yogyakarta
@@ -364,7 +340,6 @@ YOG = {
 	tier = principality
 	
 	cultures = { javan }
-	capital = STATE_CENTRAL_JAVA
 }
 
 # Surakarta
@@ -376,7 +351,6 @@ SRK = {
 	tier = principality
 	
 	cultures = { javan }
-	capital = STATE_CENTRAL_JAVA
 }
 
 # Buton
@@ -388,7 +362,6 @@ BTN = {
 	tier = principality
 	
 	cultures = { moluccan }
-	capital = STATE_CELEBES
 }
 
 # Selangor
@@ -400,7 +373,6 @@ SEL = {
 	tier = principality
 	
 	cultures = { malay }
-	capital = STATE_MALAYA
 }
 
 # Perak
@@ -412,7 +384,6 @@ PRK = {
 	tier = principality
 	
 	cultures = { malay }
-	capital = STATE_MALAYA
 }
 
 # Sulu
@@ -424,7 +395,6 @@ SUL = {
 	tier = principality
 	
 	cultures = { moro }
-	capital = STATE_MINDANAO
 }
 
 # Sulawesi
@@ -436,7 +406,6 @@ SLW = {
 	tier = principality
 	
 	cultures = { moluccan }
-	capital = STATE_CELEBES
 }
 
 # Tidore
@@ -448,7 +417,6 @@ TID = {
 	tier = principality
 	
 	cultures = { moluccan }
-	capital = STATE_MOLUCCAS
 }
 
 # Sintang
@@ -460,7 +428,6 @@ STG = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_WEST_BORNEO
 }
 
 # Banjar
@@ -472,7 +439,6 @@ BNJ = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_EAST_BORNEO
 }
 
 # Indonesia
@@ -484,7 +450,6 @@ IDN = {
 	tier = empire
 	
 	cultures = { balinese batak bornean dayak javan malay moluccan sumatran }
-	capital = STATE_WEST_JAVA
 }
 
 # Maguindanao
@@ -496,7 +461,6 @@ MGD = {
 	tier = principality
 	
 	cultures = { moro }
-	capital = STATE_MINDANAO
 }
 
 YUZ = { # Yuanzhumin
@@ -507,7 +471,6 @@ YUZ = { # Yuanzhumin
 	tier = principality
 	
 	cultures = { yuanzhumin }
-	capital = STATE_FORMOSA
 }
 
 PNS = { # Polynesia

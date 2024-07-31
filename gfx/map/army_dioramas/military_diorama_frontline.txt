@@ -1,11 +1,11 @@
 ﻿front_diorama_01 = {
 
-	# Army composition is checked when picking a diorama for a certain province
+	# Unit composition is checked when picking a diorama for a certain province
 	# The closer the composition of the army in the province corresponds to the percentage, the higher the chance of choosing this diorama
-	army_composition = {
-		combat_unit_group_infantry = 0.5555555555555556
-		combat_unit_group_artillery = 0.3888888888888889
-		combat_unit_group_cavalry = 0.05555555555555555
+	unit_composition = {
+		combat_unit_group_infantry = 0.56
+		combat_unit_group_artillery = 0.39
+		combat_unit_group_cavalry = 0.05
 	}
 
 	# Distance between the center of the diorama and the frontline
@@ -17,38 +17,38 @@
 
 	#####		BARRICADE LOCATORS		#####
 	locator = { name = "barricade_01_loc" 
-				position = { -3.0 0.0 -4.0 } 
+				position = { -3.0 0.0 4.0 } 
 				rotation = { 20.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "barricade_02_loc" 
-				position = { 4.0 0.0 -4.0 } 
+				position = { 4.0 0.0 4.0 } 
 				rotation = { -20.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		INFANTRY LOCATORS		#####
 	locator = { name = "infantry_01_loc" 
-				position = { -3.0 0.0 -3.5 } 
+				position = { -3.0 0.0 3.5 } 
 				rotation = { -5.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_02_loc" 
-				position = { -3.65 0.0 -3.25 } 
+				position = { -3.65 0.0 3.25 } 
 				rotation = { 30.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_03_loc" 
-				position = { 2.25 0.0 -4.0 } 
+				position = { 2.25 0.0 4.0 } 
 				rotation = { -12.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_04_loc" 
-				position = { 1.65 0.0 -4.0 } 
+				position = { 1.65 0.0 4.0 } 
 				rotation = { 8.75 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_05_loc" 
-				position = { 3.4 0.0 -3.65 } 
+				position = { 3.4 0.0 3.65 } 
 				rotation = { -31.25 0.0 0.0 } 
 				scale = 1.0 }
 
@@ -64,46 +64,46 @@
 				scale = 1.0 }
 
 	locator = { name = "artillery_03_loc" 
-				position = { 0.5 0.0 1.0 } 
+				position = { 0.5 0.0 -1.0 } 
 				rotation = { -12.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		PROPS LOCATORS		#####
 	locator = { name = "props_artillery_01_loc" 
-				position = { -4.26 0.0 1.49 } 
+				position = { -4.26 0.0 -1.49 } 
 				rotation = { -130.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "props_artillery_02_loc" 
-				position = { -1.45 0.0 2.3 } 
+				position = { -1.45 0.0 -2.3 } 
 				rotation = { -320.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "props_artillery_03_loc" 
-				position = { -0.92 0.0 0.22 } 
+				position = { -0.92 0.0 -0.22 } 
 				rotation = { -20.213 363.12 355.545 } 
 				scale = 1.0 }
 
 	locator = { name = "props_artillery_04_loc" 
-				position = { 3.34 0.0 1.14 } 
+				position = { 3.34 0.0 -1.14 } 
 				rotation = { -190.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		CAVALRY LOCATORS		#####
 	locator = { name = "cavalry_01_loc" 
-				position = { -1.95 0.0 -1.075 } 
+				position = { -1.95 0.0 1.075 } 
 				rotation = { 12.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		GENERAL LOCATORS		#####
 	locator = { name = "general_01_loc" 
-				position = { -2.25 0.0 -3.0 } 
+				position = { -2.25 0.0 3.0 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		FLAG LOCATORS		#####
 	locator = { name = "flag_01_loc" 
-				position = { -1.0 0.0 -1.5 } 
+				position = { -1.0 0.0 1.5 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
@@ -113,56 +113,65 @@
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
+	#####		BALLOONRECON LOCATORS		#####
+	locator = { name = "balloonrecon_01_loc" 
+				position = { 0.0 0.0 0.0 } 
+				rotation = { 0.0 0.0 0.0 } 
+				scale = 1.0 }
+
 
 
 	# Attach all the correct units to locators
 
 
 	#####		01 BARRICADES		#####
-	attach = { name = barricade_01 	combat_unit_group = combat_unit_group_infantry	barricade_01_loc = "barricade" is_visible = { scope:num_units > 0 }}
-	attach = { name = barricade_02 	combat_unit_group = combat_unit_group_infantry	barricade_02_loc = "barricade" is_visible = { scope:num_units > 0 }}
+	attach = { name = barricade_01 		locator = barricade_01_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "barricade" 		is_visible = { scope:num_units > 0 }}
+	attach = { name = barricade_02 		locator = barricade_02_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "barricade" 		is_visible = { scope:num_units > 0 }}
 
 	#####		02 INFANTRY		#####
-	attach = { name = infantry_01 		combat_unit_group = combat_unit_group_infantry  		infantry_01_loc = "infantry" 		is_visible = { scope:num_units > 0 }}
-	attach = { name = infantry_02 		combat_unit_group = combat_unit_group_infantry  		infantry_02_loc = "infantry" 		is_visible = { scope:num_units > 0.25 }}
-	attach = { name = infantry_03 		combat_unit_group = combat_unit_group_infantry  		infantry_03_loc = "infantry" 		is_visible = { scope:num_units > 0 }}
-	attach = { name = infantry_04 		combat_unit_group = combat_unit_group_infantry  		infantry_04_loc = "infantry" 		is_visible = { scope:num_units > 1 }}
-	attach = { name = infantry_05 		combat_unit_group = combat_unit_group_infantry  		infantry_05_loc = "infantry" 		is_visible = { scope:num_units > 2 }}
+	attach = { name = infantry_01 		locator = infantry_01_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0 }}
+	attach = { name = infantry_02 		locator = infantry_02_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0.25 }}
+	attach = { name = infantry_03 		locator = infantry_03_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0 }}
+	attach = { name = infantry_04 		locator = infantry_04_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 1 }}
+	attach = { name = infantry_05 		locator = infantry_05_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 2 }}
 
 	#####		03 ARTILLERY		#####
-	attach = { name = artillery_01 		combat_unit_group = combat_unit_group_artillery  		artillery_01_loc = "artillery"		is_visible = { scope:num_units > 0 }}
-	attach = { name = artillery_02 		combat_unit_group = combat_unit_group_artillery  		artillery_02_loc = "artillery"		is_visible = { scope:num_units > 1 }}
-	attach = { name = artillery_03 		combat_unit_group = combat_unit_group_artillery  		artillery_03_loc = "artillery"		is_visible = { scope:num_units > 2 }}
+	attach = { name = artillery_01 		locator = artillery_01_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "artillery" 		is_visible = { scope:num_units > 0 }}
+	attach = { name = artillery_02 		locator = artillery_02_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "artillery" 		is_visible = { scope:num_units > 1 }}
+	attach = { name = artillery_03 		locator = artillery_03_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "artillery" 		is_visible = { scope:num_units > 2 }}
 
 	#####		04 PROPS		#####
-	attach = { name = props_artillery_01 		combat_unit_group = combat_unit_group_artillery  		props_artillery_01_loc = "props_artillery_01"		is_visible = { scope:num_units > 0 }}
-	attach = { name = props_artillery_02 		combat_unit_group = combat_unit_group_artillery  		props_artillery_02_loc = "props_artillery_02" 		is_visible = { scope:num_units > 0 }}
-	attach = { name = props_artillery_03 		combat_unit_group = combat_unit_group_artillery  		props_artillery_03_loc = "props_artillery_01" 		is_visible = { scope:num_units > 1 }}
-	attach = { name = props_artillery_04 		combat_unit_group = combat_unit_group_artillery  		props_artillery_04_loc = "props_artillery_02"		is_visible = { scope:num_units > 1 }}
+	attach = { name = props_artillery_01 		locator = props_artillery_01_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_01" 	is_visible = { scope:num_units > 0 }}
+	attach = { name = props_artillery_02 		locator = props_artillery_02_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_02" 	is_visible = { scope:num_units > 0 }}
+	attach = { name = props_artillery_03 		locator = props_artillery_03_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_01" 	is_visible = { scope:num_units > 1 }}
+	attach = { name = props_artillery_04 		locator = props_artillery_04_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_02" 	is_visible = { scope:num_units > 1 }}
 
 	#####		05 CAVALRY		#####
-	attach = { name = cavalry_01 		combat_unit_group = combat_unit_group_cavalry  		cavalry_01_loc = "cavalry" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = cavalry_01 		locator = cavalry_01_loc 		combat_unit_group = combat_unit_group_cavalry 		entity_group = "cavalry" 	 		is_visible = { scope:num_units > 0 }}
 
 	#####		06 GENERAL		#####
-	attach = { name = general_01 		general_01_loc = "general"		general = yes }
+	attach = { name = general_01 		locator = general_01_loc 		entity_group = "general"		general = yes }
 
 	#####		07 FLAG		#####
-	attach = { name = flag_01 		flag_01_loc = "flag" }
+	attach = { name = flag_01 			locator = flag_01_loc 			entity_group = "flag" }
 
 	#####		08 AERIALRECON 		#####
-	attach = { name = aerialrecon_01 		aerialrecon_01_loc = "aerialrecon" }
+	attach = { name = aerialrecon_01 	locator = aerialrecon_01_loc 	entity_group = "aerialrecon"	ignore_terrain = yes }
+
+	#####		09 BALLOONRECON 		#####
+	attach = { name = balloonrecon_01 	locator = balloonrecon_01_loc 	entity_group = "balloonrecon"	ignore_terrain = yes }
 }
 
 
 
 front_diorama_basecamp_01 = {
 
-	# Army composition is checked when picking a diorama for a certain province
+	# Unit composition is checked when picking a diorama for a certain province
 	# The closer the composition of the army in the province corresponds to the percentage, the higher the chance of choosing this diorama
-	army_composition = {
-		combat_unit_group_infantry = 0.6923076923076923
-		combat_unit_group_artillery = 0.19230769230769232
-		combat_unit_group_cavalry = 0.11538461538461539
+	unit_composition = {
+		combat_unit_group_infantry = 0.69
+		combat_unit_group_artillery = 0.19
+		combat_unit_group_cavalry = 0.12
 	}
 
 	# Distance between the center of the diorama and the frontline
@@ -174,113 +183,113 @@ front_diorama_basecamp_01 = {
 
 	#####		BARRICADE LOCATORS		#####
 	locator = { name = "barricade_01_loc" 
-				position = { -3.0 0.0 -6.0 } 
+				position = { -3.0 0.0 6.0 } 
 				rotation = { 30.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "barricade_02_loc" 
-				position = { 5.0 0.0 -5.0 } 
+				position = { 5.0 0.0 5.0 } 
 				rotation = { -30.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		INFANTRY LOCATORS		#####
 	locator = { name = "infantry_01_loc" 
-				position = { -4.65 0.0 -3.95 } 
+				position = { -4.65 0.0 3.95 } 
 				rotation = { 60.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_02_loc" 
-				position = { -2.7 0.0 -5.4 } 
+				position = { -2.7 0.0 5.4 } 
 				rotation = { 40.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_03_loc" 
-				position = { -1.8 0.0 -6.0 } 
+				position = { -1.8 0.0 6.0 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_04_loc" 
-				position = { 2.5 0.0 -5.45 } 
+				position = { 2.5 0.0 5.45 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_05_loc" 
-				position = { 3.3 0.0 -5.3 } 
+				position = { 3.3 0.0 5.3 } 
 				rotation = { -10.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_06_loc" 
-				position = { 4.9 0.0 -3.9 } 
+				position = { 4.9 0.0 3.9 } 
 				rotation = { -40.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_07_loc" 
-				position = { 1.25 0.0 -3.0 } 
+				position = { 1.25 0.0 3.0 } 
 				rotation = { -20.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_08_loc" 
-				position = { -1.95 0.0 -4.5 } 
+				position = { -1.95 0.0 4.5 } 
 				rotation = { 20.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "infantry_09_loc" 
-				position = { 0.55 0.0 -3.45 } 
+				position = { 0.55 0.0 3.45 } 
 				rotation = { 10.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		ARTILLERY LOCATORS		#####
 	locator = { name = "artillery_01_loc" 
-				position = { 4.0 0.0 1.0 } 
+				position = { 4.0 0.0 -1.0 } 
 				rotation = { -40.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "artillery_02_loc" 
-				position = { 6.0 0.0 1.0 } 
+				position = { 6.0 0.0 -1.0 } 
 				rotation = { -35.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		PROPS LOCATORS		#####
 	locator = { name = "props_artillery_01_loc" 
-				position = { 6.0 0.0 3.28 } 
+				position = { 6.0 0.0 -3.28 } 
 				rotation = { 150.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "props_artillery_02_loc" 
-				position = { 3.41 0.0 3.37 } 
+				position = { 3.41 0.0 -3.37 } 
 				rotation = { -40.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "props_artillery_03_loc" 
-				position = { 1.0 0.0 3.0 } 
-				rotation = { -120.0 0.0 0.0 } 
+				position = { 1.3 0.0 -4.07 } 
+				rotation = { -140.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		CAVALRY LOCATORS		#####
 	locator = { name = "cavalry_01_loc" 
-				position = { -3.0 0.0 -1.5 } 
+				position = { -3.0 0.0 1.5 } 
 				rotation = { 25.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "cavalry_02_loc" 
-				position = { -4.35 0.0 1.25 } 
+				position = { -6.25 0.0 -0.0 } 
 				rotation = { 15.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	locator = { name = "cavalry_03_loc" 
-				position = { -4.75 0.0 -0.7 } 
+				position = { -4.75 0.0 1.1 } 
 				rotation = { 40.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		GENERAL LOCATORS		#####
 	locator = { name = "general_01_loc" 
-				position = { 0.6 0.0 -2.3 } 
+				position = { 0.6 0.0 2.3 } 
 				rotation = { 10.0 0.0 0.0 } 
 				scale = 1.0 }
 
 	#####		FLAG LOCATORS		#####
 	locator = { name = "flag_01_loc" 
-				position = { 1.75 0.0 -1.75 } 
+				position = { 1.75 0.0 1.75 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
@@ -290,9 +299,26 @@ front_diorama_basecamp_01 = {
 				rotation = { -10.0 0.0 0.0 } 
 				scale = 1.0 }
 
+	#####		MEDICALCAMP LOCATORS		#####
+	locator = { name = "medical_fieldhospital_loc" 
+				position = { -4.25 0.0 -5.0 } 
+				rotation = { -10.0 0.0 0.0 } 
+				scale = 1.0 }
+
+	locator = { name = "medical_firstaid_loc" 
+				position = { -5.0 0.0 -1.65 } 
+				rotation = { 0.0 0.0 0.0 } 
+				scale = 1.0 }
+
 	#####		AERIALRECON LOCATORS		#####
 	locator = { name = "aerialrecon_01_loc" 
 				position = { 0.0 10.0 0.0 } 
+				rotation = { 0.0 0.0 0.0 } 
+				scale = 1.0 }
+
+	#####		BALLOONRECON LOCATORS		#####
+	locator = { name = "balloonrecon_01_loc" 
+				position = { 0.0 0.0 0.0 } 
 				rotation = { 0.0 0.0 0.0 } 
 				scale = 1.0 }
 
@@ -302,45 +328,52 @@ front_diorama_basecamp_01 = {
 
 
 	#####		01 BARRICADE		#####
-	attach = { name = barricade_01 		combat_unit_group = combat_unit_group_infantry  		barricade_01_loc = "barricade" 		is_visible = { scope:num_units > 0 } }
-	attach = { name = barricade_02 		combat_unit_group = combat_unit_group_infantry  		barricade_02_loc = "barricade" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = barricade_01 		locator = barricade_01_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "barricade" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = barricade_02 		locator = barricade_02_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "barricade" 		is_visible = { scope:num_units > 0 } }
 
 	#####		02 INFANTRY		#####
-	attach = { name = infantry_01 		combat_unit_group = combat_unit_group_infantry  		infantry_01_loc = "infantry" 		is_visible = { scope:num_units > 0 } }
-	attach = { name = infantry_02 		combat_unit_group = combat_unit_group_infantry  		infantry_02_loc = "infantry" 		is_visible = { scope:num_units > 0.25 } }
-	attach = { name = infantry_03 		combat_unit_group = combat_unit_group_infantry  		infantry_03_loc = "infantry" 		is_visible = { scope:num_units > 1 } }
-	attach = { name = infantry_04 		combat_unit_group = combat_unit_group_infantry  		infantry_04_loc = "infantry" 		is_visible = { scope:num_units > 0 } }
-	attach = { name = infantry_05 		combat_unit_group = combat_unit_group_infantry  		infantry_05_loc = "infantry" 		is_visible = { scope:num_units > 1 } }
-	attach = { name = infantry_06 		combat_unit_group = combat_unit_group_infantry  		infantry_06_loc = "infantry" 		is_visible = { scope:num_units > 0.25 } }
-	attach = { name = infantry_07 		combat_unit_group = combat_unit_group_infantry  		infantry_07_loc = "infantry" 		is_visible = { scope:num_units > 1 } }
-	attach = { name = infantry_08 		combat_unit_group = combat_unit_group_infantry  		infantry_08_loc = "infantry" 		is_visible = { scope:num_units > 1.5 } }
-	attach = { name = infantry_09 		combat_unit_group = combat_unit_group_infantry  		infantry_09_loc = "infantry" 		is_visible = { scope:num_units > 2 } }
+	attach = { name = infantry_01 		locator = infantry_01_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = infantry_02 		locator = infantry_02_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0.25 } }
+	attach = { name = infantry_03 		locator = infantry_03_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 1 } }
+	attach = { name = infantry_04 		locator = infantry_04_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = infantry_05 		locator = infantry_05_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 1 } }
+	attach = { name = infantry_06 		locator = infantry_06_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 0.25 } }
+	attach = { name = infantry_07 		locator = infantry_07_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 1 } }
+	attach = { name = infantry_08 		locator = infantry_08_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 1.5 } }
+	attach = { name = infantry_09 		locator = infantry_09_loc 		combat_unit_group = combat_unit_group_infantry 		entity_group = "infantry" 		is_visible = { scope:num_units > 2 } }
 
 	#####		03 ARTILLERY		#####
-	attach = { name = artillery_01 		combat_unit_group = combat_unit_group_artillery  		artillery_01_loc = "artillery" 		is_visible = { scope:num_units > 0 } }
-	attach = { name = artillery_02 		combat_unit_group = combat_unit_group_artillery  		artillery_02_loc = "artillery" 		is_visible = { scope:num_units > 1 } }
+	attach = { name = artillery_01 		locator = artillery_01_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "artillery" 		is_visible = { scope:num_units > 0 } }
+	attach = { name = artillery_02 		locator = artillery_02_loc 		combat_unit_group = combat_unit_group_artillery 	entity_group = "artillery" 		is_visible = { scope:num_units > 1 } }
 
 	#####		04 PROPS		#####
-	attach = { name = props_artillery_01 		combat_unit_group = combat_unit_group_artillery  		props_artillery_01_loc = "props_artillery_01"		is_visible = { scope:num_units > 0 }}
-	attach = { name = props_artillery_02 		combat_unit_group = combat_unit_group_artillery  		props_artillery_02_loc = "props_artillery_02" 		is_visible = { scope:num_units > 1 }}
-	attach = { name = props_artillery_03 		combat_unit_group = combat_unit_group_artillery  		props_artillery_03_loc = "props_artillery_01" 		is_visible = { scope:num_units > 2 }}
+	attach = { name = props_artillery_01 	locator = props_artillery_01_loc 	combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_01" 		is_visible = { scope:num_units > 0 }}
+	attach = { name = props_artillery_02 	locator = props_artillery_02_loc 	combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_02" 		is_visible = { scope:num_units > 1 }}
+	attach = { name = props_artillery_03 	locator = props_artillery_03_loc 	combat_unit_group = combat_unit_group_artillery 	entity_group = "props_artillery_01" 		is_visible = { scope:num_units > 2 }}
 
 	#####		05 CAVALRY		#####
-	attach = { name = cavalry_01 		combat_unit_group = combat_unit_group_cavalry  		cavalry_01_loc = "cavalry" 		is_visible = { scope:num_units > 0 } }
-	attach = { name = cavalry_02 		combat_unit_group = combat_unit_group_cavalry  		cavalry_02_loc = "cavalry" 		is_visible = { scope:num_units > 1 } }
-	attach = { name = cavalry_03 		combat_unit_group = combat_unit_group_cavalry  		cavalry_03_loc = "cavalry" 		is_visible = { scope:num_units > 2 } }
+	attach = { name = cavalry_01 		locator = cavalry_01_loc 		combat_unit_group = combat_unit_group_cavalry 		entity_group = "cavalry" 	 		is_visible = { scope:num_units > 0 } }
+	attach = { name = cavalry_02 		locator = cavalry_02_loc 		combat_unit_group = combat_unit_group_cavalry 		entity_group = "cavalry" 	 		is_visible = { scope:num_units > 1 } }
+	attach = { name = cavalry_03 		locator = cavalry_03_loc 		combat_unit_group = combat_unit_group_cavalry 		entity_group = "cavalry" 	 		is_visible = { scope:num_units > 2 } }
 
 	#####		06 GENERAL		#####
-	attach = { name = general_01 		general_01_loc = "general"		general = yes }
+	attach = { name = general_01 		locator = general_01_loc 		entity_group = "general"		general = yes }
 
 	#####		07 FLAG		#####
-	attach = { name = flag_01 		flag_01_loc = "flag" }
+	attach = { name = flag_01 			locator = flag_01_loc 			entity_group = "flag" }
 
 	#####		08 AERIALRECON 		#####
-	attach = { name = aerialrecon_01 		aerialrecon_01_loc = "aerialrecon" }
+	attach = { name = aerialrecon_01 	locator = aerialrecon_01_loc 	entity_group = "aerialrecon"	ignore_terrain = yes }
 
-	#####		08 BASECAMP		#####
-	attach = { name = basecamp 		basecamp_loc = "basecamp"		ignore_terrain = yes }
+	#####		09 BALLOONRECON 		#####
+	attach = { name = balloonrecon_01 	locator = balloonrecon_01_loc 	entity_group = "balloonrecon"	ignore_terrain = yes }
+
+	#####		10 BASECAMP		#####
+	attach = { name = basecamp 			locator = basecamp_loc 			entity_group = "basecamp" 		ignore_terrain = yes }
+
+	#####		11 MEDICALCAMP	    #####
+	attach = { name = medical_fieldhospital 		locator = medical_fieldhospital_loc 	entity_group = "fieldhospital"		ignore_terrain = yes }
+	attach = { name = medical_firstaid 				locator = medical_firstaid_loc 			entity_group = "firstaid"		ignore_terrain = yes }
 }
 
 

@@ -9,6 +9,23 @@ naval_route_graphics_01 = {
 
 	route_entities = {
 
+		# Need to have an empty entity for admirals without any ships to visualize the travel path correctly
+		admiral_transport_01 = {
+			position = 1
+			entity_length = 5.0
+
+			possible = {
+				scope:military_formation = {
+					is_fleet = yes
+					num_units = 0
+				}
+			}
+
+			count = {
+				add = 1
+			}
+		}
+
 #################################################################
 #####				ARMY TRANSPORTATION						#####
 #################################################################

@@ -23,7 +23,10 @@ passenger_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_passanger_train_trigger = yes
 
 			}
@@ -41,7 +44,10 @@ passenger_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_passanger_train_trigger = yes
 				
 			}
@@ -59,7 +65,10 @@ passenger_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_passanger_train_trigger = yes
 				
 			}
@@ -77,7 +86,10 @@ passenger_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_passanger_train_trigger = yes
 				
 			}
@@ -95,7 +107,10 @@ passenger_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_passanger_train_trigger = yes
 				
 			}
@@ -243,7 +258,10 @@ mining_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_mining_train_trigger = yes
 				
 			}
@@ -261,7 +279,10 @@ mining_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_mining_train_trigger = yes
 				
 			}
@@ -279,7 +300,10 @@ mining_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_mining_train_trigger = yes
 				
 			}
@@ -297,7 +321,10 @@ mining_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_mining_train_trigger = yes
 				
 			}
@@ -315,7 +342,10 @@ mining_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_mining_train_trigger = yes
 				
 			}
@@ -739,7 +769,10 @@ forestry_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_forestry_train_trigger = yes
 
 			}
@@ -757,7 +790,10 @@ forestry_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_forestry_train_trigger = yes
 
 			}
@@ -775,7 +811,10 @@ forestry_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_forestry_train_trigger = yes
 
 			}
@@ -793,7 +832,10 @@ forestry_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_forestry_train_trigger = yes
 
 			}
@@ -811,7 +853,10 @@ forestry_train = {
 			
 			possible = {
 				
-				gfx_steam_locomotive_trigger = yes
+				OR = {
+					gfx_experimental_locomotive_trigger = yes
+					gfx_steam_locomotive_trigger = yes
+				}
 				gfx_forestry_train_trigger = yes
 
 			}

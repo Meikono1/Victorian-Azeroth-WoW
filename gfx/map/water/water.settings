@@ -23,13 +23,13 @@
 "WaterFresnelBias" = 0.01000
 "WaterZoomedOutFresnelBiasOffset" = 0.0250000				# Amount of reflection when zoomed out
 "WaterFresnelPow" = 4.000000
-"WaterZoomedOutFresnelPowOffset" = -4.000000
+"WaterZoomedOutFresnelPowOffset" = -50.000000
 "WaterReflectionFlatten" = 0.000000							# Reflection blurry ness. The higher it is, the more the eflections "ignore" normals more to be less distorted the higher the value is.
 
 # Specular highlight settings
 "WaterGlossBase" = 0.80000									# Not to high, then it causes bloom spikes.
 "WaterGlossScale" = 3.000000
-"WaterZoomedOutGlossScaleOffset" = -3.000000				# How much gloss base you have when you zoom out.
+"WaterZoomedOutGlossScaleOffset" = 0.000000				# How much gloss base you have when you zoom out.
 "WaterSpecular" = 0.005										# Specular intensity
 "WaterSpecularFactor" = 0.025
 
@@ -44,7 +44,7 @@
 
 # Refraction and extra
 "WaterZoomedInHeight" = 0.000000
-"WaterZoomedOutHeight" = 800.000000
+"WaterZoomedOutHeight" = 10000.000000
 
 "WaterRefractionShoreMaskDepth" = 0.800000					# Lower value, more refractions closer to shore.
 "WaterRefractionShoreMaskSharpness" = 0.800000				# Sharpness of refraction mask

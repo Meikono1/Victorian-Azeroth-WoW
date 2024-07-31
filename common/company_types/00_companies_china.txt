@@ -18,7 +18,6 @@ company_kaiping_mining = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				OR = {
-					state_region = s:STATE_BEIJING
 					state_region = s:STATE_ZHILI
 				}
 			}
@@ -28,7 +27,6 @@ company_kaiping_mining = {
 	possible = { 
 		any_scope_state = {
 			OR = {
-				state_region = s:STATE_BEIJING
 				state_region = s:STATE_ZHILI
 			}
 			is_incorporated = yes

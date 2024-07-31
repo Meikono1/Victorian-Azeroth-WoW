@@ -54,15 +54,15 @@
 	# If combat_unit_group is set, then the units of that group will be counted and passed to the is_visible trigger as scope:num_units 
 	# and a combat unit type of that group will be chosen for the fleet entity trigger as scope:combat_unit_type (see ../fleet_entities/*.txt scripts)
 	
-	attach = { name = light_ship_01 	combat_unit_group = combat_unit_group_light_ship 	light_ship_01_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	combat_unit_group = combat_unit_group_light_ship 	light_ship_02_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	combat_unit_group = combat_unit_group_light_ship 	light_ship_03_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	combat_unit_group = combat_unit_group_light_ship 	light_ship_04_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 100 } }
-	attach = { name = light_ship_05 	combat_unit_group = combat_unit_group_light_ship 	light_ship_05_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 150 } }
+	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
+	attach = { name = light_ship_03 	locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = light_ship_04 	locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { name = light_ship_05 	locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 150 } }
 
-	attach = { name = capital_ship_01 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_01_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_02_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = capital_ship_03 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_03_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { name = capital_ship_01 	locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = capital_ship_02 	locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = capital_ship_03 	locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
 
 
 }
@@ -124,14 +124,14 @@ fleet_diorama_01 = {
 	# If combat_unit_group is set, then the units of that group will be counted and passed to the is_visible trigger as scope:num_units 
 	# and a combat unit type of that group will be chosen for the fleet entity trigger as scope:combat_unit_type (see ../fleet_entities/*.txt scripts)
 	
-	attach = { name = light_ship_01 	combat_unit_group = combat_unit_group_light_ship 	light_ship_01_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	combat_unit_group = combat_unit_group_light_ship 	light_ship_02_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	combat_unit_group = combat_unit_group_light_ship 	light_ship_03_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	combat_unit_group = combat_unit_group_light_ship 	light_ship_04_loc = combat_unit_group_light_ship 		is_visible = { scope:num_units >= 100 } }
-	attach = { name = capital_ship_01 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_01_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_02_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = support_ship_01 	combat_unit_group = combat_unit_group_support_ship 	support_ship_01_loc = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = support_ship_02 	combat_unit_group = combat_unit_group_support_ship 	support_ship_02_loc = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
+	attach = { name = light_ship_03 	locator = light_ship_03_loc 	combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = light_ship_04 	locator = light_ship_04_loc 	combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { name = capital_ship_01 	locator = capital_ship_01_loc 	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = capital_ship_02 	locator = capital_ship_02_loc 	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = support_ship_01 	locator = support_ship_01_loc 	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = support_ship_02 	locator = support_ship_02_loc 	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
 
 
 }
@@ -176,11 +176,11 @@ fleet_diorama_02 = {
 
 
 	#####		LIGHT SHIP ATTACHMENTS		#####
-	attach = { name = light_ship_01 	combat_unit_group = combat_unit_group_light_ship 	light_ship_01_loc = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	combat_unit_group = combat_unit_group_light_ship 	light_ship_02_loc = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	combat_unit_group = combat_unit_group_light_ship 	light_ship_03_loc = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	combat_unit_group = combat_unit_group_light_ship 	light_ship_04_loc = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
-	attach = { name = light_ship_05 	combat_unit_group = combat_unit_group_light_ship 	light_ship_05_loc = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 150 } }
+	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
+	attach = { name = light_ship_03 	locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = light_ship_04 	locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { name = light_ship_05 	locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 150 } }
 
 }
 
@@ -216,9 +216,9 @@ fleet_diorama_03 = {
 	#####		CAPITAL SHIP ATTACHMENTS		#####
 	# If combat_unit_group is set, then the units of that group will be counted and passed to the is_visible trigger as scope:num_units 
 	# and a combat unit type of that group will be chosen for the fleet entity trigger as scope:combat_unit_type (see ../fleet_entities/*.txt scripts)
-	attach = { name = capital_ship_01 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_01_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_02_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = capital_ship_03 	combat_unit_group = combat_unit_group_capital_ship 	capital_ship_03_loc = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { name = capital_ship_01 	locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = capital_ship_02 	locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = capital_ship_03 	locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
 
 }
 
@@ -246,7 +246,7 @@ fleet_diorama_04 = {
 	# Attach all the correct units to locators
 	
 	#####		SUPPORT SHIP ATTACHMENTS		#####
-	attach = { name = support_ship_01 	combat_unit_group = combat_unit_group_support_ship 	support_ship_01_loc = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = support_ship_02 	combat_unit_group = combat_unit_group_support_ship 	support_ship_02_loc = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { name = support_ship_01 	locator = support_ship_01_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { name = support_ship_02 	locator = support_ship_02_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
 
 }

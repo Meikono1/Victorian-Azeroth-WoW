@@ -241,26 +241,6 @@ KOR = {
 	ai_will_do = { always = no }
 }
 
-LAO = {
-	states = { STATE_LAOS }
-	
-	required_num_states = 1
-
-	ai_will_do = { always = no }
-}
-
-VIE = {
-	states = { STATE_LAOS }
-	
-	ai_will_do = { always = no }
-}
-
-CMI = {
-	states = { STATE_CHIANG_MAI }
-	
-	ai_will_do = { always = no }
-}
-
 TIB = {
 	use_culture_states = yes
 
@@ -319,16 +299,6 @@ BRE = {
 	ai_will_do = { always = no }
 }
 
-PHI = {
-	states = { 
-		STATE_MINDANAO
-		STATE_LUZON
-		STATE_VISAYAS
-	}
-	required_num_states = 2
-	ai_will_do = { always = no }
-}
-
 PUE = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
@@ -377,15 +347,6 @@ NVS = {
 
 AST = {
 	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
-
-NZL = {
-	states = { 
-		STATE_NORTH_ISLAND
-		STATE_SOUTH_ISLAND
-	}
 
 	ai_will_do = { always = no }
 }
@@ -502,13 +463,6 @@ IRQ = {
 
 YAK = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-FER = {
-	states = {
-		STATE_SAKHALIN
-	}
 	ai_will_do = { always = no }
 }
 
@@ -814,13 +768,6 @@ BAS = {
 	ai_will_do = { always = no }
 }
 
-BHO = {
-	states = {
-		STATE_CENTRAL_INDIA
-	}
-	ai_will_do = { always = no }
-}
-
 BIK = {
 	provinces = { xF3C5EA x9601FD x84F1F8 xA99FB3 xC40894 xF591B3 x53A30A x01F0E0 xEBA05F x214E7A x6A103F xEB0422 x5DACF4 }
 	ai_will_do = { always = no }
@@ -888,13 +835,6 @@ SIK = {
 	ai_will_do = { always = no }
 }
 
-ACE = {
-	states = {
-		STATE_ACEH
-	}
-	ai_will_do = { always = no }
-}
-
 BAL = {
 	provinces = { x5ABA94 x100090 }
 	ai_will_do = { always = no }
@@ -907,13 +847,6 @@ BHU = {
 
 LAN = {
 	provinces = { x1C7417 x2A3D46 xE02CB6 }
-	ai_will_do = { always = no }
-}
-
-BRU = {
-	states = {
-		STATE_NORTH_BORNEO
-	}
 	ai_will_do = { always = no }
 }
 
@@ -934,13 +867,6 @@ LUA = {
 
 CHP = {
 	provinces = { xB0EFA0 x30EFA0 x3E6297 x036ED6 x32A2B1 x21D9CC xC8AFB5 x94CA13 x899047 }
-	ai_will_do = { always = no }
-}
-
-JOH = {
-	states = {
-		STATE_MALAYA
-	}
 	ai_will_do = { always = no }
 }
 
@@ -976,59 +902,8 @@ MNP = {
 	ai_will_do = { always = no }
 }
 
-TOB = {
-	states = {
-		STATE_NORTH_SUMATRA
-	}
-	ai_will_do = { always = no }
-}
-
-KLT = {
-	states = {
-		STATE_WEST_BORNEO
-		STATE_EAST_BORNEO
-		STATE_NORTH_BORNEO
-	}
-	ai_will_do = { always = no }
-}
-
-HTH = {
-	states = {
-		STATE_PEGU
-	}
-	ai_will_do = { always = no }
-}
-
-KRN = {
-	states = {
-		STATE_TENASSERIM
-	}
-	ai_will_do = { always = no }
-}
-
-KHM = {
-	states = {
-		STATE_LAOS
-	}
-	ai_will_do = { always = no }
-}
-
-EZO = {
-	states = {
-		STATE_HOKKAIDO
-	}
-	ai_will_do = { always = no }
-}
-
 QIA = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-FRS = {
-	states = {
-		STATE_FORMOSA
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1039,56 +914,6 @@ YUN = {
 
 YUE = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-HNA = {
-	states = {
-		STATE_HUNAN
-	}
-	ai_will_do = { always = no }
-}
-
-AHU = {
-	states = {
-		STATE_SOUTHERN_ANHUI
-		STATE_NORTHERN_ANHUI
-	}
-	ai_will_do = { always = no }
-}
-
-ZHI = {
-	states = {
-		STATE_ZHILI
-	}
-	ai_will_do = { always = no }
-}
-
-SHN = {
-	states = {
-		STATE_SHANXI
-	}
-	ai_will_do = { always = no }
-}
-
-GUI = {
-	states = {
-		STATE_GUIZHOU
-	}
-	ai_will_do = { always = no }
-}
-
-GNG = {
-	states = {
-		STATE_GUANGXI
-	}
-	ai_will_do = { always = no }
-}
-
-SHA = {
-	states = {
-		STATE_SHANDONG
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1172,13 +997,6 @@ SRK = {
 	ai_will_do = { always = no }
 }
 
-BTN = {
-	states = {
-		STATE_CELEBES
-	}
-	ai_will_do = { always = no }
-}
-
 SEL = {
 	provinces = { x23578B x8E3305 xC84C4C }
 	ai_will_do = { always = no }
@@ -1191,13 +1009,6 @@ PRK = {
 
 SUL = {
 	provinces = { x0180F0 x99D030 }
-	ai_will_do = { always = no }
-}
-
-TID = {
-	states = {
-		STATE_MOLUCCAS
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1306,21 +1117,6 @@ WAD = {
 MAD = {
 	use_culture_states = yes
 	
-	ai_will_do = { always = no }
-}
-
-KAU = {
-	states = { 
-		STATE_SOUTH_AUSTRALIA
-	}
-
-	ai_will_do = { always = no }
-}
-
-YUZ = {
-	states = { 
-		STATE_FORMOSA
-	}
 	ai_will_do = { always = no }
 }
 

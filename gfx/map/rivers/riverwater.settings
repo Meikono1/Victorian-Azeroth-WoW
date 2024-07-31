@@ -11,9 +11,9 @@
 # Base
 "WaterColorShallow" = hsv{ 0.55  0.5 0.1 }			# Color at low angle
 "WaterColorDeep" = 	hsv{ 0.62  0.9 0.1 }			# Most visible at high angle, when looking from above
-"WaterColorMapTint" = hsv{ 0.58  0.4 0.3 }			# Color faded in the more you zoom out. 
+"WaterColorMapTint" = hsv{ 0.58  0.4 0.3 }			# Color faded in the more you zoom out.
 "WaterColorMapTintAlpha" = 0.800000							# How much affect color map has as you zoom out. 1.0 = Nothing
-"WaterColorMapTintStartHeight" = 0.000000					# At what camera height the tinting starts 	
+"WaterColorMapTintStartHeight" = 0.000000					# At what camera height the tinting starts
 "WaterColorMapTintEndHeight" = 600.000000					# At what camera height the tinting is full
 "WaterDiffuseMultiplier" = 1.000000
 
@@ -27,18 +27,18 @@
 "WaterReflectionFlatten" = 0.000000							# Reflection blurry ness. The higher it is, the more the eflections "ignore" normals more to be less distorted the higher the value is.
 
 # Specular highlight settings
-"WaterGlossBase" = 1.00000									# Not to high, then it causes bloom spikes. 
+"WaterGlossBase" = 1.00000									# Not to high, then it causes bloom spikes.
 "WaterGlossScale" = 3.000000
-"WaterZoomedOutGlossScaleOffset" = -3.000000				# How much gloss base you have when you zoom out. 
+"WaterZoomedOutGlossScaleOffset" = -3.000000				# How much gloss base you have when you zoom out.
 "WaterSpecular" = 0.005										# Specular intensity
 "WaterSpecularFactor" = 0.02
 
 # Foam effect
 "WaterFoamScale" = 1.2										# Size of foam, lower value is bigger in size
 "WaterFoamDistortFactor" = -0.10000							# How much the foam should be distorted
-"WaterFoamShoreMaskDepth" = 0.13000						# Foam fade on beaches low = no cut of. 1.0 very smooth cut of. 
+"WaterFoamShoreMaskDepth" = 0.13000						# Foam fade on beaches low = no cut of. 1.0 very smooth cut of.
 "WaterFoamShoreMaskSharpness" = 8.00000
-"WaterFoamNoiseScale" = 0.060000							# Scale of the mask which generates some randomness to where foam appears. 
+"WaterFoamNoiseScale" = 0.060000							# Scale of the mask which generates some randomness to where foam appears.
 "WaterFoamNoiseSpeed" = -0.010000							# The speed of the noise moving over the map
 "WaterFoamStrength" = 2.0
 
@@ -46,10 +46,10 @@
 "WaterZoomedInHeight" = 0.000000
 "WaterZoomedOutHeight" = 800.000000
 
-"WaterRefractionShoreMaskDepth" = 1.000000					# Lower value, more refractions closer to shore. 
+"WaterRefractionShoreMaskDepth" = 1.000000					# Lower value, more refractions closer to shore.
 "WaterRefractionShoreMaskSharpness" = 1.000000				# Sharpness of refraction mask
 "WaterRefractionFadeStart" = 0.000000
-"WaterRefractionFadeEnd" = 4000.000000						
+"WaterRefractionFadeEnd" = 4000.000000
 "WaterRefractionScale" = 80.000000							# Detail level of refractions
 
 "WaterFlowSpeed" = 0.0850000

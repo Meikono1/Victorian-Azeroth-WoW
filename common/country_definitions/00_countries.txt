@@ -178,7 +178,6 @@ JAP = {
 	tier = empire
 	
 	cultures = { japanese }
-	capital = STATE_KANSAI
 }
 
 ITA = {
@@ -1320,7 +1319,6 @@ BHO = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
 }
 
 BIK = {
@@ -1341,7 +1339,6 @@ BUN = {
 	tier = principality
 	
 	cultures = { kanauji }
-	capital = STATE_CENTRAL_INDIA
 }
 
 GWA = {
@@ -1352,7 +1349,6 @@ GWA = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
 }
 
 HYD = {
@@ -1384,7 +1380,6 @@ IND = {
 	tier = principality
 	
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
 }
 
 JAI = {
@@ -1569,7 +1564,6 @@ ACE = {
 	
 	tier = principality
 	
-	capital = STATE_ACEH
 	cultures = { sumatran }
 	is_named_from_capital = yes
 }
@@ -1582,7 +1576,6 @@ BAL = {
 	tier = principality
 	
 	cultures = { balinese moluccan }
-	capital = STATE_SUNDA_ISLANDS
 }
 
 BHU = {
@@ -1603,7 +1596,6 @@ LAN = {
 	tier = principality
 	
 	cultures = { hakka }
-	capital = STATE_WEST_BORNEO
 }
 
 BRU = {
@@ -1614,7 +1606,6 @@ BRU = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_NORTH_BORNEO
 }
 
 BUR = {
@@ -1635,7 +1626,6 @@ CAM = {
 	tier = kingdom
 	
 	cultures = { khmer }
-	capital = STATE_CAMBODIA
 }
 
 CHI = {
@@ -1646,7 +1636,6 @@ CHI = {
 	tier = empire
 	
 	cultures = { manchu han } 
-	capital = STATE_BEIJING
 }
 
 DAI = {
@@ -1657,7 +1646,6 @@ DAI = {
 	tier = kingdom
 	
 	cultures = { vietnamese }
-	capital = STATE_TONKIN
 }
 
 JAV = {
@@ -1668,8 +1656,6 @@ JAV = {
 	tier = principality
 	
 	cultures = { javan }
-	capital = STATE_WEST_JAVA
-	is_named_from_capital = yes
 }
 
 KOR = {
@@ -1680,7 +1666,6 @@ KOR = {
 	tier = kingdom
 	
 	cultures = { korean }
-	capital = STATE_SEOUL
 }
 
 LAO = {
@@ -1691,8 +1676,6 @@ LAO = {
 	tier = kingdom
 	
 	cultures = { lao }
-	capital = STATE_LAOS
-	is_named_from_capital = yes
 }
 
 LUA = {
@@ -1703,7 +1686,6 @@ LUA = {
 	tier = principality
 	
 	cultures = { lao }
-	capital = STATE_LAOS
 	
 }
 
@@ -1715,7 +1697,6 @@ CHP = {
 	tier = principality
 	
 	cultures = { lao }
-	capital = STATE_LAOS
 }
 
 VIE = {
@@ -1726,7 +1707,6 @@ VIE = {
 	tier = principality
 	
 	cultures = { lao }
-	capital = STATE_LAOS
 }
 
 JOH = {
@@ -1736,7 +1716,6 @@ JOH = {
 	
 	tier = principality
 	
-	capital = STATE_MALAYA
 	cultures = { malay }
 }
 
@@ -1748,7 +1727,6 @@ SIA = {
 	tier = kingdom
 	
 	cultures = { thai }
-	capital = STATE_BANGKOK
 }
 
 CMI = {
@@ -1759,7 +1737,6 @@ CMI = {
 	tier = principality
 	
 	cultures = { thai shan }
-	capital = STATE_CHIANG_MAI
 }
 
 TIB = {
@@ -1800,7 +1777,6 @@ PHI = {
 	tier = kingdom
 	
 	cultures = { filipino spanish }
-	capital = STATE_LUZON
 }
 
 MCH = {
@@ -2656,8 +2632,6 @@ TOB = { # Toba
 	tier = principality
 	
 	cultures = { batak }
-	
-	capital = STATE_NORTH_SUMATRA
 }
 
 KLT = { # Kalimantan
@@ -2668,8 +2642,6 @@ KLT = { # Kalimantan
 	tier = principality
 	
 	cultures = { bornean dayak }
-	
-	capital = STATE_WEST_BORNEO
 }
 
 HTH = { # Hanthawaddy
@@ -2680,8 +2652,6 @@ HTH = { # Hanthawaddy
 	tier = principality
 	
 	cultures = { mon }
-	
-	capital = STATE_PEGU
 }
 
 KRN = { # Karen
@@ -2692,8 +2662,6 @@ KRN = { # Karen
 	tier = principality
 	
 	cultures = { karen }
-	
-	capital = STATE_PEGU
 }
 
 KHM = { # Khmu
@@ -2704,8 +2672,6 @@ KHM = { # Khmu
 	tier = principality
 	
 	cultures = { khmu }
-	
-	capital = STATE_LAOS
 }
 
 KHN = { # Kachin
@@ -2726,8 +2692,6 @@ AIN = { # Ainu Mosir
 	tier = principality
 	
 	cultures = { ainu }
-	
-	capital = STATE_HOKKAIDO
 }
 
 EZO = { # Ezo
@@ -2738,8 +2702,6 @@ EZO = { # Ezo
 	tier = principality
 	
 	cultures = { japanese ainu }
-	
-	capital = STATE_HOKKAIDO
 }
 
 QIA = { # Qian
@@ -2750,8 +2712,6 @@ QIA = { # Qian
 	tier = principality
 	
 	cultures = { miao }
-	
-	capital = STATE_GUANGDONG
 }
 
 FRS = { # Formosa
@@ -2762,9 +2722,6 @@ FRS = { # Formosa
 	tier = principality
 	
 	cultures = { min }
-	
-	capital = STATE_FORMOSA
-	is_named_from_capital = yes
 }
 
 YUN = { # Yunnan
@@ -2781,8 +2738,6 @@ YUE = { # Yue
 	country_type = unrecognized
 	tier = principality
 	cultures = { yue }
-	
-	capital = STATE_GUANGDONG
 }
 
 OAX = { # Oaxaca
@@ -3164,7 +3119,6 @@ HNA = { #Hunan
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_HUNAN
 }
 
 AHU = { #Anhui
@@ -3172,7 +3126,6 @@ AHU = { #Anhui
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_SOUTHERN_ANHUI
 }
 
 ZHI = { #Zhili
@@ -3180,7 +3133,6 @@ ZHI = { #Zhili
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_ZHILI
 }
 
 SHN = { #Shanxi
@@ -3188,7 +3140,6 @@ SHN = { #Shanxi
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_SHANXI
 }
 
 GUI = { #Guizhou
@@ -3196,7 +3147,6 @@ GUI = { #Guizhou
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han}
-	capital = STATE_GUIZHOU
 }
 
 GNG = { #Guangxi
@@ -3204,7 +3154,6 @@ GNG = { #Guangxi
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han yue zhuang}
-	capital = STATE_GUANGXI
 }
 
 SIH = { #Sichuan
@@ -3219,7 +3168,6 @@ SHA = { #Shandong
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han }
-	capital = STATE_SHANDONG
 }
 
 XIB = {
@@ -3235,7 +3183,6 @@ TPG = {
 	tier = empire
 	cultures = { han hakka }
 	religion = protestant
-	capital = STATE_NANJING
 }
 
 GNI = {
@@ -3797,6 +3744,17 @@ KALIMDOR = {
 
 EASTERNKINGDOMS = {
 	color = { 28 57 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RIPLASH_RUINS
+}
+
+OUTLANDS = {
+	color = { 160 26 26 }
 	
 	country_type = recognized
 	

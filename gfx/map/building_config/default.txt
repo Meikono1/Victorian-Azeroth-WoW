@@ -40,6 +40,11 @@ african_city_tradecenter_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+african_city_financialdistrict_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
 
 
 african_urban_city_residential_poor_01_mesh = {
@@ -137,6 +142,11 @@ african_farm_ranch_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+
+african_rural_manorhouse_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 african_rural_residential_poor_01_mesh = {
@@ -388,6 +398,11 @@ arabic_city_tradecenter_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+arabic_city_financialdistrict_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
 
 
 arabic_urban_city_residential_poor_01_mesh = {
@@ -485,6 +500,11 @@ arabic_farm_ranch_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+
+arabic_rural_manorhouse_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 arabic_rural_residential_poor_01_mesh = {
@@ -731,7 +751,7 @@ asian_urban_city_centerpiece_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
-asian_urban_city_tradecenter_01_mesh = {
+asian_city_tradecenter_01_mesh = {
 	size = 2
 	construction_entity = "building_construction_3x3_entity"
 }
@@ -739,6 +759,11 @@ asian_urban_city_tradecenter_01_mesh = {
 asian_city_govadmin_01_mesh = {
 	size = 2
 	construction_entity = "building_construction_3x3_entity"
+}
+
+asian_city_financialdistrict_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
 }
 
 
@@ -838,6 +863,11 @@ asian_rural_ranch_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+
+asian_rural_manorhouse_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 asian_rural_residential_poor_01_mesh = {
@@ -1089,6 +1119,10 @@ european_city_tradecenter_01_mesh = {
 	construction_entity = "building_construction_4x4_entity"
 }
 
+european_city_financialdistrict_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 european_urban_residential_poor_01_mesh = {
@@ -1186,6 +1220,11 @@ european_rural_ranch_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+
+european_rural_manorhouse_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 european_rural_building_poor_01_mesh = {
@@ -1458,6 +1497,11 @@ latin_city_tradecenter_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+latin_city_financialdistrict_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
 
 
 latin_urban_city_residential_poor_01_mesh = {
@@ -1555,6 +1599,11 @@ latin_farm_ranch_01_mesh = {
 	construction_entity = "building_construction_3x3_entity"
 }
 
+
+latin_rural_manorhouse_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
 
 
 latin_rural_residential_poor_01_mesh = {

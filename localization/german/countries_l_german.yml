@@ -1139,6 +1139,8 @@
  KALIMDOR_ADJ: "Kalimdorisch"
  EASTERNKINGDOMS: "Östliches Königreich"
  EASTERNKINGDOMS_ADJ: "Östliche Königreicher"
+ EASTERNKINGDOMS: "Scherbenwelt"
+ EASTERNKINGDOMS_ADJ: "Scherbenweltler"
  #Dynamic countries
  dyn_c_united_sovereign_archduchy: "Vereinigtes Souveränes Erzherzogtum"
  dyn_c_united_sovereign_archduchy_adj: "Amerikanisch-erzherzöglich"

@@ -606,7 +606,7 @@ STATE_GULF_OF_ALASKA = {
 
 STATE_SUMATRA_SEA = {
     id = 3120
-    provinces = {}
+    provinces = { "x21C9C9" }
 }
 
 STATE_GREAT_AUSTRALIAN_BIGHT = {
@@ -636,7 +636,7 @@ STATE_MOLUCCA_SEA = {
 
 STATE_ARAFURA_SEA = {
     id = 3126
-    provinces = { "x21C9C9" }
+    provinces = {}
 }
 
 STATE_PHILIPPINES_SEA = {

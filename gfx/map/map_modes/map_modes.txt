@@ -85,11 +85,11 @@ mm_default = {
 	map_painting_mode = countries
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
-	map_markers = { battle_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker state_effect_marker sea_node_marker colony_marker revolutionary_movement_marker }
+	map_markers = { battle_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker input_goods_shortage_summary_marker state_effect_marker sea_node_marker colony_marker revolutionary_movement_marker diplomatic_play_marker }
 	map_tooltip_offset = state
 
 	is_visible = no 					# special behaviour, overriden in code
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = no
 
 	gradient_border_settings = default
@@ -99,14 +99,16 @@ mm_ongoing_diplo_play = {
 	map_painting_mode = countries
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
-	map_markers = { colony_marker strategic_objective_marker battle_marker hq_marker diplomatic_play_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker input_shortage_marker military_formation_marker state_effect_marker sea_node_marker revolutionary_movement_marker naval_invasion_marker }
+	map_markers = { colony_marker strategic_objective_marker battle_marker hq_marker diplomatic_play_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker input_shortage_marker input_goods_shortage_summary_marker military_formation_marker state_effect_marker sea_node_marker revolutionary_movement_marker naval_invasion_marker }
 	map_tooltip_offset = state
 
 	is_visible = no 					# special behaviour, overriden in code
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = yes
 
 	gradient_border_settings = default
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_strategic_region = {
@@ -118,6 +120,8 @@ mm_strategic_region = {
 	is_visible = yes
 
 	gradient_border_settings = default
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_state = {
@@ -128,6 +132,17 @@ mm_state = {
 	is_visible = yes
 
 	gradient_border_settings = states
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_building_relationship = {
+	map_painting_mode = countries
+	map_names = countries
+	map_markers = { building_relationship_marker construction_marker construction_summary_marker construction_queue_marker city_marker input_shortage_marker input_goods_shortage_summary_marker state_effect_marker sea_node_marker }
+	gradient_border_settings = default
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_theater = {
@@ -137,9 +152,11 @@ mm_theater = {
 	map_markers = { strategic_objective_marker sea_node_marker }
 	map_tooltip_offset = theater
 
-	show_occupation = yes
+	map_texture_mode = occupation
 
 	gradient_border_settings = default
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_military = {
@@ -150,7 +167,7 @@ mm_military = {
 
 	gradient_border_settings = mapmode_extra
 	is_visible = yes
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = yes
 
 	# Texture usage
@@ -167,6 +184,8 @@ mm_military = {
 	secondary_color_alpha = @color_orange
 	alternate_color_red = @color_red
 	alternate_color_green = @color_green
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 # Hidden map mode, because it is currently unoptimized / unlocalized / for debug
@@ -178,7 +197,7 @@ mm_player_military_access = {
 
 	gradient_border_settings = mapmode_extra
 	is_visible = no # Hidden!
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = yes
 
 	# Texture usage
@@ -191,6 +210,8 @@ mm_player_military_access = {
 	secondary_color_red = @war_ally_warleader # Other country, which has given player military access
 	secondary_color_green = @war_ally # Other country, occupied by country that has given player military access
 	secondary_color_blue = @war_enemy_warleader # Other country, at war with you (never gives military access)
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_military_with_past_battles = {
@@ -201,7 +222,7 @@ mm_military_with_past_battles = {
 
 	gradient_border_settings = mapmode_extra
 	is_visible = no
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = yes
 
 	# Texture usage
@@ -218,6 +239,8 @@ mm_military_with_past_battles = {
 	secondary_color_alpha = @color_blue
 	alternate_color_red = @color_red
 	alternate_color_green = @color_green
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_peace_deal = {
@@ -228,7 +251,7 @@ mm_peace_deal = {
 
 	gradient_border_settings = mapmode_extra
 	is_visible = no
-	show_occupation = yes
+	map_texture_mode = occupation
 	show_formation_movement_arrows = yes
 
 	# Texture usage
@@ -245,6 +268,8 @@ mm_peace_deal = {
 	secondary_color_alpha = @color_blue
 	alternate_color_red = @color_red
 	alternate_color_green = @color_green
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_interest_group = {
@@ -347,6 +372,19 @@ mm_culture_overview = {
 	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
+mm_religion_overview = {
+	map_painting_mode = religion_overview
+	map_markers = { }
+	map_names = religions
+
+	gradient_border_settings = default
+
+	is_visible = yes
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
 mm_religion_nationally = {
 	map_painting_mode = player_religion_population
 	map_markers = { }
@@ -403,12 +441,11 @@ mm_country_attitude = {
 	map_painting_mode = country_attitude
 	map_painting_mode_secondary = country_attitude
 	map_painting_mode_alternate = country_attitude
-	map_markers = { }
+	map_markers = { country_diplomacy_marker }
 
 	gradient_border_settings = mapmode_extra
 	is_visible = yes
 	is_visible_to_countryless_observer = no
-	show_occupation = no
 	has_fog_of_war = no
 
 	# Texture usage
@@ -417,9 +454,9 @@ mm_country_attitude = {
 	# Texture slots
 	primary_color_red = @belligerent_domineering
 	primary_color_green = @antagonistic_rebellious
-	primary_color_blue = @wary
+	primary_color_blue = @cautious
 	primary_color_alpha = @disinterested
-	secondary_color_red = @cautious
+	secondary_color_red = @wary
 	secondary_color_green = @conciliatory_cooperative
 	secondary_color_blue = @loyal_protective
 	secondary_color_alpha = @genial
@@ -432,12 +469,11 @@ mm_country_relations = {
 	map_painting_mode = country_relations
 	map_painting_mode_secondary = country_relations
 	map_painting_mode_alternate = country_relations
-	map_markers = { }
+	map_markers = { country_diplomacy_marker }
 
 	gradient_border_settings = mapmode_extra
 	is_visible = yes
 	is_visible_to_countryless_observer = no
-	show_occupation = no
 	has_fog_of_war = no
 
 	# Texture usage
@@ -487,7 +523,7 @@ mm_trade = {
 	gradient_border_settings = default
 	has_fog_of_war = no
 
-	#soundeffect = "snapshot:/Dynamic/low_pass_world"
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_province_template_terrain = {
@@ -507,7 +543,7 @@ mm_theater_interaction = {
 	map_markers = { hq_marker sea_node_marker }
 
 	gradient_border_settings = interactive
-	show_occupation = yes
+	map_texture_mode = occupation
 	has_fog_of_war = no
 
 	# Texture usage
@@ -739,6 +775,8 @@ mm_construction_interaction = {
 	map_names = states
 	map_markers = { construction_marker construction_summary_marker construction_queue_marker building_potential_marker sea_infra_marker state_infra_marker }
 
+	use_alternate_country_borders = yes
+
 	gradient_border_settings = interactive
 	has_fog_of_war = no
 
@@ -830,6 +868,8 @@ mm_establish_colony_interaction = {
 	secondary_color_red = @color_green				# Can Activate
 	secondary_color_blue = @establish_colony_active	# Can Deactivate
 	secondary_color_alpha = @color_red				# Cannot Activate, but is valid
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_issue_decree_interaction = {
@@ -848,6 +888,8 @@ mm_issue_decree_interaction = {
 	secondary_color_red = @color_green				# Can Activate
 	secondary_color_blue = @issue_decree_active		# Can Deactivate
 	secondary_color_alpha = @color_red				# Cannot Activate, but is valid
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_incorporate_state_interaction = {
@@ -867,6 +909,8 @@ mm_incorporate_state_interaction = {
 	secondary_color_blue = @incorporate_state_active		# Can Deactivate
 	secondary_color_alpha = @color_red						# Cannot Activate, but is valid
 	alternate_color_red = @incorporate_state_incorporated	# Active - Cannot Deactivate (Fully incorporated)
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_move_capital_interaction = {
@@ -885,6 +929,8 @@ mm_move_capital_interaction = {
 	secondary_color_red = @color_green				# Can move
 	secondary_color_alpha = @color_red				# Cannot move, but is valid
 	alternate_color_red = @move_capital_current		# Current Capital
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_move_market_capital_interaction = {
@@ -903,12 +949,14 @@ mm_move_market_capital_interaction = {
 	secondary_color_red = @color_green					# Can move
 	secondary_color_alpha = @color_red					# Cannot move, but is valid
 	alternate_color_red = @move_market_capital_current	# Current Capital
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_reset_production_methods_interaction = {
 	map_painting_mode = states
 	map_names = states
-	map_markers = { construction_marker construction_summary_marker construction_queue_marker building_potential_marker input_shortage_marker sea_infra_marker state_infra_marker }
+	map_markers = { construction_marker construction_summary_marker construction_queue_marker building_potential_marker input_shortage_marker input_goods_shortage_summary_marker sea_infra_marker state_infra_marker }
 	gradient_border_settings = interactive
 	has_fog_of_war = no
 
@@ -920,6 +968,8 @@ mm_reset_production_methods_interaction = {
 	secondary_color_red = @color_green				# Can move
 	secondary_color_alpha = @color_red				# Cannot move, but is valid
 	alternate_color_red = @move_capital_current		# Current Capital
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_hq_interaction = {
@@ -967,20 +1017,24 @@ mm_budget = {
 	map_names = countries
 	map_markers = { state_budget_balance_marker }
 
-	show_occupation = yes
+	map_texture_mode = occupation
 
 	gradient_border_settings = default
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_political = {
 	map_painting_mode = clout_nationally
 	map_names = states
-	map_markers = { interestgroup_marker decree_marker revolutionary_movement_marker }
+	map_markers = { lobby_marker interestgroup_marker decree_marker revolutionary_movement_marker }
 
 	gradient_border_settings = heatmap
-	show_occupation = yes
+	map_texture_mode = occupation
 
 	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_loyalists = {
@@ -1001,12 +1055,12 @@ mm_diplomatic = {
 	map_painting_mode = country_attitude
 	map_painting_mode_secondary = country_attitude
 	map_painting_mode_alternate = country_attitude
-	map_markers = { colony_marker diplomatic_play_marker war_marker }
+	map_markers = { country_diplomacy_marker colony_marker diplomatic_play_marker war_marker }
 
 	gradient_border_settings = mapmode_extra
 	is_visible = no
 	is_visible_to_countryless_observer = no
-	show_occupation = yes
+	map_texture_mode = occupation
 	has_fog_of_war = no
 
 	# Texture usage
@@ -1015,9 +1069,9 @@ mm_diplomatic = {
 	# Texture slots
 	primary_color_red = @belligerent_domineering
 	primary_color_green = @antagonistic_rebellious
-	primary_color_blue = @wary
+	primary_color_blue = @cautious
 	primary_color_alpha = @disinterested
-	secondary_color_red = @cautious
+	secondary_color_red = @wary
 	secondary_color_green = @conciliatory_cooperative
 	secondary_color_blue = @loyal_protective
 	secondary_color_alpha = @genial
@@ -1057,9 +1111,13 @@ mm_radicals = {
 mm_production = {
 	map_painting_mode = gdp
 	map_names = states
-	map_markers = { construction_marker construction_summary_marker construction_queue_marker input_shortage_marker employment_marker event_marker production_marker }
+	map_markers = { construction_marker construction_summary_marker construction_queue_marker input_shortage_marker input_goods_shortage_summary_marker employment_marker event_marker production_marker }
+
+	use_alternate_country_borders = yes
 
 	gradient_border_settings = heatmap
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_gdp = {
@@ -1070,6 +1128,8 @@ mm_gdp = {
 
 	gradient_border_settings = heatmap
 	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_gdp_nationally = {
@@ -1080,12 +1140,90 @@ mm_gdp_nationally = {
 	is_visible_to_countryless_observer = no
 	gradient_border_settings = heatmap
 	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_gdp_ownership_ratio = {
+	map_painting_mode = gdp_ownership_ratio
+	map_names = states
+	map_markers = { event_marker }
+	is_visible = yes
+	is_visible_to_countryless_observer = no
+	gradient_border_settings = heatmap
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
 mm_migration = {
 	map_painting_mode = migration
 	map_markers = { colony_marker state_migration_target_marker }
 	map_names = states
+	is_visible = yes
+
+	gradient_border_settings = heatmap
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_power_blocs = {
+	map_painting_mode = power_blocs
+	map_painting_mode_alternate = colonizable_provinces
+	map_markers = { all_power_bloc_country_leverage_marker power_bloc_leader_marker }
+	map_names = power_blocs
+	map_texture_mode = power_blocs
+	is_visible = yes
+
+	gradient_border_settings = mapmode
+	has_fog_of_war = yes
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_power_bloc_leverage = {
+	map_painting_mode = power_blocs
+	map_painting_mode_alternate = colonizable_provinces
+	map_markers = { specific_power_bloc_country_leverage_marker power_bloc_leader_marker }
+	map_names = power_blocs
+	map_texture_mode = power_blocs_leverage
+	is_visible = no
+
+	gradient_border_settings = mapmode
+	has_fog_of_war = yes
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_migration_pull = {
+	map_painting_mode = migration_pull
+	map_markers = { colony_marker state_migration_target_marker }
+	map_names = states
+	is_visible = yes
+	is_visible_to_countryless_observer = no
+	gradient_border_settings = heatmap
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_state_mass_migration_pull = {
+	map_painting_mode = state_mass_migration_pull
+	map_markers = { colony_marker state_migration_target_marker }
+	map_names = states
+	is_visible = yes
+
+	gradient_border_settings = heatmap
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_mass_migration_pull = {
+	map_painting_mode = mass_migration_pull
+	map_markers = { colony_marker state_migration_target_marker }
+	map_names = countries
 	is_visible = yes
 
 	gradient_border_settings = heatmap
