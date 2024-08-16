@@ -1,6 +1,6 @@
 ﻿building_dark_portal = {
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/big_ben.dds"
+	texture = "gfx/interface/icons/building_icons/dark_portal.dds"
 	expandable = no
 	downsizeable = no
 	unique = no
