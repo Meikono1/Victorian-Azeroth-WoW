@@ -5,10 +5,15 @@ pm_default_building_dark_portal = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
 	
 	country_modifiers = {
-		unscaled = {
+		workforce_scaled = {
 			country_prestige_add = 25
 			country_authority_add = 50
 		}
+	}
+
+	level_scaled = {
+		building_employment_clergymen_add = 400
+		building_employment_laborers_add = 600
 	}
 }
 
