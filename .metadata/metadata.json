@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 	"name":"Victorian Azeroth",
 	"id":"",
 	"version":"",
@@ -7,3 +8,17 @@
 	"short_description":"",
 	"tags":[],
 	"relationships":[]}
+=======
+  "name" : "Victorian Azeroth",
+  "id" : "3300564446",
+  "version" : "0",
+  "game_id" : "victoria3",
+  "supported_game_version" : "1.7.5",
+  "short_description" : "Victorian Azeroth",
+  "tags" : ["Alternative History", "Total Conversion"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
+>>>>>>> Stashed changes
