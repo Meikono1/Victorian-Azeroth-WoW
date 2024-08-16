@@ -102,6 +102,12 @@
 	s:STATE_LEGION_FRONT = {
 	}
 	s:STATE_THE_DARK_PORTAL_OUTLANDS = {
+		region_state:OUTLANDS={
+			create_building={
+				building="building_dark_portal"
+				level=1
+			}
+		}	
 	}
 	s:STATE_TWILIGHT_RIDGE = {
 	}
