@@ -1,0 +1,64 @@
+#
+# Power Bloc Statues environment settings
+#
+
+# Sun
+sun_color = { 1.1 1.02 1.05 }
+sun_intensity = 2.0
+#			+Right/-Left    Height  -Front/+Back
+sun_direction = {  0.33 	0.9 	-0.4 }
+
+# Cubemap
+cubemap_intensity = 1.5
+cubemap_y_rotation = 80
+cubemap = "gfx/map/environment/cubemap_pb_statues.dds"
+
+
+######## Postprocessing ########
+# Matches global post effect settings
+hue_offset = 0.0
+saturation_scale = 0.95
+value_scale = 1.1
+levels_min = hsv{ 0.0 1.0 0.03 } 	# Color values adjusment
+levels_max = hsv{ 0.0 0.0 0.95 } 	# Color values adjusment
+colorbalance = { 1.04 0.95 0.9 }	# Color balance
+
+tonemap_function = "Uncharted"				# Custom tonemap, Uses curve variables below
+tonemap_curve = {
+	shoulder_strength = 0.318
+	linear_strength = 0.145
+	linear_angle = 0.148
+	toe_strength = 0.423
+	toe_numerator = 0.025
+	toe_denominator = 0.288
+	linear_white = 4.20
+}
+
+######## Graphics ########
+# Bloom
+bloom_strength = 0.04
+bloom_steepness = 1.5
+bloom_threshold = 0.15
+
+# Map global SSAO settings
+ssao = {
+	enabled = yes
+
+	# Settings
+	samples = 8					# Sample iterations
+	radius = 0.11				# Radius for sample point, less means tighter samples and crisper edges
+	max_radius = 1.0			# Culling distance
+	depth_distance = 0.01		# Depth distance for sample point
+	max_depth = 0.8				# Culling distance, should be based on scale of the world
+
+	apply_scale = 1.00			# Shifts the final results towards less overall occlusion
+	apply_bias = 0.63			# Bias to adjust occlusion errors on final result
+	apply_power = 50.0			# Strength/Hardness of the occlusion
+	blend_factor = 0.9			# Final Blend amount (practically opacity)
+
+	# Blur
+	blur_enabled = yes
+	blur_width = 5.0			# Blur of the noise
+	blur_scale = 1.0			# Does nothing when above 0
+	blur_depth_power = 1.0		# Results as a sharpening of occluders edgs
+}
