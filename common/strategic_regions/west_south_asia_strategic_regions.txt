@@ -2,27 +2,27 @@
 region_arabic = {
 	graphical_culture = "arabic"
 	map_color = { 0.1 0.7 0.1 }
-	states = { STATE_OMAN STATE_ABU_DHABI STATE_YEMEN STATE_NEJD STATE_BAGHDAD STATE_BASRA STATE_MOSUL }
+	states = { STATE_OMAN STATE_NEJD STATE_BAGHDAD STATE_BASRA STATE_MOSUL }
 }
 
 region_persia = {
 	graphical_culture = "arabic"
 	map_color = { 119 105 225 }
-	states = { STATE_KHORASAN STATE_ISFAHAN STATE_MAZANDARAN STATE_IRAKAJEMI STATE_LARISTAN STATE_FARS STATE_KHUZESTAN STATE_TABRIZ STATE_LURISTAN }
+	states = { STATE_TABRIZ STATE_LURISTAN }
 }
 
 region_central_asia = {
 	graphical_culture = "arabic"
 	capital_province = x8ABC27
 	map_color = { 0.24 0.65 0.34 }
-	states = { STATE_UZBEKIA STATE_KHIVA STATE_TURKMENIA STATE_AKMOLINSK }
+	states = { STATE_AKMOLINSK }
 }
 
 region_caucasus = {
 	graphical_culture = "arabic"
 	capital_province = xFB38B0
 	map_color = { 1 0.1 0.2 }
-	states = { STATE_ARMENIA STATE_AZERBAIJAN STATE_DAGESTAN STATE_KUBAN STATE_GREATER_CAUCASUS STATE_ROSTOV STATE_ASTRAKHAN }
+	states = { STATE_AZERBAIJAN STATE_DAGESTAN STATE_KUBAN STATE_GREATER_CAUCASUS STATE_ROSTOV STATE_ASTRAKHAN }
 }
 
 region_north_india = {

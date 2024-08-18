@@ -19,26 +19,6 @@
 			}
 		}
 	}
-	s:STATE_UPPER_YENISEYSK = {
-		region_state:RUS = {
-			create_pop = {
-				culture = siberian
-				size = 21780
-			}
-			create_pop = {
-				culture = russian
-				size = 852
-			}
-			create_pop = {
-				culture = ugrian
-				size = 7980
-			}
-			create_pop = {
-				culture = yakut
-				size = 2568
-			}
-		}
-	}
 	s:STATE_YAKUTSK = {
 		region_state:RUS = {
 			create_pop = {

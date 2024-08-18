@@ -1823,9 +1823,7 @@ ai_strategy_default = {
 						c:RUS ?= {
 							any_scope_state = {
 								OR = {
-									state_region = s:STATE_UZBEKIA
 									state_region = s:STATE_KHIVA
-									state_region = s:STATE_TURKMENIA
 								}
 							}
 						}
@@ -2670,9 +2668,7 @@ ai_strategy_default = {
 				scope:target_country = {
 					any_scope_state = {
 						OR = {
-							state_region = s:STATE_UZBEKIA
 							state_region = s:STATE_KHIVA
-							state_region = s:STATE_TURKMENIA
 						}
 					}
 				}

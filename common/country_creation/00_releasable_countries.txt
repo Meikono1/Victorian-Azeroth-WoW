@@ -42,14 +42,6 @@ GEO = {
 	ai_will_do = { always = no }
 }
 
-ARM = {
-	states = {
-		STATE_ARMENIA
-	}
-	
-	ai_will_do = { always = no }
-}
-
 DAG = {
 	states = {
 		STATE_DAGESTAN
@@ -364,17 +356,6 @@ RIO = {
 	ai_will_do = { always = no }
 }
 
-NEN = {
-	states = { 
-		STATE_MASSACHUSETTS
-		STATE_CONNECTICUT
-		STATE_RHODE_ISLAND
-		STATE_VERMONT
-	}
-
-	ai_will_do = { always = no }
-}
-
 TWT = {
 	use_culture_states = yes
 
@@ -578,7 +559,6 @@ KUR = {
 SIB = {
 	states = {
 		STATE_YAKUTSK
-		STATE_UPPER_YENISEYSK
 	}
 
 	required_num_states = 4
@@ -681,30 +661,8 @@ SER = {
 	ai_will_do = { always = no }
 }
 
-ABU = {
-	states = {
-		STATE_ABU_DHABI
-	}
-	ai_will_do = { always = no }
-}
-
 AFG = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-BUK = {
-	states = {
-		STATE_UZBEKIA
-	}
-	ai_will_do = { always = no }
-}
-
-KHI = {
-	states = {
-		STATE_KHIVA
-		STATE_TURKMENIA
-	}
 	ai_will_do = { always = no }
 }
 
@@ -725,16 +683,6 @@ OMA = {
 PER = {
 	use_culture_states = yes
 	required_num_states = 4
-	ai_will_do = { always = no }
-}
-
-YEM = {
-	states = {
-		STATE_YEMEN
-	}
-	possible = {
-		has_technology_researched = nationalism
-	}
 	ai_will_do = { always = no }
 }
 
@@ -887,13 +835,6 @@ MKT = {
 
 PRM = {
 	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
-TRC = {
-	states = {
-		STATE_TURKMENIA
-	}
 	ai_will_do = { always = no }
 }
 
@@ -1063,7 +1004,6 @@ KLM = {
 CAU = {
 	states = {
 		STATE_GREATER_CAUCASUS
-		STATE_ARMENIA
 		STATE_AZERBAIJAN
 	}
 	

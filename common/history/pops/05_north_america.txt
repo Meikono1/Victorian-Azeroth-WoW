@@ -1,25 +1,4 @@
 ﻿POPS = {
-	s:STATE_DISTRICT_OF_COLUMBIA = {
-		# total population of DC in 1830 was 30261, and 33745 in 1840. 32003 serves as a workable average.
-		# + Fairfax County, VA. Total pop in 1830 was 9204, 5203 free/4001 slaves
-		# + Montgomery Co, Prince George's Co, Charles co, St. Mary's Co and Calvert Co in MD- 80418 total, 42176 free/38242 slaves
-		# Number of actual pops adjusted from historical research to better fit the buildings
-		region_state:USA = { 
-			create_pop = {
-				culture = yankee
-				size = 27544
-			}		
-			create_pop = {
-				culture = dixie
-				size = 86263
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 7818
-			}
-		}
-	}
 	s:STATE_MARYLAND = { # Actually Maryland + Delaware
 		region_state:USA = {
 			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
@@ -42,79 +21,6 @@
 				pop_type = slaves
 				culture = afro_american
 				size = 58467
-			}
-		}
-	}
-	s:STATE_RHODE_ISLAND = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 104820
-			}
-		}
-	}
-	s:STATE_CONNECTICUT = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 199228
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 754484
-			}
-			create_pop = {
-				culture = afro_american
-				size = 11996
-			}
-			create_pop = {
-				culture = irish
-				size = 52400
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 28400
-			}
-		}
-	}
-	s:STATE_VERMONT = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 282848
-			}
-		}
-	}
-	s:STATE_YUKON_TERRITORY = {
-		region_state:HBC = {
-			create_pop = {
-				culture = athabaskan
-				size = 12000
-			}
-		}
-	}
-	s:STATE_NORTHWEST_TERRITORIES = {
-		region_state:HBC = {
-			create_pop = {
-				culture = athabaskan
-				size = 16000
-			}
-		}
-	}
-	s:STATE_BERMUDA = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 14848
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 12352
 			}
 		}
 	}

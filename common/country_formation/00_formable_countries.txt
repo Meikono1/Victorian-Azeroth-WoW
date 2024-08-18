@@ -10,9 +10,7 @@
 
 ARA = {
 	states = {
-		STATE_YEMEN
 		STATE_OMAN
-		STATE_ABU_DHABI
 		STATE_NEJD
 		STATE_BAGHDAD
 		STATE_MOSUL
@@ -30,9 +28,6 @@ ARA = {
 
 TRH = {
 	states = { 
-		STATE_UZBEKIA
-		STATE_TURKMENIA
-		STATE_KHIVA
 		STATE_AKMOLINSK
 	}
 
@@ -45,20 +40,9 @@ TRH = {
 	}
 }
 
-YEM = {
-	states = {
-		STATE_YEMEN
-	}
-
-	required_states_fraction = 1
-	
-	ai_will_do = { always = yes }
-}
-
 CAU = {
 	states = {
 		STATE_GREATER_CAUCASUS
-		STATE_ARMENIA
 		STATE_AZERBAIJAN
 	}
 
