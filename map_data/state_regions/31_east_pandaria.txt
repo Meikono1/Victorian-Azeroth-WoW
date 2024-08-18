@@ -1216,7 +1216,7 @@ STATE_SHANG_XI_TRAINING_GROUNDS = {
     naval_exit_id = 3073
 }
 
-STATE_WU-SONG-WILLAGE = {
+STATE_WU_SONG_WILLAGE = {
     id = 3159
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x141ABA" "x1A77EA" "x202061" "x20EF01" "x2D2CC8" "x2E8EE8" "x2EA8EE" "x349E91" "x38B60D" "x482E88" "x51BDFA" "x544E52" "x5694AE" "x78B5D4" "x928FFD" "x939ACE" "x9963BE" "xA05932" "xBDD368" "xC0B060" "xC3A894" "xC5CE93" "xC82A67" "xC82AAC" "xE050A0" "xF8D42E" }
