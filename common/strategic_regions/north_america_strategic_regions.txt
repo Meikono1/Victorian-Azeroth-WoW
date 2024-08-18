@@ -3,23 +3,23 @@
 region_canada = {
 	capital_province = x8C4FC7
 	map_color = { 0.21 0.81 0.82 }
-	states = { STATE_NORTHWEST_TERRITORIES  }
+	states = {  }
 }
 
 region_new_england = {
 	capital_province = x8F9450
 	map_color = { 0 0.63 0.94 }
-	states = { STATE_MASSACHUSETTS STATE_CONNECTICUT STATE_RHODE_ISLAND STATE_VERMONT STATE_BERMUDA }
+	states = { }
 }
 
 region_pacific_coast = {
 	capital_province = xBD0F03
 	map_color = { 0.471 0.824 0.196 }
-	states = { STATE_YUKON_TERRITORY }
+	states = { }
 }
 
 region_dixie = {
 	capital_province = xD4D27E
 	map_color = { 0.25 1 1 }
-	states = { STATE_DISTRICT_OF_COLUMBIA }
+	states = { }
 }

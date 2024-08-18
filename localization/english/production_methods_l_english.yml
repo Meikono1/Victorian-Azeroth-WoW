@@ -2,7 +2,6 @@
   
   # Common
  pm_base:0 "Base"
- pmg_base_building_dark_portal:0 "$pm_base$"
  pmg_base_building_food_industry:1 "$pm_base$"
  pmg_base_building_textile_mills:1 "$pm_base$"
  pmg_base_building_furniture_manufacturies:1 "$pm_base$"
@@ -52,7 +51,6 @@
  pmg_base_building_subsistence_fishing_villages:0 "$pm_base$"
  pmg_base_building_subsistence_rice_paddies:0 "$pm_base$"
 
- pm_default_building_dark_portal:0 "Default Production"
  pm_default_building_eiffel_tower:0 "Default Production"
  pm_default_building_cristo_redentor:0 "Default Production"
  pmg_luxury_building_textile_mills:0 "Luxury Production"

@@ -17,7 +17,6 @@
 
 	complete = {
 		calc_true_if = {
-			owns_entire_state_region = STATE_YUKON_TERRITORY
 			owns_entire_state_region = STATE_NORTHWEST_TERRITORIES
 		}
 	}
@@ -63,7 +62,6 @@ je_canada_gbr = {
 	complete = {
 		any_subject_or_below = {
 			calc_true_if = {
-				owns_entire_state_region = STATE_YUKON_TERRITORY
 				owns_entire_state_region = STATE_NORTHWEST_TERRITORIES
 			}
 		}

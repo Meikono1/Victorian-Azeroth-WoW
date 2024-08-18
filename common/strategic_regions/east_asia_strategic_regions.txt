@@ -45,7 +45,7 @@ region_japan = {
 region_west_siberia = {
 	capital_province = x0C0895
 	map_color = { 0.68 1 0.32 }
-	states = { STATE_UPPER_YENISEYSK }
+	states = { }
 }
 
 region_east_siberia = {

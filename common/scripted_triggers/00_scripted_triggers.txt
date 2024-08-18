@@ -437,9 +437,6 @@ has_subsistence_building = {
 
 owned_central_asia_region_states = {
 	owns_entire_state_region = STATE_AKMOLINSK
-	owns_entire_state_region = STATE_UZBEKIA
-	owns_entire_state_region = STATE_TURKMENIA
-	owns_entire_state_region = STATE_KHIVA
 }
 
 european_colonies_north_africa = {

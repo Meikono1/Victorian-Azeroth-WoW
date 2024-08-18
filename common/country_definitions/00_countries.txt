@@ -98,7 +98,6 @@ USA = {
 	tier = empire
 	
 	cultures = { yankee dixie }
-	capital = STATE_DISTRICT_OF_COLUMBIA
 }
 
 CSA = {
@@ -1020,8 +1019,6 @@ ABU = {
 	tier = principality
 	
 	cultures = { bedouin }
-	capital = STATE_ABU_DHABI
-	is_named_from_capital = yes
 }
 
 AFG = {
@@ -1078,7 +1075,6 @@ BUK = {
 	tier = principality
 	
 	cultures = { uzbek }
-	capital = STATE_UZBEKIA
 }
 
 GEO = {
@@ -1123,7 +1119,6 @@ KHI = {
 	tier = principality
 	
 	cultures = { uzbek }
-	capital = STATE_KHIVA
 }
 
 KOK = {
@@ -1189,7 +1184,6 @@ PER = {
 	tier = empire
 	
 	cultures = { persian azerbaijani}
-	capital = STATE_IRAKAJEMI
 }
 
 JAB = {
@@ -1210,8 +1204,6 @@ YEM = {
 	tier = kingdom
 	
 	cultures = { yemenite bedouin }
-	capital = STATE_YEMEN
-	is_named_from_capital = yes
 }
 
 MAH = {
@@ -1222,7 +1214,6 @@ MAH = {
 	tier = principality
 	
 	cultures = { bedouin yemenite }
-	capital = STATE_YEMEN
 }
 
 KAT = {
@@ -1233,7 +1224,6 @@ KAT = {
 	tier = principality
 	
 	cultures = { bedouin yemenite }
-	capital = STATE_YEMEN
 }
 
 ZAI = {
@@ -1244,8 +1234,6 @@ ZAI = {
 	tier = principality
 	
 	cultures = { yemenite bedouin }
-#   religion = Technically Sunni at game start, but if it re-emerges, it should be Shiite
-	capital = STATE_YEMEN
 }
 
 LAH = {
@@ -1257,7 +1245,6 @@ LAH = {
 	
 	cultures = { bedouin yemenite }
 	religion = sunni
-	capital = STATE_YEMEN
 }
 
 BHN = {
@@ -1268,7 +1255,6 @@ BHN = {
 	tier = principality
 	
 	cultures = { bedouin }
-	capital = STATE_ABU_DHABI
 }
 
 HND = {
@@ -2557,8 +2543,6 @@ MLT = { # Malta
 	tier = city_state
 	
 	cultures = { maltese }
-	
-	capital = STATE_MALTA
 }
 
 HZJ = { # Hazarajat
@@ -2579,8 +2563,6 @@ TRC = { # Turkmenia
 	tier = principality
 
 	cultures = { turkmen }
-
-	capital = STATE_TURKMENIA
 }
 
 SIB = { # Siberia
@@ -2838,8 +2820,6 @@ ATB = { # Athabaska
 	tier = principality
 	
 	cultures = { athabaskan }
-	
-	capital = STATE_NORTHWEST_TERRITORIES
 }
 
 CSC = { # Cascadia
@@ -3235,7 +3215,6 @@ TRH = { # Turkestan
 	tier = empire
 	
 	cultures = { uzbek kirgiz kazak turkmen tajik uighur }
-	capital = STATE_UZBEKIA
 }
 
 # Saxe-Coburg-Gotha
@@ -3755,6 +3734,17 @@ EASTERNKINGDOMS = {
 
 OUTLANDS = {
 	color = { 160 26 26 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RIPLASH_RUINS
+}
+
+PANDARIA = {
+	color = { 133 46 18 }
 	
 	country_type = recognized
 	
