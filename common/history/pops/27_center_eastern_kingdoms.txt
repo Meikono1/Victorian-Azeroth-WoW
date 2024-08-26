@@ -1,102 +1,402 @@
 POPS = {
 	s:STATE_SWIFTGEAR_STATION = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_MENETHIL_KEEP = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DUN_MODR = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_WHELGARS_RETREAT = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_GREENWARDENS_GROVE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DUN_ALGAZ = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_VERMILLION_REDOUBT = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_MAW_OF_MADNESS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_KIRTHAVEN = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_THUNDERMAR = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_TWILIGHT_SHORE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_FIREBEARDS_PATROL = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_CRUCIBLE_OF_CARNAGE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_WYRMS_BEND = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_GRIM_BATOL = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_VICTORS_POINT = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_BASTION_OF_TWILIGHT = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_MOGROSH_STRONGHOLD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DUNWALD_RUINS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_OBSIDIAN_FOREST = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_FARSTRIDER_LODGE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_STONEWROUGHT_DAM = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_VALLEY_OF_KINGS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_THELSAMAR = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_NORTH_GATE_OUTPOST = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_GOL_BOLAR_QUARRY = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_AMBERSTILL_RANCH = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_KHARANOS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_SHIMMER_RIDGE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_IRONFORGE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_GNOMEREGAN = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_FROSTMANE_HOLD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_COLDRIDGE_VALLEY = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_FIREWATCH_RIDGE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DUSTFIRE_VALLEY = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_THE_CAULDRON = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_SEA_OF_CINDERS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_NEW_KARGATH = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DRAGONS_MOUTH = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_ANGOR_FORTRESS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_ULDAMAN = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DUSTWIND_DIG = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_AGMONDS_END = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_LETHLOR_RAVINE = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_DREADMAUL_ROCK = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_MORGANS_VIGIL = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_RUINS_OF_THAURISSAN = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_BLACKROCK_STRONGHOLD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_BLACKROCK_MOUNTAIN = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 	s:STATE_FLAMESTAR_POST = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
 	}
 }
