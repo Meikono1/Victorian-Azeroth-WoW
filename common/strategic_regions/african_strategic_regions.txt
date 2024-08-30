@@ -3,7 +3,7 @@ region_senegal = {
 	graphical_culture = "african"
 	capital_province = x186409
 	map_color = { 72 208 203 }
-	states = { STATE_SIERRA_LEONE STATE_LIBERIA }
+	states = { }
 }
 
 region_niger = {

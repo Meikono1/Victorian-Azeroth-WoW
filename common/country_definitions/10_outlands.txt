@@ -9,6 +9,17 @@ AUCHENAI = {
 	capital = STATE_AUCHINDOUN
 }
 
+AREA_FIFTYTWO = {
+	color = { 64 487 140 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_AREA_52
+}
+
 ALLERIAN_STRONGHOLD = {
 	color = { 176 176 41 }
 	
@@ -20,6 +31,28 @@ ALLERIAN_STRONGHOLD = {
 	capital = STATE_ALLERIAN_STRONGHOLD
 }
 
+ANGOROSH_TRIBE = {
+	color = { 196 168 82 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ANGO_ROSH_GROUNDS
+}
+
+APEXIS_FLAYERS = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FORGE_CAMP_TERROR
+}
+
 AZEROTH_DEFENDERS = {
 	color = { 176 176 41 }
 	
@@ -28,7 +61,40 @@ AZEROTH_DEFENDERS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ALLERIAN_STRONGHOLD
+	capital = STATE_THE_DARK_PORTAL_OUTLANDS
+}
+
+BASHIR = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_CRYSTAL_SPINE
+}
+
+BLADESPIRE_CLAN = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_GRUULS_LAIR
+}
+
+BLACKWIND_WYRMCULTISTS = {
+	color = { 35 22 60 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RAVENS_WOOD
 }
 
 BLEEDING_HOLLOW_CLAN = {
@@ -39,7 +105,29 @@ BLEEDING_HOLLOW_CLAN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ALLERIAN_STRONGHOLD
+	capital = STATE_ZETH_GOR
+}
+
+BLOODMAUL_CLAN = {
+	color = { 203 50 50 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_BLOODMAUL_POST
+}
+
+BLOODSCALE_TRIBE = {
+	color = { 151 29 29 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_TWIN_SPIRE
 }
 
 BONECHEWER_RUINS = {
@@ -53,6 +141,17 @@ BONECHEWER_RUINS = {
 	capital = STATE_ALLERIAN_STRONGHOLD
 }
 
+BOOM = {
+	color = { 89 89 89 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_AREA_52
+}
+
 BOULDERFIST_CLAN = {
 	color = { 100 62 15 }
 	
@@ -64,6 +163,17 @@ BOULDERFIST_CLAN = {
 	capital = STATE_BLEEDING_HOLLOW_RUINS
 }
 
+BURNING_LEGION_INVASION_NETHERSTORM = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FORGE_BASE_OBLIVION
+}
+
 BURNING_LEGION_KILJADEN = {
 	color = { 155 57 39 }
 	
@@ -72,7 +182,7 @@ BURNING_LEGION_KILJADEN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_LEGION_HOLD
+	capital = STATE_THRONE_KILJAEDEN
 }
 
 BURNING_LEGION_LEGIONS_HOLD = {
@@ -97,6 +207,17 @@ BURNING_LEGION_TWILIGHT_HOLD = {
 	capital = STATE_TWILIGHT_RIDGE
 }
 
+BURNING_LEGION_FORGE_CAMPS = {
+	color = { 155 57 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FORGE_CAMP_WRATH
+}
+
 CABAL = {
 	color = { 134 55 167 }
 	
@@ -105,7 +226,18 @@ CABAL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_AUCHINDOUN
+	capital = STATE_STONEBREAKER_HOLD
+}
+
+CENARION_CIRCLE = {
+	color = { 134 55 167 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RUUAN_WEALD
 }
 
 CENARION_REFUGE = {
@@ -116,7 +248,18 @@ CENARION_REFUGE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_AUCHINDOUN
+	capital = STATE_TEL_REDOR
+}
+
+COILFANG_TRIBE = {
+	color = { 45 153 94 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_COILFANG_RESERVOIR
 }
 
 COILSCAR_POINT = {
@@ -138,7 +281,18 @@ CONSORTIUM = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_OSHU_GUN
+	capital = STATE_ECO_DOME_MIDREALM
+}
+
+DARKCREST_TRIBE = {
+	color = { 94 83 102 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FERALFEN_VILLAGE
 }
 
 DARK_CONCLAVE = {
@@ -174,6 +328,17 @@ ECLIPSE_POINT = {
 	capital = STATE_WILDHAMMER_STRONGHOLD
 }
 
+ETHEREUM = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_MANAFORGE_ULTRIUS
+}
+
 FALCON_WATCH = {
 	color = { 83 146 23 }
 	
@@ -183,6 +348,17 @@ FALCON_WATCH = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_FALCON_WATCH
+}
+
+FERALFEN_TRIBE = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FERALFEN_VILLAGE
 }
 
 FIREWING_POINT = {
@@ -196,6 +372,17 @@ FIREWING_POINT = {
 	capital = STATE_FIREWING_POINT
 }
 
+GRISHNATH = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RAVENS_WOOD
+}
+
 GORDUNNI = {
 	color = { 83 146 23 }
 	
@@ -204,7 +391,7 @@ GORDUNNI = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_FIREWING_POINT
+	capital = STATE_WINDYREED_PASS
 }
 
 HALAA = {
@@ -237,7 +424,29 @@ HONOR_HOLD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_DEN_HAALESH
+	capital = STATE_HONOR_HOLD
+}
+
+OMENAI_TEMPLE = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_TEMPLE_TELHAMAT
+}
+
+RUUAN_OK = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RUUAN_WEALD
 }
 
 ILLIDARY = {
@@ -262,6 +471,17 @@ ILLIDARY_POINT = {
 	capital = STATE_LEGION_HOLD
 }
 
+OGRILA = {
+	color = { 55 113 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }
+	capital = STATE_FORGE_CAMP_TERROR
+}
+
 KIL_SORROW_CLAN = {
 	color = { 110 84 178 }
 	
@@ -273,6 +493,17 @@ KIL_SORROW_CLAN = {
 	capital = STATE_KIL_SORROW_FORTRESS
 }
 
+KIRIN_VAR = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }
+	capital = STATE_KIRIN_VAR_VILLAGE
+}
+
 KURENAI = {
 	color = { 110 84 178 }
 	
@@ -282,6 +513,17 @@ KURENAI = {
 	
 	cultures = { kvaldir }
 	capital = STATE_TELAAR
+}
+
+LASHHAN = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }
+	capital = STATE_SYLVANAAR
 }
 
 LITHIC = {
@@ -306,6 +548,17 @@ MAGHAR = {
 	capital = STATE_GARADAR
 }
 
+MOKNATHAL = {
+	color = { 155 112 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_VEKHAAR_STAND
+}
+
 MURKBLOOD_TRIBE = {
 	color = { 60 110 110 }
 	
@@ -315,6 +568,28 @@ MURKBLOOD_TRIBE = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_WARMAUL_HILL
+}
+
+NETHERWING = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_CELESTIAL_RIDGE
+}
+
+PROTECTORATE = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_MANAFORGE_ULTRIUS
 }
 
 RAVENOUS_FLAYERS = {
@@ -328,6 +603,17 @@ RAVENOUS_FLAYERS = {
 	capital = STATE_ALTER_SHA_TAR
 }
 
+RAZAANI = {
+	color = { 128 90 57 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FORGE_CAMP_ANGER
+}
+
 RAZERTHORN_FLAYERS = {
 	color = { 128 90 57 }
 	
@@ -336,7 +622,7 @@ RAZERTHORN_FLAYERS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ALTER_SHA_TAR
+	capital = STATE_CENARION_THICKET
 }
 
 REFUGEE_CAMP = {
@@ -402,7 +688,7 @@ SHADOW_COUNCIL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ALTER_SHA_TAR
+	capital = STATE_THE_DEATHFORGE
 }
 
 SHAFFAR = {
@@ -435,7 +721,7 @@ SHATTERED_HAND_CLAN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_BLACKWIND_VALLEY
+	capital = STATE_HELLFIRE_CITADEL
 }
 
 SHALASSI = {
@@ -457,7 +743,7 @@ SHA_TAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_WARDENS_CAGE
+	capital = STATE_SHATTRATH_CITY
 }
 
 SHA_TAR_ASSAULT = {
@@ -479,7 +765,7 @@ SHA_TAR_OUTPOST = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_WARDENS_CAGE
+	capital = STATE_BLEEDING_HOLLOW_RUINS
 }
 
 SKETTIS = {
@@ -501,7 +787,18 @@ SKITH = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_SKETTIS
+	capital = STATE_THE_BONE_WASTES
+}
+
+SPOREGGAR = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SPOREGGAR
 }
 
 STONEBREAKER_HOLD = {
@@ -526,6 +823,28 @@ STONESCYTHE_FLAYER = {
 	capital = STATE_FALCON_WATCH
 }
 
+SUNFURY = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_TEMPEST_KEEP
+}
+
+SYLVANNAR = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SYLVANAAR
+}
+
 THRALLMAR = {
 	color = { 211 98 33 }
 	
@@ -534,7 +853,7 @@ THRALLMAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_STONEBREAKER_HOLD
+	capital = STATE_THRALLMAR
 }
 
 THE_ALDOR = {
@@ -545,7 +864,7 @@ THE_ALDOR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ALTER_SHA_TAR
+	capital = STATE_SHATTRATH_CITY
 }
 
 THE_EARTHEN_RING = {
@@ -567,7 +886,29 @@ THE_SCRYERS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_SANCTUM_OF_STARS
+	capital = STATE_SHATTRATH_CITY
+}
+
+THUNDERLORD_STRONGHOLD = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_THUNDERLORD_STRONGHOLD
+}
+
+TOSHLEY_STATION = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SINGING_RIDGE
 }
 
 TUUREM = {
@@ -589,7 +930,29 @@ UNYIELDING_DEFENDER = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_TUUREM
+	capital = STATE_EXPEDITION_ARMORY
+}
+
+UMBRAFEN_TRIBE = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_UMBRAFEN_VILLAGE
+}
+
+VEKHNIR = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_VEKHAAR_STAND
 }
 
 VIR_AANI = {
@@ -622,7 +985,7 @@ WILDHAMMER_CLAN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_SANCTUM_OF_STARS
+	capital = STATE_WILDHAMMER_STRONGHOLD
 }
 
 WINDYREED_TRIBE = {
@@ -634,4 +997,15 @@ WINDYREED_TRIBE = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_WINDYREED_PASS
+}
+
+ZAXXIS = {
+	color = { 27 43 1 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_MANAFORGE_BNAAR
 }

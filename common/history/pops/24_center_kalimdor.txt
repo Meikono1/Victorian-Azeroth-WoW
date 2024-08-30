@@ -423,4 +423,20 @@ POPS = {
 			}
 		}
 	}
+	s:STATE_KEZAN = {
+		region_state:KALIMDOR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_LOST_ISLES = {
+		region_state:KALIMDOR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
 }

@@ -1,4 +1,42 @@
 ﻿DIPLOMACY = {
+	c:BURNING_LEGION_KILJADEN ?= {
+		create_diplomatic_pact = {
+			country = c:BURNING_LEGION_INVASION_NETHERSTORM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BURNING_LEGION_LEGIONS_HOLD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BURNING_LEGION_TWILIGHT_HOLD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BURNING_LEGION_FORGE_CAMPS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SHADOW_COUNCIL
+			type = protectorate
+		}
+	}
+	c:COILFANG_TRIBE ?= {
+		create_diplomatic_pact = {
+			country = c:BLOODSCALE_TRIBE
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:DARKCREST_TRIBE
+			type = personal_union
+		}
+	}
+	c:SHADOW_COUNCIL ?= {
+		create_diplomatic_pact = {
+			country = c:CABAL
+			type = puppet
+		}
+	}
 	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:PHI

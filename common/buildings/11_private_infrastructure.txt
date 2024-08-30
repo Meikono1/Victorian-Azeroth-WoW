@@ -43,7 +43,6 @@ building_railway = {
 					state_region = s:STATE_IRKUTSK
 					state_region = s:STATE_BURYATIA
 					state_region = s:STATE_TRANS_BAIKAL
-					state_region = s:STATE_YAKUTSK
 					state_region = s:STATE_OKHOTSK
 					state_region = s:STATE_AMUR
 					state_region = s:STATE_OUTER_MANCHURIA

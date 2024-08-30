@@ -1,6 +1,1 @@
-﻿BUILDINGS={
-	s:STATE_YAKUTSK={
-		region_state:RUS={
-		}
-	}
-}
+﻿

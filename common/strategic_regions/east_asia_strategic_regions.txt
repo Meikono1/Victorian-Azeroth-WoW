@@ -51,7 +51,7 @@ region_west_siberia = {
 region_east_siberia = {
 	capital_province = xF9D594
 	map_color = { 0.204 0.251 0.808 }
-	states = { STATE_YAKUTSK }
+	states = { }
 }
 
 region_oceania = {

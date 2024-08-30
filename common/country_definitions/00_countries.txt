@@ -1051,8 +1051,6 @@ DAG = {
 	tier = kingdom
 	
 	cultures = { north_caucasian }
-	capital = STATE_DAGESTAN
-	is_named_from_capital = yes
 }
 
 AZB = {
@@ -1063,7 +1061,6 @@ AZB = {
 	tier = kingdom
 	
 	cultures = { azerbaijani }
-	capital = STATE_AZERBAIJAN
 	is_named_from_capital = yes
 }
 
@@ -1085,8 +1082,6 @@ GEO = {
 	tier = kingdom
 	
 	cultures = { georgian }
-	capital = STATE_GREATER_CAUCASUS
-	is_named_from_capital = yes
 }
 
 HDJ = {
@@ -1108,7 +1103,6 @@ IRQ = {
 	tier = kingdom
 	
 	cultures = { mashriqi }
-	capital = STATE_BAGHDAD
 }
 
 KHI = {
@@ -1159,8 +1153,6 @@ NEJ = {
 	tier = principality
 	
 	cultures = { bedouin }
-	capital = STATE_NEJD
-	is_named_from_capital = yes
 }
 
 OMA = {
@@ -1172,8 +1164,6 @@ OMA = {
 	
 	cultures = { bedouin }
 	religion = shiite
-	capital = STATE_OMAN
-	is_named_from_capital = yes
 }
 
 PER = {
@@ -2582,8 +2572,6 @@ YAK = { # Yakutia
 	tier = principality
 
 	cultures = { yakut }
-
-	capital = STATE_YAKUTSK
 }
 
 ASM = { # Assam
@@ -3064,14 +3052,6 @@ NCA = {
 	cultures = { north_caucasian }
 }
 
-DON = {
-	color = { 245 221 42 }
-	country_type = recognized
-	tier = principality
-	cultures = { russian ukrainian }
-	capital = STATE_ROSTOV
-}
-
 SYR = {
 	color = { 241 245 240 }
 	country_type = unrecognized
@@ -3183,7 +3163,6 @@ KUR = {
 	tier = kingdom
 	
 	cultures = { kurdish }
-	capital = STATE_MOSUL
 }
 
 GLI = {
@@ -3361,7 +3340,6 @@ CIR = {
 	tier = principality
 	
 	cultures = { circassian }
-	capital = STATE_KUBAN
 }
 
 # Caucasian Imamate / Chechnya
@@ -3373,7 +3351,6 @@ CHC = {
 	tier = principality
 	
 	cultures = { north_caucasian }
-	capital = STATE_DAGESTAN
 }
 
 # Assyria
@@ -3385,7 +3362,6 @@ ASS = {
 	tier = kingdom
 	
 	cultures = { assyrian }
-	capital = STATE_MOSUL
 }
 
 # Kalmykia
@@ -3397,7 +3373,6 @@ KLM = {
 	tier = principality
 	
 	cultures = { kalmyk }
-	capital = STATE_ASTRAKHAN
 }
 
 # Schleswig
@@ -3451,7 +3426,6 @@ CAU = {
 	tier = empire
 	
 	cultures = { azerbaijani armenian georgian }
-	capital = STATE_GREATER_CAUCASUS
 }
 
 SAV = {

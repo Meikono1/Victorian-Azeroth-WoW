@@ -435,10 +435,6 @@ has_subsistence_building = {
 	}
 }
 
-owned_central_asia_region_states = {
-	owns_entire_state_region = STATE_AKMOLINSK
-}
-
 european_colonies_north_africa = {
 	or = {
 		owns_entire_state_region = STATE_NIGER
@@ -451,8 +447,6 @@ european_colonies_west_africa = {
 		owns_entire_state_region = STATE_NIGERIA
 		owns_entire_state_region = STATE_EAST_HAUSALAND
 		owns_entire_state_region = STATE_VOLTA
-		owns_entire_state_region = STATE_LIBERIA
-		owns_entire_state_region = STATE_SIERRA_LEONE
 	}
 }
 

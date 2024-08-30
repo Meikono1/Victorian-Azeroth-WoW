@@ -399,4 +399,76 @@ POPS = {
 			}
 		}
 	}
+	s:STATE_LARGO_OVERLOOK = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_DARKWOOD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_FARSON_HOLD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_FORGOTTEN_HILL = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_IRONCLAD_GARRISON = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_SLAGWORKS = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_BARADIN_HOLD = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_WARDENS_VIGIL = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
+	s:STATE_VASHJ_IR = {
+		region_state:EASTERNKINGDOMS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000
+			}
+		}
+	}
 }

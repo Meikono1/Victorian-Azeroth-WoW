@@ -675,7 +675,7 @@ STATE_NORTH_PACIFIC_OCEAN_03 = {
 
 STATE_NORTH_PACIFIC_OCEAN_04 = {
     id = 3133
-    provinces = { "x5684CF" }
+    provinces = { "x5684CF" "xD63049" }
     impassable = { "x5684CF" }
 }
 
