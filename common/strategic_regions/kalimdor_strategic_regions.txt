@@ -54,6 +54,12 @@ region_dustwallow_marsh = {
 	states = { STATE_DREADMURK_SHORE STATE_BLACKHOOF_VILLAGE STATE_BRACKENWALL_VILLAGE STATE_DIREHORN_POST STATE_THERAMORE_ISLE STATE_DEN_OF_FLAME STATE_ONYXIAS_LAIR }
 }
 
+region_maelstrom = {
+	capital_province = xA0A0C0
+	map_color = { 200 200 0 }
+	states = { STATE_KEZAN STATE_LOST_ISLES }
+}
+
 region_felwood = {
 	capital_province = xA0A0C0
 	map_color = { 200 200 0 }

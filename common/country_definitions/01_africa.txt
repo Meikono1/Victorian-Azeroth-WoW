@@ -68,8 +68,6 @@ LIB = {
 	tier = principality
 	
 	cultures = { afro_american }
-	capital = STATE_LIBERIA
-	is_named_from_capital = yes
 }
 
 MOR = {
@@ -175,18 +173,6 @@ ZUL = {
 	tier = principality
 	
 	cultures = { zulu }
-}
-
-SIL = {
-	color = { 123  206  101 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { afro_caribbean }
-	capital = STATE_SIERRA_LEONE
-	is_named_from_capital = yes
 }
 
 MTB = {
@@ -1186,7 +1172,6 @@ BSS = { # Bassa
 	tier = principality
 	
 	cultures = { bassa }
-	capital = STATE_LIBERIA
 }
 
 TIR = { # Tiris

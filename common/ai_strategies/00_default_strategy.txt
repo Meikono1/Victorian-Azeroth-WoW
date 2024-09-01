@@ -1817,52 +1817,6 @@ ai_strategy_default = {
 				add = 100
 			}
 
-			if = { #Indian suzerain will be aggressive against Afganistan, if Afghanistan is threatened by Russia.
-				limit = {
-					AND = {
-						c:RUS ?= {
-							any_scope_state = {
-								OR = {
-									state_region = s:STATE_KHIVA
-								}
-							}
-						}
-						ROOT = {
-							country_is_in_europe = yes
-							OR = {
-								any_scope_state = {
-									OR = {
-										region = sr:region_north_india
-										region = sr:region_south_india
-									}
-									count >= 3
-								}
-								any_country = {
-									is_subject_of = prev
-									any_scope_state = {
-										OR = {
-											region = sr:region_north_india
-											region = sr:region_south_india
-										}
-										count >= 3
-									}
-								}
-							}
-						}
-						scope:target_country = {
-							any_scope_state = {
-								OR = {
-									state_region = s:STATE_KABUL
-									state_region = s:STATE_HERAT
-									state_region = s:STATE_KANDAHAR
-								}
-							}
-						}
-					}
-				}
-				add = 50
-			}
-
 			if = {
 				limit = {
 					lenient_ai_behavior_trigger = yes
@@ -2636,7 +2590,6 @@ ai_strategy_default = {
 					any_scope_state = {
 						OR = {
 							state_region = s:STATE_KUBAN
-							state_region = s:STATE_DAGESTAN
 						}
 					}
 				}
@@ -2686,7 +2639,6 @@ ai_strategy_default = {
 						OR = {
 							state_region = s:STATE_URALSK
 							state_region = s:STATE_SEMIRECHE
-							state_region = s:STATE_AKMOLINSK
 						}
 					}
 				}
@@ -2825,7 +2777,6 @@ ai_strategy_default = {
 					any_scope_state = {
 						OR = {
 							state_region = s:STATE_KUBAN
-							state_region = s:STATE_DAGESTAN
 							state_region = s:STATE_NORTH_CAUCASUS
 						}
 					}
