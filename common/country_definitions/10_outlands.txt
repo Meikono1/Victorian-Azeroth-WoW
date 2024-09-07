@@ -170,7 +170,7 @@ BURNING_LEGION_INVASION_NETHERSTORM = {
 	
 	tier = empire
 	
-	cultures = { kvaldir }	
+	cultures = { burning_legion_dread_lord burning_legion_doom_guard }	
 	capital = STATE_FORGE_BASE_OBLIVION
 }
 

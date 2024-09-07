@@ -29,8 +29,70 @@ elemental_arcan = {
 	}
 }
 
-elemental_air = {
+elemental_arcan_ancient = {
 	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { arcan_element elemental_ancient elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_arcangolem = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { arcangolem arcan_element elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_air = {
+	color = rgb{ 137 212 178 }
 	religion = protestant
 	traits = { air_element elemental_heritage }
 	male_common_first_names={
@@ -60,41 +122,10 @@ elemental_air = {
 	}
 }
 
-elemental_fire = {
+elemental_earth = {
 	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { fire_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_water = {
-	color = rgb{ 0 155 255 }
-	religion = protestant
-	traits = { water_element elemental_heritage }
+	traits = { earth_element elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -215,6 +246,99 @@ elemental_earth_lasher = {
 	}
 }
 
+elemental_fire = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { fire_element elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_fire_sunfury_phoenix = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { sunfury phoenix fire_element elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_mana_beast = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { mana_element voidwalker elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 elemental_mana_fiend = {
 	color = rgb{ 0 155 255 }
 	religion = protestant
@@ -250,6 +374,68 @@ elemental_mana_voidwalker = {
 	color = rgb{ 0 155 255 }
 	religion = protestant
 	traits = { mana_element voidwalker elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_shadow_shade = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { shadow_element shade elemental_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+elemental_water = {
+	color = rgb{ 0 155 255 }
+	religion = protestant
+	traits = { water_element elemental_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

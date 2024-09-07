@@ -1,7 +1,7 @@
-stormwind_human = {
-	color = rgb{ 88 237 201 }
+aether_tech_bloodelf = {
+	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { alliance human_heritage }
+	traits = { aether_tech bloodelf_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -15,24 +15,22 @@ stormwind_human = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
-nessingway_human = {
-	color = rgb{ 88 237 201 }
+aether_tech_broken = {
+	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { nessingway human_heritage }
+	traits = { aether_tech broken draenei_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -46,24 +44,22 @@ nessingway_human = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
-kirintor_human = {
-	color = rgb{ 88 237 201 }
+aether_tech_dwarf = {
+	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { wizard human_heritage }
+	traits = { aether_tech dwarf_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -77,24 +73,22 @@ kirintor_human = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
-darnassus_nightelf = {
-	color = rgb{ 88 237 201 }
+aldor_dreanei = {
+	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { alliance nightelf_heritage }
+	traits = { aldor draenei_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -108,24 +102,22 @@ darnassus_nightelf = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
-cenarius_druid_nightelf = {
+areaft_goblin = {
 	color = rgb{ 88 237 201 }
 	religion = protestant
-	traits = { druid nightelf_heritage }
+	traits = { areafiftytwo goblin_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -139,448 +131,12 @@ cenarius_druid_nightelf = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-exodar_draenei = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { alliance draenei_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nessingway_broken_draenei = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { nessingway broken draenei_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ironforge_dwarf = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { alliance dwarf_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-gnomeregan_gnome = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { alliance gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-darkspeer_troll = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undercity_forsaken_undead = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde forsaken undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nessingway_forsaken_undead = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { nessingway forsaken undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-orgrimmar_orc = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-maghar_orc = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { mag_har orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-thunderbluff_tauren = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde tauren_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-cenarius_druid_tauren = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { druid tauren_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nessingway_tauren = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { nessingway tauren_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-silvermoon_bloodelf = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde bloodelf_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_bloodelf = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { wizard bloodelf_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -604,24 +160,22 @@ bilgewater_goblin = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
-ebonblade_deathknight = {
+bloodwarder_bloodelf = {
 	color = rgb{ 88 237 201 }
 	religion = protestant
-	traits = { ebon_blade human_heritage deathknight_heritage }
+	traits = { sunfury bloodelf_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -635,76 +189,12 @@ ebonblade_deathknight = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-taunka = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { horde tauren_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kaluak_tuskarr = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { kaluak tuskarr_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -728,76 +218,12 @@ blue_dragonkin_bloodelf_cultist = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_human_cultist = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { scourge cultist human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-blue_dragonkin_human_cultist = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { cultist human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -821,14 +247,621 @@ blue_dragonkin_gnome_cultist = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
 
+blue_dragonkin_human_cultist = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { cultist human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+boom_goblin = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { boom goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+burning_legion_human_cultist = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { cultist human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+cenarius_druid_nightelf = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { druid nightelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+cenarius_druid_tauren = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { druid tauren_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+crimson_hand_bloodelf = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { sunfury bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+darkspeer_troll = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { horde troll_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+darnassus_nightelf = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { alliance nightelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+ebonblade_deathknight = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { ebon_blade human_heritage deathknight_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+exodar_draenei = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { alliance draenei_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+gnomeregan_gnome = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { alliance gnome_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+ironforge_dwarf = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { alliance dwarf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+kaluak_tuskarr = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { kaluak tuskarr_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+kirintor_bloodelf = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { kirintor bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+kirintor_gnome = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { kirintor gnome_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+kirintor_human = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { kirintor human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+maghar_orc = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { mag_har orc_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+nessingway_broken_draenei = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { nessingway broken draenei_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+nessingway_forsaken_undead = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { nessingway forsaken undead_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+nessingway_human = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { nessingway human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+nessingway_tauren = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { nessingway tauren_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -852,14 +885,12 @@ nymph_crystalnymph = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -883,14 +914,389 @@ nymph_frostnymph = {
 	common_last_names={
 		Abegg Anger Arendt Ackermann Arntz
 	}
-
 	male_regal_first_names = {
 		regaltest
 	}
 	female_regal_first_names = {
 		regaltest
 	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
 
+orgrimmar_orc = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { horde orc_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+scourge_human_cultist = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { scourge cultist human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+scryer_bloodelf = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { scryer bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+silvermoon_bloodelf = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { horde bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+silverhand_human = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { silverhand human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+sunseeker_bloodelf = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { sunfury bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+stormwind_human = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { alliance human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+sunfury_bloodelf = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { sunfury bloodelf_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+taunka = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { horde tauren_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+thunderbluff_tauren = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { horde tauren_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+twilight_hammer_human = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { twilight_hammer human_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+twilight_hammer_gnome = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { twilight_hammer gnome_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+undercity_forsaken_undead = {
+	color = rgb{ 88 237 201 }
+	religion = protestant
+	traits = { horde forsaken undead_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
 	graphics = european
 	ethnicities = {
 		1 = caucasian

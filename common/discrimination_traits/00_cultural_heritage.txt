@@ -1,44 +1,4 @@
-﻿european_heritage = {
-	heritage = yes
-}
-
-african_heritage = {
-	heritage = yes
-}
-
-east_asian_heritage = {
-	heritage = yes
-}
-
-middle_eastern_heritage = {
-	heritage = yes
-}
-
-american_heritage = {
-	heritage = yes
-}
-
-central_asian_heritage = {
-	heritage = yes
-}
-
-south_asian_heritage = {
-	heritage = yes
-}
-
-indigenous_american_heritage = {
-	heritage = yes
-}
-
-southeast_asian_heritage = {
-	heritage = yes
-}
-
-indigenous_oceanic_heritage = {
-	heritage = yes
-}
-
-north_asian_heritage = {
+﻿beholder_heritage = {
 	heritage = yes
 }
 
@@ -46,35 +6,7 @@ bloodelf_heritage = {
 	heritage = yes
 }
 
-human_heritage = {
-	heritage = yes
-}
-
-nightelf_heritage = {
-	heritage = yes
-}
-
-draenei_heritage = {
-	heritage = yes
-}
-
-dwarf_heritage = {
-	heritage = yes
-}
-
-gnome_heritage = {
-	heritage = yes
-}
-
-orc_heritage = {
-	heritage = yes
-}
-
-troll_heritage = {
-	heritage = yes
-}
-
-undead_heritage = {
+deathknight_heritage = {
 	heritage = yes
 }
 
@@ -82,31 +14,7 @@ demon_heritage = {
 	heritage = yes
 }
 
-elemental_heritage = {
-	heritage = yes
-}
-
-deathknight_heritage = {
-	heritage = yes
-}
-
-tauren_heritage = {
-	heritage = yes
-}
-
-goblin_heritage = {
-	heritage = yes
-}
-
-magnatour_heritage = {
-	heritage = yes
-}
-
-kobold_heritage = {
-	heritage = yes
-}
-
-murloc_heritage = {
+draenei_heritage = {
 	heritage = yes
 }
 
@@ -114,11 +22,35 @@ dragon_heritage = {
 	heritage = yes
 }
 
-mechanical_heritage = {
+dread_lord_heritage = {
 	heritage = yes
 }
 
-nymph_heritage = {
+dwarf_heritage = {
+	heritage = yes
+}
+
+ered_ruin_heritage = {
+	heritage = yes
+}
+
+eredar_heritage = {
+	heritage = yes
+}
+
+fel_beast_heritage = {
+	heritage = yes
+}
+
+ethereal_heritage = {
+	heritage = yes
+}
+
+elemental_heritage = {
+	heritage = yes
+}
+
+felreaver_heritage = {
 	heritage = yes
 }
 
@@ -126,7 +58,47 @@ forsaken = {
 	heritage = yes
 }
 
-tuskarr_heritage = {
+giant_heritage = {
+	heritage = yes
+}
+
+gnome_heritage = {
+	heritage = yes
+}
+
+goblin_heritage = {
+	heritage = yes
+}
+
+human_heritage = {
+	heritage = yes
+}
+
+imp_heritage = {
+	heritage = yes
+}
+
+infernal_heritage = {
+	heritage = yes
+}
+
+kobold_heritage = {
+	heritage = yes
+}
+
+magnatour_heritage = {
+	heritage = yes
+}
+
+mechanical_heritage = {
+	heritage = yes
+}
+
+moarg_heritage = {
+	heritage = yes
+}
+
+murloc_heritage = {
 	heritage = yes
 }
 
@@ -134,3 +106,54 @@ naaga_heritage = {
 	heritage = yes
 }
 
+nightelf_heritage = {
+	heritage = yes
+}
+
+nymph_heritage = {
+	heritage = yes
+}
+
+ogre_heritage = {
+	heritage = yes
+}
+
+orc_heritage = {
+	heritage = yes
+}
+
+qiraji_heritage = {
+	heritage = yes
+}
+
+rock_flayer_heritage = {
+	heritage = yes
+}
+
+satyr_heritage = {
+	heritage = yes
+}
+
+shivan_heritage = {
+	heritage = yes
+}
+
+succubus_heritage = {
+	heritage = yes
+}
+
+tauren_heritage = {
+	heritage = yes
+}
+
+troll_heritage = {
+	heritage = yes
+}
+
+tuskarr_heritage = {
+	heritage = yes
+}
+
+undead_heritage = {
+	heritage = yes
+}
