@@ -273,6 +273,11 @@
 			owned_provinces = { x4A615F xD01000 }
 		}
 
+		create_state = {
+			country = c:OGRILA
+			owned_provinces = { x11F985 x2D169B x5003FE x509080 x609C66 x6BE3E0 x9772CF x9D1667 xAD7D71 xAFEA41 xC154EE xC9D000 xD35EE3 xDC98F0 }
+		}
+
 		add_homeland = cu:kvaldir
 	}
 	
@@ -285,11 +290,6 @@
 		create_state = {
 			country = c:BURNING_LEGION_FORGE_CAMPS
 			owned_provinces = { x020CFE x02F3AF x1070E0 x11F060 x1FD921 x2906F0 x2BD769 x2D91EF x2F9F98 x595BB6 x67520F x9A018D xA85E24 xB030A0 xB13330 xC0E31F xC2EA2C xC9BBA0 xCF7060 xD5DB0B xF0B061 xF0F78C }
-		}
-
-		create_state = {
-			country = c:OGRILA
-			owned_provinces = { x11F985 x2D169B x5003FE x509080 x609C66 x6BE3E0 x9772CF x9D1667 xAD7D71 xAFEA41 xC154EE xC9D000 xD35EE3 xDC98F0 }
 		}
 
 		add_homeland = cu:kvaldir

@@ -139,9 +139,9 @@ atheist = {
 	color = { 1.0 1.0 1.0 }
 }
 
-burning_Legion = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-	color = { 1.0 1.0 1.0 }
+burning_legion = {
+	texture = "gfx/interface/icons/religion_icons/burning_legion.dds"
+	color = { 222 40 40 }
 }
 
 the_elements = {

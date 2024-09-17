@@ -1,7 +1,4 @@
-﻿aether_tech = {
-}
-
-air_element = {
+﻿air_element = {
 }
 
 alert_bot = {
@@ -11,6 +8,9 @@ aldor = {
 }
 
 alliance = {
+}
+
+angorosh = {
 }
 
 apexis = {
@@ -28,6 +28,12 @@ arcangolem = {
 areafiftytwo = {
 }
 
+ashtoungue = {
+}
+
+auchenai = {
+}
+
 bashir = {
 }
 
@@ -40,13 +46,25 @@ bladespire = {
 bloodmaul = {
 }
 
+bleeding_hollow = {
+}
+
+bloodscale = {
+}
+
 blue_dragon = {
 }
 
-blue_dragonspawn = {
+bogstrok = {
+}
+
+bonechewer = {
 }
 
 boom = {
+}
+
+boulderfist = {
 }
 
 broken = {
@@ -58,6 +76,9 @@ bronze_dragon = {
 burning_legion = {
 }
 
+cenarian_circle = {
+}
+
 centaur = {
 }
 
@@ -67,13 +88,43 @@ clockwork = {
 consortium = {
 }
 
+coilfang = {
+}
+
+coilscar = {
+}
+
+crown_chemical = {
+}
+
+crystal = {
+}
+
 crystalcore = {
 }
 
 cultist = {
 }
 
+daggerfen = {
+}
+
+darkcrest = {
+}
+
+dark_conclave = {
+}
+
+dragonmaw_clan = {
+}
+
+dragonspawn = {
+}
+
 drakonid = {
+}
+
+dreghood = {
 }
 
 druid = {
@@ -88,6 +139,9 @@ earth_element = {
 ebon_blade = {
 }
 
+eclipse_point = {
+}
+
 elemental_ancient = {
 }
 
@@ -97,13 +151,25 @@ elemental_ent = {
 elemental_lasher = {
 }
 
+emerald_dream = {
+}
+
 enkaat = {
+}
+
+earthenring = {
 }
 
 ethereum = {
 }
 
+explorers_league = {
+}
+
 farahlon = {
+}
+
+feralfen = {
 }
 
 fiend = {
@@ -112,7 +178,16 @@ fiend = {
 fire_element = {
 }
 
+firewing = {
+}
+
+frostwolf = {
+}
+
 gammoth_herd = {
+}
+
+gordunni = {
 }
 
 gorloc = {
@@ -121,16 +196,55 @@ gorloc = {
 green_dragon = {
 }
 
+greyheart = {
+}
+
+grishnath = {
+}
+
+haaleshi = {
+}
+
+halaa = {
+}
+
+honorhold = {
+}
+
 horde = {
+}
+
+illidary = {
 }
 
 kaluak = {
 }
 
+kilsorrow = {
+}
+
 kirintor = {
 }
 
+kurenai = {
+}
+
 kvaldir = {
+}
+
+lashhan = {
+}
+
+laughing_skull = {
+}
+
+lepergnome = {
+}
+
+lithic = {
+}
+
+lowercity = {
 }
 
 mag_har = {
@@ -145,16 +259,25 @@ makrura = {
 mana_element = {
 }
 
+marshlight_murloc = {
+}
+
 mechanar = {
 }
 
 mechanical_golem = {
 }
 
+moknathal = {
+}
+
+murkblood = {
+}
+
 myrmidon = {
 }
 
-nessingway = {
+nesingway = {
 }
 
 nether_drake = {
@@ -172,6 +295,9 @@ nethervine = {
 nerubian = {
 }
 
+ogrila = {
+}
+
 old_god_forces = {
 }
 
@@ -181,19 +307,64 @@ phoenix = {
 protectorate = {
 }
 
+quagmirran = {
+}
+
+ravenous = {
+}
+
+razaani = {
+}
+
+razorthorn = {
+}
+
 red_dragon = {
 }
 
-red_dragonspawn = {
+reskk = {
 }
 
 riplash = {
 }
 
+rocknail = {
+}
+
+ruuanok = {
+}
+
+sarthis = {
+}
+
+sethekk = {
+}
+
 shadow_element = {
 }
 
+shadowcouncil = {
+}
+
+shadowmoon_clan = {
+}
+
+shalassi = {
+}
+
 shaleskin = {
+}
+
+shatari_skyguard = {
+}
+
+shaffar = {
+}
+
+skettis = {
+}
+
+skithian = {
 }
 
 scourge = {
@@ -202,7 +373,19 @@ scourge = {
 scryer = {
 }
 
+shatar = {
+}
+
+shattered_hand = {
+}
+
+shattered_sun = {
+}
+
 shade = {
+}
+
+shienor = {
 }
 
 silverhand = {
@@ -211,16 +394,70 @@ silverhand = {
 siren = {
 }
 
+sporeggar = {
+}
+
+stonescythe = {
+}
+
 sunfury = {
 }
 
+sungill = {
+}
+
+thrallmar = {
+}
+
+tidewalker = {
+}
+
+tuurem = {
+}
+
 twilight_hammer = {
+}
+
+umbrafen = {
+}
+
+vakhnir = {
+}
+
+violeteye = {
+}
+
+viraani = {
 }
 
 voidwalker = {
 }
 
 water_element = {
+}
+
+warmaul = {
+}
+
+wastewalker = {
+}
+
+watchers = {
+}
+
+wildhammer = {
+}
+
+windyreed = {
+}
+
+wrathfin = {
+}
+
+wrekt = {
+}
+
+wyrmcultist = {
 }
 
 zaxxis = {

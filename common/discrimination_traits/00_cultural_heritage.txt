@@ -1,4 +1,12 @@
-﻿beholder_heritage = {
+﻿arakkoa_heritage = {
+	heritage = yes
+}
+
+annihilan_heritage = {
+	heritage = yes
+}
+
+beholder_heritage = {
 	heritage = yes
 }
 
@@ -50,11 +58,27 @@ elemental_heritage = {
 	heritage = yes
 }
 
+felelf_heritage = {
+	heritage = yes
+}
+
+felorc_heritage = {
+	heritage = yes
+}
+
 felreaver_heritage = {
 	heritage = yes
 }
 
-forsaken = {
+fey_dragon_heritage = {
+	heritage = yes
+}
+
+forsaken_heritage = {
+	heritage = yes
+}
+
+fungul_heritage = {
 	heritage = yes
 }
 
@@ -70,6 +94,10 @@ goblin_heritage = {
 	heritage = yes
 }
 
+highelf_heritage = {
+	heritage = yes
+}
+
 human_heritage = {
 	heritage = yes
 }
@@ -79,6 +107,10 @@ imp_heritage = {
 }
 
 infernal_heritage = {
+	heritage = yes
+}
+
+keeper_heritage = {
 	heritage = yes
 }
 
@@ -135,6 +167,10 @@ satyr_heritage = {
 }
 
 shivan_heritage = {
+	heritage = yes
+}
+
+sporeling_heritage = {
 	heritage = yes
 }
 

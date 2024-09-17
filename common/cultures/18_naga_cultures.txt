@@ -1,7 +1,7 @@
-apexis_rock_flayer = {
+bloodscale_naga = {
 	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { apexis rock_flayer_heritage }
+	traits = { bloodscale naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -29,10 +29,10 @@ apexis_rock_flayer = {
 	}
 }
 
-crystal_rock_flayer = {
+coilfang_naga = {
 	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { crystal rock_flayer_heritage }
+	traits = { coilfang naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -60,10 +60,10 @@ crystal_rock_flayer = {
 	}
 }
 
-razorthorn_rock_flayer = {
+coilskar_naga = {
 	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { razorthorn rock_flayer_heritage }
+	traits = { coilscar naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -91,10 +91,10 @@ razorthorn_rock_flayer = {
 	}
 }
 
-ravenous_rock_flayers = {
+darkcrest_naga = {
 	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { ravenous rock_flayer_heritage }
+	traits = { darkcrest naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -122,72 +122,10 @@ ravenous_rock_flayers = {
 	}
 }
 
-rocknail_rock_flayer = {
+wrathfin_naga = {
 	color = rgb{ 0 0 0 }
 	religion = protestant
-	traits = { rocknail rock_flayer_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stonescythe_rock_flayer = {
-	color = rgb{ 0 0 0 }
-	religion = protestant
-	traits = { stonescythe rock_flayer_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shaleskin_rock_flayer = {
-	color = rgb{ 0 0 0 }
-	religion = protestant
-	traits = { shaleskin rock_flayer_heritage }
+	traits = { wrathfin naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
