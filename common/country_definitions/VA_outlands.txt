@@ -1,0 +1,1011 @@
+AUCHENAI = {
+	color = { 64 487 140 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { auchenai_draenei }	
+	capital = STATE_AUCHINDOUN
+}
+
+AREA_FIFTYTWO = {
+	color = { 64 487 140 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { areaft_goblin }	
+	capital = STATE_AREA_52
+}
+
+ALLERIAN_STRONGHOLD = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { honor_hold_human }	
+	capital = STATE_ALLERIAN_STRONGHOLD
+}
+
+ANGOROSH_TRIBE = {
+	color = { 196 168 82 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { angorosh_ogre }	
+	capital = STATE_ANGO_ROSH_GROUNDS
+}
+
+APEXIS_FLAYERS = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { apexis_rock_flayer }	
+	capital = STATE_FORGE_CAMP_TERROR
+}
+
+AZEROTH_DEFENDERS = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { honor_hold_human thrallmar_orc }	
+	capital = STATE_THE_DARK_PORTAL_OUTLANDS
+}
+
+BASHIR = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bashir_ethereal }	
+	capital = STATE_CRYSTAL_SPINE
+}
+
+BLADESPIRE_CLAN = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bladespire_ogre }	
+	capital = STATE_GRUULS_LAIR
+}
+
+BLACKWIND_WYRMCULTISTS = {
+	color = { 35 22 60 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { wyrmcultist_orc }	
+	capital = STATE_RAVENS_WOOD
+}
+
+BLEEDING_HOLLOW_CLAN = {
+	color = { 176 176 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bleeding_hollow_felorc }	
+	capital = STATE_ZETH_GOR
+}
+
+BLOODMAUL_CLAN = {
+	color = { 203 50 50 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bloodmaul_ogre }	
+	capital = STATE_BLOODMAUL_POST
+}
+
+BLOODSCALE_TRIBE = {
+	color = { 151 29 29 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bloodscale_naga }	
+	capital = STATE_TWIN_SPIRE
+}
+
+BONECHEWER_RUINS = {
+	color = { 89 89 89 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bonechewer_felorc }	
+	capital = STATE_ALLERIAN_STRONGHOLD
+}
+
+BOOM = {
+	color = { 89 89 89 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { boom_goblin }	
+	capital = STATE_AREA_52
+}
+
+BOULDERFIST_CLAN = {
+	color = { 100 62 15 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { boulderfist_ogre }	
+	capital = STATE_BLEEDING_HOLLOW_RUINS
+}
+
+BURNING_LEGION_INVASION_NETHERSTORM = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { burning_legion_dread_lord burning_legion_doom_guard }	
+	capital = STATE_FORGE_BASE_OBLIVION
+}
+
+BURNING_LEGION_KILJADEN = {
+	color = { 155 57 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { burning_legion_eredar }	
+	capital = STATE_THRONE_KILJAEDEN
+}
+
+BURNING_LEGION_LEGIONS_HOLD = {
+	color = { 155 57 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { burning_legion_eredar }	
+	capital = STATE_LEGION_HOLD
+}
+
+BURNING_LEGION_TWILIGHT_HOLD = {
+	color = { 155 57 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { burning_legion_eredar }	
+	capital = STATE_TWILIGHT_RIDGE
+}
+
+BURNING_LEGION_FORGE_CAMPS = {
+	color = { 155 57 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { burning_legion_eredar }	
+	capital = STATE_FORGE_CAMP_WRATH
+}
+
+CABAL = {
+	color = { 134 55 167 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shadowcouncil_orc }	
+	capital = STATE_STONEBREAKER_HOLD
+}
+
+CENARION_CIRCLE = {
+	color = { 134 55 167 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { cenarius_druid_nightelf cenarius_druid_tauren }	
+	capital = STATE_RUUAN_WEALD
+}
+
+CENARION_REFUGE = {
+	color = { 134 55 167 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { cenarius_druid_nightelf cenarius_druid_tauren }	
+	capital = STATE_TEL_REDOR
+}
+
+COILFANG_TRIBE = {
+	color = { 45 153 94 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { coilfang_naga }	
+	capital = STATE_COILFANG_RESERVOIR
+}
+
+COILSCAR_POINT = {
+	color = { 45 153 94 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { coilfang_naga }	
+	capital = STATE_SHADOWMOON_VILLAGE
+}
+
+CONSORTIUM = {
+	color = { 45 153 94 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { consortium_ethereal }	
+	capital = STATE_ECO_DOME_MIDREALM
+}
+
+DARKCREST_TRIBE = {
+	color = { 94 83 102 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { darkcrest_naga }	
+	capital = STATE_FERALFEN_VILLAGE
+}
+
+DARK_CONCLAVE = {
+	color = { 94 83 102 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { dark_conclave_arakkoa }	
+	capital = STATE_WILDHAMMER_STRONGHOLD
+}
+
+DRAGONMAW_CLAN = {
+	color = { 58 6 6 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { dragonmaw_clan_felorc }	
+	capital = STATE_DRAGONMAW_FOTRESS
+}
+
+ECLIPSE_POINT = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { eclipsion_bloodelf }	
+	capital = STATE_WILDHAMMER_STRONGHOLD
+}
+
+ETHEREUM = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { ethereum_ethereal }	
+	capital = STATE_MANAFORGE_ULTRIUS
+}
+
+FALCON_WATCH = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { silvermoon_bloodelf }	
+	capital = STATE_FALCON_WATCH
+}
+
+FERALFEN_TRIBE = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { feralfen_broken }	
+	capital = STATE_FERALFEN_VILLAGE
+}
+
+FIREWING_POINT = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { honor_hold_human }	
+	capital = STATE_FIREWING_POINT
+}
+
+GRISHNATH = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { grishnath_arakkoa }	
+	capital = STATE_RAVENS_WOOD
+}
+
+GORDUNNI = {
+	color = { 83 146 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { bladespire_magnaron }	
+	capital = STATE_WINDYREED_PASS
+}
+
+HALAA = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { halaa_bloodelf halaa_dreanei }	
+	capital = STATE_HALAA
+}
+
+HAALESH_TRIBE = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { haaleshi_arakkoa }	
+	capital = STATE_DEN_HAALESH
+}
+
+HONOR_HOLD = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { honor_hold_human honor_hold_dwarf }	
+	capital = STATE_HONOR_HOLD
+}
+
+OMENAI_TEMPLE = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { omenai_dreanei }	
+	capital = STATE_TEMPLE_TELHAMAT
+}
+
+RUUAN_OK = {
+	color = { 138 180 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { ruuan_ok_arakkoa }	
+	capital = STATE_RUUAN_WEALD
+}
+
+ILLIDARY = {
+	color = { 65 205 73 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { illidary_nightelf illidary_bloodelf }
+	capital = STATE_BLACK_TEMPLE
+}
+
+ILLIDARY_POINT = {
+	color = { 55 113 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { illidary_nightelf illidary_bloodelf }
+	capital = STATE_LEGION_HOLD
+}
+
+OGRILA = {
+	color = { 55 113 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { ogrila_ogre_magi }
+	capital = STATE_FORGE_CAMP_TERROR
+}
+
+KIL_SORROW_CLAN = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kilsorrow_orc }
+	capital = STATE_KIL_SORROW_FORTRESS
+}
+
+KIRIN_VAR = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kirintor_human }
+	capital = STATE_KIRIN_VAR_VILLAGE
+}
+
+KURENAI = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kurenai_broken }
+	capital = STATE_TELAAR
+}
+
+LASHHAN = {
+	color = { 110 84 178 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { lashhan_arakkoa }
+	capital = STATE_SYLVANAAR
+}
+
+LITHIC = {
+	color = { 164 126 79 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { lithic_arakkoa }	
+	capital = STATE_BLEEDING_HOLLOW_RUINS
+}
+
+MAGHAR = {
+	color = { 155 112 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { maghar_orc }	
+	capital = STATE_GARADAR
+}
+
+MOKNATHAL = {
+	color = { 155 112 58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { moknathal_orc }	
+	capital = STATE_VEKHAAR_STAND
+}
+
+MURKBLOOD_TRIBE = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { murkblood_tribe_broken }	
+	capital = STATE_WARMAUL_HILL
+}
+
+NETHERWING = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { nether_dragonkin_dragon }	
+	capital = STATE_CELESTIAL_RIDGE
+}
+
+PROTECTORATE = {
+	color = { 60 110 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { protectorate_ethereal }	
+	capital = STATE_MANAFORGE_ULTRIUS
+}
+
+RAVENOUS_FLAYERS = {
+	color = { 128 90 57 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { ravenous_rock_flayers }	
+	capital = STATE_ALTER_SHA_TAR
+}
+
+RAZAANI = {
+	color = { 128 90 57 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { razaani_ethereal }	
+	capital = STATE_FORGE_CAMP_ANGER
+}
+
+RAZERTHORN_FLAYERS = {
+	color = { 128 90 57 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { razorthorn_rock_flayer }	
+	capital = STATE_CENARION_THICKET
+}
+
+REFUGEE_CAMP = {
+	color = { 128 90 57 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { lower_city_broken }	
+	capital = STATE_THE_BONE_WASTES
+}
+
+RHAZE = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { undead_arakkoa }
+	capital = STATE_THE_BONE_WASTES
+}
+
+SETHEKK = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { sethekk_arakkoa }
+	capital = STATE_AUCHINDOUN
+}
+
+SHIENOR = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shienor_arakkoa }
+	capital = STATE_TUUREM
+}
+
+SHADOWMOON_VILLAGE = {
+	color = { 193 84 183 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { thrallmar_orc }
+	capital = STATE_SHADOWMOON_VILLAGE
+}
+
+SHADOW_COUNCIL = {
+	color = { 97 37 122 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shadowcouncil_orc }	
+	capital = STATE_THE_DEATHFORGE
+}
+
+SHAFFAR = {
+	color = { 160 231 231 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shaffar_ethereal }	
+	capital = STATE_AUCHINDOUN
+}
+
+SHATARI_SKYGUARD = {
+	color = { 181 110 46 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shatari_skyguard_bloodelf }	
+	capital = STATE_BLACKWIND_VALLEY
+}
+
+SHATTERED_HAND_CLAN = {
+	color = { 181 110 46 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shattered_hand_felorc }	
+	capital = STATE_HELLFIRE_CITADEL
+}
+
+SHALASSI = {
+	color = { 181 110 46 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shalassi_arakkoa }	
+	capital = STATE_WRITHING_MOUND
+}
+
+SHA_TAR = {
+	color = { 190 130 215 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shatar_draenei lower_city_broken lower_city_draenei }	
+	capital = STATE_SHATTRATH_CITY
+}
+
+SHA_TAR_ASSAULT = {
+	color = { 190 130 215 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { aldor_dreanei shatar_draenei scryer_bloodelf }	
+	capital = STATE_WARDENS_CAGE
+}
+
+SHA_TAR_OUTPOST = {
+	color = { 143 74 172 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { shatar_draenei }	
+	capital = STATE_BLEEDING_HOLLOW_RUINS
+}
+
+SKETTIS = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { skettis_arakkoa }	
+	capital = STATE_SKETTIS
+}
+
+SKITH = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { skithian_arakkoa }	
+	capital = STATE_THE_BONE_WASTES
+}
+
+SPOREGGAR = {
+	color = { 84 122 194 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { sporeggar_sporeling }	
+	capital = STATE_SPOREGGAR
+}
+
+STONEBREAKER_HOLD = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { stonebreaker_orc }	
+	capital = STATE_STONEBREAKER_HOLD
+}
+
+STONESCYTHE_FLAYER = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { stonescythe_rock_flayer }	
+	capital = STATE_FALCON_WATCH
+}
+
+SUNFURY = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { sunfury_bloodelf }	
+	capital = STATE_TEMPEST_KEEP
+}
+
+SYLVANNAR = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { darnassus_nightelf }	
+	capital = STATE_SYLVANAAR
+}
+
+THRALLMAR = {
+	color = { 211 98 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { thrallmar_orc }	
+	capital = STATE_THRALLMAR
+}
+
+THE_ALDOR = {
+	color = { 143 210 229 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { aldor_dreanei }	
+	capital = STATE_SHATTRATH_CITY
+}
+
+THE_EARTHEN_RING = {
+	color = { 78 149 12 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { earthenring_maghar_orc }	
+	capital = STATE_GARADAR
+}
+
+THE_SCRYERS = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { scryer_bloodelf }	
+	capital = STATE_SHATTRATH_CITY
+}
+
+THUNDERLORD_STRONGHOLD = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { orgrimmar_orc }	
+	capital = STATE_THUNDERLORD_STRONGHOLD
+}
+
+TOSHLEY_STATION = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { gnomeregan_gnome }	
+	capital = STATE_SINGING_RIDGE
+}
+
+TUUREM = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { tuurem_broken }	
+	capital = STATE_TUUREM
+}
+
+UNYIELDING_DEFENDER = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { undead_human }	
+	capital = STATE_EXPEDITION_ARMORY
+}
+
+UMBRAFEN_TRIBE = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { umbrafen_broken }	
+	capital = STATE_UMBRAFEN_VILLAGE
+}
+
+VEKHNIR = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { vakhnir_arakkoa }	
+	capital = STATE_VEKHAAR_STAND
+}
+
+VIR_AANI = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { viraani_ethereal }	
+	capital = STATE_OSHU_GUN
+}
+
+WARMAUL_CLAN = {
+	color = { 196 120 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { warmaul_ogre }	
+	capital = STATE_WARMAUL_HILL
+}
+
+WILDHAMMER_CLAN = {
+	color = { 27 43 1 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { wildhammer_dwarf }	
+	capital = STATE_WILDHAMMER_STRONGHOLD
+}
+
+WINDYREED_TRIBE = {
+	color = { 27 43 1 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { windyreed_tribe_broken }	
+	capital = STATE_WINDYREED_PASS
+}
+
+ZAXXIS = {
+	color = { 27 43 1 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { zaxxis_ethereal }	
+	capital = STATE_MANAFORGE_BNAAR
+}

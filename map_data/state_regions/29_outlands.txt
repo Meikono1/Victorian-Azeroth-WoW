@@ -1,6 +1,6 @@
 ﻿STATE_RUINS_FARAHION = {
     id = 2901
-	subsistence_building = "building_subsistence_orchards"
+    subsistence_building = "building_subsistence_orchards"
     provinces = { "x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x8D1556" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCD72A9" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180" }
     traits = {}
     city = "x68f55e"

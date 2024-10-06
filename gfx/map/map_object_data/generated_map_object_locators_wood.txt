@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="wood"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -493,7 +493,7 @@ game_object_locator={
 		}
 		{
 			id=2982
-			position={ 8110.000000 0.000000 459.000000 }
+			position={ 8049.467285 0.000000 437.512299 }
 			rotation={ -0.000000 -0.860640 -0.000000 0.509214 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}

@@ -1,6 +1,12 @@
 POPS = {
 	s:STATE_SWIFTGEAR_STATION = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:MENETHIL = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLUEGILL_MORLOCS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -8,7 +14,7 @@ POPS = {
 		}
 	}
 	s:STATE_MENETHIL_KEEP = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:MENETHIL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -16,7 +22,14 @@ POPS = {
 		}
 	}
 	s:STATE_DUN_MODR = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:GREENWARDENS_GROVE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:TWILIGHT_CONVERT = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -24,7 +37,14 @@ POPS = {
 		}
 	}
 	s:STATE_WHELGARS_RETREAT = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:EXPLORERS_LEAGUE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:DRAGONMAW_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -32,7 +52,7 @@ POPS = {
 		}
 	}
 	s:STATE_GREENWARDENS_GROVE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:GREENWARDENS_GROVE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -40,7 +60,14 @@ POPS = {
 		}
 	}
 	s:STATE_DUN_ALGAZ = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:DRAGONMAW_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -48,7 +75,21 @@ POPS = {
 		}
 	}
 	s:STATE_VERMILLION_REDOUBT = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:VERMILLON_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:GLOPGUT_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:DRAGONMAW_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -56,7 +97,19 @@ POPS = {
 		}
 	}
 	s:STATE_MAW_OF_MADNESS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:THE_EARTHEN_RING_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:ISORATH_MADNESS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -64,7 +117,14 @@ POPS = {
 		}
 	}
 	s:STATE_KIRTHAVEN = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:WILDHAMMER_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -72,7 +132,21 @@ POPS = {
 		}
 	}
 	s:STATE_THUNDERMAR = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DRAGONMAW_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:WILDHAMMER_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -80,7 +154,25 @@ POPS = {
 		}
 	}
 	s:STATE_TWILIGHT_SHORE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DRAGONMAW_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:AXEBITE_EXPEDITION = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:HIGHBANK_EXPEDITION = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKSCALE_NAGA = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -88,7 +180,13 @@ POPS = {
 		}
 	}
 	s:STATE_FIREBEARDS_PATROL = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DRAGONMAW_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:WILDHAMMER_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -96,7 +194,7 @@ POPS = {
 		}
 	}
 	s:STATE_CRUCIBLE_OF_CARNAGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:CRUCIBLE_OF_CARNAGE_GLADIATOR = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -104,7 +202,14 @@ POPS = {
 		}
 	}
 	s:STATE_WYRMS_BEND = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:VERMILLON_DRAGONFLIGHT = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -112,7 +217,7 @@ POPS = {
 		}
 	}
 	s:STATE_GRIM_BATOL = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:TWILIGHTS_HAMMER = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -120,7 +225,14 @@ POPS = {
 		}
 	}
 	s:STATE_VICTORS_POINT = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:WILDHAMMER_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:BLOODEYE_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -128,7 +240,7 @@ POPS = {
 		}
 	}
 	s:STATE_BASTION_OF_TWILIGHT = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:TWILIGHTS_HAMMER = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -136,7 +248,7 @@ POPS = {
 		}
 	}
 	s:STATE_MOGROSH_STRONGHOLD = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:TWILIGHTS_HAMMER = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -144,7 +256,19 @@ POPS = {
 		}
 	}
 	s:STATE_DUNWALD_RUINS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:OBSIDIAN_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:DRAGONMAW_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -152,7 +276,14 @@ POPS = {
 		}
 	}
 	s:STATE_OBSIDIAN_FOREST = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:OBSIDIAN_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:VERMILLON_DRAGONFLIGHT = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -160,7 +291,14 @@ POPS = {
 		}
 	}
 	s:STATE_FARSTRIDER_LODGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:STONESPLINTER_TRIBE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -168,7 +306,14 @@ POPS = {
 		}
 	}
 	s:STATE_STONEWROUGHT_DAM = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:BLUEGILL_MORLOCS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -176,7 +321,14 @@ POPS = {
 		}
 	}
 	s:STATE_VALLEY_OF_KINGS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:STONESPLINTER_TRIBE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -184,7 +336,7 @@ POPS = {
 		}
 	}
 	s:STATE_THELSAMAR = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -192,7 +344,7 @@ POPS = {
 		}
 	}
 	s:STATE_NORTH_GATE_OUTPOST = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -200,7 +352,21 @@ POPS = {
 		}
 	}
 	s:STATE_GOL_BOLAR_QUARRY = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:ROCKJAW_TROGGS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:DARK_IRON_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -208,7 +374,14 @@ POPS = {
 		}
 	}
 	s:STATE_AMBERSTILL_RANCH = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:FROSTMANES = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -216,7 +389,14 @@ POPS = {
 		}
 	}
 	s:STATE_KHARANOS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:FROSTMANES = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -224,7 +404,14 @@ POPS = {
 		}
 	}
 	s:STATE_SHIMMER_RIDGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:GNOMEREGAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:FROSTMANES = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -232,7 +419,7 @@ POPS = {
 		}
 	}
 	s:STATE_IRONFORGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -240,7 +427,7 @@ POPS = {
 		}
 	}
 	s:STATE_GNOMEREGAN = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:GNOMEREGAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -248,7 +435,14 @@ POPS = {
 		}
 	}
 	s:STATE_FROSTMANE_HOLD = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:FROSTMANES = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:GNOMEREGAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -256,7 +450,14 @@ POPS = {
 		}
 	}
 	s:STATE_COLDRIDGE_VALLEY = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:IRONFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:GRIKNIR_FROSTMANE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -264,7 +465,19 @@ POPS = {
 		}
 	}
 	s:STATE_FIREWATCH_RIDGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DARK_IRON_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:TWILIGHTS_HAMMER = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:THORIUM_BROTHERHOOD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -272,7 +485,7 @@ POPS = {
 		}
 	}
 	s:STATE_DUSTFIRE_VALLEY = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DARK_IRON_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -280,7 +493,13 @@ POPS = {
 		}
 	}
 	s:STATE_THE_CAULDRON = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DARK_IRON_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:IRON_SUMMIT = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -288,7 +507,13 @@ POPS = {
 		}
 	}
 	s:STATE_SEA_OF_CINDERS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DARK_IRON_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:THORIUM_BROTHERHOOD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -296,7 +521,13 @@ POPS = {
 		}
 	}
 	s:STATE_NEW_KARGATH = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BLACKWING_OUTPOST = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:NEW_KARGATH = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -304,7 +535,7 @@ POPS = {
 		}
 	}
 	s:STATE_DRAGONS_MOUTH = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DUSTBELCHER_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -312,7 +543,13 @@ POPS = {
 		}
 	}
 	s:STATE_ANGOR_FORTRESS = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SHADOWFORGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKWING_OUTPOST = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -320,7 +557,7 @@ POPS = {
 		}
 	}
 	s:STATE_ULDAMAN = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SHADOWFORGE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -328,7 +565,13 @@ POPS = {
 		}
 	}
 	s:STATE_DUSTWIND_DIG = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DUSTBELCHER_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:EXPLORERS_LEAGUE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -336,7 +579,7 @@ POPS = {
 		}
 	}
 	s:STATE_AGMONDS_END = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:THE_RELIQUARY = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -344,7 +587,13 @@ POPS = {
 		}
 	}
 	s:STATE_LETHLOR_RAVINE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:GADGETZAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKWING_OUTPOST = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -352,7 +601,13 @@ POPS = {
 		}
 	}
 	s:STATE_DREADMAUL_ROCK = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BLACKWING_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKROCK_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -360,7 +615,19 @@ POPS = {
 		}
 	}
 	s:STATE_MORGANS_VIGIL = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BLACKWING_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:MORGANS_VIGIL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -368,7 +635,19 @@ POPS = {
 		}
 	}
 	s:STATE_RUINS_OF_THAURISSAN = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:THORIUM_BROTHERHOOD = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:FLAMECREST_OUTPOST = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -376,7 +655,7 @@ POPS = {
 		}
 	}
 	s:STATE_BLACKROCK_STRONGHOLD = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BLACKROCK_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -384,7 +663,19 @@ POPS = {
 		}
 	}
 	s:STATE_BLACKROCK_MOUNTAIN = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:DARK_IRON_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKWING_DRAGONFLIGHT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BLACKROCK_CLAN = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -392,7 +683,14 @@ POPS = {
 		}
 	}
 	s:STATE_FLAMESTAR_POST = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		
+		region_state:THORIUM_BROTHERHOOD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000

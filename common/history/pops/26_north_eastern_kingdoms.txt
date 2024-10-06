@@ -584,7 +584,19 @@ POPS = {
 		}
 	}
 	s:STATE_NORTHFOLD_MANOR = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SYNDICATE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BOULDERFIST_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:UNDERCITY = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -592,7 +604,19 @@ POPS = {
 		}
 	}
 	s:STATE_STORMGARDE_KEEP = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SYNDICATE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BOULDERFIST_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -600,7 +624,13 @@ POPS = {
 		}
 	}
 	s:STATE_BOULDER_GOR = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:BOULDERFIST_CLAN_AZ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:REFUGE_POINT = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -608,7 +638,19 @@ POPS = {
 		}
 	}
 	s:STATE_HAMMERFALL = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:HAMMERFALL = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:DRYWHISPER_KOBOLDS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:DABYRIES_HUMANS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -616,7 +658,19 @@ POPS = {
 		}
 	}
 	s:STATE_WITHERBARK_VILLAGE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:WHITERBARK_TROLLS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:HAMMERFALL = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
