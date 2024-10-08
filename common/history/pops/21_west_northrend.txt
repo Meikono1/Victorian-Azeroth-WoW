@@ -68,7 +68,7 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = darkspeer_troll
+				culture = darkspear_troll
 				size = 112000
 			}
 			create_pop = {
@@ -109,7 +109,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -141,7 +141,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -212,19 +212,19 @@ POPS = {
 				size = 75000
 			}
 			create_pop = {
-				culture = nessingway_human
+				culture = nesingway_human
 				size = 542000
 			}
 			create_pop = {
-				culture = nessingway_broken_draenei
+				culture = nesingway_broken_draenei
 				size = 45000
 			}
 			create_pop = {
-				culture = nessingway_forsaken_undead
+				culture = nesingway_forsaken_undead
 				size = 61000
 			}
 			create_pop = {
-				culture = nessingway_tauren
+				culture = nesingway_tauren
 				size = 16000
 			}
 			create_pop = {
@@ -372,7 +372,7 @@ POPS = {
 				size = 10000
 			}
 			create_pop = {
-				culture = darkspeer_troll
+				culture = darkspear_troll
 				size = 30000
 			}
 			create_pop = {
@@ -424,7 +424,7 @@ POPS = {
 	s:STATE_BORGOROK_OUTPOST = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = darkspeer_troll
+				culture = darkspear_troll
 				size = 107000
 			}
 			create_pop = {
@@ -484,7 +484,7 @@ POPS = {
 				size = 25000
 			}
 			create_pop = {
-				culture = darkspeer_troll
+				culture = darkspear_troll
 				size = 30000
 			}
 			create_pop = {
@@ -505,7 +505,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -609,7 +609,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -617,7 +617,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -625,7 +625,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -633,7 +633,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -641,7 +641,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -649,7 +649,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -657,7 +657,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -665,7 +665,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -673,7 +673,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -681,7 +681,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -689,7 +689,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -697,7 +697,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -705,7 +705,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -713,7 +713,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -721,7 +721,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -729,7 +729,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -737,7 +737,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -745,7 +745,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -753,7 +753,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -761,7 +761,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -769,7 +769,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -777,7 +777,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -785,7 +785,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -793,7 +793,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -801,7 +801,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -809,7 +809,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -817,7 +817,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -825,7 +825,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -833,7 +833,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -841,7 +841,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -849,7 +849,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -857,7 +857,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -865,7 +865,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -873,7 +873,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -881,7 +881,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -889,7 +889,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -897,7 +897,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -905,7 +905,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -913,7 +913,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -921,7 +921,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -929,7 +929,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -937,7 +937,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -945,7 +945,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -953,7 +953,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -961,7 +961,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -969,7 +969,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -977,7 +977,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -985,7 +985,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -993,7 +993,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1001,7 +1001,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1009,7 +1009,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1017,7 +1017,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1025,7 +1025,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1033,7 +1033,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1041,7 +1041,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1049,7 +1049,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1057,7 +1057,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1065,7 +1065,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}
@@ -1073,7 +1073,7 @@ POPS = {
 		region_state:NRTHRND = {
 			create_pop = {
 				culture = silvermoon_bloodelf
-				size = 1000
+				size = 10000
 			}
 		}
 	}

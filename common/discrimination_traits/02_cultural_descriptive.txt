@@ -1,216 +1,464 @@
-﻿#sausage_eater = {
-#}
-
-african_settler = {
-}
-
-finnic = {
-}
-
-francophone = {
-}
-
-hispanophone = {
-}
-
-lusophone = {
-}
-
-anglophone = {
-}
-
-german_speaking = {
-}
-
-italophone = {
-}
-
-slavic = {
-}
-
-jugoslav = {
-}
-
-jewish_group = {
-}
-
-han_chinese = {
-}
-
-arab_speaking = {
-}
-
-turkic = {
-}
-
-sinosphere = {
-}
-
-tai = {
-}
-
-yamato = {
-}
-
-himalayan = {
-}
-
-bantu = {
-}
-
-ethiopian = {
-}
-
-caucasus_group = {
-}
-
-polynesian_group = {
-}
-
-rumelian = {
-}
-
-celtic_people = {
-}
-
-west_slavic = {
-}
-
-east_slavic = {
-}
-
-greek_culture = {
-}
-
-swiss = {
-}
-
-alliance = {
-}
-
-horde = {
-}
-
-arcan_element = {
-}
-
-air_element = {
-}
-
-earth_element = {
-}
-
-fire_element = {
-}
-
-mana_element = {
-}
-
-water_element = {
-}
-
-centaur = {
-}
-
-gorloc = {
-}
-
-druid = {
-}
-
-nessingway = {
-}
-
-magmoth_herd = {
-}
-
-gammoth_herd = {
-}
-
-ebon_blade = {
-}
-
-mag_har = {
-}
-
-broken = {
-}
-
-scourge = {
-}
-
-cultist = {
-}
-
-fiend = {
-}
-
-dryad = {
-}
-
-voidwalker = {
-}
-
-wizard = {
-}
-
-blue_dragon = {
-}
-
-bronze_dragon = {
-}
-
-green_dragon = {
-}
-
-red_dragon = {
-}
-
-blue_dragonspawn = {
-}
-
-blue_drakonid = {
-}
-
-red_dragonspawn = {
-}
-
-elemental_ancient = {
-}
-
-elemental_lasher = {
-}
-
-elemental_ent = {
-}
-
-mechanical_golem = {
+﻿air_element = {
 }
 
 alert_bot = {
 }
 
-kaluak = {
+aldor = {
 }
 
-nerubian = {
+alliance = {
+}
+
+angorosh = {
+}
+
+apexis = {
+}
+
+apex = {
+}
+
+arcan_element = {
+}
+
+arcangolem = {
+}
+
+areafiftytwo = {
+}
+
+ashtoungue = {
+}
+
+auchenai = {
+}
+
+bashir = {
+}
+
+black_dragon = {
+}
+
+bladespire = {
+}
+
+bloodmaul = {
+}
+
+bleeding_hollow = {
+}
+
+bloodscale = {
+}
+
+blue_dragon = {
+}
+
+bogstrok = {
+}
+
+bonechewer = {
+}
+
+boom = {
+}
+
+boulderfist = {
+}
+
+broken = {
+}
+
+bronze_dragon = {
+}
+
+burning_legion = {
+}
+
+cenarian_circle = {
+}
+
+centaur = {
 }
 
 clockwork = {
 }
 
-makrura = {
+consortium = {
+}
+
+coilfang = {
+}
+
+coilscar = {
+}
+
+crown_chemical = {
+}
+
+crystal = {
+}
+
+crystalcore = {
+}
+
+cultist = {
+}
+
+daggerfen = {
+}
+
+darkcrest = {
+}
+
+dark_conclave = {
+}
+
+dragonmaw_clan = {
+}
+
+dragonspawn = {
+}
+
+drakonid = {
+}
+
+dreghood = {
+}
+
+druid = {
+}
+
+dryad = {
+}
+
+earth_element = {
+}
+
+ebon_blade = {
+}
+
+eclipse_point = {
+}
+
+elemental_ancient = {
+}
+
+elemental_ent = {
+}
+
+elemental_lasher = {
+}
+
+emerald_dream = {
+}
+
+enkaat = {
+}
+
+earthenring = {
+}
+
+ethereum = {
+}
+
+explorers_league = {
+}
+
+farahlon = {
+}
+
+feralfen = {
+}
+
+fiend = {
+}
+
+fire_element = {
+}
+
+firewing = {
+}
+
+frostwolf = {
+}
+
+gammoth_herd = {
+}
+
+gordunni = {
+}
+
+gorloc = {
+}
+
+green_dragon = {
+}
+
+greyheart = {
+}
+
+grishnath = {
+}
+
+haaleshi = {
+}
+
+halaa = {
+}
+
+honorhold = {
+}
+
+horde = {
+}
+
+illidary = {
+}
+
+kaluak = {
+}
+
+kilsorrow = {
+}
+
+kirintor = {
+}
+
+kurenai = {
 }
 
 kvaldir = {
 }
 
-riplash = {
+lashhan = {
 }
 
-siren = {
+laughing_skull = {
+}
+
+lepergnome = {
+}
+
+lithic = {
+}
+
+lowercity = {
+}
+
+mag_har = {
+}
+
+magmoth_herd = {
+}
+
+makrura = {
+}
+
+mana_element = {
+}
+
+marshlight_murloc = {
+}
+
+mechanar = {
+}
+
+mechanical_golem = {
+}
+
+moknathal = {
+}
+
+murkblood = {
 }
 
 myrmidon = {
 }
 
+nesingway = {
+}
+
+nether_drake = {
+}
+
+netherock = {
+}
+
+netherwing = {
+}
+
+nethervine = {
+}
+
+nerubian = {
+}
+
+ogrila = {
+}
+
+old_god_forces = {
+}
+
+phoenix = {
+}
+
+protectorate = {
+}
+
+quagmirran = {
+}
+
+ravenous = {
+}
+
+razaani = {
+}
+
+razorthorn = {
+}
+
+red_dragon = {
+}
+
+reskk = {
+}
+
+riplash = {
+}
+
+rocknail = {
+}
+
+ruuanok = {
+}
+
+sarthis = {
+}
+
+sethekk = {
+}
+
+shadow_element = {
+}
+
+shadowcouncil = {
+}
+
+shadowmoon_clan = {
+}
+
+shalassi = {
+}
+
+shaleskin = {
+}
+
+shatari_skyguard = {
+}
+
+shaffar = {
+}
+
+skettis = {
+}
+
+skithian = {
+}
+
+scourge = {
+}
+
+scryer = {
+}
+
+shatar = {
+}
+
+shattered_hand = {
+}
+
+shattered_sun = {
+}
+
+shade = {
+}
+
+shienor = {
+}
+
+silverhand = {
+}
+
+siren = {
+}
+
+sporeggar = {
+}
+
+stonescythe = {
+}
+
+sunfury = {
+}
+
+sungill = {
+}
+
+thrallmar = {
+}
+
+tidewalker = {
+}
+
+tuurem = {
+}
+
+twilight_hammer = {
+}
+
+umbrafen = {
+}
+
+vakhnir = {
+}
+
+violeteye = {
+}
+
+viraani = {
+}
+
+voidwalker = {
+}
+
+water_element = {
+}
+
+warmaul = {
+}
+
+wastewalker = {
+}
+
+watchers = {
+}
+
+wildhammer = {
+}
+
+windyreed = {
+}
+
+wrathfin = {
+}
+
+wrekt = {
+}
+
+wyrmcultist = {
+}
+
+zaxxis = {
+}

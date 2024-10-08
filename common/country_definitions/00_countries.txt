@@ -3405,7 +3405,6 @@ UZH = {
 	tier = principality
 	
 	cultures = { kazak }
-	capital = STATE_AKMOLINSK
 }
 
 OZH = {
