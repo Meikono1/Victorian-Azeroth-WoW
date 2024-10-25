@@ -1,3 +1,36 @@
+AMANI_TRIBE = {
+	color = { 31 95 111 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+ANDORHAL = {
+	color = { 149 194 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ANDORHAL
+}
+
+ARGENT_CRUSADERS = {
+	color = { 191 171 27 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_TWILIGHT_SHORE
+}
+
 AXEBITE_EXPEDITION = {
 	color = { 144 79 25 }
 	
@@ -86,6 +119,17 @@ BLOODEYE_CLAN = {
 	capital = STATE_VICTORS_POINT
 }
 
+BLOODFANG_PACK = {
+	color = { 115 18 18 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FORSAKEN_REAR_GUARD
+}
+
 BLOODSAIL_PIRATES = {
 	color = { 81 14 14 }
 	
@@ -131,7 +175,7 @@ BLUEGILL_MORLOCS = {
 }
 
 BOULDERFIST_CLAN_AZ = {
-	color = { 0 0 0 }
+	color = { 129 102 79 }
 	
 	country_type = recognized
 	
@@ -152,8 +196,30 @@ CRUCIBLE_OF_CARNAGE_GLADIATOR = {
 	capital = STATE_CRUCIBLE_OF_CARNAGE
 }
 
+CRUSHRIDGE_OGRE = {
+	color = { 111 143 195 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RUINS_OF_ALTERAC
+}
+
+CULT_OF_DAMNED = {
+	color = { 154 83 243 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SCHOLOMANCE
+}
+
 DABYRIES_HUMANS = {
-	color = { 0 0 0 }
+	color = { 106 70 151 }
 	
 	country_type = recognized
 	
@@ -174,6 +240,17 @@ DARK_IRON_CLAN = {
 	capital = STATE_BLACKROCK_MOUNTAIN
 }
 
+DARNASSUS_OUTPOST = {
+	color = { 72 140 114 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SANCTUM_OF_SUN
+}
+
 DEADWIND_OGRE = {
 	color = { 90 100 134 }
 	
@@ -183,6 +260,17 @@ DEADWIND_OGRE = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_GROSH_GOK_COMPOUND
+}
+
+DEATHHOLME = {
+	color = { 0 53 76 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DEATHHOLME
 }
 
 DEFIAS_BROTHERHOOD = {
@@ -219,7 +307,7 @@ DREADMAUL_OGRES = {
 }
 
 DRYWHISPER_KOBOLDS = {
-	color = { 0 0 0 }
+	color = { 76 158 93 }
 	
 	country_type = recognized
 	
@@ -227,6 +315,17 @@ DRYWHISPER_KOBOLDS = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_HAMMERFALL
+}
+
+DUN_GAROK = {
+	color = { 143 164 160 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DUN_GAROK
 }
 
 DUSTBELCHER_CLAN = {
@@ -238,6 +337,17 @@ DUSTBELCHER_CLAN = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_DRAGONS_MOUTH
+}
+
+EMERALD_ENTRANCE_SERADANE = {
+	color = { 74 214 125 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SERADANE
 }
 
 EXPLORERS_LEAGUE = {
@@ -339,6 +449,17 @@ GRIKNIR_FROSTMANE = {
 	capital = STATE_COLDRIDGE_VALLEY
 }
 
+GRIMSCALE_MURLOCS = {
+	color = { 38 92 122 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_WINDRUNNER_VILLAGE
+}
+
 GROMGOL_BASE = {
 	color = { 203 113 38 }
 	
@@ -394,6 +515,39 @@ HIGHBANK_EXPEDITION = {
 	capital = STATE_TWILIGHT_SHORE
 }
 
+HIGHLAND_FROSTWOLFES = {
+	color = { 100 175 206 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_HEADLAND
+}
+
+HIGHLAND_YETI = {
+	color = { 113 177 231 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_HEADLAND
+}
+
+HIGHVALE_HIGHELFES = {
+	color = { 133 180 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_QUEL_DANIL_LODGE
+}
+
 IRONFORGE = {
 	color = { 73 197 113 }
 	
@@ -436,6 +590,28 @@ KARAZHAN = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_KARAZHAN
+}
+
+KNIGHTS_EBON_BLADE = {
+	color = { 18 9 121 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ARCHERUS
+}
+
+KIRINTOR_EXPEDITION = {
+	color = { 66 104 159 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DALARAN_CRATER
 }
 
 KURZEN_COMPOUND = {
@@ -515,6 +691,28 @@ MOSHOGG_OGRE = {
 	capital = STATE_BAMBALA
 }
 
+MOSSFLAYER_TROLLS = {
+	color = { 43 117 30 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_MASHER
+}
+
+MUDSNOUT_GNOLLS = {
+	color = { 154 97 39 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DUN_GAROK
+}
+
 MURKGILL_TRIBE = {
 	color = { 50 135 112 }
 	
@@ -581,6 +779,28 @@ OBSIDIAN_DRAGONFLIGHT = {
 	capital = STATE_OBSIDIAN_FOREST
 }
 
+PLAGUELAND_UNDEAD = {
+	color = { 65 58 73 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_STRATHOLME
+}
+
+RAVENTUSK_TROLLS = {
+	color = { 101 66 48 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SERADANE
+}
+
 REDGRIDGE_PACK = {
 	color = { 96 71 30 }
 	
@@ -593,7 +813,7 @@ REDGRIDGE_PACK = {
 }
 
 REFUGE_POINT = {
-	color = { 0 0 0 }
+	color = { 47 123 143 }
 	
 	country_type = recognized
 	
@@ -625,6 +845,39 @@ ROCKJAW_TROGGS = {
 	capital = STATE_GOL_BOLAR_QUARRY
 }
 
+SCARLET_CRUSADERS_WHITEMANE = {
+	color = { 228 78 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SCARLET_MONASTERY
+}
+
+SCARLET_CRUSADERS_ONSLAUGHT = {
+	color = { 167 34 23 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_NEW_AVALON
+}
+
+SHADOWFANG_KEEP = {
+	color = { 52 32 193 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SHADOWFANG_KEEP
+}
+
 SHADOWFORGE = {
 	color = { 95 10 10 }
 	
@@ -636,6 +889,39 @@ SHADOWFORGE = {
 	capital = STATE_ULDAMAN
 }
 
+SHADOWPINE_TRIBE = {
+	color = { 16 90 38 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ULDAMAN
+}
+
+SI7_HIGHLANDS = {
+	color = { 46 135 112 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_TARRENS_MILL
+}
+
+SILVERMOON = {
+	color = { 207 52 18 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SILVERMOON_CITY
+}
+
 STRANGLETHRON_NAGA = {
 	color = { 126 162 187 }
 	
@@ -645,6 +931,17 @@ STRANGLETHRON_NAGA = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_GURUBASHI_ARENA
+}
+
+STORMSPIKE = {
+	color = { 150 200 126 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_HEADLAND
 }
 
 STONARD = {
@@ -725,7 +1022,7 @@ STORMWIND = {
 }
 
 SYNDICATE = {
-	color = { 0 0 0 }
+	color = { 187 136 58 }
 	
 	country_type = recognized
 	
@@ -768,6 +1065,17 @@ THORIUM_BROTHERHOOD = {
 	capital = STATE_FIREWATCH_RIDGE
 }
 
+TORNFIN_MURLOCS = {
+	color = { 34 144 89 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_RUINS_OF_SOUTHSHORE
+}
+
 TWILIGHT_CONVERT = {
 	color = { 83 36 165 }
 	
@@ -791,7 +1099,7 @@ TWILIGHTS_HAMMER = {
 }
 
 UNDERCITY = {
-	color = { 0 0 0 }
+	color = { 29 0 118 }
 	
 	country_type = recognized
 	
@@ -823,8 +1131,30 @@ VERMILLON_DRAGONFLIGHT = {
 	capital = STATE_VERMILLION_REDOUBT
 }
 
+VILEBRANCH_TROLLS = {
+	color = { 50 119 65 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_SHADRA_ALOR
+}
+
+VILEFIN_MURLOCS = {
+	color = { 46 100 131 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_FENRIS_ISLE
+}
+
 WILDHAMMER_CLAN_AZ = {
-	color = { 143 248 200 }
+	color = { 69 225 154 }
 	
 	country_type = recognized
 	
@@ -835,7 +1165,18 @@ WILDHAMMER_CLAN_AZ = {
 }
 
 WHITERBARK_TROLLS = {
-	color = { 0 0 0 }
+	color = { 158 219 209 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_WITHERBARK_VILLAGE
+}
+
+WRETCHED_BLOODELFES = {
+	color = { 176 185 185 }
 	
 	country_type = recognized
 	
