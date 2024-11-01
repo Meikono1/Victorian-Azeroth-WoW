@@ -405,6 +405,17 @@ GILNEAS = {
 	capital = STATE_DEADMINES
 }
 
+GILNEAS_EXPEDITION = {
+	color = { 142 79 227 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DEADMINES
+}
+
 GLOPGUT_CLAN = {
 	color = { 160 71 104 }
 	
@@ -1107,6 +1118,17 @@ UNDERCITY = {
 	
 	cultures = { kvaldir }	
 	capital = STATE_UNDERCITY
+}
+
+VASHIR = {
+	color = { 81 227 202 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_VASHJ_IR
 }
 
 VENTURE_CO = {

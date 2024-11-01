@@ -1,0 +1,406 @@
+BLACKSILT_MURLOC = {
+	color = { 14 54 84 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+BLACKWOOD_FURBOLG = {
+	color = { 89 59 41 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+BLOODFEATHER_HARPY = {
+	color = { 135 31 31 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+BLOODVENOM_CORRUPTION = {
+	color = { 142 41 90 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+BRISTLELIMB_FURBOLG = {
+	color = { 147 83 20 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+CRAZED_WILDLIFE = {
+	color = { 77 167 35 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ORACLE_GLADE
+}
+
+DARKSCALE_NAGA = {
+	color = { 21 60 116 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+DARNASSUS = {
+	color = { 43 164 213 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+DEADWOOD_FURBOLG = {
+	color = { 160 75 9 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+EMERALD_CIRCLE = {
+	color = { 81 177 134 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+EXODAR = {
+	color = { 53 44 167 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+EVERLOOK = {
+	color = { 44 167 85 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+GNARLPINE_FURBOLG = {
+	color = { 222 161 94 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+GREYMIST_MURLOC = {
+	color = { 157 210 241 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+GUARDIANS_HYJAL = {
+	color = { 57 187 82 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+HYJAL_REBELLION = {
+	color = { 73 213 13 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+IRONTREE = {
+	color = { 159 117 7 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+INFECTED_WILDLIFE = {
+	color = { 92 226 108 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+JAEDENAR = {
+	color = { 6 201 29 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+JADEFIRE_CORRUPTION = {
+	color = { 129 253 54 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+NAZZIVUS = {
+	color = { 255 155 54 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+NESSTLEWOOD_OWLKIN = {
+	color = { 141 81 21 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+SHADOW_RIDGE = {
+	color = { 4 3 77 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+SHATTERSPEAR = {
+	color = { 117 80 19 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+SILTFIN_MURLOC = {
+	color = { 70 150 100 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+STILLPINE_FURBOLG = {
+	color = { 202 158 105 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+SUNHAWK = {
+	color = { 207 65 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+TALONBRANCH_GUARDIAN = {
+	color = { 137 29 33 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+THE_INFERNO = {
+	color = { 255 0 0 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+TIMBERMAW_FURBOLG = {
+	color = { 151 91 10 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+TWILIGHT_HAMMER_DARKSHORE = {
+	color = { 114 79 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+TWILIGHT_HAMMER_HYJAL = {
+	color = { 121 45 180 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+VERIDIAN_DRAGONFLIGHT = {
+	color = { 49 7 115 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+WINTERFALL_FURBOLG = {
+	color = { 99 188 196 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+WINTERFALL_WILD = {
+	color = { 179 243 248 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+WORMWING_HARPIES = {
+	color = { 75 172 121 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
+
+WRATHSCALE_NAGA = {
+	color = { 43 127 189 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZUL_AMAN
+}
