@@ -1,0 +1,954 @@
+AZEROTH_DEFENDERS = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "wc_stormwind_lion.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = "yellow"		
+	}			
+}
+
+STORMWIND = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "wc_stormwind_lion.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = "yellow"	
+	}			
+}
+
+BLACKROCK_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_blackrock_orc.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = "black"
+		color2 = "yellow"	
+	}			
+}
+
+GURUBASHI_TRIBE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 108 133 23 } 
+
+	colored_emblem = {
+		texture = "ce_gurubashiempire.dds" 
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = rgb { 130 130 130 } 
+		color2 = rgb { 181 244 0 }
+		color3 = rgb { 255 231 167 }		
+	}			
+}
+
+IRONFORGE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 173 70 1 }
+
+	colored_emblem = {
+		texture = "ce_ironforge.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = rgb { 195 189 129 }
+		color2 = rgb { 224 188 4 }
+		color3 = rgb { 207 134 8 }		
+	}			
+}
+
+BLACKWING_DRAGONFLIGHT = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_dragon.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLOODWASH_NAGA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 77 91 91 } 
+	colored_emblem = {
+		texture = "ce_coilfang.dds" 
+		color1 = rgb { 187 147 87 } 
+        color2 = rgb { 85 205 55 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+
+DARK_IRON_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 123 105 91 }
+	colored_emblem = {
+		texture = "ce_anvilrage.dds"
+		color1 = rgb { 66 48 31 }
+		color3 = rgb { 139 76 46 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DRAGONMAW_CLAN_AZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_dragonmaw.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GNOMEREGAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+AXEBITE_EXPEDITION = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BAMBALA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLACKROCK_NORTHSHIRE = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_blackrock_orc.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLACKSCALE_NAGA = {
+	pattern = "pattern_solid.tga"
+	pattern = "pattern_solid.dds" 
+	color1 = rgb { 77 91 91 } 
+	colored_emblem = {
+		texture = "ce_coilfang.dds" 
+		color1 = rgb { 187 147 87 } 
+        color2 = rgb { 85 205 55 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLACKWING_OUTPOST = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLOODSAIL_PIRATES = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLOODEYE_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+BLOODSCARLP_TRIBE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+
+BLUEGILL_MORLOCS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+
+BOULDERFIST_CLAN_AZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 60 0 60 }
+	colored_emblem = {
+		texture = "ce_ogreempire.dds"
+		color1 = hsv360 { 33 96 91 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+
+CRUCIBLE_OF_CARNAGE_GLADIATOR = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DABYRIES_HUMANS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DEADWIND_OGRE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 60 0 60 }
+	colored_emblem = {
+		texture = "ce_ogreempire.dds"
+		color1 = hsv360 { 33 96 91 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DEFIAS_BROTHERHOOD = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DREADMAUL_OGRES = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 60 0 60 }
+	colored_emblem = {
+		texture = "ce_ogreempire.dds"
+		color1 = hsv360 { 33 96 91 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DRYWHISPER_KOBOLDS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+DUSTBELCHER_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+EXPLORERS_LEAGUE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+FLAMECREST_OUTPOST = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+FROSTMANES = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 50 70 } 
+	colored_emblem = {
+		texture = "ce_frostmane.dds" 
+		color1 = rgb { 130 130 130 } 
+		color2 = hsv360 { 200 68 100 }
+		color3 = rgb { 255 231 167 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GADGETZAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GILNEAS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 33 40 56 }
+	colored_emblem = {
+		texture = "ce_gilneas_moon.dds"
+		color1 = rgb { 129 19 19 }
+		color2 = rgb { 215 158 71 }
+		color3 = rgb { 129 19 19 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GLOPGUT_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GREENWARDENS_GROVE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GRIKNIR_FROSTMANE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 50 70 } 
+	colored_emblem = {
+		texture = "ce_frostmane.dds" 
+		color1 = rgb { 130 130 130 } 
+		color2 = hsv360 { 200 68 100 }
+		color3 = rgb { 255 231 167 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+GROMGOL_BASE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+HAMMERFALL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+HARDWRENCH_INDUSTRIES = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+HIGHBANK_EXPEDITION = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+IRON_SUMMIT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+ISORATH_MADNESS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+KARAZHAN = {
+	pattern = "pattern_solid.tga"
+	color1=rgb { 14 46 76 }
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 133 133 133 }
+		color2=grey
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.500000 0.530000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 62 62 62 }
+		color2=rgb { 62 62 62 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 1.000000 0.310000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 62 62 62 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.920000 0.785000 }
+			scale={ 0.540000 1.000000 }
+			depth=1.010000
+			rotation=40
+		}
+
+		instance={
+			position={ 0.070000 0.785000 }
+			scale={ 0.570000 1.000000 }
+			depth=2.010000
+			rotation=49
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 45 255 }
+		texture="ce_bend_lozenges.dds"
+		instance={
+			position={ 0.500000 0.080000 }
+			scale={ 0.340000 0.160000 }
+			depth=4.010000
+			rotation=45
+		}
+
+	}
+}
+
+
+KURZEN_COMPOUND = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+LOST_ONES = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MARSHFIN_MURLOC = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MARSHTIDE_WATCH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MENETHIL = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_lordaeron.dds"
+		color1 = "blue"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MORGANS_VIGIL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MOSHOGG_OGRE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 60 0 60 }
+	colored_emblem = {
+		texture = "ce_ogreempire.dds"
+		color1 = hsv360 { 33 96 91 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+MURKGILL_TRIBE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+NESINGWARY_EXPEDITION = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+NETHERGARDE_KEEP = {
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_nethergarde_tower.dds"
+		color1 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+NEW_KARGATH = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_old_horde_symbol.dds"
+		color1 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+NIGHTBANE_WORGEN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+
+OBSIDIAN_DRAGONFLIGHT = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_dragon.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+REDGRIDGE_PACK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+REFUGE_POINT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+RIVERPAW_PACK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+ROCKJAW_TROGGS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+STRANGLETHRON_NAGA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 77 91 91 } 
+	colored_emblem = {
+		texture = "ce_coilfang.dds" 
+		color1 = rgb { 187 147 87 } 
+        color2 = rgb { 85 205 55 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+STONARD = {
+	pattern = "pattern_solid.tga"
+	color1 = "grey_gilneas"
+	colored_emblem = {
+		texture = "ce_burning_blade.dds"
+		color1 = "red"
+		color2 = "orange"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+STONESPLINTER_TRIBE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+SKULLSPLITTER_TRIBE = {
+	pattern = "pattern_solid.tga"
+	color1 = hsv360 { 61 73 50 } 
+	colored_emblem = {
+		texture = "ce_skullsplitter.dds" 
+		color1 = rgb { 130 0 0 }
+		color2 = hsv360 { 74 100 100 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+SPLINTERFIST_CLAN = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_ogre1.dds"
+		color1 = "red"
+		color2 = "black"
+		instance = { position = { 0.5 @single_charge_position } }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+SUNVEIL_EXCURSION = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 63 64 75 } 
+	colored_emblem = {
+		texture = "ce_sunfury.dds" 
+		color1 = rgb { 182 25 25 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+STEAMWHEEDLE_CARTEL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+SYNDICATE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+THE_EARTHEN_RING_AZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+THE_RELIQUARY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+
+THORIUM_BROTHERHOOD = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+TWILIGHT_CONVERT = {
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_twilights_hammer.dds"
+		color1 = "grey_gilneas"
+		color2 = "white"
+		color3 = "grey"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+TWILIGHTS_HAMMER = {
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	colored_emblem = {
+		texture = "ce_twilights_hammer.dds"
+		color1 = "grey_gilneas"
+		color2 = "white"
+		color3 = "grey"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+VENTURE_CO = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+UNDERCITY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+VERMILLON_DRAGONFLIGHT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+WILDHAMMER_CLAN_AZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 34 55 7 }
+	colored_emblem = {
+		texture = "ce_grim_batol.dds"
+		color1 = rgb { 147 101 37 }
+		color3 = rgb { 130 82 23 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+WHITERBARK_TROLLS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 68 83 41 }
+	colored_emblem = {
+		texture = "ce_witherbark.dds" 
+		color1 = rgb { 40 74 47 }
+		color2 = rgb { 68 83 100 }
+		color3 = rgb { 255 231 167 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }				
+	}			
+}
+WORMTHORN_CORRUPTION = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 80 60 125 } #Background color
+	colored_emblem = {
+		texture = "ce_gnomeregan.dds" #Name of image file
+		color1 = rgb { 210 155 115 } #"Blue" color
+		color2 = rgb { 75 55 65 } #"Aquamarine" color
+		color3 = rgb { 120 80 110 } #"Magenta" color
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
+ZANZIL_WITCHDOCTORS = {
+	color1 = rgb { 174 100 36 } 
+	colored_emblem = {
+		texture = "ce_trollsouthisles.dds" 
+		color1 = rgb { 0 100 100 }
+		color2 = rgb { 139 100 100 }
+		color3 = rgb { 255 231 167 }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }				
+	}			
+}
