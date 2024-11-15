@@ -3,7 +3,7 @@
 region_ahn_qiraj = {
 	capital_province = xA0A0C0
 	map_color = { 200 200 0 }
-	states = { STATE_TEMPLE_OF_AHN_QIRAJ}
+	states = { STATE_TEMPLE_OF_AHN_QIRAJ STATE_RUINS_OF_AHN_QIRAJ }
 }
 
 region_ashenvale = {
