@@ -12,11 +12,11 @@ POPS = {
 				size = 417000
 			}
 			create_pop = {
-				culture = naaga_riplash_siren
+				culture = naga_riplash_siren
 				size = 51000
 			}
 			create_pop = {
-				culture = naaga_riplash_myrmidon
+				culture = naga_riplash_myrmidon
 				size = 10000
 			}
 		}

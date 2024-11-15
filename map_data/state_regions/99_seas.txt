@@ -637,7 +637,7 @@ STATE_MOLUCCA_SEA = {
 
 STATE_ARAFURA_SEA = {
     id = 3126
-    provinces = {}
+    provinces = { "x14FDFD" }
 }
 
 STATE_PHILIPPINES_SEA = {

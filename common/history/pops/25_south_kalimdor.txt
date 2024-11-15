@@ -351,4 +351,6 @@ POPS = {
 			}
 		}
 	}
+	s:STATE_RUINS_OF_AHN_QIRAJ = {
+	}
 }

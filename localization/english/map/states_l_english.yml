@@ -1084,6 +1084,7 @@ STATE_THRONE_OF_FOUR_WINDS:0 "Throne of Four Winds"
 STATE_OBELISK_OF_MOON:0 "Obelisk of Moon"
 STATE_RUINS_OF_KHINTASET:0 "Ruins of Khintaset"
 STATE_TEMPLE_OF_AHN_QIRAJ:0 "Temple of Ahn Qiraj"
+STATE_RUINS_OF_AHN_QIRAJ:0 "Ruins of Ahn Qiraj"
 # 26 North Eastern Kingdoms
 STATE_SUNS_REACH:0 "Suns Reach"
 STATE_MAGISTERS_TERRACE:0 "Magisters Terrace"

@@ -1,7 +1,7 @@
-naaga_riplash_myrmidon = {
+naga_riplash_myrmidon = {
 	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { riplash myrmidon naaga_heritage }
+	traits = { riplash myrmidon naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -29,10 +29,10 @@ naaga_riplash_myrmidon = {
 	}
 }
 
-naaga_riplash_siren = {
+naga_riplash_siren = {
 	color = rgb{ 0 155 255 }
 	religion = protestant
-	traits = { riplash siren naaga_heritage }
+	traits = { riplash siren naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
