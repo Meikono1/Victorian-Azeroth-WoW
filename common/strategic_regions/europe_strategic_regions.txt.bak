@@ -1,0 +1,13 @@
+﻿# Strategic Regions in Western Europe
+
+region_iberia = {
+	capital_province = xD060C0
+	map_color = { 186 113 22 }
+	states = { }
+}
+
+region_italy = {
+	capital_province = xB040A0
+	map_color = { 97 209 251 }
+	states = { STATE_SOUTH_TYROL }
+}

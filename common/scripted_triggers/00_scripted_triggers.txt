@@ -14,25 +14,79 @@
 #
 
 country_has_voting_franchise = {
-	OR = {
-		modifier:country_voting_power_base_add > 0
-		modifier:country_voting_power_from_literacy_add > 0
-		modifier:country_voting_power_wealth_threshold_add > 0
-		modifier:country_academics_voting_power_add > 0
-		modifier:country_aristocrats_voting_power_add > 0
-		modifier:country_bureaucrats_voting_power_add > 0
-		modifier:country_capitalists_voting_power_add > 0
-		modifier:country_clergymen_voting_power_add > 0
-		modifier:country_clerks_voting_power_add > 0
-		modifier:country_engineers_voting_power_add > 0
-		modifier:country_farmers_voting_power_add > 0
-		modifier:country_laborers_voting_power_add > 0
-		modifier:country_machinists_voting_power_add > 0
-		modifier:country_officers_voting_power_add > 0
-		modifier:country_peasants_voting_power_add > 0
-		modifier:country_shopkeepers_voting_power_add > 0
-		modifier:country_slaves_voting_power_add > 0
-		modifier:country_soldiers_voting_power_add > 0
+	custom_tooltip = {
+		text = is_democratic_tt
+		OR = {
+			modifier:country_voting_power_base_add > 0
+			modifier:country_voting_power_from_literacy_add > 0
+			modifier:country_voting_power_wealth_threshold_add > 0
+			modifier:country_academics_voting_power_add > 0
+			modifier:country_aristocrats_voting_power_add > 0
+			modifier:country_bureaucrats_voting_power_add > 0
+			modifier:country_capitalists_voting_power_add > 0
+			modifier:country_clergymen_voting_power_add > 0
+			modifier:country_clerks_voting_power_add > 0
+			modifier:country_engineers_voting_power_add > 0
+			modifier:country_farmers_voting_power_add > 0
+			modifier:country_laborers_voting_power_add > 0
+			modifier:country_machinists_voting_power_add > 0
+			modifier:country_officers_voting_power_add > 0
+			modifier:country_peasants_voting_power_add > 0
+			modifier:country_shopkeepers_voting_power_add > 0
+			modifier:country_slaves_voting_power_add > 0
+			modifier:country_soldiers_voting_power_add > 0
+		}
+	}
+}
+
+country_can_form_power_bloc = {
+	AND = {
+		trigger_if = {
+			limit = {
+				is_country_type = decentralized
+			}
+			NOT = { is_country_type = decentralized }
+		}
+		trigger_if = {
+			limit = {
+				is_revolutionary = yes
+			}
+			is_revolutionary = no
+		}
+		country_rank >= rank_value:unrecognized_major_power
+		NOT = { has_law = law_type:law_isolationism }
+	}
+}
+
+power_bloc_is_weak = {
+	power_bloc_leader = {
+		country_rank < rank_value:great_power
+	}
+}
+
+country_is_in_different_power_bloc = {
+	is_in_power_bloc = yes
+	$TARGET$ = {
+		is_in_power_bloc = yes
+	}
+
+	NOT = {
+		power_bloc = $TARGET$.power_bloc
+	}
+}
+
+country_is_power_struggle_rival = {
+	power_bloc ?= {
+		OR = {
+			AND = {
+				power_bloc_leader = root
+				power_struggle_contender ?= $TARGET$
+			}
+			AND = {
+				power_bloc_leader = $TARGET$
+				power_struggle_contender ?= root
+			}
+		}
 	}
 }
 
@@ -305,7 +359,13 @@ in_earthquake_zone = {
 		region = sr:region_south_china
 		region = sr:region_north_china
 		region = sr:region_manchuria
+		region = sr:region_himalayas
 		region = sr:region_japan
+		region = sr:region_la_plata
+		region = sr:region_andes
+		region = sr:region_gran_colombia
+		region = sr:region_central_america
+		region = sr:region_mexico
 		region = sr:region_pacific_coast
 	}
 }
@@ -314,8 +374,17 @@ in_volcanic_zone = {
 	OR = {
 		region = sr:region_indonesia
 		region = sr:region_japan
+		region = sr:region_la_plata
+		region = sr:region_andes
+		region = sr:region_gran_colombia
+		region = sr:region_central_america
+		region = sr:region_mexico
 		region = sr:region_pacific_coast
-		region = sr:region_italy
+		region = sr:region_zanj
+		state_region = s:STATE_SICILY
+		state_region = s:STATE_CAMPANIA
+		state_region = s:STATE_ICELAND
+		state_region = s:STATE_HAWAIIAN_ISLANDS
 	}
 }
 
@@ -423,8 +492,13 @@ state_in_africa = {
 	custom_tooltip = {
 		text = state_in_africa_desc
 		OR = {
+			region = sr:region_nile_basin
+			region = sr:region_north_africa
 			region = sr:region_senegal
 			region = sr:region_niger
+			region = sr:region_congo
+			region = sr:region_southern_africa
+			region = sr:region_zanj
 		}
 	}
 }
@@ -435,29 +509,284 @@ has_subsistence_building = {
 	}
 }
 
+owned_central_asia_region_states = {
+	owns_entire_state_region = STATE_SAMARA
+	owns_entire_state_region = STATE_URALSK
+	owns_entire_state_region = STATE_AKMOLINSK
+	owns_entire_state_region = STATE_SEMIRECHE
+	owns_entire_state_region = STATE_DZUNGARIA
+	owns_entire_state_region = STATE_TIANSHAN
+	owns_entire_state_region = STATE_JETISY
+	owns_entire_state_region = STATE_TAJIKISTAN
+	owns_entire_state_region = STATE_KIRGHIZIA
+	owns_entire_state_region = STATE_UZBEKIA
+	owns_entire_state_region = STATE_TURKMENIA
+	owns_entire_state_region = STATE_KHIVA
+}
+
+owned_great_plains_region_states = {
+	owns_entire_state_region = STATE_MONTANA
+	owns_entire_state_region = STATE_NORTH_DAKOTA
+	owns_entire_state_region = STATE_SOUTH_DAKOTA
+	owns_entire_state_region = STATE_NEBRASKA
+	owns_entire_state_region = STATE_WYOMING
+	owns_entire_state_region = STATE_COLORADO
+	owns_entire_state_region = STATE_KANSAS
+	owns_entire_state_region = STATE_NEW_MEXICO
+}
+
+owned_pacific_coast_region_states = {
+	owns_entire_state_region = STATE_WASHINGTON
+	owns_entire_state_region = STATE_IDAHO
+	owns_entire_state_region = STATE_OREGON
+	owns_entire_state_region = STATE_NEVADA
+	owns_entire_state_region = STATE_UTAH
+	owns_entire_state_region = STATE_ARIZONA
+	owns_entire_state_region = STATE_CALIFORNIA
+	owns_entire_state_region = STATE_BAJA_CALIFORNIA
+}
+
+french_treaty_ports = {
+	OR = {
+		owns_treaty_port_in = STATE_PICARDY
+		owns_treaty_port_in = STATE_NORMANDY
+		owns_treaty_port_in = STATE_BRITTANY
+		owns_treaty_port_in = STATE_FRENCH_LOW_COUNTRIES
+		owns_treaty_port_in = STATE_POITOU
+		owns_treaty_port_in = STATE_AQUITAINE
+		owns_treaty_port_in = STATE_PROVENCE
+		owns_treaty_port_in = STATE_LANGUEDOC
+	}
+}
+
+german_treaty_ports = {
+	OR = {
+		owns_treaty_port_in = STATE_HANNOVER
+		owns_treaty_port_in = STATE_ELBE
+		owns_treaty_port_in = STATE_SCHLESWIG_HOLSTEIN
+		owns_treaty_port_in = STATE_MECKLENBURG
+		owns_treaty_port_in = STATE_POMERANIA
+		owns_treaty_port_in = STATE_WEST_PRUSSIA
+		owns_treaty_port_in = STATE_EAST_PRUSSIA
+	}
+}
+
+british_treaty_ports = {
+	OR = {
+		owns_treaty_port_in = STATE_WEST_COUNTRY
+		owns_treaty_port_in = STATE_HOME_COUNTIES
+		owns_treaty_port_in = STATE_EAST_ANGLIA
+		owns_treaty_port_in = STATE_WALES
+		owns_treaty_port_in = STATE_MIDLANDS
+		owns_treaty_port_in = STATE_YORKSHIRE
+		owns_treaty_port_in = STATE_LANCASHIRE
+		owns_treaty_port_in = STATE_LOWLANDS
+		owns_treaty_port_in = STATE_HIGHLANDS
+		owns_treaty_port_in = STATE_ULSTER
+		owns_treaty_port_in = STATE_LEINSTER
+		owns_treaty_port_in = STATE_CONNAUGHT
+		owns_treaty_port_in = STATE_MUNSTER
+	}
+}
+
+italian_treaty_ports = {
+	OR = {
+		owns_treaty_port_in = STATE_SARDINIA
+		owns_treaty_port_in = STATE_SICILY
+		owns_treaty_port_in = STATE_CALABRIA
+		owns_treaty_port_in = STATE_APULIA
+		owns_treaty_port_in = STATE_CAMPANIA
+		owns_treaty_port_in = STATE_ABRUZZO
+		owns_treaty_port_in = STATE_LAZIO
+		owns_treaty_port_in = STATE_UMBRIA
+		owns_treaty_port_in = STATE_ROMAGNA
+		owns_treaty_port_in = STATE_TUSCANY
+		owns_treaty_port_in = STATE_PIEDMONT
+		owns_treaty_port_in = STATE_VENETIA
+		owns_treaty_port_in = STATE_ISTRIA
+		owns_treaty_port_in = STATE_EMILIA
+	}
+}
+	
+iberian_treaty_ports = {
+	OR = {
+		owns_treaty_port_in = STATE_GRANADA
+		owns_treaty_port_in = STATE_ANDALUSIA
+		owns_treaty_port_in = STATE_VALENCIA
+		owns_treaty_port_in = STATE_CATALONIA
+		owns_treaty_port_in = STATE_NAVARRA
+		owns_treaty_port_in = STATE_GALICIA
+		owns_treaty_port_in = STATE_BALEARES
+		owns_treaty_port_in = STATE_BEIRA
+		owns_treaty_port_in = STATE_ESTREMADURA
+		owns_treaty_port_in = STATE_ALENTEJO
+	}
+}
+
 european_colonies_north_africa = {
 	or = {
+		owns_entire_state_region = STATE_CHAD
 		owns_entire_state_region = STATE_NIGER
+		owns_entire_state_region = STATE_TIMBUKTU
+		owns_entire_state_region = STATE_INNER_MAURITANIA
+		owns_entire_state_region = STATE_MAURITANIA
+		owns_entire_state_region = STATE_WEST_SAHARA
+		owns_entire_state_region = STATE_SAHARA
+		owns_entire_state_region = STATE_EAST_SAHARA
+		owns_entire_state_region = STATE_TRIPOLI
+		owns_entire_state_region = STATE_LIBYAN_DESERT
+		owns_entire_state_region = STATE_LIBYA
+		owns_entire_state_region = STATE_TUNISIA
+		owns_entire_state_region = STATE_CONSTANTINE
+		owns_entire_state_region = STATE_INNER_MOROCCO
+		owns_entire_state_region = STATE_ORAN
+		owns_entire_state_region = STATE_ALGIERS
+		owns_entire_state_region = STATE_AL_RIF
+		owns_entire_state_region = STATE_INNER_MOROCCO
+		owns_entire_state_region = STATE_FEZ
+		owns_entire_state_region = STATE_MARRAKECH
 	}
 }
 
 european_colonies_west_africa = {
 	or = {
+		owns_entire_state_region = STATE_NIGER_DELTA
 		owns_entire_state_region = STATE_BENIN
+		owns_entire_state_region = STATE_YORUBA_STATES
+		owns_entire_state_region = STATE_HAUSALAND
+		owns_entire_state_region = STATE_OUTER_HAUSALAND
 		owns_entire_state_region = STATE_NIGERIA
 		owns_entire_state_region = STATE_EAST_HAUSALAND
+		owns_entire_state_region = STATE_BORNU
+		owns_entire_state_region = STATE_DAHOMEY
 		owns_entire_state_region = STATE_VOLTA
+		owns_entire_state_region = STATE_GHANA
+		owns_entire_state_region = STATE_IVORY_COAST
+		owns_entire_state_region = STATE_EASTERN_MALI
+		owns_entire_state_region = STATE_WINDWARD_COAST
+		owns_entire_state_region = STATE_WESTERN_MALI
+		owns_entire_state_region = STATE_GUINEA
+		owns_entire_state_region = STATE_LIBERIA
+		owns_entire_state_region = STATE_SIERRA_LEONE
+		owns_entire_state_region = STATE_GAMBIA
+		owns_entire_state_region = STATE_SENEGAL
 	}
 }
 
 european_colonies_nile_basin = {
 	or = {
+		owns_entire_state_region = STATE_OROMIA
+		owns_entire_state_region = STATE_AMHARA
+		owns_entire_state_region = STATE_EQUATORIA
+		owns_entire_state_region = STATE_DARFUR
+		owns_entire_state_region = STATE_KORDOFAN
+		owns_entire_state_region = STATE_BLUE_NILE
+		owns_entire_state_region = STATE_GONDER
+		owns_entire_state_region = STATE_ERITREA
 		owns_entire_state_region = STATE_DONGOLA
+		owns_entire_state_region = STATE_UPPER_EGYPT
+		owns_entire_state_region = STATE_EGYPTIAN_DESERT
+		owns_entire_state_region = STATE_MIDDLE_EGYPT
+		owns_entire_state_region = STATE_MATRUH
+		owns_entire_state_region = STATE_LOWER_EGYPT
+		owns_entire_state_region = STATE_SINAI
 	}
 }
 
+european_colonies_central_africa = {
+	or = {
+		owns_entire_state_region = STATE_ZAMBIA
+		owns_entire_state_region = STATE_EAST_ANGOLA
+		owns_entire_state_region = STATE_SOUTH_ANGOLA
+		owns_entire_state_region = STATE_NORTH_ANGOLA
+		owns_entire_state_region = STATE_BAS_CONGO
+		owns_entire_state_region = STATE_KASAI
+		owns_entire_state_region = STATE_KATANGA
+		owns_entire_state_region = STATE_CONGO_ORIENTALE
+		owns_entire_state_region = STATE_EQUATEUR
+		owns_entire_state_region = STATE_CONGO
+		owns_entire_state_region = STATE_GABON
+		owns_entire_state_region = STATE_SOUTH_CAMEROON
+		owns_entire_state_region = STATE_UBANGI_SHARI
+		owns_entire_state_region = STATE_WADDAI
+		owns_entire_state_region = STATE_NORTH_CAMEROON
+	}
+}
+
+european_colonies_east_africa = {
+	or = {
+		owns_entire_state_region = STATE_SOMALILAND
+		owns_entire_state_region = STATE_KENYA
+		owns_entire_state_region = STATE_RIFT_VALLEY
+		owns_entire_state_region = STATE_UGANDA
+		owns_entire_state_region = STATE_TANGANYIKA
+		owns_entire_state_region = STATE_LINDI
+		owns_entire_state_region = STATE_ZANZIBAR
+		owns_entire_state_region = STATE_KAZEMBE
+		owns_entire_state_region = STATE_ZAMBEZIA
+		owns_entire_state_region = STATE_MOCAMBIQUE
+		owns_entire_state_region = STATE_NORTH_MADAGASCAR
+		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+	}
+}
+
+european_colonies_south_africa = {
+	or = {
+		owns_entire_state_region = STATE_EASTERN_CAPE
+		owns_entire_state_region = STATE_CAPE_COLONY
+		owns_entire_state_region = STATE_NORTHERN_CAPE
+		owns_entire_state_region = STATE_VRYSTAAT
+		owns_entire_state_region = STATE_NAMAQUALAND
+		owns_entire_state_region = STATE_BOTSWANA
+		owns_entire_state_region = STATE_TRANSVAAL
+		owns_entire_state_region = STATE_LOURENCO_MARQUES
+		owns_entire_state_region = STATE_ZAMBEZI
+		owns_entire_state_region = STATE_HEREROLAND
+		owns_entire_state_region = STATE_ZULULAND
+	}
+}
+
+owned_andes_region_states = {
+	owns_entire_state_region = STATE_LA_PAZ
+	owns_entire_state_region = STATE_PASTAZA
+	owns_entire_state_region = STATE_JUJUY
+	owns_entire_state_region = STATE_ECUADOR
+	owns_entire_state_region = STATE_SANTA_CRUZ
+	owns_entire_state_region = STATE_AREQUIPA
+	owns_entire_state_region = STATE_CAJAMARCA
+	owns_entire_state_region = STATE_ICA
+	owns_entire_state_region = STATE_LIMA
+	owns_entire_state_region = STATE_POTOSI
+	owns_entire_state_region = STATE_TARAPACA
+	owns_entire_state_region = STATE_ANTOFAGASTA
+	owns_entire_state_region = STATE_ACRE
+}
+
+owned_gran_colombia_region_states = {
+	owns_entire_state_region = STATE_BOLIVAR
+	owns_entire_state_region = STATE_CUNDINAMARCA
+	owns_entire_state_region = STATE_CAUCA
+	owns_entire_state_region = STATE_GUAVIARE
+	owns_entire_state_region = STATE_ZULIA
+	owns_entire_state_region = STATE_ANTIOQUIA
+	owns_entire_state_region = STATE_MIRANDA
+	owns_entire_state_region = STATE_GUAYANA
+}
+
 owned_la_plata_region_states = {
+	owns_entire_state_region = STATE_SANTIAGO
+	owns_entire_state_region = STATE_PATAGONIA
+	owns_entire_state_region = STATE_ARAUCANIA
+	owns_entire_state_region = STATE_LOS_RIOS
+	owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
 	owns_entire_state_region = STATE_BAJO_PARAGUAY
+	owns_entire_state_region = STATE_ALTO_PARAGUAY
+	owns_entire_state_region = STATE_BUENOS_AIRES
+	owns_entire_state_region = STATE_CHACO
+	owns_entire_state_region = STATE_TUCUMAN
+	owns_entire_state_region = STATE_CORRIENTES
+	owns_entire_state_region = STATE_SANTA_FE
+	owns_entire_state_region = STATE_RIO_NEGRO
 }
 
 is_farm_building = {
@@ -641,11 +970,6 @@ is_economic_objective_building = {
 	}
 }
 
-is_non_customs_union_subject = {
-	is_subject = yes
-	NOT = { is_subject_type = subject_type_customs_union }
-}
-
 has_addiction = {
 	OR = {
 		has_trait = alcoholic
@@ -672,107 +996,6 @@ has_colonial_growth = {
 	colonial_growth_per_colony > 0
 }
 
-language_accepted = {
-	OR = {
-		AND = {
-			culture = { has_discrimination_trait = francophone }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = francophone }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = hispanophone }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = hispanophone }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = lusophone }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = lusophone }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = anglophone }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = anglophone }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = german_speaking }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = german_speaking }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = italophone }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = italophone }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = arab_speaking }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = arab_speaking }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = albanian_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = albanian_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = mongol_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = mongol_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = khmer_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = khmer_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = malagasy_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = malagasy_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = burmese_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = burmese_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = korean_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = korean_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = ainu_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = ainu_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = hmong_mien_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = hmong_mien_language }
-			}
-		}
-		AND = {
-			culture = { has_discrimination_trait = tibetan_language }
-			owner = {
-				any_primary_culture = { has_discrimination_trait = tibetan_language }
-			}
-		}
-	}
-}
- 
 default_auto_expand_rule = { 
 	cash_reserves_ratio > 0.95
 	state.market_access >= 0.95
@@ -809,9 +1032,21 @@ can_reach_target_country = {
 	OR = {
 		has_strategic_adjacency = scope:target_country
 		AND = {
+			has_port = yes
 			navy_size >= 10
+			scope:target_country = { has_port = yes }
+		}
+	}
+}
+
+can_be_reached_by_target_country = {
+	has_diplomatic_relevance = scope:target_country
+	OR = {
+		has_strategic_adjacency = scope:target_country
+		AND = {
 			has_port = yes
 			scope:target_country = { has_port = yes }
+			scope:target_country = { navy_size >= 10 }
 		}
 	}
 }
@@ -848,7 +1083,7 @@ has_radical_leftist_economy = {
 
 any_revolution_ongoing = {
 	any_political_movement = {
-		is_revolutionary_movement = yes
+		is_revolutionary = yes
 	}
 }
 
@@ -856,21 +1091,12 @@ socialist_revolution_ongoing = {
 	custom_tooltip = {
 		text = socialist_revolution_ongoing_tt
 		any_political_movement = {
-			is_revolutionary_movement = yes
+			is_revolutionary = yes
 			OR = {
-				any_supporting_interest_group = {
-					law_stance = {
-						law = law_type:law_council_republic
-						value > neutral
-					}
-				}
-				any_supporting_character = {
-					has_role = agitator
-					law_stance = {
-						law = law_type:law_council_republic
-						value > neutral
-					}
-				}
+				is_political_movement_type = movement_socialist
+				is_political_movement_type = movement_anarchist
+				is_political_movement_type = movement_communist
+				is_political_movement_type = movement_nihilist
 			}		
 		}	
 	}		
@@ -880,56 +1106,15 @@ liberal_revolution_ongoing = {
 	custom_tooltip = {
 		text = liberal_revolution_ongoing_tt
 		any_political_movement = {
-			is_revolutionary_movement = yes
+			is_revolutionary = yes
 			OR = {
-				any_supporting_interest_group = {
-					OR = {
-						has_ideology = ideology:ideology_republican
-						has_ideology = ideology:ideology_liberal
-						has_ideology = ideology:ideology_liberal_modern
-						leader = {
-							OR = {
-								has_ideology = ideology:ideology_radical
-								has_ideology = ideology:ideology_republican_leader
-								has_ideology = ideology:ideology_social_democrat
-								has_ideology = ideology:ideology_humanitarian	
-								has_ideology = ideology:ideology_humanitarian_royalist
-								has_ideology = ideology:ideology_feminist
-							}		
-						}
-						AND = {
-							law_stance = {
-								law = law_type:law_autocracy
-								value < neutral
-							}
-							law_stance = {
-								law = law_type:law_council_republic
-								value < neutral
-							}
-						}
-					}
-				}
-				any_supporting_character = {
-					has_role = agitator
-					OR = {
-						has_ideology = ideology:ideology_radical
-						has_ideology = ideology:ideology_republican_leader
-						has_ideology = ideology:ideology_social_democrat
-						has_ideology = ideology:ideology_humanitarian	
-						has_ideology = ideology:ideology_humanitarian_royalist
-						has_ideology = ideology:ideology_feminist
-					}
-					AND = {
-						law_stance = {
-							law = law_type:law_autocracy
-							value < neutral
-						}
-						law_stance = {
-							law = law_type:law_council_republic
-							value < neutral
-						}
-					}
-				}
+				is_political_movement_type = movement_liberal
+				is_political_movement_type = movement_india_pan_national
+				is_political_movement_type = movement_radical
+				is_political_movement_type = movement_labor
+				is_political_movement_type = movement_feminist
+				is_political_movement_type = movement_land_reform
+				is_political_movement_type = movement_anti_slavery
 			}		
 		}
 	}
@@ -939,75 +1124,18 @@ reactionary_revolution_ongoing = {
 	custom_tooltip = {
 		text = reactionary_revolution_ongoing_tt
 		any_political_movement = {
-			is_revolutionary_movement = yes
+			is_revolutionary = yes
 			OR = {
-				any_supporting_interest_group = {
-					OR = {
-						has_ideology = ideology:ideology_pro_slavery
-						has_ideology = ideology:ideology_paternalistic
-						leader = {
-							OR = {
-								has_ideology = ideology:ideology_slaver
-								has_ideology = ideology:ideology_fascist
-								has_ideology = ideology:ideology_integralist
-								has_ideology = ideology:ideology_royalist
-								has_ideology = ideology:ideology_orleanist
-								has_ideology = ideology:ideology_bonapartist
-								has_ideology = ideology:ideology_legitimist
-								has_ideology = ideology:ideology_theocrat
-								has_ideology = ideology:ideology_ethno_nationalist
-								has_ideology = ideology:ideology_traditionalist
-								has_ideology = ideology:ideology_corporatist
-							}
-						}
-						AND = {
-							law_stance = {
-								law = law_type:law_autocracy
-								value >= neutral
-							}
-							law_stance = {
-								law = law_type:law_council_republic
-								value < neutral
-							}
-						}
-					}
-				}
-				any_supporting_character = {
-					has_role = agitator
-					OR = {
-						has_ideology = ideology:ideology_slaver
-						has_ideology = ideology:ideology_fascist
-						has_ideology = ideology:ideology_integralist
-						has_ideology = ideology:ideology_royalist
-						has_ideology = ideology:ideology_orleanist
-						has_ideology = ideology:ideology_bonapartist
-						has_ideology = ideology:ideology_legitimist
-						has_ideology = ideology:ideology_theocrat
-						has_ideology = ideology:ideology_ethno_nationalist
-						has_ideology = ideology:ideology_traditionalist
-					}
-					AND = {
-						OR = {
-							law_stance = {
-								law = law_type:law_autocracy
-								value >= neutral
-							}
-							law_stance = {
-								law = law_type:law_national_supremacy
-								value >= neutral
-							}
-							law_stance = {
-								law = law_type:law_slavery_banned
-								value < neutral
-							}
-						}
-						law_stance = {
-							law = law_type:law_council_republic
-							value < neutral
-						}
-					}
-				}
-			}		
+				is_political_movement_type = movement_fascist
+				is_political_movement_type = movement_reactionary
+				is_political_movement_type = movement_corporatist
+				is_political_movement_type = movement_royalist_absolutist
+				is_political_movement_type = movement_royalist_constitutional
+				is_political_movement_type = movement_orleanist
+				is_political_movement_type = movement_bonapartist
+				is_political_movement_type = movement_legitimist
+				is_political_movement_type = movement_pro_slavery
+			}	
 		}
 	}	
 }
@@ -1118,10 +1246,11 @@ revolution_progress_high = {
 }
 
 government_ig_supports_enaction = {
+	exists = currently_enacting_law
 	any_interest_group = {
 		is_marginal = no
 		is_in_government = yes
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value > neutral
 		}
@@ -1129,27 +1258,22 @@ government_ig_supports_enaction = {
 }
 
 movement_supports_enaction = {
+	exists = currently_enacting_law
 	any_political_movement = {
-		OR = {	
-			is_political_movement_type = movement_to_enact
-			is_political_movement_type = movement_to_restore	
-		}
-		desired_law = root.currently_enacting_law.type
+		law_enactment_stance = {
+			law = owner.currently_enacting_law.type
+			value > neutral
+		}	
 	}
 }
 
 agitator_supports_enaction = {
+	exists = currently_enacting_law
 	any_scope_character = {
 		has_role = agitator
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value > neutral
-		}
-		NOT = {
-			law_stance = {
-				law = owner.currently_enacting_law.type
-				value > strongly_approve # Equals 'count'
-			}
 		}
 	}
 }
@@ -1158,7 +1282,7 @@ government_ig_opposes_enaction = {
 	any_interest_group = {
 		is_marginal = no
 		is_in_government = yes
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value < neutral
 		}
@@ -1166,23 +1290,21 @@ government_ig_opposes_enaction = {
 }
 
 movement_opposes_enaction = {
+	exists = currently_enacting_law
 	any_political_movement = {
-		is_political_movement_type = movement_to_preserve
+		law_enactment_stance = {
+			law = owner.currently_enacting_law.type
+			value < neutral
+		}	
 	}
 }
 
 agitator_opposes_enaction = {
 	any_scope_character = {
 		has_role = agitator
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value < neutral
-		}
-		NOT = {
-			law_stance = {
-				law = owner.currently_enacting_law.type
-				value > strongly_approve # Equals 'count'
-			}
 		}
 	}
 }
@@ -1191,7 +1313,7 @@ government_ig_ambivalent_enaction = {
 	any_interest_group = {
 		is_marginal = no
 		is_in_government = yes
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value = neutral
 		}
@@ -1352,6 +1474,38 @@ ig_type_matches_former = { #Temporary Workaround
 }
 
 #It is intended that some of these categories overlap.
+interest_group_has_liberal_ideology = {
+	OR = {
+		leader = {
+			has_liberal_ideology = yes
+		}
+	}
+}
+
+interest_group_has_progressive_ideology = {
+	leader = {
+		has_progressive_ideology = yes
+	}
+}
+
+interest_group_has_socialist_ideology = {
+	leader = {
+		has_socialist_ideology = yes
+	}
+}
+
+interest_group_has_reactionary_ideology = {
+	leader = {
+		has_reactionary_ideology = yes
+	}
+}
+
+interest_group_has_conservative_ideology = {
+	leader = {
+		has_conservative_ideology = yes
+	}
+}
+
 has_liberal_ideology = {
 	OR = {
 		has_ideology = ideology:ideology_republican_leader
@@ -1481,6 +1635,19 @@ wants_to_solve_schleswig_holstein = {
 	country_rank >= rank_value:great_power
 }
 
+is_oppressor_of_schleswig_holstein = {
+	NOR = {
+		country_has_primary_culture = cu:north_german
+		country_has_primary_culture = cu:south_german						
+	}
+	OR = {
+		any_scope_state = { state_region = s:STATE_SCHLESWIG_HOLSTEIN }
+		any_subject_or_below = {
+			any_scope_state = { state_region = s:STATE_SCHLESWIG_HOLSTEIN }
+		}
+	}
+}
+
 is_active_in_diplomatic_play = {
 	OR = {
 		is_diplomatic_play_committed_participant = yes
@@ -1528,5 +1695,75 @@ diplomatic_play_has_no_relations_blocker_with_overlord = {
 			text = DIPLO_ACTION_TOP_OVERLORD_RELATIONS_CORDIAL_OR_GREATER_NOT
 			scope:target_country.overlord.relations:root < relations_threshold:cordial
 		}	
+	}
+}
+
+has_desirable_character_traits = {
+	NOR = {
+		has_trait = senile
+		has_trait = shellshocked
+		has_trait = psychological_affliction
+		has_trait = bandit
+	}
+	OR = {
+		has_trait = ambitious
+		has_trait = meticulous
+		has_trait = charismatic
+		has_trait = romantic
+		has_trait = brave
+		has_trait = pious
+		has_trait = imposing
+		has_trait = honorable
+	}
+}
+
+# Evaluated by scripted rule of similar name if the law_type does not have its own trigger for this purpose
+# root = imposing country
+# scope:target_country = country imposed upon
+# scope:law = the law type being considered
+can_impose_law_default = {
+	scope:target_country = {
+		is_subject_of = root
+		OR = {
+			is_subject_type = subject_type_chartered_company
+			is_subject_type = subject_type_colony
+			is_subject_type = subject_type_puppet
+			is_subject_type = subject_type_dominion
+			is_subject_type = subject_type_personal_union
+			is_subject_type = subject_type_vassal
+		}
+	}
+}
+
+pro_foreign_imposition_country = {
+	target = scope:foreign_imposition_country
+	OR = {
+		is_political_lobby_type = lobby_pro_country
+		is_political_lobby_type = lobby_pro_overlord
+	}
+}
+
+anti_foreign_imposition_country = {
+	target = scope:foreign_imposition_country
+	OR = {
+		is_political_lobby_type = lobby_anti_country
+		is_political_lobby_type = lobby_anti_overlord
+	}
+}
+
+# Princely States
+
+is_princely_state = {
+	OR  ={
+		has_government_type = gov_princely_state_rawalate
+		has_government_type = gov_princely_state_maharaja
+		has_government_type = gov_princely_state_diwanate
+		has_government_type = gov_princely_state_khanate
+		has_government_type = gov_princely_state_nizamate
+		has_government_type = gov_princely_state_nawabate
+		has_government_type = gov_princely_state_maratha_raja
+		has_government_type = gov_princely_state_raja
+		has_government_type = gov_princely_state_sultan
+
 	}
 }
