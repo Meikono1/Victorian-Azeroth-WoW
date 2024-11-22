@@ -1,14 +1,1 @@
 ﻿# Strategic Regions in Africa
-region_senegal = {
-	graphical_culture = "african"
-	capital_province = x186409
-	map_color = { 72 208 203 }
-	states = { }
-}
-
-region_niger = {
-	graphical_culture = "african"
-	capital_province = xCBCB87
-	map_color = { 0.66 0.25 0.33 }
-	states = { }
-}

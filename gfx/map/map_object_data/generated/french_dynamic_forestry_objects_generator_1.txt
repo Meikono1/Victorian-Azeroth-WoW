@@ -1,0 +1,11 @@
+﻿object={
+	name="french_dynamic_forestry_objects_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="forestry_dynamic"
+	pdxmesh="french_forestry_scatter_01_mesh"
+	count=2
+	transform="4152.065918 0.000000 2567.159424 0.000000 0.823121 0.000000 -0.567866 0.000000 0.000000 0.000000
+4126.530273 0.000000 2565.256836 0.000000 0.849276 0.000000 -0.527949 0.000000 0.000000 0.000000
+"}
