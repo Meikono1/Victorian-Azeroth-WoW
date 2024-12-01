@@ -1,0 +1,23 @@
+region_wow_lakes = {
+	states = { STATE_VA_SEAS }
+}
+
+region_eastern_kingdom_sea = {
+	states = { STATE_EASTERN_KINGDOM_SEA }
+}
+
+region_kalimdor_sea = {
+	states = { STATE_KALIMDOR_SEA }
+}
+
+region_northrend_sea = {
+	states = { STATE_NORTHREND_SEA }
+}
+
+region_pandaria_sea = {
+	states = { STATE_PANDARIA_SEA }
+}
+
+region_central_sea = {
+	states = { STATE_CENTRAL_SEA }
+}

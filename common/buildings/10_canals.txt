@@ -14,12 +14,12 @@
 	}
 
 	potential = {
-		state_region = s:STATE_SINAI
+		state_region = s:region_ahn_qiraj
 	}
 
 	possible = {
 		owner = {
-			owns_treaty_port_in = STATE_SINAI
+			owns_treaty_port_in = region_ahn_qiraj
 			custom_tooltip = {
 				text = suez_survey_complete_tooltip
 				has_variable = suez_survey_complete
@@ -60,12 +60,12 @@ building_panama_canal = {
 	}
 
 	potential = {
-		state_region = s:STATE_PANAMA
+		state_region = s:region_ahn_qiraj
 	}
 
 	possible = {
 		owner = {
-			owns_treaty_port_in = STATE_PANAMA
+			owns_treaty_port_in = region_ahn_qiraj
 			custom_tooltip = {
 				text = panama_survey_complete_tooltip
 				has_variable = panama_survey_complete

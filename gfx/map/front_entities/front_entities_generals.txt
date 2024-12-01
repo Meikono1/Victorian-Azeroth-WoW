@@ -14,10 +14,10 @@
 #		scope:country = {
 #			has_technology_researched = rifling
 #		}
-#		scope:culture = {
+#		scope:culture ?= {
 #			has_culture_graphics = european
 #		}
-#		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+#		scope:combat_unit_type ?= unit_type:combat_unit_type_irregular_infantry
 #	}
 #}
 
@@ -38,7 +38,7 @@ military_infantry_european_general_diorama_entity = {
 	group = "general"
 	
 	trigger = {
-		scope:culture = {
+		scope:culture ?= {
 			has_culture_graphics = european
 		}
 	}
@@ -55,7 +55,7 @@ military_infantry_african_general_diorama_entity = {
 	group = "general"
 	
 	trigger = {
-		scope:culture = {
+		scope:culture ?= {
 			has_culture_graphics = african
 		}
 	}
@@ -72,10 +72,10 @@ military_infantry_arabic_general_diorama_entity = {
 	group = "general"
 	
 	trigger = {
-		scope:culture = {
+		scope:culture ?= {
 			has_culture_graphics = arabic
 		}
-		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+		scope:combat_unit_type ?= unit_type:combat_unit_type_irregular_infantry
 	}
 }
 
@@ -90,10 +90,10 @@ military_infantry_eastasian_general_diorama_entity = {
 	group = "general"
 	
 	trigger = {
-		scope:culture = {
+		scope:culture ?= {
 			has_culture_graphics = east_asian
 		}
-		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+		scope:combat_unit_type ?= unit_type:combat_unit_type_irregular_infantry
 	}
 }
 
@@ -108,9 +108,9 @@ military_infantry_southasian_general_diorama_entity = {
 	group = "general"
 	
 	trigger = {
-		scope:culture = {
+		scope:culture ?= {
 			has_culture_graphics = south_asian
 		}
-		scope:combat_unit_type = unit_type:combat_unit_type_irregular_infantry
+		scope:combat_unit_type ?= unit_type:combat_unit_type_irregular_infantry
 	}
 }

@@ -188,6 +188,35 @@ mm_military = {
 	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
+mm_military_formation = {
+	map_painting_mode = player_alliances
+	map_painting_mode_secondary = player_alliances
+	map_painting_mode_alternate = player_alliances
+	map_markers = { strategic_objective_marker battle_marker military_formation_marker sea_node_movement_marker front_movement_marker hq_movement_marker naval_invasion_marker }
+
+	gradient_border_settings = mapmode_extra
+	is_visible = yes
+	map_texture_mode = occupation
+	show_formation_movement_arrows = yes
+
+	# Texture usage
+	use_mapmode_textures = yes
+
+	# Texture slots
+	primary_color_red = @this_is_you
+	primary_color_green = @war_this_is_you
+	primary_color_blue = @war_this_is_you_warleader
+	primary_color_alpha = @war_ally
+	secondary_color_red = @war_ally_warleader
+	secondary_color_green = @war_enemy
+	secondary_color_blue = @war_enemy_warleader
+	secondary_color_alpha = @color_orange
+	alternate_color_red = @color_red
+	alternate_color_green = @color_green
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
 # Hidden map mode, because it is currently unoptimized / unlocalized / for debug
 mm_player_military_access = {
 	map_painting_mode = player_military_access
@@ -516,7 +545,7 @@ mm_infamy = {
 mm_trade = {
 	map_painting_mode = market_access
 	map_names = markets
-	map_markers = { market_marker market_trade_route_marker sea_infra_marker state_infra_marker sea_node_marker }
+	map_markers = { market_marker market_trade_route_marker sea_infra_marker state_infra_marker sea_node_marker harvest_condition_region_marker }
 
 	is_visible = yes
 
@@ -972,6 +1001,31 @@ mm_reset_production_methods_interaction = {
 	soundeffect = "snapshot:/Dynamic/low_pass_world"
 }
 
+mm_harvest_conditions = {
+	map_painting_mode = harvest_conditions
+	map_markers = { harvest_condition_region_marker }
+	map_names = countries
+	is_visible = yes
+
+	gradient_border_settings = default
+	map_texture_mode = harvest_conditions
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
+mm_global_starvation = {
+	map_painting_mode = global_starvation
+	map_markers = { famine_marker harvest_condition_region_marker }
+	map_names = states
+	is_visible = yes
+
+	gradient_border_settings = heatmap
+	has_fog_of_war = no
+
+	soundeffect = "snapshot:/Dynamic/low_pass_world"
+}
+
 mm_hq_interaction = {
 	map_painting_mode = none
 	map_markers = { sea_node_marker }
@@ -1016,6 +1070,7 @@ mm_budget = {
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
 	map_markers = { state_budget_balance_marker }
+	map_mode_lists = { budget }
 
 	map_texture_mode = occupation
 
@@ -1124,6 +1179,7 @@ mm_gdp = {
 	map_painting_mode = gdp
 	map_names = states
 	map_markers = { construction_marker construction_summary_marker construction_queue_marker event_marker }
+	map_mode_lists = { budget }
 	is_visible = yes
 
 	gradient_border_settings = heatmap
@@ -1136,6 +1192,7 @@ mm_gdp_nationally = {
 	map_painting_mode = gdp_nationally
 	map_names = states
 	map_markers = { event_marker }
+	map_mode_lists = { budget }
 	is_visible = yes
 	is_visible_to_countryless_observer = no
 	gradient_border_settings = heatmap
@@ -1148,6 +1205,7 @@ mm_gdp_ownership_ratio = {
 	map_painting_mode = gdp_ownership_ratio
 	map_names = states
 	map_markers = { event_marker }
+	map_mode_lists = { budget }
 	is_visible = yes
 	is_visible_to_countryless_observer = no
 	gradient_border_settings = heatmap

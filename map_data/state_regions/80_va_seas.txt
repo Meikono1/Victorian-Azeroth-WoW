@@ -1,0 +1,29 @@
+﻿STATE_VA_SEAS = {
+    id = 8000
+    provinces = { "x48FDFD" }
+}
+
+STATE_EASTERN_KINGDOM_SEA = {
+    id = 8001
+    provinces = { "xDB38A3" }
+}
+
+STATE_KALIMDOR_SEA = {
+    id = 8002
+    provinces = { "x3B70B1" }
+}
+
+STATE_NORTHREND_SEA = {
+    id = 8003
+    provinces = { "x69C9C9" }
+}
+
+STATE_PANDARIA_SEA = {
+    id = 8004
+    provinces = { "x8ADE90" }
+}
+
+STATE_CENTRAL_SEA = {
+    id = 8005
+    provinces = { "xC25EAE" }
+}
