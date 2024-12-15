@@ -5,7 +5,7 @@ AMANI_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { kvaldir }	
+	cultures = { amani_troll }	
 	capital = STATE_ZUL_AMAN
 }
 
@@ -16,7 +16,7 @@ ANDORHAL = {
 	
 	tier = empire
 	
-	cultures = { kvaldir }	
+	cultures = { andorhal_human }	
 	capital = STATE_ANDORHAL
 }
 
@@ -27,7 +27,7 @@ ARGENT_CRUSADERS = {
 	
 	tier = empire
 	
-	cultures = { kvaldir }	
+	cultures = { argent_human }	
 	capital = STATE_TWILIGHT_SHORE
 }
 

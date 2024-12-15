@@ -1,226 +1,55 @@
 ﻿### State geography triggers
 
 state_is_in_europe = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 state_is_in_north_america = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 state_is_in_central_america = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 state_is_in_south_america = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 state_is_in_americas = {
-	OR = {
-		state_is_in_north_america = yes
-		state_is_in_central_america = yes
-		state_is_in_south_america = yes
-	}
 }
 
 state_is_in_africa = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 state_is_in_middle_east = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-
-state_is_in_central_asia = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-
-state_is_in_india = {
-	OR = {
-		region = sr:region_ahn_qiraj		
-	}
-}
-
-state_is_in_east_asia = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-
-state_is_in_china = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-
-state_is_in_southeast_asia = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-### Country geography triggers
-# exists = capital checks are necessary only because we may test these triggers and scope switch to capitals before states are initialized properly
-
-country_is_in_china = {
-	exists = capital
-	capital = {
-		state_is_in_china = yes
-	}
-}
-
-country_is_in_europe = {
-	exists = capital
-	capital = {
-		state_is_in_europe = yes
-	}
-}
-
-country_is_in_north_america = {
-	exists = capital
-	capital = {
-		state_is_in_north_america = yes
-	}
-}
-
-country_is_in_central_america = {
-	exists = capital
-	capital = {
-		state_is_in_central_america = yes
-	}
-}
-
-country_is_in_south_america = {
-	exists = capital
-	capital = {
-		state_is_in_south_america = yes
-	}
-}
-
-country_is_in_africa = {
-	exists = capital
-	capital = {
-		state_is_in_africa = yes
-	}
-}
-
-country_is_in_middle_east = {
-	exists = capital
-	capital = {
-		state_is_in_middle_east = yes
-	}
-}
-
-country_is_in_central_asia = {
-	exists = capital
-	capital = {
-		state_is_in_central_asia = yes
-	}
-}
-
-country_is_in_india = {
-	exists = capital
-	capital = {
-		state_is_in_india = yes
-	}
-}
-
-country_is_in_east_asia = {
-	exists = capital
-	capital = {
-		state_is_in_east_asia = yes
-	}
-}
-
-country_is_in_southeast_asia = {
-	exists = capital
-	capital = {
-		state_is_in_southeast_asia = yes
-	}
 }
 
 ### Climate triggers
 
 is_arabic_farmland = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_jungle_hills = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_asian_farmland = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_subtropic_farmland = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_arid_region = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 # Harvest Condition Triggers
 
 is_vulnerable_to_droughts = {
-	OR = {
-		NOT = {
-			region = sr:region_ahn_qiraj
-		}
-	}
 }
 
 is_vulnerable_to_floods = {
-	NOT = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_vulnerable_to_frosts = {
-	NOT = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_vulnerable_to_wildfires = {
-	NOT = {
-		any_scope_state = {
-			OR = {
-				has_state_trait = state_trait_the_great_basin_desert
-				has_state_trait = state_trait_atacama_desert
-				has_state_trait = state_trait_sahara_desert
-				has_state_trait = state_trait_gobi_desert
-				has_state_trait = state_trait_arabian_desert
-				has_state_trait = state_trait_taklamakan_desert
-				has_state_trait = state_trait_australian_desert
-			}
-		}
-	}
 }
 
 is_vulnerable_to_hailstorm = {
@@ -228,15 +57,9 @@ is_vulnerable_to_hailstorm = {
 }
 
 is_vulnerable_to_locust_swarms = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_vulnerable_to_heatwaves = {
-	NOT = {
-		region = sr:region_ahn_qiraj
-	}
 }
 
 is_vulnerable_to_disease_outbreak = {

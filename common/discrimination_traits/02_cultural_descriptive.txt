@@ -10,6 +10,12 @@ aldor = {
 alliance = {
 }
 
+amani = {
+}
+
+andorhal = {
+}
+
 angorosh = {
 }
 
@@ -26,6 +32,9 @@ arcangolem = {
 }
 
 areafiftytwo = {
+}
+
+argent_dawn = {
 }
 
 ashtoungue = {

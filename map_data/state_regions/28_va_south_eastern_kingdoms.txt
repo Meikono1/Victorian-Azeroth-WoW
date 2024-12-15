@@ -16,7 +16,7 @@
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8049
 }
 
 STATE_NORTHSHIRE = {
@@ -37,7 +37,6 @@ STATE_NORTHSHIRE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_GOLDSHIRE = {
@@ -58,7 +57,6 @@ STATE_GOLDSHIRE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_WESTBROOK_GARRISON = {
@@ -79,7 +77,6 @@ STATE_WESTBROOK_GARRISON = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_MACLURE_VINEYARDS = {
@@ -100,7 +97,6 @@ STATE_MACLURE_VINEYARDS = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_HEROES_VIGIL = {
@@ -121,7 +117,6 @@ STATE_HEROES_VIGIL = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_TOWER_OF_AZORA = {
@@ -142,7 +137,6 @@ STATE_TOWER_OF_AZORA = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_REDRIDGE_CANYONS = {
@@ -163,7 +157,6 @@ STATE_REDRIDGE_CANYONS = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_STONEWATCH = {
@@ -184,7 +177,6 @@ STATE_STONEWATCH = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_TOWER_OF_ILGALAR = {
@@ -205,7 +197,6 @@ STATE_TOWER_OF_ILGALAR = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_RENDERS_VALLEY = {
@@ -226,7 +217,6 @@ STATE_RENDERS_VALLEY = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_LAKESHIRE = {
@@ -247,7 +237,6 @@ STATE_LAKESHIRE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_JANSEN_STEAD = {
@@ -268,7 +257,7 @@ STATE_JANSEN_STEAD = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8049
 }
 
 STATE_SENTINEN_HILL = {
@@ -289,7 +278,6 @@ STATE_SENTINEN_HILL = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_RAGING_CHASM = {
@@ -310,7 +298,7 @@ STATE_RAGING_CHASM = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8049
 }
 
 STATE_DAGGER_HILLS = {
@@ -331,7 +319,7 @@ STATE_DAGGER_HILLS = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8049
 }
 
 STATE_DEADMINES = {
@@ -352,7 +340,7 @@ STATE_DEADMINES = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }
 
 STATE_MORTWAKES_TOWER = {
@@ -373,7 +361,6 @@ STATE_MORTWAKES_TOWER = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_RAVEN_HILL = {
@@ -394,7 +381,6 @@ STATE_RAVEN_HILL = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_VUL_GOL_OGRE_MOUND = {
@@ -415,7 +401,6 @@ STATE_VUL_GOL_OGRE_MOUND = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_TWILIGHT_GROVE = {
@@ -436,7 +421,6 @@ STATE_TWILIGHT_GROVE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_DARKSHIRE = {
@@ -457,7 +441,6 @@ STATE_DARKSHIRE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_TRANQUIL_GARDENS_CEMESTERY = {
@@ -478,7 +461,6 @@ STATE_TRANQUIL_GARDENS_CEMESTERY = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_DEADWIND_RAVINE = {
@@ -499,7 +481,6 @@ STATE_DEADWIND_RAVINE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_GROSH_GOK_COMPOUND = {
@@ -520,7 +501,6 @@ STATE_GROSH_GOK_COMPOUND = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_KARAZHAN = {
@@ -541,7 +521,6 @@ STATE_KARAZHAN = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_SPLINTERSPEAR_JUNCTION = {
@@ -562,7 +541,6 @@ STATE_SPLINTERSPEAR_JUNCTION = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_STONARD = {
@@ -583,7 +561,6 @@ STATE_STONARD = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_MARSHTIDE_WATCH = {
@@ -604,7 +581,7 @@ STATE_MARSHTIDE_WATCH = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8053
 }
 
 STATE_TEMPLE_OF_ATAL_HAKKAR = {
@@ -646,7 +623,7 @@ STATE_STAGELBOG = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8053
 }
 
 STATE_NETHERGARDE_KEEP = {
@@ -667,7 +644,6 @@ STATE_NETHERGARDE_KEEP = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_DREADMAUL_HOLD = {
@@ -688,7 +664,6 @@ STATE_DREADMAUL_HOLD = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_SHATTERED_LANDING = {
@@ -709,7 +684,7 @@ STATE_SHATTERED_LANDING = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8052
 }
 
 STATE_THE_DARK_PORTAL = {
@@ -730,7 +705,6 @@ STATE_THE_DARK_PORTAL = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_RED_REACHES = {
@@ -751,7 +725,7 @@ STATE_RED_REACHES = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8052
 }
 
 STATE_TAINTED_FOREST = {
@@ -772,7 +746,7 @@ STATE_TAINTED_FOREST = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8052
 }
 
 STATE_ZUL_GURUB = {
@@ -793,7 +767,7 @@ STATE_ZUL_GURUB = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8051
 }
 
 STATE_KURZENS_COMPOUND = {
@@ -814,7 +788,6 @@ STATE_KURZENS_COMPOUND = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_RUINS_OF_ZUL_KUNDA = {
@@ -835,7 +808,7 @@ STATE_RUINS_OF_ZUL_KUNDA = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }
 
 STATE_BAMBALA = {
@@ -856,7 +829,6 @@ STATE_BAMBALA = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
 }
 
 STATE_GROM_GOL_CAMP = {
@@ -877,7 +849,7 @@ STATE_GROM_GOL_CAMP = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }
 
 STATE_FORT_LIVINGSTON = {
@@ -898,7 +870,7 @@ STATE_FORT_LIVINGSTON = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }
 
 STATE_GURUBASHI_ARENA = {
@@ -919,7 +891,7 @@ STATE_GURUBASHI_ARENA = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }
 
 STATE_EXPLORERS_LEAGUE_DIGSITE = {
@@ -940,7 +912,7 @@ STATE_EXPLORERS_LEAGUE_DIGSITE = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8051
 }
 
 STATE_JAGUERO_ISLAND = {
@@ -961,7 +933,7 @@ STATE_JAGUERO_ISLAND = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8051
 }
 
 STATE_BOOTY_BAY = {
@@ -982,5 +954,5 @@ STATE_BOOTY_BAY = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 3073
+    naval_exit_id = 8050
 }

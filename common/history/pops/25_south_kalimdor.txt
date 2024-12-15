@@ -1,6 +1,6 @@
 POPS = {
 	s:STATE_CAMP_ATAYA = {
-		region_state:KALIMDOR = {
+		region_state:NORTHSPRING_HARPY = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -8,7 +8,13 @@ POPS = {
 		}
 	}
 	s:STATE_DREAM_BOUGH = {
-		region_state:KALIMDOR = {
+		region_state:DRUIDS_OF_TALONS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -16,7 +22,19 @@ POPS = {
 		}
 	}
 	s:STATE_FEATHERMOON_STRONGHOLD = {
-		region_state:KALIMDOR = {
+		region_state:SENTINELS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:RAGE_SCAR_YETI = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:STONEMAUL_OGRE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -24,7 +42,13 @@ POPS = {
 		}
 	}
 	s:STATE_RUINS_OF_FEATHERMOON = {
-		region_state:KALIMDOR = {
+		region_state:HATECREST_NAGA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SENTINELS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -32,7 +56,13 @@ POPS = {
 		}
 	}
 	s:STATE_DIRE_MAUL = {
-		region_state:KALIMDOR = {
+		region_state:GORDUNNI_OGRE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SHEN_DRALAR = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -40,7 +70,19 @@ POPS = {
 		}
 	}
 	s:STATE_RUINS_OF_ISILDIEN = {
-		region_state:KALIMDOR = {
+		region_state:GORDUNNI_OGRE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SHEN_DRALAR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:FERAL_SCAR_YETI = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -48,7 +90,13 @@ POPS = {
 		}
 	}
 	s:STATE_WOODPAW_HILLS = {
-		region_state:KALIMDOR = {
+		region_state:WOODPAW_GNOLL = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:HIGHBORN_UNDEAD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -56,7 +104,13 @@ POPS = {
 		}
 	}
 	s:STATE_WRITHING_DEEP = {
-		region_state:KALIMDOR = {
+		region_state:STEAM_RESORT = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:HIVE_ZUKKASH = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -64,7 +118,13 @@ POPS = {
 		}
 	}
 	s:STATE_GORDUNNI_OUTPOST = {
-		region_state:KALIMDOR = {
+		region_state:GORDUNNI_OGRE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:CAMP_MOJACHE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -72,7 +132,13 @@ POPS = {
 		}
 	}
 	s:STATE_NEW_THALANAAR = {
-		region_state:KALIMDOR = {
+		region_state:GRIMMTOTEM = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SENTINELS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -80,7 +146,19 @@ POPS = {
 		}
 	}
 	s:STATE_RAZORFEN_DOWNS = {
-		region_state:KALIMDOR = {
+		region_state:GRIMMTOTEM = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:RAZORFEN = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SUMMIT_DEFENDERS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -88,7 +166,7 @@ POPS = {
 		}
 	}
 	s:STATE_DARKCLOUD_PINNACLE = {
-		region_state:KALIMDOR = {
+		region_state:GRIMMTOTEM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -96,7 +174,7 @@ POPS = {
 		}
 	}
 	s:STATE_TWILIGHT_BULWARK = {
-		region_state:KALIMDOR = {
+		region_state:TWILIGHT_HAMMER_THOUSAND_NEEDLES = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -104,7 +182,13 @@ POPS = {
 		}
 	}
 	s:STATE_SPLITHOOF_HEIGHTS = {
-		region_state:KALIMDOR = {
+		region_state:GALAK_CENTAUR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -112,7 +196,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZUL_FARRAK = {
-		region_state:KALIMDOR = {
+		region_state:SANDFURY_TRIBE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -120,7 +204,13 @@ POPS = {
 		}
 	}
 	s:STATE_GADGETZAN = {
-		region_state:KALIMDOR = {
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -128,7 +218,7 @@ POPS = {
 		}
 	}
 	s:STATE_LOST_RIGGER_COVE = {
-		region_state:KALIMDOR = {
+		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -136,7 +226,7 @@ POPS = {
 		}
 	}
 	s:STATE_CAVERNS_OF_TIME = {
-		region_state:KALIMDOR = {
+		region_state:KEEPERS_OF_TIME = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -144,7 +234,7 @@ POPS = {
 		}
 	}
 	s:STATE_ABYSSAL_SANDS = {
-		region_state:KALIMDOR = {
+		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -152,7 +242,19 @@ POPS = {
 		}
 	}
 	s:STATE_THE_NOXIOUS_LAIR = {
-		region_state:KALIMDOR = {
+		region_state:CENTIPAAR_LAIR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SANDFURY_TRIBE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:DUNEMAUL_OGRE = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -160,7 +262,13 @@ POPS = {
 		}
 	}
 	s:STATE_THE_GAPING_CHASM = {
-		region_state:KALIMDOR = {
+		region_state:HAZZALI_LAIR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -168,7 +276,7 @@ POPS = {
 		}
 	}
 	s:STATE_VALLEY_OF_THE_WATCHERS = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM_RUINS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -176,7 +284,7 @@ POPS = {
 		}
 	}
 	s:STATE_THE_SHAPERS_TERRACE = {
-		region_state:KALIMDOR = {
+		region_state:UNGORO_WILD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -184,7 +292,13 @@ POPS = {
 		}
 	}
 	s:STATE_THE_SLITHERING_SCAR = {
-		region_state:KALIMDOR = {
+		region_state:GORISHI_LAIR = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -192,7 +306,13 @@ POPS = {
 		}
 	}
 	s:STATE_LAKKARI_TAR_PITS = {
-		region_state:KALIMDOR = {
+		region_state:UNGORO_WILD = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -200,7 +320,13 @@ POPS = {
 		}
 	}
 	s:STATE_GOLAKKA_HOT_SPRINGS = {
-		region_state:KALIMDOR = {
+		region_state:UNGORO_WILD = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -208,7 +334,13 @@ POPS = {
 		}
 	}
 	s:STATE_HIVE_ASHI = {
-		region_state:KALIMDOR = {
+		region_state:TWILIGHT_HAMMER_SILITHUS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:HIVE_ASHI = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -216,7 +348,13 @@ POPS = {
 		}
 	}
 	s:STATE_HIVE_ZORA = {
-		region_state:KALIMDOR = {
+		region_state:HIVE_ZORA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_SILITHUS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -224,7 +362,19 @@ POPS = {
 		}
 	}
 	s:STATE_SOUTHWIND_VILLAGE = {
-		region_state:KALIMDOR = {
+		region_state:HIVE_ASHI = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_SILITHUS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+		region_state:CENARION_HOLD = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -232,7 +382,7 @@ POPS = {
 		}
 	}
 	s:STATE_HIVE_REGAL = {
-		region_state:KALIMDOR = {
+		region_state:HIVE_REGAL = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -240,7 +390,7 @@ POPS = {
 		}
 	}
 	s:STATE_TWILIGHT_OUTPOST = {
-		region_state:KALIMDOR = {
+		region_state:TWILIGHT_HAMMER_SILITHUS = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -248,7 +398,7 @@ POPS = {
 		}
 	}
 	s:STATE_KHARTUTS_TOMB = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -256,7 +406,7 @@ POPS = {
 		}
 	}
 	s:STATE_HALLS_OF_ORIGINATION = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -264,7 +414,7 @@ POPS = {
 		}
 	}
 	s:STATE_TOMB_OF_THE_SUN_KING = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -272,7 +422,7 @@ POPS = {
 		}
 	}
 	s:STATE_NAHOM = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -280,7 +430,7 @@ POPS = {
 		}
 	}
 	s:STATE_RAMKAHEN = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -288,7 +438,7 @@ POPS = {
 		}
 	}
 	s:STATE_LOST_CITY_TOLVIR = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -296,7 +446,7 @@ POPS = {
 		}
 	}
 	s:STATE_NEFERSET = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -304,7 +454,7 @@ POPS = {
 		}
 	}
 	s:STATE_OBELISK_OF_SUN = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -312,7 +462,7 @@ POPS = {
 		}
 	}
 	s:STATE_ORSIS = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -320,7 +470,7 @@ POPS = {
 		}
 	}
 	s:STATE_THRONE_OF_FOUR_WINDS = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -328,7 +478,7 @@ POPS = {
 		}
 	}
 	s:STATE_OBELISK_OF_MOON = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -336,7 +486,7 @@ POPS = {
 		}
 	}
 	s:STATE_RUINS_OF_KHINTASET = {
-		region_state:KALIMDOR = {
+		region_state:ULDUM = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -344,7 +494,7 @@ POPS = {
 		}
 	}
 	s:STATE_TEMPLE_OF_AHN_QIRAJ = {
-		region_state:KALIMDOR = {
+		region_state:AHNQIRAJ = {
 			create_pop = {
 				culture = silvermoon_bloodelf
 				size = 10000
@@ -352,5 +502,11 @@ POPS = {
 		}
 	}
 	s:STATE_RUINS_OF_AHN_QIRAJ = {
+		region_state:AHNQIRAJ = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
 	}
 }

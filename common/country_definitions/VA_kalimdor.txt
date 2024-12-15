@@ -6,7 +6,7 @@ AHNQIRAJ = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_TEMPLE_OF_AHN_QIRAJ
 }
 
 BEAL_DUN = {
@@ -17,7 +17,7 @@ BEAL_DUN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BAEL_MODAN
 }
 
 BATHRANS_HUNT = {
@@ -28,7 +28,7 @@ BATHRANS_HUNT = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_MAESTRAS_POST
 }
 
 BLACKHOOF = {
@@ -39,7 +39,7 @@ BLACKHOOF = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BLACKHOOF_VILLAGE
 }
 
 BLACK_DRAGONFLIGHT_ONYXIA = {
@@ -50,7 +50,7 @@ BLACK_DRAGONFLIGHT_ONYXIA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_ONYXIAS_LAIR
 }
 
 BLACK_DRAGONFLIGHT_SABLE = {
@@ -61,7 +61,7 @@ BLACK_DRAGONFLIGHT_SABLE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_TOWER_OF_ELDARA
 }
 
 BLACKSILT_MURLOC = {
@@ -72,7 +72,7 @@ BLACKSILT_MURLOC = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_AXXARIEN
 }
 
 BLACKMAW_FURBOLGS = {
@@ -83,7 +83,7 @@ BLACKMAW_FURBOLGS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BLACKMAW_HOLD
 }
 
 BLACKWOOD_FURBOLG = {
@@ -94,7 +94,7 @@ BLACKWOOD_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_AMETH_ARAN
 }
 
 BLOODFEATHER_HARPY = {
@@ -116,7 +116,7 @@ BLOODWOOD_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_MOONWELL_OF_CLEANSING
 }
 
 BLOODVENOM_CORRUPTION = {
@@ -127,7 +127,7 @@ BLOODVENOM_CORRUPTION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BLOODVENOM_POST
 }
 
 BOULDERSLIDE_KOBOLD = {
@@ -138,7 +138,7 @@ BOULDERSLIDE_KOBOLD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_WEBWINDER_HOLLOW
 }
 
 BRACKENWALL = {
@@ -149,7 +149,7 @@ BRACKENWALL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BRACKENWALL_VILLAGE
 }
 
 BRISTLEBACK_QUILBOARS = {
@@ -160,7 +160,7 @@ BRISTLEBACK_QUILBOARS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_THORNSNARL
 }
 
 BRISTLELIMB_FURBOLG = {
@@ -171,7 +171,7 @@ BRISTLELIMB_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_BRISTLELIMB_VILLAGE
 }
 
 BURNING_BLADE = {
@@ -182,7 +182,7 @@ BURNING_BLADE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_THUNDER_AXE_FORTRESS
 }
 
 CAMP_MOJACHE = {
@@ -193,7 +193,7 @@ CAMP_MOJACHE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_GORDUNNI_OUTPOST
 }
 
 CENARION_HOLD = {
@@ -204,7 +204,7 @@ CENARION_HOLD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_SOUTHWIND_VILLAGE
 }
 
 CENTIPAAR_LAIR = {
@@ -215,7 +215,7 @@ CENTIPAAR_LAIR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_THE_NOXIOUS_LAIR
 }
 
 CLIFFWALKER = {
@@ -226,7 +226,7 @@ CLIFFWALKER = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_SUN_ROCK_RETREAT
 }
 
 CRAZED_WILDLIFE = {
@@ -237,7 +237,7 @@ CRAZED_WILDLIFE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ORACLE_GLADE
+	capital = STATE_STILLPINE_HOLD
 }
 
 DARKSCALE_NAGA = {
@@ -248,7 +248,7 @@ DARKSCALE_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_AUBERDINE
 }
 
 DARKSPEAR = {
@@ -259,7 +259,7 @@ DARKSPEAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DARKSPEAR_HOLD
 }
 
 DARK_STRAND_CULT = {
@@ -270,7 +270,7 @@ DARK_STRAND_CULT = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SHRINE_OF_AESSINA
 }
 
 DARNASSUS = {
@@ -281,7 +281,7 @@ DARNASSUS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DARNASSUS
 }
 
 DARNASSUS_OUTPOST = {
@@ -292,7 +292,7 @@ DARNASSUS_OUTPOST = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FOREST_SONG
 }
 
 DEADWOOD_FURBOLG = {
@@ -303,7 +303,7 @@ DEADWOOD_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_EMERALD_SANCTUARY
 }
 
 DIREHORN = {
@@ -314,7 +314,7 @@ DIREHORN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DIREHORN_POST
 }
 
 DRUIDS_OF_FANG = {
@@ -325,7 +325,7 @@ DRUIDS_OF_FANG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WAILING_CAVERNS
 }
 
 DRUIDS_OF_TALONS = {
@@ -336,7 +336,7 @@ DRUIDS_OF_TALONS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DREAM_BOUGH
 }
 
 DUNEMAUL_OGRE = {
@@ -347,7 +347,7 @@ DUNEMAUL_OGRE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THE_NOXIOUS_LAIR
 }
 
 DUSTWIND_HARPY = {
@@ -358,7 +358,7 @@ DUSTWIND_HARPY = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DRYGULCH_RAVINE
 }
 
 EMERALD_CIRCLE = {
@@ -369,7 +369,7 @@ EMERALD_CIRCLE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_EMERALD_SANCTUARY
 }
 
 EXODAR = {
@@ -380,7 +380,7 @@ EXODAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_EXODAR
 }
 
 EVERLOOK = {
@@ -391,7 +391,7 @@ EVERLOOK = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_EVERLOOK
 }
 
 FERAL_SCAR_YETI = {
@@ -402,7 +402,7 @@ FERAL_SCAR_YETI = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_ISILDIEN
 }
 
 FOULWEALD_FURBOLG = {
@@ -413,7 +413,7 @@ FOULWEALD_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_MOONWELL_OF_CLEANSING
 }
 
 FRAZZLECRAZ = {
@@ -424,7 +424,7 @@ FRAZZLECRAZ = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_BATTLESCAR
 }
 
 GALAK_CENTAUR = {
@@ -435,7 +435,7 @@ GALAK_CENTAUR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SPLITHOOF_HEIGHTS
 }
 
 GELKIS = {
@@ -446,7 +446,7 @@ GELKIS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_GELKIS_VILLAGE
 }
 
 GNARLPINE_FURBOLG = {
@@ -457,7 +457,7 @@ GNARLPINE_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_GNARLPINE_HOLD
 }
 
 GORDUNNI_OGRE = {
@@ -468,7 +468,7 @@ GORDUNNI_OGRE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_GORDUNNI_OUTPOST
 }
 
 GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS = {
@@ -479,7 +479,7 @@ GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FOREST_SONG
 }
 
 GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
@@ -490,7 +490,7 @@ GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DREAM_BOUGH
 }
 
 GREYMIST_MURLOC = {
@@ -501,7 +501,7 @@ GREYMIST_MURLOC = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SHATTERSPEAR_WAR_CAMP
 }
 
 GRIMMTOTEM = {
@@ -512,7 +512,7 @@ GRIMMTOTEM = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DARKCLOUD_PINNACLE
 }
 
 GM_ISLAND = {
@@ -523,7 +523,7 @@ GM_ISLAND = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_GM_ISLAND
 }
 
 GORISHI_LAIR = {
@@ -534,7 +534,7 @@ GORISHI_LAIR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THE_SLITHERING_SCAR
 }
 
 GUARDIANS_HYJAL = {
@@ -545,7 +545,7 @@ GUARDIANS_HYJAL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_NORDRASSIL
 }
 
 HATECREST_NAGA = {
@@ -556,7 +556,7 @@ HATECREST_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_FEATHERMOON
 }
 
 HATEFURY_SATYRS = {
@@ -567,7 +567,7 @@ HATEFURY_SATYRS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SARGERON
 }
 
 HAZZALI_LAIR = {
@@ -578,7 +578,7 @@ HAZZALI_LAIR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THE_GAPING_CHASM
 }
 
 HIGHBORN_UNDEAD = {
@@ -589,7 +589,7 @@ HIGHBORN_UNDEAD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WOODPAW_HILLS
 }
 
 HIVE_ASHI = {
@@ -600,7 +600,7 @@ HIVE_ASHI = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_HIVE_ASHI
 }
 
 HIVE_REGAL = {
@@ -611,7 +611,7 @@ HIVE_REGAL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_HIVE_REGAL
 }
 
 HIVE_ZORA = {
@@ -622,7 +622,7 @@ HIVE_ZORA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_HIVE_ZORA
 }
 
 HIVE_ZUKKASH = {
@@ -633,7 +633,7 @@ HIVE_ZUKKASH = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WRITHING_DEEP
 }
 
 HONOR_STAND = {
@@ -644,7 +644,7 @@ HONOR_STAND = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_HUNTERS_HILL
 }
 
 HYJAL_REBELLION = {
@@ -655,7 +655,7 @@ HYJAL_REBELLION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_CRUCIBLE_OF_FLAME
 }
 
 IRONTREE = {
@@ -666,7 +666,7 @@ IRONTREE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WHISPERWIND_GROVE
 }
 
 INFECTED_WILDLIFE = {
@@ -677,7 +677,7 @@ INFECTED_WILDLIFE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SILVERMYST_ISLE
 }
 
 JAEDENAR = {
@@ -688,7 +688,7 @@ JAEDENAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_JAEDENAR
 }
 
 JADEFIRE_CORRUPTION = {
@@ -699,7 +699,7 @@ JADEFIRE_CORRUPTION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_JADEFIRE_GLEN
 }
 
 KEEPERS_OF_TIME = {
@@ -710,7 +710,7 @@ KEEPERS_OF_TIME = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_CAVERNS_OF_TIME
 }
 
 LEGASH_CORRUPTION = {
@@ -721,7 +721,7 @@ LEGASH_CORRUPTION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_NORDESSA
 }
 
 MAGMATHAR_FIRE = {
@@ -732,7 +732,7 @@ MAGMATHAR_FIRE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THUNDER_PEAK
 }
 
 MAGRAM = {
@@ -743,7 +743,7 @@ MAGRAM = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SHOK_THOKAR
 }
 
 MAKRINNI_MAKRURA = {
@@ -754,7 +754,7 @@ MAKRINNI_MAKRURA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TOWER_OF_ELDARA
 }
 
 MANNOROTH_LEGION = {
@@ -765,7 +765,7 @@ MANNOROTH_LEGION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DEMON_FALL_CANYON
 }
 
 MAROUDINE = {
@@ -776,7 +776,7 @@ MAROUDINE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_MAROUDON
 }
 
 MARSHAL_EXPEDITION = {
@@ -787,7 +787,7 @@ MARSHAL_EXPEDITION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_LAKKARI_TAR_PITS
 }
 
 NAZZIVUS = {
@@ -798,7 +798,7 @@ NAZZIVUS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_NAZZIVIAN
 }
 
 NOXIOUS_LAIR = {
@@ -820,7 +820,7 @@ MIREFIN_MURLOC = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DREADMURK_SHORE
 }
 
 NESSTLEWOOD_OWLKIN = {
@@ -831,7 +831,7 @@ NESSTLEWOOD_OWLKIN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_NESTLEWOOD_HILLS
 }
 
 NORTHSPRING_HARPY = {
@@ -842,7 +842,7 @@ NORTHSPRING_HARPY = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_CAMP_ATAYA
 }
 
 NORTHWATCH_EXPEDITION = {
@@ -853,7 +853,7 @@ NORTHWATCH_EXPEDITION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_UNEARTHED_GROUNDS
 }
 
 ORGRIMMAR = {
@@ -864,7 +864,7 @@ ORGRIMMAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_ORGRIMMAR
 }
 
 PALEMANE_GNOLL = {
@@ -875,7 +875,7 @@ PALEMANE_GNOLL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_BLOODHOOF_VILLAGE
 }
 
 RAGE_SCAR_YETI = {
@@ -886,7 +886,7 @@ RAGE_SCAR_YETI = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FEATHERMOON_STRONGHOLD
 }
 
 RAZORFEN = {
@@ -897,7 +897,7 @@ RAZORFEN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RAZORFEN_KRAUL
 }
 
 RAZORMANE = {
@@ -908,7 +908,7 @@ RAZORMANE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THORN_HILL
 }
 
 ULDUM_RUINS = {
@@ -919,7 +919,7 @@ ULDUM_RUINS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_VALLEY_OF_THE_WATCHERS
 }
 
 UNGORO_WILD = {
@@ -930,7 +930,7 @@ UNGORO_WILD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THE_SHAPERS_TERRACE
 }
 
 SANDFURY_TRIBE = {
@@ -941,7 +941,7 @@ SANDFURY_TRIBE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_ZUL_FARRAK
 }
 
 SENTINELS = {
@@ -952,7 +952,7 @@ SENTINELS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FEATHERMOON_STRONGHOLD
 }
 
 SEVERED_NIGHTELFES = {
@@ -963,7 +963,7 @@ SEVERED_NIGHTELFES = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SPLINTERTREE_POST
 }
 
 SHADOWPREY = {
@@ -974,7 +974,7 @@ SHADOWPREY = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_GELKIS_VILLAGE
 }
 
 SHADOW_RIDGE = {
@@ -985,7 +985,7 @@ SHADOW_RIDGE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_NESTLEWOOD_HILLS
 }
 
 SHATTERSPEAR = {
@@ -996,7 +996,7 @@ SHATTERSPEAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SHATTERSPEAR_WAR_CAMP
 }
 
 SHEN_DRALAR = {
@@ -1007,7 +1007,7 @@ SHEN_DRALAR = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DIRE_MAUL
 }
 
 SILTFIN_MURLOC = {
@@ -1018,7 +1018,7 @@ SILTFIN_MURLOC = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WILDWIND_PEAK
 }
 
 SILVERWING_OUTPOST = {
@@ -1029,7 +1029,7 @@ SILVERWING_OUTPOST = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SPLINTERTREE_POST
 }
 
 SLITHERBLADE_NAGA = {
@@ -1040,7 +1040,7 @@ SLITHERBLADE_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FURIENS_POST
 }
 
 SLUDGEWERKS = {
@@ -1051,7 +1051,7 @@ SLUDGEWERKS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SLUDGEWERKS
 }
 
 SOUTHSEE_FREEBOOTERS = {
@@ -1062,7 +1062,7 @@ SOUTHSEE_FREEBOOTERS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_LOST_RIGGER_COVE
 }
 
 SPITELASH_NAGA = {
@@ -1073,7 +1073,7 @@ SPITELASH_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_ELDARATH
 }
 
 STEAM_RESORT = {
@@ -1084,7 +1084,7 @@ STEAM_RESORT = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WRITHING_DEEP
 }
 
 STILLPINE_FURBOLG = {
@@ -1095,7 +1095,7 @@ STILLPINE_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_STILLPINE_HOLD
 }
 
 STONEMAUL_OGRE = {
@@ -1106,7 +1106,7 @@ STONEMAUL_OGRE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FEATHERMOON_STRONGHOLD
 }
 
 STRASHAZ = {
@@ -1117,7 +1117,7 @@ STRASHAZ = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_DREADMURK_SHORE
 }
 
 SUMMIT_DEFENDERS = {
@@ -1128,7 +1128,7 @@ SUMMIT_DEFENDERS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RAZORFEN_DOWNS
 }
 
 SUNHAWK = {
@@ -1139,7 +1139,7 @@ SUNHAWK = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_VECTOR_COIL
 }
 
 TALONBRANCH_GUARDIAN = {
@@ -1150,7 +1150,7 @@ TALONBRANCH_GUARDIAN = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TALONBRANCH_GLADE
 }
 
 THAL_DARAH = {
@@ -1161,7 +1161,7 @@ THAL_DARAH = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THAL_DARAH_GROVE
 }
 
 THERAMORE = {
@@ -1172,7 +1172,7 @@ THERAMORE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THERAMORE_ISLE
 }
 
 THE_INFERNO = {
@@ -1183,7 +1183,7 @@ THE_INFERNO = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SULFURON_SPIRE
 }
 
 THISTLEFUR_FURBOLG = {
@@ -1194,7 +1194,7 @@ THISTLEFUR_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_ASTRANAAR
 }
 
 THUNDERBLUFF = {
@@ -1205,7 +1205,7 @@ THUNDERBLUFF = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_THUNDER_BLUFF
 }
 
 TIMBERMAW_FURBOLG = {
@@ -1216,7 +1216,7 @@ TIMBERMAW_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TIMBERMAW_HOLD
 }
 
 TWILIGHT_HAMMER_DARKSHORE = {
@@ -1227,7 +1227,7 @@ TWILIGHT_HAMMER_DARKSHORE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_AMETH_ARAN
 }
 
 TWILIGHT_HAMMER_SILITHUS = {
@@ -1238,7 +1238,7 @@ TWILIGHT_HAMMER_SILITHUS = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TWILIGHT_OUTPOST
 }
 
 TWILIGHT_HAMMER_THOUSAND_NEEDLES = {
@@ -1249,7 +1249,7 @@ TWILIGHT_HAMMER_THOUSAND_NEEDLES = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TWILIGHT_BULWARK
 }
 
 TWILIGHT_HAMMER_HYJAL = {
@@ -1260,7 +1260,7 @@ TWILIGHT_HAMMER_HYJAL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SEAT_OF_THE_CHOOSEN
 }
 
 ULDUM = {
@@ -1282,7 +1282,7 @@ VERIDIAN_DRAGONFLIGHT = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WYRMSCARE_ISLAND
 }
 
 WINDFURY_HARPY = {
@@ -1293,7 +1293,7 @@ WINDFURY_HARPY = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_STONETALON_PASS
 }
 
 WINTERFALL_FURBOLG = {
@@ -1304,7 +1304,7 @@ WINTERFALL_FURBOLG = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_TIMBERMAW_HOLD
 }
 
 WINTERFALL_WILD = {
@@ -1315,7 +1315,7 @@ WINTERFALL_WILD = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_MAZTHORIL
 }
 
 WITCHWING_HARPIE = {
@@ -1326,7 +1326,7 @@ WITCHWING_HARPIE = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_FORGOTTEN_POOLS
 }
 
 WOODPAW_GNOLL = {
@@ -1337,7 +1337,7 @@ WOODPAW_GNOLL = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WOODPAW_HILLS
 }
 
 WORMWING_HARPIES = {
@@ -1348,7 +1348,7 @@ WORMWING_HARPIES = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_SHRINE_OF_AVIANA
 }
 
 WRATHTAIL_NAGA = {
@@ -1359,7 +1359,7 @@ WRATHTAIL_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_BLACKFATHOM_DEEPS
 }
 
 WRATHSCALE_NAGA = {
@@ -1370,7 +1370,7 @@ WRATHSCALE_NAGA = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_WRATHSCALE_LAIR
 }
 
 XAVIAN_CORRUPTION = {
@@ -1381,7 +1381,7 @@ XAVIAN_CORRUPTION = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RAYNEWOOD_RETREAT
 }
 
 XYLEM_OUTPOST = {
@@ -1392,5 +1392,5 @@ XYLEM_OUTPOST = {
 	tier = empire
 	
 	cultures = { kvaldir }	
-	capital = STATE_ZUL_AMAN
+	capital = STATE_RUINS_OF_NORDESSA
 }

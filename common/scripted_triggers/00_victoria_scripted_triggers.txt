@@ -524,54 +524,6 @@ meiji_completion_trigger = {
 	}	
 }
 
-country_is_in_india = {
-	OR = {
-		capital.state_region = s:region_ahn_qiraj
-	}
-}
-
-state_is_in_india = {
-	OR = {
-		region = sr:region_ahn_qiraj
-	}
-}
-
-state_is_homeland_of_indian_cultures = {
-	state_region = {
-		OR = {
-			is_homeland = cu:kho
-			is_homeland = cu:assamese
-			is_homeland = cu:bengali
-			is_homeland = cu:bihari
-			is_homeland = cu:manipuri
-			is_homeland = cu:nepali
-			is_homeland = cu:oriya
-			is_homeland = cu:sinhala
-			is_homeland = cu:avadhi
-			is_homeland = cu:panjabi
-			is_homeland = cu:kashmiri
-			is_homeland = cu:gujarati
-			is_homeland = cu:marathi
-			is_homeland = cu:sindi
-			is_homeland = cu:rajput
-			is_homeland = cu:kannada
-			is_homeland = cu:malayalam
-			is_homeland = cu:tamil
-			is_homeland = cu:telegu
-			is_homeland = cu:hindustani
-			is_homeland = cu:lushai
-			is_homeland = cu:bundeli
-			is_homeland = cu:pahari
-			is_homeland = cu:gondi
-			is_homeland = cu:bageli
-			is_homeland = cu:chhattisgarhi
-			is_homeland = cu:naga
-			is_homeland = cu:deccani
-			is_homeland = cu:pathan
-		}
-	}
-}
-
 ### Ideology Scripted Triggers - all within interest_group scope.
 ### I will not take responsibility for the transgressions of Humanity.
 
@@ -720,7 +672,7 @@ ideology_communist_valid_trigger = {
 	}
 }
 
-ideology_vanguardist_scripted_trigger = {
+ideology_vanguardist_valid_trigger = {
 	OR = {
 		is_interest_group_type = ig_rural_folk
 		is_interest_group_type = ig_intelligentsia
@@ -933,5 +885,16 @@ movement_is_plausibly_indian_nationalist = {
 		is_political_movement_type = movement_india_pan_national
 		is_political_movement_type = movement_hindu_nationalist
 		is_political_movement_type = movement_muslim_nationalist
+	}
+}
+
+is_indian_interest_group = {
+	OR = {
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_rural_folk
 	}
 }

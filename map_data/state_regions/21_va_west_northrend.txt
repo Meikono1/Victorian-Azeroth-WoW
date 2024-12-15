@@ -22,7 +22,7 @@
 STATE_VALLIANCE_KEEP = {
     id = 2102
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0BC8C1" "x10A000" "x23500D" "x3E0978" "x543388" "x6A488F" "x818D9D" "x8588BF" "x8B0AB0" "xB8FE88" "xBCB8D9" "xC0DD8B" "xCB412F" "xD1A6A0" "xE29640" "xEB2540" }
+    provinces = { "x0BC8C1" "x10A000" "x23500D" "x3E0978" "x543388" "x6A488F" "x818D9D" "x837BBA" "x8588BF" "x8B0AB0" "xB8FE88" "xBCB8D9" "xC0DD8B" "xCB412F" "xD1A6A0" "xE29640" "xEB2540" }
     traits = {}
     city = "x8588BF"
     port = "xCB412F"

@@ -11,25 +11,14 @@
 		}
 	}
 
+	scripted_progress_bar = communism_1_progress_bar
+
 	possible = {
-		any_interest_group = {
-			is_marginal = no
+		any_political_movement = {
 			OR = {
-				law_stance = {
-					law = law_type:law_council_republic
-					value > neutral
-				}
-				any_scope_character = {
-					OR = {
-						has_role = politician
-						has_role = agitator
-					}
-					OR = {
-						has_ideology = ideology:ideology_communist
-						has_ideology = ideology:ideology_vanguardist
-						has_ideology = ideology:ideology_anarchist
-					}
-				}
+				is_political_movement_type = movement_socialist
+				is_political_movement_type = movement_anarchist
+				is_political_movement_type = movement_communist
 			}
 		}
 	}
@@ -37,12 +26,6 @@
 	immediate = {
 		root = {
 			save_scope_as = root_country
-		}
-		hidden_effect = {
-			set_variable = {
-				name = communism_je_1_var
-				value = 0
-			}
 		}
 		set_communism_vars = yes
 		trigger_event = { id = communism.10 days = 1 popup = yes }
@@ -61,18 +44,14 @@
 		}
 		effect = {
 			calculate_communism_progress = yes
-			add_communism_progress = yes
 		}
 	}
 
 	fail = {
-		trigger_if = {
-			limit = {
-				has_variable = communism_je_1_var
-			}
-			custom_tooltip = {
-				text = communism_variable_at_full_tt
-				root.var:communism_je_1_var >= 100
+		custom_tooltip = {
+			text = communism_progress_bar_at_full_tt
+			scope:journal_entry = {
+				"scripted_bar_progress(communism_1_progress_bar)" >= 100
 			}
 		}
 	}
@@ -89,16 +68,6 @@
 		trigger_event = { id = communism.11 popup = yes }
 		custom_tooltip = communism_je_1_complete_tt
 	}
-
-	current_value = {
-		value = root.var:communism_je_1_var
-	}
-
-	goal_add_value = {
-		add = 100
-	}
-
-	progressbar = yes
 
 	should_be_pinned_by_default = yes
 }

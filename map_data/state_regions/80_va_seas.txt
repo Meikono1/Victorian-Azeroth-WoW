@@ -1,29 +1,319 @@
 ﻿STATE_VA_SEAS = {
     id = 8000
     provinces = { "x48FDFD" }
+    impassable = { "x48FDFD" }
 }
 
 STATE_EASTERN_KINGDOM_SEA = {
     id = 8001
     provinces = { "xDB38A3" }
+    impassable = { "xDB38A3" }
 }
 
 STATE_KALIMDOR_SEA = {
     id = 8002
     provinces = { "x3B70B1" }
+    impassable = { "x3B70B1" }
 }
 
 STATE_NORTHREND_SEA = {
     id = 8003
     provinces = { "x69C9C9" }
+    impassable = { "x69C9C9" }
 }
 
 STATE_PANDARIA_SEA = {
     id = 8004
     provinces = { "x8ADE90" }
+    impassable = { "x8ADE90" }
 }
 
 STATE_CENTRAL_SEA = {
     id = 8005
     provinces = { "xC25EAE" }
+    impassable = { "xC25EAE" }
+}
+
+STATE_FROZEN_SEA_LANE_01 = {
+    id = 8006
+    provinces = { "x31CACA" }
+    impassable = {}
+}
+
+STATE_FROZEN_SEA_LANE_02 = {
+    id = 8007
+    provinces = { "x80C3E1" }
+    impassable = {}
+}
+
+STATE_FROZEN_SEA_LANE_03 = {
+    id = 8008
+    provinces = { "x2861CB" }
+    impassable = {}
+}
+
+STATE_FROZEN_SEA_LANE_04 = {
+    id = 8009
+    provinces = { "x2A95FA" }
+    impassable = {}
+}
+
+STATE_SOUTH_SEA_LANE_01 = {
+    id = 8010
+    provinces = { "x405B94" }
+    impassable = {}
+}
+
+STATE_SOUTH_SEA_LANE_02 = {
+    id = 8011
+    provinces = { "x807D97" }
+    impassable = {}
+}
+
+STATE_SOUTH_SEA_LANE_03 = {
+    id = 8012
+    provinces = { "x74FAFA" }
+    impassable = {}
+}
+
+STATE_SOUTH_SEA_LANE_04 = {
+    id = 8013
+    provinces = { "x0AC8FA" }
+    impassable = {}
+}
+
+STATE_SOUTH_SEA_LANE_05 = {
+    id = 8014
+    provinces = { "x43DDFB" }
+    impassable = {}
+}
+
+STATE_NORTH_BLODDMYST_SEA = {
+    id = 8020
+    provinces = { "x56C8FA" }
+}
+
+STATE_EAST_BLODDMYST_SEA = {
+    id = 8021
+    provinces = { "x0ECACA" }
+}
+
+STATE_WEST_BLODDMYST_SEA = {
+    id = 8022
+    provinces = { "x3DCACA" }
+}
+
+STATE_EXODAR_SEA = {
+    id = 8023
+    provinces = { "xB56DB4" }
+}
+
+STATE_AZUREMYST_SEA = {
+    id = 8024
+    provinces = { "x76C8FA" }
+}
+
+STATE_TELDRASSIL_SEA = {
+    id = 8025
+    provinces = { "xDB3CA3" }
+}
+
+STATE_ASHENVALE_SEA = {
+    id = 8026
+    provinces = { "x0DCACA" }
+}
+
+STATE_STONETALEN_SEA = {
+    id = 8027
+    provinces = { "x405E94" }
+}
+
+STATE_DESOLACE_SEA = {
+    id = 8028
+    provinces = { "x1B77CD" }
+}
+
+STATE_FERALAS_SEA = {
+    id = 8029
+    provinces = { "x16FAFA" }
+}
+
+STATE_SILITHUS_SEA = {
+    id = 8030
+    provinces = { "xB6CECE" }
+}
+
+STATE_VIR_NAAL_SEA = {
+    id = 8031
+    provinces = { "x3D6A6A" }
+}
+
+STATE_ULDUM_SEA = {
+    id = 8032
+    provinces = { "x4499CD" }
+}
+
+STATE_TANARIS_SEA = {
+    id = 8033
+    provinces = { "x9F5CAE" }
+}
+
+STATE_THAUSEND_NEEDLES_SEA = {
+    id = 8034
+    provinces = { "x54FAFA" }
+}
+
+STATE_FIZZLE_POZZIK_SPEEDBARGE_SEA = {
+    id = 8035
+    provinces = { "x340EED" }
+}
+
+STATE_DUSTWALLOW_SEA = {
+    id = 8036
+    provinces = { "x6FB3DE" }
+}
+
+STATE_BARRENS_SEA = {
+    id = 8037
+    provinces = { "x48FAFA" }
+}
+
+STATE_ECHO_ISLES_SEA = {
+    id = 8038
+    provinces = { "x81A0D2" }
+}
+
+STATE_DUROTAR_SEA = {
+    id = 8039
+    provinces = { "x46C8FA" }
+}
+
+STATE_AZSHARA_SEA = {
+    id = 8040
+    provinces = { "x79CBFD" }
+}
+
+STATE_WINTERSPRING_SEA = {
+    id = 8041
+    provinces = { "x6644E1" }
+}
+
+STATE_MOONGLADE_SEA = {
+    id = 8042
+    provinces = { "x03DDFB" }
+}
+
+STATE_SOUTH_ULDUM_SEA = {
+    id = 8043
+    provinces = { "x1FDEFC" }
+}
+
+STATE_THOUSAND_NEEDLES_ENTRANCE_SEA = {
+    id = 8044
+    provinces = { "x1ACAFC" }
+}
+
+STATE_ABYSSAL_BREACH_SEA = {
+    id = 8045
+    provinces = { "x3BDCFA" }
+}
+
+STATE_KORTHUNS_SEA = {
+    id = 8046
+    provinces = { "x316868" }
+}
+
+STATE_VASHIR_SEA = {
+    id = 8047
+    provinces = { "x9F5EB0" }
+}
+
+STATE_DUN_MOROGH_SEA = {
+    id = 8048
+    provinces = { "x74FBFB" }
+}
+
+STATE_WESTFALL_SEA = {
+    id = 8049
+    provinces = { "x340EEC" }
+}
+
+STATE_STRANGLETHORN_SEA = {
+    id = 8050
+    provinces = { "x0FDCFA" }
+}
+
+STATE_CAPE_SEA = {
+    id = 8051
+    provinces = { "x61C8C8" }
+}
+
+STATE_FORBIDDEN_SEA = {
+    id = 8052
+    provinces = { "x14FAFA" }
+}
+
+STATE_SORROW_SEA = {
+    id = 8053
+    provinces = { "x807D98" }
+}
+
+STATE_BADLANDS_SEA = {
+    id = 8054
+    provinces = { "x2DAEF1" }
+}
+
+STATE_MODAN_SEA = {
+    id = 8055
+    provinces = { "x2CFAFA" }
+}
+
+STATE_TWILIGHT_SEA = {
+    id = 8056
+    provinces = { "xDA6DF6" }
+}
+
+STATE_HIGHLANDS_SEA = {
+    id = 8057
+    provinces = { "x15CBCB" }
+}
+
+STATE_ARCHERUS_SEA = {
+    id = 8058
+    provinces = { "x14FDFD" }
+}
+
+STATE_GHOSTLAND_SEA = {
+    id = 8059
+    provinces = { "x2B5CB8" }
+}
+
+STATE_QUEL_DANAS_SEA = {
+    id = 8060
+    provinces = { "x6FDEFC" }
+}
+
+STATE_EVERSONG_SEA = {
+    id = 8061
+    provinces = { "x15C8C8" }
+}
+
+STATE_TIRISFALL_SEA = {
+    id = 8062
+    provinces = { "x386DCD" }
+}
+
+STATE_SILVERPINE_SEA = {
+    id = 8063
+    provinces = { "x63DCFA" }
+}
+
+STATE_GILNEAS_SEA = {
+    id = 8064
+    provinces = { "x0D61DC" }
+}
+
+STATE_WETLAND_SEA = {
+    id = 8065
+    provinces = { "xDB3C7F" }
 }
