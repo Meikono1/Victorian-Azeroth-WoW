@@ -1,11 +1,5 @@
 # Strategic Regions in Eastern Kindoms
 
-region_alterac_mountains = {
-	capital_province = xA0A0C0
-	map_color = { 200 200 0 }
-	states = { STATE_DALARAN_CRATER STATE_STRAHNBRAD STATE_RUINS_OF_ALTERAC STATE_TARRENS_MILL STATE_HEADLAND STATE_THE_SLUDGGE_FIELDS STATE_RUINS_OF_SOUTHSHORE STATE_DURNHOLDE_KEEP STATE_DUN_GAROK }
-}
-
 region_arathi_highlands = {
 	capital_province = xA0A0C0
 	map_color = { 200 200 0 }
@@ -94,6 +88,12 @@ region_gilneas‎ = {
 	capital_province = xA0A0C0
 	map_color = { 200 200 0 }
 	states = { STATE_NORTHGATE_WOODS STATE_NORTHERN_HEADLANDS STATE_THE_HEADLANDS STATE_EMBERSTONE STATE_GILNEAS_CITY STATE_KOROTH_DEN STATE_STORMGLEN_VILLAGE }
+}
+
+region_hillsbrad_foothills = {
+	capital_province = xA0A0C0
+	map_color = { 200 200 0 }
+	states = { STATE_DALARAN_CRATER STATE_STRAHNBRAD STATE_RUINS_OF_ALTERAC STATE_TARRENS_MILL STATE_HEADLAND STATE_THE_SLUDGGE_FIELDS STATE_RUINS_OF_SOUTHSHORE STATE_DURNHOLDE_KEEP STATE_DUN_GAROK }
 }
 
 region_hinterlands‎ = {

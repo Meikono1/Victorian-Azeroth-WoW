@@ -229,7 +229,7 @@ CABAL = {
 	capital = STATE_STONEBREAKER_HOLD
 }
 
-CENARION_CIRCLE = {
+CENARION_CIRCLE_OUTLAND = {
 	color = { 134 55 167 }
 	
 	country_type = recognized

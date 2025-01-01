@@ -939,7 +939,7 @@ STATES = {
 		}
 
 		create_state = {
-			country = c:BATHRANS_HUNT
+			country = c:BATHRANS_HAUNT
 			owned_provinces = { x084C04 x361836 x364F5D x4AFA0E x4F2908 x6D09CF x7088D1 x768B68 x85C5DE x8B7E77 xABA1A8 xAD0C56 xB20AF0 xE240D1 xE85E08 xE8D2D0 }
 		}
 

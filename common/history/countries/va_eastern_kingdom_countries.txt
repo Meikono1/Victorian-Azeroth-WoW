@@ -1,0 +1,661 @@
+COUNTRIES = {
+	c:AMANI_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:ANDORHAL ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:ARGENT_CRUSADERS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:AXEBITE_EXPEDITION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BAMBALA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLACKROCK_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLACKROCK_NORTHSHIRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLACKSCALE_NAGA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLACKWING_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLACKWING_OUTPOST ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLOODEYE_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLOODFANG_PACK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLOODSAIL_PIRATES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLOODSCALP_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLOODWASH_NAGA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BLUEGILL_MORLOCS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:BOULDERFIST_CLAN_AZ ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:CRUCIBLE_OF_CARNAGE_GLADIATOR ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:CRUSHRIDGE_OGRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:CULT_OF_DAMNED ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DABYRIES_HUMANS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DARK_IRON_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DARNASSUS_OUTPOST_EK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DEADWIND_OGRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DEATHHOLME ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DEFIAS_BROTHERHOOD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DRAGONMAW_CLAN_AZ ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DREADMAUL_OGRES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DRYWHISPER_KOBOLDS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DUN_GAROK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:DUSTBELCHER_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:EMERALD_ENTRANCE_SERADANE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:EXPLORERS_LEAGUE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:FLAMECREST_OUTPOST ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:FROSTMANES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GILNEAS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GILNEAS_EXPEDITION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GLOPGUT_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GNOMEREGAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GREENWARDENS_GROVE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GRIKNIR_FROSTMANE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GRIMSCALE_MURLOCS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GROMGOL_BASE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:GURUBASHI_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HAMMERFALL ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HARDWRENCH_INDUSTRIES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HIGHBANK_EXPEDITION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HIGHLAND_FROSTWOLFES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HIGHLAND_YETI ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:HIGHVALE_HIGHELFES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:IRONFORGE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:IRON_SUMMIT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:KARAZHAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:KNIGHTS_EBON_BLADE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:KIRINTOR_EXPEDITION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:KURZEN_COMPOUND ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:LOST_ONES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MARSHFIN_MURLOC ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MARSHTIDE_WATCH ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MENETHIL ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MORGANS_VIGIL ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MOSHOGG_OGRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MOSSFLAYER_TROLLS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MUDSNOUT_GNOLLS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:MURKGILL_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:NESINGWARY_EXPEDITION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:NETHERGARDE_KEEP ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:NEW_KARGATH ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:NIGHTBANE_WORGEN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:OBSIDIAN_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:PLAGUELAND_UNDEAD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:RAVENTUSK_TROLLS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:REDGRIDGE_PACK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:REFUGE_POINT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:RIVERPAW_PACK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:ROCKJAW_TROGGS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SCARLET_CRUSADERS_WHITEMANE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SCARLET_CRUSADERS_ONSLAUGHT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SHADOWFANG_KEEP ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SHADOWFORGE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SHADOWPINE_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SI7_HIGHLANDS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SILVERMOON ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STRANGLETHRON_NAGA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STORMSPIKE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STONARD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STONESPLINTER_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SKULLSPLITTER_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SPLINTERFIST_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SUNVEIL_EXCURSION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STEAMWHEEDLE_CARTEL ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:STORMWIND ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:SYNDICATE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:THE_EARTHEN_RING_AZ ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:THE_RELIQUARY ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:THORIUM_BROTHERHOOD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:TORNFIN_MURLOCS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:TWILIGHT_CONVERT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:TWILIGHTS_HAMMER ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:UNDERCITY ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:VASHJ_IR ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:VENTURE_CO ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:VERMILLON_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:VILEBRANCH_TROLLS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:VILEFIN_MURLOCS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:WILDHAMMER_CLAN_AZ ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:WHITERBARK_TROLLS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:WRETCHED_BLOODELFES ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:WORMTHORN_CORRUPTION ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+
+	c:ZANZIL_WITCHDOCTORS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		effect_native_conscription_10 = yes
+	}
+}

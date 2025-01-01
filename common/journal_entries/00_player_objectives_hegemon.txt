@@ -23,33 +23,6 @@
 	transferable = yes
 }
 
-je_african_colonies = {
-	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/objectives/hegemon.dds"
-
-	group = je_group_objectives
-
-	complete = {
-		any_scope_state = {
-			custom_tooltip = {
-				text = "je_african_colonies_own_a_colony"
-				state_in_africa = yes
-				is_incorporated = no
-			}
-			custom_tooltip = {
-				text = "je_african_colonies_own_whole_state_region"
-				is_split_state = no
-			}
-		}
-	}
-
-	on_complete = {
-	}
-
-	weight = 1001
-	transferable = yes
-}
-
 je_expand_navy_and_army = {
 	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"

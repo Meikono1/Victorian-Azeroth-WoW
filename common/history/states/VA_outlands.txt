@@ -194,7 +194,7 @@
 	
 	s:STATE_RUUAN_WEALD = {
 		create_state = {
-			country = c:CENARION_CIRCLE
+			country = c:CENARION_CIRCLE_OUTLAND
 			owned_provinces = { x0F88C8 x2BA1CE x3E9C33 x47B534 x6265E6 x72508B xB17E6B xBDC299 }
 		}
 

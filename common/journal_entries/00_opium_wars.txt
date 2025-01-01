@@ -92,11 +92,7 @@
 		}
 		add_radicals = {
 			value = large_radicals
-		}		
-		if = {
-			limit = { has_journal_entry = je_warlord_china }
-			chi_remove_1_fragile_unity = yes
-		}	
+		}
     }	
 
 	progressbar = yes

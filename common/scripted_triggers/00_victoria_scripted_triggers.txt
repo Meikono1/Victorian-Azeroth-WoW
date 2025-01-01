@@ -431,29 +431,6 @@ goods_is_industrial = {
 	}
 }
 
-is_afghan_nation = {
-	OR = {
-		c:AFG ?= this
-		c:KAB ?= this
-		c:KAN ?= this
-		c:HER ?= this
-		c:KUN ?= this
-		c:MAI ?= this
-		c:KAF ?= this
-	}
-}
-
-is_african_subject = {
-	OR = {
-		has_variable = senegal_subject_var
-		has_variable = niger_subject_var
-		has_variable = zanj_subject_var
-		has_variable = congo_subject_var
-		has_variable = southern_africa_subject_var
-		has_variable = ethiopia_subject_var
-	}
-}
-
 asian_ally_against_russia_trigger = {
 	scope:target_country = {
 		country_rank >= rank_value:unrecognized_major_power
