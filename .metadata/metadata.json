@@ -20,6 +20,7 @@
 	  "events",
 	  "events/india_events",
       "events/soi_events",
+	  "map_data/",
       "map_data/state_regions"
 	]
   }

@@ -874,11 +874,6 @@ STATES = {
 		}
 
 		create_state = {
-			country = c:BOULDERFIST_CLAN_AZ
-			owned_provinces = { x0DA9E2 x25BD0A x2F75CC x3C25BB x3F2376 x543E46 x54F7CB x59EF71 x8F6003 x9CAE92 xA007E4 xA98042 xBB06E9 xBDDC10 xE7B479 }
-		}
-
-		create_state = {
 			country = c:STEAMWHEEDLE_CARTEL
 			owned_provinces = { x16B7EA x1DE2EA x1F0B47 x359E59 x93A041 xC0D911 xE4B5B0 }
 		}

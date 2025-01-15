@@ -1,0 +1,27 @@
+﻿indian_port = {
+#	graphical_culture = "indian"
+	city_type = port
+	center_building_entity = "indian_port_centerpiece_01_entity"
+	center_modifiers = {
+		building_shipyards = "s"
+		building_port = "d"
+		building_fishing_wharf = "f"
+	}
+	modifier_key_prefix = "indian_port"
+	modifier_key_suffix = "entity"
+	center_building_size = { 2 2 }
+
+	trigger = {
+		any_scope_state = {
+			OR = {
+				region = sr:region_ahn_qiraj
+			}
+		}
+	}
+
+	weight = -1
+
+	min_residential_buildings = 4
+	max_residential_buildings = 50
+	max_residence_points = 100
+}

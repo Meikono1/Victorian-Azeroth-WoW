@@ -8,6 +8,14 @@
 #	 id 		- string, uniquely identifies a material
 {
 	{
+		name = "RedDesert_01"
+		diffuse="red_desert_01_diffuse.dds"
+		normal="red_desert_01_normal.dds"
+		material="red_desert_01_properties.dds"
+		mask="mask_red_desert_01"
+		id = "red_desert_01"
+	}
+	{
 		name = "Desert_01"
 		diffuse="desert_01_diffuse.dds"
 		normal="desert_01_normal.dds"
@@ -184,6 +192,22 @@
 		id = "snow_02"
 	}
 	{
+		name = "Grassblue_01"
+		diffuse="grassblue_01_diffuse.dds"
+		normal="grassblue_01_normal.dds"
+		material="grassblue_01_properties.dds"
+		mask="mask_grassblue_01"
+		id = "grassblue_01"
+	}
+	{
+		name = "Grasspurple_01"
+		diffuse="grasspurple_01_diffuse.dds"
+		normal="grasspurple_01_normal.dds"
+		material="grasspurple_01_properties.dds"
+		mask="mask_grasspurple_01"
+		id = "grasspurple_01"
+	}
+	{
 		name = "Grasslands_01"
 		diffuse="grasslands_01_diffuse.dds"
 		normal="grasslands_01_normal.dds"
@@ -270,6 +294,14 @@
 		material="woodlands_03_properties.dds"
 		mask="mask_woodlands_03"
 		id = "woodlands_03"
+	}
+	{
+		name = "Ash_Rocks_01"
+		diffuse="ashrocks_01_diffuse.dds"
+		normal="ashrocks_01_normal.dds"
+		material="ashrocks_01_properties.dds"
+		mask="mask_ashrocks_01"
+		id = "ashrocks_01"
 	}
 	{
 		name = "Rocks_01"
