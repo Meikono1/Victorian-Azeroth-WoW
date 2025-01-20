@@ -132,7 +132,7 @@ STATE_VERMILLION_REDOUBT = {
     arable_land = 88
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_coal_mining = 18
         bg_logging = 45
         bg_fishing = 11
@@ -154,7 +154,7 @@ STATE_MAW_OF_MADNESS = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
     capped_resources = {
         bg_iron_mining = 10
-		bg_sulfur_mining = 58
+        bg_sulfur_mining = 58
         bg_logging = 8
         bg_fishing = 11
     }
@@ -356,7 +356,7 @@ STATE_MOGROSH_STRONGHOLD = {
     arable_land = 39
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-		bg_sulfur_mining = 12
+        bg_sulfur_mining = 12
         bg_logging = 6
         bg_fishing = 11
     }
@@ -471,7 +471,7 @@ STATE_THELSAMAR = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_iron_mining = 36
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 18
         bg_fishing = 11
     }
@@ -707,7 +707,7 @@ STATE_THE_CAULDRON = {
         bg_iron_mining = 16
         bg_coal_mining = 42
         bg_gold_mining = 22
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_fishing = 11
     }
 }
@@ -862,7 +862,7 @@ STATE_LETHLOR_RAVINE = {
     arable_land = 44
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_opium_plantations" }
     capped_resources = {
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 12
         bg_fishing = 11
     }
@@ -901,7 +901,7 @@ STATE_MORGANS_VIGIL = {
     arable_land = 34
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 3
         bg_fishing = 11
     }
@@ -942,7 +942,7 @@ STATE_BLACKROCK_STRONGHOLD = {
     capped_resources = {
         bg_iron_mining = 36
         bg_lead_mining = 18
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 10
         bg_fishing = 11
     }
@@ -963,7 +963,7 @@ STATE_BLACKROCK_MOUNTAIN = {
     capped_resources = {
         bg_iron_mining = 36
         bg_coal_mining = 88
-		bg_sulfur_mining = 56
+        bg_sulfur_mining = 56
         bg_lead_mining = 18
         bg_fishing = 11
     }

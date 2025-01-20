@@ -1,0 +1,976 @@
+POPS = {
+	s:STATE_SHADOWGLEN = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DOLANAAR = {
+		region_state:GNARLPINE_FURBOLG = {
+			create_pop = {
+				culture = gnarlpine_furbolg
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ORACLE_GLADE = {
+		region_state:BLOODFEATHER_HARPY = {
+			create_pop = {
+				culture = bloodfeather_harpy
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GNARLPINE_HOLD = {
+		region_state:GNARLPINE_FURBOLG = {
+			create_pop = {
+				culture = gnarlpine_furbolg
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DARNASSUS = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WYRMSCARE_ISLAND = {
+		region_state:VERIDIAN_DRAGONFLIGHT = {
+			create_pop = {
+				culture = black_dragonkin_blackwing_dragon
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_AXXARIEN = {
+		region_state:INFECTED_WILDLIFE = {
+			create_pop = {
+				culture = azuremyst_moonkin
+				size = 1000000
+			}
+		}
+		region_state:BLACKSILT_MURLOC = {
+			create_pop = {
+				culture = blacksilt_murloc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_VECTOR_COIL = {
+		region_state:SUNHAWK = {
+			create_pop = {
+				culture = sunhawk_bloodelf
+				size = 1000000
+			}
+		}
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BLOOD_WATCH = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+		region_state:SUNHAWK = {
+			create_pop = {
+				culture = sunhawk_bloodelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WRATHSCALE_LAIR = {
+		region_state:WRATHSCALE_NAGA = {
+			create_pop = {
+				culture = wrathscale_naga
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NAZZIVIAN = {
+		region_state:INFECTED_WILDLIFE = {
+			create_pop = {
+				culture = azuremyst_moonkin
+				size = 1000000
+			}
+		}
+		region_state:NAZZIVUS = {
+			create_pop = {
+				culture = nazzivus_satyr
+				size = 1000000
+			}
+		}
+		region_state:BLACKSILT_MURLOC = {
+			create_pop = {
+				culture = blacksilt_murloc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_KESSELS_CROSSING = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+		region_state:BRISTLELIMB_FURBOLG = {
+			create_pop = {
+				culture = bristlelimb_furbolg
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_STILLPINE_HOLD = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+		region_state:STILLPINE_FURBOLG = {
+			create_pop = {
+				culture = stillpine_furbolg
+				size = 1000000
+			}
+		}
+		region_state:CRAZED_WILDLIFE = {
+			create_pop = {
+				culture = azuremyst_wildkin
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WILDWIND_PEAK = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+		region_state:SILTFIN_MURLOC = {
+			create_pop = {
+				culture = siltfin_murloc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_EXODAR = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_AZURE_WATCH = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BRISTLELIMB_VILLAGE = {
+		region_state:BRISTLELIMB_FURBOLG = {
+			create_pop = {
+				culture = bristlelimb_furbolg
+				size = 1000000
+			}
+		}
+		region_state:WRATHSCALE_NAGA = {
+			create_pop = {
+				culture = wrathscale_naga
+				size = 1000000
+			}
+		}
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SILVERMYST_ISLE = {
+		region_state:INFECTED_WILDLIFE = {
+			create_pop = {
+				culture = azuremyst_moonkin
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ODESYUS_LANDING = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_AMMEN_VALE = {
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NESTLEWOOD_HILLS = {
+		region_state:NESSTLEWOOD_OWLKIN = {
+			create_pop = {
+				culture = nesstlewood_owlkin
+				size = 1000000
+			}
+		}
+		region_state:SHADOW_RIDGE = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 1000000
+			}
+		}
+		region_state:EXODAR = {
+			create_pop = {
+				culture = exodar_draenei
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_LOR_DANEL = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHATTERSPEAR_WAR_CAMP = {
+		region_state:SHATTERSPEAR = {
+			create_pop = {
+				culture = shatterspear_troll
+				size = 1000000
+			}
+		}
+		region_state:GREYMIST_MURLOC = {
+			create_pop = {
+				culture = greymist_murloc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TOWER_OF_ALTHALAXX = {
+		region_state:SHATTERSPEAR = {
+			create_pop = {
+				culture = shatterspear_troll
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RUINS_OF_AUBERDINE = {
+		region_state:DARKSCALE_NAGA = {
+			create_pop = {
+				culture = darkscale_naga
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_AMETH_ARAN = {
+		region_state:BLACKWOOD_FURBOLG = {
+			create_pop = {
+				culture = blackwood_furbolg
+				size = 1000000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_DARKSHORE = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GROVE_OF_THE_ANCIENTS = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:BLACKWOOD_FURBOLG = {
+			create_pop = {
+				culture = blackwood_furbolg
+				size = 1000000
+			}
+		}
+		region_state:GREYMIST_MURLOC = {
+			create_pop = {
+				culture = greymist_murloc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MASTERS_GLAIVE = {
+		region_state:DARKSCALE_NAGA = {
+			create_pop = {
+				culture = darkscale_naga
+				size = 1000000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_DARKSHORE = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MOONGLADE = {
+		region_state:CENARION_CIRCLE = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_FROSTSABER_ROCK = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_EVERLOOK = {
+		region_state:WINTERFALL_FURBOLG = {
+			create_pop = {
+				culture = winterfall_furbolg
+				size = 1000000
+			}
+		}
+		region_state:EVERLOOK = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_STARFALL_VILLAGE = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TIMBERMAW_HOLD = {
+		region_state:WINTERFALL_FURBOLG = {
+			create_pop = {
+				culture = winterfall_furbolg
+				size = 1000000
+			}
+		}
+		region_state:TIMBERMAW_FURBOLG = {
+			create_pop = {
+				culture = timbermaw_furbolg
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MAZTHORIL = {
+		region_state:WINTERFALL_WILD = {
+			create_pop = {
+				culture = winterfall_wildlife
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_FROSTWHISPER_GORGE = {
+		region_state:WINTERFALL_WILD = {
+			create_pop = {
+				culture = winterfall_wildlife
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TALONBRANCH_GLADE = {
+		region_state:TALONBRANCH_GUARDIAN = {
+			create_pop = {
+				culture = talonbranch_worgen
+				size = 1000000
+			}
+		}
+		region_state:IRONTREE = {
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 1000000
+			}
+		}
+		region_state:DEADWOOD_FURBOLG = {
+			create_pop = {
+				culture = deadwood_furbolg
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WHISPERWIND_GROVE = {
+		region_state:IRONTREE = {
+			create_pop = {
+				culture = bilgewater_goblin
+				size = 1000000
+			}
+		}
+		region_state:EMERALD_CIRCLE = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BLOODVENOM_POST = {
+		region_state:BLOODVENOM_CORRUPTION = {
+			create_pop = {
+				culture = bloodvenom_forsaken_undead
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_JAEDENAR = {
+		region_state:EMERALD_CIRCLE = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+		region_state:JAEDENAR = {
+			create_pop = {
+				culture = jaedenar_dreadlord
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_JADEFIRE_GLEN = {
+		region_state:JADEFIRE_CORRUPTION = {
+			create_pop = {
+				culture = jadefire_satyr
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_EMERALD_SANCTUARY = {
+		region_state:EMERALD_CIRCLE = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+		region_state:DEADWOOD_FURBOLG = {
+			create_pop = {
+				culture = deadwood_furbolg
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NORDRASSIL = {
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_CIRCLE_OF_CINDERS = {
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_HYJAL = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHRINE_OF_GOLDRINN = {
+		region_state:TWILIGHT_HAMMER_HYJAL = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GROVE_OF_AESSINA = {
+		region_state:THE_INFERNO = {
+			create_pop = {
+				culture = elemental_fire
+				size = 1000000
+			}
+		}
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHRINE_OF_AVIANA = {
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+		region_state:WORMWING_HARPIES = {
+			create_pop = {
+				culture = wormwing_harpy
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SANCTUARY_OF_MALORNE = {
+		region_state:TWILIGHT_HAMMER_HYJAL = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+		region_state:THE_INFERNO = {
+			create_pop = {
+				culture = elemental_fire
+				size = 1000000
+			}
+		}
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SULFURON_SPIRE = {
+		region_state:THE_INFERNO = {
+			create_pop = {
+				culture = elemental_fire
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_CRUCIBLE_OF_FLAME = {
+		region_state:THE_INFERNO = {
+			create_pop = {
+				culture = elemental_fire
+				size = 1000000
+			}
+		}
+		region_state:GUARDIANS_HYJAL = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+		region_state:HYJAL_REBELLION = {
+			create_pop = {
+				culture = cenarius_druid_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SEAT_OF_THE_CHOOSEN = {
+		region_state:TWILIGHT_HAMMER_HYJAL = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TOWER_OF_ELDARA = {
+		region_state:BLACK_DRAGONFLIGHT_SABLE = {
+			create_pop = {
+				culture = black_dragonkin_blackwing_dragon
+				size = 1000000
+			}
+		}
+		region_state:MAKRINNI_MAKRURA = {
+			create_pop = {
+				culture = makrinni_makrura
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RUINS_OF_NORDESSA = {
+		region_state:XYLEM_OUTPOST = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+		region_state:LEGASH_CORRUPTION = {
+			create_pop = {
+				culture = legashi_satyr
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS_OUTPOST = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BLACKMAW_HOLD = {
+		region_state:XYLEM_OUTPOST = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+		region_state:BLACKMAW_FURBOLGS = {
+			create_pop = {
+				culture = blackmaw_furbolg
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BILGEWATER_HARBOR = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RAVENCREST_MONUMENT = {
+		region_state:SPITELASH_NAGA = {
+			create_pop = {
+				culture = spitelash_naga
+				size = 1000000
+			}
+		}
+		region_state:MAKRINNI_MAKRURA = {
+			create_pop = {
+				culture = makrinni_makrura
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SECRET_LAB = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+		region_state:SPITELASH_NAGA = {
+			create_pop = {
+				culture = spitelash_naga
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RUINS_OF_ELDARATH = {
+		region_state:SPITELASH_NAGA = {
+			create_pop = {
+				culture = spitelash_naga
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GALLYWIX_PLEASURE_PALACE = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS_OUTPOST = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ROCKETWAY_EXCHANGE = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS_OUTPOST = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ORGRIMMAR = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_FOREST_SONG = {
+		region_state:GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS = {
+			create_pop = {
+				culture = green_dragonkin_dragon
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS_OUTPOST = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:XAVIAN_CORRUPTION = {
+			create_pop = {
+				culture = xavian_satyr
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WARSONG_LUMBER_CAMP = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DEMON_FALL_CANYON = {
+		region_state:MANNOROTH_LEGION = {
+			create_pop = {
+				culture = mannoroth_felguard
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SPLINTERTREE_POST = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+		region_state:SEVERED_NIGHTELFES = {
+			create_pop = {
+				culture = undead_nightelf
+				size = 1000000
+			}
+		}
+		region_state:SILVERWING_OUTPOST = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MORSHAN_RAMPART = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MOONWELL_OF_CLEANSING = {
+		region_state:FOULWEALD_FURBOLG = {
+			create_pop = {
+				culture = foulweald_furbolg
+				size = 1000000
+			}
+		}
+		region_state:BLOODWOOD_FURBOLG = {
+			create_pop = {
+				culture = bloodwood_furbolg
+				size = 1000000
+			}
+		}
+		region_state:SILVERWING_OUTPOST = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_RAYNEWOOD_RETREAT = {
+		region_state:XAVIAN_CORRUPTION = {
+			create_pop = {
+				culture = xavian_satyr
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_THUNDER_PEAK = {
+		region_state:MAGMATHAR_FIRE = {
+			create_pop = {
+				culture = elemental_fire
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SILVERWIND_REFUGE = {
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ASTRANAAR = {
+		region_state:THISTLEFUR_FURBOLG = {
+			create_pop = {
+				culture = thistlefur_furbolg
+				size = 1000000
+			}
+		}
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_STARDUST_SPIRE = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHRINE_OF_AESSINA = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:DARK_STRAND_CULT = {
+			create_pop = {
+				culture = dark_strand_cultist_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MAESTRAS_POST = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:BATHRANS_HAUNT = {
+			create_pop = {
+				culture = undercity_forsaken_undead
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BLACKFATHOM_DEEPS = {
+		region_state:WRATHTAIL_NAGA = {
+			create_pop = {
+				culture = wrathtail_naga
+				size = 1000000
+			}
+		}
+		region_state:TWILIGHT_HAMMER_DARKSHORE = {
+			create_pop = {
+				culture = twilight_hammer_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_ZORAMGAR_OUTPOST = {
+		region_state:DARNASSUS = {
+			create_pop = {
+				culture = darnassus_nightelf
+				size = 1000000
+			}
+		}
+		region_state:ORGRIMMAR = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 1000000
+			}
+		}
+		region_state:WRATHTAIL_NAGA = {
+			create_pop = {
+				culture = wrathtail_naga
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GM_ISLAND = {
+		region_state:GM_ISLAND = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+}

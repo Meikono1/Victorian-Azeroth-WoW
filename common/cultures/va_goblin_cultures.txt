@@ -1,0 +1,202 @@
+areaft_goblin = {
+	color = rgb{ 28 124 67 }
+	religion = protestant
+	traits = { areafiftytwo goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+bilgewater_goblin = {
+	color = rgb{ 145 86 193 }
+	religion = protestant
+	traits = { horde goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+boom_goblin = {
+	color = rgb{ 114 20 175 }
+	religion = protestant
+	traits = { boom goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+lower_city_goblin = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { lowercity goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+steamwheedle_goblin = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { steamwheedle goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+thrallmar_goblin = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { thrallmar horde goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+venture_company_goblin = {
+	color = rgb{ 0 0 0 }
+	religion = protestant
+	traits = { venture_company goblin_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

@@ -62,10 +62,6 @@ elemental_heritage = {
 	heritage = yes
 }
 
-felelf_heritage = {
-	heritage = yes
-}
-
 felorc_heritage = {
 	heritage = yes
 }

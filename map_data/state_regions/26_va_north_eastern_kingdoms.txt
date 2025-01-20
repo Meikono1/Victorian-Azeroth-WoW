@@ -83,7 +83,7 @@ STATE_SUNSTRIDER_ISLE = {
         bg_logging = 18
         bg_fishing = 14
         bg_whaling = 8
-    }	
+    }
     naval_exit_id = 8061
 }
 
@@ -340,7 +340,7 @@ STATE_SUNCROWN_VILLAGE = {
     arable_land = 60
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_dye_plantations" }
     capped_resources = {
-		bg_gold_mining = 4
+        bg_gold_mining = 4
         bg_iron_mining = 13
         bg_logging = 17
         bg_fishing = 4
@@ -623,7 +623,7 @@ STATE_NEW_AVALON = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_iron_mining = 21
-		bg_coal_mining = 17
+        bg_coal_mining = 17
         bg_sulfur_mining = 4
         bg_logging = 22
         bg_fishing = 13
@@ -645,7 +645,7 @@ STATE_HEARTHGLEN = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_sugar_plantations" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_iron_mining = 60
-		bg_coal_mining = 75
+        bg_coal_mining = 75
         bg_logging = 37
         bg_fishing = 16
     }
@@ -817,7 +817,7 @@ STATE_AGAMAND_MILLS = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_iron_mining = 15
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 12
     }
     naval_exit_id = 8062
@@ -1060,7 +1060,7 @@ STATE_PYREWOOD_VILLAGE = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 15
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 15
         bg_fishing = 15
     }
@@ -1135,7 +1135,7 @@ STATE_EMBERSTONE = {
     mine = ""
     wood = ""
     arable_land = 76
-    arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations" "bg_sugar_plantations"}
+    arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 70
@@ -1177,7 +1177,7 @@ STATE_KOROTH_DEN = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_iron_mining = 14
-		bg_sulfur_mining = 7
+        bg_sulfur_mining = 7
         bg_logging = 14
         bg_fishing = 18
         bg_whaling = 14
@@ -1455,7 +1455,7 @@ STATE_DURNHOLDE_KEEP = {
     mine = ""
     wood = ""
     arable_land = 83
-    arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations"}
+    arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 17
     }
