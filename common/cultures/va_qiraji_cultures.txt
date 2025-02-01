@@ -1,5 +1,5 @@
 old_gods_qiraji = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 211 101 226 }
 	religion = protestant
 	traits = { old_god_forces qiraji_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ old_gods_qiraji = {
 }
 
 ahn_qiraj_qiraji = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 203 68 172 }
 	religion = protestant
 	traits = { ahn_qiraj old_god_forces qiraji_heritage }
 	male_common_first_names={

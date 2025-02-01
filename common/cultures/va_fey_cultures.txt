@@ -1,5 +1,5 @@
 outlands_fearie_dragon = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 80 255 154 }
 	religion = protestant
 	traits = { emerald_dream fey_dragon_heritage }
 	male_common_first_names={

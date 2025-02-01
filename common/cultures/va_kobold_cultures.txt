@@ -1,5 +1,5 @@
 boulderslide_kobold = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 146 119 70 }
 	religion = protestant
 	traits = { boulderslide kobold_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ boulderslide_kobold = {
 }
 
 drywhisper_kobold = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 167 100 62 }
 	religion = protestant
 	traits = { drywhisper kobold_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ drywhisper_kobold = {
 }
 
 kobold_magmothherd = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 97 180 150 }
 	religion = protestant
 	traits = { magmoth_herd kobold_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ kobold_magmothherd = {
 }
 
 kobold_gammothherd = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 97 180 131 }
 	religion = protestant
 	traits = { gammoth_herd kobold_heritage }
 	male_common_first_names={

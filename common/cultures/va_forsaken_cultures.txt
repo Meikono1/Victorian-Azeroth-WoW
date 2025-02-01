@@ -1,5 +1,5 @@
 bloodvenom_forsaken_undead = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 87 74 204 }
 	religion = protestant
 	traits = { ooze forsaken_heritage undead_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ burning_legion_forsaken_cultist = {
 }
 
 crown_chemical_forsaken_undead = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 60 78 147 }
 	religion = protestant
 	traits = { crown_chemical forsaken_heritage undead_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ nesingway_forsaken_undead = {
 }
 
 shadowcouncil_forsaken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 40 44 185 }
 	religion = protestant
 	traits = { shadowcouncil forsaken_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ shadowcouncil_forsaken = {
 }
 
 stonebreaker_forsaken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 28 72 140 }
 	religion = protestant
 	traits = { thrallmar forsaken_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ stonebreaker_forsaken = {
 }
 
 thrallmar_forsaken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 52 72 198 }
 	religion = protestant
 	traits = { thrallmar horde forsaken_heritage undead_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ thrallmar_forsaken = {
 }
 
 twilight_hammer_forsaken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 98 50 160 }
 	religion = protestant
 	traits = { twilight_hammer forsaken_heritage }
 	male_common_first_names={

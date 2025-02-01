@@ -1,5 +1,5 @@
 centipaar_silithid = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 202 95 217 }
 	religion = protestant
 	traits = { centipaar old_god_forces silithid_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ centipaar_silithid = {
 }
 
 hive_ashi_silithid = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 149 82 158 }
 	religion = protestant
 	traits = { old_god_forces silithid_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ hive_ashi_silithid = {
 }
 
 hive_regal_silithid = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 106 57 134 }
 	religion = protestant
 	traits = { old_god_forces silithid_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ hive_regal_silithid = {
 }
 
 hive_zora_silithid = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 151 60 188 }
 	religion = protestant
 	traits = { old_god_forces silithid_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ hive_zora_silithid = {
 }
 
 hive_zukkash_silithid = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 200 89 225 }
 	religion = protestant
 	traits = { old_god_forces silithid_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 bristleback_quilboar = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 118 53 7 }
 	religion = protestant
 	traits = { bristleback quilboar_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ bristleback_quilboar = {
 }
 
 razorfen_quilboar = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 149 62 22 }
 	religion = protestant
 	traits = { razorfen quilboar_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ razorfen_quilboar = {
 }
 
 razormane_quilboar = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 169 109 42 }
 	religion = protestant
 	traits = { razormane quilboar_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 azuremyst_moonkin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 72 201 177 }
 	religion = protestant
 	traits = { feral wildkin_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ azuremyst_moonkin = {
 }
 
 azuremyst_wildkin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 36 141 147 }
 	religion = protestant
 	traits = { feral wildkin_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ azuremyst_wildkin = {
 }
 
 feralscar_yeti = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 135 222 228 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ feralscar_yeti = {
 }
 
 highland_yeti = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 91 188 220 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ highland_yeti = {
 }
 
 nesstlewood_owlkin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 88 241 164 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={
@@ -154,7 +154,7 @@ nesstlewood_owlkin = {
 }
 
 ragescar_yeti = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 85 178 173 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={
@@ -185,7 +185,7 @@ ragescar_yeti = {
 }
 
 ungoro_wildlife = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 51 167 88 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={
@@ -216,7 +216,7 @@ ungoro_wildlife = {
 }
 
 winterfall_wildlife = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 92 221 170 }
 	religion = protestant
 	traits = { feral yeti_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 honor_hold_highelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 31 166 154 }
 	religion = protestant
 	traits = { honorhold highelf_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ kaluak_tuskarr = {
 }
 
 shen_dralar_highborn = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 57 184 109 }
 	religion = protestant
 	traits = { shen_dralar highborn_heritage }
 	male_common_first_names={

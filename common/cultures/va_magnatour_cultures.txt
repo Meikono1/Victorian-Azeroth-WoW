@@ -1,5 +1,5 @@
 magnatour_magmothherd = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 88 141 218 }
 	religion = protestant
 	traits = { centaur magmoth_herd magnatour_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ magnatour_magmothherd = {
 }
 
 magnatour_gammothherd = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 201 141 70 }
 	religion = protestant
 	traits = { centaur gammoth_herd magnatour_heritage }
 	male_common_first_names={

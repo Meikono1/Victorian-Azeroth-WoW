@@ -1,5 +1,5 @@
 bloodfang_worgen = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 169 47 84 }
 	religion = protestant
 	traits = { feral worgen_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ bloodfang_worgen = {
 }
 
 gilneas_worgen = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 50 92 182 }
 	religion = protestant
 	traits = { alliance worgen_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ gilneas_worgen = {
 }
 
 nightbane_worgen = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 59 164 213 }
 	religion = protestant
 	traits = { feral worgen_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ nightbane_worgen = {
 }
 
 shadowfang_worgen = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 116 85 231 }
 	religion = protestant
 	traits = { feral worgen_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ shadowfang_worgen = {
 }
 
 talonbranch_worgen = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 85 176 231 }
 	religion = protestant
 	traits = { talonbranch worgen_heritage }
 	male_common_first_names={

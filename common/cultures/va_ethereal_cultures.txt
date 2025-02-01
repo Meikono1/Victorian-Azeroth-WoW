@@ -1,5 +1,5 @@
 bashir_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 116 214 201 }
 	religion = protestant
 	traits = { bashir ethereal_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ bashir_ethereal = {
 }
 
 consortium_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 117 184 196 }
 	religion = protestant
 	traits = { consortium ethereal_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ consortium_ethereal = {
 }
 
 clanless_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 92 131 138 }
 	religion = protestant
 	traits = { ethereal_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ clanless_ethereal = {
 }
 
 ethereum_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 106 155 207 }
 	religion = protestant
 	traits = { ethereum ethereal_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ ethereum_ethereal = {
 }
 
 protectorate_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 86 129 216 }
 	religion = protestant
 	traits = { protectorate ethereal_heritage }
 	male_common_first_names={
@@ -152,7 +152,7 @@ protectorate_ethereal = {
 }
 
 razaani_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 121 193 231 }
 	religion = protestant
 	traits = { razaani ethereal_heritage }
 	male_common_first_names={
@@ -181,7 +181,7 @@ razaani_ethereal = {
 }
 
 shaffar_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 121 231 207 }
 	religion = protestant
 	traits = { shaffar ethereal_heritage }
 	male_common_first_names={
@@ -210,7 +210,7 @@ shaffar_ethereal = {
 }
 
 viraani_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 97 204 231 }
 	religion = protestant
 	traits = { viraani ethereal_heritage }
 	male_common_first_names={
@@ -239,7 +239,7 @@ viraani_ethereal = {
 }
 
 zaxxis_ethereal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 89 158 234 }
 	religion = protestant
 	traits = { zaxxis ethereal_heritage }
 	male_common_first_names={

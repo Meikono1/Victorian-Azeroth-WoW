@@ -1,5 +1,5 @@
 rockjaw_trogg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 136 89 28 }
 	religion = protestant
 	traits = { rockjaw trogg_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ rockjaw_trogg = {
 }
 
 stonesplinter_trogg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 102 82 56 }
 	religion = protestant
 	traits = { stonesplinter trogg_heritage }
 	male_common_first_names={

@@ -76,7 +76,7 @@ BUILDINGS = {
 					building={
 						type="building_manor_house"
 						country="c:DARNASSUS"
-						levels=1
+						levels=2
 						region="STATE_DOLANAAR"
 					}
 				}
@@ -100,7 +100,7 @@ BUILDINGS = {
 				building="building_tooling_workshops"
 				add_ownership={
 					building={
-						type="building_tooling_workshops"
+						type="building_manor_house"
 						country="c:DARNASSUS"
 						levels=1
 						region="STATE_DOLANAAR"
@@ -113,18 +113,220 @@ BUILDINGS = {
 	}
 	s:STATE_ORACLE_GLADE = {
 		region_state:BLOODFEATHER_HARPY = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BLOODFEATHER_HARPY"
+						levels=1
+						region="STATE_ORACLE_GLADE"
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BLOODFEATHER_HARPY"
+						levels=1
+						region="STATE_ORACLE_GLADE"
+					}
+				}
+				reserves=1
+			}
 		}
 		region_state:DARNASSUS = {
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_tea_plantation"
+						country="c:DARNASSUS"
+						levels=2
+						region="STATE_ORACLE_GLADE"
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:DARNASSUS"
+						levels=2
+						region="STATE_ORACLE_GLADE"
+					}
+				}
+				reserves=1
+			}
 		}
 	}
 	s:STATE_GNARLPINE_HOLD = {
 		region_state:GNARLPINE_FURBOLG = {
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=1
+						region="STATE_GNARLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:GNARLPINE_FURBOLG"
+						levels=2
+						region="STATE_GNARLPINE_HOLD"
+					}
+				}
+				reserves=1
+			}
 		}
 		region_state:DARNASSUS = {
+			create_building={	
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=3
+						region="STATE_GNARLPINE_HOLD"
+					}
+					building={
+						type="building_wheat_farm"
+						country="c:DARNASSUS"
+						levels=1
+						region="STATE_GNARLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
 		}
 	}
 	s:STATE_DARNASSUS = {
 		region_state:DARNASSUS = {
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=2
+						region="STATE_DARNASSUS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
+			}
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:DARNASSUS"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:DARNASSUS"
+						levels=1
+						region="STATE_DARNASSUS"
+					}
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=2
+						region="STATE_DARNASSUS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={	
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=3
+						region="STATE_DARNASSUS"
+					}
+					building={
+						type="building_wheat_farm"
+						country="c:DARNASSUS"
+						levels=1
+						region="STATE_DARNASSUS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DARNASSUS"
+						levels=4
+						region="STATE_DARNASSUS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_shipyards"
+				add_ownership={
+					building={
+						type="building_shipyards"
+						country="c:DARNASSUS"
+						levels=1
+						region="STATE_DARNASSUS"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding"  }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:DARNASSUS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DARNASSUS"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_WYRMSCARE_ISLAND = {
@@ -135,66 +337,575 @@ BUILDINGS = {
 		region_state:INFECTED_WILDLIFE = {
 		}
 		region_state:BLACKSILT_MURLOC = {
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:BLACKSILT_MURLOC"
+						levels=4
+						region="STATE_AXXARIEN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
 		}
 	}
 	s:STATE_VECTOR_COIL = {
 		region_state:SUNHAWK = {
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					company={
+						type="building_rye_farm"
+						country="c:SUNHAWK"
+						levels=3
+					}
+				}
+				reserves=1
+			}
 		}
 		region_state:EXODAR = {
 		}
 	}
 	s:STATE_BLOOD_WATCH = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					company={
+						type="building_rye_farm"
+						country="c:EXODAR"
+						levels=2
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_banana_plantation"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=2
+					}
+				}
+				reserves=1
+			}
 		}
 		region_state:SUNHAWK = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					company={
+						type="building_cotton_plantation"
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+			}
 		}
 	}
 	s:STATE_WRATHSCALE_LAIR = {
 		region_state:WRATHSCALE_NAGA = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:WRATHSCALE_NAGA"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:WRATHSCALE_NAGA"
+						levels=2
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:WRATHSCALE_NAGA"
+						levels=1
+					}
+				}
+				reserves=1
+			}
 		}
 	}
 	s:STATE_NAZZIVIAN = {
 		region_state:INFECTED_WILDLIFE = {
 		}
 		region_state:NAZZIVUS = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NAZZIVUS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 		region_state:BLACKSILT_MURLOC = {
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:BLACKSILT_MURLOC"	
+						levels=1
+						region="STATE_AXXARIEN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
 		}
 	}
 	s:STATE_KESSELS_CROSSING = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=1
+					}
+				}
+				reserves=1
+			}
 		}
 		region_state:BRISTLELIMB_FURBOLG = {
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					company={
+						type="building_manor_house"
+						country="c:BRISTLELIMB_FURBOLG"
+						levels=1
+					}
+				}
+				reserves=1
+			}
 		}
 	}
 	s:STATE_STILLPINE_HOLD = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:STILLPINE_FURBOLG"
+						levels=3
+						region="STATE_STILLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 		region_state:STILLPINE_FURBOLG = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:STILLPINE_FURBOLG"
+						levels=2
+						region="STATE_STILLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:STILLPINE_FURBOLG"
+						levels=2
+						region="STATE_STILLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 		region_state:CRAZED_WILDLIFE = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:STILLPINE_FURBOLG"
+						levels=2
+						region="STATE_STILLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:STILLPINE_FURBOLG"
+						levels=2
+						region="STATE_STILLPINE_HOLD"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 		}
 	}
 	s:STATE_WILDWIND_PEAK = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=3
+						region="STATE_WILDWIND_PEAK"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=3
+						region="STATE_WILDWIND_PEAK"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 		region_state:SILTFIN_MURLOC = {
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SILTFIN_MURLOC"
+						levels=2
+						region="STATE_WILDWIND_PEAK"
+					}
+				}
+				reserves=1
+				activate_production_methods={  "pm_unrefrigerated" "pm_simple_fishing" }
+			}
 		}
 	}
 	s:STATE_EXODAR = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=4
+						region="STATE_EXODAR"
+					}
+					building={
+						type="building_logging_camp"
+						country="c:EXODAR"
+						levels=2
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:EXODAR"
+						levels=2
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:EXODAR"
+						levels=2
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						type="building_financial_district"
+						country="c:EXODAR"
+						levels=1
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:EXODAR"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_religious_bureaucrats" "pm_hereditary_bureaucrats" "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=5
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 	}
 	s:STATE_AZURE_WATCH = {
 		region_state:EXODAR = {
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=3
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EXODAR"
+						levels=3
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
 		}
 	}
 	s:STATE_BRISTLELIMB_VILLAGE = {
 		region_state:BRISTLELIMB_FURBOLG = {
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:BRISTLELIMB_FURBOLG"
+						levels=2
+						region="STATE_BRISTLELIMB_VILLAGE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
 		}
 		region_state:WRATHSCALE_NAGA = {
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:WRATHSCALE_NAGA"
+						levels=1
+						region="STATE_BRISTLELIMB_VILLAGE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:WRATHSCALE_NAGA"
+						levels=3
+						region="STATE_BRISTLELIMB_VILLAGE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
 		}
 		region_state:EXODAR = {
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:EXODAR"
+						levels=3
+						region="STATE_EXODAR"
+					}
+				}
+				reserves=1
+				activate_production_methods={  "pm_unrefrigerated" "pm_fishing_trawlers" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:EXODAR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_SILVERMYST_ISLE = {

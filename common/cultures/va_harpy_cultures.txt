@@ -1,5 +1,5 @@
 bloodfeather_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 224 168 138 }
 	religion = protestant
 	traits = { bloodfeather harpy_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ bloodfeather_harpy = {
 }
 
 dustwind_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 163 229 214 }
 	religion = protestant
 	traits = { dustwind harpy_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ dustwind_harpy = {
 }
 
 northspring_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 118 202 220 }
 	religion = protestant
 	traits = { northspring harpy_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ northspring_harpy = {
 }
 
 windfury_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 115 195 195 }
 	religion = protestant
 	traits = { windfury harpy_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ windfury_harpy = {
 }
 
 witchwing_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 119 184 220 }
 	religion = protestant
 	traits = { witchwing harpy_heritage }
 	male_common_first_names={
@@ -154,7 +154,7 @@ witchwing_harpy = {
 }
 
 wormwing_harpy = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 127 132 231 }
 	religion = protestant
 	traits = { wormwing harpy_heritage }
 	male_common_first_names={

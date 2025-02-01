@@ -1,5 +1,5 @@
 blackmaw_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 134 101 56 }
 	religion = protestant
 	traits = { blackmaw furbolg_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ blackmaw_furbolg = {
 }
 
 blackwood_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 98 57 22 }
 	religion = protestant
 	traits = { blackwood furbolg_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ blackwood_furbolg = {
 }
 
 bloodwood_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 169 81 51 }
 	religion = protestant
 	traits = { bloodwood furbolg_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ bloodwood_furbolg = {
 }
 
 bristlelimb_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 194 124 81 }
 	religion = protestant
 	traits = { bristlelimb furbolg_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ bristlelimb_furbolg = {
 }
 
 deadwood_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 185 110 40 }
 	religion = protestant
 	traits = { deadwood furbolg_heritage }
 	male_common_first_names={
@@ -154,7 +154,7 @@ deadwood_furbolg = {
 }
 
 foulweald_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 84 165 69 }
 	religion = protestant
 	traits = { foulweald furbolg_heritage }
 	male_common_first_names={
@@ -185,7 +185,7 @@ foulweald_furbolg = {
 }
 
 gnarlpine_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 130 112 47 }
 	religion = protestant
 	traits = { gnarlpine furbolg_heritage }
 	male_common_first_names={
@@ -216,7 +216,7 @@ gnarlpine_furbolg = {
 }
 
 stillpine_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 153 105 35 }
 	religion = protestant
 	traits = { stillpine furbolg_heritage }
 	male_common_first_names={
@@ -247,7 +247,7 @@ stillpine_furbolg = {
 }
 
 thistlefur_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 168 152 68 }
 	religion = protestant
 	traits = { thistlefur furbolg_heritage }
 	male_common_first_names={
@@ -278,7 +278,7 @@ thistlefur_furbolg = {
 }
 
 timbermaw_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 140 118 73 }
 	religion = protestant
 	traits = { timbermaw furbolg_heritage }
 	male_common_first_names={
@@ -309,7 +309,7 @@ timbermaw_furbolg = {
 }
 
 winterfall_furbolg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 119 212 201 }
 	religion = protestant
 	traits = { winterfall furbolg_heritage }
 	male_common_first_names={

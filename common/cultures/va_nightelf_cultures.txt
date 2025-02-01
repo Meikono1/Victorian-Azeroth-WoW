@@ -57,7 +57,7 @@ darnassus_nightelf = {
 }
 
 fang_druid_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 24 186 35 }
 	religion = protestant
 	traits = { fangdruid druid nightelf_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ fang_druid_nightelf = {
 }
 
 honor_hold_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 42 218 114 }
 	religion = protestant
 	traits = { honorhold nightelf_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ honor_hold_nightelf = {
 }
 
 illidary_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 40 182 11 }
 	religion = protestant
 	traits = { illidary nightelf_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ illidary_nightelf = {
 }
 
 lower_city_nighelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 67 151 112 }
 	religion = protestant
 	traits = { lowercity nightelf_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ lower_city_nighelf = {
 }
 
 talon_druid_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 14 182 128 }
 	religion = protestant
 	traits = { talondruid druid nightelf_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ talon_druid_nightelf = {
 }
 
 watchers_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 28 230 121 }
 	religion = protestant
 	traits = { watchers nightelf_heritage }
 	male_common_first_names={

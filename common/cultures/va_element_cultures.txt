@@ -92,7 +92,7 @@ elemental_arcangolem = {
 }
 
 elemental_arcan_voidwalker = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 116 220 220 }
 	religion = protestant
 	traits = { arcan_element voidwalker elemental_heritage }
 	male_common_first_names={
@@ -216,7 +216,7 @@ elemental_earth = {
 }
 
 elemental_skettis_earth = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 180 139 80 }
 	religion = protestant
 	traits = { skettis earth_element elemental_heritage }
 	male_common_first_names={
@@ -402,7 +402,7 @@ elemental_earth_ent_darnassus = {
 }
 
 elemental_earth_fungal = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 117 164 61 }
 	religion = the_elements
 	traits = { fungul_heritage elemental_heritage }
 	male_common_first_names={
@@ -495,7 +495,7 @@ elemental_fire = {
 }
 
 elemental_fire_burning_legion = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 193 41 31 }
 	religion = protestant
 	traits = { burning_legion fire_element elemental_heritage }
 	male_common_first_names={
@@ -774,7 +774,7 @@ elemental_coilfang_water = {
 }
 
 elemental_darkcrest_water = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 43 97 169 }
 	religion = protestant
 	traits = { darkcrest water_element elemental_heritage }
 	male_common_first_names={
@@ -805,7 +805,7 @@ elemental_darkcrest_water = {
 }
 
 elemental_skettis_water = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 54 165 195 }
 	religion = protestant
 	traits = { skettis water_element elemental_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 hatefury_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 142 181 59 }
 	religion = protestant
 	traits = { hatefury satyr_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ hatefury_satyr = {
 }
 
 jadefire_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 102 180 44 }
 	religion = protestant
 	traits = { jadefire satyr_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ jadefire_satyr = {
 }
 
 legashi_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 127 167 29 }
 	religion = protestant
 	traits = { legashi satyr_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ legashi_satyr = {
 }
 
 nazzivus_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 110 208 33 }
 	religion = protestant
 	traits = { nazzivus satyr_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ nazzivus_satyr = {
 }
 
 xavian_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 47 208 33 }
 	religion = protestant
 	traits = { xavian satyr_heritage }
 	male_common_first_names={

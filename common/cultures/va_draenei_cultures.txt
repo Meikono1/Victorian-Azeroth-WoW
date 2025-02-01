@@ -57,7 +57,7 @@ aldor_dreanei = {
 }
 
 ashtoungue_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 76 179 129 }
 	religion = protestant
 	traits = { ashtoungue draenei_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ ashtoungue_broken = {
 }
 
 auchenai_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 62 222 98 }
 	religion = protestant
 	traits = { auchenai draenei_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ auchenai_draenei = {
 }
 
 cabal_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 44 193 157 }
 	religion = protestant
 	traits = { shadowcouncil broken draenei_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ cabal_broken = {
 }
 
 cenarius_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 58 176 83 }
 	religion = protestant
 	traits = { cenarian_circle broken draenei_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ cenarius_broken = {
 }
 
 coilfang_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 39 129 160 }
 	religion = protestant
 	traits = { coilfang broken draenei_heritage }
 	male_common_first_names={
@@ -233,7 +233,7 @@ daggerfen_broken = {
 }
 
 dreghood_tribe_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 49 104 188 }
 	religion = protestant
 	traits = { dreghood broken draenei_heritage }
 	male_common_first_names={
@@ -262,7 +262,7 @@ dreghood_tribe_broken = {
 }
 
 earthen_ring_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 36 179 114 }
 	religion = protestant
 	traits = { earthenring broken draenei_heritage }
 	male_common_first_names={
@@ -291,7 +291,7 @@ earthen_ring_broken = {
 }
 
 explorers_league_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 63 154 156 }
 	religion = protestant
 	traits = { explorers_league dwarf_heritage }
 	male_common_first_names={
@@ -349,7 +349,7 @@ exodar_draenei = {
 }
 
 feralfen_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 79 179 129 }
 	religion = protestant
 	traits = { feralfen broken draenei_heritage }
 	male_common_first_names={
@@ -407,7 +407,7 @@ greyheart_tribe_broken = {
 }
 
 halaa_dreanei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 231 174 }
 	religion = protestant
 	traits = { halaa broken draenei_heritage }
 	male_common_first_names={
@@ -436,7 +436,7 @@ halaa_dreanei = {
 }
 
 hand_argus_dreanei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 191 231 }
 	religion = protestant
 	traits = { alliance draenei_heritage }
 	male_common_first_names={
@@ -465,7 +465,7 @@ hand_argus_dreanei = {
 }
 
 honor_hold_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 48 138 185 }
 	religion = protestant
 	traits = { honorhold draenei_heritage }
 	male_common_first_names={
@@ -494,7 +494,7 @@ honor_hold_draenei = {
 }
 
 kurenai_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 75 97 158 }
 	religion = protestant
 	traits = { kurenai broken draenei_heritage }
 	male_common_first_names={
@@ -523,7 +523,7 @@ kurenai_broken = {
 }
 
 kurenai_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 79 115 211 }
 	religion = protestant
 	traits = { kurenai draenei_heritage }
 	male_common_first_names={
@@ -552,7 +552,7 @@ kurenai_draenei = {
 }
 
 lost_ones_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 74 83 129 }
 	religion = protestant
 	traits = { broken draenei_heritage }
 	male_common_first_names={
@@ -581,7 +581,7 @@ lost_ones_broken = {
 }
 
 lower_city_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 53 79 140 }
 	religion = protestant
 	traits = { lowercity broken draenei_heritage }
 	male_common_first_names={
@@ -610,7 +610,7 @@ lower_city_broken = {
 }
 
 lower_city_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 63 103 193 }
 	religion = protestant
 	traits = { lowercity draenei_heritage }
 	male_common_first_names={
@@ -639,7 +639,7 @@ lower_city_draenei = {
 }
 
 murkblood_tribe_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 88 158 167 }
 	religion = protestant
 	traits = { murkblood broken draenei_heritage }
 	male_common_first_names={
@@ -699,7 +699,7 @@ nesingway_broken_draenei = {
 }
 
 omenai_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 97 144 129 }
 	religion = protestant
 	traits = { omenai broken draenei_heritage }
 	male_common_first_names={
@@ -728,7 +728,7 @@ omenai_broken = {
 }
 
 omenai_dreanei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 48 184 186 }
 	religion = protestant
 	traits = { omenai draenei_heritage }
 	male_common_first_names={
@@ -757,7 +757,7 @@ omenai_dreanei = {
 }
 
 shatar_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 94 180 210 }
 	religion = protestant
 	traits = { shatar draenei_heritage }
 	male_common_first_names={
@@ -786,7 +786,7 @@ shatar_draenei = {
 }
 
 shatari_skyguard_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 80 161 129 }
 	religion = protestant
 	traits = { shatari_skyguard broken draenei_heritage }
 	male_common_first_names={
@@ -815,7 +815,7 @@ shatari_skyguard_broken = {
 }
 
 shatari_skyguard_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 60 204 147 }
 	religion = protestant
 	traits = { shatari_skyguard draenei_heritage }
 	male_common_first_names={
@@ -844,7 +844,7 @@ shatari_skyguard_draenei = {
 }
 
 shattered_sun_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 128 211 44 }
 	religion = protestant
 	traits = { shattered_sun draenei_heritage }
 	male_common_first_names={
@@ -873,7 +873,7 @@ shattered_sun_draenei = {
 }
 
 tuurem_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 112 169 135 }
 	religion = protestant
 	traits = { tuurem broken draenei_heritage }
 	male_common_first_names={
@@ -902,7 +902,7 @@ tuurem_broken = {
 }
 
 umbrafen_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 43 118 109 }
 	religion = protestant
 	traits = { umbrafen broken draenei_heritage }
 	male_common_first_names={
@@ -931,7 +931,7 @@ umbrafen_broken = {
 }
 
 wastewalker_tribe_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 58 90 104 }
 	religion = protestant
 	traits = { wastewalker broken draenei_heritage }
 	male_common_first_names={
@@ -960,7 +960,7 @@ wastewalker_tribe_broken = {
 }
 
 windyreed_tribe_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 83 154 157 }
 	religion = protestant
 	traits = { windyreed broken draenei_heritage }
 	male_common_first_names={

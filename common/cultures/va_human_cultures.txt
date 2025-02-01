@@ -1,5 +1,5 @@
 andorhal_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 46 139 183 }
 	religion = protestant
 	traits = { andorhal human_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ andorhal_human = {
 }
 
 argent_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 76 121 218 }
 	religion = protestant
 	traits = { argent_dawn human_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ argent_human = {
 }
 
 bloodsail_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 30 215 209 }
 	religion = protestant
 	traits = { pirate human_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ ebonblade_deathknight = {
 }
 
 honor_hold_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 30 105 215 }
 	religion = protestant
 	traits = { honorhold human_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ kirintor_human = {
 }
 
 kul_tiran_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 190 207 }
 	religion = protestant
 	traits = { kul_tiran human_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ kul_tiran_human = {
 }
 
 lower_city_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 41 86 129 }
 	religion = protestant
 	traits = { lowercity human_heritage }
 	male_common_first_names={
@@ -376,7 +376,7 @@ scourge_human_cultist = {
 }
 
 shadowcouncil_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 22 19 148 }
 	religion = protestant
 	traits = { shadowcouncil human_heritage }
 	male_common_first_names={
@@ -434,7 +434,7 @@ shatari_skyguard_human = {
 }
 
 shattered_sun_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 100 61 203 }
 	religion = protestant
 	traits = { shattered_sun human_heritage }
 	male_common_first_names={
@@ -492,7 +492,7 @@ silverhand_human = {
 }
 
 southsea_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 32 60 157 }
 	religion = protestant
 	traits = { pirate human_heritage }
 	male_common_first_names={
@@ -550,7 +550,7 @@ stormwind_human = {
 }
 
 syndicate_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 66 40 214 }
 	religion = protestant
 	traits = { syndicate human_heritage }
 	male_common_first_names={
@@ -608,7 +608,7 @@ twilight_hammer_human = {
 }
 
 violet_eye_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 117 57 239 }
 	religion = protestant
 	traits = { violeteye human_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 angorosh_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 198 118 51 }
 	religion = protestant
 	traits = { angorosh ogre_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ angorosh_ogre = {
 }
 
 angorosh_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 198 160 51 }
 	religion = protestant
 	traits = { angorosh ogre_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ angorosh_ogre_magi = {
 }
 
 areaft_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 160 182 86 }
 	religion = protestant
 	traits = { areafiftytwo ogre_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ areaft_ogre = {
 }
 
 bladespire_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 210 156 107 }
 	religion = protestant
 	traits = { bladespire ogre_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ bladespire_ogre = {
 }
 
 bladespire_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 184 230 63 }
 	religion = protestant
 	traits = { bladespire ogre_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ bladespire_ogre_magi = {
 }
 
 bloodeye_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 200 102 53 }
 	religion = protestant
 	traits = { bloodeye twilight_hammer ogre_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ bloodeye_ogre = {
 }
 
 bloodmaul_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 162 78 36 }
 	religion = protestant
 	traits = { bloodmaul ogre_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ bloodmaul_ogre = {
 }
 
 bloodmaul_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 140 95 48 }
 	religion = protestant
 	traits = { bloodmaul ogre_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ bloodmaul_ogre_magi = {
 }
 
 boulderfist_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 215 171 78 }
 	religion = protestant
 	traits = { boulderfist ogre_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ boulderfist_ogre = {
 }
 
 boulderfist_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 210 190 61 }
 	religion = protestant
 	traits = { boulderfist ogre_heritage }
 	male_common_first_names={
@@ -288,8 +288,37 @@ boulderfist_ogre_magi = {
 	}
 }
 
+brackenwall_ogre = {
+	color = rgb{ 70 129 109 }
+	religion = protestant
+	traits = { stonemaul ogre_heritage }
+	male_common_first_names={
+		Test Test Test Test Test Test
+	}
+	female_common_first_names = {
+		Test Test Test Test Test Test Test Test Test Test Test
+	}
+	noble_last_names = {
+		Herwarth_von_Test
+		Vogel_von_Test
+	}	
+	common_last_names={
+		Abegg Anger Arendt Ackermann Arntz
+	}
+	male_regal_first_names = {
+		regaltest
+	}
+	female_regal_first_names = {
+		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 burning_legion_ogre_magi_cultist = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 220 120 37 }
 	religion = burning_legion
 	traits = { cultist ogre_heritage }
 	male_common_first_names={
@@ -318,7 +347,7 @@ burning_legion_ogre_magi_cultist = {
 }
 
 clanless_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 73 64 56 }
 	religion = protestant
 	traits = { ogre_heritage }
 	male_common_first_names={
@@ -347,7 +376,7 @@ clanless_ogre_magi = {
 }
 
 crushridge_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 156 169 46 }
 	religion = protestant
 	traits = { crushridge ogre_heritage }
 	male_common_first_names={
@@ -376,7 +405,7 @@ crushridge_ogre = {
 }
 
 deadwind_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 106 142 23 }
 	religion = protestant
 	traits = { deadwind ogre_heritage }
 	male_common_first_names={
@@ -405,7 +434,7 @@ deadwind_ogre = {
 }
 
 dreadmaul_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 190 159 45 }
 	religion = protestant
 	traits = { dreadmaul ogre_heritage }
 	male_common_first_names={
@@ -434,7 +463,7 @@ dreadmaul_ogre = {
 }
 
 dunemaul_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 170 172 13 }
 	religion = protestant
 	traits = { dunemaul ogre_heritage }
 	male_common_first_names={
@@ -463,7 +492,7 @@ dunemaul_ogre = {
 }
 
 dustbelcher_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 110 169 67 }
 	religion = protestant
 	traits = { dustbelcher ogre_heritage }
 	male_common_first_names={
@@ -492,7 +521,7 @@ dustbelcher_ogre = {
 }
 
 glopgut_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 85 214 65 }
 	religion = protestant
 	traits = { glopgut ogre_heritage }
 	male_common_first_names={
@@ -521,7 +550,7 @@ glopgut_ogre = {
 }
 
 gordunni_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 136 182 71 }
 	religion = burning_legion
 	traits = { gordunni ogre_heritage }
 	male_common_first_names={
@@ -550,7 +579,7 @@ gordunni_ogre = {
 }
 
 gordunni_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 155 168 49 }
 	religion = burning_legion
 	traits = { gordunni ogre_heritage }
 	male_common_first_names={
@@ -579,7 +608,7 @@ gordunni_ogre_magi = {
 }
 
 lower_city_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 50 125 109 }
 	religion = protestant
 	traits = { lowercity ogre_heritage }
 	male_common_first_names={
@@ -608,7 +637,7 @@ lower_city_ogre = {
 }
 
 moknathal_halfogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 169 150 44 }
 	religion = protestant
 	traits = { moknathal orc_heritage ogre_heritage }
 	male_common_first_names={
@@ -637,7 +666,7 @@ moknathal_halfogre = {
 }
 
 moshogg_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 123 146 54 }
 	religion = protestant
 	traits = { moshogg ogre_heritage }
 	male_common_first_names={
@@ -666,7 +695,7 @@ moshogg_ogre = {
 }
 
 ogrila_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 193 148 75 }
 	religion = protestant
 	traits = { ogrila ogre_heritage }
 	male_common_first_names={
@@ -695,7 +724,7 @@ ogrila_ogre = {
 }
 
 ogrila_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 193 178 75 }
 	religion = protestant
 	traits = { ogrila ogre_heritage }
 	male_common_first_names={
@@ -724,7 +753,7 @@ ogrila_ogre_magi = {
 }
 
 shadowcouncil_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 77 56 138 }
 	religion = protestant
 	traits = { shadowcouncil ogre_heritage }
 	male_common_first_names={
@@ -753,7 +782,7 @@ shadowcouncil_ogre_magi = {
 }
 
 shattered_hand_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 193 91 160 }
 	religion = protestant
 	traits = { shattered_hand ogre_heritage }
 	male_common_first_names={
@@ -782,7 +811,7 @@ shattered_hand_ogre_magi = {
 }
 
 stonefist_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 171 106 63 }
 	religion = protestant
 	traits = { stonefist ogre_heritage }
 	male_common_first_names={
@@ -811,36 +840,7 @@ stonefist_ogre = {
 }
 
 stonemaul_ogre = {
-	color = rgb{ 0 0 0 }
-	religion = protestant
-	traits = { stonemaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-brackenwall_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 118 101 35 }
 	religion = protestant
 	traits = { stonemaul ogre_heritage }
 	male_common_first_names={
@@ -869,7 +869,7 @@ brackenwall_ogre = {
 }
 
 twilight_hammer_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 116 55 148 }
 	religion = protestant
 	traits = { twilight_hammer ogre_heritage }
 	male_common_first_names={
@@ -898,7 +898,7 @@ twilight_hammer_ogre = {
 }
 
 warmaul_ogre = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 111 73 31 }
 	religion = protestant
 	traits = { warmaul ogre_heritage }
 	male_common_first_names={
@@ -927,7 +927,7 @@ warmaul_ogre = {
 }
 
 warmaul_ogre_magi = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 167 90 44 }
 	religion = protestant
 	traits = { warmaul ogre_heritage }
 	male_common_first_names={

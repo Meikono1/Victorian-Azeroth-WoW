@@ -28,7 +28,7 @@ cenarius_druid_tauren = {
 }
 
 earthen_ring_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 131 196 66 }
 	religion = protestant
 	traits = { earthenring tauren_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ earthen_ring_tauren = {
 }
 
 grimmtotem_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 154 167 45 }
 	religion = protestant
 	traits = { grimmtotem tauren_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ grimmtotem_tauren = {
 }
 
 mojache_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 145 189 37 }
 	religion = protestant
 	traits = { mojache tauren_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ nesingway_tauren = {
 }
 
 orgrimmar_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 160 160 36 }
 	religion = protestant
 	traits = { horde tauren_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ taunka = {
 }
 
 thrallmar_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 55 191 121 }
 	religion = protestant
 	traits = { thrallmar horde tauren_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ thunderbluff_tauren = {
 }
 
 twilight_hammer_tauren = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 75 135 172 }
 	religion = protestant
 	traits = { twilight_hammer tauren_heritage }
 	male_common_first_names={

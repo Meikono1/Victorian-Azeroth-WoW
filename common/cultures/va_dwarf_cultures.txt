@@ -28,7 +28,7 @@ aether_tech_dwarf = {
 }
 
 darkiron_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 79 61 47 }
 	religion = protestant
 	traits = { darkiron dwarf_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ explorers_league_dwarf = {
 }
 
 honor_hold_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 135 108 51 }
 	religion = protestant
 	traits = { honorhold dwarf_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ ironforge_dwarf = {
 }
 
 lower_city_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 120 89 23 }
 	religion = protestant
 	traits = { lowercity dwarf_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ lower_city_dwarf = {
 }
 
 nesingway_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 168 135 66 }
 	religion = protestant
 	traits = { nesingway dwarf_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ nesingway_dwarf = {
 }
 
 shadowcouncil_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 77 62 162 }
 	religion = protestant
 	traits = { shadowcouncil dwarf_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ shatari_skyguard_dwarf = {
 }
 
 stormspike_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 113 82 24 }
 	religion = protestant
 	traits = { stormspike dwarf_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ stormspike_dwarf = {
 }
 
 twilight_hammer_darkiron_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 56 28 60 }
 	religion = protestant
 	traits = { twilight_hammer darkiron dwarf_heritage }
 	male_common_first_names={
@@ -318,7 +318,7 @@ twilight_hammer_darkiron_dwarf = {
 }
 
 twilight_hammer_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 106 46 115 }
 	religion = protestant
 	traits = { twilight_hammer dwarf_heritage }
 	male_common_first_names={
@@ -347,7 +347,7 @@ twilight_hammer_dwarf = {
 }
 
 wildhammer_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 93 133 42 }
 	religion = protestant
 	traits = { wildhammer dwarf_heritage }
 	male_common_first_names={

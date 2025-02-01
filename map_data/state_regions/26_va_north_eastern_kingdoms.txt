@@ -244,7 +244,7 @@ STATE_TOR_WATHA = {
     mine = ""
     wood = ""
     arable_land = 55
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_dye_plantations" "bg_opium_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_iron_mining = 15
         bg_logging = 28
@@ -684,7 +684,7 @@ STATE_ANDORHAL = {
     capped_resources = {
         bg_sulfur_mining = 15
         bg_logging = 22
-        bg_sulfur_mining = 10
+        bg_iron_mining = 10
         bg_fishing = 11
     }
 }
@@ -1535,7 +1535,6 @@ STATE_BOULDER_GOR = {
     arable_land = 95
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_gold_fields = 3
         bg_coal_mining = 30
         bg_logging = 13
         bg_iron_mining = 25

@@ -11,13 +11,13 @@ POPS = {
 		region_state:DRUIDS_OF_TALONS = {
 			create_pop = {
 				culture = talon_druid_nightelf
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
 			create_pop = {
 				culture = green_dragonkin_dragon
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -25,19 +25,19 @@ POPS = {
 		region_state:SENTINELS = {
 			create_pop = {
 				culture = darnassus_nightelf
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:RAGE_SCAR_YETI = {
 			create_pop = {
 				culture = ragescar_yeti
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:STONEMAUL_OGRE = {
 			create_pop = {
 				culture = stonemaul_ogre
-				size = 1000000
+				size = 330000
 			}
 		}
 	}
@@ -45,13 +45,13 @@ POPS = {
 		region_state:HATECREST_NAGA = {
 			create_pop = {
 				culture = hatecrest_naga
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SENTINELS = {
 			create_pop = {
 				culture = darnassus_nightelf
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -59,13 +59,13 @@ POPS = {
 		region_state:GORDUNNI_OGRE = {
 			create_pop = {
 				culture = gordunni_ogre
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SHEN_DRALAR = {
 			create_pop = {
 				culture = shen_dralar_highborn
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -73,19 +73,19 @@ POPS = {
 		region_state:GORDUNNI_OGRE = {
 			create_pop = {
 				culture = gordunni_ogre
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:SHEN_DRALAR = {
 			create_pop = {
 				culture = shen_dralar_highborn
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:FERAL_SCAR_YETI = {
 			create_pop = {
 				culture = feralscar_yeti
-				size = 1000000
+				size = 330000
 			}
 		}
 	}
@@ -93,13 +93,13 @@ POPS = {
 		region_state:WOODPAW_GNOLL = {
 			create_pop = {
 				culture = woodpaw_gnoll
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:HIGHBORN_UNDEAD = {
 			create_pop = {
 				culture = undead_highelf
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -107,13 +107,13 @@ POPS = {
 		region_state:STEAM_RESORT = {
 			create_pop = {
 				culture = bilgewater_goblin
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:HIVE_ZUKKASH = {
 			create_pop = {
 				culture = hive_zukkash_silithid
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -121,13 +121,13 @@ POPS = {
 		region_state:GORDUNNI_OGRE = {
 			create_pop = {
 				culture = gordunni_ogre
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:CAMP_MOJACHE = {
 			create_pop = {
 				culture = mojache_tauren
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -135,13 +135,13 @@ POPS = {
 		region_state:GRIMMTOTEM = {
 			create_pop = {
 				culture = grimmtotem_tauren
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SENTINELS = {
 			create_pop = {
 				culture = darnassus_nightelf
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -149,19 +149,19 @@ POPS = {
 		region_state:GRIMMTOTEM = {
 			create_pop = {
 				culture = grimmtotem_tauren
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:RAZORFEN = {
 			create_pop = {
 				culture = razorfen_quilboar
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:SUMMIT_DEFENDERS = {
 			create_pop = {
 				culture = thunderbluff_tauren
-				size = 1000000
+				size = 330000
 			}
 		}
 	}
@@ -185,13 +185,13 @@ POPS = {
 		region_state:GALAK_CENTAUR = {
 			create_pop = {
 				culture = galak_centaur
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = southsea_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -207,13 +207,13 @@ POPS = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
 				culture = steamwheedle_goblin
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = southsea_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -245,19 +245,19 @@ POPS = {
 		region_state:CENTIPAAR_LAIR = {
 			create_pop = {
 				culture = centipaar_silithid
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:SANDFURY_TRIBE = {
 			create_pop = {
 				culture = sandfury_troll
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:DUNEMAUL_OGRE = {
 			create_pop = {
 				culture = dunemaul_ogre
-				size = 1000000
+				size = 330000
 			}
 		}
 	}
@@ -265,13 +265,13 @@ POPS = {
 		region_state:HAZZALI_LAIR = {
 			create_pop = {
 				culture = centipaar_silithid
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
 				culture = southsea_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -295,13 +295,13 @@ POPS = {
 		region_state:GORISHI_LAIR = {
 			create_pop = {
 				culture = centipaar_silithid
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = stormwind_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -309,13 +309,13 @@ POPS = {
 		region_state:UNGORO_WILD = {
 			create_pop = {
 				culture = ungoro_wildlife
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = stormwind_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -323,13 +323,13 @@ POPS = {
 		region_state:UNGORO_WILD = {
 			create_pop = {
 				culture = ungoro_wildlife
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
 				culture = stormwind_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -337,13 +337,13 @@ POPS = {
 		region_state:TWILIGHT_HAMMER_SILITHUS = {
 			create_pop = {
 				culture = twilight_hammer_human
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:HIVE_ASHI = {
 			create_pop = {
 				culture = hive_ashi_silithid
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -351,13 +351,13 @@ POPS = {
 		region_state:HIVE_ZORA = {
 			create_pop = {
 				culture = hive_zora_silithid
-				size = 1000000
+				size = 500000
 			}
 		}
 		region_state:TWILIGHT_HAMMER_SILITHUS = {
 			create_pop = {
 				culture = twilight_hammer_human
-				size = 1000000
+				size = 500000
 			}
 		}
 	}
@@ -365,19 +365,19 @@ POPS = {
 		region_state:HIVE_ASHI = {
 			create_pop = {
 				culture = hive_ashi_silithid
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:TWILIGHT_HAMMER_SILITHUS = {
 			create_pop = {
 				culture = twilight_hammer_human
-				size = 1000000
+				size = 330000
 			}
 		}
 		region_state:CENARION_HOLD = {
 			create_pop = {
 				culture = cenarius_druid_nightelf
-				size = 1000000
+				size = 330000
 			}
 		}
 	}

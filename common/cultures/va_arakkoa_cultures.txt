@@ -1,5 +1,5 @@
 dark_conclave_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 104 23 175 }
 	religion = protestant
 	traits = { dark_conclave arakkoa_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ dark_conclave_arakkoa = {
 }
 
 grishnath_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 27 149 }
 	religion = protestant
 	traits = { grishnath arakkoa_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ grishnath_arakkoa = {
 }
 
 haaleshi_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 65 67 207 }
 	religion = protestant
 	traits = { haaleshi arakkoa_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ haaleshi_arakkoa = {
 }
 
 lashhan_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 30 64 203 }
 	religion = protestant
 	traits = { lashhan arakkoa_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ lashhan_arakkoa = {
 }
 
 lithic_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 53 18 171 }
 	religion = protestant
 	traits = { lithic arakkoa_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ lithic_arakkoa = {
 }
 
 lower_city_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 71 25 227 }
 	religion = protestant
 	traits = { lowercity arakkoa_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ lower_city_arakkoa = {
 }
 
 reskk_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 54 48 235 }
 	religion = protestant
 	traits = { reskk arakkoa_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ reskk_arakkoa = {
 }
 
 ruuan_ok_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 114 23 216 }
 	religion = protestant
 	traits = { ruuanok arakkoa_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ ruuan_ok_arakkoa = {
 }
 
 sarthis_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 128 21 247 }
 	religion = protestant
 	traits = { sarthis arakkoa_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ sarthis_arakkoa = {
 }
 
 sethekk_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 147 79 223 }
 	religion = protestant
 	traits = { sethekk arakkoa_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ sethekk_arakkoa = {
 }
 
 shalassi_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 133 101 170 }
 	religion = protestant
 	traits = { shalassi arakkoa_heritage }
 	male_common_first_names={
@@ -318,7 +318,7 @@ shalassi_arakkoa = {
 }
 
 shienor_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 61 56 171 }
 	religion = protestant
 	traits = { shienor arakkoa_heritage }
 	male_common_first_names={
@@ -347,7 +347,7 @@ shienor_arakkoa = {
 }
 
 skettis_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 82 45 207 }
 	religion = protestant
 	traits = { skettis arakkoa_heritage }
 	male_common_first_names={
@@ -376,7 +376,7 @@ skettis_arakkoa = {
 }
 
 skithian_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 62 29 171 }
 	religion = protestant
 	traits = { skithian arakkoa_heritage }
 	male_common_first_names={
@@ -405,7 +405,7 @@ skithian_arakkoa = {
 }
 
 vakhnir_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 90 52 219 }
 	religion = protestant
 	traits = { vakhnir arakkoa_heritage }
 	male_common_first_names={

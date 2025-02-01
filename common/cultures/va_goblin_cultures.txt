@@ -86,7 +86,7 @@ boom_goblin = {
 }
 
 lower_city_goblin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 218 90 }
 	religion = protestant
 	traits = { lowercity goblin_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ lower_city_goblin = {
 }
 
 steamwheedle_goblin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 75 174 44 }
 	religion = protestant
 	traits = { steamwheedle goblin_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ steamwheedle_goblin = {
 }
 
 thrallmar_goblin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 68 228 90 }
 	religion = protestant
 	traits = { thrallmar horde goblin_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ thrallmar_goblin = {
 }
 
 venture_company_goblin = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 24 195 48 }
 	religion = protestant
 	traits = { venture_company goblin_heritage }
 	male_common_first_names={

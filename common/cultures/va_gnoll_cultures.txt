@@ -1,5 +1,5 @@
 mudsnout_gnoll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 206 107 0 }
 	religion = protestant
 	traits = { mudsnout gnoll_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ mudsnout_gnoll = {
 }
 
 redridge_gnoll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 192 90 24 }
 	religion = protestant
 	traits = { redridge gnoll_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ redridge_gnoll = {
 }
 
 riverpaw_gnoll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 166 106 56 }
 	religion = protestant
 	traits = { riverpaw gnoll_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ riverpaw_gnoll = {
 }
 
 palemane_gnoll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 155 198 54 }
 	religion = protestant
 	traits = { palemane gnoll_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ palemane_gnoll = {
 }
 
 woodpaw_gnoll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 171 120 60 }
 	religion = protestant
 	traits = { woodpaw gnoll_heritage }
 	male_common_first_names={

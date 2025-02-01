@@ -1,5 +1,5 @@
 amani_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 191 168 62 }
 	religion = protestant
 	traits = { amani troll_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ amani_troll = {
 }
 
 bloodscalp_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 196 143 70 }
 	religion = protestant
 	traits = { bloodscalp troll_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ darkspear_troll = {
 }
 
 frostmane_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 162 184 50 }
 	religion = protestant
 	traits = { frostmane troll_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ frostmane_troll = {
 }
 
 gurubashi_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 186 230 97 }
 	religion = protestant
 	traits = { gurubashi troll_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ gurubashi_troll = {
 }
 
 lower_city_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 143 127 236 }
 	religion = protestant
 	traits = { lowercity troll_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ lower_city_troll = {
 }
 
 mossflayer_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 122 187 74 }
 	religion = protestant
 	traits = { mossflayer troll_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ mossflayer_troll = {
 }
 
 orgrimmar_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 178 217 56 }
 	religion = protestant
 	traits = { horde troll_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ orgrimmar_troll = {
 }
 
 raventusk_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 217 197 56 }
 	religion = protestant
 	traits = { raventusk troll_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ raventusk_troll = {
 }
 
 sandfury_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 226 234 53 }
 	religion = protestant
 	traits = { sandfury troll_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ sandfury_troll = {
 }
 
 shadowcouncil_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 90 119 204 }
 	religion = protestant
 	traits = { shadowcouncil troll_heritage }
 	male_common_first_names={
@@ -347,7 +347,7 @@ shadowpine_troll = {
 }
 
 shatari_skyguard_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 120 199 50 }
 	religion = protestant
 	traits = { shatari_skyguard troll_heritage }
 	male_common_first_names={
@@ -376,7 +376,7 @@ shatari_skyguard_troll = {
 }
 
 shatterspear_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 150 220 49 }
 	religion = protestant
 	traits = { shatterspear troll_heritage }
 	male_common_first_names={
@@ -405,7 +405,7 @@ shatterspear_troll = {
 }
 
 stonebreaker_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 155 193 16 }
 	religion = protestant
 	traits = { thrallmar troll_heritage }
 	male_common_first_names={
@@ -434,7 +434,7 @@ stonebreaker_troll = {
 }
 
 thrallmar_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 102 167 52 }
 	religion = protestant
 	traits = { thrallmar horde troll_heritage }
 	male_common_first_names={
@@ -463,7 +463,7 @@ thrallmar_troll = {
 }
 
 twilight_hammer_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 60 154 205 }
 	religion = protestant
 	traits = { twilight_hammer troll_heritage }
 	male_common_first_names={
@@ -492,7 +492,7 @@ twilight_hammer_troll = {
 }
 
 skullsplitter_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 106 206 146 }
 	religion = protestant
 	traits = { skullsplitter troll_heritage }
 	male_common_first_names={
@@ -521,7 +521,7 @@ skullsplitter_troll = {
 }
 
 vilebranch_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 66 156 61 }
 	religion = protestant
 	traits = { vilebranch troll_heritage }
 	male_common_first_names={
@@ -550,7 +550,7 @@ vilebranch_troll = {
 }
 
 whiterbark_troll = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 28 144 68 }
 	religion = protestant
 	traits = { whiterbark troll_heritage }
 	male_common_first_names={

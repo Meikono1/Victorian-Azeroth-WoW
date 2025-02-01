@@ -2,552 +2,460 @@ COUNTRIES = {
 	c:AUCHENAI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:AREA_FIFTYTWO ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ALLERIAN_STRONGHOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ANGOROSH_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:APEXIS_FLAYERS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:AZEROTH_DEFENDERS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BASHIR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BLADESPIRE_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BLACKWIND_WYRMCULTISTS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BLEEDING_HOLLOW_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BLOODMAUL_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BLOODSCALE_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BONECHEWER_RUINS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BOOM ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BOULDERFIST_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BURNING_LEGION_INVASION_NETHERSTORM ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BURNING_LEGION_KILJADEN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BURNING_LEGION_LEGIONS_HOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BURNING_LEGION_TWILIGHT_HOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:BURNING_LEGION_FORGE_CAMPS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:CABAL ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:CENARION_CIRCLE_OUTLAND ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:CENARION_REFUGE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:COILFANG_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:COILSCAR_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:CONSORTIUM ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:DARKCREST_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:DARK_CONCLAVE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:DRAGONMAW_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ECLIPSE_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ETHEREUM ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:FALCON_WATCH ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:FERALFEN_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:FIREWING_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:GRISHNATH ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:GORDUNNI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:HALAA ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:HAALESH_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:HONOR_HOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:OMENAI_TEMPLE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:RUUAN_OK ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ILLIDARY ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ILLIDARY_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:OGRILA ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:KIL_SORROW_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:KIRIN_VAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:KURENAI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:LASHHAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:LITHIC ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:MAGHAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:MOKNATHAL ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:MURKBLOOD_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:NETHERWING ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:PROTECTORATE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:RAVENOUS_FLAYERS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:RAZAANI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:RAZERTHORN_FLAYERS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:REFUGEE_CAMP ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:RHAZE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SETHEKK ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHIENOR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHADOWMOON_VILLAGE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHADOW_COUNCIL ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHAFFAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHATARI_SKYGUARD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHATTERED_HAND_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHALASSI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHA_TAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHA_TAR_ASSAULT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SHA_TAR_OUTPOST ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SKETTIS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SKITH ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SPOREGGAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:STONEBREAKER_HOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:STONESCYTHE_FLAYER ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SUNFURY ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:SYLVANNAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:THRALLMAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:THE_ALDOR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:THE_EARTHEN_RING ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:THE_SCRYERS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:THUNDERLORD_STRONGHOLD ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:TOSHLEY_STATION ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:TUUREM ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:UNYIELDING_DEFENDER ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:UMBRAFEN_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:VEKHNIR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:VIR_AANI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:WARMAUL_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:WILDHAMMER_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:WINDYREED_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 
 	c:ZAXXIS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_10 = yes
 	}
 }

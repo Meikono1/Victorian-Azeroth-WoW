@@ -1,5 +1,5 @@
 galak_centaur = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 38 66 100 }
 	religion = protestant
 	traits = { galak centaur_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ galak_centaur = {
 }
 
 gelkis_centaur = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 24 96 108 }
 	religion = protestant
 	traits = { gelkis centaur_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ gelkis_centaur = {
 }
 
 magram_centaur = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 107 69 32 }
 	religion = protestant
 	traits = { magram centaur_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ magram_centaur = {
 }
 
 maroudin_centaur = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 57 101 30 }
 	religion = protestant
 	traits = { maroudin centaur_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 auchenai_beholder = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 58 37 119 }
 	religion = protestant
 	traits = { auchenai beholder_heritage demon_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ auchenai_beholder = {
 }
 
 burning_legion_annihilan = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 114 48 162 }
 	religion = burning_legion
 	traits = { burning_legion annihilan_heritage demon_heritage }
 	male_common_first_names={
@@ -433,7 +433,7 @@ burning_legion_succubus = {
 }
 
 cabal_imp = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 65 137 36 }
 	religion = burning_legion
 	traits = { cabal imp_heritage demon_heritage }
 	male_common_first_names={
@@ -464,7 +464,7 @@ cabal_imp = {
 }
 
 cabal_felguard = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 96 48 24 }
 	religion = burning_legion
 	traits = { cabal moarg_heritage demon_heritage }
 	male_common_first_names={
@@ -495,7 +495,7 @@ cabal_felguard = {
 }
 
 cabal_shivan = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 139 26 155 }
 	religion = burning_legion
 	traits = { cabal shivan_heritage demon_heritage }
 	male_common_first_names={
@@ -526,7 +526,7 @@ cabal_shivan = {
 }
 
 crimson_sigil_beholder = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 136 32 106 }
 	religion = burning_legion
 	traits = { illidary beholder_heritage demon_heritage }
 	male_common_first_names={
@@ -557,7 +557,7 @@ crimson_sigil_beholder = {
 }
 
 crimson_sigil_dread_lord = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 111 18 160 }
 	religion = burning_legion
 	traits = { illidary dread_lord_heritage demon_heritage }
 	male_common_first_names={
@@ -619,7 +619,7 @@ crystalcore_moarg = {
 }
 
 demonic_voidwalker = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 94 70 201 }
 	religion = protestant
 	traits = { voidwalker demon_heritage }
 	male_common_first_names={
@@ -650,7 +650,7 @@ demonic_voidwalker = {
 }
 
 illidary_beholder = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 5 139 32 }
 	religion = protestant
 	traits = { illidary beholder_heritage demon_heritage }
 	male_common_first_names={
@@ -681,7 +681,7 @@ illidary_beholder = {
 }
 
 illidary_doom_guard = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 81 157 55 }
 	religion = protestant
 	traits = { illidary ered_ruin_heritage demon_heritage }
 	male_common_first_names={
@@ -712,7 +712,7 @@ illidary_doom_guard = {
 }
 
 illidary_dreadlord = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 19 120 19 }
 	religion = protestant
 	traits = { illidary dread_lord_heritage demon_heritage }
 	male_common_first_names={
@@ -743,7 +743,7 @@ illidary_dreadlord = {
 }
 
 illidary_felguard = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 15 170 57 }
 	religion = protestant
 	traits = { illidary moarg_heritage demon_heritage }
 	male_common_first_names={
@@ -774,7 +774,7 @@ illidary_felguard = {
 }
 
 illidary_imp = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 107 207 67 }
 	religion = burning_legion
 	traits = { illidary imp_heritage demon_heritage }
 	male_common_first_names={
@@ -805,7 +805,7 @@ illidary_imp = {
 }
 
 illidary_moarg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 42 151 55 }
 	religion = protestant
 	traits = { illidary moarg_heritage demon_heritage }
 	male_common_first_names={
@@ -836,7 +836,7 @@ illidary_moarg = {
 }
 
 illidary_satyr = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 113 165 33 }
 	religion = protestant
 	traits = { illidary satyr_heritage demon_heritage }
 	male_common_first_names={
@@ -867,7 +867,7 @@ illidary_satyr = {
 }
 
 illidary_shivan = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 184 207 34 }
 	religion = protestant
 	traits = { illidary shivan_heritage demon_heritage }
 	male_common_first_names={
@@ -898,7 +898,7 @@ illidary_shivan = {
 }
 
 illidary_succubus = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 62 188 25 }
 	religion = protestant
 	traits = { illidary succubus_heritage demon_heritage }
 	male_common_first_names={
@@ -929,7 +929,7 @@ illidary_succubus = {
 }
 
 jaedenar_dreadlord = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 42 20 166 }
 	religion = protestant
 	traits = { jaedenar dread_lord_heritage demon_heritage }
 	male_common_first_names={
@@ -960,7 +960,7 @@ jaedenar_dreadlord = {
 }
 
 mannoroth_felguard = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 57 129 87 }
 	religion = burning_legion
 	traits = { mannoroth moarg_heritage demon_heritage }
 	male_common_first_names={
@@ -1084,7 +1084,7 @@ sargeron_satyr = {
 }
 
 shadowcouncil_eredar = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 146 73 203 }
 	religion = burning_legion
 	traits = { shadowcouncil eredar_heritage demon_heritage }
 	male_common_first_names={
@@ -1115,7 +1115,7 @@ shadowcouncil_eredar = {
 }
 
 shadowcouncil_imp = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 97 73 203 }
 	religion = burning_legion
 	traits = { shadowcouncil imp_heritage demon_heritage }
 	male_common_first_names={
@@ -1146,7 +1146,7 @@ shadowcouncil_imp = {
 }
 
 shadowcouncil_moarg = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 89 41 143 }
 	religion = protestant
 	traits = { shadowcouncil moarg_heritage demon_heritage }
 	male_common_first_names={
@@ -1177,7 +1177,7 @@ shadowcouncil_moarg = {
 }
 
 summon_demon = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 41 0 88 }
 	religion = protestant
 	traits = { demon_heritage }
 	male_common_first_names={
@@ -1208,7 +1208,7 @@ summon_demon = {
 }
 
 undercity_felbeast = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 78 19 108 }
 	religion = burning_legion
 	traits = { horde fel_beast_heritage demon_heritage }
 	male_common_first_names={
@@ -1239,7 +1239,7 @@ undercity_felbeast = {
 }
 
 wormthorn_dreadlord = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 36 18 146 }
 	religion = protestant
 	traits = { dread_lord_heritage demon_heritage }
 	male_common_first_names={

@@ -28,7 +28,7 @@ bladespire_undead_ogre = {
 }
 
 bleeding_hollow_undead = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 142 19 92 }
 	religion = protestant
 	traits = { bleeding_hollow undead_heritage }
 	male_common_first_names={
@@ -117,7 +117,7 @@ enkaat_undead_draenei = {
 }
 
 grishnath_undead_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 154 58 162 }
 	religion = protestant
 	traits = { grishnath undead_heritage }
 	male_common_first_names={
@@ -146,7 +146,7 @@ grishnath_undead_arakkoa = {
 }
 
 ironhill_undead_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 101 49 188 }
 	religion = protestant
 	traits = { ironhill undead_heritage }
 	male_common_first_names={
@@ -262,7 +262,7 @@ kirintor_undead_human = {
 }
 
 kirintor_lich = {
-	color = rgb{ 88 237 201 }
+	color = rgb{ 52 205 200 }
 	religion = protestant
 	traits = { kirintor undead_heritage }
 	male_common_first_names={
@@ -322,7 +322,7 @@ kvaldir = {
 }
 
 ruuanok_undead_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 136 191 }
 	religion = protestant
 	traits = { ruuanok undead_heritage }
 	male_common_first_names={
@@ -352,7 +352,7 @@ ruuanok_undead_arakkoa = {
 
 
 summon_undead = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 90 25 178 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -476,7 +476,7 @@ scourge_shade = {
 }
 
 scourge_lich = {
-	color = rgb{ 32 16 78 }
+	color = rgb{ 40 106 125 }
 	religion = protestant
 	traits = { scourge undead_heritage }
 	male_common_first_names={
@@ -569,7 +569,7 @@ scourge_damned_tauren = {
 }
 
 scourge_damned_taunka = {
-	color = rgb{ 32 16 78 }
+	color = rgb{ 40 125 55 }
 	religion = protestant
 	traits = { taunka scourge undead_heritage }
 	male_common_first_names={
@@ -662,7 +662,7 @@ scourge_undead_nerubian = {
 }
 
 san_layn = {
-	color = rgb{ 32 16 78 }
+	color = rgb{ 132 16 37 }
 	religion = protestant
 	traits = { scourge bloodelf_heritage undead_heritage }
 	male_common_first_names={
@@ -693,7 +693,7 @@ san_layn = {
 }
 
 undead_dark_conclave_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 119 58 147 }
 	religion = protestant
 	traits = { dark_conclave undead_heritage }
 	male_common_first_names={
@@ -724,7 +724,7 @@ undead_dark_conclave_arakkoa = {
 }
 
 undead_skettis_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 163 59 175 }
 	religion = protestant
 	traits = { skettis undead_heritage }
 	male_common_first_names={
@@ -755,7 +755,7 @@ undead_skettis_arakkoa = {
 }
 
 undead_arakkoa = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 149 119 187 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -786,7 +786,7 @@ undead_arakkoa = {
 }
 
 undead_broken = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 119 131 187 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -817,7 +817,7 @@ undead_broken = {
 }
 
 undead_draenei = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 112 94 217 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -848,7 +848,7 @@ undead_draenei = {
 }
 
 undead_dwarf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 153 94 217 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -879,7 +879,7 @@ undead_dwarf = {
 }
 
 undead_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 151 221 181 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -910,7 +910,7 @@ undead_felorc = {
 }
 
 undead_highelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 186 230 149 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -941,7 +941,7 @@ undead_highelf = {
 }
 
 undead_human = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 94 184 168 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -972,7 +972,7 @@ undead_human = {
 }
 
 undead_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 184 122 94 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -1003,7 +1003,7 @@ undead_orc = {
 }
 
 undead_nightelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 70 149 123 }
 	religion = protestant
 	traits = { undead_heritage }
 	male_common_first_names={
@@ -1034,7 +1034,7 @@ undead_nightelf = {
 }
 
 undead_orc_maghar = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 160 111 45 }
 	religion = protestant
 	traits = { mag_har undead_heritage }
 	male_common_first_names={

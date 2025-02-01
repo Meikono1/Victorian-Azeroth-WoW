@@ -1,5 +1,5 @@
 blackscale_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 28 60 84 }
 	religion = protestant
 	traits = { twilight_hammer naga_heritage }
 	male_common_first_names={
@@ -30,7 +30,7 @@ blackscale_naga = {
 }
 
 bloodscale_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 112 56 102 }
 	religion = protestant
 	traits = { bloodscale naga_heritage }
 	male_common_first_names={
@@ -61,7 +61,7 @@ bloodscale_naga = {
 }
 
 bloodwash_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 147 54 104 }
 	religion = protestant
 	traits = { azshir naga_heritage }
 	male_common_first_names={
@@ -92,7 +92,7 @@ bloodwash_naga = {
 }
 
 coilfang_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 53 89 192 }
 	religion = protestant
 	traits = { coilfang naga_heritage }
 	male_common_first_names={
@@ -123,7 +123,7 @@ coilfang_naga = {
 }
 
 coilskar_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 81 158 211 }
 	religion = protestant
 	traits = { coilscar naga_heritage }
 	male_common_first_names={
@@ -154,7 +154,7 @@ coilskar_naga = {
 }
 
 darkcrest_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 60 75 188 }
 	religion = protestant
 	traits = { darkcrest naga_heritage }
 	male_common_first_names={
@@ -185,7 +185,7 @@ darkcrest_naga = {
 }
 
 darkscale_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 33 63 139 }
 	religion = protestant
 	traits = { darkscale naga_heritage }
 	male_common_first_names={
@@ -216,7 +216,7 @@ darkscale_naga = {
 }
 
 eplorers_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 89 102 172 }
 	religion = protestant
 	traits = { naga_explorers naga_heritage }
 	male_common_first_names={
@@ -247,7 +247,7 @@ eplorers_naga = {
 }
 
 hatecrest_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 76 148 207 }
 	religion = protestant
 	traits = { hatecrest naga_heritage }
 	male_common_first_names={
@@ -278,7 +278,7 @@ hatecrest_naga = {
 }
 
 slitherblade_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 61 171 202 }
 	religion = protestant
 	traits = { slitherblade naga_heritage }
 	male_common_first_names={
@@ -309,7 +309,7 @@ slitherblade_naga = {
 }
 
 spitelash_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 46 83 172 }
 	religion = protestant
 	traits = { spitelash naga_heritage }
 	male_common_first_names={
@@ -340,7 +340,7 @@ spitelash_naga = {
 }
 
 strashaz_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 84 68 176 }
 	religion = protestant
 	traits = { strashaz naga_heritage }
 	male_common_first_names={
@@ -371,7 +371,7 @@ strashaz_naga = {
 }
 
 vashir_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 75 184 240 }
 	religion = protestant
 	traits = { vashir naga_heritage }
 	male_common_first_names={
@@ -402,7 +402,7 @@ vashir_naga = {
 }
 
 wrathfin_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 53 117 204 }
 	religion = protestant
 	traits = { wrathfin naga_heritage }
 	male_common_first_names={
@@ -433,7 +433,7 @@ wrathfin_naga = {
 }
 
 wrathtail_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 54 98 157 }
 	religion = protestant
 	traits = { wrathtail naga_heritage }
 	male_common_first_names={
@@ -464,7 +464,7 @@ wrathtail_naga = {
 }
 
 wrathscale_naga = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 32 96 183 }
 	religion = protestant
 	traits = { wrathscale naga_heritage }
 	male_common_first_names={
@@ -496,7 +496,7 @@ wrathscale_naga = {
 
 
 naga_riplash_myrmidon = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 69 172 214 }
 	religion = protestant
 	traits = { riplash myrmidon naga_heritage }
 	male_common_first_names={
@@ -527,7 +527,7 @@ naga_riplash_myrmidon = {
 }
 
 naga_riplash_siren = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 69 206 214 }
 	religion = protestant
 	traits = { riplash siren naga_heritage }
 	male_common_first_names={

@@ -28,7 +28,7 @@ aether_tech_bloodelf = {
 }
 
 bloodknight_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 287 52 102 }
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ blue_dragonkin_bloodelf_cultist = {
 }
 
 burning_legion_felelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 169 216 9 }
 	religion = protestant
 	traits = { cultist bloodelf_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ crimson_hand_bloodelf = {
 }
 
 crimson_sigil_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 209 98 36 }
 	religion = protestant
 	traits = { illidary bloodelf_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ crimson_sigil_bloodelf = {
 }
 
 eclipsion_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 232 114 79 }
 	religion = protestant
 	traits = { eclipse_point bloodelf_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ eclipsion_bloodelf = {
 }
 
 firewing_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 241 77 48 }
 	religion = protestant
 	traits = { firewing bloodelf_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ firewing_bloodelf = {
 }
 
 halaa_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 194 52 35 }
 	religion = protestant
 	traits = { halaa broken bloodelf_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ halaa_bloodelf = {
 }
 
 honor_hold_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 203 16 50 }
 	religion = protestant
 	traits = { honorhold bloodelf_heritage }
 	male_common_first_names={
@@ -318,7 +318,7 @@ honor_hold_bloodelf = {
 }
 
 illidary_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 225 44 66 }
 	religion = protestant
 	traits = { illidary bloodelf_heritage }
 	male_common_first_names={
@@ -376,7 +376,7 @@ kirintor_bloodelf = {
 }
 
 lower_city_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 148 12 39 }
 	religion = protestant
 	traits = { lowercity broken bloodelf_heritage }
 	male_common_first_names={
@@ -405,7 +405,7 @@ lower_city_bloodelf = {
 }
 
 orgrimmar_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 202 11 5 }
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
@@ -434,7 +434,7 @@ orgrimmar_bloodelf = {
 }
 
 reliquary_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 164 47 44 }
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
@@ -521,7 +521,7 @@ shatari_skyguard_bloodelf = {
 }
 
 shattered_sun_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 194 29 24 }
 	religion = protestant
 	traits = { shattered_sun bloodelf_heritage }
 	male_common_first_names={
@@ -579,7 +579,7 @@ silvermoon_bloodelf = {
 }
 
 silvermoon_highelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 255 34 27 }
 	religion = protestant
 	traits = { alliance highelf_heritage }
 	male_common_first_names={
@@ -637,7 +637,7 @@ sunseeker_bloodelf = {
 }
 
 sunhawk_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 222 71 66 }
 	religion = protestant
 	traits = { sunhawk bloodelf_heritage }
 	male_common_first_names={
@@ -695,7 +695,7 @@ sunfury_bloodelf = {
 }
 
 thrallmar_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 212 74 44 }
 	religion = protestant
 	traits = { thrallmar horde bloodelf_heritage }
 	male_common_first_names={
@@ -724,7 +724,7 @@ thrallmar_bloodelf = {
 }
 
 wretched_bloodelf = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 194 123 107 }
 	religion = protestant
 	traits = { wretched bloodelf_heritage }
 	male_common_first_names={

@@ -1,5 +1,5 @@
 blackrock_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 104 30 15 }
 	religion = protestant
 	traits = { blackrock orc_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ blackrock_orc = {
 }
 
 bleeding_hollow_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 102 131 17 }
 	religion = protestant
 	traits = { bleeding_hollow felorc_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ bleeding_hollow_felorc = {
 }
 
 bonechewer_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 147 175 95 }
 	religion = protestant
 	traits = { bonechewer felorc_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ bonechewer_felorc = {
 }
 
 laughing_skull_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 178 165 84 }
 	religion = protestant
 	traits = { laughing_skull felorc_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ laughing_skull_felorc = {
 }
 
 boulderfist_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 137 74 28 }
 	religion = protestant
 	traits = { boulderfist orc_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ boulderfist_orc = {
 }
 
 burning_blade_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 140 35 9 }
 	religion = protestant
 	traits = { burning_blade orc_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ burning_legion_orc_cultist = {
 }
 
 cabal_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 130 155 64 }
 	religion = protestant
 	traits = { shadowcouncil orc_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ cabal_orc = {
 }
 
 dark_strand_cultist_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 92 111 29 }
 	religion = protestant
 	traits = { dark_strand cultist orc_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ dark_strand_cultist_orc = {
 }
 
 dragonmaw_clan_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 149 73 32 }
 	religion = protestant
 	traits = { dragonmaw_clan orc_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ dragonmaw_clan_orc = {
 }
 
 dragonmaw_clan_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 119 149 32 }
 	religion = protestant
 	traits = { dragonmaw_clan felorc_heritage }
 	male_common_first_names={
@@ -347,7 +347,7 @@ earthenring_maghar_orc = {
 }
 
 earthen_ring_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 158 96 17 }
 	religion = protestant
 	traits = { earthenring orc_heritage }
 	male_common_first_names={
@@ -376,7 +376,7 @@ earthen_ring_orc = {
 }
 
 frostwolf_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 57 183 168 }
 	religion = protestant
 	traits = { frostwolf orc_heritage }
 	male_common_first_names={
@@ -405,7 +405,7 @@ frostwolf_orc = {
 }
 
 illidary_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 91 205 49 }
 	religion = protestant
 	traits = { illidary felorc_heritage }
 	male_common_first_names={
@@ -434,7 +434,7 @@ illidary_felorc = {
 }
 
 kilsorrow_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 164 158 66 }
 	religion = protestant
 	traits = { kilsorrow orc_heritage }
 	male_common_first_names={
@@ -463,7 +463,7 @@ kilsorrow_orc = {
 }
 
 korkron_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 142 164 66 }
 	religion = protestant
 	traits = { horde orc_heritage }
 	male_common_first_names={
@@ -492,7 +492,7 @@ korkron_orc = {
 }
 
 lower_city_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 115 81 50 }
 	religion = protestant
 	traits = { lowercity orc_heritage }
 	male_common_first_names={
@@ -608,7 +608,7 @@ orgrimmar_orc = {
 }
 
 shadowcouncil_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 89 55 121 }
 	religion = protestant
 	traits = { shadowcouncil orc_heritage }
 	male_common_first_names={
@@ -637,7 +637,7 @@ shadowcouncil_orc = {
 }
 
 shadowmoon_clan_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 42 129 60 }
 	religion = protestant
 	traits = { shadowmoon_clan felorc_heritage }
 	male_common_first_names={
@@ -666,7 +666,7 @@ shadowmoon_clan_felorc = {
 }
 
 shadowmoon_clan_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 28 37 145 }
 	religion = protestant
 	traits = { shadowmoon_clan orc_heritage }
 	male_common_first_names={
@@ -695,7 +695,7 @@ shadowmoon_clan_orc = {
 }
 
 shatari_skyguard_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 185 172 83 }
 	religion = protestant
 	traits = { shatari_skyguard orc_heritage }
 	male_common_first_names={
@@ -724,7 +724,7 @@ shatari_skyguard_orc = {
 }
 
 shattered_hand_felorc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 180 208 143 }
 	religion = protestant
 	traits = { illidary shattered_hand felorc_heritage }
 	male_common_first_names={
@@ -753,7 +753,7 @@ shattered_hand_felorc = {
 }
 
 stonebreaker_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 148 159 54 }
 	religion = protestant
 	traits = { thrallmar orc_heritage }
 	male_common_first_names={
@@ -782,7 +782,7 @@ stonebreaker_orc = {
 }
 
 thrallmar_orc = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 155 83 29 }
 	religion = protestant
 	traits = { thrallmar horde orc_heritage }
 	male_common_first_names={

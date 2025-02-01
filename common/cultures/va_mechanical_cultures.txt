@@ -1,5 +1,5 @@
 mechanical_alert_bot = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 221 228 149 }
 	religion = protestant
 	traits = { alert_bot mechanical_heritage }
 	male_common_first_names={
@@ -28,7 +28,7 @@ mechanical_alert_bot = {
 }
 
 mechanical_alliance_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 128 216 233 }
 	religion = protestant
 	traits = { alliance mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -57,7 +57,7 @@ mechanical_alliance_golem = {
 }
 
 mechanical_area_fiftytwo_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 239 152 123 }
 	religion = protestant
 	traits = { mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -86,7 +86,7 @@ mechanical_area_fiftytwo_golem = {
 }
 
 mechanical_arcane_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 98 216 212 }
 	religion = protestant
 	traits = { arcan_element mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -115,7 +115,7 @@ mechanical_arcane_golem = {
 }
 
 mechanical_scryer_arcane_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 191 109 97 }
 	religion = protestant
 	traits = { scryer arcan_element mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -144,7 +144,7 @@ mechanical_scryer_arcane_golem = {
 }
 
 mechanical_crystalcore_arcane_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 125 221 161 }
 	religion = protestant
 	traits = { crystalcore arcan_element mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -173,7 +173,7 @@ mechanical_crystalcore_arcane_golem = {
 }
 
 mechanical_tempest_forge_arcane_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 141 218 206 }
 	religion = protestant
 	traits = { arcan_element mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -202,7 +202,7 @@ mechanical_tempest_forge_arcane_golem = {
 }
 
 mechanical_burning_legion_fel_reaver = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 101 234 103 }
 	religion = protestant
 	traits = { burning_legion felreaver_heritage mechanical_heritage }
 	male_common_first_names={
@@ -231,7 +231,7 @@ mechanical_burning_legion_fel_reaver = {
 }
 
 mechanical_golem = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 131 231 184 }
 	religion = protestant
 	traits = { mechanical_golem mechanical_heritage }
 	male_common_first_names={
@@ -260,7 +260,7 @@ mechanical_golem = {
 }
 
 mechanical_mechagnome = {
-	color = rgb{ 0 155 255 }
+	color = rgb{ 231 179 220 }
 	religion = protestant
 	traits = { clockwork gnome_heritage mechanical_heritage }
 	male_common_first_names={
@@ -289,7 +289,7 @@ mechanical_mechagnome = {
 }
 
 mechanical_sunfury_fel_reaver = {
-	color = rgb{ 0 0 0 }
+	color = rgb{ 127 217 164 }
 	religion = protestant
 	traits = { sunfury felreaver_heritage mechanical_heritage }
 	male_common_first_names={
