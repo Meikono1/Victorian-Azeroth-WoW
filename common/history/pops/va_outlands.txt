@@ -2227,18 +2227,6 @@
 				culture = undercity_forsaken_undead
 				size = 25600
 			}
-			create_pop = {
-				culture = thrallmar_orc
-				size = 25600
-			}
-			create_pop = {
-				culture = thrallmar_troll
-				size = 12800
-			}
-			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 25600
-			}
 		}
 	}
 	s:STATE_THE_DARK_PORTAL_OUTLANDS = {
