@@ -357,10 +357,11 @@ BUILDINGS = {
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=1
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -373,6 +374,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=1
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -385,6 +387,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=2
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -397,6 +400,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=1
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -409,6 +413,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=2
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -417,10 +422,11 @@ BUILDINGS = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
-					company={
+					building={
 						type="building_rye_farm"
 						country="c:SUNHAWK"
 						levels=3
+						region="STATE_VECTOR_COIL"
 					}
 				}
 				reserves=1
@@ -438,6 +444,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:EXODAR"
 						levels=2
+						region="STATE_BLOOD_WATCH"
 					}
 				}
 				reserves=1
@@ -446,10 +453,11 @@ BUILDINGS = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
-					company={
+					building={
 						type="building_rye_farm"
 						country="c:EXODAR"
 						levels=2
+						region="STATE_BLOOD_WATCH"
 					}
 				}
 				reserves=1
@@ -457,10 +465,11 @@ BUILDINGS = {
 			create_building={
 				building="building_banana_plantation"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:EXODAR"
 						levels=2
+						region="STATE_BLOOD_WATCH"
 					}
 				}
 				reserves=1
@@ -474,6 +483,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SUNHAWK"
 						levels=1
+						region="SUNHAWK"
 					}
 				}
 				reserves=1
@@ -482,10 +492,11 @@ BUILDINGS = {
 			create_building={
 				building="building_cotton_plantation"
 				add_ownership={
-					company={
+					building={
 						type="building_cotton_plantation"
 						country="c:SUNHAWK"
 						levels=1
+						region="SUNHAWK"
 					}
 				}
 				reserves=1
@@ -501,6 +512,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:WRATHSCALE_NAGA"
 						levels=2
+						region="STATE_WRATHSCALE_LAIR"
 					}
 				}
 				reserves=1
@@ -509,10 +521,11 @@ BUILDINGS = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:WRATHSCALE_NAGA"
 						levels=2
+						region="STATE_WRATHSCALE_LAIR"
 					}
 				}
 				reserves=1
@@ -520,10 +533,11 @@ BUILDINGS = {
 			create_building={
 				building="building_cotton_plantation"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:WRATHSCALE_NAGA"
 						levels=1
+						region="STATE_WRATHSCALE_LAIR"
 					}
 				}
 				reserves=1
@@ -541,6 +555,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:NAZZIVUS"
 						levels=2
+						region="STATE_NAZZIVIAN"
 					}
 				}
 				reserves=1
@@ -572,6 +587,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:EXODAR"
 						levels=2
+						region="STATE_KESSELS_CROSSING"
 					}
 				}
 				reserves=1
@@ -580,10 +596,11 @@ BUILDINGS = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:EXODAR"
 						levels=1
+						region="STATE_KESSELS_CROSSING"
 					}
 				}
 				reserves=1
@@ -593,10 +610,11 @@ BUILDINGS = {
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
-					company={
+					building={
 						type="building_manor_house"
 						country="c:BRISTLELIMB_FURBOLG"
 						levels=1
+						region="STATE_KESSELS_CROSSING"
 					}
 				}
 				reserves=1

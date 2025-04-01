@@ -88,7 +88,7 @@ STATE_SOUTH_SEA_LANE_05 = {
     impassable = {}
 }
 
-STATE_NORTH_BLODDMYST_SEA = {
+STATE_NORTH_BLOODMYST_SEA = {
     id = 8020
     provinces = { "x56C8FA" }
 }

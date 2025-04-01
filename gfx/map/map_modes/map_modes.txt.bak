@@ -85,7 +85,7 @@ mm_default = {
 	map_painting_mode = countries
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
-	map_markers = { battle_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker input_goods_shortage_summary_marker state_effect_marker sea_node_marker colony_marker revolutionary_movement_marker diplomatic_play_marker harvest_condition_region_marker }
+	map_markers = { battle_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker input_goods_shortage_summary_marker state_effect_marker sea_node_marker colony_marker revolutionary_movement_marker diplomatic_play_marker }
 	map_tooltip_offset = state
 
 	is_visible = no 					# special behaviour, overriden in code
@@ -99,7 +99,7 @@ mm_ongoing_diplo_play = {
 	map_painting_mode = countries
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
-	map_markers = { colony_marker strategic_objective_marker battle_marker hq_marker diplomatic_play_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker input_shortage_marker input_goods_shortage_summary_marker military_formation_marker state_effect_marker sea_node_marker revolutionary_movement_marker naval_invasion_marker harvest_condition_region_marker }
+	map_markers = { colony_marker strategic_objective_marker battle_marker hq_marker diplomatic_play_marker construction_marker construction_summary_marker construction_queue_marker event_marker front_marker input_shortage_marker input_goods_shortage_summary_marker military_formation_marker state_effect_marker sea_node_marker revolutionary_movement_marker naval_invasion_marker }
 	map_tooltip_offset = state
 
 	is_visible = no 					# special behaviour, overriden in code

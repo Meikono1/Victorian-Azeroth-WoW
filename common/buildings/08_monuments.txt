@@ -3,7 +3,7 @@
 	icon = "gfx/interface/icons/building_icons/dark_portal.dds"
 	expandable = no
 	downsizeable = no
-	unique = no
+	unique = yes
 	locator = "big_ben_locator"
 	
 	entity_not_constructed = { }

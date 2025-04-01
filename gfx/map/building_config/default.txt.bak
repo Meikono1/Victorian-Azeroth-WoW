@@ -1813,13 +1813,3 @@ french_revolutioncamp_placeholder_mesh = {
 	size = 2
 	construction_entity = "building_construction_4x4_entity"
 }
-
-
-####################################################################################
-###GENERIC BUILDINGS####GENERIC BUILDINGS###GENERIC BUILDINGS###GENERIC BUILDINGS###
-####################################################################################
-
-generic_companyhq_01_mesh = {
-	size = 2
-	construction_entity = "building_construction_4x4_entity"
-}

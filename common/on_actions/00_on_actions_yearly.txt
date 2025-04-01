@@ -136,8 +136,6 @@ on_yearly_events = {
 		50 = strike.5
 		50 = strike.6
 		50 = strike.7
-
-		10 = opium_wars.8
 		
 		10 = communism.7
 		10 = communism.9
@@ -213,8 +211,6 @@ on_yearly_events = {
 		
 		# Vampire Panic
 		1 = vampire_panic.1
-
-		20 = algeria_events.2
 
 		50 = acw_events.7
 		50 = acw_events.8
@@ -405,5 +401,19 @@ tunguska_yearly_events = {
 	random_events = {
 		chance_of_no_event = 90
 		1 = tunguska.1
+	}
+}
+
+# Famine Yearly Events 
+famine_yearly_events = {
+	random_events = {
+		chance_of_no_event = 75
+		1 = famine_events.3
+		1 = famine_events.4
+		1 = famine_political.1
+		1 = famine_political.2
+		1 = famine_political.3
+		1 = famine_political.4
+		1 = famine_political.5
 	}
 }

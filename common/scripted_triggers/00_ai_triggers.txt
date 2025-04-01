@@ -303,22 +303,6 @@ has_je_conquest_reason = {
 				}
 			}
 		}
-		
-		AND = {
-			c:GBR ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_RUS
-			}
-		}
-
-		AND = {
-			c:RUS ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_GBR
-			}
-		}	
 
 		AND = {
 			has_variable = sided_with_korean_gov
@@ -336,59 +320,6 @@ has_je_conquest_reason = {
 			}
 		}		
 	}
-}
-
-has_je_subjugation_reason = {
-	can_reach_target_country = yes
-
-	OR = {	
-		AND = {
-			OR = {
-				has_journal_entry = je_sick_man_syria
-				has_journal_entry = je_veiled_protectorate
-			}
-			exists = c:EGY
-			$TARGET$ = c:EGY		
-		}
-		AND = { # Open up Japan	
-			has_strategy = ai_strategy_economic_imperialism
-			has_technology_researched = nationalism # Just to make sure it doesn't happen immediately in 1836
-			country_rank = rank_value:great_power
-			navy_size >= 25
-			scope:target_country = { 
-				exists = c:JAP
-				this = c:JAP		
-				has_law = law_type:law_isolationism
-				gdp >= 5000000
-			} 		
-		}
-		AND = {
-			c:GBR ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_RUS
-			}
-		}
-		AND = {
-			c:RUS ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_GBR
-			}
-		}
-		AND = {
-			has_journal_entry = je_maintain_afghan_protectorate
-			$TARGET$ = {
-				capital = {
-					region = sr:region_persia
-				}
-				OR = {
-					country_has_primary_culture = cu:pashtun
-					country_has_primary_culture = cu:tajik
-				}
-			}
-		}
-	}	
 }
 
 has_je_befriend_reason = {
@@ -420,22 +351,6 @@ has_je_befriend_reason = {
 		AND = {
 			c:GBR ?= this
 			$TARGET$ = { has_journal_entry = je_oregon }			
-		}			
-	
-		AND = {
-			c:GBR ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_GBR
-			}
-		}
-		
-		AND = {
-			c:RUS ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_RUS
-			}
 		}
 		
 		AND = {
@@ -467,22 +382,6 @@ has_je_protect_reason = {
 				has_journal_entry = je_risorgimento
 			}
 			has_variable = rsm_friendship
-		}
-	
-		AND = {
-			c:GBR ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_GBR
-			}
-		}
-		
-		AND = {
-			c:RUS ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_RUS
-			}
 		}
 		
 		AND = {

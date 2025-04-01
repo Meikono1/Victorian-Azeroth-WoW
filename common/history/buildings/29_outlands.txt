@@ -102,7 +102,7 @@
 	s:STATE_LEGION_FRONT = {
 	}
 	s:STATE_THE_DARK_PORTAL_OUTLANDS = {
-		region_state:OUTLANDS={
+		region_state:AZEROTH_DEFENDERS={
 			create_building={
 				building="building_dark_portal"
 				level=1

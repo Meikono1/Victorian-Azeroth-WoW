@@ -42,8 +42,6 @@ on_monthly_pulse_country = {
 	events = {
 		communism.8 # Red Army
 		peoples_springtime.1
-		opium_wars.1
-		native_resettlement.1
 		meiji.13
 		bic_breakup.1
 		dreyfus.1
@@ -52,7 +50,6 @@ on_monthly_pulse_country = {
 		colonial_administration_events.2 # African Colony Radicals
 		caudillo.1
 		sa_migration.5
-		amazonas.1 # Taming Amazonia
 		paraguay.11 # Paraguay War
 		acw_events.9 # CSA victory event
 		persia_events.5 # Persian slave liberation event
@@ -430,81 +427,6 @@ on_monthly_pulse_country = {
 					}
 				}
 			}
-		}
-		
-		# TODO: Move these to tag-specific pulses
-		if = {
-			limit = {
-				this = c:FRA
-				c:FRA ?= {
-					OR = {
-						has_modifier = modifier_haitian_independence_payments_1
-						has_modifier = modifier_haitian_independence_payments_2
-						has_modifier = modifier_haitian_independence_payments_3
-						has_modifier = modifier_haitian_independence_payments_4
-					}
-				}
-				NOT = { exists = c:HAI }
-			}
-			c:FRA = {
-				if = {
-					limit = {
-						has_modifier = modifier_haitian_independence_payments_1
-					}
-					remove_modifier = modifier_haitian_independence_payments_1
-				}
-				if = {
-					limit = {
-						has_modifier = modifier_haitian_independence_payments_2
-					}
-					remove_modifier = modifier_haitian_independence_payments_2 
-				}
-				if = {
-					limit = {
-						has_modifier = modifier_haitian_independence_payments_3
-					}
-					remove_modifier = modifier_haitian_independence_payments_3
-				}
-				if = {
-					limit = {
-						has_modifier = modifier_haitian_independence_payments_4
-					}
-					remove_modifier = modifier_haitian_independence_payments_4
-				}
-			}
-		}
-		if = { #Exists to make sure independent Perus get this ASAP.
-			limit = {
-				OR = {
-					c:NPU ?= this
-					c:SPU ?= this
-				}
-				is_subject = no
-				NOT = {
-					has_variable = peru_has_claims
-				}
-				OR = {
-					AND = { #SPU is either dead or a puppet, will not fire if it is independent.
-						c:NPU ?= this
-						OR = {
-							NOT = {
-								exists = c:SPU
-							}
-							c:SPU ?= { is_subject = yes }
-						}
-					}
-					AND = {
-						c:SPU ?= this
-						OR = {
-							NOT = {
-								exists = c:SPU
-							}
-							c:NPU ?= { is_subject = yes }
-						}
-					}
-				}
-			}
-			trigger_event = { id = peru_bolivia_events.8 days = 0 popup = yes }
 		}
 
 		if = {
@@ -1099,18 +1021,6 @@ on_character_death = {
 			}
 			owner = {
 				trigger_event = hawaii_events.1
-			}
-		}
-		
-		if = {
-			limit = {
-				has_variable = expedition_leader_var
-				owner = {
-					NOT = { has_variable = tibet_expedition_progress_var }
-				}
-			}
-			owner = {
-				trigger_event = expedition_events.110
 			}
 		}
 

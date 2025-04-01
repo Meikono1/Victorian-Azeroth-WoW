@@ -21,3 +21,223 @@ region_pandaria_sea = {
 region_central_sea = {
 	states = { STATE_CENTRAL_SEA }
 }
+
+region_frozen_sea_lane_01 = {
+	states = { STATE_FROZEN_SEA_LANE_01 }
+}
+
+region_frozen_sea_lane_02 = {
+	states = { STATE_FROZEN_SEA_LANE_02 }
+}
+
+region_frozen_sea_lane_03 = {
+	states = { STATE_FROZEN_SEA_LANE_03 }
+}
+
+region_frozen_sea_lane_04 = {
+	states = { STATE_FROZEN_SEA_LANE_04 }
+}
+
+region_south_sea_lane_01 = {
+	states = { STATE_SOUTH_SEA_LANE_01 }
+}
+
+region_south_sea_lane_02 = {
+	states = { STATE_SOUTH_SEA_LANE_02 }
+}
+
+region_south_sea_lane_03 = {
+	states = { STATE_SOUTH_SEA_LANE_03 }
+}
+
+region_south_sea_lane_04 = {
+	states = { STATE_SOUTH_SEA_LANE_04 }
+}
+
+region_south_sea_lane_05 = {
+	states = { STATE_SOUTH_SEA_LANE_05 }
+}
+
+region_north_bloodmyst_sea = {
+	states = { STATE_NORTH_BLOODMYST_SEA }
+}
+
+region_east_bloodmyst_sea = {
+	states = { STATE_EAST_BLODDMYST_SEA }
+}
+
+region_west_bloodmyst_sea = {
+	states = { STATE_WEST_BLODDMYST_SEA }
+}
+
+region_exodar_sea = {
+	states = { STATE_EXODAR_SEA }
+}
+
+region_azuremyst_sea = {
+	states = { STATE_AZUREMYST_SEA }
+}
+
+region_teldrassil_sea = {
+	states = { STATE_TELDRASSIL_SEA }
+}
+
+region_ashenvale_sea = {
+	states = { STATE_ASHENVALE_SEA }
+}
+
+region_stonetalen_sea = {
+	states = { STATE_STONETALEN_SEA }
+}
+
+region_desolace_sea = {
+	states = { STATE_DESOLACE_SEA }
+}
+
+region_feralas_sea = {
+	states = { STATE_FERALAS_SEA }
+}
+
+region_silithus_sea = {
+	states = { STATE_SILITHUS_SEA }
+}
+
+region_vir_naal_sea = {
+	states = { STATE_VIR_NAAL_SEA }
+}
+
+region_uldum_sea = {
+	states = { STATE_ULDUM_SEA }
+}
+
+region_tanaris_sea = {
+	states = { STATE_TANARIS_SEA }
+}
+
+region_thausend_needles_sea = {
+	states = { STATE_THAUSEND_NEEDLES_SEA }
+}
+
+region_fizzle_pozzik_sea = {
+	states = { STATE_FIZZLE_POZZIK_SPEEDBARGE_SEA }
+}
+
+region_dustwallow_sea = {
+	states = { STATE_DUSTWALLOW_SEA }
+}
+
+region_barrens_sea = {
+	states = { STATE_BARRENS_SEA }
+}
+
+region_echo_isles_sea = {
+	states = { STATE_ECHO_ISLES_SEA }
+}
+
+region_durotar_sea = {
+	states = { STATE_DUROTAR_SEA }
+}
+
+region_azshara_sea = {
+	states = { STATE_AZSHARA_SEA }
+}
+
+region_winterspring_sea = {
+	states = { STATE_WINTERSPRING_SEA }
+}
+
+region_moonglade_sea = {
+	states = { STATE_MOONGLADE_SEA }
+}
+
+region_south_uldum_sea = {
+	states = { STATE_SOUTH_ULDUM_SEA }
+}
+
+region_thousand_needles_entrance_sea = {
+	states = { STATE_THOUSAND_NEEDLES_ENTRANCE_SEA }
+}
+
+region_abyssal_breach_sea = {
+	states = { STATE_ABYSSAL_BREACH_SEA }
+}
+
+region_korthuns_sea = {
+	states = { STATE_KORTHUNS_SEA }
+}
+
+region_vashir_sea = {
+	states = { STATE_VASHIR_SEA }
+}
+
+region_dun_morogh_sea = {
+	states = { STATE_DUN_MOROGH_SEA }
+}
+
+region_westfall_sea = {
+	states = { STATE_WESTFALL_SEA }
+}
+
+region_stranglethorn_sea = {
+	states = { STATE_STRANGLETHORN_SEA }
+}
+
+region_cape_sea = {
+	states = { STATE_CAPE_SEA }
+}
+
+region_forbidden_sea = {
+	states = { STATE_FORBIDDEN_SEA }
+}
+
+region_sorrow_sea = {
+	states = { STATE_SORROW_SEA }
+}
+
+region_badlands_sea = {
+	states = { STATE_BADLANDS_SEA }
+}
+
+region_modan_sea = {
+	states = { STATE_MODAN_SEA }
+}
+
+region_twilight_sea = {
+	states = { STATE_TWILIGHT_SEA }
+}
+
+region_highlands_sea = {
+	states = { STATE_HIGHLANDS_SEA }
+}
+
+region_archerus_sea = {
+	states = { STATE_ARCHERUS_SEA }
+}
+
+region_ghostland_sea = {
+	states = { STATE_GHOSTLAND_SEA }
+}
+
+region_quel_danas_sea = {
+	states = { STATE_QUEL_DANAS_SEA }
+}
+
+region_eversong_sea = {
+	states = { STATE_EVERSONG_SEA }
+}
+
+region_tirisfall_sea = {
+	states = { STATE_TIRISFALL_SEA }
+}
+
+region_silverpine_sea = {
+	states = { STATE_SILVERPINE_SEA }
+}
+
+region_gilneas_sea = {
+	states = { STATE_GILNEAS_SEA }
+}
+
+region_wetlands_sea = {
+	states = { STATE_WETLAND_SEA }
+}

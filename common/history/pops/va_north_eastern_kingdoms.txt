@@ -185,13 +185,7 @@ POPS = {
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
 				culture = shadowpine_troll
-				size = 500000
-			}
-		}
-		region_state:SILVERMOON = {
-			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				size = 1000000
 			}
 		}
 	}

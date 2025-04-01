@@ -68,12 +68,6 @@ BUILDINGS = {
 	s:STATE_SHATTERED_LANDING = {
 	}
 	s:STATE_THE_DARK_PORTAL = {
-		region_state:EASTERNKINGDOMS={
-			create_building={
-				building="building_dark_portal"
-				level=1
-			}
-		}
 	}
 	s:STATE_RED_REACHES = {
 	}
