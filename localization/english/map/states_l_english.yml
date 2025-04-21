@@ -991,7 +991,6 @@ STATE_SHRINE_OF_AESSINA:0 "Shrine of Aessina"
 STATE_MAESTRAS_POST:0 "Maestras Post"
 STATE_BLACKFATHOM_DEEPS:0 "Blackfathom Deeps"
 STATE_ZORAMGAR_OUTPOST:0 "Zoramgar Outpost"
-STATE_GM_ISLAND:0 "Gm Island"
 # 24 Center Kalimdor
 STATE_STONETALON_PEAK:0 "Stonetalon Peak"
 STATE_THAL_DARAH_GROVE:0 "Thal Darah Grove"

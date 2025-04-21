@@ -15,6 +15,7 @@
       "common/history/countries",
       "common/history/diplomacy",
       "common/history/pops",
+      "common/history/population",
       "common/journal_entries",
       "common/scripted_buttons",
 	  "events",

@@ -319,14 +319,6 @@
 			}
 		}
 	}
-	s:STATE_GOLDEN_STAIR = {
-		region_state:PANDARIA = {
-			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 10000
-			}
-		}
-	}
 	s:STATE_SHRINE_OF_TWO_MOONS = {
 		region_state:PANDARIA = {
 			create_pop = {
@@ -336,14 +328,6 @@
 		}
 	}
 	s:STATE_MOGUSHAN_PALACE = {
-		region_state:PANDARIA = {
-			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 10000
-			}
-		}
-	}
-	s:STATE_FIVE_SISTERS = {
 		region_state:PANDARIA = {
 			create_pop = {
 				culture = silvermoon_bloodelf

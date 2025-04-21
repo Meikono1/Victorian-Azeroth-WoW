@@ -653,7 +653,7 @@ STATE_TOMB_OF_THE_SUN_KING = {
     traits = {}
     city = "x33F2FF"
     farm = "xDDD3D2"
-    mine = "x47FABC"
+    mine = "x47FADC"
     wood = "xF7B2F5"
     port = "x82ABE7"
     arable_land = 30
@@ -664,6 +664,7 @@ STATE_TOMB_OF_THE_SUN_KING = {
         bg_logging = 23
         bg_fishing = 11
     }
+    naval_exit_id = 8032
 }
 
 STATE_NAHOM = {

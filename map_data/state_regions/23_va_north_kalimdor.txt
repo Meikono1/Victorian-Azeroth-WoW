@@ -15,6 +15,7 @@
         bg_logging = 34
         bg_fishing = 11
     }
+    naval_exit_id = 8025
 }
 
 STATE_DOLANAAR = {
@@ -35,6 +36,7 @@ STATE_DOLANAAR = {
         bg_logging = 32
         bg_fishing = 11
     }
+    naval_exit_id = 8025
 }
 
 STATE_ORACLE_GLADE = {
@@ -53,6 +55,7 @@ STATE_ORACLE_GLADE = {
         bg_logging = 28
         bg_fishing = 11
     }
+    naval_exit_id = 8025
 }
 
 STATE_GNARLPINE_HOLD = {
@@ -72,6 +75,7 @@ STATE_GNARLPINE_HOLD = {
         bg_logging = 34
         bg_fishing = 11
     }
+    naval_exit_id = 8025
 }
 
 STATE_DARNASSUS = {
@@ -154,6 +158,7 @@ STATE_VECTOR_COIL = {
         bg_logging = 12
         bg_fishing = 11
     }
+    naval_exit_id = 8020
 }
 
 STATE_BLOOD_WATCH = {
@@ -175,6 +180,7 @@ STATE_BLOOD_WATCH = {
         bg_logging = 20
         bg_fishing = 11
     }
+    naval_exit_id = 8022
 }
 
 STATE_WRATHSCALE_LAIR = {
@@ -251,7 +257,7 @@ STATE_STILLPINE_HOLD = {
         bg_logging = 23
         bg_fishing = 11
     }
-    naval_exit_id = 8024
+    naval_exit_id = 8021
 }
 
 STATE_WILDWIND_PEAK = {
@@ -293,6 +299,7 @@ STATE_EXODAR = {
         bg_logging = 23
         bg_fishing = 11
     }
+    naval_exit_id = 8022
 }
 
 STATE_AZURE_WATCH = {
@@ -304,12 +311,14 @@ STATE_AZURE_WATCH = {
     farm = "x954256"
     mine = "x1FF6F0"
     wood = "x5C1B94"
+    port = "xB94969"
     arable_land = 42
     arable_resources = { "bg_rye_farms" "bg_rice_farms" "bg_livestock_ranches" "bg_banana_plantations" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 12
         bg_fishing = 11
     }
+    naval_exit_id = 8024
 }
 
 STATE_BRISTLELIMB_VILLAGE = {
@@ -389,6 +398,7 @@ STATE_AMMEN_VALE = {
         bg_logging = 15
         bg_fishing = 11
     }
+    naval_exit_id = 8024
 }
 
 STATE_NESTLEWOOD_HILLS = {
@@ -572,6 +582,7 @@ STATE_MOONGLADE = {
         bg_logging = 42
         bg_fishing = 11
     }
+    naval_exit_id = 8025
 }
 
 STATE_FROSTSABER_ROCK = {
@@ -592,6 +603,7 @@ STATE_FROSTSABER_ROCK = {
         bg_logging = 55
         bg_fishing = 11
     }
+    naval_exit_id = 8042
 }
 
 STATE_EVERLOOK = {
@@ -612,6 +624,7 @@ STATE_EVERLOOK = {
         bg_logging = 45
         bg_fishing = 11
     }
+    naval_exit_id = 8041
 }
 
 STATE_STARFALL_VILLAGE = {
@@ -689,6 +702,7 @@ STATE_FROSTWHISPER_GORGE = {
         bg_logging = 48
         bg_fishing = 11
     }
+    naval_exit_id = 8041
 }
 
 STATE_TALONBRANCH_GLADE = {
@@ -1010,7 +1024,7 @@ STATE_RUINS_OF_NORDESSA = {
         bg_logging = 22
         bg_fishing = 11
     }
-    naval_exit_id = 8040
+    naval_exit_id = 8041
 }
 
 STATE_BLACKMAW_HOLD = {
@@ -1022,7 +1036,7 @@ STATE_BLACKMAW_HOLD = {
     farm = "x0000C0"
     mine = "x0B737C"
     wood = "x43B321"
-    port = "x9050B8"
+    port = "x7f0C4f"
     arable_land = 52
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
@@ -1031,6 +1045,7 @@ STATE_BLACKMAW_HOLD = {
         bg_logging = 25
         bg_fishing = 11
     }
+    naval_exit_id = 8041
 }
 
 STATE_BILGEWATER_HARBOR = {
@@ -1070,7 +1085,7 @@ STATE_RAVENCREST_MONUMENT = {
         bg_logging = 20
         bg_fishing = 11
     }
-    naval_exit_id = 8040
+    naval_exit_id = 8039
 }
 
 STATE_SECRET_LAB = {
@@ -1171,6 +1186,7 @@ STATE_ORGRIMMAR = {
         bg_logging = 20
         bg_fishing = 11
     }
+    naval_exit_id = 8039
 }
 
 STATE_FOREST_SONG = {
@@ -1456,24 +1472,4 @@ STATE_ZORAMGAR_OUTPOST = {
         bg_fishing = 11
     }
     naval_exit_id = 8026
-}
-
-STATE_GM_ISLAND = {
-    id = 2376
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "x385719" "x4D5156" }
-    traits = {}
-    city = "x4D5156"
-    farm = "x4D5156"
-    mine = "x385719"
-    wood = "x385719"
-    port = "x385719"
-    arable_land = 30
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_iron_mining = 36
-        bg_lead_mining = 18
-        bg_logging = 23
-        bg_fishing = 11
-    }
 }

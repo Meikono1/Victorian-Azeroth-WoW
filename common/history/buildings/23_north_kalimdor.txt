@@ -1252,8 +1252,4 @@ BUILDINGS = {
 		region_state:WRATHTAIL_NAGA = {
 		}
 	}
-	s:STATE_GM_ISLAND = {
-		region_state:GM_ISLAND = {
-		}
-	}
 }

@@ -241,3 +241,99 @@ region_gilneas_sea = {
 region_wetlands_sea = {
 	states = { STATE_WETLAND_SEA }
 }
+
+region_kezan_sea = {
+	states = { STATE_KEZAN_SEA }
+}
+
+region_borean_deep_sea = {
+	states = { STATE_BOREAN_DEEP_SEA }
+}
+
+region_southwind_sea = {
+	states = { STATE_SOUTHWIND_SEA }
+}
+
+region_wyrmcrest_sea = {
+	states = { STATE_WYRMCREST_SEA }
+}
+
+region_frozen_sea = {
+	states = { STATE_FROZEN_SEA }
+}
+
+region_frostshore_sea = {
+	states = { STATE_FROSTSHORE_SEA }
+}
+
+region_howling_sea = {
+	states = { STATE_HOWLING_SEA }
+}
+
+region_forgotton_coast_sea = {
+	states = { STATE_FORGOTTON_COAST_SEA }
+}
+
+region_grizzle_sea = {
+	states = { STATE_GRIZZLE_SEA }
+}
+
+region_obsidian_sea = {
+	states = { STATE_OBSIDIAN_SEA }
+}
+
+region_darkwhisper_sea = {
+	states = { STATE_DARKWHISPER_SEA }
+}
+
+region_icecrown_sea = {
+	states = { STATE_ICECROWN_SEA }
+}
+
+region_frostgale_sea = {
+	states = { STATE_FROSTGALE_SEA }
+}
+
+region_coldarra_sea = {
+	states = { STATE_COLDARRA_SEA }
+}
+
+region_thunder_sea = {
+	states = { STATE_THUNDER_SEA }
+}
+
+region_niuzao_sea = {
+	states = { STATE_NIUZAO_SEA }
+}
+
+region_amber_depths_sea = {
+	states = { STATE_AMBER_DEPTHS_SEA }
+}
+
+region_krasarang_sea = {
+	states = { STATE_KRASARANG_SEA }
+}
+
+region_eternal_waters_sea = {
+	states = { STATE_ETERNAL_WATERS_SEA }
+}
+
+region_timeless_sea = {
+	states = { STATE_TIMELESS_SEA }
+}
+
+region_jade_sea = {
+	states = { STATE_JADE_SEA }
+}
+
+region_white_tiger_sea = {
+	states = { STATE_WHITE_TIGER_SEA }
+}
+
+region_kun_lai_sea = {
+	states = { STATE_KUN_LAI_SEA }
+}
+
+region_wandering_sea = {
+	states = { STATE_WANDERING_SEA }
+}

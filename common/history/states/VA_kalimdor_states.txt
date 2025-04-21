@@ -1038,15 +1038,6 @@ STATES = {
 		add_homeland = cu:wrathtail_naga
 	}
 	
-	s:STATE_GM_ISLAND = {
-		create_state = {
-			country = c:GM_ISLAND
-			owned_provinces = { x385719 x4D5156 }
-		}
-
-		add_homeland = cu:kvaldir
-	}
-	
 	#Stonetalon Mountains‎
 	s:STATE_STONETALON_PEAK = {
 		create_state = {

@@ -526,17 +526,6 @@ GRIMMTOTEM = {
 	capital = STATE_DARKCLOUD_PINNACLE
 }
 
-GM_ISLAND = {
-	color = { 163 96 0 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { kvaldir }	
-	capital = STATE_GM_ISLAND
-}
-
 GORISHI_LAIR = {
 	color = { 196 225 37 }
 	

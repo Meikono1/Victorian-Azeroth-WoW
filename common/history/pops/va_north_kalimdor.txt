@@ -965,12 +965,4 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_GM_ISLAND = {
-		region_state:GM_ISLAND = {
-			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 10000
-			}
-		}
-	}
 }

@@ -182,6 +182,7 @@ STATE_TOWER_OF_ILGALAR = {
         bg_logging = 9
         bg_fishing = 11
     }
+    naval_exit_id = 8054
 }
 
 STATE_RENDERS_VALLEY = {
@@ -319,7 +320,7 @@ STATE_DEADMINES = {
         bg_logging = 5
         bg_fishing = 11
     }
-    naval_exit_id = 8050
+    naval_exit_id = 8049
 }
 
 STATE_MORTWAKES_TOWER = {
@@ -515,6 +516,7 @@ STATE_STONARD = {
     farm = "x698910"
     mine = "x96131D"
     wood = "x3D5BE3"
+    port = "x30521C"
     arable_land = 48
     arable_resources = { "bg_rice_farms" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
@@ -522,6 +524,7 @@ STATE_STONARD = {
         bg_logging = 20
         bg_fishing = 11
     }
+    naval_exit_id = 8053
 }
 
 STATE_MARSHTIDE_WATCH = {
@@ -542,26 +545,6 @@ STATE_MARSHTIDE_WATCH = {
         bg_fishing = 11
     }
     naval_exit_id = 8053
-}
-
-STATE_TEMPLE_OF_ATAL_HAKKAR = {
-    id = 2830
-    subsistence_building = "building_subsistence_pastures"
-    provinces = {}
-    traits = {}
-    city = ""
-    port = ""
-    farm = ""
-    mine = ""
-    wood = ""
-    arable_land = 15
-    arable_resources = { "bg_rice_farms" "bg_cotton_plantations" }
-    capped_resources = {
-        bg_lead_mining = 24
-        bg_logging = 23
-        bg_fishing = 11
-    }
-    naval_exit_id = 3073
 }
 
 STATE_STAGELBOG = {
@@ -752,7 +735,7 @@ STATE_RUINS_OF_ZUL_KUNDA = {
     farm = "xB0C0D0"
     mine = "x4CA340"
     wood = "xD65EC0"
-    port = "xBEF6A8"
+    port = "xB81EA9"
     arable_land = 68
     arable_resources = { "bg_rice_farms" "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
@@ -887,7 +870,7 @@ STATE_JAGUERO_ISLAND = {
         bg_logging = 29
         bg_fishing = 11
     }
-    naval_exit_id = 8051
+    naval_exit_id = 8050
 }
 
 STATE_BOOTY_BAY = {
