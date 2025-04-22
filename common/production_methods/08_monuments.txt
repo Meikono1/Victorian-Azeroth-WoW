@@ -19,6 +19,7 @@ pm_default_building_dark_portal = {
 
 pm_default_building_eiffel_tower = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
 	is_hidden_when_unavailable = yes
 
 	country_modifiers = {
@@ -410,7 +411,7 @@ pm_power_bloc_statue_trade_league = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_from_population_mult = 0.1
-			state_loyalists_from_sol_change_mult = 0.1
+			state_loyalists_from_political_movements_mult = 0.1
 		}
 	}
 	

@@ -1,0 +1,590 @@
+POPS = {
+	s:STATE_STORMWIND = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_NORTHSHIRE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:BLACKROCK_NORTHSHIRE = {
+			create_pop = {
+				culture = blackrock_orc
+				size = 500000
+			}
+		}
+	}
+	s:STATE_GOLDSHIRE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WESTBROOK_GARRISON = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:RIVERPAW_PACK = {
+			create_pop = {
+				culture = riverpaw_gnoll
+				size = 500000
+			}
+		}
+	}
+	s:STATE_MACLURE_VINEYARDS = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_HEROES_VIGIL = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TOWER_OF_AZORA = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:DEFIAS_BROTHERHOOD = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+	}
+	s:STATE_REDRIDGE_CANYONS = {
+		region_state:REDGRIDGE_PACK = {
+			create_pop = {
+				culture = redridge_gnoll
+				size = 500000
+			}
+		}
+		
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = blackrock_orc
+				size = 500000
+			}
+		}
+	}
+	s:STATE_STONEWATCH = {
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = blackrock_orc
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_TOWER_OF_ILGALAR = {
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = blackrock_orc
+				size = 500000
+			}
+		}
+		
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+	}
+	s:STATE_RENDERS_VALLEY = {
+		region_state:BLACKROCK_CLAN = {
+			create_pop = {
+				culture = blackrock_orc
+				size = 500000
+			}
+		}
+		
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+	}
+	s:STATE_LAKESHIRE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:REDGRIDGE_PACK = {
+			create_pop = {
+				culture = redridge_gnoll
+				size = 500000
+			}
+		}
+	}
+	s:STATE_JANSEN_STEAD = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SENTINEN_HILL = {
+		region_state:RIVERPAW_PACK = {
+			create_pop = {
+				culture = riverpaw_gnoll
+				size = 500000
+			}
+		}
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+	}
+	s:STATE_RAGING_CHASM = {
+		region_state:DEFIAS_BROTHERHOOD = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:RIVERPAW_PACK = {
+			create_pop = {
+				culture = riverpaw_gnoll
+				size = 500000
+			}
+		}
+	}
+	s:STATE_DAGGER_HILLS = {
+		region_state:DEFIAS_BROTHERHOOD = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DEADMINES = {
+		region_state:DEFIAS_BROTHERHOOD = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_MORTWAKES_TOWER = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		region_state:RIVERPAW_PACK = {
+			create_pop = {
+				culture = riverpaw_gnoll
+				size = 500000
+			}
+		}
+	}
+	s:STATE_RAVEN_HILL = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_VUL_GOL_OGRE_MOUND = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:SPLINTERFIST_CLAN = {
+			create_pop = {
+				culture = stonefist_ogre
+				size = 500000
+			}
+		}
+	}
+	s:STATE_TWILIGHT_GROVE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DARKSHIRE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:NIGHTBANE_WORGEN = {
+			create_pop = {
+				culture = nightbane_worgen
+				size = 500000
+			}
+		}
+	}
+	s:STATE_TRANQUIL_GARDENS_CEMESTERY = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:NIGHTBANE_WORGEN = {
+			create_pop = {
+				culture = nightbane_worgen
+				size = 500000
+			}
+		}
+	}
+	s:STATE_DEADWIND_RAVINE = {
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GROSH_GOK_COMPOUND = {
+		region_state:DEADWIND_OGRE = {
+			create_pop = {
+				culture = deadwind_ogre
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_KARAZHAN = {
+		region_state:KARAZHAN = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SPLINTERSPEAR_JUNCTION = {
+		region_state:MARSHTIDE_WATCH = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:STONARD = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 500000
+			}
+		}
+	}
+	s:STATE_STONARD = {
+		region_state:MARSHTIDE_WATCH = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:STONARD = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 500000
+			}
+		}
+	}
+	s:STATE_MARSHTIDE_WATCH = {
+		region_state:LOST_ONES = {
+			create_pop = {
+				culture = lost_ones_broken
+				size = 330000
+			}
+		}
+		
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 330000
+			}
+		}
+		
+		region_state:MARSHTIDE_WATCH = {
+			create_pop = {
+				culture = stormwind_human
+				size = 330000
+			}
+		}
+	}
+	s:STATE_STAGELBOG = {
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 500000
+			}
+		}
+		
+		region_state:MARSHFIN_MURLOC = {
+			create_pop = {
+				culture = marshfin_murloc
+				size = 500000
+			}
+		}
+	}
+	s:STATE_NETHERGARDE_KEEP = {
+		region_state:NETHERGARDE_KEEP = {
+			create_pop = {
+				culture = stormwind_human
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_DREADMAUL_HOLD = {
+		region_state:DREADMAUL_OGRES = {
+			create_pop = {
+				culture = dreadmaul_ogre
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_SHATTERED_LANDING = {
+		region_state:NETHERGARDE_KEEP = {
+			create_pop = {
+				culture = stormwind_human
+				size = 500000
+			}
+		}
+		
+		region_state:BLOODWASH_NAGA = {
+			create_pop = {
+				culture = bloodwash_naga
+				size = 500000
+			}
+		}
+	}
+	s:STATE_THE_DARK_PORTAL = {
+		region_state:DREADMAUL_OGRES = {
+			create_pop = {
+				culture = dreadmaul_ogre
+				size = 330000
+			}
+		}
+		
+		region_state:AZEROTH_DEFENDERS = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 330000
+			}
+		}
+		
+		region_state:SUNVEIL_EXCURSION = {
+			create_pop = {
+				culture = reliquary_bloodelf
+				size = 330000
+			}
+		}
+	}
+	s:STATE_RED_REACHES = {
+		region_state:BLOODWASH_NAGA = {
+			create_pop = {
+				culture = bloodwash_naga
+				size = 500000
+			}
+		}
+		region_state:SUNVEIL_EXCURSION = {
+			create_pop = {
+				culture = reliquary_bloodelf
+				size = 500000
+			}
+		}
+	}
+	s:STATE_TAINTED_FOREST = {
+		region_state:WORMTHORN_CORRUPTION = {
+			create_pop = {
+				culture = wormthorn_dreadlord
+				size = 500000
+			}
+		}
+		region_state:GILNEAS_EXPEDITION = {
+			create_pop = {
+				culture = gilneas_worgen
+				size = 500000
+			}
+		}
+	}
+	s:STATE_ZUL_GURUB = {
+		region_state:GURUBASHI_TRIBE = {
+			create_pop = {
+				culture = gurubashi_troll
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_KURZENS_COMPOUND = {
+		region_state:KURZEN_COMPOUND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 330000
+			}
+		}
+		
+		region_state:NESINGWARY_EXPEDITION = {
+			create_pop = {
+				culture = ironforge_dwarf
+				size = 330000
+			}
+		}
+		
+		region_state:STORMWIND = {
+			create_pop = {
+				culture = stormwind_human
+				size = 330000
+			}
+		}
+	}
+	s:STATE_RUINS_OF_ZUL_KUNDA = {
+		region_state:BLOODSCALP_TRIBE = {
+			create_pop = {
+				culture = bloodscalp_troll
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_BAMBALA = {
+		region_state:VENTURE_CO = {
+			create_pop = {
+				culture = venture_company_goblin
+				size = 330000
+			}
+		}
+		region_state:BAMBALA = {
+			create_pop = {
+				culture = darkspear_troll
+				size = 330000
+			}
+		}
+		region_state:MOSHOGG_OGRE = {
+			create_pop = {
+				culture = moshogg_ogre
+				size = 330000
+			}
+		}
+	}
+	s:STATE_GROM_GOL_CAMP = {
+		region_state:MOSHOGG_OGRE = {
+			create_pop = {
+				culture = moshogg_ogre
+				size = 250000
+			}
+		}
+		region_state:MURKGILL_TRIBE = {
+			create_pop = {
+				culture = murkgill_murloc
+				size = 250000
+			}
+		}
+		region_state:BLOODSCALP_TRIBE = {
+			create_pop = {
+				culture = bloodscalp_troll
+				size = 250000
+			}
+		}
+		region_state:GROMGOL_BASE = {
+			create_pop = {
+				culture = orgrimmar_orc
+				size = 250000
+			}
+		}
+	}
+	s:STATE_FORT_LIVINGSTON = {
+		region_state:SKULLSPLITTER_TRIBE = {
+			create_pop = {
+				culture = skullsplitter_troll
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_GURUBASHI_ARENA = {
+		region_state:ZANZIL_WITCHDOCTORS = {
+			create_pop = {
+				culture = gurubashi_troll
+				size = 330000
+			}
+		}
+		region_state:STRANGLETHRON_NAGA = {
+			create_pop = {
+				culture = eplorers_naga
+				size = 330000
+			}
+		}
+		region_state:HARDWRENCH_INDUSTRIES = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 330000
+			}
+		}
+	}
+	s:STATE_EXPLORERS_LEAGUE_DIGSITE = {
+		region_state:ZANZIL_WITCHDOCTORS = {
+			create_pop = {
+				culture = gurubashi_troll
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_JAGUERO_ISLAND = {
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 500000
+			}
+		}
+		
+		region_state:BLOODSAIL_PIRATES = {
+			create_pop = {
+				culture = bloodsail_human
+				size = 500000
+			}
+		}
+	}
+	s:STATE_BOOTY_BAY = {
+		region_state:STEAMWHEEDLE_CARTEL = {
+			create_pop = {
+				culture = steamwheedle_goblin
+				size = 1000000
+			}
+		}
+	}
+}

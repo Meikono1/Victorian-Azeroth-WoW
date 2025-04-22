@@ -4,7 +4,7 @@
 	group = je_group_internal_affairs
 
 	complete = {
-		scope:target = {
+		scope:target ?= {
 			ig_clout <= 0.2
 			is_in_government = no
 		}
@@ -22,8 +22,8 @@
 	}
 
 	fail = {
-		scope:target = {
-			is_being_suppressed = no
+		scope:target ?= {
+			is_in_government = yes
 		}
 	}
 

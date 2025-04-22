@@ -1,0 +1,22 @@
+﻿indian_port = {
+	city_type = port
+	center_building_entity = "european_port_02_entity"
+	center_modifiers = {
+		building_shipyards = "s"
+		building_port = "d"
+		building_fishing_wharf = "f"
+	}
+	modifier_key_prefix = "european_port_01"
+	modifier_key_suffix = "entity"
+	center_building_size = { 1 1 }
+
+	trigger = {
+		always = no
+	}
+
+	weight = -1
+
+	min_residential_buildings = 4
+	max_residential_buildings = 50
+	max_residence_points = 100
+}

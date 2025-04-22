@@ -431,84 +431,6 @@ goods_is_industrial = {
 	}
 }
 
-is_afghan_nation = {
-	OR = {
-		c:AFG ?= this
-		c:KAB ?= this
-		c:KAN ?= this
-		c:HER ?= this
-		c:KUN ?= this
-		c:MAI ?= this
-		c:KAF ?= this
-	}
-}
-
-is_african_subject = {
-	OR = {
-		has_variable = senegal_subject_var
-		has_variable = niger_subject_var
-		has_variable = zanj_subject_var
-		has_variable = congo_subject_var
-		has_variable = southern_africa_subject_var
-		has_variable = ethiopia_subject_var
-	}
-}
-
-asian_ally_against_russia_trigger = {
-	scope:target_country = {
-		country_rank >= rank_value:unrecognized_major_power
-		OR = {
-			capital.region = sr:region_japan
-			capital.region = sr:region_manchuria
-			capital.region = sr:region_north_china
-			capital.region = sr:region_south_china
-			capital.region = sr:region_indonesia
-		}
-	}
-	exists = c:RUS
-	c:RUS ?= {
-		any_scope_state = {
-			region = sr:region_manchuria
-			OR = {
-				any_scope_building = {
-					is_building_type = building_port
-					level >= 5
-				}
-				any_scope_building = {
-					is_building_type = building_naval_base
-					level >= 15
-				}
-			}
-		}
-	}
-}
-
-independent_chinese_country_exists_in_region = {
-	any_scope_country = {
-		filter = {
-			OR = {
-				any_primary_culture = {
-					has_discrimination_trait = han_chinese
-				}
-				country_has_primary_culture = cu:yi
-				country_has_primary_culture = cu:manchu
-			}
-		}
-		OR = {
-			is_subject_of = ROOT
-			trigger_if = {
-				limit = {
-					ROOT = {
-						is_power_bloc_leader = yes
-					}
-				}
-				is_in_same_power_bloc = ROOT
-			}
-		}
-		percent = 1
-	}
-}
-
 meiji_completion_trigger = {
 	AND = {
 		ig:ig_landowners = {
@@ -522,65 +444,6 @@ meiji_completion_trigger = {
 		is_at_war = no
 		owns_entire_state_region = STATE_KANTO		
 	}	
-}
-
-country_is_in_india = {
-	OR = {
-		capital.region = sr:region_punjab
-		capital.region = sr:region_central_india
-		capital.region = sr:region_bengal
-		capital.region = sr:region_bombay
-		capital.region = sr:region_madras
-		capital.state_region = s:STATE_QUETTA
-		capital.state_region = s:STATE_PASHTUNISTAN
-		capital.state_region = s:STATE_KASHMIR
-	}
-}
-
-state_is_in_india = {
-	OR = {
-		region = sr:region_punjab
-		region = sr:region_central_india
-		region = sr:region_bengal
-		region = sr:region_bombay
-		region = sr:region_madras
-	}
-}
-
-state_is_homeland_of_indian_cultures = {
-	state_region = {
-		OR = {
-			is_homeland = cu:kho
-			is_homeland = cu:assamese
-			is_homeland = cu:bengali
-			is_homeland = cu:bihari
-			is_homeland = cu:manipuri
-			is_homeland = cu:nepali
-			is_homeland = cu:oriya
-			is_homeland = cu:sinhala
-			is_homeland = cu:avadhi
-			is_homeland = cu:panjabi
-			is_homeland = cu:kashmiri
-			is_homeland = cu:gujarati
-			is_homeland = cu:marathi
-			is_homeland = cu:sindi
-			is_homeland = cu:rajput
-			is_homeland = cu:kannada
-			is_homeland = cu:malayalam
-			is_homeland = cu:tamil
-			is_homeland = cu:telegu
-			is_homeland = cu:hindustani
-			is_homeland = cu:lushai
-			is_homeland = cu:bundeli
-			is_homeland = cu:pahari
-			is_homeland = cu:gondi
-			is_homeland = cu:bageli
-			is_homeland = cu:chhattisgarhi
-			is_homeland = cu:naga
-			is_homeland = cu:deccani
-			is_homeland = cu:pathan
-		}
-	}
 }
 
 ### Ideology Scripted Triggers - all within interest_group scope.
@@ -731,7 +594,7 @@ ideology_communist_valid_trigger = {
 	}
 }
 
-ideology_vanguardist_scripted_trigger = {
+ideology_vanguardist_valid_trigger = {
 	OR = {
 		is_interest_group_type = ig_rural_folk
 		is_interest_group_type = ig_intelligentsia
@@ -944,5 +807,16 @@ movement_is_plausibly_indian_nationalist = {
 		is_political_movement_type = movement_india_pan_national
 		is_political_movement_type = movement_hindu_nationalist
 		is_political_movement_type = movement_muslim_nationalist
+	}
+}
+
+is_indian_interest_group = {
+	OR = {
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_rural_folk
 	}
 }

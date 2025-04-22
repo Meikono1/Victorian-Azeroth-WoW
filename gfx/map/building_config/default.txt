@@ -818,7 +818,7 @@ asian_urban_residential_rich_03_mesh = {
 
 #ASIAN PORT 	ASIAN PORT 	ASIAN PORT 	ASIAN PORT 	ASIAN PORT#
 
-asian_urban_navalbase_01_mesh = {
+asian_port_navalbase_01_mesh = {
 	size = 2
 	construction_entity = "building_construction_4x4_entity"
 }
@@ -1810,6 +1810,16 @@ latin_mining_processing_01_mesh = {
 	construction_entity = "building_construction_2x2_entity"
 }
 french_revolutioncamp_placeholder_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+
+####################################################################################
+###GENERIC BUILDINGS####GENERIC BUILDINGS###GENERIC BUILDINGS###GENERIC BUILDINGS###
+####################################################################################
+
+generic_companyhq_01_mesh = {
 	size = 2
 	construction_entity = "building_construction_4x4_entity"
 }

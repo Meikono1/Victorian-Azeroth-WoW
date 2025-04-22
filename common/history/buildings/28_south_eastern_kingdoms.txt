@@ -57,8 +57,6 @@ BUILDINGS = {
 	}
 	s:STATE_MARSHTIDE_WATCH = {
 	}
-	s:STATE_TEMPLE_OF_ATAL_HAKKAR = {
-	}
 	s:STATE_STAGELBOG = {
 	}
 	s:STATE_NETHERGARDE_KEEP = {
@@ -68,12 +66,6 @@ BUILDINGS = {
 	s:STATE_SHATTERED_LANDING = {
 	}
 	s:STATE_THE_DARK_PORTAL = {
-		region_state:EASTERNKINGDOMS={
-			create_building={
-				building="building_dark_portal"
-				level=1
-			}
-		}
 	}
 	s:STATE_RED_REACHES = {
 	}

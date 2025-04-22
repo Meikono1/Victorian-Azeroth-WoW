@@ -1,4 +1,7 @@
-﻿air_element = {
+﻿ahn_qiraj = {
+}
+
+air_element = {
 }
 
 alert_bot = {
@@ -8,6 +11,12 @@ aldor = {
 }
 
 alliance = {
+}
+
+amani = {
+}
+
+andorhal = {
 }
 
 angorosh = {
@@ -28,13 +37,31 @@ arcangolem = {
 areafiftytwo = {
 }
 
+argent_dawn = {
+}
+
 ashtoungue = {
 }
 
 auchenai = {
 }
 
+azshir = {
+}
+
 bashir = {
+}
+
+blacksilt = {
+}
+
+blackrock = {
+}
+
+blackmaw = {
+}
+
+blackwood = {
 }
 
 black_dragon = {
@@ -43,16 +70,28 @@ black_dragon = {
 bladespire = {
 }
 
+bloodscalp = {
+}
+
 bloodmaul = {
 }
 
+bloodwood = {
+}
+
 bleeding_hollow = {
+}
+
+bloodfeather = {
 }
 
 bloodscale = {
 }
 
 blue_dragon = {
+}
+
+bluegill = {
 }
 
 bogstrok = {
@@ -67,10 +106,22 @@ boom = {
 boulderfist = {
 }
 
+boulderslide = {
+}
+
+bristleback = {
+}
+
+bristlelimb = {
+}
+
 broken = {
 }
 
 bronze_dragon = {
+}
+
+burning_blade = {
 }
 
 burning_legion = {
@@ -80,6 +131,9 @@ cenarian_circle = {
 }
 
 centaur = {
+}
+
+centipaar = {
 }
 
 clockwork = {
@@ -97,6 +151,9 @@ coilscar = {
 crown_chemical = {
 }
 
+crushridge = {
+}
+
 crystal = {
 }
 
@@ -112,7 +169,19 @@ daggerfen = {
 darkcrest = {
 }
 
+darkiron = {
+}
+
+darkscale = {
+}
+
 dark_conclave = {
+}
+
+dark_strand = {
+}
+
+deadwood = {
 }
 
 dragonmaw_clan = {
@@ -124,6 +193,9 @@ dragonspawn = {
 drakonid = {
 }
 
+dreadmaul = {
+}
+
 dreghood = {
 }
 
@@ -131,6 +203,15 @@ druid = {
 }
 
 dryad = {
+}
+
+dunemaul = {
+}
+
+dustbelcher = {
+}
+
+dustwind = {
 }
 
 earth_element = {
@@ -166,7 +247,13 @@ ethereum = {
 explorers_league = {
 }
 
+fangdruid = {
+}
+
 farahlon = {
+}
+
+feral = {
 }
 
 feralfen = {
@@ -181,10 +268,28 @@ fire_element = {
 firewing = {
 }
 
+foulweald = {
+}
+
+frostmane = {
+}
+
 frostwolf = {
 }
 
+galak = {
+}
+
 gammoth_herd = {
+}
+
+gelkis = {
+}
+
+glopgut = {
+}
+
+gnarlpine = {
 }
 
 gordunni = {
@@ -199,13 +304,31 @@ green_dragon = {
 greyheart = {
 }
 
+greymist = {
+}
+
+grimscale = {
+}
+
 grishnath = {
+}
+
+grimmtotem = {
+}
+
+gurubashi = {
 }
 
 haaleshi = {
 }
 
 halaa = {
+}
+
+hatecrest = {
+}
+
+hatefury = {
 }
 
 honorhold = {
@@ -215,6 +338,15 @@ horde = {
 }
 
 illidary = {
+}
+
+ironhill = {
+}
+
+jaedenar = {
+}
+
+jadefire = {
 }
 
 kaluak = {
@@ -229,6 +361,9 @@ kirintor = {
 kurenai = {
 }
 
+kul_tiran = {
+}
+
 kvaldir = {
 }
 
@@ -236,6 +371,9 @@ lashhan = {
 }
 
 laughing_skull = {
+}
+
+legashi = {
 }
 
 lepergnome = {
@@ -253,13 +391,28 @@ mag_har = {
 magmoth_herd = {
 }
 
+magram = {
+}
+
+makrinni = {
+}
+
 makrura = {
+}
+
+mannoroth = {
 }
 
 mana_element = {
 }
 
-marshlight_murloc = {
+maroudin = {
+}
+
+marshfin = {
+}
+
+marshlight = {
 }
 
 mechanar = {
@@ -268,13 +421,37 @@ mechanar = {
 mechanical_golem = {
 }
 
+mirefin = {
+}
+
+mojache = {
+}
+
 moknathal = {
+}
+
+moshogg = {
+}
+
+mossflayer = {
+}
+
+mudsnout = {
 }
 
 murkblood = {
 }
 
+murkgill = {
+}
+
 myrmidon = {
+}
+
+naga_explorers = {
+}
+
+nazzivus = {
 }
 
 nesingway = {
@@ -295,13 +472,25 @@ nethervine = {
 nerubian = {
 }
 
+northspring = {
+}
+
 ogrila = {
 }
 
 old_god_forces = {
 }
 
+ooze = {
+}
+
+palemane = {
+}
+
 phoenix = {
+}
+
+pirate = {
 }
 
 protectorate = {
@@ -313,10 +502,22 @@ quagmirran = {
 ravenous = {
 }
 
+raventusk = {
+}
+
 razaani = {
 }
 
+razorfen = {
+}
+
+razormane = {
+}
+
 razorthorn = {
+}
+
+redridge = {
 }
 
 red_dragon = {
@@ -328,13 +529,31 @@ reskk = {
 riplash = {
 }
 
+riverpaw = {
+}
+
+rockjaw = {
+}
+
 rocknail = {
 }
 
 ruuanok = {
 }
 
+sandfury = {
+}
+
 sarthis = {
+}
+
+scarlet_crusade = {
+}
+
+scourge = {
+}
+
+scryer = {
 }
 
 sethekk = {
@@ -355,25 +574,10 @@ shalassi = {
 shaleskin = {
 }
 
-shatari_skyguard = {
-}
-
-shaffar = {
-}
-
-skettis = {
-}
-
-skithian = {
-}
-
-scourge = {
-}
-
-scryer = {
-}
-
 shatar = {
+}
+
+shatari_skyguard = {
 }
 
 shattered_hand = {
@@ -382,10 +586,25 @@ shattered_hand = {
 shattered_sun = {
 }
 
+shatterspear = {
+}
+
 shade = {
 }
 
+shaffar = {
+}
+
+shen_dralar = {
+}
+
 shienor = {
+}
+
+skettis = {
+}
+
+siltfin = {
 }
 
 silverhand = {
@@ -394,10 +613,43 @@ silverhand = {
 siren = {
 }
 
+skithian = {
+}
+
+skullsplitter = {
+}
+
+slitherblade = {
+}
+
+spitelash = {
+}
+
 sporeggar = {
 }
 
+steamwheedle = {
+}
+
+stillpine = {
+}
+
+stonefist = {
+}
+
+stonemaul = {
+}
+
 stonescythe = {
+}
+
+stonesplinter = {
+}
+
+stormspike = {
+}
+
+strashaz = {
 }
 
 sunfury = {
@@ -406,10 +658,31 @@ sunfury = {
 sungill = {
 }
 
+sunhawk = {
+}
+
+syndicate = {
+}
+
+talonbranch = {
+}
+
+talondruid = {
+}
+
+thistlefur = {
+}
+
 thrallmar = {
 }
 
 tidewalker = {
+}
+
+timbermaw = {
+}
+
+tornfin = {
 }
 
 tuurem = {
@@ -422,6 +695,18 @@ umbrafen = {
 }
 
 vakhnir = {
+}
+
+vashir = {
+}
+
+venture_company = {
+}
+
+vilebranch = {
+}
+
+vilefin = {
 }
 
 violeteye = {
@@ -445,19 +730,49 @@ wastewalker = {
 watchers = {
 }
 
+whiterbark = {
+}
+
 wildhammer = {
+}
+
+windfury = {
 }
 
 windyreed = {
 }
 
+winterfall = {
+}
+
+witchwing = {
+}
+
+woodpaw = {
+}
+
+wormwing = {
+}
+
 wrathfin = {
+}
+
+wrathtail = {
+}
+
+wrathscale = {
 }
 
 wrekt = {
 }
 
+wretched = {
+}
+
 wyrmcultist = {
+}
+
+xavian = {
 }
 
 zaxxis = {

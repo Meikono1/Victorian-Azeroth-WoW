@@ -3,7 +3,7 @@
 	icon = "gfx/interface/icons/building_icons/dark_portal.dds"
 	expandable = no
 	downsizeable = no
-	unique = no
+	unique = yes
 	locator = "big_ben_locator"
 	
 	entity_not_constructed = { }
@@ -826,7 +826,7 @@ building_power_bloc_statue = {
 			
 			add = {
 				value = state_population
-				divide = 1000
+				divide = 2500
 				max = 5000
 			}
 		}
@@ -918,7 +918,7 @@ building_victoria_terminus = {
 	required_construction = construction_cost_monument
 	
 	potential = {
-		state_region = s:STATE_BOMBAY
+		state_region = s:STATE_DALARAN_CRATER
 	}
 
 	possible = {

@@ -1,0 +1,530 @@
+﻿POPS = {
+	s:STATE_THRONE_OF_THUNDER = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_THUNDER_FORGES = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ZEB_TULA = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_COURT_OF_BONES = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ZA_TUAL = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_IHGELUK_CRAG = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_DIREMOOR = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHAUL_MARA = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_STORMSEA_LANDING = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHANZE_DAO = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SRAVESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_NIUZAO_TEMPLE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_HOLLOWED_OUT_TREE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SIK_VESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHADO_PAN_GARRISON = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KRI_VESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_FIRE_CAMP_OSUL = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_LONGYING_OUTPOST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_RENSAI_WATCHPOST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_DUSKLIGHT_HOLLOW = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GAO_RAN_BATTLEFRONT = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_HATRED_VICE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHADO_PAN_MONASTERY = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_WINTERS_BLOSSOM = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KOTA_BASECAMP = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_FIREBOUGH_NOCK = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_WESTWIND_REST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_EASTWIND_REST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_BURLAP_WAYSTATION = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ONE_KEG = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_EMPEROR_RIKKITIKS_REST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_PEAK_OF_SERENITY = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ZOUCHIN_VILLAGE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ISLE_OF_RECKONING = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_TEMPLE_OF_THE_WHITE_TIGER = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_MOGU_SHAN_TERRACE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GRUMMLE_BAZAAR = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_LAO_SON_YAKWASH = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_BINAN_VILLAGE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GUO_LAI_HALLS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHRINE_OF_TWO_MOONS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_MOGUSHAN_PALACE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GATE_SETTING_SUN = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SETTING_SUN_GARRISON = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_RUINS_GUO_LAI = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_MISTFALL_VILLAGE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GOLDEN_PAGODA = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SHRINE_OF_SEVEN_STARS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ISLE_OF_GIANTS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_THE_ANCIENT_PASSAGE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_TERRACE_ENDLESS_SPRING = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_GATE_ENDLESS_SPRING = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_TAVERN_IN_THE_MIST = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KYPARI_VOR = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KOR_VESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_TERRACE_OF_GURTHAN = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KLAXXI_VESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KYPARI_IK = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_RIKKITUN_VILLAGE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_HEART_OF_FEAR = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_AMBER_WOMB = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_BRINY_MUCK = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_ZAN_VESS = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_KYPARI_ZAR = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_SOGGY_GAMBLE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+	s:STATE_FORGOTTEN_MIRE = {
+		region_state:PANDARIA = {
+			create_pop = {
+				culture = silvermoon_bloodelf
+				size = 10000
+			}
+		}
+	}
+}

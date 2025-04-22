@@ -14,6 +14,10 @@ bloodelf_heritage = {
 	heritage = yes
 }
 
+centaur_heritage = {
+	heritage = yes
+}
+
 deathknight_heritage = {
 	heritage = yes
 }
@@ -58,10 +62,6 @@ elemental_heritage = {
 	heritage = yes
 }
 
-felelf_heritage = {
-	heritage = yes
-}
-
 felorc_heritage = {
 	heritage = yes
 }
@@ -82,7 +82,15 @@ fungul_heritage = {
 	heritage = yes
 }
 
+furbolg_heritage = {
+	heritage = yes
+}
+
 giant_heritage = {
+	heritage = yes
+}
+
+gnoll_heritage = {
 	heritage = yes
 }
 
@@ -91,6 +99,14 @@ gnome_heritage = {
 }
 
 goblin_heritage = {
+	heritage = yes
+}
+
+harpy_heritage = {
+	heritage = yes
+}
+
+highborn_heritage = {
 	heritage = yes
 }
 
@@ -158,6 +174,10 @@ qiraji_heritage = {
 	heritage = yes
 }
 
+quilboar_heritage = {
+	heritage = yes
+}
+
 rock_flayer_heritage = {
 	heritage = yes
 }
@@ -167,6 +187,10 @@ satyr_heritage = {
 }
 
 shivan_heritage = {
+	heritage = yes
+}
+
+silithid_heritage = {
 	heritage = yes
 }
 
@@ -182,6 +206,10 @@ tauren_heritage = {
 	heritage = yes
 }
 
+trogg_heritage = {
+	heritage = yes
+}
+
 troll_heritage = {
 	heritage = yes
 }
@@ -191,5 +219,13 @@ tuskarr_heritage = {
 }
 
 undead_heritage = {
+	heritage = yes
+}
+
+wildkin_heritage = {
+	heritage = yes
+}
+
+worgen_heritage = {
 	heritage = yes
 }

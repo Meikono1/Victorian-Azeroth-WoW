@@ -5,6 +5,8 @@
 		building_shipyards = "s"
 		building_port = "d"
 		building_fishing_wharf = "f"
+		building_military_shipyards = "s"
+		building_whaling_station = "f"
 	}
 	modifier_key_prefix = "european_port_01"
 	modifier_key_suffix = "entity"

@@ -1,0 +1,15 @@
+﻿indian_farm = {
+	city_type = farm
+	center_building_mesh = "european_rural_center_piece_01_mesh"
+	center_building_size = { 2 2 }
+
+	trigger = {
+		always = no
+	}
+
+	weight = -1
+
+	min_residential_buildings = 4
+	max_residential_buildings = 150
+	max_residence_points = 200
+}

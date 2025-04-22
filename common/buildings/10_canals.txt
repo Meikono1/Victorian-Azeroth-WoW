@@ -14,17 +14,7 @@
 	}
 
 	potential = {
-		state_region = s:STATE_SINAI
-	}
-
-	possible = {
-		owner = {
-			owns_treaty_port_in = STATE_SINAI
-			custom_tooltip = {
-				text = suez_survey_complete_tooltip
-				has_variable = suez_survey_complete
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 
 	entity_not_constructed = { }
@@ -60,17 +50,7 @@ building_panama_canal = {
 	}
 
 	potential = {
-		state_region = s:STATE_PANAMA
-	}
-
-	possible = {
-		owner = {
-			owns_treaty_port_in = STATE_PANAMA
-			custom_tooltip = {
-				text = panama_survey_complete_tooltip
-				has_variable = panama_survey_complete
-			}
-		}
+		state_region = s:STATE_DALARAN_CRATER
 	}
 	
 	entity_not_constructed = { }
