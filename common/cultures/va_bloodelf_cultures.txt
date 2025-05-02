@@ -3,23 +3,126 @@ aether_tech_bloodelf = {
 	religion = protestant
 	traits = { shatari_skyguard bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -32,23 +135,126 @@ bloodknight_bloodelf = {
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -61,23 +267,126 @@ bloodwarder_bloodelf = {
 	religion = protestant
 	traits = { sunfury bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -90,23 +399,126 @@ blue_dragonkin_bloodelf_cultist = {
 	religion = protestant
 	traits = { cultist bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -119,23 +531,126 @@ burning_legion_felelf = {
 	religion = protestant
 	traits = { cultist bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -148,23 +663,126 @@ crimson_hand_bloodelf = {
 	religion = protestant
 	traits = { sunfury bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -177,23 +795,126 @@ crimson_sigil_bloodelf = {
 	religion = protestant
 	traits = { illidary bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -206,23 +927,126 @@ eclipsion_bloodelf = {
 	religion = protestant
 	traits = { eclipse_point bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -235,23 +1059,126 @@ firewing_bloodelf = {
 	religion = protestant
 	traits = { firewing bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -264,23 +1191,126 @@ halaa_bloodelf = {
 	religion = protestant
 	traits = { halaa broken bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -293,23 +1323,126 @@ honor_hold_bloodelf = {
 	religion = protestant
 	traits = { honorhold bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -322,23 +1455,126 @@ illidary_bloodelf = {
 	religion = protestant
 	traits = { illidary bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -351,23 +1587,126 @@ kirintor_bloodelf = {
 	religion = protestant
 	traits = { kirintor bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -380,23 +1719,126 @@ lower_city_bloodelf = {
 	religion = protestant
 	traits = { lowercity broken bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -409,23 +1851,126 @@ orgrimmar_bloodelf = {
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -438,23 +1983,126 @@ reliquary_bloodelf = {
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -467,23 +2115,126 @@ scryer_bloodelf = {
 	religion = protestant
 	traits = { scryer bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -496,23 +2247,126 @@ shatari_skyguard_bloodelf = {
 	religion = protestant
 	traits = { shatari_skyguard bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -525,23 +2379,126 @@ shattered_sun_bloodelf = {
 	religion = protestant
 	traits = { shattered_sun bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -554,23 +2511,126 @@ silvermoon_bloodelf = {
 	religion = protestant
 	traits = { horde bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -583,23 +2643,126 @@ silvermoon_highelf = {
 	religion = protestant
 	traits = { alliance highelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -612,23 +2775,126 @@ sunseeker_bloodelf = {
 	religion = protestant
 	traits = { sunfury bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -641,23 +2907,126 @@ sunhawk_bloodelf = {
 	religion = protestant
 	traits = { sunhawk bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -670,23 +3039,126 @@ sunfury_bloodelf = {
 	religion = protestant
 	traits = { sunfury bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -699,23 +3171,126 @@ thrallmar_bloodelf = {
 	religion = protestant
 	traits = { thrallmar horde bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {
@@ -728,23 +3303,126 @@ wretched_bloodelf = {
 	religion = protestant
 	traits = { wretched bloodelf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}
 	male_regal_first_names = {
-		regaltest
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
 	}
 	female_regal_first_names = {
-		regaltest
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {

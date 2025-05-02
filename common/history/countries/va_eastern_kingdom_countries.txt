@@ -1,2301 +1,408 @@
 COUNTRIES = {
 	c:NRTHRND ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 	
 	c:KALIMDOR ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 	
 	c:EASTERNKINGDOMS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 	
 	c:OUTLANDS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 	
 	c:PANDARIA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}	
 	
 	c:AMANI_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_theocracy
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_land_based_taxation	
 		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:ANDORHAL ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:ARGENT_CRUSADERS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:AXEBITE_EXPEDITION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BAMBALA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKROCK_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKROCK_NORTHSHIRE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKSCALE_NAGA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKWING_DRAGONFLIGHT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKWING_OUTPOST ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODEYE_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODFANG_PACK ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODSAIL_PIRATES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODSCALP_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODWASH_NAGA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLUEGILL_MORLOCS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BOULDERFIST_CLAN_AZ ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:CRUCIBLE_OF_CARNAGE_GLADIATOR ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:CRUSHRIDGE_OGRE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:CULT_OF_DAMNED ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DABYRIES_HUMANS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DARK_IRON_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DARNASSUS_OUTPOST_EK ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
+		activate_law = law_oligarchy
+		activate_law = law_national_supremacy
+		activate_law = law_freedom_of_conscience
+		activate_law = law_appointed_bureaucrats
+		activate_law = law_national_militia
+		activate_law = law_interventionism
+		activate_law = law_isolationism
+		activate_law = law_per_capita_based_taxation
+		activate_law = law_homesteading
+		activate_law = law_right_of_assembly
 	}
 
 	c:DEADWIND_OGRE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DEATHHOLME ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_6_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_mass_conscription
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DEFIAS_BROTHERHOOD ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DRAGONMAW_CLAN_AZ ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DREADMAUL_OGRES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DRYWHISPER_KOBOLDS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DUN_GAROK ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DUSTBELCHER_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:EMERALD_ENTRANCE_SERADANE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:EXPLORERS_LEAGUE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:FLAMECREST_OUTPOST ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:FROSTMANES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GILNEAS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GILNEAS_EXPEDITION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GLOPGUT_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GNOMEREGAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GREENWARDENS_GROVE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GRIKNIR_FROSTMANE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GRIMSCALE_MURLOCS ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_5_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:GROMGOL_BASE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:GURUBASHI_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HAMMERFALL ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HARDWRENCH_INDUSTRIES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HIGHBANK_EXPEDITION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HIGHLAND_FROSTWOLFES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HIGHLAND_YETI ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HIGHVALE_HIGHELFES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:IRONFORGE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:IRON_SUMMIT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KARAZHAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KNIGHTS_EBON_BLADE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KIRINTOR_EXPEDITION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KURZEN_COMPOUND ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:LOST_ONES ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MARSHFIN_MURLOC ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MARSHTIDE_WATCH ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MENETHIL ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MORGANS_VIGIL ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MOSHOGG_OGRE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MOSSFLAYER_TROLLS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MUDSNOUT_GNOLLS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:MURKGILL_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:NESINGWARY_EXPEDITION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:NETHERGARDE_KEEP ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:NEW_KARGATH ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:NIGHTBANE_WORGEN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:OBSIDIAN_DRAGONFLIGHT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:PLAGUELAND_UNDEAD ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:RAVENTUSK_TROLLS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:REDGRIDGE_PACK ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:REFUGE_POINT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:RIVERPAW_PACK ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:ROCKJAW_TROGGS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SCARLET_CRUSADERS_WHITEMANE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SCARLET_CRUSADERS_ONSLAUGHT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SHADOWFANG_KEEP ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SHADOWFORGE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SHADOWPINE_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SI7_HIGHLANDS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SILVERMOON ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:STRANGLETHRON_NAGA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:STORMSPIKE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:STONARD ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:STONESPLINTER_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SKULLSPLITTER_TRIBE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SPLINTERFIST_CLAN ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SUNVEIL_EXCURSION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:STEAMWHEEDLE_CARTEL ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:STORMWIND ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:SYNDICATE ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:THE_EARTHEN_RING_AZ ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:THE_RELIQUARY ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:THORIUM_BROTHERHOOD ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:TORNFIN_MURLOCS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:TWILIGHT_CONVERT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:TWILIGHTS_HAMMER ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:UNDERCITY ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:VASHJ_IR ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:VENTURE_CO ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:VERMILLON_DRAGONFLIGHT ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:VILEBRANCH_TROLLS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:VILEFIN_MURLOCS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:WILDHAMMER_CLAN_AZ ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:WHITERBARK_TROLLS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:WRETCHED_BLOODELFES ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
 		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:WORMTHORN_CORRUPTION ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:ZANZIL_WITCHDOCTORS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		add_technology_researched = currency_standards
-		
-		set_tariffs_import_priority = g:manowars
-		add_taxed_goods = g:liquor
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation	
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_right_of_assembly
 	}
 }

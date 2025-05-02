@@ -1,4 +1,11 @@
 ﻿DIPLOMACY = {
+	#Eastern Kingdom
+	c:AMANI_TRIBE ?= {
+		create_diplomatic_pact = {
+			country = c:SHADOWPINE_TRIBE
+			type = puppet
+		}
+	}
 	c:BURNING_LEGION_KILJADEN ?= {
 		create_diplomatic_pact = {
 			country = c:BURNING_LEGION_INVASION_NETHERSTORM

@@ -6,14 +6,146 @@ BUILDINGS = {
 	s:STATE_SUNWELL_PLATEAU = { 
 	}
 	s:STATE_SUNSTRIDER_ISLE = {
+		region_state:SILVERMOON={
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:SILVERMOON"
+						levels=1
+						region="STATE_SUNSTRIDER_ISLE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:SILVERMOON"
+						levels=2
+						region="STATE_SUNSTRIDER_ISLE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SILVERMOON"
+						levels=2
+						region="STATE_SILVERMOON_CITY"
+					}
+				}
+				reserves=2
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_whaling_station"
+				add_ownership={
+					building={
+						type="building_whaling_station"
+						country="c:SILVERMOON"
+						levels=1
+						region="STATE_SUNSTRIDER_ISLE"
+					}
+				}
+				reserves=1
+				activate_production_methods={  "pm_unrefrigerated" "pm_wooden_whaling_ships" }
+			}
+		}
+		region_state:WRETCHED_BLOODELFES={
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:WRETCHED_BLOODELFES"
+						levels=3
+						region="STATE_SUNSTRIDER_ISLE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:WRETCHED_BLOODELFES"
+						levels=2
+						region="STATE_SUNSTRIDER_ISLE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WRETCHED_BLOODELFES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_RUINS_OF_SILVERMOON = {
+		region_state:WRETCHED_BLOODELFES={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WRETCHED_BLOODELFES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_SILVERMOON_CITY = {
 	}
 	s:STATE_WEST_SANCTUM = {
 	}
 	s:STATE_SUNSAIL_ANCHORAGE = {
+		region_state:WRETCHED_BLOODELFES={
+			create_building={
+				building="building_shipyards"
+				add_ownership={
+					building={
+						type="building_shipyards"
+						country="c:WRETCHED_BLOODELFES"
+						levels=1
+						region="STATE_SUNSAIL_ANCHORAGE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WRETCHED_BLOODELFES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_EAST_SANCTUM = {
 	}
