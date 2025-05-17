@@ -263,7 +263,12 @@ POPS = {
 		region_state:KNIGHTS_EBON_BLADE = {
 			create_pop = {
 				culture = ebonblade_deathknight
-				size = 1000000
+				size = 1700000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = argent_human
+				size = 850000
 			}
 		}
 	}
@@ -271,13 +276,13 @@ POPS = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 500000
+				size = 750000
 			}
 		}
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 500000
+				size = 470000
 			}
 		}
 	}
@@ -285,7 +290,7 @@ POPS = {
 		region_state:MOSSFLAYER_TROLLS = {
 			create_pop = {
 				culture = mossflayer_troll
-				size = 500000
+				size = 850000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
@@ -299,13 +304,13 @@ POPS = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 500000
+				size = 730000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 500000
+				size = 350000
 			}
 		}
 	}
@@ -313,7 +318,7 @@ POPS = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 1000000
+				size = 1580000
 			}
 		}
 	}
@@ -321,13 +326,13 @@ POPS = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 500000
+				size = 560000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 500000
+				size = 420000
 			}
 		}
 	}
@@ -335,19 +340,19 @@ POPS = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 330000
+				size = 370000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 330000
+				size = 290000
 			}
 		}
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 330000
+				size = 660000
 			}
 		}
 	}
@@ -355,13 +360,13 @@ POPS = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 500000
+				size = 440000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 500000
+				size = 570000
 			}
 		}
 	}
@@ -369,7 +374,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 1500000
 			}
 		}
 	}
@@ -377,7 +382,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 1340000
 			}
 		}
 	}
@@ -385,7 +390,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 2340000
 			}
 		}
 	}
@@ -393,7 +398,7 @@ POPS = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 1000000
+				size = 860000
 			}
 		}
 	}
@@ -401,7 +406,7 @@ POPS = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 1000000
+				size = 560000
 			}
 		}
 	}
@@ -409,19 +414,19 @@ POPS = {
 		region_state:ANDORHAL = {
 			create_pop = {
 				culture = andorhal_human
-				size = 330000
+				size = 325000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 330000
+				size = 289000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 330000
+				size = 270000
 			}
 		}
 	}
@@ -429,7 +434,7 @@ POPS = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
 				culture = scourge_human_cultist
-				size = 1000000
+				size = 1580000
 			}
 		}
 	}
@@ -437,7 +442,7 @@ POPS = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
 				culture = argent_human
-				size = 1000000
+				size = 780000
 			}
 		}
 	}
@@ -445,7 +450,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 1900000
 			}
 		}
 	}
@@ -453,7 +458,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 1340000
 			}
 		}
 	}
@@ -461,13 +466,13 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 500000
+				size = 890000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 660000
 			}
 		}
 	}
@@ -475,13 +480,13 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 780000
 			}
 		}
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 500000
+				size = 220000
 			}
 		}
 	}
@@ -489,7 +494,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 670000
 			}
 		}
 	}
@@ -497,7 +502,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 3500000
 			}
 		}
 	}
@@ -505,13 +510,13 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 500000
+				size = 460000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 790000
 			}
 		}
 	}
@@ -519,7 +524,7 @@ POPS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
 				culture = scarlet_crusade_human
-				size = 1000000
+				size = 600000
 			}
 		}
 	}
@@ -527,7 +532,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 1700000
 			}
 		}
 	}
@@ -535,7 +540,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 680000
 			}
 		}
 	}
@@ -543,13 +548,13 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 460000
 			}
 		}
 		region_state:BLOODFANG_PACK = {
 			create_pop = {
 				culture = bloodfang_worgen
-				size = 500000
+				size = 370000
 			}
 		}
 	}
@@ -557,7 +562,7 @@ POPS = {
 		region_state:VILEFIN_MURLOCS = {
 			create_pop = {
 				culture = vilefin_tribe_murloc
-				size = 1000000
+				size = 280000
 			}
 		}
 	}
@@ -565,7 +570,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 890000
 			}
 		}
 	}
@@ -573,13 +578,13 @@ POPS = {
 		region_state:KIRINTOR_EXPEDITION = {
 			create_pop = {
 				culture = kirintor_human
-				size = 500000
+				size = 350000
 			}
 		}
 		region_state:SYNDICATE = {
 			create_pop = {
 				culture = syndicate_human
-				size = 500000
+				size = 130000
 			}
 		}
 	}
@@ -587,7 +592,7 @@ POPS = {
 		region_state:SHADOWFANG_KEEP = {
 			create_pop = {
 				culture = shadowfang_worgen
-				size = 1000000
+				size = 1700000
 			}
 		}
 	}
@@ -595,13 +600,13 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 600000
 			}
 		}
 		region_state:KIRINTOR_EXPEDITION = {
 			create_pop = {
 				culture = kirintor_human
-				size = 500000
+				size = 230000
 			}
 		}
 	}
@@ -609,7 +614,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 570000
 			}
 		}
 	}
@@ -617,7 +622,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 660000
 			}
 		}
 	}
@@ -625,7 +630,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 590000
 			}
 		}
 	}
@@ -633,7 +638,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 550000
 			}
 		}
 	}
@@ -641,7 +646,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 850000
 			}
 		}
 	}
@@ -649,7 +654,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 2800000
 			}
 		}
 	}
@@ -657,7 +662,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 1500000
 			}
 		}
 	}
@@ -665,7 +670,7 @@ POPS = {
 		region_state:GILNEAS = {
 			create_pop = {
 				culture = gilneas_worgen
-				size = 1000000
+				size = 890000
 			}
 		}
 	}
@@ -673,13 +678,13 @@ POPS = {
 		region_state:SYNDICATE = {
 			create_pop = {
 				culture = syndicate_human
-				size = 500000
+				size = 340000
 			}
 		}
 		region_state:CRUSHRIDGE_OGRE = {
 			create_pop = {
 				culture = crushridge_ogre
-				size = 500000
+				size = 270000
 			}
 		}
 	}
@@ -687,7 +692,7 @@ POPS = {
 		region_state:CRUSHRIDGE_OGRE = {
 			create_pop = {
 				culture = crushridge_ogre
-				size = 1000000
+				size = 350000
 			}
 		}
 	}
@@ -695,7 +700,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 330000
+				size = 550000
 			}
 		}
 		region_state:HIGHLAND_FROSTWOLFES = {
@@ -707,7 +712,7 @@ POPS = {
 		region_state:SI7_HIGHLANDS = {
 			create_pop = {
 				culture = stormwind_human
-				size = 330000
+				size = 150000
 			}
 		}
 	}
@@ -715,13 +720,13 @@ POPS = {
 		region_state:STORMSPIKE = {
 			create_pop = {
 				culture = stormspike_dwarf
-				size = 500000
+				size = 232000
 			}
 		}
 		region_state:HIGHLAND_YETI = {
 			create_pop = {
 				culture = highland_yeti
-				size = 500000
+				size = 59000
 			}
 		}
 	}
@@ -729,7 +734,7 @@ POPS = {
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 1000000
+				size = 680000
 			}
 		}
 	}
@@ -737,13 +742,13 @@ POPS = {
 		region_state:TORNFIN_MURLOCS = {
 			create_pop = {
 				culture = tornfin_murloc
-				size = 500000
+				size = 230000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 570000
 			}
 		}
 	}
@@ -751,13 +756,13 @@ POPS = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
 				culture = vilebranch_troll
-				size = 500000
+				size = 1670000
 			}
 		}
 		region_state:RAVENTUSK_TROLLS = {
 			create_pop = {
 				culture = raventusk_troll
-				size = 500000
+				size = 340000
 			}
 		}
 	}
@@ -765,19 +770,19 @@ POPS = {
 		region_state:EMERALD_ENTRANCE_SERADANE = {
 			create_pop = {
 				culture = green_dragonkin_dragon
-				size = 330000
+				size = 280000
 			}
 		}
 		region_state:WILDHAMMER_CLAN_AZ = {
 			create_pop = {
 				culture = wildhammer_dwarf
-				size = 330000
+				size = 430000
 			}
 		}
 		region_state:RAVENTUSK_TROLLS = {
 			create_pop = {
 				culture = raventusk_troll
-				size = 330000
+				size = 560000
 			}
 		}
 	}
@@ -785,7 +790,7 @@ POPS = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
 				culture = vilebranch_troll
-				size = 1000000
+				size = 1300000
 			}
 		}
 	}
@@ -793,7 +798,7 @@ POPS = {
 		region_state:HIGHVALE_HIGHELFES = {
 			create_pop = {
 				culture = silvermoon_highelf
-				size = 1000000
+				size = 370000
 			}
 		}
 	}
@@ -801,13 +806,13 @@ POPS = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
 				culture = vilebranch_troll
-				size = 500000
+				size = 850000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 340000
 			}
 		}
 	}
@@ -815,7 +820,7 @@ POPS = {
 		region_state:WILDHAMMER_CLAN_AZ = {
 			create_pop = {
 				culture = wildhammer_dwarf
-				size = 1000000
+				size = 1470000
 			}
 		}
 	}
@@ -823,13 +828,13 @@ POPS = {
 		region_state:SYNDICATE = {
 			create_pop = {
 				culture = syndicate_human
-				size = 500000
+				size = 480000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 500000
+				size = 269000
 			}
 		}
 	}
@@ -837,13 +842,13 @@ POPS = {
 		region_state:MUDSNOUT_GNOLLS = {
 			create_pop = {
 				culture = mudsnout_gnoll
-				size = 500000
+				size = 380000
 			}
 		}
 		region_state:DUN_GAROK = {
 			create_pop = {
 				culture = ironhill_undead_dwarf
-				size = 500000
+				size = 670000
 			}
 		}
 	}
@@ -851,19 +856,19 @@ POPS = {
 		region_state:SYNDICATE = {
 			create_pop = {
 				culture = syndicate_human
-				size = 330000
+				size = 630000
 			}
 		}
 		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
 				culture = boulderfist_ogre
-				size = 330000
+				size = 470000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
 				culture = undercity_forsaken_undead
-				size = 330000
+				size = 360000
 			}
 		}
 	}
@@ -871,19 +876,13 @@ POPS = {
 		region_state:SYNDICATE = {
 			create_pop = {
 				culture = syndicate_human
-				size = 330000
-			}
-		}
-		region_state:BOULDERFIST_CLAN_AZ = {
-			create_pop = {
-				culture = boulderfist_ogre
-				size = 330000
+				size = 680000
 			}
 		}
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
 				culture = steamwheedle_goblin
-				size = 330000
+				size = 220000
 			}
 		}
 	}
@@ -891,13 +890,13 @@ POPS = {
 		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
 				culture = boulderfist_ogre
-				size = 500000
+				size = 470000
 			}
 		}
 		region_state:REFUGE_POINT = {
 			create_pop = {
 				culture = stormwind_human
-				size = 500000
+				size = 245000
 			}
 		}
 	}
@@ -905,19 +904,19 @@ POPS = {
 		region_state:HAMMERFALL = {
 			create_pop = {
 				culture = orgrimmar_orc
-				size = 330000
+				size = 530000
 			}
 		}
 		region_state:DRYWHISPER_KOBOLDS = {
 			create_pop = {
 				culture = drywhisper_kobold
-				size = 330000
+				size = 85000
 			}
 		}
 		region_state:DABYRIES_HUMANS = {
 			create_pop = {
 				culture = stormwind_human
-				size = 330000
+				size = 170000
 			}
 		}
 	}
@@ -925,19 +924,19 @@ POPS = {
 		region_state:WHITERBARK_TROLLS = {
 			create_pop = {
 				culture = whiterbark_troll
-				size = 330000
+				size = 150000
 			}
 		}
 		region_state:HAMMERFALL = {
 			create_pop = {
 				culture = orgrimmar_orc
-				size = 330000
+				size = 680000
 			}
 		}
 		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
 				culture = boulderfist_ogre
-				size = 330000
+				size = 370000
 			}
 		}
 	}

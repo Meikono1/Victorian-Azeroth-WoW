@@ -6,6 +6,80 @@
 			type = puppet
 		}
 	}
+	c:ARGENT_CRUSADERS ?= {
+		create_diplomatic_pact = {
+			country = c:ANDORHAL
+			type = protectorate
+		}
+	}
+	c:BLACKROCK_CLAN ?= {
+		create_diplomatic_pact = {
+			country = c:BLACKROCK_NORTHSHIRE
+			type = puppet
+		}
+	}
+	c:BLACKWING_DRAGONFLIGHT ?= {
+		create_diplomatic_pact = {
+			country = c:BLACKROCK_CLAN
+			type = puppet
+		}
+	}
+	c:GILNEAS ?= {
+		create_diplomatic_pact = {
+			country = c:GILNEAS_EXPEDITION
+			type = protectorate
+		}
+	}
+	c:SHADOWFANG_KEEP ?= {
+		create_diplomatic_pact = {
+			country = c:BLOODFANG_PACK
+			type = protectorate
+		}
+	}
+	c:STORMWIND ?= {
+		create_diplomatic_pact = {
+			country = c:HIGHBANK_EXPEDITION
+			type = protectorate
+		}
+	}
+	c:TWILIGHTS_HAMMER ?= {
+		create_diplomatic_pact = {
+			country = c:BLOODEYE_CLAN
+			type = puppet
+		}
+	}
+	c:TWILIGHTS_HAMMER ?= {
+		create_diplomatic_pact = {
+			country = c:GLOPGUT_CLAN
+			type = puppet
+		}
+	}
+	#Kalimdor
+	c:DARNASSUS ?= {
+		create_diplomatic_pact = {
+			country = c:GREENWARDENS_GROVE
+			type = protectorate
+		}
+	}
+	c:ORGRIMMAR ?= {
+		create_diplomatic_pact = {
+			country = c:AXEBITE_EXPEDITION
+			type = protectorate
+		}
+	}
+	c:ORGRIMMAR ?= {
+		create_diplomatic_pact = {
+			country = c:GROMGOL_BASE
+			type = protectorate
+		}
+	}
+	c:STEAMWHEEDLE_CARTEL ?= {
+		create_diplomatic_pact = {
+			country = c:HARDWRENCH_INDUSTRIES
+			type = protectorate
+		}
+	}
+	#Outlands
 	c:BURNING_LEGION_KILJADEN ?= {
 		create_diplomatic_pact = {
 			country = c:BURNING_LEGION_INVASION_NETHERSTORM

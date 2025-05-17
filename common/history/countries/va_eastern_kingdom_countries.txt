@@ -1,23 +1,8 @@
-COUNTRIES = {
-	c:NRTHRND ?= {
-	}
-	
-	c:KALIMDOR ?= {
-	}
-	
-	c:EASTERNKINGDOMS ?= {
-	}
-	
-	c:OUTLANDS ?= {
-	}
-	
-	c:PANDARIA ?= {
-	}	
-	
+COUNTRIES = {	
 	c:AMANI_TRIBE ?= {
 		effect_starting_technology_tier_3_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_theocracy
 		activate_law = law_type:law_national_supremacy
@@ -27,92 +12,291 @@ COUNTRIES = {
 	}
 
 	c:ANDORHAL ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
 	}
 
 	c:ARGENT_CRUSADERS ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_multicultural
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
 	}
 
 	c:AXEBITE_EXPEDITION ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:BAMBALA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLACKROCK_CLAN ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLACKROCK_NORTHSHIRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLACKSCALE_NAGA ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLACKWING_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLACKWING_OUTPOST ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLOODEYE_CLAN ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLOODFANG_PACK ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLOODSAIL_PIRATES ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLOODSCALP_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLOODWASH_NAGA ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BLUEGILL_MORLOCS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:BOULDERFIST_CLAN_AZ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:CRUCIBLE_OF_CARNAGE_GLADIATOR ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:CRUSHRIDGE_OGRE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:CULT_OF_DAMNED ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
 	}
 
 	c:DABYRIES_HUMANS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:DARK_IRON_CLAN ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DARNASSUS_OUTPOST_EK ?= {
 		effect_starting_technology_tier_2_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
-		activate_law = law_oligarchy
-		activate_law = law_national_supremacy
-		activate_law = law_freedom_of_conscience
-		activate_law = law_appointed_bureaucrats
-		activate_law = law_national_militia
-		activate_law = law_interventionism
-		activate_law = law_isolationism
-		activate_law = law_per_capita_based_taxation
-		activate_law = law_homesteading
-		activate_law = law_right_of_assembly
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DEADWIND_OGRE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:DEATHHOLME ?= {
 		effect_starting_technology_tier_6_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_mass_conscription
@@ -121,57 +305,213 @@ COUNTRIES = {
 	}
 
 	c:DEFIAS_BROTHERHOOD ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DRAGONMAW_CLAN_AZ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:DREADMAUL_OGRES ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:DRYWHISPER_KOBOLDS ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:DUN_GAROK ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DUSTBELCHER_CLAN ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:EMERALD_ENTRANCE_SERADANE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_censorship
 	}
 
 	c:EXPLORERS_LEAGUE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:FLAMECREST_OUTPOST ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:FROSTMANES ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
 	}
 
 	c:GILNEAS ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:GILNEAS_EXPEDITION ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:GLOPGUT_CLAN ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:GNOMEREGAN ?= {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:GREENWARDENS_GROVE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:GRIKNIR_FROSTMANE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
 	}
 
 	c:GRIMSCALE_MURLOCS ?= {
 		effect_starting_technology_tier_5_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_land_based_taxation
@@ -180,129 +520,485 @@ COUNTRIES = {
 	}
 
 	c:GROMGOL_BASE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:GURUBASHI_TRIBE ?= {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_censorship
 	}
 
 	c:HAMMERFALL ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:HARDWRENCH_INDUSTRIES ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:HIGHBANK_EXPEDITION ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:HIGHLAND_FROSTWOLFES ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:HIGHLAND_YETI ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:HIGHVALE_HIGHELFES ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:IRONFORGE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:IRON_SUMMIT ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KARAZHAN ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:KNIGHTS_EBON_BLADE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_mass_conscription
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:KIRINTOR_EXPEDITION ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:KURZEN_COMPOUND ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_mass_conscription
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
 	}
 
 	c:LOST_ONES ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_mass_conscription
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
 	}
 
 	c:MARSHFIN_MURLOC ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:MARSHTIDE_WATCH ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:MENETHIL ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:MORGANS_VIGIL ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:MOSHOGG_OGRE ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:MOSSFLAYER_TROLLS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:MUDSNOUT_GNOLLS ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:MURKGILL_TRIBE ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:NESINGWARY_EXPEDITION ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:NETHERGARDE_KEEP ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:NEW_KARGATH ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:NIGHTBANE_WORGEN ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:OBSIDIAN_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:PLAGUELAND_UNDEAD ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:RAVENTUSK_TROLLS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:REDGRIDGE_PACK ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:REFUGE_POINT ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:RIVERPAW_PACK ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:ROCKJAW_TROGGS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:SCARLET_CRUSADERS_WHITEMANE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_multicultural
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
 	}
 
 	c:SCARLET_CRUSADERS_ONSLAUGHT ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_multicultural
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
 	}
 
 	c:SHADOWFANG_KEEP ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:SHADOWFORGE ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
 	}
 
 	c:SHADOWPINE_TRIBE ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:SI7_HIGHLANDS ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:SILVERMOON ?= {
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_2_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
@@ -317,81 +1013,334 @@ COUNTRIES = {
 	}
 
 	c:STRANGLETHRON_NAGA ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:STORMSPIKE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:STONARD ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:STONESPLINTER_TRIBE ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:SKULLSPLITTER_TRIBE ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:SPLINTERFIST_CLAN ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:SUNVEIL_EXCURSION ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:STEAMWHEEDLE_CARTEL ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:STORMWIND ?= {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:SYNDICATE ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:THE_EARTHEN_RING_AZ ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:THE_RELIQUARY ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_censorship
 	}
 
 	c:THORIUM_BROTHERHOOD ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:TORNFIN_MURLOCS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:TWILIGHT_CONVERT ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:TWILIGHTS_HAMMER ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:UNDERCITY ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:VASHJ_IR ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
 	}
 
 	c:VENTURE_CO ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:VERMILLON_DRAGONFLIGHT ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:VILEBRANCH_TROLLS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:VILEFIN_MURLOCS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:WILDHAMMER_CLAN_AZ ?= {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
 	}
 
 	c:WHITERBARK_TROLLS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:WRETCHED_BLOODELFES ?= {
 		effect_starting_technology_tier_4_tech = yes
 		
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_protectionism
@@ -401,8 +1350,24 @@ COUNTRIES = {
 	}
 
 	c:WORMTHORN_CORRUPTION ?= {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 
 	c:ZANZIL_WITCHDOCTORS ?= {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
 	}
 }

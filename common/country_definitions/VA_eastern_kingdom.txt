@@ -28,7 +28,7 @@ ARGENT_CRUSADERS = {
 	tier = kingdom
 	
 	cultures = { argent_human }
-	capital = STATE_TWILIGHT_SHORE
+	capital = STATE_LIGHTS_HOPE_CHAPEL
 }
 
 AXEBITE_EXPEDITION = {
@@ -771,7 +771,7 @@ OBSIDIAN_DRAGONFLIGHT = {
 PLAGUELAND_UNDEAD = {
 	color = { 65 58 73 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
