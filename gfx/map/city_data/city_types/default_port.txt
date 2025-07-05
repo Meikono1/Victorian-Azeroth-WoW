@@ -1,16 +1,5 @@
 ﻿default_port = {
 	city_type = port
-	center_building_entity = "european_port_02_entity"
-	center_modifiers = {
-		building_shipyards = "s"
-		building_port = "d"
-		building_fishing_wharf = "f"
-		building_military_shipyards = "s"
-		building_whaling_station = "f"
-	}
-	modifier_key_prefix = "european_port_01"
-	modifier_key_suffix = "entity"
-	center_building_size = { 1 1 }
 	
 	weight = -1 #default port is always down prioritized
 	

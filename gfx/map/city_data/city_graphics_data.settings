@@ -1,6 +1,7 @@
 
 "city_revolution_entity_default" = { "revolution_barricade_small_mesh" "revolution_barricade_mid_mesh" "revolution_barricade_large_mesh" }	# Randomly pick mesh
 "city_revolution_entity_amount" = 0.45	# Multiplier of revolution entities spawning
+"city_default_centerpiece_construction_entity" = "building_construction_skyscraper_entity"
 
 "city_prettyvisuals_min" = 5.0				# Lowest standard of living value for pretty visuals
 "city_prettyvisuals_max" = 15.0				# Highest standard of living value for pretty visuals

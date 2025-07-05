@@ -1,0 +1,87 @@
+﻿### State geography triggers
+
+state_is_in_europe = {
+}
+
+state_is_in_north_america = {
+}
+
+state_is_in_central_america = {
+}
+
+state_is_in_south_america = {
+}
+
+state_is_in_americas = {
+}
+
+state_is_in_africa = {
+}
+
+state_is_in_middle_east = {
+}
+
+### Climate triggers
+
+is_arabic_farmland = {
+}
+
+is_jungle_hills = {
+}
+
+is_asian_farmland = {
+}
+
+is_subtropic_farmland = {
+}
+
+is_arid_region = {
+}
+
+# Harvest Condition Triggers
+
+is_vulnerable_to_droughts = {
+}
+
+is_vulnerable_to_floods = {
+}
+
+is_vulnerable_to_frosts = {
+}
+
+is_vulnerable_to_wildfires = {
+}
+
+is_vulnerable_to_hailstorm = {
+	is_vulnerable_to_frosts = yes
+}
+
+is_vulnerable_to_locust_swarms = {
+}
+
+is_vulnerable_to_heatwaves = {
+}
+
+is_vulnerable_to_disease_outbreak = {
+	always = yes
+}
+
+is_vulnerable_to_extreme_winds = {
+	always = yes
+}
+
+is_vulnerable_to_torrential_rains = {
+	is_arid_region = no
+}
+
+has_potential_for_pollinator_surge = {
+	always = yes
+}
+
+has_potential_for_optimal_sunlight = {
+	always = yes
+}
+
+has_potential_for_moderate_rainfall = {
+	is_arid_region = no
+}

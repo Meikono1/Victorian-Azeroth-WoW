@@ -52,6 +52,13 @@ POPS = {
 				size = 870000
 			}
 		}
+		
+		region_state:DEFIAS_BROTHERHOOD = {
+			create_pop = {
+				culture = stormwind_human
+				size = 340000
+			}
+		}
 	}
 	s:STATE_HEROES_VIGIL = {
 		region_state:STORMWIND = {
@@ -66,13 +73,6 @@ POPS = {
 			create_pop = {
 				culture = stormwind_human
 				size = 760000
-			}
-		}
-		
-		region_state:DEFIAS_BROTHERHOOD = {
-			create_pop = {
-				culture = stormwind_human
-				size = 340000
 			}
 		}
 	}
@@ -106,13 +106,6 @@ POPS = {
 				size = 440000
 			}
 		}
-		
-		region_state:STORMWIND = {
-			create_pop = {
-				culture = stormwind_human
-				size = 350000
-			}
-		}
 	}
 	s:STATE_RENDERS_VALLEY = {
 		region_state:BLACKROCK_CLAN = {
@@ -134,13 +127,6 @@ POPS = {
 			create_pop = {
 				culture = stormwind_human
 				size = 640000
-			}
-		}
-		
-		region_state:REDGRIDGE_PACK = {
-			create_pop = {
-				culture = redridge_gnoll
-				size = 330000
 			}
 		}
 	}

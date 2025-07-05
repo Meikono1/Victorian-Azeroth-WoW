@@ -3,7 +3,7 @@ AZEROTH_DEFENDERS = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "wc_stormwind_lion.dds"
+		texture = "ce_stormwind_lion.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
 		color1 = "yellow"
 	}			
@@ -25,7 +25,7 @@ STORMWIND = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "wc_stormwind_lion.dds"
+		texture = "ce_stormwind_lion.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
 		color1 = "yellow"
 	}			

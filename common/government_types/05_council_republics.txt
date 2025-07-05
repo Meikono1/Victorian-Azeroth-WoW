@@ -3,7 +3,7 @@
 
 	male_ruler = "RULER_PONTIFEX_POPULI"
 	female_ruler = "RULER_PONTIFEX_POPULI"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_state_religion
@@ -24,7 +24,7 @@ gov_council_dictatorship = {
 
 	male_ruler = "RULER_CHAIRMAN"
 	female_ruler = "RULER_CHAIRWOMAN"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		OR = {
@@ -46,7 +46,7 @@ gov_phalanstere = {
 
 	male_ruler = "RULER_CHAIRMAN"
 	female_ruler = "RULER_CHAIRWOMAN"
-	
+
 	possible = {
 		country_has_primary_culture = cu:french
 		has_law = law_type:law_council_republic
@@ -66,7 +66,7 @@ gov_cybernetic_state = {
 
 	male_ruler = "RULER_FOREMAN"
 	female_ruler = "RULER_FOREWOMAN"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_technocracy
@@ -85,7 +85,7 @@ gov_council_single_party_state = {
 
 	male_ruler = "RULER_CHAIRMAN"
 	female_ruler = "RULER_CHAIRWOMAN"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_single_party_state
@@ -105,11 +105,11 @@ gov_council_republic = {
 
 	male_ruler = "RULER_CHAIRMAN"
 	female_ruler = "RULER_CHAIRWOMAN"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		country_has_voting_franchise = yes
-		NOT = { 
+		NOT = {
 			has_law = law_type:law_single_party_state
 		}
 	}
@@ -125,10 +125,10 @@ gov_council_republic = {
 gov_anarchist_commune = {
 	transfer_of_power = parliamentary_elective
 	new_leader_on_reform_government = yes
-	
+
 	male_ruler = "RULER_REPRESENTATIVE"
 	female_ruler = "RULER_REPRESENTATIVE"
-	
+
 	possible = {
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_anarchy

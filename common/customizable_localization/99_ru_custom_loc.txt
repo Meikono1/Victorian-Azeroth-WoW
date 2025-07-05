@@ -1,3 +1,4 @@
 ﻿####################################
-#   REMOVED!				       #
+#   RUSSIAN CUSTOM LOCALISATION    #
+#    By Nikita SShredy Shogin      #
 ####################################
