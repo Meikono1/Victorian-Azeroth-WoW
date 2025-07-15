@@ -84,7 +84,7 @@ STATES = {
 			owned_provinces = { x34B2EB x4303A0 x503546 x5D47CB x62BAA1 x73119D x7EDDFF x873584 xB171E7 xE335C5 }
 		}
 
-		add_homeland = cu:blacksilt_murloc
+		add_homeland = cu:warmwater_murloc
 	}
 	
 	s:STATE_VECTOR_COIL = {
@@ -142,7 +142,7 @@ STATES = {
 			owned_provinces = { x0C6194 x68C2CF x6F0EE2 x845ADE xBF25ED xF8E85E }
 		}
 		
-		add_homeland = cu:blacksilt_murloc
+		add_homeland = cu:warmwater_murloc
 		add_homeland = cu:nazzivus_satyr
 	}
 	
@@ -287,7 +287,7 @@ STATES = {
 
 		add_homeland = cu:exodar_draenei
 		add_homeland = cu:nesstlewood_owlkin
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 	
 	# Darkshore‎

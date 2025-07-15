@@ -42,6 +42,10 @@ dwarf_heritage = {
 	heritage = yes
 }
 
+elf_heritage = {
+	heritage = yes
+}
+
 ered_ruin_heritage = {
 	heritage = yes
 }

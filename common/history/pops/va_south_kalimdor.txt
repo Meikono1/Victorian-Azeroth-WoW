@@ -400,7 +400,7 @@ POPS = {
 	s:STATE_KHARTUTS_TOMB = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -408,7 +408,7 @@ POPS = {
 	s:STATE_HALLS_OF_ORIGINATION = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -416,7 +416,7 @@ POPS = {
 	s:STATE_TOMB_OF_THE_SUN_KING = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -424,7 +424,7 @@ POPS = {
 	s:STATE_NAHOM = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -432,7 +432,7 @@ POPS = {
 	s:STATE_RAMKAHEN = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -440,7 +440,7 @@ POPS = {
 	s:STATE_LOST_CITY_TOLVIR = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -448,7 +448,7 @@ POPS = {
 	s:STATE_NEFERSET = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -456,7 +456,7 @@ POPS = {
 	s:STATE_OBELISK_OF_SUN = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -464,7 +464,7 @@ POPS = {
 	s:STATE_ORSIS = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -472,7 +472,7 @@ POPS = {
 	s:STATE_THRONE_OF_FOUR_WINDS = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -480,7 +480,7 @@ POPS = {
 	s:STATE_OBELISK_OF_MOON = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -488,7 +488,7 @@ POPS = {
 	s:STATE_RUINS_OF_KHINTASET = {
 		region_state:ULDUM = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}

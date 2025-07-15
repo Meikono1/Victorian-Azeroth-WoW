@@ -2,7 +2,7 @@
 	s:STATE_STONEPLOW = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -10,7 +10,7 @@
 	s:STATE_SKYRANGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -18,7 +18,7 @@
 	s:STATE_NESINGWARY_SAFARI = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -26,7 +26,7 @@
 	s:STATE_STORMSTOUT_BREWERY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -34,7 +34,7 @@
 	s:STATE_THE_HEARTLAND = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -42,7 +42,7 @@
 	s:STATE_POOLS_OF_PURITY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -50,7 +50,7 @@
 	s:STATE_HALFHILL = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -58,7 +58,7 @@
 	s:STATE_IMPERIAL_GRANARY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -66,7 +66,7 @@
 	s:STATE_SILKEN_FIELDS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -74,7 +74,7 @@
 	s:STATE_THUNDERFOOT_FIELDS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -82,7 +82,7 @@
 	s:STATE_THUNDERFOOT_FARM = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -90,7 +90,7 @@
 	s:STATE_DOMINATION_POINT = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -98,7 +98,7 @@
 	s:STATE_DAWNCHASER_RETREAT = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -106,7 +106,7 @@
 	s:STATE_SENTINAL_BASECAMP = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		} 
@@ -114,7 +114,7 @@
 	s:STATE_BILGEWATER_BEACH = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -122,7 +122,7 @@
 	s:STATE_CRADLE_CHI_JI = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -130,7 +130,7 @@
 	s:STATE_TEMPLE_RED_CRANE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -138,7 +138,7 @@
 	s:STATE_MORTHBREATH_GROTTO = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -146,7 +146,7 @@
 	s:STATE_RUINS_DOJAN = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -154,7 +154,7 @@
 	s:STATE_ANGLERS_WHARF = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -162,7 +162,7 @@
 	s:STATE_THUNDER_CLEFT = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -170,7 +170,7 @@
 	s:STATE_INCURSION = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -178,7 +178,7 @@
 	s:STATE_ZHU_WATCH = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -186,7 +186,7 @@
 	s:STATE_LION_LANDING = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -194,7 +194,7 @@
 	s:STATE_HONEYDEW_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -202,7 +202,7 @@
 	s:STATE_TERRACE_TEN_THUNDER = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -210,7 +210,7 @@
 	s:STATE_STRONGARM_AIRSTRIP = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -218,7 +218,7 @@
 	s:STATE_SRI_LA_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -226,7 +226,7 @@
 	s:STATE_TIAN_MONASTERY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -234,7 +234,7 @@
 	s:STATE_THUNDERPAW_OVERLOOK = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -242,7 +242,7 @@
 	s:STATE_CAMP_NOOKA_NOOKA = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -250,7 +250,7 @@
 	s:STATE_TIGERS_WOOD = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -258,7 +258,7 @@
 	s:STATE_GROOKIN_HILL = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -266,7 +266,7 @@
 	s:STATE_DAWNS_BLOSSOM = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -274,7 +274,7 @@
 	s:STATE_SERPENTS_HEART = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -282,7 +282,7 @@
 	s:STATE_GREENSTONE_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -290,7 +290,7 @@
 	s:STATE_ARBORETUM = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -298,7 +298,7 @@
 	s:STATE_JADE_TEMPLE_GROUNDS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -306,7 +306,7 @@
 	s:STATE_TEMPLE_JADE_TEMPLE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -314,7 +314,7 @@
 	s:STATE_NECTARBREEZE_ORCHARD = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -322,7 +322,7 @@
 	s:STATE_PAWDON_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -330,7 +330,7 @@
 	s:STATE_MOONWATER_RETREAT = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -338,7 +338,7 @@
 	s:STATE_PEARLFIN_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -346,7 +346,7 @@
 	s:STATE_SHANGS_VALLEY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -354,7 +354,7 @@
 	s:STATE_TIMELESS_SHORE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -362,7 +362,7 @@
 	s:STATE_CELESTIAL_COURT = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -370,7 +370,7 @@
 	s:STATE_ORDON_SANCTUARY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -378,7 +378,7 @@
 	s:STATE_OLD_PIJU = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -386,7 +386,7 @@
 	s:STATE_BLAZING_WAY = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -394,7 +394,7 @@
 	s:STATE_RED_STONE_RUN = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -402,7 +402,7 @@
 	s:STATE_WOOD_OF_STAVES = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -410,7 +410,7 @@
 	s:STATE_MORNING_BREEZE_VILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -418,7 +418,7 @@
 	s:STATE_WRECK_OF_SKYSEEKER = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -426,7 +426,7 @@
 	s:STATE_PEI_WU_FOREST = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -434,7 +434,7 @@
 	s:STATE_DAI_LO_FARMSTEAD = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -442,7 +442,7 @@
 	s:STATE_TEMPLE_FIVE_DAWNS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -450,7 +450,7 @@
 	s:STATE_SINGING_POOLS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -458,7 +458,7 @@
 	s:STATE_SHANG_XI_TRAINING_GROUNDS = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -466,7 +466,7 @@
 	s:STATE_WU_SONG_WILLAGE = {
 		region_state:PANDARIA = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}

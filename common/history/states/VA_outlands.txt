@@ -551,7 +551,7 @@
 			owned_provinces = { x0D5E42 x22DF3C x51EA06 xF0CE19 xF88172 xF94D86 }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 	
 	s:STATE_DEN_HAALESH = {

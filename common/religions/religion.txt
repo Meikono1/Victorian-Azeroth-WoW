@@ -139,13 +139,43 @@ atheist = {
 	color = { 1.0 1.0 1.0 }
 }
 
+amani_loa = {
+	texture = "gfx/interface/icons/religion_icons/loa.dds"
+	traits = {
+		loa
+	}
+	color = { 0.0 0.0 0.0 }
+}
+
 burning_legion = {
 	texture = "gfx/interface/icons/religion_icons/burning_legion.dds"
+	traits = {
+		demonic
+	}
 	color = { 222 40 40 }
+}
+
+great_tide = {
+	texture = "gfx/interface/icons/religion_icons/great_tide.dds"
+	traits = {
+		elements
+	}
+	color = { 222 40 40 }
+}
+
+holy_light = {
+	texture = "gfx/interface/icons/religion_icons/holy_light.dds"
+	traits = {
+		light
+	}
+	color = { 0.2 0.3 1.0 }
 }
 
 the_elements = {
 	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	traits = {
+		elements
+	}
 	color = { 1.0 1.0 1.0 }
 }
 

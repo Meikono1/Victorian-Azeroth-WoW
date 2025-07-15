@@ -74,7 +74,7 @@ POPS = {
 		}
 		region_state:BLACKSILT_MURLOC = {
 			create_pop = {
-				culture = blacksilt_murloc
+				culture = warmwater_murloc
 				size = 500000
 			}
 		}
@@ -130,7 +130,7 @@ POPS = {
 		}
 		region_state:BLACKSILT_MURLOC = {
 			create_pop = {
-				culture = blacksilt_murloc
+				culture = warmwater_murloc
 				size = 3300000
 			}
 		}
@@ -258,7 +258,7 @@ POPS = {
 		}
 		region_state:SHADOW_RIDGE = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 330000
 			}
 		}

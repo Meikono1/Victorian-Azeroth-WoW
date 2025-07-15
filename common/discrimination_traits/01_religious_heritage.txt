@@ -21,3 +21,19 @@ animist = {
 buddhist = {
 	heritage = yes
 }
+
+demonic = {
+	heritage = yes
+}
+
+elements = {
+	heritage = yes
+}
+
+light = {
+	heritage = yes
+}
+
+loa = {
+	heritage = yes
+}

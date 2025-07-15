@@ -614,7 +614,7 @@
 	s:STATE_CRYSTAL_SPINE = {
 		region_state:BASHIR = {
 			create_pop = {
-				culture = aether_tech_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -1500,7 +1500,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = tidewalker_tribe_murloc
+				culture = warmwater_murloc
 				size = 64000
 			}
 			create_pop = {
@@ -1696,7 +1696,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -1708,7 +1708,7 @@
 	s:STATE_FALCON_WATCH = {
 		region_state:FALCON_WATCH = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 284000
 			}
 			create_pop = {
@@ -1740,7 +1740,7 @@
 	s:STATE_DEN_HAALESH = {
 		region_state:HAALESH_TRIBE = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 4000
 			}
 			create_pop = {
@@ -1876,7 +1876,7 @@
 				size = 81600
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 33600
 			}
 			create_pop = {
@@ -2260,7 +2260,7 @@
 				size = 40800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 16000
 			}
 			create_pop = {
@@ -2478,7 +2478,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -2506,7 +2506,7 @@
 				size = 86400
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
@@ -2604,7 +2604,7 @@
 	s:STATE_TELAAR = {
 		region_state:KURENAI = {
 			create_pop = {
-				culture = bloodknight_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -2872,7 +2872,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = bloodknight_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
@@ -2940,7 +2940,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -3072,7 +3072,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
@@ -3412,7 +3412,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 		}
@@ -3640,7 +3640,7 @@
 				size = 88000
 			}
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {

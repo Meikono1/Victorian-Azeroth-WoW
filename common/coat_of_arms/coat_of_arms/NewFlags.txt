@@ -1,14 +1,3 @@
-AZEROTH_DEFENDERS = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ce_stormwind_lion.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
-		color1 = "yellow"
-	}			
-}
-
 AMANI_TRIBE = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -17,6 +6,30 @@ AMANI_TRIBE = {
 		texture = "ce_troll_eagle_loa.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 		color1 = rgb { 167 201 125 }
+	}			
+}
+
+ARGENT_CRUSADERS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 120 140 170 } 
+
+	colored_emblem = {
+		texture = "ce_argentdawn.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+		color1 = rgb { 190 170 0 }
+		color2 = rgb { 70 80 90 }
+		color3 = rgb { 120 140 170 }
+	}			
+}
+
+AZEROTH_DEFENDERS = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_stormwind_lion.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+		color1 = "yellow"
 	}			
 }
 
@@ -770,6 +783,15 @@ ROCKJAW_TROGGS = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
 	}			
 }
+SCARLET_CRUSADERS_WHITEMANE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 200 30 0 } #Background color
+	colored_emblem = {
+		texture = "ce_holy_light.dds" #Name of image file
+		color1 = rgb { 240 155 0 } #"Blue" color
+		instance = { scale = { 1.3 1.0 } position = { 0.5 0.5 } }			
+	}			
+}
 STRANGLETHRON_NAGA = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 77 91 91 } 
@@ -923,13 +945,10 @@ VENTURE_CO = {
 }
 UNDERCITY = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 80 60 125 } #Background color
+	color1 = rgb { 20 30 150 } #Background color
 	colored_emblem = {
-		texture = "ce_gnomeregan.dds" #Name of image file
-		color1 = rgb { 210 155 115 } #"Blue" color
-		color2 = rgb { 75 55 65 } #"Aquamarine" color
-		color3 = rgb { 120 80 110 } #"Magenta" color
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
+		texture = "ce_forsaken.dds"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }			
 	}			
 }
 VERMILLON_DRAGONFLIGHT = {

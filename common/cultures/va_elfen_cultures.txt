@@ -1,0 +1,198 @@
+kal_dorei = {
+	color = rgb{ 193 80 31 }
+	religion = holy_light
+	traits = { dense_forest ancient_forest elf_heritage }
+	male_common_first_names={
+		Aelar Aeltheron Aerendyl Aethor Aerith Alandor Anarion Arannis 
+		Baelor Baelgor Braelen Bralorn
+		Calthil Caelen Calthor Celeborn 
+		Daeval Daeron Dalen Dathrin 
+		Elandor Elion Eryndor Erythas
+		Falandin Falorin Falthor Faelar 
+		Galadriel Galeth Galion Gaelthas 
+		Haldor Halion Helion Helyar
+		Ilmare Ilorien Ilthar 
+		Jhaelian Jhaelon Jhaelen Jorandir 
+		Kaelthorn Kaelen Kaelor Kaerith 
+		Laerion Laelor Larethorn Lorian 
+		Malith Malorn Maelon Melithar 
+		Naelorn Naerith Naeris Naelor 
+		Orien Orindor Oriath Orynth 
+		Paelias Paelion Paelen Paleth 
+		Quelanar Quelanar Quelion Quelithas Quelthor 
+		Ralithor Rhaelin Rhaelorn Rhaelor 
+		Saelor Saelion Saethor 
+		Taelor Taelorin Taelithor
+		Ulandir Utharion Uthorin Vaelorn Vaelen Vaelor
+		Xaleth Xalorin Xalandor 
+		Yalorn Ylaeron Ylaren 
+		Zailor Zalarion Zareth Zephrin Zorath Zorion
+	}
+	female_common_first_names={
+		Aelara Aelindra Aelithra Alysia Althaea Anariel Anithra Aralyn Aravelle 
+		Belira Belwyn 
+		Calithra Calyra Celethia 
+		Daelithra Darys Elara 
+		Elyndra Elowen 
+		Faelina Faeryn 
+		Galadriel Galwen 
+		Halara Haleth 
+		Illyria Ilthara Isilme 
+		Jaelithra Jaelynn 
+		Kaelara Kaelenna Kaeris 
+		Laeriel Laethra Lathira Liora 
+		Melithra Melwen 
+		Naelora Naeris Nymira 
+		Orlina Orentha 
+		Paelina Paelynn 
+		Quelira Quelthas 
+		Rhaelynn Rhaelith 
+		Saelina Saelynn Saerith 
+		Taelira Taelynn Thalara 
+		Ulyndra Uthalia 
+		Vaelora Vaelyn 
+		Xalara Xalina 
+		Yelira Ysera Yllara 
+		Zalira Zaleria Zephira Zephyrine
+	}common_last_names={
+		Amakiir Andarion 
+		Balefire 
+		Duskwhisper 
+		Elaran 
+		Farstrider 
+		Galathil 
+		Highmont Huntershade 
+		Ironbark 
+		Moonfall 
+		Nightbreeze 
+		Shadowalker Silverleaf Starwhisper Stormrage Sunstrider 
+		Thornblade 
+		Windrunner Wintermoon Woodwalker
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+sin_dorei = {
+	color = rgb{ 193 80 31 }
+	religion = holy_light
+	traits = { lowlands magical_lowlands ancient_forest haunted_forest elf_heritage }
+	male_common_first_names={
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
+	}
+	female_common_first_names = {
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
+	}
+	common_last_names={
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
+	}
+	male_regal_first_names = {
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
+	}
+	female_regal_first_names = {
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

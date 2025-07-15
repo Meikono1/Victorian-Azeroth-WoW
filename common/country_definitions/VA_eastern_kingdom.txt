@@ -5,7 +5,7 @@ AMANI_TRIBE = {
 	
 	tier = kingdom
 	
-	cultures = { amani_troll }
+	cultures = { forest_troll dire_troll }
 	capital = STATE_ZUL_AMAN
 }
 
@@ -247,7 +247,7 @@ DARNASSUS_OUTPOST_EK = {
 	
 	tier = city_state
 	
-	cultures = { darnassus_nightelf }
+	cultures = { kal_dorei }
 	capital = STATE_SANCTUM_OF_SUN
 }
 
@@ -269,7 +269,7 @@ DEATHHOLME = {
 	
 	tier = grand_principality
 	
-	cultures = { scourge_zombie }
+	cultures = { banshee }
 	capital = STATE_DEATHHOLME
 }
 
@@ -456,7 +456,7 @@ GRIMSCALE_MURLOCS = {
 	
 	tier = principality
 	
-	cultures = { grimscale_murloc }
+	cultures = { warmwater_murloc }
 	capital = STATE_WINDRUNNER_VILLAGE
 }
 
@@ -885,7 +885,7 @@ SHADOWPINE_TRIBE = {
 	
 	tier = principality
 	
-	cultures = { shadowpine_troll }
+	cultures = { forest_troll }
 	capital = STATE_ULDAMAN
 }
 
@@ -907,7 +907,7 @@ SILVERMOON = {
 	
 	tier = kingdom
 	
-	cultures = { silvermoon_bloodelf }
+	cultures = { sin_dorei }
 	capital = STATE_SILVERMOON_CITY
 }
 
@@ -1061,7 +1061,7 @@ TORNFIN_MURLOCS = {
 	
 	tier = principality
 	
-	cultures = { tornfin_murloc }
+	cultures = { warmwater_murloc }
 	capital = STATE_RUINS_OF_SOUTHSHORE
 }
 
@@ -1149,7 +1149,7 @@ VILEFIN_MURLOCS = {
 	
 	tier = principality
 	
-	cultures = { vilefin_tribe_murloc }
+	cultures = { warmwater_murloc }
 	capital = STATE_FENRIS_ISLE
 }
 
@@ -1182,7 +1182,7 @@ WRETCHED_BLOODELFES = {
 	
 	tier = grand_principality
 	
-	cultures = { wretched_bloodelf }
+	cultures = { sin_dorei }
 	capital = STATE_WITHERBARK_VILLAGE
 }
 

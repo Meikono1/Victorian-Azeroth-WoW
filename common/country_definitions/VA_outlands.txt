@@ -346,7 +346,7 @@ FALCON_WATCH = {
 	
 	tier = empire
 	
-	cultures = { silvermoon_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_FALCON_WATCH
 }
 

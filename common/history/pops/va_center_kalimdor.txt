@@ -618,7 +618,7 @@ POPS = {
 	s:STATE_KEZAN = {
 		region_state:KALIMDOR = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -626,7 +626,7 @@ POPS = {
 	s:STATE_LOST_ISLES = {
 		region_state:KALIMDOR = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}

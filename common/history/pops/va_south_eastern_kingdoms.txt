@@ -390,7 +390,7 @@ POPS = {
 		
 		region_state:AZEROTH_DEFENDERS = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 74000
 			}
 		}

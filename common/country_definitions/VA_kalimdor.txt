@@ -71,7 +71,7 @@ BLACKSILT_MURLOC = {
 	
 	tier = empire
 	
-	cultures = { blacksilt_murloc }	
+	cultures = { warmwater_murloc }	
 	capital = STATE_AXXARIEN
 }
 
@@ -973,7 +973,7 @@ SHADOW_RIDGE = {
 	
 	tier = empire
 	
-	cultures = { silvermoon_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_NESTLEWOOD_HILLS
 }
 

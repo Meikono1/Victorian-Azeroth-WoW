@@ -16,6 +16,9 @@ alliance = {
 amani = {
 }
 
+ancient_forest = {
+}
+
 andorhal = {
 }
 
@@ -50,9 +53,6 @@ azshir = {
 }
 
 bashir = {
-}
-
-blacksilt = {
 }
 
 blackrock = {
@@ -307,9 +307,6 @@ greyheart = {
 greymist = {
 }
 
-grimscale = {
-}
-
 grishnath = {
 }
 
@@ -326,6 +323,9 @@ halaa = {
 }
 
 hatecrest = {
+}
+
+haunted_forest = {
 }
 
 hatefury = {
@@ -385,6 +385,12 @@ lithic = {
 lowercity = {
 }
 
+lowlands = {
+}
+
+magical_lowlands = {
+}
+
 mag_har = {
 }
 
@@ -434,6 +440,9 @@ moshogg = {
 }
 
 mossflayer = {
+}
+
+mountains = {
 }
 
 mudsnout = {
@@ -670,19 +679,16 @@ talonbranch = {
 talondruid = {
 }
 
+temperate_forest = {
+}
+
 thistlefur = {
 }
 
 thrallmar = {
 }
 
-tidewalker = {
-}
-
 timbermaw = {
-}
-
-tornfin = {
 }
 
 tuurem = {
@@ -704,9 +710,6 @@ venture_company = {
 }
 
 vilebranch = {
-}
-
-vilefin = {
 }
 
 violeteye = {

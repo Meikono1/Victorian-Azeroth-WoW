@@ -6,7 +6,7 @@ STATES = {
 			owned_provinces = { x07DB43 x3B812B x3FAB59 x4636AC x4C67E2 x4DFB26 x514DFA x587F78 x5EAC8A x5F254A x6115ED x6B1AD0 x6CA243 x8631D1 xAF98EA xBA210B xC4AC17 xDB59D8 xE24AC6 xFAE648 }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_MAGISTERS_TERRACE = {
@@ -15,7 +15,7 @@ STATES = {
 			owned_provinces = { x01871B x1D96EE x1FB679 x231292 x24F7D5 x250369 x3A575D x3F86F3 x412865 x433957 x44C18B x52E83F x6CC568 x6E47FB x7DE7B4 x888CCD x8C119F x96DDDF x975632 xB9DD43 xBE8CDD xCC67D9 xCDA333 xEA673D xF0DC28 xFAA62E }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_SUNWELL_PLATEAU = {
@@ -24,7 +24,7 @@ STATES = {
 			owned_provinces = { x157930 x21A7AB x24FBB5 x2B1415 x341C52 x3D5843 x3E6CAE x423D65 x491CE4 x4A03B9 x4E496D x5D081A x7017F3 x73D9CA xA9E60C xB2B451 xB6E6AB xD90604 xE31401 xEB9D1D xEC8145 xF04FBA }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	# Eversong Woods
@@ -39,8 +39,7 @@ STATES = {
 			owned_provinces = { x3030D2 x505F64 x710F78 x9FA2F1 xA95DF3 xAD2EE7 xF73546 x5137B5 xA11D9D }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
-		add_homeland = cu:wretched_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_RUINS_OF_SILVERMOON = {
@@ -54,8 +53,7 @@ STATES = {
 			owned_provinces = { x26220D x2ADF0A x666A36 x6B18A7 x6DAC1E x7280C5 x84F318 x97B34B xA44617 xC63C98 xD3BE69 xD7BC11 xDC5ED2 xDD304F }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
-		add_homeland = cu:wretched_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_SILVERMOON_CITY = {
@@ -64,7 +62,7 @@ STATES = {
 			owned_provinces = { x03F0BD x0600C8 x08486A x0E9ACF x157160 x196465 x1A69BA x1A9D71 x1E7C49 x23101F x25D013 x2E9CF0 x31F903 x378EDC x3D5A5D x3EBED3 x415231 x450261 x48155A x4DCE0E x552566 x77B793 x79BBC6 x7D17F9 x7E2FA7 x7E7D01 x80C5CC x82CD5E x8A2AB8 x8C50BF x8F223E x8F6070 x9D1D81 xACEE60 xAFA90C xB94139 xBB532D xC045CE xC23BB9 xD10BCA xDBAC0C xDC85EB xDF2E0C xF2A7A4 xF96CCE xFCD9FE }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_WEST_SANCTUM = {
@@ -78,8 +76,8 @@ STATES = {
 			owned_provinces = { x06C085 x36AD45 x38E87C x5B9E0E x8DFB3E x8E6BCE xB0C90A xDBECA6 }
 		}
 		
-		add_homeland = cu:grimscale_murloc
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:warmwater_murloc
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_SUNSAIL_ANCHORAGE = {
@@ -98,9 +96,8 @@ STATES = {
 			owned_provinces = { x1578B8 x50769E x840999 xD26788 xD49014 xDF3C84 }
 		}
 		
-		add_homeland = cu:grimscale_murloc
-		add_homeland = cu:silvermoon_bloodelf
-		add_homeland = cu:wretched_bloodelf
+		add_homeland = cu:warmwater_murloc
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_EAST_SANCTUM = {
@@ -114,7 +111,7 @@ STATES = {
 			owned_provinces = { x1C0EED x3C60B2 x50BC2D x573814 x63EDA6 x72A8BA x7C385F xA274C4 xB69B1F xF017F6 }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_FARSTRIDER_RETREAT = {
@@ -123,7 +120,7 @@ STATES = {
 			owned_provinces = { x11D51E x2E923D x59DCF2 x632C57 x6DB35E x7549FE x8AEA29 x984F03 x9CB523 xA85707 xB66D05 xC1A6D9 xC4C25C xC6144E xC7C6C5 xCB3090 xE14B3B xF39CEA }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_DUSKWITHER_SPIRE = {
@@ -132,7 +129,7 @@ STATES = {
 			owned_provinces = { x10CA9A x176BE8 x17AF79 x323ED0 x33B0D8 x37EB51 x3BB30F x41088F x435C93 x48EE75 x4A479E x4B741B x4C36B5 x54E2E1 x5F74E6 x627310 x639314 x64011C x6542B0 x657D76 x6CA418 x736B75 x77DF2D x7D908D x862E03 x8999AB x9ECF24 xA1D681 xA5205F xBA2CEF xBD522E xC90EA4 xCA846C xCC35E4 xCC7E11 xCCD89A xCF1F63 xD46217 xE07FAE xE26770 xE7C123 xEA9447 xEC6829 xF04513 xF8F3E8 xFC54A3 }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_TOR_WATHA = {
@@ -141,8 +138,8 @@ STATES = {
 			owned_provinces = { x141C93 x14EC7B x22C318 x31D7D1 x342752 x36C085 x377DD4 x39AC76 x4486F7 x468D1D x521127 x54AB06 x590EE8 x5A6849 x63ECF1 x7B0BEF x7D79A5 x82EE1E x848E35 x9F7B68 xA38D51 xA3D656 xAA85A9 xAFBDB7 xB29120 xB3A718 xB6272B xB9639B xBD4EAC xC33BE4 xC50C42 xC88EA9 xCDAC5A xD5598D xDD6E44 xE1AFCE xE3D724 xE58594 xEB9D15 xF50ECE xF95BDE xFB05DD xFFD548 }
 		}
 
-		add_homeland = cu:silvermoon_bloodelf
-		add_homeland = cu:amani_troll
+		add_homeland = cu:sin_dorei
+		add_homeland = cu:forest_troll
 	}
 
 	s:STATE_WINDRUNNER_VILLAGE = {
@@ -156,9 +153,8 @@ STATES = {
 			owned_provinces = { x0B0AE8 x134273 x261742 x283CD2 x34F946 x35D320 x3AB375 x3C3F55 x667345 x6A85B8 x6FCB0F x7FB0DE x8546D1 x9D478F x9DD5F9 xA72BC6 xAD0370 xD91508 xDE7C22 xE4179E xE54ECD xE7FE01 xE8E7EA xF453DD }
 		}
 		
-		add_homeland = cu:scourge_zombie
-		add_homeland = cu:silvermoon_bloodelf
-		add_homeland = cu:grimscale_murloc
+		add_homeland = cu:sin_dorei
+		add_homeland = cu:warmwater_murloc
 	}
 
 	s:STATE_TRANQUILLIEN = {
@@ -172,8 +168,7 @@ STATES = {
 			owned_provinces = { x1437EA xAC602E xB2C207 xBACDFC xD6BF4D }
 		}
 
-		add_homeland = cu:scourge_zombie
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_DEATHHOLME = {
@@ -182,8 +177,7 @@ STATES = {
 			owned_provinces = { x044282 x06FF7B x13DE3B x142D60 x145CC6 x1914D2 x1ABC4F x1D9C64 x1EDC89 x203FF1 x24B388 x26590E x29ADD2 x2AA32D x2AA788 x3AAD13 x3BF6CB x3F5B3D x4C06F2 x4EDDB5 x52F0BC x5A611F x6947AD x6A1904 x6A6DC3 x6D9E92 x6F6335 x7153B0 x770627 x82E81B x82F0A8 x85D3D1 x896E6B x8B0C25 x8B2D26 x8DD8D8 x8FDCB5 x9A04F7 x9AC91E x9BA99A xA28A0D xABF971 xB89006 xBAE43D xC0F4E7 xC9683C xC9C2AD xCFBE56 xD2B00C xD31113 xD5784F xE0E7C6 xE1F181 xE885EA xF07060 xF29779 xF7C368 xFD5580 }
 		}
 
-		add_homeland = cu:scourge_zombie
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_SUNCROWN_VILLAGE = {
@@ -197,8 +191,8 @@ STATES = {
 			owned_provinces = { x0B8A12 x1943E1 x1F074E x2C9339 x331045 x42D742 x548007 x549C83 xB5C6C3 xB63189 xB89ED5 xBEED31 xEE7739 }
 		}
 
-		add_homeland = cu:shadowpine_troll
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:forest_troll
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_DAWNSTAR_SPIRE = {
@@ -207,8 +201,8 @@ STATES = {
 			owned_provinces = { x0651E2 x0673FC x0E6740 x115976 x192BC5 x19CF99 x1A2DCD x23B2D7 x23C2FB x2FD41A x39FC44 x40D169 x436FC7 x47BF69 x4951FE x4BC7CC x4CFB0E x51B1A0 x51C909 x545407 x57BD15 x633AE3 x6EF01C x79997E x799FFE x7E540E x7E9F04 x7F903D x83AE04 x88E18A x893839 x89B508 x8A14DD x8BC06E x8E7DDE x98BCB0 x9C9CE7 x9F9682 xA03A8F xA5D945 xAB4E15 xB0A857 xB11298 xB57B49 xC494E7 xC4BA3E xC8E94D xC9FE01 xD6110A xDFD9BC xE762BD xE96600 xED82AB xF6C660 xFB99BE xFE2590 xFFB04E }
 		}
 
-		add_homeland = cu:shadowpine_troll
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:forest_troll
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_SANCTUM_OF_SUN = {
@@ -227,8 +221,8 @@ STATES = {
 			owned_provinces = { x00FADB x1A3BA9 x2A9903 x2C5F85 x2F1ABE x365AA4 x45C221 x5076CB x52605E x73D3AC x8C5291 x8F5977 xBA03F3 xC204D4 xC9B915 xD9562E xE46BA4 xE65F42 xEEE151 xF0CDB3 xF10C35 xF850F7 xF9629D }
 		}
 
-		add_homeland = cu:shadowpine_troll
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:forest_troll
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_ZUL_AMAN = {
@@ -237,7 +231,7 @@ STATES = {
 			owned_provinces = { x004B8C x017ECB x01D6CB x03274B x0417E6 x042C59 x06DFAD x079CCD x086D7B x09A166 x0AA01A x0AA399 x0AB49F x0B39E0 x0C61A7 x0DB261 x0DCF8D x0DFA6C x0E4E0B x0EAAEB x1000F0 x10277B x11044D x111FE6 x114030 x1186AE x11CDB2 x124F17 x13C257 x14B847 x14F6D0 x150BF0 x1565FE x157463 x172021 x172083 x1A5631 x1B6AE2 x1C1A1C x1C3658 x1F3DBB x20201C x2028A1 x203701 x21C588 x2217F9 x225917 x22A709 x2332F8 x261B30 x26EC55 x292260 x294808 x2B02A4 x2B6C15 x2B8106 x2BD326 x2BD67D x2C2C24 x2D35A0 x2D7544 x2F1C87 x2F51DB x2FFADC x30B20D x324EE5 x329EF6 x33AEE0 x34C7D3 x36A22E x374549 x385719 x38AB7F x38FC9C x39336B x3ADE63 x3BE014 x3C498D x3D3A3C x3DE539 x3E0D77 x40A3E5 x40EA4E x42ACA6 x431AB5 x441EB3 x44AEB2 x4556C5 x463132 x47AA5E x47BD82 x49DCFD x49E39B x4AAA58 x4BB46A x4D4AB6 x4D5156 x4F1BC4 x506E5E x50D000 x535CB8 x54F665 x55B443 x562717 x570979 x571268 x5B6491 x5BE1A4 x5BEB3A x5CAC91 x5DF332 x6149D2 x61D86E x64B572 x66C8FA x672D89 x67CA7B x67D814 x68458D x68E6E2 x6F4CE0 x6F6A25 x6F8624 x701180 x70F060 x71C984 x730C84 x73113C x73742C x749129 x74E30F x7505D1 x7756C0 x77EF54 x79023E x7A4A07 x7BBC98 x7DF74D x7E2416 x813C9B x818FA8 x821BC4 x822B5B x841807 x85332D x85475A x85A9B1 x85D5A1 x85FD17 x86100C x8659F7 x876F90 x8904F0 x897FC2 x8A49F3 x8ADE60 x8B7959 x8C4823 x8C8512 x8C9CDA x8F47AC x8FD0F0 x9088C7 x9528BD x97975E x983611 x9907A8 x9AFA6A x9B9815 x9C2FE1 x9CAD66 x9FCCD9 xA0DD82 xA231C0 xA2A3FE xA3E08A xA4757E xA52195 xA6A3AB xA6D562 xA794E0 xA84E71 xA8BE13 xAA3AF8 xAF3A01 xAFAB87 xAFEC31 xAFF43A xB01F74 xB09B0D xB0BC94 xB1D29B xB2ABD6 xB361FC xB44E90 xB6943C xB7BDDC xB9104E xBA0D99 xBB312B xBC29F3 xBDF73B xBFD838 xC04012 xC0DC08 xC2F85F xC337C4 xC3FE77 xC41008 xC41B96 xC47E1B xC604B8 xC67774 xC78B7B xCA2E25 xCC29B4 xCC48C7 xCCD9EE xCDF716 xCFB449 xD040B0 xD09528 xD3A67F xD4ED37 xD6DC77 xDABA4E xDB0974 xDB180D xDB42C8 xDBBA9A xDBD9ED xDBDA07 xDD10A1 xDD7015 xE070E0 xE0D3F9 xE1A3DA xE2782B xE540BF xE599E7 xE59D9C xE720A3 xE73B31 xE74E17 xEA051E xEA6430 xEABC69 xEB29C6 xEB4BA3 xEBABAC xEC439A xEC5558 xED5522 xEDEA92 xEE4FF1 xF4CF14 xF7517C xF76FF0 xF7CE53 xF96DD0 xFB6A23 xFC6230 xFED977 xFF586D }
 		}
 
-		add_homeland = cu:amani_troll
+		add_homeland = cu:forest_troll
 	}
 
 	s:STATE_ARCHERUS = {
@@ -247,7 +241,6 @@ STATES = {
 		}
 
 		add_homeland = cu:ebonblade_deathknight
-		add_homeland = cu:scourge_zombie
 	}
 
 	s:STATE_LIGHTS_HOPE_CHAPEL = {
@@ -567,7 +560,7 @@ STATES = {
 			owned_provinces = { x0A9C71 x0C60A8 x1240CA x15F123 x19F1CB x28B231 x2A620D x2D92A7 x2DB6E2 x2E522B x3474BD x38169F x3CDAC7 x440348 x47CCA5 x4833FD x4CC425 x4CD277 x4F8C3D x5102BF x59E500 x5A8261 x5BD5B7 x637318 x6553C3 x68C7DD x6E7F2F x70A210 x742F14 x780673 x8DD955 x90AC3F x90B3BE x91FBF0 x920F69 x993E65 x99A8F8 x9C18B1 x9ED072 xA0F1B0 xAC9F95 xADB740 xB1B8A1 xBCAEB2 xC1081B xC167A2 xCB6F7C xCFB9C8 xD4315B xD64CDA xD767AD xDA1203 xDCF182 xDE02C4 xEB1BC7 xEDB303 xF27401 xF4D61A xF9138D xFC90DA xFFA9D4 }
 		}
 
-		add_homeland = cu:vilefin_tribe_murloc
+		add_homeland = cu:warmwater_murloc
 	}
 
 	s:STATE_SEPULCHER = {
@@ -771,7 +764,7 @@ STATES = {
 		}
 
 		add_homeland = cu:undercity_forsaken_undead
-		add_homeland = cu:tornfin_murloc
+		add_homeland = cu:warmwater_murloc
 	}
 
 	s:STATE_JINTHA_ALOR = {
@@ -2196,7 +2189,7 @@ STATES = {
 
 		add_homeland = cu:dreadmaul_ogre
 		add_homeland = cu:reliquary_bloodelf
-		add_homeland = cu:silvermoon_bloodelf
+		add_homeland = cu:sin_dorei
 	}
 
 	s:STATE_RED_REACHES = {
