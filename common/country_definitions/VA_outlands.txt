@@ -159,7 +159,7 @@ BOULDERFIST_CLAN = {
 	
 	tier = empire
 	
-	cultures = { boulderfist_ogre }	
+	cultures = { hill_ogre }	
 	capital = STATE_BLEEDING_HOLLOW_RUINS
 }
 
@@ -500,7 +500,7 @@ KIRIN_VAR = {
 	
 	tier = empire
 	
-	cultures = { kirintor_human }
+	cultures = { dalaranian }
 	capital = STATE_KIRIN_VAR_VILLAGE
 }
 
@@ -841,7 +841,7 @@ SYLVANNAR = {
 	
 	tier = empire
 	
-	cultures = { darnassus_nightelf }	
+	cultures = { kal_dorei }	
 	capital = STATE_SYLVANAAR
 }
 
@@ -896,7 +896,7 @@ THUNDERLORD_STRONGHOLD = {
 	
 	tier = empire
 	
-	cultures = { orgrimmar_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_THUNDERLORD_STRONGHOLD
 }
 
@@ -907,7 +907,7 @@ TOSHLEY_STATION = {
 	
 	tier = empire
 	
-	cultures = { gnomeregan_gnome }	
+	cultures = { gnome }	
 	capital = STATE_SINGING_RIDGE
 }
 
@@ -984,7 +984,7 @@ WILDHAMMER_CLAN = {
 	
 	tier = empire
 	
-	cultures = { wildhammer_dwarf }	
+	cultures = { wildhammer }	
 	capital = STATE_WILDHAMMER_STRONGHOLD
 }
 

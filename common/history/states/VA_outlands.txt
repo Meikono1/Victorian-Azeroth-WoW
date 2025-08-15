@@ -116,7 +116,7 @@
 			owned_provinces = { x329B9F x36029B x467DE2 x49873B x51D0C0 x51DED8 x549051 x61A7A8 x7030A0 x905180 xA5D78B xD5C59C xE585CC xFF11E6 xFF7C49 }
 		}
 
-		add_homeland = cu:kirintor_human
+		add_homeland = cu:dalaranian
 	}
 	
 	s:STATE_MANAFORGE_CORUU = {
@@ -246,7 +246,7 @@
 			owned_provinces = { x24EFE1 x274966 x3591DF x43C3CE x45139C x4D9365 x4F0969 x5DDC82 x62321E x6953F3 x804F17 xAE752D xB2F616 xB4179D xB4B7CD xC9FE6C xCAE219 xD5E9B3 xDC7606 xFD0842 }
 		}
 
-		add_homeland = cu:black_dragonkin_blackwing_dragon
+		add_homeland = cu:black_dragon
 		add_homeland = cu:wyrmcultist_dreanei
 	}
 	
@@ -261,7 +261,7 @@
 			owned_provinces = { x09BDB5 x0B083B x0C97C7 x189764 x18F94F x29E1D9 x4ABE28 x4BE93C x52517A x52BBA8 x57486F x61E50B x6C1D10 x6C3633 x89BEED x9A290F xB4BD1B xBE06BF xC99C56 xCBDEAC xCCFC62 xCE4FAC xCF6FC5 xDAFBB4 xDBA5F1 xEF59B7 }
 		}
 
-		add_homeland = cu:black_dragonkin_blackwing_dragon
+		add_homeland = cu:black_dragon
 		add_homeland = cu:grishnath_arakkoa
 		add_homeland = cu:wyrmcultist_orc
 	}
@@ -321,7 +321,7 @@
 			owned_provinces = { x07C8D6 x08880B x09BD45 x32EDB3 x3A0F5D x3CE218 x434092 x5E3640 x826987 x87DE7B xCD2556 xDCAFE4 xDFB220 xE3AF55 }
 		}
 
-		add_homeland = cu:darnassus_nightelf
+		add_homeland = cu:kal_dorei
 		add_homeland = cu:lashhan_arakkoa
 	}
 	
@@ -340,7 +340,7 @@
 			owned_provinces = { x0398DE x053F4B x096C00 x0A91BF x109000 x11A5D0 x129329 x205BDC x2DB649 x4526DC x4A9929 x4C694B x515790 x5C0A38 x601436 x64A1E9 x735753 x785430 x7BC0E9 x8111D0 x957B54 x97F6FB x9DDD67 xA61477 xADEC31 xB56A25 xC35036 xC3B047 xC80075 xD5B480 xE07161 xEBF671 xEE0374 xF1F862 xF4DC23 xF5B726 xF9B015 }
 		}
 
-		add_homeland = cu:orgrimmar_orc
+		add_homeland = cu:orgrimmari
 		add_homeland = cu:maghar_orc
 	}
 	
@@ -362,7 +362,7 @@
 
 		add_homeland = cu:bladespire_ogre
 		add_homeland = cu:burning_legion_eredar
-		add_homeland = cu:gnomeregan_gnome
+		add_homeland = cu:gnome
 		add_homeland = cu:nether_dragonkin_dragon
 	}
 	
@@ -422,7 +422,7 @@
 		}
 
 		add_homeland = cu:bloodscale_naga
-		add_homeland = cu:darkspear_troll
+		add_homeland = cu:jungle_troll
 		add_homeland = cu:quagmirran_fungul_giants
 	}
 	
@@ -778,7 +778,7 @@
 			owned_provinces = { x143599 x1DD64D x37048E x39961A x3C4EEC x3CBBDF x57D4B4 x74664F x7F5F9E x863D3A x87F7DC x886388 x89745D xBE02BF xCA0C39 xD4BD14 xE0B43D xE2DB48 xE895D3 xF68A34 }
 		}
 
-		add_homeland = cu:boulderfist_ogre
+		add_homeland = cu:hill_ogre
 	}
 	
 	s:STATE_GARADAR = {
@@ -811,7 +811,7 @@
 			owned_provinces = { x155E62 x2936D5 x415873 x7B06CF x873C4B xA555E2 xB22D3C xB7E9D7 xBCFFEB xC5CAFA xE0E536 xF1AC0C xFA96C2 }
 		}
 
-		add_homeland = cu:boulderfist_ogre
+		add_homeland = cu:hill_ogre
 		add_homeland = cu:gordunni_ogre
 		add_homeland = cu:maghar_orc
 	}
@@ -898,7 +898,7 @@
 		}
 
 		add_homeland = cu:stonebreaker_orc
-		add_homeland = cu:shadowcouncil_gnome
+		add_homeland = cu:gnome
 		add_homeland = cu:shaffar_ethereal
 	}
 	
@@ -949,7 +949,7 @@
 		}
 
 		add_homeland = cu:auchenai_draenei
-		add_homeland = cu:boulderfist_ogre
+		add_homeland = cu:hill_ogre
 		add_homeland = cu:lithic_arakkoa
 		add_homeland = cu:shatar_draenei
 	}
@@ -1014,7 +1014,7 @@
 
 		add_homeland = cu:bonechewer_felorc
 		add_homeland = cu:honor_hold_human
-		add_homeland = cu:orgrimmar_orc
+		add_homeland = cu:orgrimmari
 	}
 	
 	s:STATE_FIREWING_POINT = {
@@ -1115,7 +1115,7 @@
 		}
 
 		add_homeland = cu:eclipsion_bloodelf
-		add_homeland = cu:wildhammer_dwarf
+		add_homeland = cu:wildhammer
 	}
 	
 	s:STATE_SANCTUM_OF_STARS = {

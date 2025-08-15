@@ -24,19 +24,19 @@ POPS = {
 	s:STATE_VALLIANCE_KEEP = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 709000
 			}
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 64000
 			}
 			create_pop = {
-				culture = gnomeregan_gnome
+				culture = gnome
 				size = 112000
 			}
 			create_pop = {
-				culture = ironforge_dwarf
+				culture = bronzebeard
 				size = 284000
 			}
 			create_pop = {
@@ -60,7 +60,7 @@ POPS = {
 	s:STATE_WARSONG_KEEP = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 560000
 			}
 			create_pop = {
@@ -68,7 +68,7 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = darkspear_troll
+				culture = jungle_troll
 				size = 112000
 			}
 			create_pop = {
@@ -88,7 +88,7 @@ POPS = {
 				size = 63000
 			}
 			create_pop = {
-				culture = undercity_forsaken_undead
+				culture = forsaken
 				size = 96000
 			}
 			create_pop = {
@@ -116,7 +116,7 @@ POPS = {
 	s:STATE_COAST_OF_ECHOS = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 126000
 			}
 			create_pop = {
@@ -148,15 +148,15 @@ POPS = {
 	s:STATE_FARSHIRE = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 79000
 			}
 			create_pop = {
-				culture = ironforge_dwarf
+				culture = bronzebeard
 				size = 16000
 			}
 			create_pop = {
-				culture = gnomeregan_gnome
+				culture = gnome
 				size = 16000
 			}
 			create_pop = {
@@ -196,11 +196,11 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 16000
 			}
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 16000
 			}
 			create_pop = {
@@ -208,7 +208,7 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = gnomeregan_gnome
+				culture = gnome
 				size = 75000
 			}
 			create_pop = {
@@ -256,7 +256,7 @@ POPS = {
 				size = 202000
 			}
 			create_pop = {
-				culture = blue_dragonkin_gnome_cultist
+				culture = gnome
 				size = 70000
 			}
 			create_pop = {
@@ -264,7 +264,7 @@ POPS = {
 				size = 159000
 			}
 			create_pop = {
-				culture = kirintor_human
+				culture = dalaranian
 				size = 496000
 			}
 			create_pop = {
@@ -304,7 +304,7 @@ POPS = {
 				size = 10000
 			}
 			create_pop = {
-				culture = green_dragonkin_dragon
+				culture = green_dragon
 				size = 10000
 			}
 			create_pop = {
@@ -344,7 +344,7 @@ POPS = {
 				size = 30000
 			}
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 25000
 			}
 			create_pop = {
@@ -352,11 +352,11 @@ POPS = {
 				size = 30000
 			}
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 10000
 			}
 			create_pop = {
-				culture = ironforge_dwarf
+				culture = bronzebeard
 				size = 16000
 			}
 			create_pop = {
@@ -364,15 +364,15 @@ POPS = {
 				size = 50000
 			}
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 16000
 			}
 			create_pop = {
-				culture = undercity_forsaken_undead
+				culture = forsaken
 				size = 10000
 			}
 			create_pop = {
-				culture = darkspear_troll
+				culture = jungle_troll
 				size = 30000
 			}
 			create_pop = {
@@ -424,15 +424,15 @@ POPS = {
 	s:STATE_BORGOROK_OUTPOST = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = darkspear_troll
+				culture = jungle_troll
 				size = 107000
 			}
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 385000
 			}
 			create_pop = {
-				culture = undercity_forsaken_undead
+				culture = forsaken
 				size = 30000
 			}
 			create_pop = {
@@ -472,19 +472,19 @@ POPS = {
 	s:STATE_FIZZCRANK_AIRSTRIP = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = gnomeregan_gnome
+				culture = gnome
 				size = 224000
 			}
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 16000
 			}
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 25000
 			}
 			create_pop = {
-				culture = darkspear_troll
+				culture = jungle_troll
 				size = 30000
 			}
 			create_pop = {
@@ -512,7 +512,7 @@ POPS = {
 	s:STATE_DEATHS_STAND = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 32000
 			}
 			create_pop = {
@@ -556,7 +556,7 @@ POPS = {
 				size = 30000
 			}
 			create_pop = {
-				culture = ebonblade_deathknight
+				culture = death_knight
 				size = 16000
 			}
 		}
@@ -576,7 +576,7 @@ POPS = {
 				size = 262000
 			}
 			create_pop = {
-				culture = gnomeregan_gnome
+				culture = gnome
 				size = 112000
 			}
 			create_pop = {

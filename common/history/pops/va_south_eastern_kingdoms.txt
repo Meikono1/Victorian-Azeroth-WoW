@@ -2,7 +2,7 @@ POPS = {
 	s:STATE_STORMWIND = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 3800000
 			}
 		}
@@ -10,14 +10,14 @@ POPS = {
 	s:STATE_NORTHSHIRE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 780000
 			}
 		}
 		
 		region_state:BLACKROCK_NORTHSHIRE = {
 			create_pop = {
-				culture = blackrock_orc
+				culture = mok_grondal
 				size = 330000
 			}
 		}
@@ -25,7 +25,7 @@ POPS = {
 	s:STATE_GOLDSHIRE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 1600000
 			}
 		}
@@ -33,7 +33,7 @@ POPS = {
 	s:STATE_WESTBROOK_GARRISON = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 660000
 			}
 		}
@@ -48,14 +48,14 @@ POPS = {
 	s:STATE_MACLURE_VINEYARDS = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 870000
 			}
 		}
 		
 		region_state:DEFIAS_BROTHERHOOD = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 340000
 			}
 		}
@@ -63,7 +63,7 @@ POPS = {
 	s:STATE_HEROES_VIGIL = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 1240000
 			}
 		}
@@ -71,7 +71,7 @@ POPS = {
 	s:STATE_TOWER_OF_AZORA = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 760000
 			}
 		}
@@ -86,7 +86,7 @@ POPS = {
 		
 		region_state:BLACKROCK_CLAN = {
 			create_pop = {
-				culture = blackrock_orc
+				culture = mok_grondal
 				size = 320000
 			}
 		}
@@ -94,7 +94,7 @@ POPS = {
 	s:STATE_STONEWATCH = {
 		region_state:BLACKROCK_CLAN = {
 			create_pop = {
-				culture = blackrock_orc
+				culture = mok_grondal
 				size = 450000
 			}
 		}
@@ -102,7 +102,7 @@ POPS = {
 	s:STATE_TOWER_OF_ILGALAR = {
 		region_state:BLACKROCK_CLAN = {
 			create_pop = {
-				culture = blackrock_orc
+				culture = mok_grondal
 				size = 440000
 			}
 		}
@@ -110,14 +110,14 @@ POPS = {
 	s:STATE_RENDERS_VALLEY = {
 		region_state:BLACKROCK_CLAN = {
 			create_pop = {
-				culture = blackrock_orc
+				culture = mok_grondal
 				size = 330000
 			}
 		}
 		
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 230000
 			}
 		}
@@ -125,7 +125,7 @@ POPS = {
 	s:STATE_LAKESHIRE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 640000
 			}
 		}
@@ -133,7 +133,7 @@ POPS = {
 	s:STATE_JANSEN_STEAD = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 588000
 			}
 		}
@@ -147,7 +147,7 @@ POPS = {
 		}
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 580000
 			}
 		}
@@ -155,7 +155,7 @@ POPS = {
 	s:STATE_RAGING_CHASM = {
 		region_state:DEFIAS_BROTHERHOOD = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 480000
 			}
 		}
@@ -170,7 +170,7 @@ POPS = {
 	s:STATE_DAGGER_HILLS = {
 		region_state:DEFIAS_BROTHERHOOD = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 680000
 			}
 		}
@@ -178,7 +178,7 @@ POPS = {
 	s:STATE_DEADMINES = {
 		region_state:DEFIAS_BROTHERHOOD = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 870000
 			}
 		}
@@ -186,7 +186,7 @@ POPS = {
 	s:STATE_MORTWAKES_TOWER = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 450000
 			}
 		}
@@ -200,7 +200,7 @@ POPS = {
 	s:STATE_RAVEN_HILL = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 680000
 			}
 		}
@@ -208,14 +208,14 @@ POPS = {
 	s:STATE_VUL_GOL_OGRE_MOUND = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 450000
 			}
 		}
 		
 		region_state:SPLINTERFIST_CLAN = {
 			create_pop = {
-				culture = stonefist_ogre
+				culture = hill_ogre
 				size = 380000
 			}
 		}
@@ -223,7 +223,7 @@ POPS = {
 	s:STATE_TWILIGHT_GROVE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 230000
 			}
 		}
@@ -231,14 +231,14 @@ POPS = {
 	s:STATE_DARKSHIRE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 770000
 			}
 		}
 		
 		region_state:NIGHTBANE_WORGEN = {
 			create_pop = {
-				culture = nightbane_worgen
+				culture = alpha_pack
 				size = 270000
 			}
 		}
@@ -246,14 +246,14 @@ POPS = {
 	s:STATE_TRANQUIL_GARDENS_CEMESTERY = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 440000
 			}
 		}
 		
 		region_state:NIGHTBANE_WORGEN = {
 			create_pop = {
-				culture = nightbane_worgen
+				culture = alpha_pack
 				size = 240000
 			}
 		}
@@ -261,7 +261,7 @@ POPS = {
 	s:STATE_DEADWIND_RAVINE = {
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 123000
 			}
 		}
@@ -277,7 +277,7 @@ POPS = {
 	s:STATE_KARAZHAN = {
 		region_state:KARAZHAN = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 345000
 			}
 		}
@@ -285,14 +285,14 @@ POPS = {
 	s:STATE_SPLINTERSPEAR_JUNCTION = {
 		region_state:MARSHTIDE_WATCH = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 270000
 			}
 		}
 		
 		region_state:STONARD = {
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 340000
 			}
 		}
@@ -300,14 +300,14 @@ POPS = {
 	s:STATE_STONARD = {
 		region_state:MARSHTIDE_WATCH = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 460000
 			}
 		}
 		
 		region_state:STONARD = {
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 580000
 			}
 		}
@@ -322,14 +322,14 @@ POPS = {
 		
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 270000
 			}
 		}
 		
 		region_state:MARSHTIDE_WATCH = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 330000
 			}
 		}
@@ -337,14 +337,14 @@ POPS = {
 	s:STATE_STAGELBOG = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 230000
 			}
 		}
 		
 		region_state:MARSHFIN_MURLOC = {
 			create_pop = {
-				culture = marshfin_murloc
+				culture = warmwater_murloc
 				size = 170000
 			}
 		}
@@ -352,7 +352,7 @@ POPS = {
 	s:STATE_NETHERGARDE_KEEP = {
 		region_state:NETHERGARDE_KEEP = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 560000
 			}
 		}
@@ -368,7 +368,7 @@ POPS = {
 	s:STATE_SHATTERED_LANDING = {
 		region_state:NETHERGARDE_KEEP = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 340000
 			}
 		}
@@ -397,7 +397,7 @@ POPS = {
 		
 		region_state:SUNVEIL_EXCURSION = {
 			create_pop = {
-				culture = reliquary_bloodelf
+				culture = sin_dorei
 				size = 240000
 			}
 		}
@@ -411,7 +411,7 @@ POPS = {
 		}
 		region_state:SUNVEIL_EXCURSION = {
 			create_pop = {
-				culture = reliquary_bloodelf
+				culture = sin_dorei
 				size = 120000
 			}
 		}
@@ -425,7 +425,7 @@ POPS = {
 		}
 		region_state:GILNEAS_EXPEDITION = {
 			create_pop = {
-				culture = gilneas_worgen
+				culture = gilnean
 				size = 340000
 			}
 		}
@@ -433,7 +433,7 @@ POPS = {
 	s:STATE_ZUL_GURUB = {
 		region_state:GURUBASHI_TRIBE = {
 			create_pop = {
-				culture = gurubashi_troll
+				culture = jungle_troll
 				size = 3600000
 			}
 		}
@@ -441,21 +441,21 @@ POPS = {
 	s:STATE_KURZENS_COMPOUND = {
 		region_state:KURZEN_COMPOUND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 270000
 			}
 		}
 		
 		region_state:NESINGWARY_EXPEDITION = {
 			create_pop = {
-				culture = ironforge_dwarf
+				culture = bronzebeard
 				size = 140000
 			}
 		}
 		
 		region_state:STORMWIND = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 270000
 			}
 		}
@@ -463,7 +463,7 @@ POPS = {
 	s:STATE_RUINS_OF_ZUL_KUNDA = {
 		region_state:BLOODSCALP_TRIBE = {
 			create_pop = {
-				culture = bloodscalp_troll
+				culture = jungle_troll
 				size = 780000
 			}
 		}
@@ -477,7 +477,7 @@ POPS = {
 		}
 		region_state:BAMBALA = {
 			create_pop = {
-				culture = darkspear_troll
+				culture = jungle_troll
 				size = 460000
 			}
 		}
@@ -497,19 +497,19 @@ POPS = {
 		}
 		region_state:MURKGILL_TRIBE = {
 			create_pop = {
-				culture = murkgill_murloc
+				culture = warmwater_murloc
 				size = 120000
 			}
 		}
 		region_state:BLOODSCALP_TRIBE = {
 			create_pop = {
-				culture = bloodscalp_troll
+				culture = jungle_troll
 				size = 370000
 			}
 		}
 		region_state:GROMGOL_BASE = {
 			create_pop = {
-				culture = orgrimmar_orc
+				culture = orgrimmari
 				size = 150000
 			}
 		}
@@ -517,7 +517,7 @@ POPS = {
 	s:STATE_FORT_LIVINGSTON = {
 		region_state:SKULLSPLITTER_TRIBE = {
 			create_pop = {
-				culture = skullsplitter_troll
+				culture = jungle_troll
 				size = 870000
 			}
 		}
@@ -525,7 +525,7 @@ POPS = {
 	s:STATE_GURUBASHI_ARENA = {
 		region_state:ZANZIL_WITCHDOCTORS = {
 			create_pop = {
-				culture = gurubashi_troll
+				culture = jungle_troll
 				size = 670000
 			}
 		}
@@ -537,7 +537,7 @@ POPS = {
 		}
 		region_state:HARDWRENCH_INDUSTRIES = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 300000
 			}
 		}
@@ -545,15 +545,15 @@ POPS = {
 	s:STATE_EXPLORERS_LEAGUE_DIGSITE = {
 		region_state:ZANZIL_WITCHDOCTORS = {
 			create_pop = {
-				culture = gurubashi_troll
-				size = 7800000
+				culture = jungle_troll
+				size = 780000
 			}
 		}
 	}
 	s:STATE_JAGUERO_ISLAND = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 500000
 			}
 		}
@@ -568,7 +568,7 @@ POPS = {
 	s:STATE_BOOTY_BAY = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 2560000
 			}
 		}

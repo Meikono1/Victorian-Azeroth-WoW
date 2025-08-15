@@ -85,28 +85,90 @@ boom_goblin = {
 	}
 }
 
-lower_city_goblin = {
-	color = rgb{ 70 218 90 }
-	religion = protestant
-	traits = { lowercity goblin_heritage }
+goblin = {
+	color = rgb{ 114 20 175 }
+	religion = shamanism
+	traits = { tropical goblin_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Bango Bixor Blixem Branko Brizzo
+		Cabbro Calvix Chomper Crixel Crogni
+		Dagzo Dargun Dexro Dizzo Drogan
+		Ecko Elvric Enzo Erbax
+		Fango Fazzik Felgro Fizzle Flanko Frizzo
+		Gabbro Galvik Gazmo Gearix Gizmo Grimbo Groznik
+		Haggor Halvik Harkno Hozzak
+		Igrin Izzak Izmo
+		Jabbo Jagrix Jaxen Jibbo Jorvik
+		Kabbro Kargix Kazmo Kezrik Knorbo
+		Lango Lixem Lomvik Lozzak
+		Magro Mazzrik Mekno Miggzo Mogrin Morkno
+		Nagvik Nazzrik Nibbo Nogrin
+		Obbro Olvik Orbaz Ozzik
+		Paggro Pibnik Plarzo Pozzik
+		Quorvik Quibzo Quizzek
+		Rabbo Ragvik Raltzo Rixmo Ruzzo
+		Saggro Scabnik Sprocket Stiggo
+		Taggrin Tazzrik Tinker Tokvik
+		Ugro Ulbrik Uzzik
+		Vagro Vazzrik Vexmo Vriggo
+		Waggro Wexrik Wizzo
+		Xaggro Xibbo Xorvik
+		Yabbo Yazrik Yibbo
+		Zaggro Zibnik Zorkno
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Alzira Anvika Arzella Ashani
+		Brixa Bronti Brunza Brynna
+		Cabbriella Calvera Chintzi Cindra Cogsira
+		Dazia Delmira Drixie Drunna
+		Elvara Enziri Erbina Ezmara
+		Fadrina Fizzira Flavia Fronzie
+		Gazriella Gearlina Gizmi Golda
+		Hanziri Hexla Hizzara
+		Ibrina Inzella Irvani Izri
+		Janzia Jezra Jinka Jorvella
+		Kalvani Kendra Kizzira Klyra
+		Lazira Lendra Lizzara Lorvina
+		Madriga Malvira Minza Morgira Myzzie
+		Nandra Nelvani Nizza Norvella Nyri
+		Olvina Orliza Ozzari
+		Pendra Pipzelle Prisza
+		Quivara Quizzelle
+		Ranzia Razzira Rella Rovini Rubza
+		Sazira Selvani Sprockella
+		Tavira Trixani Tynza
+		Ulrina Uzmira
+		Valziri Vendra Vixza Volmira
+		Wendra Wizzara
+		Xandri Xevira
+		Yalvina Yindra Yovari
+		Zendra Zivara Zyrmi
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Bankblast Bigboom Bilgebolt
+		Cashgrin Cinderblast Coinclamp Copperfuse
+		Dealwheel Drizzlespark Dustwrench
+		Fastgear Fizzlecrank Flarefuse
+		Gadgetgrin Geargrind Gearwhistle Goldsnap Greasefist
+		Hammerflash Hardcoin Hardspark
+		Ironspike Ironwrench
+		Jacksnap Jinglespark Junkblast
+		Kickspark Knucklebang Korknob
+		Leadfuse Lockjaw Lugnut
+		Minesnap Moneypinch Mudsprocket
+		Nickelgrip Nitroblast Nockswitch
+		Oilgrin Overgear
+		Pipespark Plunderbolt Pocketsprocket
+		Quickfuse Quickswitch
+		Razzlebolt Rustgear Rustknuckle
+		Scrapfang Scrapgear Screwbit Screwfuse Sparkwhistle
+		Tinbolt Tinkerblast Tinspark
+		Upperswitch
+		Valvegrin Vaultsnap
+		Wheelspark Whistleblast Wrenchsnout
+		X-Bang X-Crank
+		Yankspark Yellowfuse
+		Zappbolt Zickleboom
 	}
 	graphics = european
 	ethnicities = {
@@ -114,10 +176,10 @@ lower_city_goblin = {
 	}
 }
 
-steamwheedle_goblin = {
-	color = rgb{ 75 174 44 }
+lower_city_goblin = {
+	color = rgb{ 70 218 90 }
 	religion = protestant
-	traits = { steamwheedle goblin_heritage }
+	traits = { lowercity goblin_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

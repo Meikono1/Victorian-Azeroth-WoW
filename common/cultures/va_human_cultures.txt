@@ -1,54 +1,61 @@
-andorhal_human = {
-	color = rgb{ 46 139 183 }
-	religion = protestant
-	traits = { andorhal human_heritage }
+alteraci = {
+	color = rgb{ 200 130 44 }
+	religion = holy_light
+	traits = { highlands mountains human_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Alric Andren Armand Arthus Ashford
+		Bennard Bertram Bordan Brandon Brom
+		Cedric Cormac Corbin Cullan Cyran
+		Darian Darius Denholm Derrick Dunstan
+		Edric Edwin Eldric Emmett Eryndor
+		Falric Fenric Fergus Finnan Frandor
+		Gareth Garret Gideon Godric Gregor
+		Hadrian Halric Harlan Hendrik Horace
+		Jared Joran Jorric Josiah Julian
+		Landon Lorian Lucan Luthor Lyric
+		Malric Marcus Mathis Merrick Myles
+		Nathaniel Neville Norric Nolan
+		Percival Perrin Prescott Preston
+		Randall Raymond Reginald Roland Rowan
+		Samuel Sebastian Serric Sigurd Stefan
+		Tobias Tristan Turald Tybalt
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Adeline Alena Alisandra Amelia Annabeth Aria
+		Beatrice Belinda Bethany Brianna Brigid
+		Catherine Celia Charlotte Clarisse Colette
+		Daphne Delilah Diana Doriane Dylena
+		Eleanor Elinor Elise Eliza Eveline
+		Fiona Felicia Florence Freya
+		Gabrielle Genevieve Giselle Grace
+		Helena Henrietta Holly Honora
+		Isolde Isoldea Ivanna
+		Jacqueline Jana Jessa Juliana
+		Kara Katrine Kendra Kira
+		Lydia Lillian Loretta Lucille
+		Madeleine Maribelle Marianne Meredith Miranda
+		Natalia Neria Noelle
+		Rosalind Rosamund Rowena Ruby
+		Sabine Selene Seraphine Sophia
+		Tabitha Teresa Thalia
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-argent_human = {
-	color = rgb{ 76 121 218 }
-	religion = protestant
-	traits = { argent_dawn human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashford Ashcombe Amberfall Arkwright
+		Bannister Barrow Blackwood Bradford Brighthill
+		Caldwell Carrington Claybourne Coldwater Cumberdale
+		Davenport Dawnhollow Dunwald Duskwood Dryden
+		Eastbrook Edgewater Eldridge Everard
+		Fairchild Falkenrath Farrow Fenwick Fletcher
+		Gainesford Gallant Goldwin Graystone Greymark
+		Hadley Halberg Halloway Hartwood Hawthorne
+		Kingsley Kirkland Knightwell
+		Langford Lightborne Lockridge Longford
+		Marwood Medford Merriweather Millford Montclair
+		Pemberton Pendrake Preston Proudmore
+		Ravenhill Redwyne Rockwell Rosemont Rowanfield
+		Salisbury Silverfield Southwick Steelbrook Stonehelm
+		Tallis Tarrowhill Thornewood Truesdale
+		Wainwright Walden Westbrook Whitlock Windermere
 	}
 	graphics = european
 	ethnicities = {
@@ -143,35 +150,6 @@ burning_legion_human_cultist = {
 	}
 }
 
-ebonblade_deathknight = {
-	color = rgb{ 66 62 193 }
-	religion = protestant
-	traits = { ebon_blade human_heritage deathknight_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 honor_hold_human = {
 	color = rgb{ 30 105 215 }
 	religion = protestant
@@ -201,28 +179,175 @@ honor_hold_human = {
 	}
 }
 
-kirintor_human = {
+dalaranian = {
 	color = rgb{ 72 197 222 }
-	religion = protestant
-	traits = { kirintor human_heritage }
+	religion = holy_light
+	traits = { magical_lowlands magical_highlands elf_heritage human_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aldric Altharion Ambrose Arcanis Arlen Armandus Arvian
+		Balthazar Belric Beltharion Benedict Berion
+		Caldris Calian Calithor Caradoc Cassian Cedric Cendralin
+		Darian Darius Decimus Delrian Desmond Dorian Draven
+		Edric Eldrin Elion Eltharion Emeric Emrys
+		Falric Farion Felwin Festus Floran Frandrel
+		Galen Gaius Garridan Gavric Gideon Gregorion
+		Hadrian Halric Harlan Harrowmont Hector Horathis
+		Ignatius Iltharion Iskander Isran Ivanor
+		Jareth Jerolin Jorath Julian Justicar
+		Kaedric Kaelen Kaestor Kaldrin Kalethar
+		Lucian Lucien Luthar Lysandor
+		Malachai Maloren Marcellus Marius Mathian Merien
+		Natharion Nereus Norwin Novarin
+		Octavian Odrin Otharion
+		Perrion Percival Philo Praedric
+		Quenric Quillian
+		Ravion Regulus Remiel Roderick Roland
+		Sabian Salazar Septimus Severian Silvanus
+		Taldren Terenas Thaddeus Thelric Therion Thrainor
+		Ulric Utherion
+		Valerian Varion Venthir Vorathis
+		Warrick Wendel Wulfric
+		Xandor Xavien
+		Zerathis Zevrin
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Adriana Aeloria Aerin Althendra Amara Ambrielle Anwen
+		Belandra Belinda Bellathra Beryssa Bryndis
+		Caelithra Calista Calyra Cassandra Celindra Cerissa Cerythia
+		Daeloria Dalindra Damyra Darcienne Delandra Delphina Doriane
+		Elara Elaris Elendra Elowen Elyndra Emerelle Emmalith
+		Faylen Felindra Felithra Fiorenna Floriane
+		Galenya Galindra Galyra Gavrielle Gwendra
+		Halindra Halysse Helindra Heloria Honoria
+		Illyria Ilyndra Imara Inessara Isolde
+		Jaeloria Jalindra Jessamine Jorissa Julienne
+		Kaelindra Kaerithra Kalindra Karissa Katrisse
+		Lalindra Larissa Leandria Liora Lysandra
+		Malindra Mariel Marindra Meliora Merindis Morganna Myrissa
+		Nalindra Naressa Neryssa Nolandra Novindra
+		Olyndra Ondine Orielle Orlendra
+		Phaedra Philindra Phoenyra Prisandra
+		Quenessa Quillindra
+		Ravindra Reilora Rhiannon Rhovena Rosindra
+		Sabrynna Salindra Selandra Selene Seraphine Silandra Sylendra
+		Talindra Talyssa Tanelora Tarindra Thalyra Thirindra Tyressa
+		Ulindra Ulyssa Umbrisse
+		Valindra Valessa Velindra Veralyra Veylissa Virella
+		Wendralyn Weryssa Wynestra
+		Xalindra Xyrelle
+		Zalindra Zerythia Zilendra
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Aetherborne Aethervale Althandris Ambergrace Amberglyph
+		Baleforge Balthandrel Berynstone Blackspindle Brightglyph
+		Caldrithar Calemond Calliwick Candleborne Cindralock Crystalweave
+		Dawnspindle Dawntome Duskglyph Duskwright Dwyncrest
+		Ebonweave Eldrithorn Elunebrook Emberglyph Everlight
+		Fayrindle Fellscript Firespindle Flamelock Frostbinder
+		Galeweave Gildenspell Goldglyph Greymantle Gryphonlock
+		Haleforge Halemantle Highglyph Hollowlight
+		Ilthandrel Ironspindle Ivoryglyph
+		Jademantle Jadespire Jewelspindle Juneglyph
+		Kaelthorne Kelmantle Kindlespell Kinscribe
+		Lanethar Lightglyph Loreborne Loreweave Luminarch
+		Magelock Magetome Manathorne Mistglyph Moonspindle
+		Nethertome Netherweave Nightglyph Nightmantle
+		Orrenglyph Othramantle Owlspindle
+		Pentaglyph Phoenixmantle Prismalock Purelight
+		Quillmantle Quillscribe Quartzlock
+		Ravenmantle Rimeglyph Runeborne Runeglyph Runeweave
+		Sageborne Scrollbinder Sealglyph Shadowmantle Shardweave Silverglyph Spellmantle Spellweave Starlight
+		Tomeborne Tomeweave Twilightglyph
+		Umberglyph Umbermantle Umberweave
+		Valemantle Vellumborne Veraglyph Voidmantle
+		Whitemantle Whisperglyph Windweave Wintermantle
+		Xenoglyph Xyrelmantle
+		Zalathorne Zephyrlight Zirconlock
 	}
-	male_regal_first_names = {
-		regaltest
+	graphics = european
+	ethnicities = {
+		1 = caucasian
 	}
-	female_regal_first_names = {
-		regaltest
+}
+
+gilnean = {
+	color = rgb{ 72 197 222 }
+	religion = holy_light
+	traits = { dense_forest highlands human_heritage }
+	male_common_first_names={
+		Alaric Alistair Ambrose Andric Armand Arthur Ashford
+		Baldric Bartholomew Bastien Benedict Bertram Bramwell Bryson
+		Calder Callum Cedric Clarence Corwin Crispin Cullen
+		Darius Darrow Desmond Dominic Douglas Draven Duncan
+		Edgar Edmund Edwin Elias Elliot Emrys Ernest Ewan
+		Felix Fergus Finlay Francis Frederick
+		Gareth Garrick Geoffrey Gideon Godfrey Gregory Griffith
+		Hadrian Halric Harold Hector Henry Horace Howard Hugh
+		Iain Idris Ignatius Isaac Isidore Ivan
+		Jareth Jasper Jerome Jonathan Julian Julius
+		Kenneth Kieran Kingsley Kurtis Kyran
+		Laurence Leonard Lionel Lorian Louis Lucas Luther
+		Malcolm Marcus Martin Matthew Merrick Miles Morgan Mortimer
+		Nathaniel Neville Nicholas Nigel Norman
+		Oliver Orson Osric Owen
+		Patrick Percival Peter Phineas Prescott
+		Quentin Quinlan
+		Randall Raymond Reginald Rhys Richard Robert Roland Rowan Rupert
+		Samuel Sebastian Silas Simon Stanley Stephen Sterling
+		Tobias Trevor Tristan Tybalt
+		Victor Vincent Virgil Vinton
+		Walter Warren Wesley Wilfred William Winston
+	}
+	female_common_first_names = {
+		Adelaide Agatha Aileen Ainsley Alice Alicia Amara Amelia Annabelle Arabella Audrey Aveline
+		Beatrice Belinda Bernadette Blanche Brigid Brielle Bryony
+		Camilla Caroline Cassandra Catherine Cecily Celeste Charlotte Clara Clarissa Constance Cora Cordelia
+		Daphne Davina Delilah Diana Dorothy Drusilla
+		Edith Eleanor Eliza Elizabeth Eloise Elsie Emily Emma Emmeline Esme Esther Evelyn
+		Felicity Fiona Florence Frances Frederica Freya
+		Gabrielle Genevieve Georgina Gilda Giselle Grace Gwendolyn Gwyneth
+		Harriet Hazel Helena Henrietta Holly Honora Hope
+		Imogen Ingrid Irene Iris Isolde Ivy
+		Jacqueline Jane Jemima Joanna Josephine Julia Juliette June
+		Katherine Kathleen Keira Kendra Kitty
+		Lavinia Leah Lenora Lillian Liora Louisa Lucille Lucy Lydia
+		Madeleine Margaret Margot Maria Marianne Marigold Martha Matilda Maura Maureen May Mildred Millicent Minerva Miranda Molly Morgana Muriel Myra
+		Nadia Nancy Naomi Natalie Nell Nora Norah
+		Octavia Odette Olive Olivia Ophelia Orla
+		Patience Patricia Penelope Philippa Phoebe Portia Priscilla Prudence
+		Queenie Quilla
+		Rachel Rebecca Regina Rhiannon Rosalind Rosamund Rose Rosemary Rowena Ruby Ruth
+		Sabrina Sadie Samantha Sarah Selina Serena Sibyl Silvia Sophia Stella Susanna Sybil Sylvia
+		Tabitha Tamsin Teresa Theodora Theresa Tilly
+		Ursula
+		Valerie Vanessa Vera Veronica Victoria Violet Virginia Vivienne
+		Winifred Willa Wilma Willow Winona
+		Yvette Yvonne
+		Zara Zelda Zina
+	}	
+	common_last_names={
+		Ashbourne Ashdown Ashford Ashworth
+		Baneberry Barrowfield Bellingham Blackwood Blackwell Blackthorne Bloodworth Bramley Briarstone Brookhaven Browning
+		Candlewick Carrington Chatham Coldwell Colgrave Collingwood Corbyn Crowhurst Crowley Cunningham
+		Davenport Dawnbury Dawnsworth Dewhurst Dunsmore Dunwell
+		Eastcliff Eastwick Ebonford Eversfield Everwinter
+		Fairfax Fairweather Falkenridge Fellbrook Fenwick Forrester Frostbourne
+		Gainsborough Gallowsfield Gilmour Goldcrest Goldsworth Grimsbane Grimwood
+		Hadley Halden Halversham Halloway Hardwick Hargrave Harrowhill Hartwell Hawthorne Heathcliff Henslowe Holloway Howarth
+		Kingswell Kingsworth Kirkbride Knightwick
+		Langley Lockwood Longford Loxley
+		Marlowe Marshwood Mayfair Merriweather Millstone Montford Morningshade Mortlake Muirfield
+		Northwood Norwick
+		Oakworth Oldham Ormsby
+		Pemberton Pendlewood Pennington Prescott Prestwick Proudmore
+		Ravenhill Ravenscroft Redgrave Redwyck Rosewood Rowanberry Rowley
+		Seabourne Seacliff Seaforth Shadowmere Shadwell Sheffield Silvermere Southwick Stonethorne Stormwatch
+		Talloway Thistledown Thornfield Thornhill Thornecroft Throsby
+		Underwood Upminster
+		Valewood Vexley
+		Wainwright Wakefield Walden Waverly Wentworth Westbrook Whitlock Whitmore Wickham Windermere Winterbourne Withers Woolsey Worthing
+		Yardley Yewcroft
+		Zephyridge
 	}
 	graphics = european
 	ethnicities = {
@@ -252,6 +377,136 @@ kul_tiran_human = {
 	}
 	female_regal_first_names = {
 		regaltest
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+lordorean = {
+	color = rgb{ 46 139 183 }
+	religion = holy_light
+	traits = { lowlands temperate_forest human_heritage }
+	male_common_first_names={
+		Alric Andren Armand Arthus Ashford
+		Bennard Bertram Bordan Brandon Brom
+		Cedric Cormac Corbin Cullan Cyran
+		Darian Darius Denholm Derrick Dunstan
+		Edric Edwin Eldric Emmett Eryndor
+		Falric Fenric Fergus Finnan Frandor
+		Gareth Garret Gideon Godric Gregor
+		Hadrian Halric Harlan Hendrik Horace
+		Jared Joran Jorric Josiah Julian
+		Landon Lorian Lucan Luthor Lyric
+		Malric Marcus Mathis Merrick Myles
+		Nathaniel Neville Norric Nolan
+		Percival Perrin Prescott Preston
+		Randall Raymond Reginald Roland Rowan
+		Samuel Sebastian Serric Sigurd Stefan
+		Tobias Tristan Turald Tybalt
+	}
+	female_common_first_names = {
+		Adeline Alena Alisandra Amelia Annabeth Aria
+		Beatrice Belinda Bethany Brianna Brigid
+		Catherine Celia Charlotte Clarisse Colette
+		Daphne Delilah Diana Doriane Dylena
+		Eleanor Elinor Elise Eliza Eveline
+		Fiona Felicia Florence Freya
+		Gabrielle Genevieve Giselle Grace
+		Helena Henrietta Holly Honora
+		Isolde Isoldea Ivanna
+		Jacqueline Jana Jessa Juliana
+		Kara Katrine Kendra Kira
+		Lydia Lillian Loretta Lucille
+		Madeleine Maribelle Marianne Meredith Miranda
+		Natalia Neria Noelle
+		Rosalind Rosamund Rowena Ruby
+		Sabine Selene Seraphine Sophia
+		Tabitha Teresa Thalia
+	}	
+	common_last_names={
+		Ashford Ashcombe Amberfall Arkwright
+		Bannister Barrow Blackwood Bradford Brighthill
+		Caldwell Carrington Claybourne Coldwater Cumberdale
+		Davenport Dawnhollow Dunwald Duskwood Dryden
+		Eastbrook Edgewater Eldridge Everard
+		Fairchild Falkenrath Farrow Fenwick Fletcher
+		Gainesford Gallant Goldwin Graystone Greymark
+		Hadley Halberg Halloway Hartwood Hawthorne
+		Kingsley Kirkland Knightwell
+		Langford Lightborne Lockridge Longford
+		Marwood Medford Merriweather Millford Montclair
+		Pemberton Pendrake Preston Proudmore
+		Ravenhill Redwyne Rockwell Rosemont Rowanfield
+		Salisbury Silverfield Southwick Steelbrook Stonehelm
+		Tallis Tarrowhill Thornewood Truesdale
+		Wainwright Walden Westbrook Whitlock Windermere
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+stormwindian = {
+	color = rgb{ 0 60 190 }
+	religion = holy_light
+	traits = { plains haunted_forest temperate_forest human_heritage }
+	male_common_first_names={
+		Alric Andren Armand Arthus Ashford
+		Bennard Bertram Bordan Brandon Brom
+		Cedric Cormac Corbin Cullan Cyran
+		Darian Darius Denholm Derrick Dunstan
+		Edric Edwin Eldric Emmett Eryndor
+		Falric Fenric Fergus Finnan Frandor
+		Gareth Garret Gideon Godric Gregor
+		Hadrian Halric Harlan Hendrik Horace
+		Jared Joran Jorric Josiah Julian
+		Landon Lorian Lucan Luthor Lyric
+		Malric Marcus Mathis Merrick Myles
+		Nathaniel Neville Norric Nolan
+		Percival Perrin Prescott Preston
+		Randall Raymond Reginald Roland Rowan
+		Samuel Sebastian Serric Sigurd Stefan
+		Tobias Tristan Turald Tybalt
+	}
+	female_common_first_names = {
+		Adeline Alena Alisandra Amelia Annabeth Aria
+		Beatrice Belinda Bethany Brianna Brigid
+		Catherine Celia Charlotte Clarisse Colette
+		Daphne Delilah Diana Doriane Dylena
+		Eleanor Elinor Elise Eliza Eveline
+		Fiona Felicia Florence Freya
+		Gabrielle Genevieve Giselle Grace
+		Helena Henrietta Holly Honora
+		Isolde Isoldea Ivanna
+		Jacqueline Jana Jessa Juliana
+		Kara Katrine Kendra Kira
+		Lydia Lillian Loretta Lucille
+		Madeleine Maribelle Marianne Meredith Miranda
+		Natalia Neria Noelle
+		Rosalind Rosamund Rowena Ruby
+		Sabine Selene Seraphine Sophia
+		Tabitha Teresa Thalia
+	}	
+	common_last_names={
+		Ashford Ashcombe Amberfall Arkwright
+		Bannister Barrow Blackwood Bradford Brighthill
+		Caldwell Carrington Claybourne Coldwater Cumberdale
+		Davenport Dawnhollow Dunwald Duskwood Dryden
+		Eastbrook Edgewater Eldridge Everard
+		Fairchild Falkenrath Farrow Fenwick Fletcher
+		Gainesford Gallant Goldwin Graystone Greymark
+		Hadley Halberg Halloway Hartwood Hawthorne
+		Kingsley Kirkland Knightwell
+		Langford Lightborne Lockridge Longford
+		Marwood Medford Merriweather Millford Montclair
+		Pemberton Pendrake Preston Proudmore
+		Ravenhill Redwyne Rockwell Rosemont Rowanfield
+		Salisbury Silverfield Southwick Steelbrook Stonehelm
+		Tallis Tarrowhill Thornewood Truesdale
+		Wainwright Walden Westbrook Whitlock Windermere
 	}
 	graphics = european
 	ethnicities = {
@@ -292,35 +547,6 @@ nesingway_human = {
 	color = rgb{ 85 171 87 }
 	religion = protestant
 	traits = { nesingway human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scarlet_crusade_human = {
-	color = rgb{ 207 37 11 }
-	religion = protestant
-	traits = { scarlet_crusade human_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -495,64 +721,6 @@ southsea_human = {
 	color = rgb{ 32 60 157 }
 	religion = protestant
 	traits = { pirate human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stormwind_human = {
-	color = rgb{ 0 60 190 }
-	religion = protestant
-	traits = { alliance human_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-syndicate_human = {
-	color = rgb{ 66 40 214 }
-	religion = protestant
-	traits = { syndicate human_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

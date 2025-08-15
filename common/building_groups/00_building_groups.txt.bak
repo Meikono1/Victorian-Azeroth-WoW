@@ -400,8 +400,6 @@ bg_lead_mining = {
 bg_sulfur_mining = {
 	parent_group = bg_mining
 
-	default_building = building_sulfur_mine
-	
 	can_use_slaves = yes
 }
 

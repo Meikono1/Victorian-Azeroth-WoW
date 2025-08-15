@@ -4970,12 +4970,12 @@ BUILDINGS={
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 		}
-		region_state:RAVENTUSK_TROLLS={
+		region_state:REVANTUSK_TROLLS={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -4986,7 +4986,7 @@ BUILDINGS={
 				building="building_maize_farm"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=3
 					}
 				}
@@ -4997,7 +4997,7 @@ BUILDINGS={
 				building="building_fishing_wharf"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5008,7 +5008,7 @@ BUILDINGS={
 				building="building_logging_camp"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5019,7 +5019,7 @@ BUILDINGS={
 				building="building_shipyards"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5030,7 +5030,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5041,7 +5041,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=2
 					}
 				}
@@ -5132,12 +5132,12 @@ BUILDINGS={
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
 		}
-		region_state:RAVENTUSK_TROLLS={
+		region_state:REVANTUSK_TROLLS={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5148,7 +5148,7 @@ BUILDINGS={
 				building="building_cotton_plantation"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}
@@ -5159,7 +5159,7 @@ BUILDINGS={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=6
 					}
 				}
@@ -5170,7 +5170,7 @@ BUILDINGS={
 				building="building_livestock_ranch"
 				add_ownership={
 					country={
-						country="c:RAVENTUSK_TROLLS"
+						country="c:REVANTUSK_TROLLS"
 						levels=1
 					}
 				}

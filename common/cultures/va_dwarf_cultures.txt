@@ -27,28 +27,140 @@ aether_tech_dwarf = {
 	}
 }
 
-darkiron_dwarf = {
-	color = rgb{ 79 61 47 }
-	religion = protestant
-	traits = { darkiron dwarf_heritage }
+bronzebeard = {
+	color = rgb{ 130 65 20 }
+	religion = holy_light
+	traits = { alpine_plateau mountains dwarf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aldrin Anrik Arvold
+		Baerdun Balrik Berrond Brogan
+		Caldrik Cormag Cravorn
+		Dalmir Darrond Dravin Durim
+		Edran Eldric Ervorn
+		Fargrim Fendrik Fornor
+		Galrik Garrond Gildran Gorric
+		Hadric Harkun Hroldar
+		Jorvik Jundar Jurmin
+		Kadrin Kaelric Korrund
+		Logrin Lothar Lunric
+		Madrik Maevorn Morric
+		Nagrim Norric Nundral
+		Olrik Orvand Othric
+		Ragrim Raldor Rhundrik
+		Sigric Skorven Stenric
+		Thaldor Tharvik Thorric
+		Uldran Urik Uthric
+		Valdrin Vornak Vuldric
+		Warrik Wulfram
+		Zandric Zorvik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Adra Agra Alfhild Algrima Alna Ambera Anka Arda Arnhild Arvika
+		Baela Balindra Barda Beldra Belmara Bera Berhild Berla Berrisa Bjorna Brana Brelga Bryndis
+		Dagmar Daila Dalgrisa Dalmara Daria Darra Delga Dena Derra Dorna Draga Draldis Dulma
+		Eda Edda Eldris Elga Elira Elva Elyra Erida Eryndis
+		Fala Faldra Fara Fendra Ferisa Filda Finna Fiora Frela Frida
+		Galda Galmara Gara Gelda Gerda Gilda Gisra Glenda Grina Gudra Gunhild Gwyra
+		Hadda Haldra Halgrisa Halva Hanna Harla Helga Herda Hilda Hjolda Honra Hulda 
+		Idra Ilsa Inga Irda Isolde Ivara
+		Jalda Jarna Jorla
+		Kara Katla Kendra Klara Korla Kyra
+		Laina Lara Leira Lira Lorna Lyra
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Amberforge Amberhelm Anvilborn Anvilfist Anvilguard
+		Barrelshield Battlehammer Blackanvil Blackfist Blackhammer Boulderbrow Boulderfist Boulderforge Boulderhelm Boulderkeep Bronzeborn Bronzefist Bronzehammer Bronzekeep Bronzevein
+		Coalbrow Coalfist Coalforge Coalgrip Coalshield	Copperaxe Copperbrow Copperfist Copperforge Copperhelm
+		Deepbrow Deepdelve Deepforge Deephammer Deephelm Drakebrow Drakefist Drakeforge Drakehelm Drakeward
+		Emberaxe Emberforge Emberhammer Emberhelm Embershield
+		Flamebrow Flamefist Flameforge Flameguard Flamehelm
+		Goldaxe Goldbeard Goldbrow Goldfist Goldforge Graniteaxe Granitebrow Granitefist Graniteforge Granitehelm
+		Hammerbrow Hammerfist Hammerforge Hammerhelm Hammerward
+		Ironaxe Ironbeard Ironbrow Ironfist Ironforge Ironhelm
+		Kegbrow Kegbreaker Kegfist Kegforge Kegshield
+		Moltenaxe Moltenbrow Moltenfist Moltenforge Moltenhelm
+		Oathbrow Oathfist Oathforge Oathhammer Oathhelm
+		Rockbrow Rockfist Rockforge Rockhelm Rockward
+		Steelaxe Steelbrow Steelfist Steelforge Steelhelm Stoneaxe Stonebrow Stonefist Stoneforge Stonehelm	Strongbrow Strongfist Strongforge Stronghelm Strongward
+		Thunderaxe Thunderbrow Thunderfist Thunderforge Thunderhelm
 	}
-	male_regal_first_names = {
-		regaltest
+	graphics = european
+	ethnicities = {
+		1 = caucasian
 	}
-	female_regal_first_names = {
-		regaltest
+}
+
+darkiron = {
+	color = rgb{ 79 61 47 }
+	religion = fire_lords
+	traits = { vulcanic gorge dwarf_heritage }
+	male_common_first_names={
+		Adrik Agron Alvaris Ambrik Anrik Argrim
+		Baldric Berrond Blackrin Borvik Branthor Bryndar
+		Calgrim Cindric Corvran
+		Dalmor Dargrom Darnak Dhorric Dravric Drumnar
+		Eldric Emberan Emrik Eryndor
+		Falkrin Fargrim Fendric Forvran
+		Galrik Garrond Gevran Graldric Grimthor
+		Haldrik Harvran Helrik Horvik Hroldan
+		Ignar Ilgrin Irvran
+		Jandric Jorvik Jorund
+		Kaldric Karvran Keldran Khorvik
+		Lazrik Lornak Lorvik
+		Magron Maldrik Marvran Morgrin Myrkan
+		Nagrim Norvik
+		Olrik Ordran Orvik Othrik
+		Ragvar Raldrik Randran Rhogar
+		Sarnak Selgrin Strovran
+		Thalric Tharvran Thorgin Thrain Throndar
+		Ulgrin Urvak
+		Valdrik Vargron Vornak
+		Wulrik Wyrdan
+		Zagric Zarnak Zorvik
+	}
+	female_common_first_names = {
+		Aedritha Agnyra Alvara Ambrissa Ashyra
+		Beryntha Bravira Bryndis
+		Calvara Cindrya Cravissa
+		Dalmira Dargwynn Dravissa Drosmira
+		Eldrynn Emberra Emyra Eryndis
+		Falgwynn Farvissa Feryntha
+		Gavissa Glavira Grunhild
+		Halvara Hesmira Hravissa
+		Ildwynn Ingra Ithara
+		Javissa Jolmara Joryntha
+		Kavira Kildrith Koryssa
+		Lazmira Lethwyn Loryndra
+		Magrynn Malvissa Mavira Myrris
+		Naldra Norvissa Nyssira
+		Olvanna Oryndra Ozmira
+		Pravira Pyrissa
+		Ravissa Rhendrya Rilvara
+		Seldra Seraviss Sylmira
+		Thavira Thoryndra Thyssira
+		Umbriss Urynda
+		Valmyra Vethriss Voryndra
+		Wyrnissa
+		Xavira Xoryntha
+		Ylvara Ysmira
+		Zavissa Zoryndra
+	}
+	common_last_names={
+		Ashbreaker Ashmantle Ashvein
+		Blackbraze Blackcinder Blackflint
+		Coalspire Coalvein Coppermantle
+		Darkdelve Darkflame Darkvein Dreadbrow
+		Emberdeep Emberforge Embermantle
+		Firebrow Firefury Firemaul Flamechain Flameheart Flamevein Flintlash Forgeborne Forgeflame Forgestrike
+		Goldbraze Goldmantle Goldvein Grimdelve Grimfury Grimward
+		Hammerbraze Hammerdeep Hammerlash
+		Ironbraze Irondelver Ironmantle Ironsurge
+		Lavaforge Lavamaul Lavashard
+		Magmablood Magmacoil Magmaheart	Moltenlash Moltenward Mornbraze
+		Pyrestone Pyrethane Pyreheart
+		Rockgrip Rockmantle Rockshard
+		Shadowbraze Shadowmantle Shardvein Smeltbane Smeltbraze Smeltlash Steelbraze Steelmantle Steelward Stonebraze Stonemaul Stoneshard
+		Thunderbraze Thunderdeep Thunderlash
 	}
 	graphics = european
 	ethnicities = {
@@ -89,35 +201,6 @@ honor_hold_dwarf = {
 	color = rgb{ 135 108 51 }
 	religion = protestant
 	traits = { honorhold dwarf_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ironforge_dwarf = {
-	color = rgb{ 130 65 20 }
-	religion = protestant
-	traits = { alliance dwarf_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -288,35 +371,6 @@ stormspike_dwarf = {
 	}
 }
 
-twilight_hammer_darkiron_dwarf = {
-	color = rgb{ 56 28 60 }
-	religion = protestant
-	traits = { twilight_hammer darkiron dwarf_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 twilight_hammer_dwarf = {
 	color = rgb{ 106 46 115 }
 	religion = protestant
@@ -346,28 +400,79 @@ twilight_hammer_dwarf = {
 	}
 }
 
-wildhammer_dwarf = {
+wildhammer = {
 	color = rgb{ 93 133 42 }
-	religion = protestant
-	traits = { wildhammer dwarf_heritage }
+	religion = shamanism
+	traits = { highlands dense_forest dwarf_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aedric Aelfgar Aerik Aidan Alrik Ardan Argrim Arik Arthen
+		Balrik Bardin Barik Barlog Barundin Belgar Belrik Belthor Berrin Bjorn
+		Dagran Dain Dalrik Darrin Darruk Deldrin Dengar Dhorin Dorgrim Dragan
+		Edrik Egdar Eldrik Elgrim Elrik Emgar Engar Enrik Ergrim Erthor
+		Faldin Falgrim Falkar Fargrim Farnir Felrik Fendrel Fergin Flindar Fraldin
+		Galdor Galrik Garrin Garrold Garvin Geirrik Gildor Gilrik Gindar Gorrim
+		Hadric Haldor Halgar Halrik Hamrin Harik Hargrim Harkin Harnor Havrik
+		Ingmar Ingor Ingrim Inrik Irgrim Isgar Isgrim Ivar Ivrik
+		Jadrin Jalkar Jarnin Jarvik Jerrin Jolrik Jornik Jorric
+		Kadrin Kalrik Kargrim Karik Keldrin Kendrik Kerik Kharlir Kilmar Kragdin
+		Ladric Largan Larik Lendrin Lergor Lhorin Lirgar Logrin Lornik Ludrik
+		Magdin Magrik Maldrin Malgar Mandrik Mardor Marik Melgar Mendrin Merik
+		Naldor Nalgrim Nandor Narik Neldrin Nerik Norgrim Nordrin Norik
+		Odrik Ogrim Olrik Ordrin Orek Orik Orin Orvik Osric
+		Ragdin Ragthor Raldrin Raldor Ranrik Rargrim Redrin Regnar Relrik Rendin
+		Thaldin Thargrim Tharnor Tharvik Theldrin Thoradin Thordrin Thorik Thrain Throrin
+		Uldar Uldrin Ulfgar Ulgrim Ulrik Urdrin Urik Urthor
+		Vagric Valdrin Valgar Valrik Vandor Vargrim Varrin Velgar Vendrik Vernik
+		Zandor Zargrim Zeldrin Zelgar Zorik Zurnik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aeryn Ailith Ainae Aisla Alwyn Arabeth Arlaith Ashael Astrid
+		Briana Brinya Brisla Bryndra Brynja Brona Bruni Bryndis
+		Caelia Caira Cerys Cinna Clanya Crisa Cydra Cylvie
+		Daenra Daerwyn Dagnae Daria Delyth Derwynn Donara Drusla
+		Eilith Eira Eithra Elana Elswyn Elvara Emrya Enid Enyra
+		Fayra Fendra Ferisla Feryn Fialla Fiora Flidwyn Freina Freydis
+		Garaneth Gelra Gereth Gilda Glendra Glissa Grania Gryssa
+		Halyra Harwen Hazra Helvia Henwen Herla Hesta Hilwen Hroda
+		Idrisla Idwina Ilvara Ingra Inwynn Iretha Iridwen Isolde
+		Jalvia Janwynn Jaraeth Jendrya Jessra Jolva Joryn Junla
+		Kaerith Kaewyn Kaida Kaithra Kalwena Kerith Keva Kinna Klyra
+		Lareyn Leitha Lenwynn Liora Lirwen Loryssa Lowenna Lysra
+		Maebh Maerith Maigra Maithra Malwyn Mariel Meira Merlith Morwen
+		Nadria Naimra Nalwen Nariel Neryssa Nevara Niamra Norwyn
+		Odwena Olraeth Olwyn Onara Orlaith Orwyn Osthra Osyra
+		Raisa Ralwen Ranwynn Rhaella Rhessa Rhianwyn Rhisla Rolva Rowyn
+		Sabria Saelaeth Saewyn Seraeth Serenya Shaedra Shaelis Sharaen
+		Talaeth Tamra Tandra Taowyn Teriel Thelwyn Thressa Thrynn Tynra
+		Ulaeth Unaev Urda Uridwen Urwen Uthra Uwynna
+		Vaelis Valwen Vandra Vareith Varyssa Velwen Verisla Veyra
+		Zadryn Zaelis Zahra Zalwynn Zandra Zarelis Zelyra Zorwyn
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Amberpeak Amberwing Amberwind
+		Battlebrow Battlecry Battleforge
+		Blackfeather Blackflight Blackpeak Blackwind
+		Blazewing Blazepeak Blazeforge
+		Boulderbeard Boulderforge Boulderpeak
+		Brightsky Brightstorm Brightwing
+		Cloudbreaker Cloudfeather Cloudforge Cloudpeak Cloudwing
+		Dawnfeather Dawnforge Dawnpeak Dawnwind
+		Eaglecry Eaglefeather Eagleflight Eaglewind
+		Falconbrow Falconcry Falconfeather Falconwing
+		Flameforge Flamepeak Flamewing
+		Frostbeard Frostfeather Frostforge Frostpeak Frostwing
+		Goldfeather Goldflight Goldforge Goldpeak Goldwind
+		Hammerpeak Hammerstorm Hammerwing
+		Highfeather Highflight Highforge Highpeak Highwind
+		Ironfeather Ironflight Ironforge Ironpeak Ironwind
+		Keenfeather Keenflight Keenforge Keenpeak
+		Lightfeather Lightforge Lightpeak Lightwind
+		Mountainbrow Mountainfeather Mountainforge Mountainpeak Mountainwind
+		Skybrow Skybreaker Skyfeather Skyforge Skypeak Skywind Skywing
+		Starbrow Starfeather Starforge Starpeak Starwind Starwing
+		Stormbeard Stormbrow Stormbreaker Stormfeather Stormflight Stormforge Stormpeak Stormwind Stormwing
+		Thunderbrow Thunderbreaker Thunderfeather Thunderflight Thunderforge Thunderpeak Thunderwind Thunderwing
+		Windbrow Windbreaker Windfeather Windflight Windforge Windpeak Windstorm Windwing
 	}
 	graphics = european
 	ethnicities = {

@@ -1,61 +1,3 @@
-bloodscalp_troll = {
-	color = rgb{ 196 143 70 }
-	religion = protestant
-	traits = { bloodscalp troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-darkspear_troll = {
-	color = rgb{ 49 51 137 }
-	religion = protestant
-	traits = { horde troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 dire_troll = {
 	color = rgb{ 191 168 62 }
 	religion = amani_loa
@@ -142,7 +84,7 @@ dire_troll = {
 forest_troll = {
 	color = rgb{ 191 168 62 }
 	religion = amani_loa
-	traits = { ancient_forest haunted_forest troll_heritage }
+	traits = { dense_forest haunted_forest troll_heritage }
 	male_common_first_names={
 		Arakaz Azgoth 
 		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
@@ -251,144 +193,82 @@ frostmane_troll = {
 	}
 }
 
-gurubashi_troll = {
+jungle_troll = {
 	color = rgb{ 186 230 97 }
-	religion = protestant
-	traits = { gurubashi troll_heritage }
+	religion = voodoo
+	traits = { jungle troll_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Arakaz Azgoth 
+		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
+		Draknar Drakol Drukmar Drukol Drungar Druthak Drokath Druzgar Druzol Drogmar Drogul
+		Ekrath
+		Furgol
+		Gharzak Gromak Gromthar Grumak Gurnak
+		Hrukak Hrukar Hrukol
+		Kargath Kargol Krugol Krumak Krulak Krulgor Krugor Krogar Krogath Krogmok Krogthul Krogul
+		Lokgar Lokmar Loknar Lokthar Lokthul Lorkan Lurzak Lurthak
+		Maglok Magrok Maglor Moknar Mokthar Morgak Morgor Morgul Morgrak Morgrul Morlok Mugrak Murzak
+		Nargath Nargol Nurmar Nurzak
+		Ormar Orzak Othgar Othrak
+		Prazak Prazul
+		Rukath Rukmar Rulgar Rumak Rurmar Rurzak Rokgar Rokmok Rokthar
+		Sargath Sargol Surmak Surzak
+		Tharzak Thokgar Thokmok Thoknar Thorgar Thorgul Thrakgar Thrakthul Thulmok Thrukar Thurgak Thurgol Trugath Trugor Truzak
+		Urgak Urgath Uthmar Uthrak
+		Vrakol Vrumak
+		Wurgath Wurzak
+		Xurmak Xurzak
+		Yargol Yurmok
+		Zulgar Zulgrak Zulgrul Zulmar Zulmok Zulnar Zulrok Zulthak Zulthar Zulthul Zulzak Zulnar Zurmak Zurzak
 	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+	female_common_first_names={
+		Akara Aranya 
+		Belira Berina Briala 
+		Calina Calira Celina 
+		Delira Delya Drala 
+		Elara Elina Elira 
+		Farila Farya Fena Feriha 
+		Galena Galira Garia Gelya 
+		Halara Helia Helina Helya 
+		Ilana Ilina Ilira Ilyna 
+		Jara Jelya Jessa 
+		Kala Kena Kelna Kira 
+		Laria Lira Lyna Mela 
+		Melya Melia Melira 
+		Nala Nela Nira 
+		Orina Olina 
+		Pela Pelya 
+		Qira Quira 
+		Ralia Relya Rina 
+		Saria Sela 
+		Talia Tena Tira 
+		Ulina Ulira 
+		Vela Velya 
+		Wina Wira Xana 
+		Xalia 
+		Yara Yela Yelna 
+		Zelia Zena Zira
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lower_city_troll = {
-	color = rgb{ 143 127 236 }
-	religion = protestant
-	traits = { lowercity troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-mossflayer_troll = {
-	color = rgb{ 122 187 74 }
-	religion = protestant
-	traits = { mossflayer troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-orgrimmar_troll = {
-	color = rgb{ 178 217 56 }
-	religion = protestant
-	traits = { horde troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-raventusk_troll = {
-	color = rgb{ 217 197 56 }
-	religion = protestant
-	traits = { raventusk troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Akumba 
+		Banaga Baraga Bwana 
+		Chaka 
+		Dazaga Dongo Duroga 
+		Gamba Goroha 
+		Hakuma 
+		Jahari Jamba Jingo 
+		Kamba Konga Kumala 
+		Lakota Lumba 
+		Makala Mamba Mzinga 
+		Nakala Namara Nimba Nkumba Nyala 
+		Okuma Onaga 
+		Pakala Pamba 
+		Ramba Samala 
+		Shaka Shimba Simba Sokala 
+		Tangala Thonga Tumba Tumala 
+		Wanga Wemba Winga 
+		Yamba 
+		Zamba Zinga Zimba
 	}
 	graphics = european
 	ethnicities = {
@@ -429,238 +309,6 @@ shadowcouncil_troll = {
 	color = rgb{ 90 119 204 }
 	religion = protestant
 	traits = { shadowcouncil troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shatari_skyguard_troll = {
-	color = rgb{ 120 199 50 }
-	religion = protestant
-	traits = { shatari_skyguard troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shatterspear_troll = {
-	color = rgb{ 150 220 49 }
-	religion = protestant
-	traits = { shatterspear troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stonebreaker_troll = {
-	color = rgb{ 155 193 16 }
-	religion = protestant
-	traits = { thrallmar troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-thrallmar_troll = {
-	color = rgb{ 102 167 52 }
-	religion = protestant
-	traits = { thrallmar horde troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-twilight_hammer_troll = {
-	color = rgb{ 60 154 205 }
-	religion = protestant
-	traits = { twilight_hammer troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-skullsplitter_troll = {
-	color = rgb{ 106 206 146 }
-	religion = protestant
-	traits = { skullsplitter troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-vilebranch_troll = {
-	color = rgb{ 66 156 61 }
-	religion = protestant
-	traits = { vilebranch troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-whiterbark_troll = {
-	color = rgb{ 28 144 68 }
-	religion = protestant
-	traits = { whiterbark troll_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

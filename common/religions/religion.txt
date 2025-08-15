@@ -144,7 +144,23 @@ amani_loa = {
 	traits = {
 		loa
 	}
-	color = { 0.0 0.0 0.0 }
+	color = { 137 199 62 }
+}
+
+black_dragon_worship = {
+	texture = "gfx/interface/icons/religion_icons/dragon_black.dds"
+	traits = {
+		dragon
+	}
+	color = { 10 0 10 }
+}
+
+brotherhood_light = {
+	texture = "gfx/interface/icons/religion_icons/holy_light.dds"
+	traits = {
+		light
+	}
+	color = { 159 198 212 }
 }
 
 burning_legion = {
@@ -153,6 +169,46 @@ burning_legion = {
 		demonic
 	}
 	color = { 222 40 40 }
+}
+
+call_of_wild = {
+	texture = "gfx/interface/icons/religion_icons/cenarion.dds"
+	traits = {
+		druidism
+	}
+	color = { 14 140 81 }
+}
+
+candle = {
+	texture = "gfx/interface/icons/religion_icons/candle.dds"
+	traits = {
+		geomancy
+	}
+	color = { 178 184 22 }
+}
+
+elune = {
+	texture = "gfx/interface/icons/religion_icons/cenarion.dds"
+	traits = {
+		druidism
+	}
+	color = { 50 138 227 }
+}
+
+fire_lords = {
+	texture = "gfx/interface/icons/religion_icons/firelord.dds"
+	traits = {
+		elements
+	}
+	color = { 160 20 50 }
+}
+
+green_dragon_worship = {
+	texture = "gfx/interface/icons/religion_icons/dragon_green.dds"
+	traits = {
+		dragon
+	}
+	color = { 14 140 81 }
 }
 
 great_tide = {
@@ -168,7 +224,55 @@ holy_light = {
 	traits = {
 		light
 	}
-	color = { 0.2 0.3 1.0 }
+	color = { 245 239 144 }
+}
+
+ogre_elements = {
+	texture = "gfx/interface/icons/religion_icons/ogre_elements.dds"
+	traits = {
+		elements
+	}
+	color = { 92 47 2 }
+}
+
+twilight_hammer = {
+	texture = "gfx/interface/icons/religion_icons/twilight_hammer.dds"
+	traits = {
+		old_gods
+	}
+	color = { 161 71 191 }
+}
+
+scarlet_crusade = {
+	texture = "gfx/interface/icons/religion_icons/scarlet.dds"
+	traits = {
+		light
+	}
+	color = { 196 4 4 }
+}
+
+scourge = {
+	texture = "gfx/interface/icons/religion_icons/scourge.dds"
+	traits = {
+		undead
+	}
+	color = { 86 7 133 }
+}
+
+shadra_loa = {
+	texture = "gfx/interface/icons/religion_icons/loa.dds"
+	traits = {
+		loa
+	}
+	color = { 120 191 19 }
+}
+
+shamanism = {
+	texture = "gfx/interface/icons/religion_icons/shaman.dds"
+	traits = {
+		elements
+	}
+	color = { 194 112 45 }
 }
 
 the_elements = {
@@ -176,6 +280,14 @@ the_elements = {
 	traits = {
 		elements
 	}
-	color = { 1.0 1.0 1.0 }
+	color = { 0 0 0 }
+}
+
+voodoo = {
+	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	traits = {
+		loa
+	}
+	color = { 122 233 255 }
 }
 

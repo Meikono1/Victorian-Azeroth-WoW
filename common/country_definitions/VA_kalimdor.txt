@@ -16,7 +16,7 @@ BEAL_DUN = {
 	
 	tier = empire
 	
-	cultures = { ironforge_dwarf }	
+	cultures = { bronzebeard }	
 	capital = STATE_BAEL_MODAN
 }
 
@@ -27,7 +27,7 @@ BATHRANS_HAUNT = {
 	
 	tier = empire
 	
-	cultures = { undercity_forsaken_undead }	
+	cultures = { banshee }	
 	capital = STATE_MAESTRAS_POST
 }
 
@@ -49,7 +49,7 @@ BLACK_DRAGONFLIGHT_ONYXIA = {
 	
 	tier = empire
 	
-	cultures = { black_dragonkin_blackwing_dragon }	
+	cultures = { black_dragon }	
 	capital = STATE_ONYXIAS_LAIR
 }
 
@@ -60,7 +60,7 @@ BLACK_DRAGONFLIGHT_SABLE = {
 	
 	tier = empire
 	
-	cultures = { black_dragonkin_blackwing_dragon }	
+	cultures = { black_dragon }	
 	capital = STATE_TOWER_OF_ELDARA
 }
 
@@ -137,7 +137,7 @@ BOULDERSLIDE_KOBOLD = {
 	
 	tier = empire
 	
-	cultures = { boulderslide_kobold }	
+	cultures = { kobold }	
 	capital = STATE_WEBWINDER_HOLLOW
 }
 
@@ -269,7 +269,7 @@ DARKSPEAR = {
 	
 	tier = empire
 	
-	cultures = { darkspear_troll }	
+	cultures = { jungle_troll }	
 	capital = STATE_DARKSPEAR_HOLD
 }
 
@@ -291,7 +291,7 @@ DARNASSUS = {
 	
 	tier = empire
 	
-	cultures = { darnassus_nightelf }	
+	cultures = { kal_dorei }	
 	capital = STATE_DARNASSUS
 }
 
@@ -302,7 +302,7 @@ DARNASSUS_OUTPOST = {
 	
 	tier = empire
 	
-	cultures = { darnassus_nightelf }	
+	cultures = { kal_dorei }	
 	capital = STATE_FOREST_SONG
 }
 
@@ -401,7 +401,7 @@ EVERLOOK = {
 	
 	tier = empire
 	
-	cultures = { steamwheedle_goblin }	
+	cultures = { goblin }	
 	capital = STATE_EVERLOOK
 }
 
@@ -489,7 +489,7 @@ GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS = {
 	
 	tier = empire
 	
-	cultures = { green_dragonkin_dragon }	
+	cultures = { green_dragon }	
 	capital = STATE_FOREST_SONG
 }
 
@@ -500,7 +500,7 @@ GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
 	
 	tier = empire
 	
-	cultures = { green_dragonkin_dragon }	
+	cultures = { green_dragon }	
 	capital = STATE_DREAM_BOUGH
 }
 
@@ -511,7 +511,7 @@ GREYMIST_MURLOC = {
 	
 	tier = empire
 	
-	cultures = { greymist_murloc }	
+	cultures = { warmwater_murloc }	
 	capital = STATE_SHATTERSPEAR_WAR_CAMP
 }
 
@@ -643,7 +643,7 @@ HONOR_STAND = {
 	
 	tier = empire
 	
-	cultures = { stormwind_human }	
+	cultures = { stormwindian }	
 	capital = STATE_HUNTERS_HILL
 }
 
@@ -786,7 +786,7 @@ MARSHAL_EXPEDITION = {
 	
 	tier = empire
 	
-	cultures = { stormwind_human }	
+	cultures = { stormwindian }	
 	capital = STATE_LAKKARI_TAR_PITS
 }
 
@@ -797,7 +797,7 @@ MIREFIN_MURLOC = {
 	
 	tier = empire
 	
-	cultures = { mirefin_murloc }	
+	cultures = { warmwater_murloc }	
 	capital = STATE_DREADMURK_SHORE
 }
 
@@ -841,7 +841,7 @@ NORTHWATCH_EXPEDITION = {
 	
 	tier = empire
 	
-	cultures = { stormwind_human }	
+	cultures = { stormwindian }	
 	capital = STATE_UNEARTHED_GROUNDS
 }
 
@@ -852,7 +852,7 @@ ORGRIMMAR = {
 	
 	tier = empire
 	
-	cultures = { orgrimmar_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_ORGRIMMAR
 }
 
@@ -940,7 +940,7 @@ SENTINELS = {
 	
 	tier = empire
 	
-	cultures = { darnassus_nightelf }	
+	cultures = { kal_dorei }	
 	capital = STATE_FEATHERMOON_STRONGHOLD
 }
 
@@ -962,7 +962,7 @@ SHADOWPREY = {
 	
 	tier = empire
 	
-	cultures = { darkspear_troll }	
+	cultures = { jungle_troll }	
 	capital = STATE_GELKIS_VILLAGE
 }
 
@@ -984,7 +984,7 @@ SHATTERSPEAR = {
 	
 	tier = empire
 	
-	cultures = { shatterspear_troll }	
+	cultures = { jungle_troll }	
 	capital = STATE_SHATTERSPEAR_WAR_CAMP
 }
 
@@ -1006,7 +1006,7 @@ SILTFIN_MURLOC = {
 	
 	tier = empire
 	
-	cultures = { siltfin_murloc }	
+	cultures = { warmwater_murloc }	
 	capital = STATE_WILDWIND_PEAK
 }
 
@@ -1017,7 +1017,7 @@ SILVERWING_OUTPOST = {
 	
 	tier = empire
 	
-	cultures = { orgrimmar_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_SPLINTERTREE_POST
 }
 
@@ -1138,7 +1138,7 @@ TALONBRANCH_GUARDIAN = {
 	
 	tier = empire
 	
-	cultures = { talonbranch_worgen }	
+	cultures = { tal_dorens }	
 	capital = STATE_TALONBRANCH_GLADE
 }
 
@@ -1149,7 +1149,7 @@ THAL_DARAH = {
 	
 	tier = empire
 	
-	cultures = { darnassus_nightelf }	
+	cultures = { kal_dorei }	
 	capital = STATE_THAL_DARAH_GROVE
 }
 
@@ -1270,7 +1270,7 @@ VERIDIAN_DRAGONFLIGHT = {
 	
 	tier = empire
 	
-	cultures = { black_dragonkin_blackwing_dragon }	
+	cultures = { black_dragon }	
 	capital = STATE_WYRMSCARE_ISLAND
 }
 
@@ -1380,6 +1380,6 @@ XYLEM_OUTPOST = {
 	
 	tier = empire
 	
-	cultures = { stormwind_human }	
+	cultures = { stormwindian }	
 	capital = STATE_RUINS_OF_NORDESSA
 }

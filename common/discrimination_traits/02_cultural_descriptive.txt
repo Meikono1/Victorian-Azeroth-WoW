@@ -19,9 +19,6 @@ amani = {
 ancient_forest = {
 }
 
-andorhal = {
-}
-
 angorosh = {
 }
 
@@ -40,7 +37,7 @@ arcangolem = {
 areafiftytwo = {
 }
 
-argent_dawn = {
+arid_plateau = {
 }
 
 ashtoungue = {
@@ -52,10 +49,10 @@ auchenai = {
 azshir = {
 }
 
-bashir = {
+barren = {
 }
 
-blackrock = {
+bashir = {
 }
 
 blackmaw = {
@@ -64,13 +61,7 @@ blackmaw = {
 blackwood = {
 }
 
-black_dragon = {
-}
-
 bladespire = {
-}
-
-bloodscalp = {
 }
 
 bloodmaul = {
@@ -89,9 +80,6 @@ bloodscale = {
 }
 
 blue_dragon = {
-}
-
-bluegill = {
 }
 
 bogstrok = {
@@ -151,9 +139,6 @@ coilscar = {
 crown_chemical = {
 }
 
-crushridge = {
-}
-
 crystal = {
 }
 
@@ -169,9 +154,6 @@ daggerfen = {
 darkcrest = {
 }
 
-darkiron = {
-}
-
 darkscale = {
 }
 
@@ -182,6 +164,9 @@ dark_strand = {
 }
 
 deadwood = {
+}
+
+dense_forest = {
 }
 
 dragonmaw_clan = {
@@ -208,16 +193,10 @@ dryad = {
 dunemaul = {
 }
 
-dustbelcher = {
-}
-
 dustwind = {
 }
 
 earth_element = {
-}
-
-ebon_blade = {
 }
 
 eclipse_point = {
@@ -274,9 +253,6 @@ foulweald = {
 frostmane = {
 }
 
-frostwolf = {
-}
-
 galak = {
 }
 
@@ -286,34 +262,22 @@ gammoth_herd = {
 gelkis = {
 }
 
-glopgut = {
-}
-
 gnarlpine = {
 }
 
-gordunni = {
+gorge = {
 }
 
 gorloc = {
 }
 
-green_dragon = {
-}
-
 greyheart = {
-}
-
-greymist = {
 }
 
 grishnath = {
 }
 
 grimmtotem = {
-}
-
-gurubashi = {
 }
 
 haaleshi = {
@@ -331,6 +295,9 @@ haunted_forest = {
 hatefury = {
 }
 
+highlands = {
+}
+
 honorhold = {
 }
 
@@ -338,9 +305,6 @@ horde = {
 }
 
 illidary = {
-}
-
-ironhill = {
 }
 
 jaedenar = {
@@ -415,9 +379,6 @@ mana_element = {
 maroudin = {
 }
 
-marshfin = {
-}
-
 marshlight = {
 }
 
@@ -425,9 +386,6 @@ mechanar = {
 }
 
 mechanical_golem = {
-}
-
-mirefin = {
 }
 
 mojache = {
@@ -439,19 +397,10 @@ moknathal = {
 moshogg = {
 }
 
-mossflayer = {
-}
-
 mountains = {
 }
 
-mudsnout = {
-}
-
 murkblood = {
-}
-
-murkgill = {
 }
 
 myrmidon = {
@@ -499,7 +448,16 @@ palemane = {
 phoenix = {
 }
 
+plateau = {
+}
+
 pirate = {
+}
+
+plagued_land = {
+}
+
+plains = {
 }
 
 protectorate = {
@@ -509,9 +467,6 @@ quagmirran = {
 }
 
 ravenous = {
-}
-
-raventusk = {
 }
 
 razaani = {
@@ -556,9 +511,6 @@ sandfury = {
 sarthis = {
 }
 
-scarlet_crusade = {
-}
-
 scourge = {
 }
 
@@ -595,9 +547,6 @@ shattered_hand = {
 shattered_sun = {
 }
 
-shatterspear = {
-}
-
 shade = {
 }
 
@@ -613,9 +562,6 @@ shienor = {
 skettis = {
 }
 
-siltfin = {
-}
-
 silverhand = {
 }
 
@@ -623,9 +569,6 @@ siren = {
 }
 
 skithian = {
-}
-
-skullsplitter = {
 }
 
 slitherblade = {
@@ -641,9 +584,6 @@ steamwheedle = {
 }
 
 stillpine = {
-}
-
-stonefist = {
 }
 
 stonemaul = {
@@ -673,9 +613,6 @@ sunhawk = {
 syndicate = {
 }
 
-talonbranch = {
-}
-
 talondruid = {
 }
 
@@ -689,6 +626,9 @@ thrallmar = {
 }
 
 timbermaw = {
+}
+
+tropical = {
 }
 
 tuurem = {
@@ -709,9 +649,6 @@ vashir = {
 venture_company = {
 }
 
-vilebranch = {
-}
-
 violeteye = {
 }
 
@@ -719,6 +656,9 @@ viraani = {
 }
 
 voidwalker = {
+}
+
+vulcanic = {
 }
 
 water_element = {
@@ -734,9 +674,6 @@ watchers = {
 }
 
 whiterbark = {
-}
-
-wildhammer = {
 }
 
 windfury = {
@@ -767,9 +704,6 @@ wrathscale = {
 }
 
 wrekt = {
-}
-
-wretched = {
 }
 
 wyrmcultist = {

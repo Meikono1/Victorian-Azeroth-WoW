@@ -130,6 +130,10 @@ infernal_heritage = {
 	heritage = yes
 }
 
+jungle = {
+	heritage = yes
+}
+
 keeper_heritage = {
 	heritage = yes
 }

@@ -16,7 +16,7 @@ POPS = {
 		}
 		region_state:GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS = {
 			create_pop = {
-				culture = green_dragonkin_dragon
+				culture = green_dragon
 				size = 500000
 			}
 		}
@@ -24,7 +24,7 @@ POPS = {
 	s:STATE_FEATHERMOON_STRONGHOLD = {
 		region_state:SENTINELS = {
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 330000
 			}
 		}
@@ -50,7 +50,7 @@ POPS = {
 		}
 		region_state:SENTINELS = {
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 500000
 			}
 		}
@@ -140,7 +140,7 @@ POPS = {
 		}
 		region_state:SENTINELS = {
 			create_pop = {
-				culture = darnassus_nightelf
+				culture = kal_dorei
 				size = 500000
 			}
 		}
@@ -206,7 +206,7 @@ POPS = {
 	s:STATE_GADGETZAN = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 500000
 			}
 		}
@@ -236,7 +236,7 @@ POPS = {
 	s:STATE_ABYSSAL_SANDS = {
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
+				culture = goblin
 				size = 1000000
 			}
 		}
@@ -300,7 +300,7 @@ POPS = {
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 500000
 			}
 		}
@@ -314,7 +314,7 @@ POPS = {
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 500000
 			}
 		}
@@ -328,7 +328,7 @@ POPS = {
 		}
 		region_state:MARSHAL_EXPEDITION = {
 			create_pop = {
-				culture = stormwind_human
+				culture = stormwindian
 				size = 500000
 			}
 		}

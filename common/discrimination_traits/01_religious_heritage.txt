@@ -26,7 +26,19 @@ demonic = {
 	heritage = yes
 }
 
+dragon = {
+	heritage = yes
+}
+
+druidism = {
+	heritage = yes
+}
+
 elements = {
+	heritage = yes
+}
+
+geomancy = {
 	heritage = yes
 }
 
@@ -35,5 +47,13 @@ light = {
 }
 
 loa = {
+	heritage = yes
+}
+
+old_gods = {
+	heritage = yes
+}
+
+undead = {
 	heritage = yes
 }

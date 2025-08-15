@@ -1,25 +1,78 @@
-bloodfang_worgen = {
+alpha_pack = {
 	color = rgb{ 169 47 84 }
-	religion = protestant
-	traits = { feral worgen_heritage }
+	religion = call_of_wild
+	traits = { dense_forest worgen_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Alaric Alfric Althric Arawn Athelric
+		Baldric Bane Bartok Berengar Blackfur Bram
+		Cadric Caelric Cerdric Corvan Crowfang
+		Dagrim Darrow Dredric Draven Dunric
+		Edric Eldric Elric Eryndor Evergrim
+		Fangrim Fenric Fenris Ferrow Forric
+		Garric Garrow Garruk Gaven Grimfang
+		Hadric Halric Harkon Harrow Hrothgar
+		Ivarr Ivric Ironfang Ironpaw
+		Jorric Jorvan Joryn Jorund
+		Kaelric Kain Karrow Kaelen Korrick
+		Lucan Lucien Lupin Luthor Lyric
+		Maddric Maelor Malric Mardric Morric
+		Nadric Naven Norric Nyric
+		Orvan Orric Osric Othric
+		Perric Perrin Pherric Prynn
+		Quarric Quenric Quinn
+		Rafford Ragnric Ralric Ravenor Roric
+		Saban Scarric Sevrin Shadowfang Sigric Silverclaw
+		Tavric Tharic Theron Thorian Torric Traven
+		Ulric Uric Uthric
+		Varric Veyric Vladric Vorric
+		Warren Warric Wulfric Wyric
+		Xaric Xerrin
+		Zaric Zorric
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Adara Aelwyn Aisling Alvara Amaris Arwyn
+		Brenna Briala Brigid Brynn
+		Cadwyn Caelra Cerys Cerridwen Colwyn
+		Daria Darwyn Delara Drusilla
+		Eira Eirwyn Elara Elswyth Enid Erelith
+		Faina Faolyn Fenra Fiora Frewyn
+		Gwenaria Gweneth Gwenneth Gwynneth Gwynra
+		Hadra Halwyn Hestara Hildra Hyra
+		Isolde Iswyn Ivra Iwyn
+		Kaera Kaelyn Karethra Kerra Kyrra
+		Lara Larethra Leira Leofwyn Lyra Lyneth
+		Maera Maeryn Malra Mavina Morwen Myra
+		Nara Neryth Neryssa Nivra Nolwyn
+		Olwyn Onara Orwyn Oswyn
+		Perra Perryn Pryra
+		Quenra Quinra
+		Ravara Rhiannon Rhiswyn Rowena Rwynra
+		Sablewyn Saeryn Selara Selwyn Serenya Shaera Shyra
+		Tahlra Talwyn Taryn Thalra Thera Thyra
+		Ulwyn Ura
+		Vera Veyra Viora Vorwyn
+		Wenna Weryn Wynra Wyneth
+		Xyra Xynra
+		Zara Zeryn
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashclaw Ashfang Ashhowl Ashmane
+		Balefang Baneclaw Banefang Blackfang Blackfur Blackmane Bloodfang Bloodmane
+		Clawthorn Coldfang Crowfang Crowmane
+		Darkclaw Darkfang Darkhowl Darkmane Duskfang Duskhowl Duskmane
+		Ebonclaw Ebonfang Ebonhowl Ebonmane
+		Fangbane Fangbreaker Fangclaw Fangheart Fanghowl Fangmane Fangrend Fangthorn
+		Gravefang Grayfang Grayfur Grayhowl Graymane Grimfang Grimhowl
+		Halfclaw Halfmane Hollowfang Hollowhowl Hollowmane Howlthorne
+		Ironfang Ironfur Ironhowl Ironmane
+		Longclaw Longfang Longhowl Longmane
+		Moonclaw Moonfang Moonfur Moonhowl Moonmane Moonshadow
+		Nightclaw Nightfang Nightfur Nighthowl Nightmane Nightpelt
+		Ravenfang Ravenfur Ravenhowl Ravenmane Redfang Redhowl Redmane
+		Shadowclaw Shadowfang Shadowfur Shadowhowl Shadowmane Sharpfang Sharpfur
+		Stormclaw Stormfang Stormfur Stormhowl Stormmane
+		Thornclaw Thornfang Thornhowl Thornmane
+		Wildclaw Wildfang Wildfur Wildhowl Wildmane Wolfclaw Wolffang Wolffur Wolfhowl Wolfmane
 	}
 	graphics = european
 	ethnicities = {
@@ -27,115 +80,88 @@ bloodfang_worgen = {
 	}
 }
 
-gilneas_worgen = {
-	color = rgb{ 50 92 182 }
-	religion = protestant
-	traits = { alliance worgen_heritage }
+tal_dorens = {
+	color = rgb{ 48 42 163 }
+	religion = call_of_wild
+	traits = { dense_forest highlands worgen_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Alaric Alistair Ambrose Andric Armand Ashford Ashric
+		Baldric Bane Bastien Benedict Bertram Bramwell Bryson
+		Cadric Calder Callum Cedric Corbin Corwin Crispin Cullen
+		Darius Darrow Desmond Dominic Douglas Draven Duncan
+		Edgar Edmund Edwin Elias Elliot Emrys Ernest Ewan
+		Fangric Fenric Fergus Finlay Francis Frederick
+		Garrick Gareth Geoffrey Gideon Godfrey Gregory Grimric
+		Hadric Hadrian Halric Harold Harkon Hector Henry Horace Howard Hugh
+		Iain Idris Ignatius Isaac Isidore Ivan
+		Jareth Jasper Jerome Jonathan Julian Julius
+		Kenneth Kieran Kingsley Kurtis Kyran
+		Lucan Lucien Lupin Luthor Lyric Lysandric
+		Malcolm Malric Marcus Martin Matthew Merrick Miles Morgan Mortimer
+		Nathaniel Neville Nicholas Nigel Norman
+		Oliver Orson Osric Owen
+		Patrick Percival Peter Phineas Prescott
+		Quentin Quinlan
+		Randall Raymond Reginald Rhys Richard Robert Roland Rowan Rupert
+		Samuel Sebastian Sevrin Silas Simon Stanley Stephen Sterling
+		Tobias Torric Tristan Tybalt
+		Ulric Uric Uthric
+		Varric Victor Vincent Virgil Vinton
+		Warren Warric Wesley Wilfred William Winston
+		Xaric Xerrin
+		Zaric Zorric
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Adelaide Agatha Aileen Ainsley Alice Alicia Amara Amelia Annabelle Arabella Arwyn Audrey Aveline
+		Beatrice Belinda Bernadette Blanche Brenna Brigid Brielle Brynn Bryony
+		Cadwyn Caelra Cerys Cerridwen Clarisse Colwyn Constance Cordelia
+		Daphne Davina Delara Delilah Diana Dorothy Drusilla
+		Eira Eirwyn Elara Eleanor Eliza Elizabeth Eloise Elsie Emily Emmeline Enid Esme Esther Evelyn
+		Faina Faolyn Felicity Fenra Fiora Florence Frances Frederica Freya
+		Gwenaria Gweneth Gwenneth Gwyneth Gwynra
+		Hadra Hadwyn Harriet Hazel Helena Henrietta Hestara Holly Honora Hope Hyra
+		Isolde Iswyn Ivra Ivy
+		Jacqueline Jane Jemima Joanna Josephine Julia Juliette June
+		Kaera Kaelyn Karethra Keira Kerra Kitty Kyrra
+		Lara Larethra Lavinia Leah Lenora Lillian Liora Louisa Lucille Lucy Lydia Lyra Lyneth
+		Maera Maeryn Madeleine Margaret Margot Maria Marianne Marigold Martha Matilda Maura Maureen May Mildred Millicent Minerva Miranda Morgana Morwen Muriel Myra Myris
+		Nadia Nara Neryth Neryssa Nivra Nolwyn Nora Norah
+		Olwyn Onara Ophelia Orla Oswyn
+		Patience Patricia Penelope Perryn Philippa Phoebe Portia Priscilla Prudence Pryra
+		Quenra Quinra
+		Rachel Rebecca Regina Rhiannon Rhiswyn Rosalind Rosamund Rose Rosemary Rowena Ruby Ruth Rwynra
+		Sablewyn Sabrina Sadie Saeryn Samantha Sarah Selara Selina Selwyn Serena Seraphine Shaera Shyra Sibyl Silvia Sophia Stella Susanna Sybil Sylvia
+		Tahlra Tabitha Talwyn Tamsin Taryn Teresa Theodora Thalra Thera Theresa Thirindra Thyra Tilly Tyressa
+		Ulwyn Ura Ursula
+		Valerie Valindra Vanessa Vera Veronica Victoria Viora Violet Virginia Vivienne Vorwyn
+		Wenna Weryn Willa Wilma Willow Winifred Winona Wyneth Wynra
+		Xyra Xynra
+		Zara Zalindra Zeryn Zerythia Zilendra
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nightbane_worgen = {
-	color = rgb{ 59 164 213 }
-	religion = protestant
-	traits = { feral worgen_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowfang_worgen = {
-	color = rgb{ 116 85 231 }
-	religion = protestant
-	traits = { feral worgen_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-talonbranch_worgen = {
-	color = rgb{ 85 176 231 }
-	religion = protestant
-	traits = { talonbranch worgen_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashbourne Ashclaw Ashdown Ashfang Ashford Ashhowl Ashmane Ashworth
+		Baneberry Baneclaw Banefang Banemane Barrowfield Bellingham Blackfang Blackfur Blackmane Blackthorne Blackwell Bloodfang Bloodmane Bloodworth Bramley Briarstone Brookhaven Browning
+		Candlewick Carrington Chatham Clawthorne Coldfang Coldwell Colgrave Collingwood Corbyn Crowfang Crowhurst Crowley Crowmane Cunningham
+		Davenport Dawnbury Dawnsworth Darkclaw Darkfang Darkhowl Darkmane Dewhurst Dunsmore Dunwell Duskmane
+		Eastcliff Eastwick Ebonclaw Ebonfang Ebonford Ebonfur Ebonhowl Ebonmane Eversfield Everwinter
+		Fairfax Fairweather Falkenridge Fangbane Fangbreaker Fangclaw Fangheart Fanghowl Fangmane Fangrend Fangthorn Fellbrook Fenwick Forrester Frostbourne
+		Gainsborough Gallowsfield Gilmour Goldcrest Goldsworth Gravefang Grayfang Grayfur Grayhowl Graymane Grimsbane Grimfang Grimhowl Grimwood
+		Hadley Halden Halversham Halfclaw Halfmane Halloway Hardwick Hargrave Harrowhill Hartwell Hawthorne Heathcliff Henslowe Hollowfang Hollowhowl Hollowmane Holloway Howarth Howlthorne
+		Ironfang Ironfur Ironhowl Ironmane
+		Kingswell Kingsworth Kirkbride Knightwick
+		Langley Lockwood Longclaw Longfang Longford Longhowl Longmane Loxley
+		Marlowe Marshwood Mayfair Merriweather Millstone Montford Moonclaw Moonfang Moonfur Moonhowl Moonmane Moonshadow Morningshade Mortlake Muirfield
+		Nightclaw Nightfang Nightfur Nighthowl Nightmane Nightpelt Northwood Norwick
+		Oakworth Oldham Ormsby
+		Pemberton Pendlewood Pennington Prescott Prestwick Proudmore
+		Ravenfang Ravenfur Ravenhill Ravenhowl Ravenmane Ravenscroft Redfang Redgrave Redhowl Redmane Redwyck Rosewood Rowanberry Rowley
+		Seabourne Seacliff Seaforth Shadowclaw Shadowfang Shadowfur Shadowhowl Shadowmane Shadowmere Shadwell Sharpfang Sharpfur Sheffield Silvermere Southwick Stonethorne Stormclaw Stormfang Stormfur Stormhowl Stormmane Stormwatch
+		Talloway Thistledown Thornclaw Thornfang Thornfield Thornhill Thornhowl Thornmane Thornecroft Throsby
+		Underwood Upminster
+		Valewood Vexley
+		Wainwright Wakefield Walden Westbrook Whitlock Whitmore Wickham Wildclaw Wildfang Wildfur Wildhowl Wildmane Windermere Winterbourne Withers Wolfclaw Wolffang Wolffur Wolfhowl Wolfmane Woolsey Worthing
+		Yardley Yewcroft
+		Zephyridge
 	}
 	graphics = european
 	ethnicities = {

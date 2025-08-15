@@ -29,37 +29,6 @@ bogstrok_makrura = {
 	}
 }
 
-bluegill_murloc = {
-	color = rgb{ 92 156 201 }
-	religion = protestant
-	traits = { bluegill murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 bogstrok_makrura = {
 	color = rgb{ 54 78 176 }
 	religion = protestant
@@ -122,37 +91,6 @@ coilfang_makrura = {
 	}
 }
 
-greymist_murloc = {
-	color = rgb{ 92 133 121 }
-	religion = protestant
-	traits = { greymist murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 makrinni_makrura = {
 	color = rgb{ 35 84 141 }
 	religion = protestant
@@ -184,103 +122,10 @@ makrinni_makrura = {
 	}
 }
 
-marshfin_murloc = {
-	color = rgb{ 63 161 182 }
-	religion = protestant
-	traits = { marshfin murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 marshlight_murloc_makrura = {
 	color = rgb{ 70 169 165 }
 	religion = protestant
 	traits = { marshlight makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-mirefin_murloc = {
-	color = rgb{ 98 171 206 }
-	religion = protestant
-	traits = { mirefin murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-murkgill_murloc = {
-	color = rgb{ 45 104 150 }
-	religion = protestant
-	traits = { murkgill murloc_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -374,37 +219,6 @@ murloc_makrura = {
 	color = rgb{ 42 119 153 }
 	religion = protestant
 	traits = { makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-siltfin_murloc = {
-	color = rgb{ 85 193 148 }
-	religion = protestant
-	traits = { siltfin murloc_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

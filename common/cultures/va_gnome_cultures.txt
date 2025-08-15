@@ -1,32 +1,3 @@
-blue_dragonkin_gnome_cultist = {
-	color = rgb{ 97 183 202 }
-	religion = protestant
-	traits = { cultist gnome_heritage }
-	male_common_first_names = {
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names = {
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 coilfang_lepergnome = {
 	color = rgb{ 81 164 100 }
 	religion = protestant
@@ -58,263 +29,93 @@ coilfang_lepergnome = {
 	}
 }
 
-gnomeregan_gnome = {
+gnome = {
 	color = rgb{ 183 119 198 }
-	religion = protestant
-	traits = { alliance gnome_heritage }
+	religion = holy_light
+	traits = { gnome_heritage }
 	male_common_first_names = {
-		Test Test Test Test Test Test
+		Alfrim Arbanik Arvold
+		Bendel Brixom Bronzwick
+		Cogrin Cramwick Crispal
+		Dindle Droven Drizzik
+		Eckran Eldibald Elwick
+		Farnwick Fizzelthor Flapwick
+		Gearrin Gimbald Grindlefex
+		Harlwick Hobbren Horvax
+		Irdon Izzimor
+		Jaspern Jaxthor Jorwick
+		Karnwick Kipplethor Krazmin
+		Lobbern Lothwick Lugrin
+		Marnox Mebrick Miglow
+		Neddrin Nogbal Norwick
+		Oddrin Ozwald
+		Pendelwick Pipthorn Plogrin
+		Quindlethor Quorvin
+		Razzwick Refton Rivvick
+		Sprocklin Stenwick Strindle
+		Tobwick Torvax Trindlethor
+		Ullwick Urbenik
+		Varnwick Vixthor Vobrin
+		Wexford Wickram Wilthor
+		Yarvick Yelbin Yorwick
+		Zobbern Zolwick Zurnik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Alvinka Ambrily Anselma Arlissa
+		Bendora Brixelle Bronia
+		Cogsira Crindleth Crispina
+		Dabblee Daxora Drimella
+		Edrina Elbetha Elwicka
+		Farnessa Fizzelle Flavina
+		Gearlina Gimbella Grizzabeth
+		Halvissa Hobnella Horvinka
+		Ilmara Inzella Izbrynn
+		Jassivine Jorvella Julinka
+		Kalbina Kippella Krezmira
+		Lornessa Luthwina Lybressa
+		Mavinka Melbina Mornissa
+		Nandrelle Nelwynn Norrissa
+		Olpina Ormilla Ozbrynn
+		Penvira Pipzella Plessica
+		Quivella Quorinna
+		Ravinda Rellith Rozmira
+		Sprockella Stenliss Stravina
+		Tavindra Tinkwilla Trinbess
+		Ulvessa Urmira
+		Valwynn Vixella Vornissa
+		Wenlissa Wickbrynn Wilessa
+		Yorbina Yrenka
+		Zebrinne Zorvella Zylissa
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Axlecrank Axleforge
+		Beltwhistle Blastcog
+		Cinderfuse Cogspinner Copperbolt
+		Dabblegear Dialsprocket
+		Ethercrank Everweld
+		Fiddlefuse Fizzlespark
+		Geargrind Gearwhistle Gearwick
+		Hammerwhistle Hexbolt
+		Ironspindle Ironwrench
+		Jogglebolt Jumpsprocket
+		Knicklegear Knobwhistle
+		Levergrind Lightspindle
+		Mainsprocket Mistcrank
+		Nailspindle Nutwhistle
+		Oilspindle Overcrank
+		Pipesprocket Platemender
+		Quickspanner Quillgear
+		Ratchetweld Rivetsprocket
+		Screwspindle Scrapgear Sparkblaster
+		Tinspindle Tweakforge
+		Uppersprocket Undercrank
+		Valvegrind Voltwhistle
+		Wedgeweld Whistleblast
+		Xenobolt Xylogear
+		Yanklever Yellowcrank
+		Zapperbolt Zincwhistle
 	}
 
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-honor_hold_gnome = {
-	color = rgb{ 143 95 205 }
-	religion = protestant
-	traits = { honorhold gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_gnome = {
-	color = rgb{ 118 200 247 }
-	religion = protestant
-	traits = { kirintor gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lower_city_gnome = {
-	color = rgb{ 91 38 121 }
-	religion = protestant
-	traits = { lowercity gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nesingway_gnome = {
-	color = rgb{ 122 73 131 }
-	religion = protestant
-	traits = { nesingway gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowcouncil_gnome = {
-	color = rgb{ 102 40 165 }
-	religion = protestant
-	traits = { shadowcouncil gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shatari_skyguard_gnome = {
-	color = rgb{ 32 133 122 }
-	religion = protestant
-	traits = { shatari_skyguard gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shattered_sun_gnome = {
-	color = rgb{ 184 100 169 }
-	religion = protestant
-	traits = { shattered_sun gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-twilight_hammer_gnome = {
-	color = rgb{ 53 13 101 }
-	religion = protestant
-	traits = { twilight_hammer gnome_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
 	graphics = european
 	ethnicities = {
 		1 = caucasian

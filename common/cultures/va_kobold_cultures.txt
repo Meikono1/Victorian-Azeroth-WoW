@@ -1,57 +1,89 @@
-boulderslide_kobold = {
+kobold = {
 	color = rgb{ 146 119 70 }
-	religion = protestant
-	traits = { boulderslide kobold_heritage }
+	religion = candle
+	traits = { gorge kobold_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Arkip Ashwick Azmut
+		Bandle Bazzrik Braggle Bronnit
+		Clinkit Cobber Cogwick Crindle
+		Dabblek Darnik Drizzle Droffit
+		Ebbik Elgrum Ervitt Ezbin
+		Fanglek Fazznor Fickwit Flindle
+		Grabbit Grindle Grizzle Gronkit
+		Hazzlit Hobwick Horkin Hurbit
+		Igrot Illbin Inklick
+		Jabbert Jickit Jorbin Jugbit
+		Kandlek Karfin Klobbit Kroznit
+		Laggit Lerrick Limplin Lobbin
+		Manglek Mazzrit Migbit Mornwick
+		Nabblek Nergin Nogbit Noxwick
+		Obrick Olfrin Onkle Ozzrat
+		Pindle Plagbit Porrick Pugnit
+		Quindle Quirbit Quobber
+		Ragbin Razzlit Rindle Robbit
+		Scragbit Snerwick Snoggle Sproggit
+		Tandlek Tarrick Tinkbit Torven
+		Ubbick Ulrik Umblin
+		Verrit Vinkle Vobbin Vroggit
+		Wazzlit Wibber Wickbit Wroznit
+		Xobbit Xorrin
+		Yarbit Yindle Yorvik
+		Zanglek Zobbin Zrickit
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Ablissa Ankra Arvicka Ashmi
+		Bazzina Belgrit Blonky Brinka
+		Candlea Chivri Clorza Crindletta
+		Dazzini Delmra Drivka Drizzlea
+		Ebrina Eclari Elvri Ezmira
+		Fazzra Fennka Flindra Fronki
+		Glimra Glivvi Gorbina Grinka
+		Hazzina Helmi Horka Hulvra
+		Ibri Izzka Ilvra
+		Jabbina Jerrka Jolmi Juntra
+		Kandlea Karzmi Klivra Krozi
+		Lemni Lirza Lonkri Luzmi
+		Mazzira Melvi Mintra Morzi
+		Nabra Nelvi Nogga Nymli
+		Obri Olvra Omkri Ozzina
+		Pandra Pivli Plomka Pronki
+		Quivra Quomli Quorra
+		Razzina Relvi Rivra Runkla
+		Sazmi Seltra Skivra Sproli
+		Tandri Tazra Tindra Trivla
+		Umbra Urvli Uzzka
+		Vemli Vintka Vozmi Vrunka
+		Wandra Welki Wivra Wrozli
+		Xelmi Xorra
+		Yazra Yelvi Yorli
+		Zabra Zelmi Zivra Zomka
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-drywhisper_kobold = {
-	color = rgb{ 167 100 62 }
-	religion = protestant
-	traits = { drywhisper kobold_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Amberwick Ashnose Ashwhisk
+		Bittercandle Blackwick
+		Candlefang Candlegrit Candletail Candlewick
+		Chewfoot Chewwhisk Coppernail
+		Dirtclaw Dirtfuse Dirtwhisk
+		Embertail Emberwick
+		Fetterspark Fizzwick Flintfang
+		Glimmercandle Glintwhisk Gnawfang Gnawtail
+		Greasewhisk Grimecog Grimepaw Grubsnout
+		Hearthwick Hognose Hotwhisk
+		Ironcog Ironfang Ironpaw
+		Kobblefang Kobblewhisk Knobtail
+		Lanternfang Lanternwick Leadnose
+		Muckfang Muckpaw Mucksnout Mudwhisk
+		Nailfang Nailpaw Napwick
+		Oozetail Oozewhisk Orewhisk
+		Pitchfang Pitchpaw Puddlewick
+		Quarryfang Quarrywhisk Quillnose
+		Ragcandle Ragfang Ragpaw Ratwhisk
+		Rustfang Rustpaw Rustwick
+		Scrapfang Scrapfoot Scrapwhisk Shovelwhisk
+		Smeltfang Smeltwhisk Snufftail
+		Stonefang Stonepaw Stonewick
+		Tinwhisk Tunnelfoot Tunnelwhisk
+		Waxfang Waxpaw Waxwhisk
 	}
 
 	graphics = european

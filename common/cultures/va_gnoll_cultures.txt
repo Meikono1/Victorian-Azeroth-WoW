@@ -1,25 +1,67 @@
-mudsnout_gnoll = {
-	color = rgb{ 206 107 0 }
-	religion = protestant
-	traits = { mudsnout gnoll_heritage }
+bluepelt = {
+	color = rgb{ 95 200 180 }
+	religion = shamanism
+	traits = { highlands gnoll_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Agrab Gnash Urgok Thrashnak Varkul
+		Brokmar Bragnar Blagthuk Bruknar Grashik Drogath Krullok Snagthar Zurnok
+		Chaggur Rukmar Drokthul Fargash Vroknar Kargul
+		Drashmak Snorrik Bragthuk Hrothgar Mugrak Zragul
+		Furmak Grondar Shakthul Ragmar Krugoth Drunash
+		Graknar Mogthar Skrugath Vroshnak Blagthor Harnok
+		Hrugmar Traggut Snorthak Druggath Varnok Crugash
+		Krothak Blarnog Murglash Zargoth Frunmak Drogash
+		Largoth Snagrok Bruthar Hrognash Grubnak Vorath
+		Mugthor Krashuk Drognar Snagmar Zurbak Hrothnak
+		Nargoth Grulmak Rukthor Krugnak Bragnor Drogthak
+		Ornak Vrognash Slogmar Trakthul Mugrak Fragnar
+		Rugthor Brakmak Zrognar Krogarth Hurgnak Slathor
+		Shugmak Dragthor Frugnak Grathor Krunmak Vrogar
+		Thragmak Snorthag Brukmak Murthak Rognash Drakgor
+		Urgmak Kragthul Vrognak Slugmar Bruthak Hrogar
+		Vrogthar Vrogarth Slagrak Druthak Fragnor Zurgmak Kragmar
+		Wrognar  Gruthar Kroshnak Thurnok Dragmak
+		Zrugmak Snorthuk Murthag Krugmar
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Akrina Bragna Drashka Frigna Krashla Vornika
+		Brogna Crishka Drulna Grashka Lurka Zornika
+		Chagra Durnika Frashna Hargla Krigna Vraska
+		Draska Grolna Hurnika Morka Snagra Zurlina
+		Frashka Hurnika Lorgra Naska Thrigna Vulgra
+		Graska Jarnika Murgla Orska Snorka Zragna
+		Hargra Krashna Narla Priska Tragna Vrashka
+		Jarka Lurnika Ogrina Slorka Trishna Wargla
+		Karga Mornika Pragna Slurna Trishka Zurna
+		Lashna Norgra Prishka Snarlina Triska Zurnika
+		Magra Orlina Raska Snorga Trulka Zulgra
+		Nagria Prashka Rogra Snorka Tura Zurnisha
+		Orska Rigna Shagra Starka Urshka Zurlina
+		Pragna Sharna Skorga Strashka Urshna Zurnakra
+		Rashka Skrina Slarga Thrashna Vargla Zurnisha
+		Shagna Slorka Slorna Trasha Vashka Zulnara
+		Skarga Slorna Snarka Trigna Verna Zurnara
+		Slarka Snorga Snurna Trishla Vraska Zulgra
+		Snara Snurna Starka Trusha Vurnika Zurlash
+		Tharka Snashka Thringa Trusha Vushka Zurnaka
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Blackfang Bloodsnout Bogmaw Bonegnash Bristleback
+		Clawmaw Cragfang Crookedtooth Cudgelpaw Cursedhide
+		Darkfang Deathmaw Ditchsnout Dregfang Dripclaw
+		Fangmaw Festerhide Filthfang Fishgutter Fleshgnaw
+		Gnashmaw Gorefang Gutchewer Gutfang Gutgnash
+		Hackmaw Halfjaw Harrowfang Hideflay Houndfang
+		Ironfang Jawbreaker Jawfang Jugtooth Junkmaw
+		Mirefang Muckjaw Mudfang Mudmaw Murkclaw
+		Pestfang Pusfang Quagfang Quagmirejaw Quickfang
+		Ragfang Rotfang Rotmaw Rotsnout Runfang
+		Scabfang Scarhide Scumfang Shardfang Sharpfang
+		Sickfang Slagfang Slimefang Slopjaw Snagfang
+		Snarlfang Snoutsplitter Splitfang Stenchmaw Stinkfang
+		Swampfang Swampmaw Swamptooth Swinefang Swoopclaw
+		Thickhide Thornfang Throatfang Toadmaw Trollfang
+		Vilefang Vinesnout Viscidfang Vulturefang
 	}
 	graphics = european
 	ethnicities = {
