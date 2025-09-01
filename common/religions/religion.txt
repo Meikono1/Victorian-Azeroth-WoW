@@ -243,6 +243,14 @@ twilight_hammer = {
 	color = { 161 71 191 }
 }
 
+nzoth = {
+	texture = "gfx/interface/icons/religion_icons/cthun.dds"
+	traits = {
+		old_gods
+	}
+	color = { 168 129 62 }
+}
+
 scarlet_crusade = {
 	texture = "gfx/interface/icons/religion_icons/scarlet.dds"
 	traits = {

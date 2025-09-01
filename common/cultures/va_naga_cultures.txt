@@ -1,69 +1,7 @@
-blackscale_naga = {
-	color = rgb{ 28 60 84 }
-	religion = protestant
-	traits = { twilight_hammer naga_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 bloodscale_naga = {
 	color = rgb{ 112 56 102 }
 	religion = protestant
 	traits = { bloodscale naga_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bloodwash_naga = {
-	color = rgb{ 147 54 104 }
-	religion = protestant
-	traits = { azshir naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -215,29 +153,87 @@ darkscale_naga = {
 	}
 }
 
-eplorers_naga = {
+nazjatar = {
 	color = rgb{ 89 102 172 }
-	religion = protestant
-	traits = { naga_explorers naga_heritage }
+	religion = nzoth
+	traits = { riverland oceanic naga_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Azhrak Azsor Azryth
+		Belgor Bryzhak Bronthys
+		Cazrik Cethros Cyrnak
+		Drazhul Dromak Drithor
+		Ezrak Enthros Ezhir
+		Fazrak Fenthis Foryn
+		Ghazril Gorvak Grythos
+		Hazthor Heshrak Horviss
+		Izrak Ilnath Irzhok
+		Jazrik Jorrak Jyssor
+		Kalthros Kazrik Krynnor
+		Lazhul Lornak Lysrak
+		Mazthor Mernok Myzrak
+		Nazhrul Norgash Nythor
+		Ozrath Olvak Orzhok
+		Pazhul Penthys Prynnak
+		Qazrak Quorvik
+		Razhul Rethnor Rhazik
+		Sazrik Selthor Shyrrak Skorvess
+		Tazhul Thoryn Tyrzak
+		Uzhok Ulvak Urzin
+		Vazrik Velthor Vryssak
+		Wazhul Wornak Wyrrith
+		Xazrik Xyrrhos
+		Yazhor Yssrak Yzorn
+		Zazhul Zorvak Zythros
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Azhara Azryne Azythra
+		Belmira Bryselle Byrrhyn
+		Calythra Cerynthia Cyrissae
+		Delyra Dravissa Drozmira
+		Elyndra Esmythra Ezzira
+		Fenyssra Forynthia Fysselle
+		Galmyra Gazhyra Gryndelle
+		Halvissa Helyra Horynthae
+		Ilyssae Irzhela Izmyra
+		Jassira Jevrissa Jorynthia
+		Kalindra Karyssae Korynthra
+		Lazmyra Lethryne Lysvara
+		Malyntha Melyssae Myrriza
+		Nalythra Neryssa Nyzzira
+		Olyndra Orissae Ozythra
+		Pelyra Phoryssa Pryndrelle
+		Quyssira Quirvella
+		Ralmyra Rezthara Rhyssira
+		Sazmyra Selindra Shyrrhiss
+		Talindra Thalyssra Tyrissae
+		Umbrissa Ulythrae
+		Valmyra Venyssra Vorynthia
+		Wynsera Wyrrhiss
+		Xalyndra Xyssira
+		Yssandra Ylthara
+		Zavryss Zelyra Zorynthae
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Abyssfang Abyssgaze Abysswhisper
+		Blackfin Blackscale Blacktide
+		Coralborn Coralcrest Coralfang Coralshard
+		Darkfin Darkscale Darktide Darkwhisper
+		Deepcoil Deepcurrent Deepmaw Deeptalon
+		Eelfang Eelmaw Eelwhisper
+		Fincrest Finscourge Finshadow Finsong
+		Krakenbane Krakenfang Krakenmaw Krakenshadow
+		Leviathane Leviathanscale Leviathansong
+		Mistcoil Mistcurrent Mistscale Mistwhisper
+		Oceanbane Oceancrest Oceangloom Oceanveil
+		Reeftalon Reefscale Reefshadow Reefsong
+		Saltfang Saltmaw Saltscale Saltwhisper
+		Scalebane Scalebinder Scalebreaker Scaleshadow Scalesong
+		Seabinder Seaclaw Seacrest Seashadow Seasong
+		Serpentfang Serpentmaw Serpentscale Serpentwhisper
+		Sharkfang Sharkmaw Sharkscale Sharkshadow
+		Stormcoil Stormcrest Stormscale Stormshroud
+		Tidebreaker Tidefang Tidescale Tideshadow Tidewhisper
+		Wavebinder Wavecrest Wavefang Wavescale Waveshadow Wavewhisper
 	}
 
 	graphics = european
@@ -343,37 +339,6 @@ strashaz_naga = {
 	color = rgb{ 84 68 176 }
 	religion = protestant
 	traits = { strashaz naga_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-vashir_naga = {
-	color = rgb{ 75 184 240 }
-	religion = protestant
-	traits = { vashir naga_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

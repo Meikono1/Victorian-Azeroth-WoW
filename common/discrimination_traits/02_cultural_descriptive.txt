@@ -13,6 +13,9 @@ aldor = {
 alliance = {
 }
 
+alpine_plateau = {
+}
+
 amani = {
 }
 
@@ -44,9 +47,6 @@ ashtoungue = {
 }
 
 auchenai = {
-}
-
-azshir = {
 }
 
 barren = {
@@ -178,9 +178,6 @@ dragonspawn = {
 drakonid = {
 }
 
-dreadmaul = {
-}
-
 dreghood = {
 }
 
@@ -250,9 +247,6 @@ firewing = {
 foulweald = {
 }
 
-frostmane = {
-}
-
 galak = {
 }
 
@@ -307,9 +301,6 @@ horde = {
 illidary = {
 }
 
-jaedenar = {
-}
-
 jadefire = {
 }
 
@@ -323,9 +314,6 @@ kirintor = {
 }
 
 kurenai = {
-}
-
-kul_tiran = {
 }
 
 kvaldir = {
@@ -394,9 +382,6 @@ mojache = {
 moknathal = {
 }
 
-moshogg = {
-}
-
 mountains = {
 }
 
@@ -404,9 +389,6 @@ murkblood = {
 }
 
 myrmidon = {
-}
-
-naga_explorers = {
 }
 
 nazzivus = {
@@ -433,6 +415,9 @@ nerubian = {
 northspring = {
 }
 
+oceanic = {
+}
+
 ogrila = {
 }
 
@@ -442,16 +427,10 @@ old_god_forces = {
 ooze = {
 }
 
-palemane = {
-}
-
 phoenix = {
 }
 
 plateau = {
-}
-
-pirate = {
 }
 
 plagued_land = {
@@ -481,9 +460,6 @@ razormane = {
 razorthorn = {
 }
 
-redridge = {
-}
-
 red_dragon = {
 }
 
@@ -493,10 +469,7 @@ reskk = {
 riplash = {
 }
 
-riverpaw = {
-}
-
-rockjaw = {
+riverland = {
 }
 
 rocknail = {
@@ -592,9 +565,6 @@ stonemaul = {
 stonescythe = {
 }
 
-stonesplinter = {
-}
-
 stormspike = {
 }
 
@@ -608,6 +578,9 @@ sungill = {
 }
 
 sunhawk = {
+}
+
+swamp = {
 }
 
 syndicate = {
@@ -641,12 +614,6 @@ umbrafen = {
 }
 
 vakhnir = {
-}
-
-vashir = {
-}
-
-venture_company = {
 }
 
 violeteye = {
@@ -686,9 +653,6 @@ winterfall = {
 }
 
 witchwing = {
-}
-
-woodpaw = {
 }
 
 wormwing = {

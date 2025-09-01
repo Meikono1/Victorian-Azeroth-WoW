@@ -92,7 +92,7 @@ POPS = {
 	s:STATE_WOODPAW_HILLS = {
 		region_state:WOODPAW_GNOLL = {
 			create_pop = {
-				culture = woodpaw_gnoll
+				culture = mudmane_gnoll
 				size = 500000
 			}
 		}
@@ -190,7 +190,7 @@ POPS = {
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
-				culture = southsea_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -212,7 +212,7 @@ POPS = {
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
-				culture = southsea_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -220,7 +220,7 @@ POPS = {
 	s:STATE_LOST_RIGGER_COVE = {
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
-				culture = southsea_human
+				culture = kul_tiran
 				size = 1000000
 			}
 		}
@@ -270,7 +270,7 @@ POPS = {
 		}
 		region_state:SOUTHSEE_FREEBOOTERS = {
 			create_pop = {
-				culture = southsea_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}

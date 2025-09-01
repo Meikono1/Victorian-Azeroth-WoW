@@ -2,7 +2,7 @@
 	s:STATE_RUINS_FARAHION = {
 		region_state:BURNING_LEGION_INVASION_NETHERSTORM = {
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -30,7 +30,7 @@
 				size = 182400
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -78,7 +78,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 92800
 			}
 			create_pop = {
@@ -216,7 +216,7 @@
 				size = 384800
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -558,7 +558,7 @@
 		}
 		region_state:BURNING_LEGION_INVASION_NETHERSTORM = {
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -972,7 +972,7 @@
 	s:STATE_FORGE_CAMP_WRATH = {
 		region_state:BURNING_LEGION_FORGE_CAMPS = {
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -1800,7 +1800,7 @@
 	s:STATE_THRONE_KILJAEDEN = {
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 140000
 			}
 			create_pop = {
@@ -1918,7 +1918,7 @@
 				size = 216000
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 40000
 			}
 			create_pop = {
@@ -1972,7 +1972,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = illidary_dreadlord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -2164,7 +2164,7 @@
 	s:STATE_LEGION_FRONT = {
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 56000
 			}
 			create_pop = {
@@ -2290,7 +2290,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 132000
 			}
 			create_pop = {
@@ -2350,7 +2350,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
@@ -3530,7 +3530,7 @@
 				size = 108800
 			}
 			create_pop = {
-				culture = burning_legion_dread_lord
+				culture = nathrezim
 				size = 25600
 			}
 			create_pop = {
@@ -3572,7 +3572,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = illidary_dreadlord
+				culture = nathrezim
 				size = 48800
 			}
 			create_pop = {
@@ -3840,7 +3840,7 @@
 				size = 45600
 			}
 			create_pop = {
-				culture = crimson_sigil_dread_lord
+				culture = nathrezim
 				size = 12000
 			}
 			create_pop = {
@@ -3950,7 +3950,7 @@
 				size = 124800
 			}
 			create_pop = {
-				culture = illidary_dreadlord
+				culture = nathrezim
 				size = 56800
 			}
 			create_pop = {

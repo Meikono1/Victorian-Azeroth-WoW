@@ -167,7 +167,7 @@ POPS = {
 		}
 		region_state:BLACKSCALE_NAGA = {
 			create_pop = {
-				culture = blackscale_naga
+				culture = nazjatar
 				size = 130000
 			}
 		}
@@ -287,7 +287,7 @@ POPS = {
 		
 		region_state:STONESPLINTER_TRIBE = {
 			create_pop = {
-				culture = stonesplinter_trogg
+				culture = trogg
 				size = 230000
 			}
 		}
@@ -317,7 +317,7 @@ POPS = {
 		
 		region_state:STONESPLINTER_TRIBE = {
 			create_pop = {
-				culture = stonesplinter_trogg
+				culture = trogg
 				size = 230000
 			}
 		}
@@ -348,7 +348,7 @@ POPS = {
 		
 		region_state:ROCKJAW_TROGGS = {
 			create_pop = {
-				culture = rockjaw_trogg
+				culture = trogg
 				size = 226000
 			}
 		}
@@ -751,7 +751,7 @@ POPS = {
 	s:STATE_IMMORTAL_COIL = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -759,7 +759,7 @@ POPS = {
 	s:STATE_SMUGGLERS_SCAR = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -767,7 +767,7 @@ POPS = {
 	s:STATE_GNAWS_BONEYARD = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -775,7 +775,7 @@ POPS = {
 	s:STATE_SHIMMERING_GROTTO = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -783,7 +783,7 @@ POPS = {
 	s:STATE_NESPIRAH = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -791,7 +791,7 @@ POPS = {
 	s:STATE_BIELARAN_RIDGE = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -799,7 +799,7 @@ POPS = {
 	s:STATE_VASHJ_IR = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -807,7 +807,7 @@ POPS = {
 	s:STATE_ABYSSAL_BREACH = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -815,7 +815,7 @@ POPS = {
 	s:STATE_KORTHUNS_END = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -823,7 +823,7 @@ POPS = {
 	s:STATE_L_GHOREK = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -831,7 +831,7 @@ POPS = {
 	s:STATE_PROMONTORY_POINT = {
 		region_state:VASHJ_IR = {
 			create_pop = {
-				culture = vashir_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}

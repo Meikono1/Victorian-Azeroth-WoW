@@ -5,7 +5,7 @@
 			owned_provinces = { x115180 x16E6F3 x175EC6 x1ABD79 x1D4C25 x2EF696 x32CFB2 x33490F x38A73B x39F708 x41FB70 x4724A9 x483CDB x498F0D x50D040 x55944E x599BC4 x6B8F67 x6BFF52 x6DA6F9 x71C085 x798677 x8064F0 x83EC09 x8D1556 x90D001 x9D1474 xA0CF65 xAB53A3 xAC24A6 xAEDF9B xB33A36 xBAA1D3 xC13552 xC14ECA xC55E74 xCD72A9 xCF50BF xE01180 xE19708 xF07810 xF2D180 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_FORGE_BASE_OBLIVION = {
@@ -14,7 +14,7 @@
 			owned_provinces = { x167EE8 x169772 x20E6F2 x311D9E x36F847 x3D7546 x474AF5 x515101 x5970FA x5AB75C x5DC943 x61F84E x65FE48 x6707A1 x68FAEC x70B09F x799EA4 x7B8217 x7E008D x7F79DA x801190 x901159 x9381DD x942097 x955331 x98FD84 x9DE44A xA202E9 xB75C7A xC37AF1 xCD0D1D xCFAB73 xD7F9BA xE01101 xE9E896 xEFCA02 xF5E291 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_MANAFORGE_ARA = {
@@ -28,7 +28,7 @@
 			owned_provinces = { x04FCF3 x5C7F26 x61D001 x709001 x964A4F xC7B981 xCEB565 xCF4570 xD0B789 xE05101 xE7363A xE9FEDB xF6155A }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 		add_homeland = cu:sunfury_bloodelf
 	}
 	
@@ -158,7 +158,7 @@
 			owned_provinces = { x1190C0 x215101 x42D2BF x4D738D x5C5657 x905101 x909041 x90D080 x985308 x98EC6A x9A9CE3 xAD3FD2 xB17F9F xB6B50B xC94FF2 xE87279 xEF7A33 xF2F770 xFE78B5 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 		add_homeland = cu:sunfury_bloodelf
 		add_homeland = cu:zaxxis_ethereal
 	}
@@ -169,7 +169,7 @@
 			owned_provinces = { x0359FB x12B2EF x135B0F x21C69F x244859 x25EA31 x2F7E73 x31BFBF x3B542C x58AFAC x6EB824 x71F0A0 x74A475 x74DF28 x778646 x89DBF2 x9E70F2 xB00D9D xCDCDEE xD13996 xD4E0E8 xDDB27C xE60560 xF151F1 xF4850E xF4B72A xFF1286 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_CRYSTAL_SPINE = {
@@ -232,7 +232,7 @@
 		}
 
 		add_homeland = cu:razaani_ethereal
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_CIRCLE_OF_BLOOD = {
@@ -291,7 +291,7 @@
 			owned_provinces = { x11F985 x2D169B x5003FE x509080 x609C66 x6BE3E0 x9772CF x9D1667 xAD7D71 xAFEA41 xC154EE xC9D000 xD35EE3 xDC98F0 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 		add_homeland = cu:ogrila_ogre_magi
 	}
 	
@@ -579,7 +579,7 @@
 			owned_provinces = { x059DEC x071EFB x09E796 x104090 x10C090 x16403B x1650EE x185D9A x19E120 x1E1C1E x203BC2 x26A798 x318B7B x34E353 x36076B x37312C x3779A1 x37A04B x3BBE48 x3F6260 x3F9623 x4013C3 x43C265 x459264 x459277 x46CE7D x47A347 x4FDEFE x4FF4F9 x51173D x51FF7F x5475FF x56DA8C x5779B1 x5C88B7 x5CB0C9 x5F7475 x5FAB3F x66C85A x6B52DF x6CE5CC x706C6E x84D755 x854391 x8611C3 x8641E9 x8911A4 x8AEFF9 x8C0F91 x8EFC0A x8FFC12 x9ACD2A x9CD217 x9D6313 x9DCD67 x9E801B xA28ED1 xA3C163 xA61876 xA6DD0C xA8E93D xAABA77 xAB408F xB324A4 xB4F5FA xB4FAF7 xB6A316 xB6A59D xBA1AF0 xC02D48 xC1716D xCC9AB1 xCD3B1A xD2799B xD34DF4 xD97577 xDDB6D3 xDE6B8C xE341AE xE3D5C3 xE8222C xE8CE3B xEECD03 xF5408C xF69700 xF87B6B xF8C709 xF8FBAC }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_THRALLMAR = {
@@ -598,7 +598,7 @@
 			owned_provinces = { x45CE87 x5A8ABF x822774 xA2083C xA9E11D xB40E08 }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 		add_homeland = cu:shattered_hand_felorc
 		add_homeland = cu:thrallmar_orc
 	}
@@ -668,7 +668,7 @@
 			owned_provinces = { x93F030 xA894CD xB0D529 xB5C844 xE2B88C }
 		}
 
-		add_homeland = cu:burning_legion_dread_lord
+		add_homeland = cu:nathrezim
 		add_homeland = cu:thrallmar_orc
 	}
 	

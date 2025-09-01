@@ -537,64 +537,6 @@ hill_ogre = {
 	}
 }
 
-deadwind_ogre = {
-	color = rgb{ 106 142 23 }
-	religion = protestant
-	traits = { deadwind ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-dreadmaul_ogre = {
-	color = rgb{ 190 159 45 }
-	religion = protestant
-	traits = { dreadmaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 dunemaul_ogre = {
 	color = rgb{ 170 172 13 }
 	religion = protestant
@@ -686,35 +628,6 @@ moknathal_halfogre = {
 	color = rgb{ 169 150 44 }
 	religion = protestant
 	traits = { moknathal orc_heritage ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-moshogg_ogre = {
-	color = rgb{ 123 146 54 }
-	religion = protestant
-	traits = { moshogg ogre_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}

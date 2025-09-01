@@ -233,32 +233,3 @@ thrallmar_goblin = {
 		1 = caucasian
 	}
 }
-
-venture_company_goblin = {
-	color = rgb{ 24 195 48 }
-	religion = protestant
-	traits = { venture_company goblin_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}

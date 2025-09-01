@@ -32,7 +32,7 @@ coilfang_lepergnome = {
 gnome = {
 	color = rgb{ 183 119 198 }
 	religion = holy_light
-	traits = { gnome_heritage }
+	traits = { mountains gnome_heritage }
 	male_common_first_names = {
 		Alfrim Arbanik Arvold
 		Bendel Brixom Bronzwick

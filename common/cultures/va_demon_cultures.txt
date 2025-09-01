@@ -91,37 +91,6 @@ burning_legion_beholder = {
 	}
 }
 
-burning_legion_dread_lord = {
-	color = rgb{ 109 17 17 }
-	religion = burning_legion
-	traits = { burning_legion dread_lord_heritage demon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 burning_legion_doom_guard = {
 	color = rgb{ 84 11 30 }
 	religion = burning_legion
@@ -556,37 +525,6 @@ crimson_sigil_beholder = {
 	}
 }
 
-crimson_sigil_dread_lord = {
-	color = rgb{ 111 18 160 }
-	religion = burning_legion
-	traits = { illidary dread_lord_heritage demon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 crystalcore_moarg = {
 	color = rgb{ 149 80 22 }
 	religion = protestant
@@ -684,37 +622,6 @@ illidary_doom_guard = {
 	color = rgb{ 81 157 55 }
 	religion = protestant
 	traits = { illidary ered_ruin_heritage demon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-illidary_dreadlord = {
-	color = rgb{ 19 120 19 }
-	religion = protestant
-	traits = { illidary dread_lord_heritage demon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -901,37 +808,6 @@ illidary_succubus = {
 	color = rgb{ 62 188 25 }
 	religion = protestant
 	traits = { illidary succubus_heritage demon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-jaedenar_dreadlord = {
-	color = rgb{ 42 20 166 }
-	religion = protestant
-	traits = { jaedenar dread_lord_heritage demon_heritage }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -1238,29 +1114,88 @@ undercity_felbeast = {
 	}
 }
 
-wormthorn_dreadlord = {
+nathrezim = {
 	color = rgb{ 36 18 146 }
-	religion = protestant
-	traits = { dread_lord_heritage demon_heritage }
+	religion = burning_legion
+	traits = { demon_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Achronis Altherion Azgarel
+		Baltheris Barimathra Belzorak
+		Calthorion Carminthas Cyrandros
+		Dalmathis Darigon Dreadmir
+		Ebonthar Elarconis Ezrathis
+		Falgrimor Falthanis Fervigor
+		Galthorak Garimathros Gorvynas
+		Haldrath Harimothis Helythar
+		Ignathros Ilmorith Iskarion
+		Jaltheris Jorvathis Jyrragos
+		Kalthorak Karminthos Keldrathis Kryzathor
+		Lazmorthis Leltharion Lorvigan Lytharos
+		Malganis Malthorion Morzakar Myrranthos
+		Nalthorak Nazrigor Netherathis
+		Obrythos Ogrivann Orzakar
+		Palthorion Parimathis Pyrragor
+		Quorathis Quazimar
+		Ralthorak Ravimathros Ryzagor
+		Sargathis Selthorion Shyrragos
+		Tichondrius Thalrigor Thravyss Tyrrakos
+		Umbryssion Urgathis Uvarak
+		Varimathras Veytharos Vornakos
+		Wrathigar Wrothis
+		Xaldrathis Xyrragos
+		Yltharion Yvagos
+		Zarathros Zorvigan
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Alythra Aranissa Ashvara
+		Belthira Bryssandra Bynara
+		Calisstra Cerythia Cyrandra
+		Dalynora Dazmyra Dravissa
+		Elarissa Emythra Enyssara
+		Falryssa Fenythia Fravira
+		Galynra Gavissa Gryssara
+		Halmyra Helythra Hynissa
+		Ilthryssa Inyvara Ismara
+		Jasmyra Jorynthia Julthara
+		Kalythra Keryssa Krynnara
+		Lazmyra Lelthira Loryndra Lysvara
+		Malvyssa Marithra Mornissa Myrrandra
+		Nalissa Nerythra Nyssvara
+		Olyndra Omryssa Orvitha
+		Peryssa Phorynna Pyralith
+		Quyssara Qythera
+		Ravissa Relynthra Rhyssara
+		Sabylla Selmyra Sylthara Syravess
+		Talyndra Thoryssa Tyssvara
+		Umbryssa Uryndra
+		Valmyra Veythira Voryssa
+		Wynthera Wyssandra
+		Xalythra Xyrrissa
+		Ylvara Ysmirra
+		Zavryssa Zelthara Zoryntha
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashmourne Ashveil
+		Blackdoom Blackflame Blackvein
+		Bloodbane Bloodreaver Bloodshroud
+		Chaosfang Chaosrend
+		Darkbane Darkfury Darkwhisper
+		Deathbinder Deathflame Deathgaze Deathshroud
+		Doomfang Doomflayer Doomspire Doomveil
+		Emberdoom Embergloom Emberwrath
+		Fellbane Fellbrand Fellshade Fellwrath
+		Grimbrand Grimfury Grimveil
+		Hellflame Hellgaze Hellmaw Hellshade
+		Infernbane Infernoheart Infernoshroud
+		Netherbane Netherbrand Netherfury Netherwrath
+		Nightbane Nightgloom Nightshroud Nightwrath
+		Plaguefang Plagueshade Plaguewrath
+		Ruinbrand Ruinfury Ruinveil
+		Shadowbane Shadowflame Shadowgloom Shadowshade Shadowwrath
+		Soulfang Soulflayer Soulgloom Soulreaver Soulwrath
+		Terrorbrand Terrorgaze Terrorshade Terrorveil
+		Voidbane Voidbrand Voidgaze Voidveil Voidwrath
+		Wrathfang Wrathflame Wrathgloom Wrathveil
 	}
 
 	graphics = european

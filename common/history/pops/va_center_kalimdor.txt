@@ -114,7 +114,7 @@ POPS = {
 	s:STATE_NOZZLEPOTS_OUTPOST = {
 		region_state:VENTURE_CO = {
 			create_pop = {
-				culture = venture_company_goblin
+				culture = goblin
 				size = 500000
 			}
 		}
@@ -156,7 +156,7 @@ POPS = {
 	s:STATE_RATCHET = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -388,7 +388,7 @@ POPS = {
 		}
 		region_state:VENTURE_CO = {
 			create_pop = {
-				culture = venture_company_goblin
+				culture = goblin
 				size = 330000
 			}
 		}
@@ -402,7 +402,7 @@ POPS = {
 		}
 		region_state:PALEMANE_GNOLL = {
 			create_pop = {
-				culture = palemane_gnoll
+				culture = bluepelt
 				size = 500000
 			}
 		}
@@ -430,13 +430,13 @@ POPS = {
 		}
 		region_state:VENTURE_CO = {
 			create_pop = {
-				culture = venture_company_goblin
+				culture = goblin
 				size = 330000
 			}
 		}
 		region_state:PALEMANE_GNOLL = {
 			create_pop = {
-				culture = palemane_gnoll
+				culture = bluepelt
 				size = 330000
 			}
 		}
@@ -482,7 +482,7 @@ POPS = {
 	s:STATE_NORTHWATCH_HOLD = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -496,7 +496,7 @@ POPS = {
 	s:STATE_BATTLESCAR = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 330000
 			}
 		}
@@ -544,7 +544,7 @@ POPS = {
 		}
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 330000
 			}
 		}
@@ -552,7 +552,7 @@ POPS = {
 	s:STATE_BLACKHOOF_VILLAGE = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -566,7 +566,7 @@ POPS = {
 	s:STATE_BRACKENWALL_VILLAGE = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -580,7 +580,7 @@ POPS = {
 	s:STATE_DIREHORN_POST = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 500000
 			}
 		}
@@ -594,7 +594,7 @@ POPS = {
 	s:STATE_THERAMORE_ISLE = {
 		region_state:THERAMORE = {
 			create_pop = {
-				culture = kul_tiran_human
+				culture = kul_tiran
 				size = 1000000
 			}
 		}

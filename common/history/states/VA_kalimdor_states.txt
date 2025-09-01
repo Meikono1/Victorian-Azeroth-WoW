@@ -532,7 +532,7 @@ STATES = {
 		}
 
 		add_homeland = cu:cenarius_druid_nightelf
-		add_homeland = cu:jaedenar_dreadlord
+		add_homeland = cu:nathrezim
 	}
 	
 	s:STATE_JADEFIRE_GLEN = {
@@ -1175,7 +1175,7 @@ STATES = {
 		}
 
 		add_homeland = cu:orgrimmari
-		add_homeland = cu:venture_company_goblin
+		add_homeland = cu:goblin
 	}
 	
 	s:STATE_THORN_HILL = {
@@ -1219,7 +1219,7 @@ STATES = {
 			owned_provinces = { x3126CA x552AD8 x600AC6 x65ECBE x7BCB55 x907080 x9088D5 xED77FB xEF5C1F xF0B481 xF41CC0 xFA595E }
 		}
 
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 		add_homeland = cu:goblin
 	}
 	
@@ -1476,7 +1476,7 @@ STATES = {
 
 		add_homeland = cu:bristleback_quilboar
 		add_homeland = cu:thunderbluff_tauren
-		add_homeland = cu:venture_company_goblin
+		add_homeland = cu:goblin
 	}
 	
 	s:STATE_BLOODHOOF_VILLAGE = {
@@ -1490,7 +1490,7 @@ STATES = {
 			owned_provinces = { x0011AA x003080 x0D5DDD x10C6B4 x120FFD x262FDB x27A132 x2B7E93 x3188F7 x432FE4 x475D1E x535D1C x55FB35 x5AF2D5 x5CED99 x6D572C x77C161 x80773D x80B001 x8910AF x9BDC42 xB9D7C8 xBF6399 xC6B997 xCA959E xCD9190 xE941BF xECD11D xF82CDC xFE578D }
 		}
 
-		add_homeland = cu:palemane_gnoll
+		add_homeland = cu:bluepelt
 		add_homeland = cu:thunderbluff_tauren
 	}
 	
@@ -1526,7 +1526,7 @@ STATES = {
 		}
 
 		add_homeland = cu:thunderbluff_tauren
-		add_homeland = cu:palemane_gnoll
+		add_homeland = cu:bluepelt
 	}
 	
 	s:STATE_THORNSNARL = {
@@ -1583,7 +1583,7 @@ STATES = {
 		}
 
 		add_homeland = cu:bristleback_quilboar
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_BATTLESCAR = {
@@ -1602,7 +1602,7 @@ STATES = {
 			owned_provinces = { x41C0D0 x4C19B0 x62CD57 x6EF825 x707001 x707517 x7949EB x7C4D18 x9A5667 xAB73D1 xBA0A50 xDDB34E xF77646 xFD8FA1 }
 		}
 
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 		add_homeland = cu:thunderbluff_tauren
 	}
 	
@@ -1641,7 +1641,7 @@ STATES = {
 			owned_provinces = { x08C971 x099669 x11AC63 x4A0CB0 x4B48A8 x4BFF4F x66F9D3 x8040D0 x9A2756 xC04011 xF64230 }
 		}
 		
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 		add_homeland = cu:warmwater_murloc
 		add_homeland = cu:strashaz_naga
 	}
@@ -1658,7 +1658,7 @@ STATES = {
 		}
 
 		add_homeland = cu:grimmtotem_tauren
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_BRACKENWALL_VILLAGE = {
@@ -1673,7 +1673,7 @@ STATES = {
 		}
 
 		add_homeland = cu:brackenwall_ogre
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_DIREHORN_POST = {		
@@ -1688,7 +1688,7 @@ STATES = {
 		}
 
 		add_homeland = cu:brackenwall_ogre
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_THERAMORE_ISLE = {
@@ -1697,7 +1697,7 @@ STATES = {
 			owned_provinces = { x022930 x0864EA x0C79C5 x0D53B4 x10DF4E x1E43F2 x209D5E x24CD7D x265803 x2A34E6 x2F9833 x316874 x371070 x3E7DF4 x41D147 x498989 x4A49B3 x4F5134 x536F2E x5A88D4 x72EC48 x7C8277 x806C0E x838543 x84BF70 x8AB6F4 x8B753A x8BB742 x95FAE9 x9B45DE x9D84F7 xA3020D xA4D7FD xAD68CA xB80E5A xB9A5D6 xBFBF90 xC040D0 xC3518E xD2B4D5 xD35697 xDA8750 xDE1F39 xFACBFF xFE9918 }
 		}
 
-		add_homeland = cu:kul_tiran_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_DEN_OF_FLAME = {
@@ -1842,7 +1842,7 @@ STATES = {
 			owned_provinces = { "x0E6BAF" "x402E72" "x43D729" "x5AD6BE" "x60FF01" "x62493B" "x6FE8D5" "xBD9F17" "xDCD7C9" "xEE058F" }
 		}
 
-		add_homeland = cu:woodpaw_gnoll
+		add_homeland = cu:mudmane_gnoll
 	}
 	
 	s:STATE_WRITHING_DEEP = {
@@ -1941,7 +1941,7 @@ STATES = {
 		}
 
 		add_homeland = cu:galak_centaur
-		add_homeland = cu:southsea_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	# Tanaris
@@ -1966,7 +1966,7 @@ STATES = {
 		}
 
 		add_homeland = cu:sandfury_troll
-		add_homeland = cu:southsea_human
+		add_homeland = cu:kul_tiran
 		add_homeland = cu:goblin
 	}
 	
@@ -1976,7 +1976,7 @@ STATES = {
 			owned_provinces = { "x0078F4" "x0445FE" "x067BE3" "x118F07" "x19E79D" "x1B3858" "x257F09" "x273D46" "x2A263C" "x2D3E46" "x2F8EEF" "x362CB9" "x365A5B" "x38328C" "x48F668" "x52B247" "x5F9728" "x8953B5" "x8A15FA" "x8E3579" "x9FC353" "xA41E15" "xA787A2" "xB0C090" "xB41CB3" "xBEAF68" "xC7E5A1" "xCC2135" "xCD9ECD" "xD254DD" "xD3A197" "xD9D235" "xE17D15" "xE69F64" "xE761EB" "xED55D2" "xF0F96F" "xF10B85" "xF1B2D9" "xF1F9BA" "xFF2920" }
 		}
 
-		add_homeland = cu:southsea_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_CAVERNS_OF_TIME = {
@@ -2031,7 +2031,7 @@ STATES = {
 		}
 
 		add_homeland = cu:centipaar_silithid
-		add_homeland = cu:southsea_human
+		add_homeland = cu:kul_tiran
 	}
 	
 	s:STATE_VALLEY_OF_THE_WATCHERS = {

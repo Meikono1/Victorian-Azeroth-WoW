@@ -687,7 +687,7 @@ JAEDENAR = {
 	
 	tier = empire
 	
-	cultures = { jaedenar_dreadlord }	
+	cultures = { nathrezim }	
 	capital = STATE_JAEDENAR
 }
 
@@ -863,7 +863,7 @@ PALEMANE_GNOLL = {
 	
 	tier = empire
 	
-	cultures = { palemane_gnoll }	
+	cultures = { bluepelt }	
 	capital = STATE_BLOODHOOF_VILLAGE
 }
 
@@ -1050,7 +1050,7 @@ SOUTHSEE_FREEBOOTERS = {
 	
 	tier = empire
 	
-	cultures = { southsea_human }	
+	cultures = { kul_tiran }	
 	capital = STATE_LOST_RIGGER_COVE
 }
 
@@ -1160,7 +1160,7 @@ THERAMORE = {
 	
 	tier = empire
 	
-	cultures = { kul_tiran_human }	
+	cultures = { kul_tiran }	
 	capital = STATE_THERAMORE_ISLE
 }
 
@@ -1325,7 +1325,7 @@ WOODPAW_GNOLL = {
 	
 	tier = empire
 	
-	cultures = { woodpaw_gnoll }
+	cultures = { mudmane_gnoll }
 	capital = STATE_WOODPAW_HILLS
 }
 

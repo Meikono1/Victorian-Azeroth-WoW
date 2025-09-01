@@ -685,17 +685,6 @@
 				value = 0
 			}
 		}
-		# Muslims and Theravada more likely to adopt Devout
-		if = {
-			limit = {
-				OR = {
-					owner.religion = rel:sunni
-					owner.religion = rel:shiite
-					owner.religion = rel:theravada
-				}
-			}
-			multiply = 2
-		}
 	}
 
 	agitator_weight = {

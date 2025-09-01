@@ -486,7 +486,7 @@ POPS = {
 		}
 		region_state:JAEDENAR = {
 			create_pop = {
-				culture = jaedenar_dreadlord
+				culture = nathrezim
 				size = 500000
 			}
 		}

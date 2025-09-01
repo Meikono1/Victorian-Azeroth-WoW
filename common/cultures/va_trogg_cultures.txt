@@ -1,54 +1,73 @@
-rockjaw_trogg = {
-	color = rgb{ 136 89 28 }
-	religion = protestant
-	traits = { rockjaw trogg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stonesplinter_trogg = {
+trogg = {
 	color = rgb{ 102 82 56 }
-	religion = protestant
-	traits = { stonesplinter trogg_heritage }
+	religion = shamanism
+	traits = { mountains trogg_heritage }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Argrum Ashnok Atgrak
+		Brugthar Braknok Brogmar Brutok
+		Cragnor Crakthos Crumgar
+		Dagruk Draggor Drakmar Drumnok
+		Egrash Eknor Eltrok
+		Fragnar Frugthos Frolmok
+		Gragnok Gralthor Gribnok Grumgar
+		Hargnash Hrokmar Hulthrak
+		Ignok Irgrum
+		Jargnok Jorvak Jugthar
+		Kragmar Krulnok Krothgar
+		Largnok Lomgrash Lurvak
+		Magrok Marnok Morgthar
+		Nagthos Nogmar Nurnok
+		Ogrash Ombrak Orvash
+		Pragthar Pruznok
+		Ragrash Rokthar Rulmok
+		Snagrim Snorkash Strovak
+		Tagrum Thargnok Throgar
+		Ugrash Urmok
+		Vargnok Vorgash Vrothar
+		Wargash Wurnok
+		Zagrash Zogthar Zurnok
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Argrasha Ashnara Atrika
+		Bragna Brakkra Broshna Brutra
+		Cragra Crasha Crumnara
+		Dagira Draghna Draksha Drubra
+		Egrina Elthra Ezgra
+		Fragna Froska Frumsha
+		Gragna Gralka Grishra Grumsha
+		Hargra Hrosha Hulnara
+		Ignara Iskra
+		Jargra Jashna Jorvra
+		Kragna Kroska Krulsha
+		Lagnara Lomsha Lurvra
+		Magna Marsha Morgra
+		Nagsha Noktra Nursha
+		Ogra Olnara Orvra
+		Pragna Prosha
+		Ragna Raksha Rulgra
+		Snagra Snorka Strosha
+		Tagra Tharka Thruna
+		Ugra Ursha
+		Vagna Vorka Vrysha
+		Wagra Wurna
+		Zagna Zorka Zrysha
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashclaw Ashrock Ashsnout
+		Bonebiter Bonecrush Bonesnarl
+		Cavefang Caveshadow Cavesnout Cavehowl
+		Darkclaw Darkmaw Darksnout
+		Earthcrack Earthfang Earthmaw Earthshard
+		Fangrock Fangsnarl Fangsplitter
+		Grimclaw Grimsnout Grimstone
+		Ironfang Ironjaw Ironshard
+		Mudfang Mudsnout Mudstone
+		Rockbiter Rockfang Rocksnout Rocksplitter
+		Skullfang Skullmaw Skullsnout Skullsplitter
+		Stonebrow Stoneclaw Stonefang Stonesnarl Stonesnout
+		Thornfang Thornmaw Thornsnout Thornsplitter
+		Tunnelclaw Tunnelmaw Tunnelshadow Tunnelspike
+		Wormfang Wormmaw Wormsnout Wormsplitter
 	}
 	graphics = european
 	ethnicities = {

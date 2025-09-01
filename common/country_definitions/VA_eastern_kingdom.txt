@@ -83,7 +83,7 @@ BLACKSCALE_NAGA = {
 	
 	tier = principality
 	
-	cultures = { blackscale_naga }
+	cultures = { nazjatar }
 	capital = STATE_TWILIGHT_SHORE
 }
 
@@ -138,7 +138,7 @@ BLOODSAIL_PIRATES = {
 	
 	tier = grand_principality
 	
-	cultures = { bloodsail_human }
+	cultures = { kul_tiran }
 	capital = STATE_JAGUERO_ISLAND
 }
 
@@ -160,7 +160,7 @@ BLOODWASH_NAGA = {
 	
 	tier = principality
 	
-	cultures = { bloodwash_naga }
+	cultures = { nazjatar }
 	capital = STATE_RED_REACHES
 }
 
@@ -260,7 +260,7 @@ DEADWIND_OGRE = {
 	
 	tier = principality
 	
-	cultures = { deadwind_ogre }
+	cultures = { mountain_ogre }
 	capital = STATE_GROSH_GOK_COMPOUND
 }
 
@@ -304,7 +304,7 @@ DREADMAUL_OGRES = {
 	
 	tier = principality
 	
-	cultures = { dreadmaul_ogre }
+	cultures = { mountain_ogre }
 	capital = STATE_DREADMAUL_HOLD
 }
 
@@ -678,7 +678,7 @@ MOSHOGG_OGRE = {
 	
 	tier = principality
 	
-	cultures = { moshogg_ogre }
+	cultures = { mountain_ogre }
 	capital = STATE_BAMBALA
 }
 
@@ -801,7 +801,7 @@ REDGRIDGE_PACK = {
 	
 	tier = principality
 	
-	cultures = { redridge_gnoll }
+	cultures = { emberhide }
 	capital = STATE_REDRIDGE_CANYONS
 }
 
@@ -823,7 +823,7 @@ RIVERPAW_PACK = {
 	
 	tier = grand_principality
 	
-	cultures = { riverpaw_gnoll }
+	cultures = { mudmane_gnoll }
 	capital = STATE_WESTBROOK_GARRISON
 }
 
@@ -834,7 +834,7 @@ ROCKJAW_TROGGS = {
 	
 	tier = principality
 	
-	cultures = { rockjaw_trogg }
+	cultures = { trogg }
 	capital = STATE_GOL_BOLAR_QUARRY
 }
 
@@ -924,7 +924,7 @@ STRANGLETHRON_NAGA = {
 	
 	tier = principality
 	
-	cultures = { eplorers_naga }
+	cultures = { nazjatar }
 	capital = STATE_GURUBASHI_ARENA
 }
 
@@ -957,7 +957,7 @@ STONESPLINTER_TRIBE = {
 	
 	tier = principality
 	
-	cultures = { stonesplinter_trogg }
+	cultures = { trogg }
 	capital = STATE_VALLEY_OF_KINGS
 }
 
@@ -1113,7 +1113,7 @@ VASHJ_IR = {
 	
 	tier = empire
 	
-	cultures = { vashir_naga }
+	cultures = { nazjatar }
 	capital = STATE_VASHJ_IR
 }
 
@@ -1124,7 +1124,7 @@ VENTURE_CO = {
 	
 	tier = principality
 	
-	cultures = { venture_company_goblin }
+	cultures = { goblin }
 	capital = STATE_BAMBALA
 }
 
@@ -1203,7 +1203,7 @@ WORMTHORN_CORRUPTION = {
 	
 	tier = principality
 	
-	cultures = { wormthorn_dreadlord }
+	cultures = { nathrezim }
 	capital = STATE_TAINTED_FOREST
 }
 
