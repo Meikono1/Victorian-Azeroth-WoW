@@ -1,7 +1,9 @@
 alpha_pack = {
 	color = rgb{ 169 47 84 }
 	religion = call_of_wild
-	traits = { dense_forest worgen_heritage }
+	heritage = worgen_heritage
+	language = language_worgan
+	traditions = { tradition_dense_forest }
 	male_common_first_names={
 		Alaric Alfric Althric Arawn Athelric
 		Baldric Bane Bartok Berengar Blackfur Bram
@@ -83,7 +85,9 @@ alpha_pack = {
 tal_dorens = {
 	color = rgb{ 48 42 163 }
 	religion = call_of_wild
-	traits = { dense_forest highlands worgen_heritage }
+	heritage = worgen_heritage
+	language = language_worgan
+	traditions = { tradition_dense_forest tradition_highlands }
 	male_common_first_names={
 		Alaric Alistair Ambrose Andric Armand Ashford Ashric
 		Baldric Bane Bastien Benedict Bertram Bramwell Bryson

@@ -861,12 +861,6 @@ POPS = {
 				size = 280000
 			}
 		}
-		region_state:WILDHAMMER_CLAN_AZ = {
-			create_pop = {
-				culture = wildhammer
-				size = 430000
-			}
-		}
 		region_state:REVANTUSK_TROLLS = {
 			create_pop = {
 				culture = forest_troll
@@ -898,12 +892,6 @@ POPS = {
 				culture = forest_troll
 				religion = shadra_loa
 				size = 850000
-			}
-		}
-		region_state:UNDERCITY = {
-			create_pop = {
-				culture = forsaken
-				size = 340000
 			}
 		}
 	}
@@ -948,12 +936,6 @@ POPS = {
 			create_pop = {
 				culture = alteraci
 				size = 630000
-			}
-		}
-		region_state:BOULDERFIST_CLAN_AZ = {
-			create_pop = {
-				culture = hill_ogre
-				size = 470000
 			}
 		}
 		region_state:UNDERCITY = {

@@ -1,677 +1,95 @@
-elemental_arcan = {
-	color = rgb{ 11 150 144 }
-	religion = protestant
-	traits = { arcan_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_arcan_ancient = {
-	color = rgb{ 11 150 85 }
-	religion = protestant
-	traits = { arcan_element elemental_ancient elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_arcangolem = {
-	color = rgb{ 44 166 159 }
-	religion = protestant
-	traits = { arcangolem arcan_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_arcan_voidwalker = {
-	color = rgb{ 116 220 220 }
-	religion = protestant
-	traits = { arcan_element voidwalker elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_air = {
-	color = rgb{ 154 232 204 }
-	religion = protestant
-	traits = { air_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_cenarius_earth_ancient = {
-	color = rgb{ 72 156 83 }
-	religion = protestant
-	traits = { cenarian_circle earth_element elemental_ancient elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth = {
-	color = rgb{ 15 89 25 }
-	religion = protestant
-	traits = { earth_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_skettis_earth = {
-	color = rgb{ 180 139 80 }
-	religion = protestant
-	traits = { skettis earth_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_ent = {
-	color = rgb{ 52 129 62 }
-	religion = protestant
-	traits = { earth_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_ancient = {
-	color = rgb{ 41 153 39 }
-	religion = protestant
-	traits = { earth_element elemental_ancient elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_ancient_darnassus = {
-	color = rgb{ 24 147 97 }
-	religion = protestant
-	traits = { alliance earth_element elemental_ancient elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_ancient_cenarian = {
-	color = rgb{ 25 171 31 }
-	religion = protestant
-	traits = { cenarian_circle earth_element elemental_ancient elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_ent_darnassus = {
-	color = rgb{ 50 114 102 }
-	religion = protestant
-	traits = { alliance earth_element elemental_ent elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_fungal = {
-	color = rgb{ 117 164 61 }
-	religion = the_elements
-	traits = { fungul_heritage elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_earth_lasher = {
-	color = rgb{ 16 118 16 }
-	religion = protestant
-	traits = { earth_element elemental_lasher elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 elemental_fire = {
 	color = rgb{ 118 45 16 }
-	religion = protestant
-	traits = { fire_element elemental_heritage }
+	religion = fire_lord
+	heritage = elemental_heritage
+	language = language_element
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Azhrek
+		Blazruk
+		Cindrak
+		Drazeer
+		Embrath
+		Fyrion
+		Gralzak
+		Hothar
+		Ignar
+		Jazrek
+		Korrath
+		Lazrin
+		Mazthor
+		Nazzrek
+		Orrath
+		Pyrran
+		Quarion
+		Rhazgor
+		Searik
+		Tazrek
+		Urion
+		Vazrak
+		Wrathir
+		Xyrran
+		Yazkor
+		Zorvik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Azyra
+		Blazira
+		Cindrah
+		Dazria
+		Embrisa
+		Fyrina
+		Grasyra
+		Hothira
+		Izzira
+		Jazria
+		Kalyra
+		Lazira
+		Myrrha
+		Nazzira
+		Olyra
+		Pyrrisa
+		Quirra
+		Rhazira
+		Saryna
+		Tazira
+		Ulyssra
+		Vezhra
+		Wynra
+		Xyrrha
+		Yzria
+		Zoryna
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_fire_burning_legion = {
-	color = rgb{ 193 41 31 }
-	religion = protestant
-	traits = { burning_legion fire_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_fire_sunfury_phoenix = {
-	color = rgb{ 202 49 22 }
-	religion = protestant
-	traits = { sunfury phoenix fire_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_mana_beast = {
-	color = rgb{ 99 142 185 }
-	religion = protestant
-	traits = { mana_element voidwalker elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_mana_fiend = {
-	color = rgb{ 99 174 185 }
-	religion = protestant
-	traits = { mana_element fiend elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_mana_voidwalker = {
-	color = rgb{ 99 130 185 }
-	religion = protestant
-	traits = { mana_element voidwalker elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_shadow_shade = {
-	color = rgb{ 12 9 46 }
-	religion = protestant
-	traits = { shadow_element shade elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashflame
+		Blazeborn
+		Cinderveil
+		Dawnburn
+		Emberforge
+		Firebloom
+		Flameheart
+		Glimmerash
+		Heatbrand
+		Inferiscale
+		Kindleflare
+		Lavafang
+		Moltencrest
+		Pyrehand
+		Quartzburn
+		Ragebloom
+		Scorchclaw
+		Searveil
+		Smokebrand
+		Sparkfang
+		Sunflare
+		Torchwind
+		Umberash
+		Vulcanshard
+		Wildflame
+		Wyrmheat
+		Xyrefire
+		Yserflare
+		Zealburn
 	}
 
 	graphics = european
@@ -682,151 +100,97 @@ elemental_shadow_shade = {
 
 elemental_water = {
 	color = rgb{ 32 97 185 }
-	religion = protestant
-	traits = { water_element elemental_heritage }
+	religion = tidehunter
+	heritage = elemental_heritage
+	language = language_element
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aqualon
+		Brineth
+		Corvalis
+		Daryon
+		Erythos
+		Flurion
+		Glyssar
+		Hydrion
+		Irrath
+		Jolmar
+		Kavren
+		Loryth
+		Marith
+		Neroth
+		Oshiran
+		Prythal
+		Quarion
+		Rylmar
+		Syrrath
+		Talonis
+		Undrath
+		Voryn
+		Wavric
+		Xyrion
+		Ylmar
+		Zorath
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aqualira
+		Brynnal
+		Coralis
+		Delyra
+		Elysha
+		Fynora
+		Glyssira
+		Hydrisa
+		Islena
+		Jalora
+		Kaelira
+		Lorynna
+		Marelia
+		Neryssa
+		Olyra
+		Pryllia
+		Quiralis
+		Rynora
+		Sylsha
+		Thalira
+		Ulryssa
+		Venyra
+		Wynora
+		Xylira
+		Yssara
+		Zorynna
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_bloodscale_water = {
-	color = rgb{ 20 70 185 }
-	religion = protestant
-	traits = { bloodscale water_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_coilfang_water = {
-	color = rgb{ 20 70 185 }
-	religion = protestant
-	traits = { coilfang water_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_darkcrest_water = {
-	color = rgb{ 43 97 169 }
-	religion = protestant
-	traits = { darkcrest water_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-elemental_skettis_water = {
-	color = rgb{ 54 165 195 }
-	religion = protestant
-	traits = { skettis water_element elemental_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Abyssveil
+		Bluecurrent
+		Coralstream
+		Dewwhisper
+		Ebbtide
+		Foamcrest
+		Flowbinder
+		Glasstide
+		Highwave
+		Icecurrent
+		Jetstream
+		Kelpbloom
+		Lagoonmist
+		Mistbloom
+		Nereidveil
+		Oceancrest
+		Pearlwhisper
+		Quellstream
+		Rivertide
+		Seabloom
+		Shorecrest
+		Stormflow
+		Tidebloom
+		Undercurrent
+		Vastwater
+		Wavebinder
+		Whirlpool
+		Xyltide
+		Yonderfoam
+		Zephyrwater
 	}
 
 	graphics = european

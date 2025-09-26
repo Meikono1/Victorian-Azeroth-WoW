@@ -1,7 +1,9 @@
 trogg = {
 	color = rgb{ 102 82 56 }
 	religion = shamanism
-	traits = { mountains trogg_heritage }
+	heritage = trogg_heritage
+	language = language_trogg
+	traditions = { tradition_mountains }
 	male_common_first_names={
 		Argrum Ashnok Atgrak
 		Brugthar Braknok Brogmar Brutok

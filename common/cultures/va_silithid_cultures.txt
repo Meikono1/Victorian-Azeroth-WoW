@@ -1,141 +1,92 @@
-centipaar_silithid = {
+aqir = {
 	color = rgb{ 202 95 217 }
-	religion = protestant
-	traits = { centipaar old_god_forces silithid_heritage }
+	religion = nzoth
+	heritage = silithid_heritage
+	language = language_silithid
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aqirnox
+		Braxith
+		Chizzek Craxil
+		Droxir Drizzor
+		Exqor
+		Fazrik
+		Ghorlix Gralzik
+		Hazzik
+		Ixqor
+		Jrixal
+		Kzzirn
+		Loxith
+		Maqzir
+		Nixzor
+		Ozzrik
+		Praxik
+		Qirnoth
+		Razzik
+		Skrithor
+		Thoqir Tixqel
+		Uxzir
+		Vazzek
+		Wryxil
+		Xazqor
+		Yrrzik
+		Zolthik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Azyrix
+		Brezka
+		Chyrris Crizzira
+		Dazqira Drayzzka
+		Ezzira
+		Fynqis
+		Glyrrith
+		Hazzira
+		Izqira
+		Jazrikka
+		Klyssra
+		Lazqira
+		Myzzira
+		Nyssqa
+		Ozyrris
+		Pryzzka
+		Qyrrith
+		Razzira
+		Skrythira Syzzith
+		Thyssra Tzazzira
+		Uzzira
+		Vyrris
+		Wyssqa
+		Xyrrith
+		Yzzira
+		Zyrrka
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-hive_ashi_silithid = {
-	color = rgb{ 149 82 158 }
-	religion = protestant
-	traits = { old_god_forces silithid_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-hive_regal_silithid = {
-	color = rgb{ 106 57 134 }
-	religion = protestant
-	traits = { old_god_forces silithid_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-hive_zora_silithid = {
-	color = rgb{ 151 60 188 }
-	religion = protestant
-	traits = { old_god_forces silithid_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-hive_zukkash_silithid = {
-	color = rgb{ 200 89 225 }
-	religion = protestant
-	traits = { old_god_forces silithid_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Azqirith
+		Broxxil
+		Chitteris
+		Drexqor
+		Exzithis
+		Fazqiril
+		Grizzthor
+		Hazzqir
+		Ixxoril
+		Jrizzak
+		Klythorix
+		Loxqir
+		Myrrzik
+		Naxxil
+		Ozzqiris
+		Pryzzor
+		Qirzzith
+		Razzthor
+		Skrizzek
+		Thryzzil
+		Uxqiris
+		Vryzzak
+		Wexthor
+		Xizzrak
+		Yrrzil
+		Zoqirith
 	}
 	graphics = european
 	ethnicities = {

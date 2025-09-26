@@ -1,0 +1,91 @@
+sporeling = {
+	color = rgb{ 129 114 31 }
+	religion = the_elements
+	heritage = sporeling_heritage
+	language = language_podling
+	traditions = { }
+	male_common_first_names={
+		Aglin
+		Borluk Brilnuk
+		Clyrth
+		Drakim Drogan
+		Emlok
+		Furkin
+		Glorim Glynnor
+		Hirnok
+		Imlon
+		Jorvik
+		Krunth
+		Lirnok
+		Mogrin
+		Narluk
+		Orvim
+		Plyth
+		Qorim
+		Rilnok
+		Sporin
+		Tarnok Thirnuk
+		Ulrik
+		Vornak
+		Wlyth
+		Xarn
+		Yorvik
+		Zolmir
+	}
+	female_common_first_names = {
+		Alyra
+		Brenna Brinna
+		Clysha
+		Drusha Drynna
+		Emlira
+		Fynna
+		Glyra Glirna
+		Hirna
+		Ilysha
+		Jorra
+		Kaelra
+		Lirna
+		Mossra
+		Nerla
+		Olyra
+		Pryna
+		Qirsha
+		Rynla
+		Sylra
+		Talra Thirna
+		Ulsha
+		Veyra
+		Wynla
+		Xirna
+		Ylsha
+		Zoryna
+	}
+	common_last_names={
+		Ambercap
+		Bloomspore
+		Cliffmoss
+		Dewshroom
+		Earthcap
+		Fernbloom Fungalbark
+		Greenmire
+		Hollowcap
+		Ivyspore
+		Leafmoss
+		Mistbloom Moldcap Mushgrove Mysbloom
+		Nightspore
+		Oakcap
+		Puffbloom
+		Quillmoss
+		Rootcap
+		Shadewisp Softmire Sporebloom Stillcap Swamproot
+		Thorncap Tidecap
+		Umbermoss
+		Vinecap
+		Woodspore
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

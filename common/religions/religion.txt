@@ -1,42 +1,32 @@
 ﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
 
 catholic = {
-	texture = "gfx/interface/icons/religion_icons/catholic.dds"
-	traits = {
-		christian
-	}
+	icon = "gfx/interface/icons/religion_icons/catholic.dds"
+	heritage = heritage_christian
 	color = { 0.8 0.55 0.2 }
 }
 
 protestant = {
-	texture = "gfx/interface/icons/religion_icons/protestant.dds"
-	traits = {
-		christian
-	}
+	icon = "gfx/interface/icons/religion_icons/protestant.dds"
+	heritage = heritage_christian
 	color = { 0.2 0.3 0.55 }
 }
 
 orthodox = {
-	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
-	traits = {
-		christian
-	}
+	icon = "gfx/interface/icons/religion_icons/orthodox.dds"
+	heritage = heritage_christian
 	color = { 0.45 0.25 0.5 }
 }
 
 oriental_orthodox = {
-	texture = "gfx/interface/icons/religion_icons/coptic.dds"
-	traits = {
-		christian
-	}
+	icon = "gfx/interface/icons/religion_icons/coptic.dds"
+	heritage = heritage_christian
 	color = { 0.1 0.5 0.6 }
 }
 
 sunni = {
-	texture = "gfx/interface/icons/religion_icons/sunni.dds"
-	traits = {
-		muslim
-	}
+	icon = "gfx/interface/icons/religion_icons/sunni.dds"
+	heritage = heritage_islamic
 	color = { 0.1 0.5 0.3 }
 
 	taboos = {
@@ -45,10 +35,8 @@ sunni = {
 }
 
 shiite = {
-	texture = "gfx/interface/icons/religion_icons/shiite.dds"
-	traits = {
-		muslim
-	}
+	icon = "gfx/interface/icons/religion_icons/shiite.dds"
+	heritage = heritage_islamic
 	color = { 0.4 0.7 0.3 }
 
 	taboos = {
@@ -56,54 +44,49 @@ shiite = {
 	}
 }
 
-jewish = {
-	texture = "gfx/interface/icons/religion_icons/jewish.dds"
-	traits = {
-		jewish
+ibadi = {
+	icon = "gfx/interface/icons/religion_icons/ibadi.dds"
+	heritage = heritage_islamic
+	color = { 0.25 0.6 0.1 }
+
+	taboos = {
+		liquor wine
 	}
+}
+
+jewish = {
+	icon = "gfx/interface/icons/religion_icons/jewish.dds"
+	heritage = heritage_jewish
 	color = { 0.55 0.85 0.98 }
 }
 
 mahayana = {
-	texture = "gfx/interface/icons/religion_icons/mahayana.dds"
-	traits = {
-		buddhist
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/mahayana.dds"
+	heritage = heritage_dharmic
 	color = { 0.7 0.35 0.1 }
 }
 
 gelugpa = {
-	texture = "gfx/interface/icons/religion_icons/gelugpa.dds"
-	traits = {
-		buddhist
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/gelugpa.dds"
+	heritage = heritage_dharmic
 	color = { 0.1 0.4 0.9 }
 }
 
 theravada = {
-	texture = "gfx/interface/icons/religion_icons/theravada.dds"
-	traits = {
-		buddhist
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/theravada.dds"
+	heritage = heritage_dharmic
 	color = { 0.7 0.4 0.6 }
 }
 
 confucian = {
-	texture = "gfx/interface/icons/religion_icons/confucianism.dds"
-	traits = {
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/confucianism.dds"
+	heritage = heritage_taoic
 	color = { 1 0.65 0.4 }
 }
 
 hindu = {
-	texture = "gfx/interface/icons/religion_icons/hindu.dds"
-	traits = {
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/hindu.dds"
+	heritage = heritage_dharmic
 	color = { 0.8 0.2 0.3 }
 	taboos = {
 		meat
@@ -111,191 +94,236 @@ hindu = {
 }
 
 shinto = {
-	texture = "gfx/interface/icons/religion_icons/shinto.dds"
-	traits = {
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/shinto.dds"
+	heritage = heritage_taoic
 	color = { 0.4 0.1 0.2 }
 }
 
 sikh = {
-	texture = "gfx/interface/icons/religion_icons/sikh.dds"
-	traits = {
-		eastern
-	}
+	icon = "gfx/interface/icons/religion_icons/sikh.dds"
+	heritage = heritage_dharmic
 	color = { 1 1 0.1 }
 }
 
 animist = {
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = {
-		animist
-	}
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = heritage_indigenous
 	color = { 0.6 0.3 0.2 }
 }
 
 atheist = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	icon = "gfx/interface/icons/religion_icons/atheist.dds"
+	heritage = heritage_materialist
 	color = { 1.0 1.0 1.0 }
 }
 
+agamaggan = {
+	icon = "gfx/interface/icons/religion_icons/boar.dds"
+	heritage = heritage_wild_gods
+	color = { 112 69 12 }
+}
+
 amani_loa = {
-	texture = "gfx/interface/icons/religion_icons/loa.dds"
-	traits = {
-		loa
-	}
+	icon = "gfx/interface/icons/religion_icons/loa.dds"
+	heritage = heritage_wild_gods
 	color = { 137 199 62 }
 }
 
 black_dragon_worship = {
-	texture = "gfx/interface/icons/religion_icons/dragon_black.dds"
-	traits = {
-		dragon
-	}
+	icon = "gfx/interface/icons/religion_icons/dragon_black.dds"
+	heritage = heritage_earth_elements
 	color = { 10 0 10 }
 }
 
+blue_dragon_worship = {
+	icon = "gfx/interface/icons/religion_icons/dragon_blue.dds"
+	heritage = heritage_arcane
+	color = { 0 0 220 }
+}
+
+bronce_dragon_worship = {
+	icon = "gfx/interface/icons/religion_icons/dragon_bronze.dds"
+	heritage = heritage_time
+	color = { 201 166 6 }
+}
+
 brotherhood_light = {
-	texture = "gfx/interface/icons/religion_icons/holy_light.dds"
-	traits = {
-		light
-	}
+	icon = "gfx/interface/icons/religion_icons/holy_light.dds"
+	heritage = heritage_holy
 	color = { 159 198 212 }
 }
 
 burning_legion = {
-	texture = "gfx/interface/icons/religion_icons/burning_legion.dds"
-	traits = {
-		demonic
-	}
+	icon = "gfx/interface/icons/religion_icons/burning_legion.dds"
+	heritage = heritage_demon
 	color = { 222 40 40 }
 }
 
 call_of_wild = {
-	texture = "gfx/interface/icons/religion_icons/cenarion.dds"
-	traits = {
-		druidism
-	}
+	icon = "gfx/interface/icons/religion_icons/cenarion.dds"
+	heritage = heritage_wild_gods
 	color = { 14 140 81 }
 }
 
 candle = {
-	texture = "gfx/interface/icons/religion_icons/candle.dds"
-	traits = {
-		geomancy
-	}
+	icon = "gfx/interface/icons/religion_icons/candle.dds"
+	heritage = heritage_earth_elements
 	color = { 178 184 22 }
 }
 
+centaur_elements = {
+	icon = "gfx/interface/icons/religion_icons/ogre_elements.dds"
+	heritage = heritage_wild_gods
+	color = { 133 153 35 }
+}
+
+earth_mother = {
+	icon = "gfx/interface/icons/religion_icons/mother_nature.dds"
+	heritage = heritage_nature
+	color = { 20 230 20 }
+}
+
 elune = {
-	texture = "gfx/interface/icons/religion_icons/cenarion.dds"
-	traits = {
-		druidism
-	}
+	icon = "gfx/interface/icons/religion_icons/cenarion.dds"
+	heritage = heritage_nature
 	color = { 50 138 227 }
 }
 
-fire_lords = {
-	texture = "gfx/interface/icons/religion_icons/firelord.dds"
-	traits = {
-		elements
-	}
+fire_lord = {
+	icon = "gfx/interface/icons/religion_icons/firelord.dds"
+	heritage = heritage_fire_elements
 	color = { 160 20 50 }
 }
 
 green_dragon_worship = {
-	texture = "gfx/interface/icons/religion_icons/dragon_green.dds"
-	traits = {
-		dragon
-	}
+	icon = "gfx/interface/icons/religion_icons/dragon_green.dds"
+	heritage = heritage_nature
 	color = { 14 140 81 }
 }
 
 great_tide = {
-	texture = "gfx/interface/icons/religion_icons/great_tide.dds"
-	traits = {
-		elements
-	}
+	icon = "gfx/interface/icons/religion_icons/great_tide.dds"
+	heritage = heritage_water_elements
 	color = { 222 40 40 }
 }
 
+helya = {
+	icon = "gfx/interface/icons/religion_icons/undeadskull.dds"
+	heritage = heritage_undead
+	color = { 12 7 82 }
+}
+
 holy_light = {
-	texture = "gfx/interface/icons/religion_icons/holy_light.dds"
-	traits = {
-		light
-	}
+	icon = "gfx/interface/icons/religion_icons/holy_light.dds"
+	heritage = heritage_holy
 	color = { 245 239 144 }
 }
 
-ogre_elements = {
-	texture = "gfx/interface/icons/religion_icons/ogre_elements.dds"
-	traits = {
-		elements
-	}
-	color = { 92 47 2 }
+illidary_rel = {
+	icon = "gfx/interface/icons/religion_icons/illidari.dds"
+	heritage = heritage_demon
+	color = { 40 155 17 }
 }
 
-twilight_hammer = {
-	texture = "gfx/interface/icons/religion_icons/twilight_hammer.dds"
-	traits = {
-		old_gods
-	}
-	color = { 161 71 191 }
+kragwa_loa = {
+	icon = "gfx/interface/icons/religion_icons/loa.dds"
+	heritage = heritage_wild_gods
+	color = { 134 130 20 }
+}
+
+naaru = {
+	icon = "gfx/interface/icons/religion_icons/naaru.dds"
+	heritage = heritage_naaru
+	color = { 255 255 0 }
+}
+
+nether = {
+	icon = "gfx/interface/icons/religion_icons/nether.dds"
+	heritage = heritage_arcane
+	color = { 58 58 194 }
 }
 
 nzoth = {
-	texture = "gfx/interface/icons/religion_icons/cthun.dds"
-	traits = {
-		old_gods
-	}
+	icon = "gfx/interface/icons/religion_icons/cthun.dds"
+	heritage = heritage_old_gods
 	color = { 168 129 62 }
 }
 
+ogre_elements = {
+	icon = "gfx/interface/icons/religion_icons/ogre_elements.dds"
+	heritage = heritage_earth_elements
+	color = { 92 47 2 }
+}
+
+red_dragon_worship = {
+	icon = "gfx/interface/icons/religion_icons/dragon_red.dds"
+	heritage = heritage_holy
+	color = { 200 20 20 }
+}
+
 scarlet_crusade = {
-	texture = "gfx/interface/icons/religion_icons/scarlet.dds"
-	traits = {
-		light
-	}
+	icon = "gfx/interface/icons/religion_icons/scarlet.dds"
+	heritage = heritage_holy
 	color = { 196 4 4 }
 }
 
 scourge = {
-	texture = "gfx/interface/icons/religion_icons/scourge.dds"
-	traits = {
-		undead
-	}
+	icon = "gfx/interface/icons/religion_icons/scourge.dds"
+	heritage = heritage_undead
 	color = { 86 7 133 }
 }
 
 shadra_loa = {
-	texture = "gfx/interface/icons/religion_icons/loa.dds"
-	traits = {
-		loa
-	}
+	icon = "gfx/interface/icons/religion_icons/loa.dds"
+	heritage = heritage_wild_gods
 	color = { 120 191 19 }
 }
 
 shamanism = {
-	texture = "gfx/interface/icons/religion_icons/shaman.dds"
-	traits = {
-		elements
-	}
+	icon = "gfx/interface/icons/religion_icons/shaman.dds"
+	heritage = heritage_spirit_elements
 	color = { 194 112 45 }
 }
 
+tayutka = {
+	icon = "gfx/interface/icons/religion_icons/shaman.dds"
+	heritage = heritage_spirit_elements
+	color = { 120 70 17 }
+}
+
+tidehunter = {
+	icon = "gfx/interface/icons/religion_icons/tidehunter.dds"
+	heritage = heritage_water_elements
+	color = { 38 163 161 }
+}
+
 the_elements = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-	traits = {
-		elements
-	}
+	icon = "gfx/interface/icons/religion_icons/atheist.dds"
+	heritage = heritage_earth_elements
 	color = { 0 0 0 }
 }
 
+terokk = {
+	icon = "gfx/interface/icons/religion_icons/arak.dds"
+	heritage = heritage_arak
+	color = { 219 180 53 }
+}
+
+twilight_hammer = {
+	icon = "gfx/interface/icons/religion_icons/twilight_hammer.dds"
+	heritage = heritage_old_gods
+	color = { 161 71 191 }
+}
+
+ursoc = {
+	icon = "gfx/interface/icons/religion_icons/ursoc.dds"
+	heritage = heritage_nature
+	color = { 0 97 20 }
+}
+
 voodoo = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-	traits = {
-		loa
-	}
+	icon = "gfx/interface/icons/religion_icons/loa.dds"
+	heritage = heritage_wild_gods
 	color = { 122 233 255 }
 }
 

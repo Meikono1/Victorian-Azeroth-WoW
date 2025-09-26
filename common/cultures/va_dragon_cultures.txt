@@ -1,7 +1,9 @@
 black_dragon = {
 	color = rgb{ 78 3 3 }
 	religion = black_dragon_worship
-	traits = { gorge vulcanic mountains dragon_heritage }
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { tradition_gorge tradition_vulcanic tradition_mountains }
 	male_common_first_names={
 		Abyrthas Adragon Altherion Arkanthos Ashvrynn
 		Balgryth Balthorion Barazgul Blackrynn Brymthas
@@ -88,29 +90,90 @@ black_dragon = {
 	}
 }
 
-blue_dragonkin_dragon = {
+blue_dragon = {
 	color = rgb{ 13 46 137 }
-	religion = protestant
-	traits = { blue_dragon dragon_heritage }
+	religion = blue_dragon_worship
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Abyrthas Adragon Altherion Arkanthos Ashvrynn
+		Balgryth Balthorion Barazgul Blackrynn Brymthas
+		Caldrynn Carvethis Cindralok Cravion
+		Dalthorion Darvryss Dazkrynn Dravithor Drakmor Drathion Drovathys
+		Ebonthas Ecravion Ekrathos Elytharion Emberthos
+		Faldrynn Fangrath Fervrion Fyranthos
+		Galdryth Garravion Gethrakos Gloomvrynn Gorvathis Graltherion
+		Halvrynn Harvathos Hethrakos Hornvrynn
+		Ignathos Ilbrathis Invarion Irkthas
+		Javrion Jorvathos Juthrakos
+		Kalthrynn Karvathos Keldrathis Khorvion Kryzthar
+		Lazrynn Lethrakos Lokvrynn Lortharion
+		Magvrynn Maltherion Mavrakos Morvathis Myrthagos
+		Nagrathos Nelvrynn Norvakthos
+		Obrynn Odrathos Onvarion Orvakthys
+		Pyrrathos Pyvrynn
+		Ravrynn Rethrakos Rokvathis Rultharion
+		Sabrynn Sarthion Selvrathos Shadrakos Sytharion
+		Tavrynn Tharvakos Throvarion Tyrranthos
+		Umbrathos Urvathis
+		Varkrynn Veltharion Vorvakos Vrymmathis
+		Wrathion Wyrvakthos
+		Xarvion Xavrynn Xorvakos
+		Yarvakos Yltharion
+		Zarvakos Zorvathis
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Abyssira Adranyth Alvryssa Ankyra Ashvyra
+		Balthyra Baronyxia Bellathra Brymyss
+		Calythra Cindryssa Cravanyth Cyrantha
+		Dalthyra Daronyxia Dazmyra Dravissa Drakthara Drovanyth
+		Ebonyxia Ecralyth Elmythra Emberlyss Enythra
+		Faryssa Felonyxia Feryndra Fyralyth
+		Galmyra Gloomytha Gorvyssa Gralythra Gryssandra
+		Halonyxia Harvyssa Hethranya Hornyssra
+		Ignalyth Ilthryssa Invyssa Irmythra
+		Jazmyra Jorvyssa Jyssandra
+		Kalythra Karvyssa Keldryssa Khoranyth Kryssandra
+		Lazonyxia Lethryssa Lokvyra Loryntha
+		Magvyssa Malonyxia Mavryssa Morvyra Myrlythra
+		Nalyssa Nelvyra Noryntha Nyxondra
+		Obryssa Odrythra Onyrrha Orvyssa
+		Pyrralyth Pyvryssa
+		Ravonyxia Rethryssa Rokvyra Rulnythra
+		Sabylla Saryssa Selvyra Shadryssa Syrralyth
+		Tavryssa Thalythra Thryndra Tyrralyth
+		Umbralyth Urvyssa
+		Varkyssa Velonyxia Vorvyra Vryssandra
+		Wrynnthra Wyrralyth
+		Xalvyra Xavryssa Xoryntha
+		Yalvyra Yrralyth
+		Zalythra Zorvyssa
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashbreaker Ashclaw Ashflame Ashwing
+		Blackflame Blackmaw Blackscale Blackwing
+		Burnfang Burnscale Burnwing
+		Cinderclaw Cinderfang Cinderscale Cinderwing
+		Darkfang Darkflame Darkmaw Darkscale Darkwing
+		Deathfang Deathscale Deathwing
+		Doomclaw Doomfang Doomscale Doomwing
+		Ebonscale Ebonshadow Ebonwing
+		Emberclaw Emberfang Emberscale Emberwing
+		Fireclaw Firefang Firescale Firewing
+		Flamefang Flamescale Flamewing
+		Hellfang Hellscale Hellwing
+		Infernoclaw Infernofang Infernoscale Infernowing
+		Lavafang Lavascale Lavawing
+		Nightclaw Nightfang Nightflame Nightmaw Nightscale Nightwing
+		Obsidianclaw Obsidianfang Obsidianscale Obsidianwing
+		Pyreclaw Pyrefang Pyrescale Pyrewing
+		Scalebreaker Scaleblade Scaleburn Scalemaul Scaleshadow
+		Shadowclaw Shadowfang Shadowflame Shadowscale Shadowwing
+		Stoneclaw Stonefang Stonescale Stonewing
+		Stormfang Stormscale Stormwing
+		Terrorclaw Terrorfang Terrorscale Terrorwing
+		Twilightclaw Twilightfang Twilightscale Twilightwing
 	}
 
 	graphics = european
@@ -119,153 +182,93 @@ blue_dragonkin_dragon = {
 	}
 }
 
-blue_dragonkin_dragonspawn = {
-	color = rgb{ 27 110 172 }
-	religion = protestant
-	traits = { blue_dragon dragonspawn dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-blue_dragonkin_whelp = {
-	color = rgb{ 52 2 2 }
-	religion = protestant
-	traits = { blue_dragon dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-blue_dragonkin_netherwing = {
-	color = rgb{ 18 50 124 }
-	religion = protestant
-	traits = { netherwing blue_dragon dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-blue_dragonkin_drakonid = {
-	color = rgb{ 48 112 167 }
-	religion = protestant
-	traits = { drakonid dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bronze_dragonkin_dragon = {
+bronze_dragon = {
 	color = rgb{ 156 104 43 }
-	religion = protestant
-	traits = { bronze_dragon dragon_heritage }
+	religion = bronce_dragon_worship
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Abyrthas Adragon Altherion Arkanthos Ashvrynn
+		Balgryth Balthorion Barazgul Blackrynn Brymthas
+		Caldrynn Carvethis Cindralok Cravion
+		Dalthorion Darvryss Dazkrynn Dravithor Drakmor Drathion Drovathys
+		Ebonthas Ecravion Ekrathos Elytharion Emberthos
+		Faldrynn Fangrath Fervrion Fyranthos
+		Galdryth Garravion Gethrakos Gloomvrynn Gorvathis Graltherion
+		Halvrynn Harvathos Hethrakos Hornvrynn
+		Ignathos Ilbrathis Invarion Irkthas
+		Javrion Jorvathos Juthrakos
+		Kalthrynn Karvathos Keldrathis Khorvion Kryzthar
+		Lazrynn Lethrakos Lokvrynn Lortharion
+		Magvrynn Maltherion Mavrakos Morvathis Myrthagos
+		Nagrathos Nelvrynn Norvakthos
+		Obrynn Odrathos Onvarion Orvakthys
+		Pyrrathos Pyvrynn
+		Ravrynn Rethrakos Rokvathis Rultharion
+		Sabrynn Sarthion Selvrathos Shadrakos Sytharion
+		Tavrynn Tharvakos Throvarion Tyrranthos
+		Umbrathos Urvathis
+		Varkrynn Veltharion Vorvakos Vrymmathis
+		Wrathion Wyrvakthos
+		Xarvion Xavrynn Xorvakos
+		Yarvakos Yltharion
+		Zarvakos Zorvathis
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Abyssira Adranyth Alvryssa Ankyra Ashvyra
+		Balthyra Baronyxia Bellathra Brymyss
+		Calythra Cindryssa Cravanyth Cyrantha
+		Dalthyra Daronyxia Dazmyra Dravissa Drakthara Drovanyth
+		Ebonyxia Ecralyth Elmythra Emberlyss Enythra
+		Faryssa Felonyxia Feryndra Fyralyth
+		Galmyra Gloomytha Gorvyssa Gralythra Gryssandra
+		Halonyxia Harvyssa Hethranya Hornyssra
+		Ignalyth Ilthryssa Invyssa Irmythra
+		Jazmyra Jorvyssa Jyssandra
+		Kalythra Karvyssa Keldryssa Khoranyth Kryssandra
+		Lazonyxia Lethryssa Lokvyra Loryntha
+		Magvyssa Malonyxia Mavryssa Morvyra Myrlythra
+		Nalyssa Nelvyra Noryntha Nyxondra
+		Obryssa Odrythra Onyrrha Orvyssa
+		Pyrralyth Pyvryssa
+		Ravonyxia Rethryssa Rokvyra Rulnythra
+		Sabylla Saryssa Selvyra Shadryssa Syrralyth
+		Tavryssa Thalythra Thryndra Tyrralyth
+		Umbralyth Urvyssa
+		Varkyssa Velonyxia Vorvyra Vryssandra
+		Wrynnthra Wyrralyth
+		Xalvyra Xavryssa Xoryntha
+		Yalvyra Yrralyth
+		Zalythra Zorvyssa
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Aeontail
+		Bronzescale
+		Chronowing
+		Dunebreath
+		Eternascale
+		Fatescale
+		Goldenwing
+		Hourfang
+		Infiniteclaw
+		Jaderust
+		Kairoth
+		Longevus
+		Moondust
+		Nostralis
+		Orriscale
+		Pastfang
+		Quarsand
+		Rustscale
+		Sandspeaker
+		Timetail
+		Umbradust
+		Veloras
+		Wyrmtime
+		Xerachron
+		Ysandrel
+		Zephyros
 	}
 
 	graphics = european
@@ -277,7 +280,9 @@ bronze_dragonkin_dragon = {
 green_dragon = {
 	color = rgb{ 27 183 49 }
 	religion = green_dragon_worship
-	traits = { ancient_forest temperate_forest dense_forest dragon_heritage }
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { tradition_ancient_forest tradition_temperate_forest tradition_dense_forest }
 	male_common_first_names={
 		Aelrion Aerathis Aethrynn Altherion Amelthas Antherion Aralyth Ashendor
 		Baelrith Beryndor Branthas Bryndor
@@ -361,60 +366,93 @@ green_dragon = {
 	}
 }
 
-nether_dragonkin_dragon_protectorate = {
-	color = rgb{ 75 207 60 }
-	religion = protestant
-	traits = { protectorate nether_drake dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-nether_dragonkin_dragon = {
+nether_dragon = {
 	color = rgb{ 84 41 230 }
-	religion = protestant
-	traits = { netherwing nether_drake dragon_heritage }
+	religion = nether
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Abyrthas Adragon Altherion Arkanthos Ashvrynn
+		Balgryth Balthorion Barazgul Blackrynn Brymthas
+		Caldrynn Carvethis Cindralok Cravion
+		Dalthorion Darvryss Dazkrynn Dravithor Drakmor Drathion Drovathys
+		Ebonthas Ecravion Ekrathos Elytharion Emberthos
+		Faldrynn Fangrath Fervrion Fyranthos
+		Galdryth Garravion Gethrakos Gloomvrynn Gorvathis Graltherion
+		Halvrynn Harvathos Hethrakos Hornvrynn
+		Ignathos Ilbrathis Invarion Irkthas
+		Javrion Jorvathos Juthrakos
+		Kalthrynn Karvathos Keldrathis Khorvion Kryzthar
+		Lazrynn Lethrakos Lokvrynn Lortharion
+		Magvrynn Maltherion Mavrakos Morvathis Myrthagos
+		Nagrathos Nelvrynn Norvakthos
+		Obrynn Odrathos Onvarion Orvakthys
+		Pyrrathos Pyvrynn
+		Ravrynn Rethrakos Rokvathis Rultharion
+		Sabrynn Sarthion Selvrathos Shadrakos Sytharion
+		Tavrynn Tharvakos Throvarion Tyrranthos
+		Umbrathos Urvathis
+		Varkrynn Veltharion Vorvakos Vrymmathis
+		Wrathion Wyrvakthos
+		Xarvion Xavrynn Xorvakos
+		Yarvakos Yltharion
+		Zarvakos Zorvathis
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Abyssira Adranyth Alvryssa Ankyra Ashvyra
+		Balthyra Baronyxia Bellathra Brymyss
+		Calythra Cindryssa Cravanyth Cyrantha
+		Dalthyra Daronyxia Dazmyra Dravissa Drakthara Drovanyth
+		Ebonyxia Ecralyth Elmythra Emberlyss Enythra
+		Faryssa Felonyxia Feryndra Fyralyth
+		Galmyra Gloomytha Gorvyssa Gralythra Gryssandra
+		Halonyxia Harvyssa Hethranya Hornyssra
+		Ignalyth Ilthryssa Invyssa Irmythra
+		Jazmyra Jorvyssa Jyssandra
+		Kalythra Karvyssa Keldryssa Khoranyth Kryssandra
+		Lazonyxia Lethryssa Lokvyra Loryntha
+		Magvyssa Malonyxia Mavryssa Morvyra Myrlythra
+		Nalyssa Nelvyra Noryntha Nyxondra
+		Obryssa Odrythra Onyrrha Orvyssa
+		Pyrralyth Pyvryssa
+		Ravonyxia Rethryssa Rokvyra Rulnythra
+		Sabylla Saryssa Selvyra Shadryssa Syrralyth
+		Tavryssa Thalythra Thryndra Tyrralyth
+		Umbralyth Urvyssa
+		Varkyssa Velonyxia Vorvyra Vryssandra
+		Wrynnthra Wyrralyth
+		Xalvyra Xavryssa Xoryntha
+		Yalvyra Yrralyth
+		Zalythra Zorvyssa
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Aeontail
+		Bronzescale
+		Chronowing
+		Dunebreath
+		Eternascale
+		Fatescale
+		Goldenwing
+		Hourfang
+		Infiniteclaw
+		Jaderust
+		Kairoth
+		Longevus
+		Moondust
+		Nostralis
+		Orriscale
+		Pastfang
+		Quarsand
+		Rustscale
+		Sandspeaker
+		Timetail
+		Umbradust
+		Veloras
+		Wyrmtime
+		Xerachron
+		Ysandrel
+		Zephyros
 	}
 
 	graphics = european
@@ -423,60 +461,87 @@ nether_dragonkin_dragon = {
 	}
 }
 
-nether_dragonkin_whelp = {
-	color = rgb{ 104 87 164 }
-	religion = protestant
-	traits = { netherwing nether_drake dragon_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-red_dragonkin_dragon = {
+red_dragon = {
 	color = rgb{ 129 27 7 }
-	religion = protestant
-	traits = { red_dragon dragon_heritage }
+	religion = red_dragon_worship
+	heritage = dragon_heritage
+	language = language_dragon
+	traditions = { tradition_red_dragon }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aelrion Aerathis Aethrynn Altherion Amelthas Antherion Aralyth Ashendor
+		Baelrith Beryndor Branthas Bryndor
+		Caelthas Caladryos Caralyth Ceryndor Crystallion
+		Daerion Dalmareth Delyrion Deranthor Drathion Dryndor
+		Elarion Elenith Elionas Elthandor Elyndris Emyrion Entherion Eryndor
+		Faelthas Faenor Faerith Felathor Feryndor Fioralion
+		Galathor Galdrith Galyndor Garnithis Glorandor Greenythor Gryndalor
+		Halendor Halyndor Helyrion Heranthor Hollowmyr
+		Ialdrion Iandor Iarethis Ilyndor Irathion
+		Jaelrion Jalendris Jalythar Jandor Jarethion
+		Kaelion Kaladryos Kalendris Kalythar Karyndor Keldryth
+		Laerion Lalendris Laryndor Lephyrion Lorynthas Lythorion
+		Maelthas Maladryos Malendris Malythor Mardryth Maranthor Myrathion
+		Naelion Naladryos Nalendris Nalythor Naryndor
+		Oelrion Oladryos Olendris Olythar Oryndor
+		Paelthas Paladryos Palendris Palythor Paryndor
+		Quarion Quendryth Quaryndor
+		Raelion Raladryos Ralythor Raryndor Rethion
+		Saelthas Saladryos Salendris Salythor Saryndor Selathion
+		Taelion Taladryos Talendris Talythor Taryndor Thalyssor Thandor
+		Uldryon Ulendris Ulythor Uryndor
+		Vaelion Valadryos Valendris Valythor Varyndor Verdryth
+		Wyntherion Wynthor
+		Xalendris Xalythor Xandryos Xoryndor
+		Yltharion Yndor Yorythas
+		Zalendris Zalythor Zandryos Zoryndor
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aeloria Aenysse Althira Amariel Antheris Aravelle Ashyra
+		Belthira Beryndra Brisalyne Bryndis
+		Calithra Celrionne Ceryndra Crysalis
+		Daelara Deltharis Dewrienne Dryssara
+		Elarisse Elysandra Emberisse Eryndelle Everithra
+		Faerilith Fayndra Fernalya Feyralis
+		Galadryne Glemyra Gloralyth Greenysse
+		Halryssa Havenyra Helyndra
+		Illyndra Isolyth Ivessara
+		Jasmyra Joryntha
+		Kaelyndra Kerythra Korynthal
+		Laurelya Lethryss Lyssendra
+		Maerithra Melyssia Myrandis Mythryelle
+		Naeryssa Nelthara Nyssavelle
+		Olyndra Onyssira
+		Peralyth Phoryndra
+		Quenyssa
+		Raelyndra Ravalyth Rythessa
+		Selenyra Seralyth Sylthandra
+		Talindra Thalryss Thyssalyn
+		Umbryelle Uranyth
+		Vaerynna Velithra Voryssa
+		Wyntheris
+		Xelyndra
+		Yssandra
+		Zeralyth Zoryndra
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Amberdream Ambergrove Amberleaf Amberwing
+		Blossomglen Blossomheart Blossommist Blossomwind
+		Brightbough Brightdream Brightgrove Brightleaf Brightwing
+		Cloudbloom Cloudbough Clouddream Cloudglen Cloudwing
+		Dawnbloom Dawnbough Dawndream Dawngrove Dawnleaf Dawnwing
+		Dreambough Dreamflare Dreamglen Dreamheart Dreamleaf Dreamsong Dreamwing
+		Emeraldbough Emeraldbreath Emeraldcrest Emeralddream Emeraldglade Emeraldgrove Emeraldleaf Emeraldsong Emeraldwing
+		Faebloom Faebough Faedream Faegrove Faeleaf Faewing
+		Forestbloom Forestbough Forestdream Forestglade Forestgrove Forestleaf Forestsong Forestwing
+		Glenbough Glendream Glengrove Glenleaf Glenwing
+		Greenbough Greenbreath Greencrest Greendream Greenglade Greengrove Greenleaf Greensong Greenwing
+		Leafbloom Leafbough Leafdream Leafglade Leafgrove Leafsong Leafwing
+		Mistbloom Mistbough Mistdream Mistglen Mistgrove Mistleaf Mistwing
+		Moonbough Moonbreeze Mooncrest Moondream Moonglade Moongrove Moonleaf Moonsong Moonwing
+		Silverbough Silverbreeze Silvercrest Silverdream Silverglade Silvergrove Silverleaf Silversong Silverwing
+		Starbough Starbreeze Starcrest Stardream Starglade Stargrove Starleaf Starsong Starwing
+		Sunbough Sunbreeze Suncrest Sundream Sunglade Sungrove Sunleaf Sunsong Sunwing
+		Willowbough Willowbreeze Willowcrest Willowdream Willowglade Willowgrove Willowleaf Willowsong Willowwing
 	}
 
 	graphics = european

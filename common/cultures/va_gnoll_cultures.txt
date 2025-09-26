@@ -1,7 +1,9 @@
 bluepelt = {
 	color = rgb{ 95 200 180 }
 	religion = shamanism
-	traits = { highlands gnoll_heritage }
+	heritage = gnoll_heritage
+	language = language_gnoll
+	traditions = { tradition_highlands }
 	male_common_first_names={
 		Agrab Gnash Urgok Thrashnak Varkul
 		Brokmar Bragnar Blagthuk Bruknar Grashik Drogath Krullok Snagthar Zurnok
@@ -72,7 +74,9 @@ bluepelt = {
 emberhide = {
 	color = rgb{ 192 90 24 }
 	religion = shamanism
-	traits = { mountains gnoll_heritage }
+	heritage = gnoll_heritage
+	language = language_gnoll
+	traditions = { tradition_mountains }
 	male_common_first_names={
 		Agrab Gnash Urgok Thrashnak Varkul
 		Brokmar Bragnar Blagthuk Bruknar Grashik Drogath Krullok Snagthar Zurnok
@@ -140,10 +144,12 @@ emberhide = {
 	}
 }
 
-mudmane_gnoll = {
+mudmane = {
 	color = rgb{ 166 106 56 }
 	religion = shamanism
-	traits = { plains temperate_forest gnoll_heritage }
+	heritage = gnoll_heritage
+	language = language_gnoll
+	traditions = { tradition_plains tradition_temperate_forest }
 	male_common_first_names={
 		Agrab Gnash Urgok Thrashnak Varkul
 		Brokmar Bragnar Blagthuk Bruknar Grashik Drogath Krullok Snagthar Zurnok

@@ -20,6 +20,13 @@ company_ilva = {
 		prestige_good_generic_steel
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_steel_complete_tt
+			has_variable = prestige_good_generic_steel_var
+		}
+	}
+
 	potential = {
 		has_interest_marker_in_region = region_italy
 	}
@@ -93,6 +100,13 @@ company_ansaldo = {
 		prestige_good_generic_steel
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_steel_complete_tt
+			has_variable = prestige_good_generic_steel_var
+		}
+	}
+
 	potential = {
 		has_interest_marker_in_region = region_italy
 	}
@@ -163,6 +177,8 @@ company_ansaldo = {
 company_ricordi = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/ricordi.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
+
+	category = academic_owned
 
 	flavored_company = yes
 

@@ -6,19 +6,11 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_beholder
-				size = 68000
-			}
-			create_pop = {
-				culture = burning_legion_felbeast
-				size = 136000
-			}
-			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 12800
 			}
 			create_pop = {
-				culture = farahlon_mountain_giants
+				culture = mountain_giant
 				size = 272800
 			}
 		}
@@ -26,7 +18,7 @@
 	s:STATE_FORGE_BASE_OBLIVION = {
 		region_state:BURNING_LEGION_INVASION_NETHERSTORM = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 182400
 			}
 			create_pop = {
@@ -34,47 +26,31 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 84000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 188800
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 140000
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 64000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 52000
-			}
-			create_pop = {
-				culture = farahlon_mountain_giants
+				culture = mountain_giant
 				size = 92000
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 24000
 			}
 		}
 	}
 	s:STATE_MANAFORGE_ARA = {
 		region_state:BURNING_LEGION_INVASION_NETHERSTORM = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 25600
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 152800
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 12800
 			}
 			create_pop = {
@@ -82,103 +58,71 @@
 				size = 92800
 			}
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
-			}
-			create_pop = {
-				culture = burning_legion_felhound
-				size = 56000
-			}
-			create_pop = {
-				culture = burning_legion_shivan
-				size = 128000
 			}
 		}
 		region_state:SUNFURY = {
 			create_pop = {
-				culture = elemental_arcangolem
-				size = 12800
-			}
-			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 45600
 			}
 			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_mana_beast
-				size = 112000
-			}
-			create_pop = {
-				culture = elemental_shadow_shade
-				size = 44000
 			}
 		}
 	}
 	s:STATE_STORMSPIRE = {
 		region_state:CONSORTIUM = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 38400
 			}
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 31700
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_shadow_shade
-				size = 4000
-			}
-			create_pop = {
-				culture = elemental_earth_lasher
-				size = 136000
 			}
 		}
 	}
 	s:STATE_MANAFORGE_ULTRIUS = {
 		region_state:ETHEREUM = {
 			create_pop = {
-				culture = ethereum_ethereal
+				culture = ethereal
 				size = 621600
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 25600
 			}
 			create_pop = {
-				culture = demonic_voidwalker
-				size = 252800
-			}
-			create_pop = {
-				culture = protectorate_ethereal
+				culture = ethereal
 				size = 4000
 			}
 		}
 	region_state:PROTECTORATE = {
 			create_pop = {
-				culture = protectorate_ethereal
+				culture = ethereal
 				size = 252000
 			}
 			create_pop = {
-				culture = nether_dragonkin_dragon_protectorate
+				culture = nether_dragon
 				size = 4000
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 36000
 			}
 		}
@@ -186,21 +130,21 @@
 	s:STATE_CELESTIAL_RIDGE = {
 		region_state:ETHEREUM = {
 			create_pop = {
-				culture = ethereum_ethereal
+				culture = ethereal
 				size = 420000
 			}
 		}
 		region_state:NETHERWING = {
 			create_pop = {
-				culture = nether_dragonkin_dragon
+				culture = nether_dragon
 				size = 208800
 			}
 			create_pop = {
-				culture = blue_dragonkin_netherwing
+				culture = blue_dragon
 				size = 12800
 			}
 			create_pop = {
-				culture = silverhand_human
+				culture = stormwindian
 				size = 12800
 			}
 		}
@@ -212,7 +156,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = bloodwarder_bloodelf
+				culture = sin_dorei
 				size = 384800
 			}
 			create_pop = {
@@ -220,119 +164,63 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_human_cultist
+				culture = dalaranian
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 4000
 			}
 			create_pop = {
-				culture = burning_legion_beholder
+				culture = doom_guard
 				size = 8000
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
-				size = 8000
-			}
-			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 16000
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 8000
-			}
-			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 4000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 25600
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 4000
-			}
-			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = burning_legion_succubus
-				size = 16000
-			}
-			create_pop = {
-				culture = crimson_hand_bloodelf
+				culture = sin_dorei
 				size = 156000
 			}
 			create_pop = {
-				culture = crystalcore_moarg
+				culture = imp
 				size = 24000
 			}
 			create_pop = {
-				culture = demonic_voidwalker
-				size = 14800
-			}
-			create_pop = {
-				culture = elemental_arcan_ancient
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_arcangolem
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_earth_lasher
-				size = 256800
-			}
-			create_pop = {
-				culture = elemental_fire_sunfury_phoenix
-				size = 12800
-			}
-			create_pop = {
-				culture = ethereum_ethereal
+				culture = ethereal
 				size = 32000
 			}
 			create_pop = {
-				culture = mechanar_moarg
+				culture = imp
 				size = 112000
 			}
 			create_pop = {
-				culture = mechanical_arcane_golem
-				size = 20000
-			}
-			create_pop = {
-				culture = mechanical_crystalcore_arcane_golem
-				size = 56000
-			}
-			create_pop = {
-				culture = mechanical_sunfury_fel_reaver
-				size = 12800
-			}
-			create_pop = {
-				culture = mechanical_tempest_forge_arcane_golem
-				size = 52000
-			}
-			create_pop = {
-				culture = nethervine_satyr
+				culture = fel_dorei
 				size = 72800
 			}
 			create_pop = {
-				culture = old_gods_qiraji
+				culture = qiraji
 				size = 12800
 			}
 			create_pop = {
-				culture = sargeron_satyr
+				culture = fel_dorei
 				size = 16000
 			}
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 428800
 			}
 			create_pop = {
-				culture = sunseeker_bloodelf
+				culture = sin_dorei
 				size = 420000
 			}
 			create_pop = {
@@ -344,25 +232,21 @@
 	s:STATE_MANAFORGE_DURO = {
 		region_state:SUNFURY = {
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 292000
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 40000
 			}
 		}
 		region_state:AREA_FIFTYTWO = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = areaft_goblin
+				culture = goblin
 				size = 32800
 			}
 			create_pop = {
-				culture = twilight_hammer_human
+				culture = stormwindian
 				size = 12800
 			}
 		}
@@ -370,33 +254,33 @@
 	s:STATE_ECO_DOME_MIDREALM = {
 		region_state:CONSORTIUM = {
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 51200
 			}
 			create_pop = {
-				culture = boom_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = areaft_goblin
+				culture = goblin
 				size = 12800
 			}
 		}
 		region_state:BURNING_LEGION_INVASION_NETHERSTORM = {
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 212800
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 12000
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 8000
 			}
 			create_pop = {
-				culture = apex_mountain_giants
+				culture = mountain_giant
 				size = 56800
 			}
 		}
@@ -411,48 +295,16 @@
 				culture = dalaranian
 				size = 51200
 			}
-			create_pop = {
-				culture = kirintor_lich
-				size = 12800
-			}
-			create_pop = {
-				culture = kirintor_undead_human
-				size = 199200
-			}
-			create_pop = {
-				culture = kirintor_undead_bloodelf
-				size = 92800
-			}
-			create_pop = {
-				culture = kirintor_undead_gnome
-				size = 52000
-			}
-			create_pop = {
-				culture = elemental_arcangolem
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_mana_fiend
-				size = 80000
-			}
-			create_pop = {
-				culture = elemental_mana_voidwalker
-				size = 80000
-			}
 		}
 	}
 	s:STATE_MANAFORGE_CORUU = {
 		region_state:SUNFURY = {
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 304000
 			}
 			create_pop = {
-				culture = elemental_arcangolem
-				size = 8000
-			}
-			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 		}
@@ -460,99 +312,67 @@
 	s:STATE_AREA_52 = {
 		region_state:AREA_FIFTYTWO = {
 			create_pop = {
-				culture = areaft_goblin
+				culture = goblin
 				size = 356800
 			}
 			create_pop = {
-				culture = areaft_ogre
+				culture = mountain_ogre
 				size = 8000
 			}
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 25600
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 51200
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 12800
 			}
 			create_pop = {
-				culture = kirintor_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = mechanical_area_fiftytwo_golem
-				size = 38400
-			}
-			create_pop = {
-				culture = farahlon_mountain_giants
+				culture = mountain_giant
 				size = 204000
 			}
 			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 42400
-			}
-			create_pop = {
-				culture = shaleskin_rock_flayer
-				size = 132000
 			}
 		}
 		region_state:BOOM = {
 			create_pop = {
-				culture = boom_goblin
+				culture = goblin
 				size = 192000
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_mana_fiend
-				size = 104000
-			}
-			create_pop = {
-				culture = enkaat_undead_draenei
-				size = 204000
 			}
 		}
 	}
 	s:STATE_MANAFORGE_BNAAR = {
 		region_state:SUNFURY = {
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 577600
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 84000
-			}
-			create_pop = {
-				culture = elemental_mana_fiend
-				size = 56000
-			}
-			create_pop = {
-				culture = mechanical_arcane_golem
-				size = 60000
-			}
-			create_pop = {
-				culture = netherock_mountain_giants
+				culture = mountain_giant
 				size = 172000
 			}
 		}
 		region_state:ZAXXIS = {
 			create_pop = {
-				culture = zaxxis_ethereal
+				culture = ethereal
 				size = 212800
 			}
 			create_pop = {
-				culture = boom_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = netherock_mountain_giants
+				culture = mountain_giant
 				size = 52000
 			}
 		}
@@ -562,24 +382,12 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 60000
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 80000
-			}
-			create_pop = {
-				culture = netherock_mountain_giants
+				culture = mountain_giant
 				size = 172000
-			}
-			create_pop = {
-				culture = shaleskin_rock_flayer
-				size = 136000
 			}
 		}
 	}
@@ -590,24 +398,20 @@
 				size = 20800
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_orc_cultist
+				culture = felorc
 				size = 64000
 			}
 			create_pop = {
-				culture = burning_legion_forsaken_cultist
+				culture = forsaken
 				size = 60000
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 68000
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 48000
 			}
 		}
 	}
@@ -618,23 +422,15 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = aether_tech_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = aether_tech_dwarf
-				size = 12800
-			}
-			create_pop = {
-				culture = bashir_ethereal
+				culture = ethereal
 				size = 397600
 			}
 			create_pop = {
-				culture = apexis_rock_flayer
-				size = 12000
-			}
-			create_pop = {
-				culture = apexis_mountain_giants
+				culture = mountain_giant
 				size = 8000
 			}
 			create_pop = {
@@ -650,35 +446,31 @@
 				size = 8000
 			}
 			create_pop = {
-				culture = shatari_skyguard_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = shatari_skyguard_draenei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
 				culture = gnome
 				size = 4000
 			}
-			create_pop = {
-				culture = elemental_mana_fiend
-				size = 96000
-			}
 		}
 	}
 	s:STATE_GRUULS_LAIR = {
 		region_state:BLADESPIRE_CLAN = {
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 176800
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 148000
 			}
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 25600
 			}
 		}
@@ -686,15 +478,15 @@
 	s:STATE_DAGGERMAW_CANYON = {
 		region_state:BLOODMAUL_CLAN = {
 			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 148000
 			}
 			create_pop = {
-				culture = bloodmaul_ogre_magi
+				culture = mountain_ogre
 				size = 81600
 			}
 			create_pop = {
-				culture = bloodmaul_magnaron
+				culture = magnaron
 				size = 12800
 			}
 		}
@@ -702,24 +494,16 @@
 	s:STATE_RUUAN_WEALD = {
 		region_state:CENARION_CIRCLE_OUTLAND = {
 			create_pop = {
-				culture = cenarius_druid_dryad
-				size = 40800
-			}
-			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 76800
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 46400
 			}
 			create_pop = {
-				culture = cenarius_druid_keeper
+				culture = kal_dorei
 				size = 40000
-			}
-			create_pop = {
-				culture = elemental_cenarius_earth_ancient
-				size = 12800
 			}
 			create_pop = {
 				culture = kal_dorei
@@ -744,15 +528,15 @@
 		}
 		region_state:BLACKWIND_WYRMCULTISTS = {
 			create_pop = {
-				culture = wyrmcultist_dreanei
+				culture = draenei
 				size = 156800
 			}
 			create_pop = {
-				culture = wyrmcultist_human
+				culture = dalaranian
 				size = 80000
 			}
 			create_pop = {
-				culture = wyrmcultist_orc
+				culture = orgrimmari
 				size = 144000
 			}
 			create_pop = {
@@ -762,16 +546,8 @@
 		}
 		region_state:RUUAN_OK = {
 			create_pop = {
-				culture = ruuan_ok_arakkoa
+				culture = arakkoa
 				size = 152800
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 20000
-			}
-			create_pop = {
-				culture = ruuanok_undead_arakkoa
-				size = 8000
 			}
 			create_pop = {
 				culture = black_dragon
@@ -782,29 +558,25 @@
 	s:STATE_FORGE_CAMP_ANGER = {
 		region_state:RAZAANI = {
 			create_pop = {
-				culture = razaani_ethereal
+				culture = ethereal
 				size = 228800
 			}
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 16000
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 12000
 			}
 		}
 		region_state:BURNING_LEGION_FORGE_CAMPS = {
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 48000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 80000
 			}
 		}
@@ -812,15 +584,15 @@
 	s:STATE_CIRCLE_OF_BLOOD = {
 		region_state:BLACKWIND_WYRMCULTISTS = {
 			create_pop = {
-				culture = wyrmcultist_dreanei
+				culture = draenei
 				size = 32000
 			}
 			create_pop = {
-				culture = wyrmcultist_human
+				culture = dalaranian
 				size = 44000
 			}
 			create_pop = {
-				culture = wyrmcultist_orc
+				culture = orgrimmari
 				size = 16000
 			}
 			create_pop = {
@@ -828,7 +600,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 40800
 			}
 		}
@@ -842,19 +614,19 @@
 				size = 20800
 			}
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 36800
 			}
 			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 61600
 			}
 			create_pop = {
-				culture = bloodmaul_ogre_magi
+				culture = mountain_ogre
 				size = 24800
 			}
 		}
@@ -866,39 +638,31 @@
 				size = 44000
 			}
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 28000
 			}
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 16000
 			}
 			create_pop = {
-				culture = elemental_earth_ent
-				size = 24000
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 84000
-			}
-			create_pop = {
-				culture = wyrmcultist_human
+				culture = dalaranian
 				size = 8000
 			}
 			create_pop = {
-				culture = wyrmcultist_orc
+				culture = orgrimmari
 				size = 52800
 			}
 			create_pop = {
-				culture = wyrmcultist_broken
+				culture = krokul
 				size = 44000
 			}
 			create_pop = {
-				culture = wyrmcultist_dreanei
+				culture = draenei
 				size = 32000
 			}
 			create_pop = {
@@ -916,55 +680,39 @@
 		}
 		region_state:GRISHNATH = {
 			create_pop = {
-				culture = grishnath_arakkoa
+				culture = arakkoa
 				size = 220800
 			}
 			create_pop = {
-				culture = grishnath_undead_arakkoa
-				size = 168000
-			}
-			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 32800
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 16000
-			}
-			create_pop = {
-				culture = elemental_earth_ancient
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 152000
 			}
 		}
 	}
 	s:STATE_BLADESPIRE_HOLD = {
 		region_state:BLADESPIRE_CLAN = {
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 369600
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 126400
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = bladespire_undead_ogre
-				size = 60000
-			}
-			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 8000
 			}
 			create_pop = {
-				culture = bloodmaul_ogre_magi
+				culture = mountain_ogre
 				size = 4000
 			}
 		}
@@ -976,55 +724,39 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 212000
-			}
-			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 68000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 176000
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 36000
-			}
-			create_pop = {
-				culture = burning_legion_forsaken_cultist
+				culture = forsaken
 				size = 52000
 			}
 			create_pop = {
-				culture = burning_legion_orc_cultist
+				culture = felorc
 				size = 48000
 			}
 		}
 		region_state:OGRILA = {
 			create_pop = {
-				culture = ogrila_ogre_magi
+				culture = mountain_ogre
 				size = 208000
 			}
 			create_pop = {
-				culture = apexis_rock_flayer
-				size = 152000
-			}
-			create_pop = {
-				culture = apexis_mountain_giants
+				culture = mountain_giant
 				size = 12000
 			}
 		}
 		region_state:SHATARI_SKYGUARD = {
 			create_pop = {
-				culture = aether_tech_dwarf
-				size = 12800
-			}
-			create_pop = {
-				culture = shatari_skyguard_draenei
+				culture = draenei
 				size = 8000
 			}
 			create_pop = {
-				culture = shatari_skyguard_bloodelf
+				culture = sin_dorei
 				size = 8000
 			}
 			create_pop = {
@@ -1032,124 +764,58 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = shatari_skyguard_human
+				culture = stormwindian
 				size = 62400
 			}
 			create_pop = {
-				culture = shatari_skyguard_dwarf
+				culture = bronzebeard
 				size = 20800
-			}
-			create_pop = {
-				culture = apexis_rock_flayer
-				size = 32000
 			}
 		}
 	}
 	s:STATE_FORGE_CAMP_TERROR = {
-		region_state:APEXIS_FLAYERS = {
-			create_pop = {
-				culture = apexis_rock_flayer
-				size = 120000
-			}
-			create_pop = {
-				culture = apexis_mountain_giants
-				size = 12000
-			}
-		}
 		region_state:BURNING_LEGION_FORGE_CAMPS = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 116800
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 20000
-			}
-			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 196000
-			}
-			create_pop = {
-				culture = burning_legion_infernal
-				size = 100000
 			}
 			create_pop = {
 				culture = black_dragon
 				size = 38400
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 104000
 			}
 		}
 	}
 	s:STATE_SYLVANAAR = {
 		region_state:LASHHAN = {
 			create_pop = {
-				culture = lashhan_arakkoa
+				culture = arakkoa
 				size = 204800
-			}
-			create_pop = {
-				culture = elemental_earth_ancient_darnassus
-				size = 44000
-			}
-			create_pop = {
-				culture = elemental_earth_ent_darnassus
-				size = 28000
-			}
-			create_pop = {
-				culture = outlands_fearie_dragon
-				size = 86000
 			}
 		}
 		region_state:SYLVANNAR = {
-			create_pop = {
-				culture = darnassus_dryad
-				size = 12800
-			}
 			create_pop = {
 				culture = kal_dorei
 				size = 163200
 			}
 			create_pop = {
-				culture = explorers_league_dwarf
+				culture = bronzebeard
 				size = 25600
-			}
-			create_pop = {
-				culture = elemental_earth_ancient_darnassus
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_earth_ent_darnassus
-				size = 20000
-			}
-			create_pop = {
-				culture = outlands_fearie_dragon
-				size = 58000
 			}
 		}
 	}
 	s:STATE_BLOODMAUL_POST = {
 		region_state:BLOODMAUL_CLAN = {
 			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 289600
 			}
 			create_pop = {
-				culture = bloodmaul_ogre_magi
+				culture = mountain_ogre
 				size = 244000
-			}
-			create_pop = {
-				culture = bloodmaul_undead_ogre
-				size = 12000
-			}
-			create_pop = {
-				culture = bladespire_undead_ogre
-				size = 12000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 12000
 			}
 		}
 	}
@@ -1164,87 +830,59 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 38400
 			}
 			create_pop = {
 				culture = maghar_orc
 				size = 25600
 			}
-			create_pop = {
-				culture = moknathal_halfogre
-				size = 12800
-			}
-			create_pop = {
-				culture = mechanical_alert_bot
-				size = 4000
-			}
 		}
 	}
 	s:STATE_SINGING_RIDGE = {
 		region_state:BURNING_LEGION_FORGE_CAMPS = {
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 76000
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 56000
-			}
-			create_pop = {
-				culture = burning_legion_beholder
-				size = 44000
-			}
-			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 152000
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 42000
 			}
 		}
 		region_state:BLADESPIRE_CLAN = {
 			create_pop = {
-				culture = bladespire_ogre
+				culture = mountain_ogre
 				size = 92800
 			}
 			create_pop = {
-				culture = bladespire_ogre_magi
+				culture = mountain_ogre
 				size = 68000
 			}
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 		}
 		region_state:TOSHLEY_STATION = {
 			create_pop = {
-				culture = crystal_rock_flayer
-				size = 172000
-			}
-			create_pop = {
 				culture = gnome
 				size = 254400
 			}
 			create_pop = {
-				culture = mechanical_alliance_golem
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_earth_ancient_cenarian
-				size = 12800
-			}
-			create_pop = {
-				culture = nether_dragonkin_dragon
+				culture = nether_dragon
 				size = 116800
 			}
 			create_pop = {
-				culture = nether_dragonkin_whelp
+				culture = nether_dragon
 				size = 148000
 			}
 		}
@@ -1252,17 +890,17 @@
 	s:STATE_VEKHAAR_STAND = {
 		region_state:MOKNATHAL = {
 			create_pop = {
-				culture = moknathal_orc
+				culture = maghar_orc
 				size = 319200
 			}
 		}
 		region_state:VEKHNIR = {
 			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 48000
 			}
 			create_pop = {
-				culture = vakhnir_arakkoa
+				culture = arakkoa
 				size = 117800
 			}
 		}
@@ -1270,19 +908,19 @@
 	s:STATE_ANGO_ROSH_GROUNDS = {
 		region_state:ANGOROSH_TRIBE = {
 			create_pop = {
-				culture = angorosh_ogre
+				culture = jungle_ogre
 				size = 535200
 			}
 			create_pop = {
-				culture = angorosh_ogre_magi
+				culture = jungle_ogre
 				size = 192800
 			}
 			create_pop = {
-				culture = daggerfen_broken
+				culture = krokul
 				size = 208800
 			}
 			create_pop = {
-				culture = sungill_tribe_murloc
+				culture = warmwater_murloc
 				size = 12000
 			}
 		}
@@ -1290,15 +928,11 @@
 	s:STATE_SPOREGGAR = {
 		region_state:SPOREGGAR = {
 			create_pop = {
-				culture = bogstrok_makrura
-				size = 80000
-			}
-			create_pop = {
-				culture = sporeggar_sporeling
+				culture = sporeling
 				size = 254400
 			}
 			create_pop = {
-				culture = quagmirran_fungul_giants
+				culture = fungul_giant
 				size = 332000
 			}
 		}
@@ -1306,21 +940,17 @@
 	s:STATE_ZABRA_JIN = {
 		region_state:CENARION_REFUGE = {
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 		}
 		region_state:SPOREGGAR = {
 			create_pop = {
-				culture = marshlight_murloc_makrura
-				size = 12800
-			}
-			create_pop = {
-				culture = sporeggar_sporeling
+				culture = sporeling
 				size = 12000
 			}
 			create_pop = {
-				culture = quagmirran_fungul_giants
+				culture = fungul_giant
 				size = 252000
 			}
 		}
@@ -1330,7 +960,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = sungill_tribe_murloc
+				culture = warmwater_murloc
 				size = 25600
 			}
 			create_pop = {
@@ -1346,33 +976,25 @@
 				size = 20800
 			}
 			create_pop = {
-				culture = quagmirran_fungul_giants
+				culture = fungul_giant
 				size = 12800
 			}
 		}
 		region_state:BLOODSCALE_TRIBE = {
 			create_pop = {
-				culture = bloodscale_naga
+				culture = lestharian
 				size = 344800
 			}
 			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 32000
 			}
 			create_pop = {
-				culture = angorosh_ogre
+				culture = mountain_ogre
 				size = 60000
 			}
 			create_pop = {
-				culture = bogstrok_makrura
-				size = 64000
-			}
-			create_pop = {
-				culture = elemental_bloodscale_water
-				size = 48000
-			}
-			create_pop = {
-				culture = wrekt_broken
+				culture = krokul
 				size = 120000
 			}
 		}
@@ -1380,19 +1002,15 @@
 	s:STATE_TWIN_SPIRE = {
 		region_state:BLOODSCALE_TRIBE = {
 			create_pop = {
-				culture = angorosh_ogre
+				culture = mountain_ogre
 				size = 60000
 			}
 			create_pop = {
-				culture = bloodscale_naga
+				culture = lestharian
 				size = 216800
 			}
 			create_pop = {
-				culture = elemental_bloodscale_water
-				size = 52000
-			}
-			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 28000
 			}
 			create_pop = {
@@ -1404,15 +1022,15 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = kurenai_broken
+				culture = krokul
 				size = 64000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 58400
 			}
 			create_pop = {
-				culture = wrekt_broken
+				culture = krokul
 				size = 120000
 			}
 		}
@@ -1420,83 +1038,59 @@
 	s:STATE_COILFANG_RESERVOIR = {
 		region_state:COILFANG_TRIBE = {
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = cenarius_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 76800
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 38400
 			}
 			create_pop = {
-				culture = coilfang_broken
+				culture = krokul
 				size = 64800
 			}
 			create_pop = {
-				culture = coilfang_lepergnome
-				size = 148800
-			}
-			create_pop = {
-				culture = coilfang_makrura
-				size = 144800
-			}
-			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 957600
 			}
 			create_pop = {
-				culture = dreghood_tribe_broken
+				culture = krokul
 				size = 60000
 			}
 			create_pop = {
-				culture = earthen_ring_broken
+				culture = krokul
 				size = 4000
 			}
 			create_pop = {
-				culture = earthen_ring_tauren
+				culture = tauren
 				size = 12000
 			}
 			create_pop = {
-				culture = elemental_coilfang_water
-				size = 20800
-			}
-			create_pop = {
-				culture = elemental_earth_fungal
-				size = 12000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 48000
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 68000
-			}
-			create_pop = {
-				culture = quagmirran_fungul_giants
+				culture = fungul_giant
 				size = 105600
 			}
 			create_pop = {
-				culture = greyheart_tribe_broken
+				culture = krokul
 				size = 272800
 			}
 			create_pop = {
-				culture = illidary_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = murkblood_tribe_broken
+				culture = krokul
 				size = 64800
 			}
 			create_pop = {
-				culture = sporeggar_sporeling
+				culture = sporeling
 				size = 12800
 			}
 			create_pop = {
@@ -1504,11 +1098,11 @@
 				size = 64000
 			}
 			create_pop = {
-				culture = wastewalker_tribe_broken
+				culture = krokul
 				size = 112000
 			}
 			create_pop = {
-				culture = wrathfin_naga
+				culture = lestharian
 				size = 44000
 			}
 		}
@@ -1516,33 +1110,29 @@
 	s:STATE_FERALFEN_VILLAGE = {
 		region_state:FERALFEN_TRIBE = {
 			create_pop = {
-				culture = feralfen_broken
+				culture = krokul
 				size = 172800
 			}
 		}
 		region_state:DARKCREST_TRIBE = {
 			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 32000
 			}
 			create_pop = {
-				culture = darkcrest_naga
+				culture = lestharian
 				size = 208800
 			}
 			create_pop = {
-				culture = dreghood_tribe_broken
+				culture = krokul
 				size = 104000
-			}
-			create_pop = {
-				culture = elemental_darkcrest_water
-				size = 16000
 			}
 		}
 	}
 	s:STATE_TEL_REDOR = {
 		region_state:HONOR_HOLD = {
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 146400
 			}
 			create_pop = {
@@ -1550,7 +1140,7 @@
 				size = 20800
 			}
 			create_pop = {
-				culture = explorers_league_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
@@ -1558,31 +1148,27 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 8000
 			}
 		}
 		region_state:CENARION_REFUGE = {
 			create_pop = {
-				culture = cenarius_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 89600
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 75200
-			}
-			create_pop = {
-				culture = elemental_earth_ancient_cenarian
-				size = 25600
 			}
 		}
 		region_state:THRALLMAR = {
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 12800
 			}
 			create_pop = {
@@ -1590,7 +1176,7 @@
 				size = 96800
 			}
 			create_pop = {
-				culture = quagmirran_fungul_giants
+				culture = fungul_giant
 				size = 552000
 			}
 		}
@@ -1598,35 +1184,31 @@
 	s:STATE_UMBRAFEN_VILLAGE = {
 		region_state:SPOREGGAR = {
 			create_pop = {
-				culture = sporeggar_sporeling
+				culture = sporeling
 				size = 84000
 			}
 		}
 		region_state:DARKCREST_TRIBE = {
 			create_pop = {
-				culture = coilfang_naga
+				culture = lestharian
 				size = 20000
 			}
 			create_pop = {
-				culture = darkcrest_naga
+				culture = lestharian
 				size = 208000
 			}
 			create_pop = {
-				culture = elemental_darkcrest_water
-				size = 80000
-			}
-			create_pop = {
-				culture = dreghood_tribe_broken
+				culture = krokul
 				size = 104000
 			}
 		}
 		region_state:UMBRAFEN_TRIBE = {
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = umbrafen_broken
+				culture = krokul
 				size = 208800
 			}
 		}
@@ -1642,27 +1224,23 @@
 	s:STATE_TEMPLE_TELHAMAT = {
 		region_state:OMENAI_TEMPLE = {
 			create_pop = {
-				culture = omenai_broken
+				culture = krokul
 				size = 38400
 			}
 			create_pop = {
-				culture = omenai_dreanei
+				culture = draenei
 				size = 179200
 			}
 			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 12800
-			}
-			create_pop = {
-				culture = sunfury_mountain_giant
+				culture = mountain_giant
 				size = 84800
 			}
 			create_pop = {
-				culture = dreghood_tribe_broken
+				culture = krokul
 				size = 12000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 52000
 			}
 		}
@@ -1670,29 +1248,29 @@
 	s:STATE_RUINS_SHA_NAAR = {
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 12800
 			}
 			create_pop = {
-				culture = dreghood_tribe_broken
+				culture = krokul
 				size = 251200
 			}
 			create_pop = {
-				culture = illidary_doom_guard
+				culture = doom_guard
 				size = 108000
 			}
 		}
 		region_state:CENARION_REFUGE = {
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 38400
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 25600
 			}
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
@@ -1700,7 +1278,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = sunfury_mountain_giant
+				culture = mountain_giant
 				size = 4000
 			}
 		}
@@ -1720,19 +1298,13 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 12800
-			}
-		}
-		region_state:STONESCYTHE_FLAYER = {
-			create_pop = {
-				culture = stonescythe_rock_flayer
-				size = 268800
 			}
 		}
 		region_state:SHATTERED_HAND_CLAN = {
 			create_pop = {
-				culture = shattered_hand_felorc
+				culture = felorc
 				size = 128800
 			}
 		}
@@ -1744,15 +1316,11 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 12800
-			}
-			create_pop = {
-				culture = haaleshi_arakkoa
+				culture = arakkoa
 				size = 132800
 			}
 		}
@@ -1760,31 +1328,23 @@
 	s:STATE_POOLS_OF_AGGONAR = {
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 144000
 			}
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 16000
-			}
-			create_pop = {
-				culture = burning_legion_shivan
-				size = 16000
-			}
-			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 24000
 			}
 			create_pop = {
@@ -1792,7 +1352,7 @@
 				size = 38400
 			}
 			create_pop = {
-				culture = shattered_hand_felorc
+				culture = felorc
 				size = 104000
 			}
 		}
@@ -1804,51 +1364,39 @@
 				size = 140000
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 24800
 			}
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_felelf
+				culture = sin_dorei
 				size = 60000
 			}
 			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 76000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 396000
-			}
-			create_pop = {
-				culture = burning_legion_succubus
-				size = 36000
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 88000
 			}
 			create_pop = {
 				culture = stormwindian
 				size = 24000
 			}
 			create_pop = {
-				culture = shattered_sun_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = elemental_fire_burning_legion
-				size = 148000
-			}
-			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 16800
 			}
 		}
@@ -1856,11 +1404,11 @@
 	s:STATE_THRALLMAR = {
 		region_state:THRALLMAR = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = orgrimmar_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
@@ -1868,7 +1416,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = orgrimmar_tauren
+				culture = tauren
 				size = 25600
 			}
 			create_pop = {
@@ -1880,23 +1428,23 @@
 				size = 33600
 			}
 			create_pop = {
-				culture = thrallmar_bloodelf
+				culture = sin_dorei
 				size = 51200
 			}
 			create_pop = {
-				culture = thrallmar_forsaken
+				culture = forsaken
 				size = 38400
 			}
 			create_pop = {
-				culture = thrallmar_goblin
+				culture = goblin
 				size = 25600
 			}
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 260800
 			}
 			create_pop = {
-				culture = thrallmar_tauren
+				culture = tauren
 				size = 92000
 			}
 			create_pop = {
@@ -1907,14 +1455,10 @@
 				culture = forsaken
 				size = 25600
 			}
-			create_pop = {
-				culture = undercity_felbeast
-				size = 25600
-			}
 		}
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 216000
 			}
 			create_pop = {
@@ -1922,25 +1466,17 @@
 				size = 40000
 			}
 			create_pop = {
-				culture = burning_legion_succubus
-				size = 36000
-			}
-			create_pop = {
-				culture = burning_legion_infernal
-				size = 112000
-			}
-			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 12800
 			}
 		}
 		region_state:SHATTERED_HAND_CLAN = {
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 280800
 			}
 			create_pop = {
-				culture = shattered_hand_felorc
+				culture = felorc
 				size = 300800
 			}
 		}
@@ -1948,75 +1484,67 @@
 	s:STATE_HELLFIRE_CITADEL = {
 		region_state:SHATTERED_HAND_CLAN = {
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 176000
 			}
 			create_pop = {
-				culture = bleeding_hollow_felorc
+				culture = felorc
 				size = 112000
 			}
 			create_pop = {
-				culture = burning_legion_annihilan
-				size = 12800
-			}
-			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 37600
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 79200
-			}
-			create_pop = {
-				culture = illidary_beholder
-				size = 12800
 			}
 			create_pop = {
 				culture = nathrezim
 				size = 12800
 			}
 			create_pop = {
-				culture = illidary_felguard
+				culture = doom_guard
 				size = 40000
 			}
 			create_pop = {
-				culture = illidary_felorc
+				culture = felorc
 				size = 89600
 			}
 			create_pop = {
-				culture = illidary_imp
+				culture = imp
 				size = 60000
 			}
 			create_pop = {
-				culture = illidary_moarg
+				culture = imp
 				size = 12800
 			}
 			create_pop = {
-				culture = laughing_skull_felorc
+				culture = felorc
 				size = 116000
 			}
 			create_pop = {
-				culture = shattered_hand_felorc
+				culture = felorc
 				size = 523200
 			}
 			create_pop = {
-				culture = shadowmoon_clan_felorc
+				culture = felorc
 				size = 280000
 			}
 			create_pop = {
-				culture = shattered_hand_ogre_magi
+				culture = mountain_ogre
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_bloodelf
+				culture = sin_dorei
 				size = 8000
 			}
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 80000
 			}
 			create_pop = {
-				culture = thrallmar_tauren
+				culture = tauren
 				size = 24800
 			}
 			create_pop = {
@@ -2028,27 +1556,27 @@
 	s:STATE_HONOR_HOLD = {
 		region_state:HONOR_HOLD = {
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 25600
 			}
 			create_pop = {
-				culture = explorers_league_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = explorers_league_draenei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_bloodelf
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_draenei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 156800
 			}
 			create_pop = {
@@ -2056,33 +1584,29 @@
 				size = 51200
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 452000
 			}
 			create_pop = {
-				culture = honor_hold_nightelf
+				culture = kal_dorei
 				size = 25600
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 52800
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 56000
-			}
-			create_pop = {
-				culture = burning_legion_succubus
-				size = 36000
 			}
 		}
 		region_state:SHATTERED_HAND_CLAN = {
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 308000
 			}
 			create_pop = {
-				culture = shattered_hand_felorc
+				culture = felorc
 				size = 268800
 			}
 		}
@@ -2090,70 +1614,50 @@
 	s:STATE_EXPEDITION_ARMORY = {
 		region_state:UNYIELDING_DEFENDER = {
 			create_pop = {
-				culture = demonic_voidwalker
-				size = 308000
-			}
-			create_pop = {
-				culture = undead_dwarf
-				size = 4000
-			}
-			create_pop = {
-				culture = undead_human
-				size = 124400
+				culture = stormwindian
+				size = zombie
 			}
 		}
 		region_state:THRALLMAR = {
 			create_pop = {
-				culture = bleeding_hollow_felorc
+				culture = felorc
 				size = 61600
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 25600
 			}
 			create_pop = {
-				culture = orgrimmar_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_forsaken
+				culture = forsaken
 				size = 25600
 			}
 			create_pop = {
-				culture = thrallmar_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 114400
 			}
 			create_pop = {
-				culture = thrallmar_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
 				culture = forsaken
 				size = 12800
 			}
-			create_pop = {
-				culture = undead_felorc
-				size = 28000
-			}
 		}
 	}
 	s:STATE_ZETH_GOR = {
 		region_state:BLEEDING_HOLLOW_CLAN = {
 			create_pop = {
-				culture = bleeding_hollow_felorc
+				culture = felorc
 				size = 574400
-			}
-			create_pop = {
-				culture = bleeding_hollow_undead
-				size = 76000
-			}
-			create_pop = {
-				culture = demonic_voidwalker
-				size = 372800
 			}
 			create_pop = {
 				culture = orgrimmari
@@ -2168,33 +1672,21 @@
 				size = 56000
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 176000
-			}
-			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 280000
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 117600
-			}
-			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 176000
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 104000
-			}
-			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 148800
 			}
 		}
 		region_state:HONOR_HOLD = {
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 12000
 			}
 			create_pop = {
@@ -2202,21 +1694,21 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 42400
 			}
 			create_pop = {
-				culture = honor_hold_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 		}
 		region_state:THRALLMAR = {
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 25600
 			}
 			create_pop = {
@@ -2240,7 +1732,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 24000
 			}
 			create_pop = {
@@ -2248,11 +1740,11 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 51200
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 40800
 			}
 			create_pop = {
@@ -2272,7 +1764,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
@@ -2286,43 +1778,27 @@
 		}
 		region_state:BURNING_LEGION_KILJADEN = {
 			create_pop = {
-				culture = burning_legion_annihilan
-				size = 12800
-			}
-			create_pop = {
 				culture = nathrezim
 				size = 132000
 			}
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 24000
 			}
 			create_pop = {
-				culture = burning_legion_felbeast
-				size = 16000
-			}
-			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 76000
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 48000
-			}
-			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 24000
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 20000
-			}
-			create_pop = {
-				culture = twilight_hammer_dwarf
+				culture = bronzebeard
 				size = 4000
 			}
 			create_pop = {
-				culture = twilight_hammer_forsaken
+				culture = forsaken
 				size = 8000
 			}
 			create_pop = {
@@ -2330,11 +1806,11 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = twilight_hammer_human
+				culture = gorian_ogre
 				size = 8000
 			}
 			create_pop = {
-				culture = twilight_hammer_tauren
+				culture = tauren
 				size = 4000
 			}
 			create_pop = {
@@ -2346,7 +1822,7 @@
 	s:STATE_TWILIGHT_RIDGE = {
 		region_state:BURNING_LEGION_TWILIGHT_HOLD = {
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
@@ -2354,55 +1830,51 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_felguard
+				culture = doom_guard
 				size = 52000
 			}
 			create_pop = {
-				culture = burning_legion_imp
+				culture = imp
 				size = 68000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 140000
 			}
 			create_pop = {
-				culture = burning_legion_orc_cultist
+				culture = felorc
 				size = 264000
 			}
 			create_pop = {
-				culture = burning_legion_ogre_magi_cultist
+				culture = mountain_ogre
 				size = 124000
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = illidary_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = nether_dragonkin_dragon
+				culture = nether_dragon
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 8000
 			}
 		}
 	}
 	s:STATE_WARMAUL_HILL = {
 		region_state:WARMAUL_CLAN = {
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 			create_pop = {
-				culture = warmaul_ogre
+				culture = hill_ogre
 				size = 129600
 			}
 			create_pop = {
-				culture = warmaul_ogre_magi
+				culture = hill_ogre
 				size = 140000
 			}
 			create_pop = {
@@ -2418,19 +1890,11 @@
 		}
 		region_state:MURKBLOOD_TRIBE = {
 			create_pop = {
-				culture = elemental_air
-				size = 8000
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 196000
-			}
-			create_pop = {
-				culture = kurenai_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = murkblood_tribe_broken
+				culture = krokul
 				size = 272800
 			}
 		}
@@ -2442,7 +1906,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
@@ -2450,19 +1914,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = demonic_voidwalker
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 16000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 84800
-			}
-			create_pop = {
-				culture = kilsorrow_orc
+				culture = maghar_orc
 				size = 16000
 			}
 			create_pop = {
@@ -2470,7 +1922,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = murkblood_tribe_broken
+				culture = krokul
 				size = 40000
 			}
 			create_pop = {
@@ -2486,11 +1938,11 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = warmaul_ogre
+				culture = hill_ogre
 				size = 124000
 			}
 			create_pop = {
-				culture = warmaul_ogre_magi
+				culture = hill_ogre
 				size = 133600
 			}
 		}
@@ -2498,11 +1950,11 @@
 	s:STATE_HALAA = {
 		region_state:HALAA = {
 			create_pop = {
-				culture = halaa_bloodelf
+				culture = sin_dorei
 				size = 90400
 			}
 			create_pop = {
-				culture = halaa_dreanei
+				culture = draenei
 				size = 86400
 			}
 			create_pop = {
@@ -2514,11 +1966,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = elemental_water
-				size = 114000
-			}
-			create_pop = {
-				culture = kurenai_broken
+				culture = krokul
 				size = 12800
 			}
 		}
@@ -2527,77 +1975,45 @@
 				culture = hill_ogre
 				size = 120000
 			}
-			create_pop = {
-				culture = elemental_earth
-				size = 114000
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 24000
-			}
 		}
 	}
 	s:STATE_OSHU_GUN = {
 		region_state:CONSORTIUM = {
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 103200
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 12800
 			}
 		}
 		region_state:VIR_AANI = {
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 28000
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 36000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 356000
-			}
-			create_pop = {
-				culture = kilsorrow_orc
+				culture = maghar_orc
 				size = 20000
 			}
 			create_pop = {
-				culture = murkblood_tribe_broken
+				culture = krokul
 				size = 8000
 			}
 			create_pop = {
-				culture = viraani_ethereal
+				culture = ethereal
 				size = 200800
-			}
-			create_pop = {
-				culture = demonic_voidwalker
-				size = 272800
 			}
 		}
 		region_state:MAGHAR = {
 			create_pop = {
 				culture = maghar_orc
 				size = 12800
-			}
-			create_pop = {
-				culture = undead_orc
-				size = 44000
-			}
-			create_pop = {
-				culture = undead_orc_maghar
-				size = 124000
 			}
 		}
 	}
@@ -2608,31 +2024,23 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 4000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 38400
 			}
 			create_pop = {
-				culture = kurenai_broken
+				culture = krokul
 				size = 298400
 			}
 			create_pop = {
-				culture = kurenai_draenei
+				culture = draenei
 				size = 89600
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 160000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 80000
-			}
-			create_pop = {
-				culture = nesingway_dwarf
+				culture = bronzebeard
 				size = 4000
 			}
 		}
@@ -2651,14 +2059,6 @@
 				culture = hill_ogre
 				size = 72000
 			}
-			create_pop = {
-				culture = elemental_air
-				size = 120000
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 64000
-			}
 		}
 	}
 	s:STATE_GARADAR = {
@@ -2668,7 +2068,7 @@
 				size = 484800
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 4000
 			}
 			create_pop = {
@@ -2684,57 +2084,33 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = hand_argus_dreanei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 12800
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 68800
 			}
 		}
 		region_state:THE_EARTHEN_RING = {
 			create_pop = {
-				culture = earthen_ring_broken
+				culture = krokul
 				size = 25600
 			}
 			create_pop = {
-				culture = earthenring_maghar_orc
+				culture = maghar_orc
 				size = 38400
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 76800
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 56800
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 84800
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 148000
 			}
 		}
 	}
 	s:STATE_WINDYREED_PASS = {
 		region_state:MAGHAR = {
 			create_pop = {
-				culture = elemental_air
-				size = 64000
-			}
-			create_pop = {
-				culture = korkron_orc
+				culture = maghar_orc
 				size = 16000
 			}
 			create_pop = {
@@ -2742,11 +2118,11 @@
 				size = 92000
 			}
 			create_pop = {
-				culture = nesingway_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = nesingway_forsaken_undead
+				culture = forsaken
 				size = 12800
 			}
 			create_pop = {
@@ -2754,11 +2130,7 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = nesingway_human
-				size = 12800
-			}
-			create_pop = {
-				culture = nesingway_tauren
+				culture = stormwindian
 				size = 12800
 			}
 			create_pop = {
@@ -2768,7 +2140,7 @@
 		}
 		region_state:GORDUNNI = {
 			create_pop = {
-				culture = bladespire_magnaron
+				culture = magnaron
 				size = 12800
 			}
 			create_pop = {
@@ -2779,10 +2151,6 @@
 				culture = gordunni_ogre
 				size = 124000
 			}
-			create_pop = {
-				culture = elemental_air
-				size = 64000
-			}
 		}
 		region_state:WINDYREED_TRIBE = {
 			create_pop = {
@@ -2790,15 +2158,7 @@
 				size = 120000
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 64000
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 12000
-			}
-			create_pop = {
-				culture = windyreed_tribe_broken
+				culture = krokul
 				size = 60000
 			}
 		}
@@ -2806,20 +2166,12 @@
 	s:STATE_KIL_SORROW_FORTRESS = {
 		region_state:KIL_SORROW_CLAN = {
 			create_pop = {
-				culture = kilsorrow_orc
+				culture = maghar_orc
 				size = 244800
 			}
 			create_pop = {
-				culture = clanless_ogre_magi
+				culture = mountain_ogre
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 92000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 46000
 			}
 		}
 		region_state:BOULDERFIST_CLAN = {
@@ -2828,47 +2180,35 @@
 				size = 120800
 			}
 			create_pop = {
-				culture = boulderfist_orc
+				culture = maghar_orc
 				size = 12800
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 12800
 			}
 			create_pop = {
-				culture = kurenai_broken
+				culture = krokul
 				size = 12800
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 92000
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 46000
 			}
 		}
 	}
 	s:STATE_SHATTRATH_CITY = {
 		region_state:THE_SCRYERS = {
 			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 800000
-			}
-			create_pop = {
-				culture = mechanical_scryer_arcane_golem
-				size = 60000
 			}
 		}
 		region_state:THE_ALDOR = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 916000
 			}
 		}
 		region_state:SHA_TAR = {
 			create_pop = {
-				culture = bloodmaul_ogre
+				culture = mountain_ogre
 				size = 25600
 			}
 			create_pop = {
@@ -2876,15 +2216,15 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 96000
 			}
 			create_pop = {
@@ -2892,23 +2232,23 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = lower_city_arakkoa
+				culture = arakkoa
 				size = 194400
 			}
 			create_pop = {
-				culture = lower_city_broken
+				culture = krokul
 				size = 221200
 			}
 			create_pop = {
-				culture = lower_city_bloodelf
+				culture = sin_dorei
 				size = 78400
 			}
 			create_pop = {
-				culture = lower_city_draenei
+				culture = draenei
 				size = 38400
 			}
 			create_pop = {
-				culture = lower_city_dwarf
+				culture = bronzebeard
 				size = 24000
 			}
 			create_pop = {
@@ -2916,23 +2256,23 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = lower_city_goblin
+				culture = goblin
 				size = 38400
 			}
 			create_pop = {
-				culture = lower_city_human
+				culture = stormwindian
 				size = 402400
 			}
 			create_pop = {
-				culture = lower_city_nighelf
+				culture = kal_dorei
 				size = 140800
 			}
 			create_pop = {
-				culture = lower_city_orc
+				culture = maghar_orc
 				size = 91200
 			}
 			create_pop = {
-				culture = lower_city_ogre
+				culture = hill_ogre
 				size = 12800
 			}
 			create_pop = {
@@ -2948,19 +2288,19 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 12800
 			}
 			create_pop = {
-				culture = shatari_skyguard_draenei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = shattered_sun_bloodelf
+				culture = sin_dorei
 				size = 293600
 			}
 			create_pop = {
-				culture = shattered_sun_draenei
+				culture = draenei
 				size = 292800
 			}
 			create_pop = {
@@ -2968,61 +2308,51 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = shattered_sun_human
+				culture = stormwindian
 				size = 12800
 			}
 			create_pop = {
-				culture = shatar_draenei
+				culture = draenei
 				size = 76800
 			}
 			create_pop = {
-				culture = nether_dragonkin_dragon
+				culture = nether_dragon
 				size = 89600
 			}
 			create_pop = {
-				culture = violet_eye_human
+				culture = dalaranian
 				size = 12800
 			}
 		}
 	}
 	s:STATE_CENARION_THICKET = {
-		region_state:RAZERTHORN_FLAYERS = {
-			create_pop = {
-				culture = razorthorn_rock_flayer
-				size = 120000
-			}
-			create_pop = {
-				culture = crown_chemical_forsaken_undead
-				size = 28000
-			}
-		}
 		region_state:SHIENOR = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 12000
 			}
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 12800
 			}
 			create_pop = {
-				culture = reskk_arakkoa
+				culture = arakkoa
 				size = 25600
 			}
 			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 12000
 			}
 			create_pop = {
-				culture = shienor_arakkoa
+				culture = arakkoa
 				size = 96000
 			}
 		}
@@ -3030,45 +2360,25 @@
 	s:STATE_TUUREM = {
 		region_state:TUUREM = {
 			create_pop = {
-				culture = tuurem_broken
+				culture = krokul
 				size = 236000
 			}
 			create_pop = {
-				culture = firewing_bloodelf
+				culture = sin_dorei
 				size = 4000
 			}
 		}
 		region_state:SHIENOR = {
 			create_pop = {
-				culture = shienor_arakkoa
+				culture = arakkoa
 				size = 192000
-			}
-			create_pop = {
-				culture = razorthorn_rock_flayer
-				size = 28000
 			}
 		}
 	}
 	s:STATE_STONEBREAKER_HOLD = {
 		region_state:STONEBREAKER_HOLD = {
 			create_pop = {
-				culture = elemental_air
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_earth
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_water
-				size = 12800
-			}
-			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 12800
 			}
 			create_pop = {
@@ -3076,7 +2386,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = stonebreaker_orc
+				culture = orgrimmari
 				size = 327200
 			}
 			create_pop = {
@@ -3088,13 +2398,13 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = sarthis_arakkoa
+				culture = arakkoa
 				size = 68800
 			}
 		}
 		region_state:CABAL = {
 			create_pop = {
-				culture = shadowcouncil_dwarf
+				culture = darkiron
 				size = 40000
 			}
 			create_pop = {
@@ -3102,15 +2412,15 @@
 				size = 72000
 			}
 			create_pop = {
-				culture = shadowcouncil_human
+				culture = dalaranian
 				size = 28000
 			}
 			create_pop = {
-				culture = shadowcouncil_orc
+				culture = orgrimmari
 				size = 40000
 			}
 			create_pop = {
-				culture = shadowcouncil_troll
+				culture = jungle_troll
 				size = 60000
 			}
 			create_pop = {
@@ -3120,61 +2430,45 @@
 		}
 		region_state:SHAFFAR = {
 			create_pop = {
-				culture = shaffar_ethereal
+				culture = ethereal
 				size = 104000
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 108000
 			}
 		}
 	}
 	s:STATE_THE_BONE_WASTES = {
 		region_state:CABAL = {
 			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = cabal_broken
+				culture = krokul
 				size = 40000
 			}
 			create_pop = {
-				culture = cabal_orc
+				culture = maghar_orc
 				size = 244000
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 80000
-			}
-			create_pop = {
-				culture = undead_broken
-				size = 92000
 			}
 		}
 		region_state:REFUGEE_CAMP = {
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = lower_city_arakkoa
+				culture = arakkoa
 				size = 38400
 			}
 			create_pop = {
-				culture = lower_city_broken
+				culture = krokul
 				size = 64000
 			}
 			create_pop = {
-				culture = lower_city_draenei
+				culture = draenei
 				size = 50400
 			}
 			create_pop = {
-				culture = lower_city_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = lower_city_human
+				culture = stormwindian
 				size = 20800
 			}
 			create_pop = {
@@ -3184,17 +2478,17 @@
 		}
 		region_state:SKITH = {
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 16000
 			}
 			create_pop = {
-				culture = skithian_arakkoa
+				culture = arakkoa
 				size = 108000
 			}
 		}
 		region_state:RHAZE = {
 			create_pop = {
-				culture = undead_arakkoa
+				culture = arakkoa
 				size = 128000
 			}
 		}
@@ -3202,27 +2496,23 @@
 	s:STATE_BLEEDING_HOLLOW_RUINS = {
 		region_state:AUCHENAI = {
 			create_pop = {
-				culture = auchenai_draenei
+				culture = draenei
 				size = 200000
-			}
-			create_pop = {
-				culture = undead_broken
-				size = 92000
 			}
 		}
 		region_state:SHA_TAR_OUTPOST = {
 			create_pop = {
-				culture = shatar_draenei
+				culture = draenei
 				size = 116000
 			}
 			create_pop = {
-				culture = explorers_league_dwarf
+				culture = bronzebeard
 				size = 53600
 			}
 		}
 		region_state:LITHIC = {
 			create_pop = {
-				culture = lithic_arakkoa
+				culture = arakkoa
 				size = 108000
 			}
 		}
@@ -3240,11 +2530,11 @@
 	s:STATE_AUCHINDOUN = {
 		region_state:SHAFFAR = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 8000
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 88600
 			}
 			create_pop = {
@@ -3252,93 +2542,73 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = shaffar_thereal
+				culture = ethereal
 				size = 392800
-			}
-			create_pop = {
-				culture = demonic_voidwalker
-				size = 48800
 			}
 		}
 		region_state:SETHEKK = {
 			create_pop = {
-				culture = sethekk_arakkoa
+				culture = arakkoa
 				size = 277600
 			}
 			create_pop = {
-				culture = consortium_ethereal
+				culture = ethereal
 				size = 12800
 			}
 			create_pop = {
-				culture = lower_city_arakkoa
+				culture = arakkoa
 				size = 25600
-			}
-			create_pop = {
-				culture = undead_arakkoa
-				size = 96000
 			}
 		}
 		region_state:AUCHENAI = {
 			create_pop = {
-				culture = auchenai_draenei
+				culture = draenei
 				size = 340800
 			}
 			create_pop = {
-				culture = auchenai_beholder
-				size = 12800
-			}
-			create_pop = {
-				culture = undead_human
+				culture = stormwindian
 				size = 244000
 			}
 		}
 		region_state:CABAL = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
-				culture = cabal_orc
+				culture = maghar_orc
 				size = 440000
 			}
 			create_pop = {
-				culture = cabal_broken
+				culture = krokul
 				size = 68000
 			}
 			create_pop = {
-				culture = cabal_felguard
+				culture = doom_guard
 				size = 20000
 			}
 			create_pop = {
-				culture = cabal_imp
+				culture = imp
 				size = 28000
 			}
 			create_pop = {
-				culture = cabal_shivan
-				size = 12000
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 12800
-			}
-			create_pop = {
-				culture = lower_city_broken
+				culture = krokul
 				size = 25600
 			}
 			create_pop = {
-				culture = lower_city_orc
+				culture = maghar_orc
 				size = 25600
 			}
 			create_pop = {
-				culture = shadowcouncil_orc
+				culture = orgrimmari
 				size = 12800
 			}
 			create_pop = {
-				culture = shadowcouncil_ogre_magi
+				culture = mountain_ogre
 				size = 12800
 			}
 		}
@@ -3346,29 +2616,21 @@
 	s:STATE_WRITHING_MOUND = {
 		region_state:SHALASSI = {
 			create_pop = {
-				culture = elemental_earth_ent
-				size = 132000
-			}
-			create_pop = {
-				culture = shalassi_arakkoa
+				culture = arakkoa
 				size = 125600
 			}
 			create_pop = {
-				culture = shatar_draenei
+				culture = draenei
 				size = 68800
 			}
 		}
 		region_state:AUCHENAI = {
 			create_pop = {
-				culture = auchenai_draenei
+				culture = draenei
 				size = 160000
 			}
 			create_pop = {
-				culture = undead_broken
-				size = 92000
-			}
-			create_pop = {
-				culture = undead_human
+				culture = stormwindian
 				size = 40000
 			}
 		}
@@ -3376,13 +2638,13 @@
 	s:STATE_ALLERIAN_STRONGHOLD = {
 		region_state:BONECHEWER_RUINS = {
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 312000
 			}
 		}
 		region_state:ALLERIAN_STRONGHOLD = {
 			create_pop = {
-				culture = honor_hold_dwarf
+				culture = bronzebeard
 				size = 38400
 			}
 			create_pop = {
@@ -3390,21 +2652,21 @@
 				size = 33600
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 224000
 			}
 			create_pop = {
-				culture = honor_hold_nightelf
+				culture = kal_dorei
 				size = 44800
 			}
 			create_pop = {
-				culture = honor_hold_highelf
+				culture = quel_dorei
 				size = 64000
 			}
 		}
 		region_state:STONEBREAKER_HOLD = {
 			create_pop = {
-				culture = stonebreaker_forsaken
+				culture = forsaken
 				size = 12800
 			}
 			create_pop = {
@@ -3420,23 +2682,23 @@
 	s:STATE_FIREWING_POINT = {
 		region_state:FIREWING_POINT = {
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_human
+				culture = stormwindian
 				size = 25600
 			}
 			create_pop = {
-				culture = honor_hold_highelf
+				culture = quel_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = honor_hold_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = firewing_bloodelf
+				culture = sin_dorei
 				size = 224800
 			}
 		}
@@ -3444,24 +2706,20 @@
 	s:STATE_BLACKWIND_VALLEY = {
 		region_state:SHATARI_SKYGUARD = {
 			create_pop = {
-				culture = shatari_skyguard_bloodelf
+				culture = sin_dorei
 				size = 32800
 			}
 			create_pop = {
-				culture = shatari_skyguard_broken
+				culture = krokul
 				size = 12000
 			}
 			create_pop = {
-				culture = shatari_skyguard_dwarf
+				culture = bronzebeard
 				size = 12800
 			}
 			create_pop = {
-				culture = shatari_skyguard_human
+				culture = stormwindian
 				size = 37600
-			}
-			create_pop = {
-				culture = shatari_skyguard_orc
-				size = 12800
 			}
 			create_pop = {
 				culture = jungle_troll
@@ -3470,55 +2728,31 @@
 		}
 		region_state:SKETTIS = {
 			create_pop = {
-				culture = elemental_water
-				size = 12800
-			}
-			create_pop = {
-				culture = elemental_skettis_earth
-				size = 24000
-			}
-			create_pop = {
-				culture = elemental_skettis_water
-				size = 84000
-			}
-			create_pop = {
-				culture = skettis_arakkoa
+				culture = arakkoa
 				size = 322400
 			}
 			create_pop = {
-				culture = undead_skettis_arakkoa
+				culture = arakkoa
 				size = 264000
-			}
-			create_pop = {
-				culture = undead_arakkoa
-				size = 20000
 			}
 		}
 	}
 	s:STATE_SKETTIS = {
 		region_state:SKETTIS = {
 			create_pop = {
-				culture = elemental_skettis_earth
-				size = 60000
-			}
-			create_pop = {
-				culture = skettis_arakkoa
+				culture = arakkoa
 				size = 322400
 			}
 			create_pop = {
-				culture = undead_skettis_arakkoa
+				culture = arakkoa
 				size = 268000
-			}
-			create_pop = {
-				culture = undead_arakkoa
-				size = 24000
 			}
 			create_pop = {
 				culture = mountain_giant
 				size = 12800
 			}
 			create_pop = {
-				culture = shatari_skyguard_broken
+				culture = krokul
 				size = 16000
 			}
 		}
@@ -3526,7 +2760,7 @@
 	s:STATE_LEGION_HOLD = {
 		region_state:BURNING_LEGION_LEGIONS_HOLD = {
 			create_pop = {
-				culture = burning_legion_eredar
+				culture = eredar
 				size = 108800
 			}
 			create_pop = {
@@ -3534,41 +2768,25 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 124000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 84800
-			}
-			create_pop = {
-				culture = burning_legion_infernal
-				size = 12000
-			}
-			create_pop = {
-				culture = burning_legion_shivan
-				size = 12800
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 8000
 			}
 		}
 		region_state:ILLIDARY_POINT = {
 			create_pop = {
-				culture = shadowcouncil_orc
+				culture = orgrimmari
 				size = 36800
 			}
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 20000
 			}
 			create_pop = {
-				culture = illidary_bloodelf
-				size = 12800
-			}
-			create_pop = {
-				culture = illidary_beholder
+				culture = sin_dorei
 				size = 12800
 			}
 			create_pop = {
@@ -3576,15 +2794,11 @@
 				size = 48800
 			}
 			create_pop = {
-				culture = illidary_felguard
+				culture = doom_guard
 				size = 124000
 			}
 			create_pop = {
-				culture = illidary_succubus
-				size = 32800
-			}
-			create_pop = {
-				culture = illidary_satyr
+				culture = fel_dorei
 				size = 200800
 			}
 		}
@@ -3592,11 +2806,7 @@
 	s:STATE_SHADOWMOON_VILLAGE = {
 		region_state:COILSCAR_POINT = {
 			create_pop = {
-				culture = elemental_water
-				size = 88000
-			}
-			create_pop = {
-				culture = coilskar_naga
+				culture = lestharian
 				size = 176800
 			}
 			create_pop = {
@@ -3606,25 +2816,25 @@
 		}
 		region_state:DARK_CONCLAVE = {
 			create_pop = {
-				culture = undead_dark_conclave_arakkoa
+				culture = arakkoa
 				size = 272800
 			}
 		}
 		region_state:SHADOWMOON_VILLAGE = {
 			create_pop = {
-				culture = thrallmar_forsaken
+				culture = forsaken
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 192000
 			}
 			create_pop = {
-				culture = earthen_ring_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
-				culture = thrallmar_tauren
+				culture = tauren
 				size = 12800
 			}
 			create_pop = {
@@ -3632,11 +2842,11 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = korkron_orc
+				culture = maghar_orc
 				size = 144000
 			}
 			create_pop = {
-				culture = shadowmoon_clan_orc
+				culture = felorc
 				size = 88000
 			}
 			create_pop = {
@@ -3650,27 +2860,19 @@
 		}
 		region_state:BURNING_LEGION_LEGIONS_HOLD = {
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 84000
 			}
 			create_pop = {
-				culture = burning_legion_moarg
+				culture = imp
 				size = 48000
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 92800
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 12000
-			}
-			create_pop = {
-				culture = shadowcouncil_forsaken
+				culture = forsaken
 				size = 25600
 			}
 			create_pop = {
-				culture = shadowcouncil_orc
+				culture = orgrimmari
 				size = 76000
 			}
 		}
@@ -3678,23 +2880,15 @@
 	s:STATE_THE_DEATHFORGE = {
 		region_state:SHADOW_COUNCIL = {
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_beholder
+				culture = arakkoa
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 12000
-			}
-			create_pop = {
-				culture = dark_conclave_arakkoa
-				size = 12800
-			}
-			create_pop = {
-				culture = earthen_ring_broken
+				culture = krokul
 				size = 25600
 			}
 			create_pop = {
@@ -3702,35 +2896,27 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = elemental_earth
-				size = 176000
-			}
-			create_pop = {
-				culture = elemental_fire
-				size = 336800
-			}
-			create_pop = {
 				culture = orgrimmari
 				size = 25600
 			}
 			create_pop = {
-				culture = shadowcouncil_eredar
+				culture = eredar
 				size = 12800
 			}
 			create_pop = {
-				culture = shadowcouncil_imp
+				culture = imp
 				size = 48000
 			}
 			create_pop = {
-				culture = shadowcouncil_orc
+				culture = orgrimmari
 				size = 201600
 			}
 			create_pop = {
-				culture = shadowcouncil_moarg
+				culture = imp
 				size = 92000
 			}
 			create_pop = {
-				culture = thrallmar_forsaken
+				culture = forsaken
 				size = 12800
 			}
 			create_pop = {
@@ -3742,15 +2928,11 @@
 	s:STATE_WILDHAMMER_STRONGHOLD = {
 		region_state:WILDHAMMER_CLAN = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = burning_legion_infernal
-				size = 84000
-			}
-			create_pop = {
-				culture = earthen_ring_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
@@ -3758,7 +2940,7 @@
 				size = 25600
 			}
 			create_pop = {
-				culture = shadowmoon_clan_orc
+				culture = felorc
 				size = 12800
 			}
 			create_pop = {
@@ -3766,27 +2948,27 @@
 				size = 396000
 			}
 			create_pop = {
-				culture = korkron_orc
+				culture = maghar_orc
 				size = 12000
 			}
 		}
 		region_state:DARK_CONCLAVE = {
 			create_pop = {
-				culture = undead_dark_conclave_arakkoa
+				culture = arakkoa
 				size = 240000
 			}
 		}
 		region_state:ECLIPSE_POINT = {
 			create_pop = {
-				culture = eclipsion_bloodelf
+				culture = sin_dorei
 				size = 484000
 			}
 			create_pop = {
-				culture = illidary_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
-				culture = illidary_felorc
+				culture = felorc
 				size = 16000
 			}
 			create_pop = {
@@ -3798,45 +2980,33 @@
 	s:STATE_SANCTUM_OF_STARS = {
 		region_state:THE_SCRYERS = {
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 12800
 			}
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 12800
 			}
 			create_pop = {
-				culture = dragonmaw_clan_felorc
+				culture = felorc
 				size = 12000
 			}
 			create_pop = {
-				culture = korkron_orc
+				culture = maghar_orc
 				size = 108000
 			}
 			create_pop = {
-				culture = rocknail_rock_flayer
-				size = 16000
-			}
-			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 265600
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 176000
-			}
-			create_pop = {
-				culture = shatar_draenei
+				culture = draenei
 				size = 12800
 			}
 		}
 		region_state:ECLIPSE_POINT = {
 			create_pop = {
-				culture = crimson_sigil_beholder
-				size = 12000
-			}
-			create_pop = {
-				culture = crimson_sigil_bloodelf
+				culture = sin_dorei
 				size = 45600
 			}
 			create_pop = {
@@ -3844,15 +3014,11 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = elemental_arcan_voidwalker
-				size = 52000
-			}
-			create_pop = {
-				culture = eclipsion_bloodelf
+				culture = sin_dorei
 				size = 444000
 			}
 			create_pop = {
-				culture = illidary_bloodelf
+				culture = sin_dorei
 				size = 25600
 			}
 			create_pop = {
@@ -3864,7 +3030,7 @@
 	s:STATE_DRAGONMAW_FOTRESS = {
 		region_state:DRAGONMAW_CLAN = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 20800
 			}
 			create_pop = {
@@ -3872,31 +3038,23 @@
 				size = 12800
 			}
 			create_pop = {
-				culture = dragonmaw_clan_felorc
+				culture = felorc
 				size = 971200
 			}
 			create_pop = {
-				culture = elemental_air
-				size = 32000
-			}
-			create_pop = {
-				culture = murkblood_tribe_broken
+				culture = krokul
 				size = 248800
 			}
 			create_pop = {
-				culture = nether_dragonkin_dragon
+				culture = nether_dragon
 				size = 344000
 			}
 			create_pop = {
-				culture = nether_dragonkin_whelp
+				culture = nether_dragon
 				size = 20000
 			}
 			create_pop = {
-				culture = rocknail_rock_flayer
-				size = 212000
-			}
-			create_pop = {
-				culture = thrallmar_orc
+				culture = orgrimmari
 				size = 12800
 			}
 			create_pop = {
@@ -3908,45 +3066,33 @@
 	s:STATE_WARDENS_CAGE = {
 		region_state:SHA_TAR_ASSAULT = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 68800
 			}
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 49000
 			}
 			create_pop = {
-				culture = scryer_bloodelf
+				culture = sin_dorei
 				size = 32800
 			}
 			create_pop = {
-				culture = undead_draenei
-				size = 100000
-			}
-			create_pop = {
-				culture = watchers_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 		}
 		region_state:ILLIDARY = {
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 284000
 			}
 			create_pop = {
-				culture = burning_legion_doom_guard
+				culture = doom_guard
 				size = 24000
 			}
 			create_pop = {
-				culture = burning_legion_annihilan
-				size = 12800
-			}
-			create_pop = {
-				culture = mechanical_burning_legion_fel_reaver
-				size = 12800
-			}
-			create_pop = {
-				culture = illidary_bloodelf
+				culture = sin_dorei
 				size = 124800
 			}
 			create_pop = {
@@ -3954,35 +3100,27 @@
 				size = 56800
 			}
 			create_pop = {
-				culture = illidary_felguard
+				culture = doom_guard
 				size = 28000
 			}
 			create_pop = {
-				culture = illidary_imp
+				culture = imp
 				size = 48000
 			}
 			create_pop = {
-				culture = illidary_nightelf
+				culture = kal_dorei
 				size = 38400
 			}
 			create_pop = {
-				culture = illidary_satyr
+				culture = fel_dorei
 				size = 136800
 			}
 			create_pop = {
-				culture = illidary_succubus
-				size = 44800
-			}
-			create_pop = {
-				culture = rocknail_rock_flayer
-				size = 8000
-			}
-			create_pop = {
-				culture = shadowmoon_clan_felorc
+				culture = felorc
 				size = 360800
 			}
 			create_pop = {
-				culture = sunfury_bloodelf
+				culture = sin_dorei
 				size = 220000
 			}
 		}
@@ -3990,19 +3128,13 @@
 	s:STATE_ALTER_SHA_TAR = {
 		region_state:THE_ALDOR = {
 			create_pop = {
-				culture = aldor_dreanei
+				culture = draenei
 				size = 239200
-			}
-		}
-		region_state:RAVENOUS_FLAYERS = {
-			create_pop = {
-				culture = ravenous_rock_flayers
-				size = 120000
 			}
 		}
 		region_state:COILSCAR_POINT = {
 			create_pop = {
-				culture = coilskar_naga
+				culture = lestharian
 				size = 356000
 			}
 		}
@@ -4010,43 +3142,39 @@
 	s:STATE_BLACK_TEMPLE = {
 		region_state:ILLIDARY = {
 			create_pop = {
-				culture = ashtoungue_broken
+				culture = krokul
 				size = 248800
 			}
 			create_pop = {
-				culture = bonechewer_felorc
+				culture = felorc
 				size = 360000
 			}
 			create_pop = {
-				culture = coilskar_naga
+				culture = lestharian
 				size = 84000
 			}
 			create_pop = {
-				culture = dragonmaw_clan_felorc
+				culture = felorc
 				size = 160000
 			}
 			create_pop = {
-				culture = illidary_bloodelf
+				culture = sin_dorei
 				size = 762400
 			}
 			create_pop = {
-				culture = illidary_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 			create_pop = {
-				culture = illidary_satyr
+				culture = fel_dorei
 				size = 52000
 			}
 			create_pop = {
-				culture = illidary_shivan
-				size = 20000
-			}
-			create_pop = {
-				culture = shadowmoon_clan_felorc
+				culture = felorc
 				size = 280800
 			}
 			create_pop = {
-				culture = watchers_nightelf
+				culture = kal_dorei
 				size = 12800
 			}
 		}

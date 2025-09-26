@@ -1,10 +1,10 @@
 ﻿UBD = {
-	use_culture_states = yes
-	
-	required_num_states = 3 
+	states = { STATE_KAUNAS STATE_VILNIUS STATE_TALINN STATE_TARTU STATE_RIGA STATE_COURLAND }
+
+	required_num_states = 3
 
 	ai_will_do = { always = no }
-	
+
 	possible = {
 		has_technology_researched = pan-nationalism
 	}
@@ -12,7 +12,7 @@
 
 AUS = {
 	use_culture_states = yes
-	
+
 	required_num_states = 2
 
 	ai_will_do = { always = no }
@@ -20,7 +20,7 @@ AUS = {
 
 IRE = {
 	use_culture_states = yes
-	
+
 	required_num_states = 2
 
 	ai_will_do = { always = no }
@@ -28,7 +28,7 @@ IRE = {
 
 MTC = {
 	use_culture_states = yes
-	
+
 	required_num_states = 1
 
 	ai_will_do = { always = no }

@@ -1,0 +1,189 @@
+taunka = {
+	color = rgb{ 167 176 99 }
+	religion = earth_mother
+	heritage = tauren_heritage
+	language = language_tauren
+	traditions = { tradition_horde }
+	male_common_first_names={
+		Ahmook
+		Baine Brakar
+		Chotak
+		Darukh
+		Erunar
+		Farlok
+		Goruuk
+		Harven Hothar
+		Irumak
+		Jorvak
+		Kaelmu Karn Korven
+		Lohkar
+		Makruun Marnok Moltar
+		Naruk
+		Othuun
+		Pahtor
+		Quarn
+		Rokhan Rulmok
+		Sanrok Sorvak
+		Tahuun Takrosh Torhal
+		Ukarn Ungoro
+		Varuk Volmar
+		Warruk Wulmok
+		Xarn
+		Yoruun
+		Zarvak Zornok
+	}
+	female_common_first_names = {
+		Ahysha
+		Belara Bryna
+		Ceyra
+		Dohsha
+		Ehlira
+		Fenya
+		Galira
+		Haenna Holya
+		Ishara
+		Jeyna
+		Kaerya Korina Kelysha
+		Lomena
+		Maenya Morila Mysha
+		Nalaya
+		Olyra
+		Phenya
+		Qilira
+		Rhenya Rosha
+		Saenya Sylira
+		Taenya Thoraela Tysha
+		Ulira Unaeya
+		Valira Venysha
+		Weyna Wulira
+		Xenya
+		Yalara Yshira
+		Zenya Zorysha
+	}
+	common_last_names={
+		Amberhorn Ashmane
+		Bearstride Blackhoof
+		Bouldertotem Broadsky
+		Cloudwalker Coldmane
+		Dawnbloom Deepgrass
+		Earthmane Emberstep
+		Farstride Firehorn
+		Grasswalker Greatplains
+		Highhoof Hillroam
+		Ironhorn Icesky
+		Longmane Lowstep
+		Moontotem Mosswalker
+		Nightwind Northhoof
+		Oakbinder Oldplains
+		Plainstrider Proudgrass
+		Quickstep Quietsky
+		Riverhoof Rockbloom
+		Softmane Spiritbloom
+		Stonehoof Sunwalker
+		Tallgrass Thunderstep
+		Umberhorn Uplandbloom
+		Valebloom Vastmane
+		Wildhorn Windtotem
+		Youngsky Yserngrasp
+		Zebramane Zenithhoof
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+tauren = {
+	color = rgb{ 128 68 18 }
+	religion = earth_mother
+	heritage = tauren_heritage
+	language = language_tauren
+	traditions = { tradition_cenarian_circle tradition_druid }
+	male_common_first_names={
+		Ahmook
+		Baine Brakar
+		Chotak
+		Darukh
+		Erunar
+		Farlok
+		Goruuk
+		Harven Hothar
+		Irumak
+		Jorvak
+		Kaelmu Karn Korven
+		Lohkar
+		Makruun Marnok Moltar
+		Naruk
+		Othuun
+		Pahtor
+		Quarn
+		Rokhan Rulmok
+		Sanrok Sorvak
+		Tahuun Takrosh Torhal
+		Ukarn Ungoro
+		Varuk Volmar
+		Warruk Wulmok
+		Xarn
+		Yoruun
+		Zarvak Zornok
+	}
+	female_common_first_names = {
+		Ahysha
+		Belara Bryna
+		Ceyra
+		Dohsha
+		Ehlira
+		Fenya
+		Galira
+		Haenna Holya
+		Ishara
+		Jeyna
+		Kaerya Korina Kelysha
+		Lomena
+		Maenya Morila Mysha
+		Nalaya
+		Olyra
+		Phenya
+		Qilira
+		Rhenya Rosha
+		Saenya Sylira
+		Taenya Thoraela Tysha
+		Ulira Unaeya
+		Valira Venysha
+		Weyna Wulira
+		Xenya
+		Yalara Yshira
+		Zenya Zorysha
+	}
+	common_last_names={
+		Amberhorn Ashmane
+		Bearstride Blackhoof
+		Bouldertotem Broadsky
+		Cloudwalker Coldmane
+		Dawnbloom Deepgrass
+		Earthmane Emberstep
+		Farstride Firehorn
+		Grasswalker Greatplains
+		Highhoof Hillroam
+		Ironhorn Icesky
+		Longmane Lowstep
+		Moontotem Mosswalker
+		Nightwind Northhoof
+		Oakbinder Oldplains
+		Plainstrider Proudgrass
+		Quickstep Quietsky
+		Riverhoof Rockbloom
+		Softmane Spiritbloom
+		Stonehoof Sunwalker
+		Tallgrass Thunderstep
+		Umberhorn Uplandbloom
+		Valebloom Vastmane
+		Wildhorn Windtotem
+		Youngsky Yserngrasp
+		Zebramane Zenithhoof
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

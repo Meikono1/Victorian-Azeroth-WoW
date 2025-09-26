@@ -1,7 +1,94 @@
+fel_dorei = {
+	color = rgb{ 133 95 156 }
+	religion = burning_legion
+	heritage = elf_heritage
+	language = language_elfen
+	traditions = { }
+	male_common_first_names={
+		Adryvos Aelxarion Aezthor
+		Baelxir Bronythos Bryndar
+		Caelthor Cazvion Cyrrath
+		Daelxir Drevarn Draveth
+		Elythar Eravos Ezrion
+		Faelthos Fynvior
+		Gaelxor Gorynthos Gryveth
+		Haezor Horyxan Hyrrath
+		Kaelxor Korrivan Krythor
+		Lytharos Lorveth Lysandros
+		Maltheron Maexiron Morveth
+		Nathigon Noryxal
+		Orythas Ozvaron
+		Phandoril Prythos
+		Raezvir Rynathor
+		Soryx Sylthor
+		Teryvos Thalxian
+		Veltharion Vorynth
+		Xaviros Xorveth
+		Zaelthys Zathiros Zorveth
+	}
+	female_common_first_names={
+		Aelthira Aezvya Arvethis
+		Baelira Brysandra Bythira
+		Caelvya Cerynthia Cyrastra
+		Daevira Delythas Drevyra
+		Elyssra Ezvyra Eryndis
+		Faelthira Foryntha
+		Gaevira Gryssandra Goryntha
+		Haelyra Horynthis Hyssara
+		Kaevira Kryssira Korynthia
+		Lythira Lysendra Lorvyra
+		Maelyth Maevira Morvyra
+		Naevira Noryssra Nytheris
+		Olyssra Oryndra
+		Paevira Pryssra
+		Raevira Rysandra
+		Saelvya Sylthira
+		Taevira Thorynthis Tyssara
+		Vaelthira Voryssa
+		Xevira Xorynthia
+		Yaelvya Yssandra
+		Zaevira Zorynthis Zynthera
+	}
+	common_last_names={
+		Ashthorn
+		Blightthorn Bloodthistle
+		Cinderwrath Cursesong
+		Darkvein Doomthorn
+		Ebonvine Embergloom
+		Felwhisper Foulthorn
+		Gloomthorn Grimthistle
+		Hellspine Hexthorn
+		Ireblight
+		Jinxthorn
+		Kyrashade
+		Lashgloom Luringsin
+		Moonblight Mistthorn
+		Netherthorn Nightbane
+		Onyxveil
+		Poxvine
+		Quelshade
+		Razorvine Ruinbloom
+		Shadowthorn Sinwhisper
+		Thornwrath Terrorshade
+		Umbralvein
+		Voidthorn Vilebloom
+		Wyrmshade
+		Xavishade
+		Yewthorn
+		Zealwrath
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 kal_dorei = {
 	color = rgb{ 133 95 156 }
 	religion = elune
-	traits = { dense_forest ancient_forest elf_heritage }
+	heritage = elf_heritage
+	language = language_elfen
+	traditions = { tradition_dense_forest tradition_ancient_forest }
 	male_common_first_names={
 		Aelar Aeltheron Aerendyl Aethor Aerith Alandor Anarion Arannis 
 		Baelor Baelgor Braelen Bralorn
@@ -79,7 +166,9 @@ kal_dorei = {
 quel_dorei  = {
 	color = rgb{ 219 202 147 }
 	religion = holy_light
-	traits = { magical_highlands magical_lowlands elf_heritage }
+	heritage = elf_heritage
+	language = language_elfen
+	traditions = { tradition_magical_lowlands tradition_magical_lowlands }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
 		Baelion Belanor
@@ -147,10 +236,136 @@ quel_dorei  = {
 	}
 }
 
+shen_dralar = {
+	color = rgb{ 57 184 109 }
+	religion = elune
+	heritage = elf_heritage
+	language = language_elfen
+	traditions = { }
+	male_common_first_names={
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
+	}
+	female_common_first_names = {
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
+	}
+	common_last_names={
+		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
+		Crimsonveil
+		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
+		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
+		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
+		Lightbringer Lightweaver Lightwhisper Lightwing
+		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
+		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
+		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
+	}
+	male_regal_first_names = {
+		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
+		Baelion Belanor
+		Caleth Celandor Corion
+		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
+		Elenion Elorion
+		Faelion Falarion
+		Galanor Galion Galarien
+		Halendor Halarion
+		Ilandor Ilarion Iltheron Isandor
+		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
+		Laerion Larion Lethion Lorien
+		Malanor Malion Maelion Matheron Maerion
+		Naelion Naeron Nalandor Narion Natherion Nevrion
+		Orandir Orien
+		Quelarion Quelion
+		Raelion Ralithor Relian Rethion
+		Saelion Selior Selion Sendarion Siranis Solithor Sylion
+		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
+		Vaelor Vaelion Valion Varanis Velion
+		Xalandor
+		Ylaeron
+		Zalarion Zareth Zorion
+	}
+	female_regal_first_names = {
+		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
+		Bellathriel
+		Caelira Caladriel Celathra Cirelya
+		Daelithra Delanara Delysia
+		Elaria Elenya Eloriel Elyndra Enalya Erelune
+		Faelara Faeriel
+		Galadrielle
+		Halynia
+		Ilysera Isilme
+		Jaelene
+		Kaelira Kalyndra Kelthira
+		Laeriel Lirael Lysanthra
+		Maeriel Melantha Myrilla
+		Naelira Nalyria Nerithiel Nyssara
+		Orlyndra
+		Paelira
+		Quelira
+		Raelith
+		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
+		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
+		Vaelira Vaenya Valynna Velindra Virelya
+		Xalynia
+		Ylliria
+		Zaleria Zelara Zyrelyn
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 sin_dorei = {
 	color = rgb{ 193 80 31 }
 	religion = holy_light
-	traits = { lowlands magical_lowlands ancient_forest haunted_forest elf_heritage }
+	heritage = elf_heritage
+	language = language_elfen
+	traditions = { tradition_magical_lowlands tradition_ancient_forest tradition_haunted_forest }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
 		Baelion Belanor

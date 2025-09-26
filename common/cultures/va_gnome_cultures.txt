@@ -1,26 +1,90 @@
-coilfang_lepergnome = {
-	color = rgb{ 81 164 100 }
-	religion = protestant
-	traits = { coilfang lepergnome gnome_heritage }
+gnome = {
+	color = rgb{ 183 119 198 }
+	religion = holy_light
+	heritage = gnome_heritage
+	language = language_gnome
+	traditions = { tradition_mountains }
 	male_common_first_names = {
-		Test Test Test Test Test Test
+		Alfrim Arbanik Arvold
+		Bendel Brixom Bronzwick
+		Cogrin Cramwick Crispal
+		Dindle Droven Drizzik
+		Eckran Eldibald Elwick
+		Farnwick Fizzelthor Flapwick
+		Gearrin Gimbald Grindlefex
+		Harlwick Hobbren Horvax
+		Irdon Izzimor
+		Jaspern Jaxthor Jorwick
+		Karnwick Kipplethor Krazmin
+		Lobbern Lothwick Lugrin
+		Marnox Mebrick Miglow
+		Neddrin Nogbal Norwick
+		Oddrin Ozwald
+		Pendelwick Pipthorn Plogrin
+		Quindlethor Quorvin
+		Razzwick Refton Rivvick
+		Sprocklin Stenwick Strindle
+		Tobwick Torvax Trindlethor
+		Ullwick Urbenik
+		Varnwick Vixthor Vobrin
+		Wexford Wickram Wilthor
+		Yarvick Yelbin Yorwick
+		Zobbern Zolwick Zurnik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Alvinka Ambrily Anselma Arlissa
+		Bendora Brixelle Bronia
+		Cogsira Crindleth Crispina
+		Dabblee Daxora Drimella
+		Edrina Elbetha Elwicka
+		Farnessa Fizzelle Flavina
+		Gearlina Gimbella Grizzabeth
+		Halvissa Hobnella Horvinka
+		Ilmara Inzella Izbrynn
+		Jassivine Jorvella Julinka
+		Kalbina Kippella Krezmira
+		Lornessa Luthwina Lybressa
+		Mavinka Melbina Mornissa
+		Nandrelle Nelwynn Norrissa
+		Olpina Ormilla Ozbrynn
+		Penvira Pipzella Plessica
+		Quivella Quorinna
+		Ravinda Rellith Rozmira
+		Sprockella Stenliss Stravina
+		Tavindra Tinkwilla Trinbess
+		Ulvessa Urmira
+		Valwynn Vixella Vornissa
+		Wenlissa Wickbrynn Wilessa
+		Yorbina Yrenka
+		Zebrinne Zorvella Zylissa
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Axlecrank Axleforge
+		Beltwhistle Blastcog
+		Cinderfuse Cogspinner Copperbolt
+		Dabblegear Dialsprocket
+		Ethercrank Everweld
+		Fiddlefuse Fizzlespark
+		Geargrind Gearwhistle Gearwick
+		Hammerwhistle Hexbolt
+		Ironspindle Ironwrench
+		Jogglebolt Jumpsprocket
+		Knicklegear Knobwhistle
+		Levergrind Lightspindle
+		Mainsprocket Mistcrank
+		Nailspindle Nutwhistle
+		Oilspindle Overcrank
+		Pipesprocket Platemender
+		Quickspanner Quillgear
+		Ratchetweld Rivetsprocket
+		Screwspindle Scrapgear Sparkblaster
+		Tinspindle Tweakforge
+		Uppersprocket Undercrank
+		Valvegrind Voltwhistle
+		Wedgeweld Whistleblast
+		Xenobolt Xylogear
+		Yanklever Yellowcrank
+		Zapperbolt Zincwhistle
 	}
 
 	graphics = european
@@ -29,10 +93,12 @@ coilfang_lepergnome = {
 	}
 }
 
-gnome = {
-	color = rgb{ 183 119 198 }
+lepergnome = {
+	color = rgb{ 81 164 100 }
 	religion = holy_light
-	traits = { mountains gnome_heritage }
+	heritage = gnome_heritage
+	language = language_gnome
+	traditions = { tradition_mountains }
 	male_common_first_names = {
 		Alfrim Arbanik Arvold
 		Bendel Brixom Bronzwick

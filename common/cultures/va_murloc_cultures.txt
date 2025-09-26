@@ -1,181 +1,42 @@
-bogstrok_makrura = {
-	color = rgb{ 99 175 221 }
-	religion = protestant
-	traits = { bogstrok makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bogstrok_makrura = {
-	color = rgb{ 54 78 176 }
-	religion = protestant
-	traits = { bogstrok makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-coilfang_makrura = {
-	color = rgb{ 37 147 163 }
-	religion = protestant
-	traits = { coilfang makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-makrinni_makrura = {
-	color = rgb{ 35 84 141 }
-	religion = protestant
-	traits = { makrinni makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-marshlight_murloc_makrura = {
-	color = rgb{ 70 169 165 }
-	religion = protestant
-	traits = { marshlight makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 murloc_gorloc = {
 	color = rgb{ 49 195 135 }
-	religion = protestant
-	traits = { gorloc murloc_heritage }
+	religion = kragwa_loa
+	heritage = murloc_heritage
+	language = language_murloc
+	traditions = { tradition_riverland tradition_swamp }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Blrrg Blrrlp Brgll Brgzk Brllk 
+		Flrgg 
+		Gllmp Gllrk Grggl Grllp Grmpk Grrbll Grrll Gurgll 
+		Klgg Krrlp 
+		Llbrg 
+		Mmgll Mmmrg Mrggllk Mrgglp Mrrgl Mrrrkk Mrrzg Murgll 
+		Wlgg Wrrgl Wrrgg
 	}
+	
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Blarga Blglri Blrri Bragga Brglia 
+		Flarga Flurga 
+		Glirga Glrli Grlka Grlri Gurgla 
+		Klirga Kragga Krurga 
+		Lirga Llirli 
+		Mlirga Mrlga Mrrga Murgli 
+		Plarga Plirga 
+		Slarga Slrrgi 
+		Vraga 
+		Wlrga Wurgli
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+	
+	common_last_names = {
+		Brrgclaw Blgfin Blurgdeep 
+		Drglbubble Flrrgscale
+		Glurgsnap Grglwave 
+		Klrrfin Krurgmire 
+		Mrrgstone
+		Plurggle 
+		Slrrgtide Snurgmoss 
+		Trgglefin 
+		Wrrboggle
 	}
 
 	graphics = european
@@ -184,122 +45,45 @@ murloc_gorloc = {
 	}
 }
 
-murloc_winterfin = {
+coldwater_murloc = {
 	color = rgb{ 102 205 228 }
-	religion = protestant
-	traits = { murloc_heritage }
+	religion = great_tide
+	heritage = murloc_heritage
+	language = language_murloc
+	traditions = { tradition_taiga tradition_fjord }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Blrrg Blrrlp Brgll Brgzk Brllk 
+		Flrgg 
+		Gllmp Gllrk Grggl Grllp Grmpk Grrbll Grrll Gurgll 
+		Klgg Krrlp 
+		Llbrg 
+		Mmgll Mmmrg Mrggllk Mrgglp Mrrgl Mrrrkk Mrrzg Murgll 
+		Wlgg Wrrgl Wrrgg
 	}
+	
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Blarga Blglri Blrri Bragga Brglia 
+		Flarga Flurga 
+		Glirga Glrli Grlka Grlri Gurgla 
+		Klirga Kragga Krurga 
+		Lirga Llirli 
+		Mlirga Mrlga Mrrga Murgli 
+		Plarga Plirga 
+		Slarga Slrrgi 
+		Vraga 
+		Wlrga Wurgli
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-murloc_makrura = {
-	color = rgb{ 42 119 153 }
-	religion = protestant
-	traits = { makrura murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-sporeggar_sporeling = {
-	color = rgb{ 129 114 31 }
-	religion = protestant
-	traits = { sporeggar sporeling_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-sungill_tribe_murloc = {
-	color = rgb{ 201 205 99 }
-	religion = protestant
-	traits = { sungill murloc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+	
+	common_last_names = {
+		Brrgclaw Blgfin Blurgdeep 
+		Drglbubble Flrrgscale
+		Glurgsnap Grglwave 
+		Klrrfin Krurgmire 
+		Mrrgstone
+		Plurggle 
+		Slrrgtide Snurgmoss 
+		Trgglefin 
+		Wrrboggle
 	}
 
 	graphics = european
@@ -311,7 +95,9 @@ sungill_tribe_murloc = {
 warmwater_murloc = {
 	color = rgb{ 77 120 172 }
 	religion = great_tide
-	traits = { lowlands temperate_forest  murloc_heritage }
+	heritage = murloc_heritage
+	language = language_murloc
+	traditions = { tradition_lowlands tradition_temperate_forest }
 	male_common_first_names={
 		Blrrg Blrrlp Brgll Brgzk Brllk 
 		Flrgg 

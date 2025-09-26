@@ -1,84 +1,98 @@
-bristleback_quilboar = {
+quilboar = {
 	color = rgb{ 118 53 7 }
-	religion = protestant
-	traits = { bristleback quilboar_heritage }
+	religion = agamaggan
+	heritage = quilboar_heritage
+	language = language_quilboar
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Agrom
+		Brogath Brukk
+		Cragthar
+		Drokmar Druuk
+		Ergosh
+		Fruknar
+		Gnarsh Grashok
+		Hrogar
+		Igrum
+		Joktar
+		Krulg
+		Lokmar
+		Mugrak
+		Norgash
+		Orgruk
+		Pruul
+		Qurosh
+		Rathok
+		Snarlgash
+		Thruk Turgosh
+		Urnosh
+		Vrogar
+		Wrugmar
+		Xorg
+		Yugrak
+		Zarnok
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Agra
+		Bralka Brunka
+		Crusha
+		Drakka Druza
+		Ernaka
+		Frusha
+		Gralka Grysha
+		Hroga
+		Igra
+		Jorka
+		Korga
+		Lurka
+		Magra
+		Norga
+		Orsha
+		Praga
+		Quorra
+		Rashka
+		Snara
+		Tarka Thorga
+		Urnaka
+		Varka
+		Wrusha
+		Xorga
+		Ygra
+		Zorka
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
+		Ashbristle
+		Bloodtusk
+		Briarhide
+		Cragboar
+		Darkthorn
+		Dirtmane
+		Dusttusk
+		Earthsnout
+		Fanghide
+		Furthorn
+		Goreboar
+		Grimspine
+		Ironhoof
+		Mudtusk
+		Quillback
+		Quillscar
+		Rocktusk
+		Rootsnarl
+		Sharpspine
+		Stonehide
+		Swamproot
+		Thornhide
+		Tuskbane
+		Underboar
+		Vilehide
+		Warspine
+		Wildtusk
+		Woundhide
+		Yellowtusk
+		Zarroot
 	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-razorfen_quilboar = {
-	color = rgb{ 149 62 22 }
-	religion = protestant
-	traits = { razorfen quilboar_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-razormane_quilboar = {
-	color = rgb{ 169 109 42 }
-	religion = protestant
-	traits = { razormane quilboar_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
+	
 	graphics = european
 	ethnicities = {
 		1 = caucasian

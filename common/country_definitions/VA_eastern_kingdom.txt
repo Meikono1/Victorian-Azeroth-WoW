@@ -528,17 +528,6 @@ HIGHLAND_FROSTWOLFES = {
 	capital = STATE_HEADLAND
 }
 
-HIGHLAND_YETI = {
-	color = { 113 177 231 }
-	
-	country_type = unrecognized
-	
-	tier = city_state
-	
-	cultures = { highland_yeti }
-	capital = STATE_HEADLAND
-}
-
 HIGHVALE_HIGHELFES = {
 	color = { 133 180 65 }
 	
@@ -623,7 +612,7 @@ LOST_ONES = {
 	
 	tier = principality
 	
-	cultures = { lost_ones_broken }
+	cultures = { krokul }
 	capital = STATE_MARSHTIDE_WATCH
 }
 
@@ -823,7 +812,7 @@ RIVERPAW_PACK = {
 	
 	tier = grand_principality
 	
-	cultures = { mudmane_gnoll }
+	cultures = { mudmane }
 	capital = STATE_WESTBROOK_GARRISON
 }
 
@@ -935,7 +924,7 @@ STORMSPIKE = {
 	
 	tier = principality
 	
-	cultures = { stormspike_dwarf }
+	cultures = { bronzebeard }
 	capital = STATE_HEADLAND
 }
 

@@ -588,17 +588,6 @@ COUNTRIES = {
 		activate_law = law_type:law_slavery_banned
 	}
 
-	c:HIGHLAND_YETI ?= {
-		effect_starting_technology_tier_5_tech = yes
-		
-		effect_starting_politics_traditional = yes
-		
-		activate_law = law_type:law_isolationism
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_slave_trade
-	}
-
 	c:HIGHVALE_HIGHELFES ?= {
 		effect_starting_technology_tier_2_tech = yes
 		

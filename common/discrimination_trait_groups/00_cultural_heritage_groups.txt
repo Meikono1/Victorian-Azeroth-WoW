@@ -1,0 +1,189 @@
+﻿# This list is alphabetically sorted. Please keep it so.
+
+heritage_group_african = {
+	type = heritage
+}
+
+heritage_group_central_asian = {
+	type = heritage
+}
+
+heritage_group_east_asian = {
+	type = heritage
+}
+
+heritage_group_european = {
+	type = heritage
+}
+
+heritage_group_indigenous_american = {
+	type = heritage
+}
+
+heritage_group_indigenous_oceanic = {
+	type = heritage
+}
+
+heritage_group_middle_eastern = {
+	type = heritage
+}
+
+heritage_group_north_asian = {
+	type = heritage
+}
+
+heritage_group_south_asian = {
+	type = heritage
+}
+
+heritage_group_southeast_asian = {
+	type = heritage
+}
+
+heritage_group_arakkoa = {
+	type = heritage
+}
+
+heritage_group_centaur = {
+	type = heritage
+}
+
+heritage_group_demon = {
+	type = heritage
+}
+
+heritage_group_dragon = {
+	type = heritage
+}
+
+heritage_group_dwarf = {
+	type = heritage
+}
+
+heritage_group_element = {
+	type = heritage
+}
+
+heritage_group_elfen = {
+	type = heritage
+}
+
+heritage_group_eredar = {
+	type = heritage
+}
+
+heritage_group_ethereal = {
+	type = heritage
+}
+
+heritage_group_furbolg = {
+	type = heritage
+}
+
+heritage_group_giant = {
+	type = heritage
+}
+
+heritage_group_gnoll = {
+	type = heritage
+}
+
+heritage_group_gnome = {
+	type = heritage
+}
+
+heritage_group_goblin = {
+	type = heritage
+}
+
+heritage_group_harpy = {
+	type = heritage
+}
+
+heritage_group_human = {
+	type = heritage
+}
+
+heritage_group_humanoid = {
+	type = heritage
+}
+
+heritage_group_kobold = {
+	type = heritage
+}
+
+heritage_group_magnatour = {
+	type = heritage
+}
+
+heritage_group_mechanical = {
+	type = heritage
+}
+
+heritage_group_murloc = {
+	type = heritage
+}
+
+heritage_group_naga = {
+	type = heritage
+}
+
+heritage_group_nymph = {
+	type = heritage
+}
+
+heritage_group_ogre = {
+	type = heritage
+}
+
+heritage_group_orc = {
+	type = heritage
+}
+
+heritage_group_podling = {
+	type = heritage
+}
+
+heritage_group_qiraji = {
+	type = heritage
+}
+
+heritage_group_quilboar = {
+	type = heritage
+}
+
+heritage_group_rockflayer = {
+	type = heritage
+}
+
+heritage_group_satyr = {
+	type = heritage
+}
+
+heritage_group_silithid = {
+	type = heritage
+}
+
+heritage_group_tauren = {
+	type = heritage
+}
+
+heritage_group_trogg = {
+	type = heritage
+}
+
+heritage_group_troll = {
+	type = heritage
+}
+
+heritage_group_undead = {
+	type = heritage
+}
+
+heritage_group_wild = {
+	type = heritage
+}
+
+heritage_group_worgan = {
+	type = heritage
+}

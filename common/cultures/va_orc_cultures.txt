@@ -1,286 +1,90 @@
-bleeding_hollow_felorc = {
-	color = rgb{ 102 131 17 }
-	religion = protestant
-	traits = { bleeding_hollow felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bonechewer_felorc = {
-	color = rgb{ 147 175 95 }
-	religion = protestant
-	traits = { bonechewer felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-laughing_skull_felorc = {
-	color = rgb{ 178 165 84 }
-	religion = protestant
-	traits = { laughing_skull felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-boulderfist_orc = {
-	color = rgb{ 137 74 28 }
-	religion = protestant
-	traits = { boulderfist orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-burning_blade_orc = {
-	color = rgb{ 140 35 9 }
-	religion = protestant
-	traits = { burning_blade orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-burning_legion_orc_cultist = {
-	color = rgb{ 220 88 42 }
+felorc = {
+	color = rgb{ 67 194 25 }
 	religion = burning_legion
-	traits = { cultist orc_heritage }
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_barren tradition_wasteland }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Azhrok Arfel Ashkar Atrug
+		Balgrath Blightrok Bloodvak Brozhar
+		Cargash Cindrak Cruvok
+		Dagreth Darkzul Drazhak Drukhor
+		Ekhar Eredruk Ezgoth
+		Fargoth Felgrom Felkash Fenvor
+		Garthul Ghorvash Grimfel Grukzor
+		Harzug Hellgrim Horgath Hrethor
+		Izgarn Irkoth Infel
+		Jargul Jhexar Jorvak
+		Kargfel Kazrath Keldrok Kharzul Krovash
+		Lagreth Lokthar Lomgash Lyrgoth
+		Malgrush Mardak Mazarok Morvash Murgrel
+		Nagthar Nazgrel Nerkoth Nyrvak
+		Ograth Okhul Orfel Ozkash
+		Pargul Phexrak Plagthor
+		Qargoth Qelzar
+		Ragvash Razkhor Rethgar Rukthal
+		Sargor Scythek Shargul Skarnok Sythrak
+		Tagrath Talvok Tharzul Thraskor Trokash
+		Ugral Umbrak Urzoth
+		Vargash Vekthar Verzul Vraxgor
+		Wargoth Wazhul Wrathgar
+		Xargul Xelvok
+		Yazgor Yrelkash Yvorg
+		Zagrath Zekhul Zorvak Zulfel
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Akrisha Arzhela Ashvra Avorka
+		Balgra Belnash Blazhra Braksha
+		Cazhra Cindressa Cravya
+		Dargira Dezula Drakhira Droska
+		Ekhira Elnava Ezrya
+		Felmira Ferzha Firyka
+		Ghazra Ghorvika Grashira Gryzla
+		Hadrissa Helvra Horkira Hrysha
+		Izgala Irvissa Ishnara
+		Jalvra Jhexira Jorasha
+		Kalgira Karzula Kethra Khorvya Krysha
+		Lazhra Lorkina Lysvra
+		Malvra Marzhara Mogrissa Morvya Myzhella
+		Nagira Nekhra Norvsha Nyrassa
+		Okhira Olvasha Orzhela Othrya
+		Pargira Phexla Plazhra
+		Qavissa Qelzhara
+		Ravsha Rekhara Rhysla Rulvra
+		Salgira Sarnissa Shalkira Skorvya Sylgra
+		Taghra Talvissa Tharzula Thrysha Trovka
+		Ulvra Umbrissa Urzhala
+		Valgira Vekhra Vornissa Vrysha
+		Warzhara Welkira Wryssa
+		Xalvra Xezhira
+		Yazhela Yrelkira Yvorsa
+		Zalgira Zekhura Zorvissa Zulyra
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-cabal_orc = {
-	color = rgb{ 130 155 64 }
-	religion = protestant
-	traits = { shadowcouncil orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-dark_strand_cultist_orc = {
-	color = rgb{ 92 111 29 }
-	religion = protestant
-	traits = { dark_strand cultist orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-dragonmaw_clan_felorc = {
-	color = rgb{ 119 149 32 }
-	religion = protestant
-	traits = { dragonmaw_clan felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-earthenring_maghar_orc = {
-	color = rgb{ 74 45 15 }
-	religion = protestant
-	traits = { earthenring mag_har orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashbrand Ashclaw Ashdoom Ashforge Ashgore Ashrend Ashstorm
+		Bloodbane Bloodbrand Bloodchain Bloodflame Bloodgore Bloodmaw Bloodrage Bloodscar Brimfire
+		Chainbreaker Chainbrand Chainskull Cinderbrand Cinderfang Cindermaw Cinderrage Coalheart Corruptbrand
+		Darkbrand Darkchain Darkflame Darkgore Darkmaw Darkrend Darkscar Deathbrand Doombrand Doomflame Doomhammer Doommaw
+		Emberbrand Emberfang Embergore Embermaw Embershard
+		Felbane Felbrand Felchain Felfang Felgore Felhammer Felmaw Felscar Firebrand Firegore Firemaw Furybrand
+		Gorebrand Gorefang Gorehammer Goremaw Gorescar Grimbrand Grimchain Grimflame Grimward
+		Hellbrand Hellchain Hellfang Hellforge Hellmaw Hellrend Hellscar Hexbrand
+		Ironbrand Ironchain Ironfang Ironmaw Ironskull
+		Kargbrand Kargfang Kargflame Kargmaw
+		Lavabrand Lavafang Lavamaul Lightbane
+		Magmabrand Magmafang Magmaforge Magmashard Mawbreaker Murkbrand
+		Netherbrand Netherfang Netherflame Nethershard Nightbrand Nightmaw
+		Oathbreaker Obsidianbrand Oblivionbrand
+		Painbrand Painfang Painscar Pitbrand Pitfang Plaguebrand Plaguescar
+		Quakebrand Quakefang Quellbrand
+		Ragebrand Ragefang Ragemaul Ragewarden Redmaw Ruinbrand Ruinfang Ruinscar
+		Scorchbrand Scorchfang Scorchmaw Shadowbrand Shadowfang Shatterchain Skullbrand Skullfang Skullmaw Skullrend Slaughterbrand
+		Taintbrand Taintfang Taintmaw Terrorscar Twistedfang Tyrantbrand
+		Unholybrand Unholyfang Umbralbrand
+		Voidbrand Voidfang Voidflame Voidmaw Vilebrand Vilescar
+		Warbrand Warfang Wargore Warmaw Warpbrand Warpscar
+		Xorbrand Xorgore
+		Zarbrand Zelgore Zulflame
 	}
 	graphics = european
 	ethnicities = {
@@ -291,7 +95,9 @@ earthenring_maghar_orc = {
 frostwolf = {
 	color = rgb{ 57 183 168 }
 	religion = shamanism
-	traits = { mountains orc_heritage }
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_mountains }
 	male_common_first_names={
 		Agmar Akhorak Algrim Amarok Arak Argaroth Arkun
 		Balgarth Barokh Bjorn Bloodfang Brogarth Brukk
@@ -361,173 +167,74 @@ frostwolf = {
 	}
 }
 
-illidary_felorc = {
-	color = rgb{ 91 205 49 }
-	religion = protestant
-	traits = { illidary felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kilsorrow_orc = {
-	color = rgb{ 164 158 66 }
-	religion = protestant
-	traits = { kilsorrow orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-korkron_orc = {
-	color = rgb{ 142 164 66 }
-	religion = protestant
-	traits = { horde orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lower_city_orc = {
-	color = rgb{ 115 81 50 }
-	religion = protestant
-	traits = { lowercity orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 maghar_orc = {
 	color = rgb{ 74 45 15 }
-	religion = protestant
-	traits = { mag_har orc_heritage }
+	religion = shamanism
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_highlands tradition_mountains  }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Agmar Akhorak Algrim Amarok Arak Argaroth Arkun
+		Balgarth Barokh Bjorn Bloodfang Brogarth Brukk
+		Dagrak Durok Drek Tharg Drakkar Durak
+		Eldrak Eronth Eskar
+		Falkar Fangor Frostclaw Frostfang Frostmane
+		Garruk Grommash Grothak Grumok Guldan
+		Hrothgar Hakkar Hrogar Hulkar
+		Kargath Kharok Korgrim Krugor Krolak
+		Lorgan Loknar Lothar
+		Magrok Morgran Mukar Mulgor
+		Nargath Norak
+		Orgrim Othrak
+		Ragnar Rokhan Rulgar Ragnok
+		Skarok Skarr Skuld Stormrage
+		Throk Thulgar Thrain Torak
+		Urgal Urok
+		Vargan Volgar
+		Wargan Wolfgar Wulfric
+		Zogar Zulgar
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Aela Arina Ashka Asra Ayla
+		Bryna Bruja Burka
+		Dara Drina Dorga
+		Elra Enka Erna Esha
+		Fara Fira Fyra
+		Gala Gorna Grina
+		Hala Hina Horka
+		Iska Isha
+		Kala Kora Krina
+		Lira Lina Loka Lorka
+		Mara Mina Mukra
+		Nara Nyra
+		Ora Orka
+		Raka Rina Rosha
+		Sara Silka Sura
+		Tara Trina
+		Ulka
+		Vira Vyra
+		Zara Zorra
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-moknathal_orc = {
-	color = rgb{ 112 76 59 }
-	religion = protestant
-	traits = { moknathal orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashfall Ashfrost Ashpaw Ashridge Ashwood Ashwinter Axeborn Axebreaker
+		Bearclaw Blackfrost Blackhowl Blackwood Bloodfang Bonecrusher Boulderfall Bramwell Briarborn Brimstone Brownhollow
+		Cliffborn Clifftop Coldbane Coldbrook Coldhammer Coldstone Copperhide Cragwalker Crowfoot
+		Deepwinter Deepwood Dreadfrost Driftwood Doomclaw Duskfall Duskhowl
+		Frostbane Frostbeard Frostbite Frostborn Frostbrand Frostfield Frostforge Frosthowl Frostmantle Frostroot Frostwalker
+		Granitefist Graycloak Graywolf Greymantle Grimnar Grimhorn Grimwalker Gorsewood Gryphonlock
+		Hailstrike Hammerfall Hardridge Hearthfrost Highclaw Hollowfall Houndbane
+		Kettleborn Kettlehelm Kinspear Kingsfrost Knott Kormak
+		Lightbane Lockwood Longfrost Longridge Longstride Lonehowl Lowfield
+		Mistwalker Mistwood Mornfrost Moorcliff Moorwalker Mountainborn Moonbane
+		Nightfall Nighthowl Nightrunner Northcliff Northguard Northwind
+		Oakenfur Oakenshield Oathbreaker Overfrost Overstone
+		Ravencroft Redfrost Rimeguard Rimeheart Riverfrost Rockbreaker Rockwell Runebreaker
+		Snowdrift Snowfall Snowmane Snowridge Snowshoe Snowstalker Stonefist Stonehelm Stonemantle Stoneweaver Stormbreaker Stormhowl Stormrider Stormwatch
+		Thunderfist Thunderridge Tidewalker Timberfall Thornwood Trueborn
+		Umberfrost Unbroken Underwood Ursabane
+		Valefrost Valiant Vargbane Vanguard Vastcliff
+		Whitehowl Windwalker Winterborn Winterfrost Winterhold Wintersong Wolfbane Wolfclaw Wolfheart Wolfson Woodrune
+		Zalefrost Zarn Zorgrim Zorn
 	}
 	graphics = european
 	ethnicities = {
@@ -538,7 +245,9 @@ moknathal_orc = {
 mok_grondal = {
 	color = rgb{ 104 30 15 }
 	religion = black_dragon_worship
-	traits = { barren vulcanic orc_heritage }
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_barren tradition_vulcanic  }
 	male_common_first_names={
 		Agarok Azruk
 		Balgron Brakthar Brogar
@@ -604,7 +313,9 @@ mok_grondal = {
 nelghor_shomash = {
 	color = rgb{ 54 1 1 }
 	religion = shamanism
-	traits = { barren gorge orc_heritage }
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_barren tradition_gorge  }
 	male_common_first_names={
 		Agmar Akhorak Algrim Amarok Arak Argaroth Arkun
 		Balgarth Barokh Bjorn Bloodfang Brogarth Brukk
@@ -673,7 +384,9 @@ nelghor_shomash = {
 orgrimmari = {
 	color = rgb{ 203 51 51 }
 	religion = shamanism
-	traits = { barren arid_plateau orc_heritage }
+	heritage = orc_heritage
+	language = language_orc
+	traditions = { tradition_barren tradition_arid_plateau  }
 	male_common_first_names={
 		Agarok Azruk
 		Balgron Brakthar Brogar
@@ -730,240 +443,6 @@ orgrimmari = {
 		Waraxe Warbane Warfang Warfist Warhammer Warhowl Warmaw Warspear
 		Wolfaxe Wolfbane Wolffang Wolffist Wolfhammer Wolfhowl Wolfmaw Wolfspear
 	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowcouncil_orc = {
-	color = rgb{ 89 55 121 }
-	religion = protestant
-	traits = { shadowcouncil orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowmoon_clan_felorc = {
-	color = rgb{ 42 129 60 }
-	religion = protestant
-	traits = { shadowmoon_clan felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowmoon_clan_orc = {
-	color = rgb{ 28 37 145 }
-	religion = protestant
-	traits = { shadowmoon_clan orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shatari_skyguard_orc = {
-	color = rgb{ 185 172 83 }
-	religion = protestant
-	traits = { shatari_skyguard orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shattered_hand_felorc = {
-	color = rgb{ 180 208 143 }
-	religion = protestant
-	traits = { illidary shattered_hand felorc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stonebreaker_orc = {
-	color = rgb{ 148 159 54 }
-	religion = protestant
-	traits = { thrallmar orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-thrallmar_orc = {
-	color = rgb{ 155 83 29 }
-	religion = protestant
-	traits = { thrallmar horde orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-wyrmcultist_orc = {
-	color = rgb{ 28 98 131 }
-	religion = protestant
-	traits = { wyrmcultist orc_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
 	graphics = european
 	ethnicities = {
 		1 = caucasian

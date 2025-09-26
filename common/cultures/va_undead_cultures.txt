@@ -1,7 +1,9 @@
 banshee = {
 	color = rgb{ 64 29 128 }
 	religion = scourge
-	traits = { lowlands magical_lowlands ancient_forest haunted_forest undead_heritage }
+	heritage = undead_heritage
+	language = language_undead
+	traditions = { tradition_magical_lowlands tradition_ancient_forest tradition_haunted_forest }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
 		Baelion Belanor
@@ -51,17 +53,6 @@ banshee = {
 		Xalynia
 		Ylliria
 		Zaleria Zelara Zyrelyn
-	}
-	noble_last_names = {
-		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
-		Crimsonveil
-		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
-		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
-		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
-		Lightbringer Lightweaver Lightwhisper Lightwing
-		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
-		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
-		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
 	}	
 	common_last_names={
 		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
@@ -73,145 +64,6 @@ banshee = {
 		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
 		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
 		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
-	}
-	male_regal_first_names = {
-		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
-		Baelion Belanor
-		Caleth Celandor Corion
-		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
-		Elenion Elorion
-		Faelion Falarion
-		Galanor Galion Galarien
-		Halendor Halarion
-		Ilandor Ilarion Iltheron Isandor
-		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
-		Laerion Larion Lethion Lorien
-		Malanor Malion Maelion Matheron Maerion
-		Naelion Naeron Nalandor Narion Natherion Nevrion
-		Orandir Orien
-		Quelarion Quelion
-		Raelion Ralithor Relian Rethion
-		Saelion Selior Selion Sendarion Siranis Solithor Sylion
-		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
-		Vaelor Vaelion Valion Varanis Velion
-		Xalandor
-		Ylaeron
-		Zalarion Zareth Zorion
-	}
-	female_regal_first_names = {
-		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
-		Bellathriel
-		Caelira Caladriel Celathra Cirelya
-		Daelithra Delanara Delysia
-		Elaria Elenya Eloriel Elyndra Enalya Erelune
-		Faelara Faeriel
-		Galadrielle
-		Halynia
-		Ilysera Isilme
-		Jaelene
-		Kaelira Kalyndra Kelthira
-		Laeriel Lirael Lysanthra
-		Maeriel Melantha Myrilla
-		Naelira Nalyria Nerithiel Nyssara
-		Orlyndra
-		Paelira
-		Quelira
-		Raelith
-		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
-		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
-		Vaelira Vaenya Valynna Velindra Virelya
-		Xalynia
-		Ylliria
-		Zaleria Zelara Zyrelyn
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bladespire_undead_ogre = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { bladespire undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bleeding_hollow_undead = {
-	color = rgb{ 142 19 92 }
-	religion = protestant
-	traits = { bleeding_hollow undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bloodmaul_undead_ogre = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { bloodmaul undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
 	}
 	graphics = european
 	ethnicities = {
@@ -222,7 +74,9 @@ bloodmaul_undead_ogre = {
 death_knight = {
 	color = rgb{ 18 9 121 }
 	religion = scourge
-	traits = { plagued_land undead_heritage }
+	heritage = undead_heritage
+	language = language_undead
+	traditions = { tradition_plagued_land }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
 		Baelion Belanor
@@ -273,17 +127,6 @@ death_knight = {
 		Ylliria
 		Zaleria Zelara Zyrelyn
 	}
-	noble_last_names = {
-		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
-		Crimsonveil
-		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
-		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
-		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
-		Lightbringer Lightweaver Lightwhisper Lightwing
-		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
-		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
-		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
-	}	
 	common_last_names={
 		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
 		Crimsonveil
@@ -294,85 +137,6 @@ death_knight = {
 		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
 		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
 		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
-	}
-	male_regal_first_names = {
-		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
-		Baelion Belanor
-		Caleth Celandor Corion
-		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
-		Elenion Elorion
-		Faelion Falarion
-		Galanor Galion Galarien
-		Halendor Halarion
-		Ilandor Ilarion Iltheron Isandor
-		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
-		Laerion Larion Lethion Lorien
-		Malanor Malion Maelion Matheron Maerion
-		Naelion Naeron Nalandor Narion Natherion Nevrion
-		Orandir Orien
-		Quelarion Quelion
-		Raelion Ralithor Relian Rethion
-		Saelion Selior Selion Sendarion Siranis Solithor Sylion
-		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
-		Vaelor Vaelion Valion Varanis Velion
-		Xalandor
-		Ylaeron
-		Zalarion Zareth Zorion
-	}
-	female_regal_first_names = {
-		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
-		Bellathriel
-		Caelira Caladriel Celathra Cirelya
-		Daelithra Delanara Delysia
-		Elaria Elenya Eloriel Elyndra Enalya Erelune
-		Faelara Faeriel
-		Galadrielle
-		Halynia
-		Ilysera Isilme
-		Jaelene
-		Kaelira Kalyndra Kelthira
-		Laeriel Lirael Lysanthra
-		Maeriel Melantha Myrilla
-		Naelira Nalyria Nerithiel Nyssara
-		Orlyndra
-		Paelira
-		Quelira
-		Raelith
-		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
-		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
-		Vaelira Vaenya Valynna Velindra Virelya
-		Xalynia
-		Ylliria
-		Zaleria Zelara Zyrelyn
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-enkaat_undead_draenei = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { enkaat undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
 	}
 	graphics = european
 	ethnicities = {
@@ -383,7 +147,9 @@ enkaat_undead_draenei = {
 forsaken = {
 	color = rgb{ 30 25 79 }
 	religion = atheist
-	traits = { lowlands temperate_forest undead_heritage }
+	heritage = undead_heritage
+	language = language_undead
+	traditions = { tradition_lowlands tradition_temperate_forest }
 	male_common_first_names={
 		Aelar Aeltheron Aerendyl Aethor Aerith Alandor Anarion Arannis 
 		Baelor Baelgor Braelen Bralorn
@@ -458,886 +224,83 @@ forsaken = {
 	}
 }
 
-grishnath_undead_arakkoa = {
-	color = rgb{ 154 58 162 }
-	religion = protestant
-	traits = { grishnath undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_undead_bloodelf = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { kirintor undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_undead_gnome = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { kirintor undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_undead_human = {
-	color = rgb{ 88 237 201 }
-	religion = protestant
-	traits = { kirintor undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-kirintor_lich = {
-	color = rgb{ 52 205 200 }
-	religion = protestant
-	traits = { kirintor undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 kvaldir = {
 	color = rgb{ 56 148 79 }
-	religion = protestant
-	traits = { kvaldir undead_heritage }
+	religion = helya
+	heritage = undead_heritage
+	language = language_undead
+	traditions = { tradition_frozen_lands tradition_riverland }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Arngrim Arnulf Asvard Asgrim
+		Baldur Bjorik Brandr Brynjar
+		Dagmar Dagrunn Dravik Drogar
+		Eirik Einar Erlend Eyvald
+		Fenrir Fjolmar Frode Fullgar
+		Geirbrand Geirmund Grimnar Gudvar
+		Hallgrim Halvard Harald Hrothgar
+		Ingmar Ingolf Isbrand Ivarr
+		Jorik Jorund Jostein Jyrlund
+		Knut Kolbrand Kormak Kravik
+		Leif Leiknar Lorik Lothgar
+		Magnus Mardok Mjornir Myrvard
+		Njord Norgrim Norrik
+		Oddvar Olgrim Ormarr Osvik
+		Ragnar Ragni Rolf Rorik
+		Sigurd Skjold Stryvar Sveinn
+		Thrain Thorvald Torgrim Trygvar
+		Ulfar Ulrik Uthred
+		Valbrand Vidar Vornik
+		Wulfrik Wyrgar
+		Yngvar Yrgrim
+		Zorvik
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Aldis Arnbjora Astrynna
+		Bergdis Brynhild Brynja
+		Dagfira Dagrunn Drisvild
+		Eidunn Elsvira Eyrdis
+		Froydis Friggna Fullrid
+		Gunnvra Gyrlith
+		Hallfrid Helga Hildrunn
+		Idis Ingvild Isolde
+		Jorunn Jofrid Jyrdis
+		Kara Kjellfrid Kolgrima
+		Lofnara Lydis Lysfrid
+		Mardis Marhild Myrgunn
+		Nidris Nornhild Nyfrida
+		Oddfrid Ormhild Osyra
+		Ragnhild Rannveig Rindis
+		Sigrun Skadi Solveig Svandis
+		Thora Thyrdis Trynna
+		Ulfrid Unnhild Urdys
+		Valdis Veyra Vigdis Vjollra
+		Yrdis Yngvild Ysoria
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ruuanok_undead_arakkoa = {
-	color = rgb{ 70 136 191 }
-	religion = protestant
-	traits = { ruuanok undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-
-summon_undead = {
-	color = rgb{ 90 25 178 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_ghoul = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_forsaken = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_shade = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_lich = {
-	color = rgb{ 40 106 125 }
-	religion = protestant
-	traits = { scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_damned_orc = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { taunka scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_damned_tauren = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { taunka scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_damned_taunka = {
-	color = rgb{ 40 125 55 }
-	religion = protestant
-	traits = { taunka scourge undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-scourge_undead_nerubian = {
-	color = rgb{ 32 16 78 }
-	religion = protestant
-	traits = { scourge nerubian undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-san_layn = {
-	color = rgb{ 132 16 37 }
-	religion = protestant
-	traits = { scourge bloodelf_heritage undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_dark_conclave_arakkoa = {
-	color = rgb{ 119 58 147 }
-	religion = protestant
-	traits = { dark_conclave undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_skettis_arakkoa = {
-	color = rgb{ 163 59 175 }
-	religion = protestant
-	traits = { skettis undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_arakkoa = {
-	color = rgb{ 149 119 187 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_broken = {
-	color = rgb{ 119 131 187 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_draenei = {
-	color = rgb{ 112 94 217 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_dwarf = {
-	color = rgb{ 153 94 217 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_felorc = {
-	color = rgb{ 151 221 181 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_highelf = {
-	color = rgb{ 186 230 149 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_human = {
-	color = rgb{ 94 184 168 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_orc = {
-	color = rgb{ 184 122 94 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_nightelf = {
-	color = rgb{ 70 149 123 }
-	religion = protestant
-	traits = { undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-undead_orc_maghar = {
-	color = rgb{ 160 111 45 }
-	religion = protestant
-	traits = { mag_har undead_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Blackwake Bloodflood Brinefang
+		Coldmaw Corpsewake Crestfall
+		Darkwake Deadwater Dreadtide
+		Ebonwave Eelmaw
+		Frostwake Frostfang
+		Ghostwake Grimwake Gloomshore
+		Harrowsail Havenscourge Hollowwave
+		Ironwake Ironflood
+		Kelpshadow Keelbreaker Krakenfang
+		Mistflood Mistwake Mournwave
+		Nightwake Northflood
+		Oathbreaker Oarless
+		Plaguewake Plankrot
+		Rimefang Rimewake Rottsail
+		Saltfang Saltflood Saltwake Saltwhisper
+		Seafang Seaflood Seagrave Seashroud
+		Shipwreck Shroudwater Skullwake
+		Stormflood Stormwake Sunkenfang Sunkenwake
+		Tidefang Tideflood Tidescourge Tidewake
+		Undertow
+		Vilewake Voidflood
+		Whalefang Wreckbinder Wreckwake
+		Yarfang Yawlgrave
+		Zarwave
 	}
 
 	graphics = european
@@ -1349,7 +312,9 @@ undead_orc_maghar = {
 zombie = {
 	color = rgb{ 32 16 78 }
 	religion = scourge
-	traits = { undead_heritage }
+	heritage = undead_heritage
+	language = language_undead
+	traditions = { }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
 		Baelion Belanor
@@ -1400,17 +365,6 @@ zombie = {
 		Ylliria
 		Zaleria Zelara Zyrelyn
 	}
-	noble_last_names = {
-		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
-		Crimsonveil
-		Darkfall Dawnblade Dawncaller Dawnstrike Deathwhisper Duskbringer Duskwhisper
-		Emberflare Emberglow Emberheart Emberstorm Emberstrike Emberweave
-		Fireblood Firebringer Firecaller Fireheart Firesinger Firestrider
-		Lightbringer Lightweaver Lightwhisper Lightwing
-		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
-		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
-		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
-	}	
 	common_last_names={
 		Bloodfire Bloodraven Bloodstone Bloodthorn Bloodvalor Brightflame Brightwing
 		Crimsonveil
@@ -1421,56 +375,6 @@ zombie = {
 		Moonfire Moonflare Moonseeker Moonstrider Moonwhisper
 		Nightblade Nightdancer Nightfall Nightflare Nightstorm Nightwhisper
 		Shadowbane Shadowbinder Shadowcaster Shadowdancer Shadowflame Shadowwhisper Silverdawn Silverfang Silverglade Silvermoon Spellbinder Spellweaver Starbloom Starbreeze Starflame Starfury Starstrider Starwhisper Stormbinder Stormseeker Stormsinger Sunfire Sunflare Sunshadow Sunsinger Sunspire Sunstrider Sunweaver Sunwhisper
-	}
-	male_regal_first_names = {
-		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
-		Baelion Belanor
-		Caleth Celandor Corion
-		Daelenor Damarion Darion Dareth Delanar Dorian Dorion
-		Elenion Elorion
-		Faelion Falarion
-		Galanor Galion Galarien
-		Halendor Halarion
-		Ilandor Ilarion Iltheron Isandor
-		Kaelion Kaelth Kaeron Kalendor Kalithor Kalyndor Karanis Kelion
-		Laerion Larion Lethion Lorien
-		Malanor Malion Maelion Matheron Maerion
-		Naelion Naeron Nalandor Narion Natherion Nevrion
-		Orandir Orien
-		Quelarion Quelion
-		Raelion Ralithor Relian Rethion
-		Saelion Selior Selion Sendarion Siranis Solithor Sylion
-		Talendor Talandor Talanis Taelion Thalendor Thalor Thaenor Thalior Thandor Therion
-		Vaelor Vaelion Valion Varanis Velion
-		Xalandor
-		Ylaeron
-		Zalarion Zareth Zorion
-	}
-	female_regal_first_names = {
-		Aelira Althaea Anarial Aralyndra Arenia Ashael Aurellyn Avalora
-		Bellathriel
-		Caelira Caladriel Celathra Cirelya
-		Daelithra Delanara Delysia
-		Elaria Elenya Eloriel Elyndra Enalya Erelune
-		Faelara Faeriel
-		Galadrielle
-		Halynia
-		Ilysera Isilme
-		Jaelene
-		Kaelira Kalyndra Kelthira
-		Laeriel Lirael Lysanthra
-		Maeriel Melantha Myrilla
-		Naelira Nalyria Nerithiel Nyssara
-		Orlyndra
-		Paelira
-		Quelira
-		Raelith
-		Saelira Selendia Shaelene Shalindra Sirael Sorelle Sylthira
-		Taelira Thaelindra Thalira Thalyssra Thandara Theralyn Theralys Thiriel Tirael Tyelisa Tyralyn
-		Vaelira Vaenya Valynna Velindra Virelya
-		Xalynia
-		Ylliria
-		Zaleria Zelara Zyrelyn
 	}
 	graphics = european
 	ethnicities = {

@@ -1,431 +1,93 @@
-dark_conclave_arakkoa = {
-	color = rgb{ 104 23 175 }
-	religion = protestant
-	traits = { dark_conclave arakkoa_heritage }
+arakkoa = {
+	color = rgb{ 107 91 37 }
+	religion = terokk
+	heritage = arakkoa_heritage
+	language = language_arakkoa
+	traditions = { tradition_mountains tradition_barren }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Akor Alresh Aruun Ashkri Avaris
+		Bakash Belkri Brukkos Brythir
+		Caarun Ceshri Corthak Cryzor
+		Dazhul Derkash Dravik Drokri Dryzan
+		Ekoth Ereshk Erynnor Ezrak
+		Falresh Fennik Feskor Frakoth
+		Gharik Ghessur Ghorvak Grynnor
+		Hakri Helzor Heshkar Hrukash
+		Ikarro Ikresh Ilthar Inzok
+		Jakkor Jharis Jorvak Jyrkan
+		Karesh Kelzor Korthin Krazhul Kryssor
+		Lakri Lelthas Lorvak Lyskar
+		Maresh Mekror Merzul Morthin Myrkos
+		Nakkor Nerthis Norgal Nyzhar
+		Okri Othrak Ovren Oshkar
+		Paarik Pekzor Phaskor Plithar
+		Qashir Qelvos Qorvik
+		Rakresh Relthir Rhazzor Rykoth
+		Saresh Sekri Shalkor Skarveth Sorrin
+		Talresh Tenkor Thesrak Torvash Trynnor
+		Ukrenn Ulthir Umrak Uzzor
+		Vakresh Velthas Vorin Vryskar
+		Warkor Welzin Withrak Wryssor
+		Xalrek Xirvon Xothar
+		Yaarik Yelkor Yrendos
+		Zakresh Zelthor Zorvin Zrykar
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Akalya Aleshri Arakka Ashyra Avarin
+		Belshra Berynka Bryssha
+		Cazhia Cethri Corsael Crynna
+		Dazhari Derishka Dravya Droksha Dryniel
+		Ekalyn Ereshya Eryssa Ezhalin
+		Falshri Fennara Feskya Fralith
+		Gharisa Ghessya Ghorika Grynel
+		Haksha Helyra Heshani Hruksa
+		Ikaria Ilshri Inzara Izyel
+		Jashri Jelyna Jorynka Jysheli
+		Kareshi Kelvara Korzha Kryssia
+		Lashara Lelvya Lorika Lyshei
+		Mavrissa Meksha Merulyn Morthia Myzelle
+		Nashira Nelvya Norika Nyssae
+		Olysha Othria Ovrelle Osyra
+		Pashara Pelisya Phazhra Plinyel
+		Qashara Qelyra Qorynka
+		Raleshi Relvya Rhazira Rysheen
+		Salnaya Sekhra Shalyn Skariel Sorvya
+		Talysha Tenri Theska Torvya Tryniel
+		Ukasha Ulthia Umrisa Uzyel
+		Vakeshi Velrina Vorissa Vryshel
+		Walesha Welzirra Withrae Wryssa
+		Xalynna Xirsha Xothiel
+		Yalisha Yelvae Yrashka
+		Zaleshi Zelthra Zorynna Zrysha
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-grishnath_arakkoa = {
-	color = rgb{ 70 27 149 }
-	religion = protestant
-	traits = { grishnath arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-haaleshi_arakkoa = {
-	color = rgb{ 65 67 207 }
-	religion = protestant
-	traits = { haaleshi arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lashhan_arakkoa = {
-	color = rgb{ 30 64 203 }
-	religion = protestant
-	traits = { lashhan arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lithic_arakkoa = {
-	color = rgb{ 53 18 171 }
-	religion = protestant
-	traits = { lithic arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-lower_city_arakkoa = {
-	color = rgb{ 71 25 227 }
-	religion = protestant
-	traits = { lowercity arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-reskk_arakkoa = {
-	color = rgb{ 54 48 235 }
-	religion = protestant
-	traits = { reskk arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ruuan_ok_arakkoa = {
-	color = rgb{ 114 23 216 }
-	religion = protestant
-	traits = { ruuanok arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-sarthis_arakkoa = {
-	color = rgb{ 128 21 247 }
-	religion = protestant
-	traits = { sarthis arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-sethekk_arakkoa = {
-	color = rgb{ 147 79 223 }
-	religion = protestant
-	traits = { sethekk arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shalassi_arakkoa = {
-	color = rgb{ 133 101 170 }
-	religion = protestant
-	traits = { shalassi arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shienor_arakkoa = {
-	color = rgb{ 61 56 171 }
-	religion = protestant
-	traits = { shienor arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-skettis_arakkoa = {
-	color = rgb{ 82 45 207 }
-	religion = protestant
-	traits = { skettis arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-skithian_arakkoa = {
-	color = rgb{ 62 29 171 }
-	religion = protestant
-	traits = { skithian arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-vakhnir_arakkoa = {
-	color = rgb{ 90 52 219 }
-	religion = protestant
-	traits = { vakhnir arakkoa_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Aerieplume Ashbeak Ashplume Azurewing
+		Blackplume Bleakroost Bristlequill Brightwing
+		Cliffperch Cloudfeather Crestbeak
+		Dawnquill Duskplume Dustwing
+		Ebonplume Emberquill Everwing
+		Featherfall Firebeak Frostplume
+		Galecrest Gloomfeather Goldquill
+		Highperch Hollowwing Horizonplume
+		Ivoryquill Ironbeak
+		Jadeplume Javelinbeak
+		Keenfeather Kindlewing
+		Larkcrest Lightplume Loftwing
+		Moonquill Mistplume Myrrhfeather
+		Nightperch Nightquill Nimbuswing
+		Obsidianplume Onyxfeather
+		Peakfeather Plumecrest Prismwing
+		Quillcrest Quillshadow
+		Ravencrest Redfeather Riftwing
+		Shadeplume Sharpbeak Skybloom Skyfeather Skyspoke Skywing
+		Sunfeather Sunplume Stormbeak Stormplume
+		Talonstride Talonwind Tempestwing Thornplume Twilightbeak
+		Umberquill Updraftwing
+		Vastplume Verdantfeather Vigilwing
+		Windperch Windplume Windquill Wingfall
+		Xericplume
+		Yarrowquill
+		Zephyrbeak Zephyrplume
 	}
 	graphics = european
 	ethnicities = {

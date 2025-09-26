@@ -5,7 +5,7 @@ AUCHENAI = {
 	
 	tier = empire
 	
-	cultures = { auchenai_draenei }	
+	cultures = { draenei }	
 	capital = STATE_AUCHINDOUN
 }
 
@@ -16,7 +16,7 @@ AREA_FIFTYTWO = {
 	
 	tier = empire
 	
-	cultures = { areaft_goblin }	
+	cultures = { goblin }	
 	capital = STATE_AREA_52
 }
 
@@ -27,7 +27,7 @@ ALLERIAN_STRONGHOLD = {
 	
 	tier = empire
 	
-	cultures = { honor_hold_human }	
+	cultures = { stormwindian }	
 	capital = STATE_ALLERIAN_STRONGHOLD
 }
 
@@ -38,19 +38,8 @@ ANGOROSH_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { angorosh_ogre }	
+	cultures = { jungle_ogre }	
 	capital = STATE_ANGO_ROSH_GROUNDS
-}
-
-APEXIS_FLAYERS = {
-	color = { 176 176 41 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { apexis_rock_flayer }	
-	capital = STATE_FORGE_CAMP_TERROR
 }
 
 AZEROTH_DEFENDERS = {
@@ -60,7 +49,7 @@ AZEROTH_DEFENDERS = {
 	
 	tier = empire
 	
-	cultures = { honor_hold_human thrallmar_orc }	
+	cultures = { stormwindian orgrimmari }	
 	capital = STATE_THE_DARK_PORTAL_OUTLANDS
 }
 
@@ -71,7 +60,7 @@ BASHIR = {
 	
 	tier = empire
 	
-	cultures = { bashir_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_CRYSTAL_SPINE
 }
 
@@ -82,7 +71,7 @@ BLADESPIRE_CLAN = {
 	
 	tier = empire
 	
-	cultures = { bladespire_ogre }	
+	cultures = { mountain_ogre }	
 	capital = STATE_GRUULS_LAIR
 }
 
@@ -93,7 +82,7 @@ BLACKWIND_WYRMCULTISTS = {
 	
 	tier = empire
 	
-	cultures = { wyrmcultist_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_RAVENS_WOOD
 }
 
@@ -104,7 +93,7 @@ BLEEDING_HOLLOW_CLAN = {
 	
 	tier = empire
 	
-	cultures = { bleeding_hollow_felorc }	
+	cultures = { felorc }	
 	capital = STATE_ZETH_GOR
 }
 
@@ -115,7 +104,7 @@ BLOODMAUL_CLAN = {
 	
 	tier = empire
 	
-	cultures = { bloodmaul_ogre }	
+	cultures = { mountain_ogre }	
 	capital = STATE_BLOODMAUL_POST
 }
 
@@ -126,7 +115,7 @@ BLOODSCALE_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { bloodscale_naga }	
+	cultures = { lestharian }	
 	capital = STATE_TWIN_SPIRE
 }
 
@@ -137,7 +126,7 @@ BONECHEWER_RUINS = {
 	
 	tier = empire
 	
-	cultures = { bonechewer_felorc }	
+	cultures = { felorc }	
 	capital = STATE_ALLERIAN_STRONGHOLD
 }
 
@@ -148,7 +137,7 @@ BOOM = {
 	
 	tier = empire
 	
-	cultures = { boom_goblin }	
+	cultures = { goblin }	
 	capital = STATE_AREA_52
 }
 
@@ -170,7 +159,7 @@ BURNING_LEGION_INVASION_NETHERSTORM = {
 	
 	tier = empire
 	
-	cultures = { burning_legion_doom_guard }	
+	cultures = { doom_guard }	
 	capital = STATE_FORGE_BASE_OBLIVION
 }
 
@@ -181,7 +170,7 @@ BURNING_LEGION_KILJADEN = {
 	
 	tier = empire
 	
-	cultures = { burning_legion_eredar }	
+	cultures = { eredar }	
 	capital = STATE_THRONE_KILJAEDEN
 }
 
@@ -192,7 +181,7 @@ BURNING_LEGION_LEGIONS_HOLD = {
 	
 	tier = empire
 	
-	cultures = { burning_legion_eredar }	
+	cultures = { eredar }	
 	capital = STATE_LEGION_HOLD
 }
 
@@ -203,7 +192,7 @@ BURNING_LEGION_TWILIGHT_HOLD = {
 	
 	tier = empire
 	
-	cultures = { burning_legion_eredar }	
+	cultures = { eredar }	
 	capital = STATE_TWILIGHT_RIDGE
 }
 
@@ -214,7 +203,7 @@ BURNING_LEGION_FORGE_CAMPS = {
 	
 	tier = empire
 	
-	cultures = { burning_legion_eredar }	
+	cultures = { eredar }	
 	capital = STATE_FORGE_CAMP_WRATH
 }
 
@@ -225,7 +214,7 @@ CABAL = {
 	
 	tier = empire
 	
-	cultures = { shadowcouncil_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_STONEBREAKER_HOLD
 }
 
@@ -236,7 +225,7 @@ CENARION_CIRCLE_OUTLAND = {
 	
 	tier = empire
 	
-	cultures = { cenarius_druid_nightelf cenarius_druid_tauren }	
+	cultures = { kal_dorei tauren }	
 	capital = STATE_RUUAN_WEALD
 }
 
@@ -247,7 +236,7 @@ CENARION_REFUGE = {
 	
 	tier = empire
 	
-	cultures = { cenarius_druid_nightelf cenarius_druid_tauren }	
+	cultures = { kal_dorei tauren }	
 	capital = STATE_TEL_REDOR
 }
 
@@ -258,7 +247,7 @@ COILFANG_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { coilfang_naga }	
+	cultures = { lestharian }	
 	capital = STATE_COILFANG_RESERVOIR
 }
 
@@ -269,7 +258,7 @@ COILSCAR_POINT = {
 	
 	tier = empire
 	
-	cultures = { coilfang_naga }	
+	cultures = { lestharian }	
 	capital = STATE_SHADOWMOON_VILLAGE
 }
 
@@ -280,7 +269,7 @@ CONSORTIUM = {
 	
 	tier = empire
 	
-	cultures = { consortium_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_ECO_DOME_MIDREALM
 }
 
@@ -291,7 +280,7 @@ DARKCREST_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { darkcrest_naga }	
+	cultures = { lestharian }	
 	capital = STATE_FERALFEN_VILLAGE
 }
 
@@ -302,7 +291,7 @@ DARK_CONCLAVE = {
 	
 	tier = empire
 	
-	cultures = { dark_conclave_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_WILDHAMMER_STRONGHOLD
 }
 
@@ -313,7 +302,7 @@ DRAGONMAW_CLAN = {
 	
 	tier = empire
 	
-	cultures = { dragonmaw_clan_felorc }	
+	cultures = { felorc }	
 	capital = STATE_DRAGONMAW_FOTRESS
 }
 
@@ -324,7 +313,7 @@ ECLIPSE_POINT = {
 	
 	tier = empire
 	
-	cultures = { eclipsion_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_WILDHAMMER_STRONGHOLD
 }
 
@@ -335,7 +324,7 @@ ETHEREUM = {
 	
 	tier = empire
 	
-	cultures = { ethereum_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_MANAFORGE_ULTRIUS
 }
 
@@ -357,7 +346,7 @@ FERALFEN_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { feralfen_broken }	
+	cultures = { krokul }	
 	capital = STATE_FERALFEN_VILLAGE
 }
 
@@ -368,7 +357,7 @@ FIREWING_POINT = {
 	
 	tier = empire
 	
-	cultures = { honor_hold_human }	
+	cultures = { stormwindian }	
 	capital = STATE_FIREWING_POINT
 }
 
@@ -379,7 +368,7 @@ GRISHNATH = {
 	
 	tier = empire
 	
-	cultures = { grishnath_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_RAVENS_WOOD
 }
 
@@ -390,7 +379,7 @@ GORDUNNI = {
 	
 	tier = empire
 	
-	cultures = { bladespire_magnaron }	
+	cultures = { magnaron }	
 	capital = STATE_WINDYREED_PASS
 }
 
@@ -401,7 +390,7 @@ HALAA = {
 	
 	tier = empire
 	
-	cultures = { halaa_bloodelf halaa_dreanei }	
+	cultures = { sin_dorei draenei }	
 	capital = STATE_HALAA
 }
 
@@ -412,7 +401,7 @@ HAALESH_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { haaleshi_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_DEN_HAALESH
 }
 
@@ -423,7 +412,7 @@ HONOR_HOLD = {
 	
 	tier = empire
 	
-	cultures = { honor_hold_human honor_hold_dwarf }	
+	cultures = { stormwindian }	
 	capital = STATE_HONOR_HOLD
 }
 
@@ -434,7 +423,7 @@ OMENAI_TEMPLE = {
 	
 	tier = empire
 	
-	cultures = { omenai_dreanei }	
+	cultures = { draenei }	
 	capital = STATE_TEMPLE_TELHAMAT
 }
 
@@ -445,7 +434,7 @@ RUUAN_OK = {
 	
 	tier = empire
 	
-	cultures = { ruuan_ok_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_RUUAN_WEALD
 }
 
@@ -456,7 +445,7 @@ ILLIDARY = {
 	
 	tier = empire
 	
-	cultures = { illidary_nightelf illidary_bloodelf }
+	cultures = { kal_dorei sin_dorei }
 	capital = STATE_BLACK_TEMPLE
 }
 
@@ -467,7 +456,7 @@ ILLIDARY_POINT = {
 	
 	tier = empire
 	
-	cultures = { illidary_nightelf illidary_bloodelf }
+	cultures = { kal_dorei sin_dorei }
 	capital = STATE_LEGION_HOLD
 }
 
@@ -478,7 +467,7 @@ OGRILA = {
 	
 	tier = empire
 	
-	cultures = { ogrila_ogre_magi }
+	cultures = { mountain_ogre }
 	capital = STATE_FORGE_CAMP_TERROR
 }
 
@@ -489,7 +478,7 @@ KIL_SORROW_CLAN = {
 	
 	tier = empire
 	
-	cultures = { kilsorrow_orc }
+	cultures = { maghar_orc }
 	capital = STATE_KIL_SORROW_FORTRESS
 }
 
@@ -511,7 +500,7 @@ KURENAI = {
 	
 	tier = empire
 	
-	cultures = { kurenai_broken }
+	cultures = { krokul }
 	capital = STATE_TELAAR
 }
 
@@ -522,7 +511,7 @@ LASHHAN = {
 	
 	tier = empire
 	
-	cultures = { lashhan_arakkoa }
+	cultures = { arakkoa }
 	capital = STATE_SYLVANAAR
 }
 
@@ -533,7 +522,7 @@ LITHIC = {
 	
 	tier = empire
 	
-	cultures = { lithic_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_BLEEDING_HOLLOW_RUINS
 }
 
@@ -555,7 +544,7 @@ MOKNATHAL = {
 	
 	tier = empire
 	
-	cultures = { moknathal_orc }	
+	cultures = { maghar_orc }	
 	capital = STATE_VEKHAAR_STAND
 }
 
@@ -566,7 +555,7 @@ MURKBLOOD_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { murkblood_tribe_broken }	
+	cultures = { krokul }	
 	capital = STATE_WARMAUL_HILL
 }
 
@@ -577,7 +566,7 @@ NETHERWING = {
 	
 	tier = empire
 	
-	cultures = { nether_dragonkin_dragon }	
+	cultures = { nether_dragon }	
 	capital = STATE_CELESTIAL_RIDGE
 }
 
@@ -588,19 +577,8 @@ PROTECTORATE = {
 	
 	tier = empire
 	
-	cultures = { protectorate_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_MANAFORGE_ULTRIUS
-}
-
-RAVENOUS_FLAYERS = {
-	color = { 128 90 57 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { ravenous_rock_flayers }	
-	capital = STATE_ALTER_SHA_TAR
 }
 
 RAZAANI = {
@@ -610,19 +588,8 @@ RAZAANI = {
 	
 	tier = empire
 	
-	cultures = { razaani_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_FORGE_CAMP_ANGER
-}
-
-RAZERTHORN_FLAYERS = {
-	color = { 128 90 57 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { razorthorn_rock_flayer }	
-	capital = STATE_CENARION_THICKET
 }
 
 REFUGEE_CAMP = {
@@ -632,7 +599,7 @@ REFUGEE_CAMP = {
 	
 	tier = empire
 	
-	cultures = { lower_city_broken }	
+	cultures = { krokul }	
 	capital = STATE_THE_BONE_WASTES
 }
 
@@ -643,7 +610,7 @@ RHAZE = {
 	
 	tier = empire
 	
-	cultures = { undead_arakkoa }
+	cultures = { arakkoa }
 	capital = STATE_THE_BONE_WASTES
 }
 
@@ -654,7 +621,7 @@ SETHEKK = {
 	
 	tier = empire
 	
-	cultures = { sethekk_arakkoa }
+	cultures = { arakkoa }
 	capital = STATE_AUCHINDOUN
 }
 
@@ -665,7 +632,7 @@ SHIENOR = {
 	
 	tier = empire
 	
-	cultures = { shienor_arakkoa }
+	cultures = { arakkoa }
 	capital = STATE_TUUREM
 }
 
@@ -676,7 +643,7 @@ SHADOWMOON_VILLAGE = {
 	
 	tier = empire
 	
-	cultures = { thrallmar_orc }
+	cultures = { orgrimmari }
 	capital = STATE_SHADOWMOON_VILLAGE
 }
 
@@ -687,7 +654,7 @@ SHADOW_COUNCIL = {
 	
 	tier = empire
 	
-	cultures = { shadowcouncil_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_THE_DEATHFORGE
 }
 
@@ -698,7 +665,7 @@ SHAFFAR = {
 	
 	tier = empire
 	
-	cultures = { shaffar_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_AUCHINDOUN
 }
 
@@ -709,7 +676,7 @@ SHATARI_SKYGUARD = {
 	
 	tier = empire
 	
-	cultures = { shatari_skyguard_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_BLACKWIND_VALLEY
 }
 
@@ -720,7 +687,7 @@ SHATTERED_HAND_CLAN = {
 	
 	tier = empire
 	
-	cultures = { shattered_hand_felorc }	
+	cultures = { felorc }	
 	capital = STATE_HELLFIRE_CITADEL
 }
 
@@ -731,7 +698,7 @@ SHALASSI = {
 	
 	tier = empire
 	
-	cultures = { shalassi_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_WRITHING_MOUND
 }
 
@@ -742,7 +709,7 @@ SHA_TAR = {
 	
 	tier = empire
 	
-	cultures = { shatar_draenei lower_city_broken lower_city_draenei }	
+	cultures = { krokul draenei }	
 	capital = STATE_SHATTRATH_CITY
 }
 
@@ -753,7 +720,7 @@ SHA_TAR_ASSAULT = {
 	
 	tier = empire
 	
-	cultures = { aldor_dreanei shatar_draenei scryer_bloodelf }	
+	cultures = { draenei sin_dorei }	
 	capital = STATE_WARDENS_CAGE
 }
 
@@ -764,7 +731,7 @@ SHA_TAR_OUTPOST = {
 	
 	tier = empire
 	
-	cultures = { shatar_draenei }	
+	cultures = { draenei }	
 	capital = STATE_BLEEDING_HOLLOW_RUINS
 }
 
@@ -775,7 +742,7 @@ SKETTIS = {
 	
 	tier = empire
 	
-	cultures = { skettis_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_SKETTIS
 }
 
@@ -786,7 +753,7 @@ SKITH = {
 	
 	tier = empire
 	
-	cultures = { skithian_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_THE_BONE_WASTES
 }
 
@@ -797,7 +764,7 @@ SPOREGGAR = {
 	
 	tier = empire
 	
-	cultures = { sporeggar_sporeling }	
+	cultures = { sporeling }	
 	capital = STATE_SPOREGGAR
 }
 
@@ -808,19 +775,8 @@ STONEBREAKER_HOLD = {
 	
 	tier = empire
 	
-	cultures = { stonebreaker_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_STONEBREAKER_HOLD
-}
-
-STONESCYTHE_FLAYER = {
-	color = { 211 98 33 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { stonescythe_rock_flayer }	
-	capital = STATE_FALCON_WATCH
 }
 
 SUNFURY = {
@@ -830,7 +786,7 @@ SUNFURY = {
 	
 	tier = empire
 	
-	cultures = { sunfury_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_TEMPEST_KEEP
 }
 
@@ -852,7 +808,7 @@ THRALLMAR = {
 	
 	tier = empire
 	
-	cultures = { thrallmar_orc }	
+	cultures = { orgrimmari }	
 	capital = STATE_THRALLMAR
 }
 
@@ -863,7 +819,7 @@ THE_ALDOR = {
 	
 	tier = empire
 	
-	cultures = { aldor_dreanei }	
+	cultures = { draenei }	
 	capital = STATE_SHATTRATH_CITY
 }
 
@@ -874,7 +830,7 @@ THE_EARTHEN_RING = {
 	
 	tier = empire
 	
-	cultures = { earthenring_maghar_orc }	
+	cultures = { maghar_orc }	
 	capital = STATE_GARADAR
 }
 
@@ -885,7 +841,7 @@ THE_SCRYERS = {
 	
 	tier = empire
 	
-	cultures = { scryer_bloodelf }	
+	cultures = { sin_dorei }	
 	capital = STATE_SHATTRATH_CITY
 }
 
@@ -918,7 +874,7 @@ TUUREM = {
 	
 	tier = empire
 	
-	cultures = { tuurem_broken }	
+	cultures = { krokul }	
 	capital = STATE_TUUREM
 }
 
@@ -929,7 +885,7 @@ UNYIELDING_DEFENDER = {
 	
 	tier = empire
 	
-	cultures = { undead_human }	
+	cultures = { zombie }	
 	capital = STATE_EXPEDITION_ARMORY
 }
 
@@ -940,7 +896,7 @@ UMBRAFEN_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { umbrafen_broken }	
+	cultures = { krokul }	
 	capital = STATE_UMBRAFEN_VILLAGE
 }
 
@@ -951,7 +907,7 @@ VEKHNIR = {
 	
 	tier = empire
 	
-	cultures = { vakhnir_arakkoa }	
+	cultures = { arakkoa }	
 	capital = STATE_VEKHAAR_STAND
 }
 
@@ -962,7 +918,7 @@ VIR_AANI = {
 	
 	tier = empire
 	
-	cultures = { viraani_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_OSHU_GUN
 }
 
@@ -973,7 +929,7 @@ WARMAUL_CLAN = {
 	
 	tier = empire
 	
-	cultures = { warmaul_ogre }	
+	cultures = { hill_ogre }	
 	capital = STATE_WARMAUL_HILL
 }
 
@@ -995,7 +951,7 @@ WINDYREED_TRIBE = {
 	
 	tier = empire
 	
-	cultures = { windyreed_tribe_broken }	
+	cultures = { krokul }	
 	capital = STATE_WINDYREED_PASS
 }
 
@@ -1006,6 +962,6 @@ ZAXXIS = {
 	
 	tier = empire
 	
-	cultures = { zaxxis_ethereal }	
+	cultures = { ethereal }	
 	capital = STATE_MANAFORGE_BNAAR
 }

@@ -1,336 +1,91 @@
-blackmaw_furbolg = {
-	color = rgb{ 134 101 56 }
-	religion = protestant
-	traits = { blackmaw furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-blackwood_furbolg = {
-	color = rgb{ 98 57 22 }
-	religion = protestant
-	traits = { blackwood furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bloodwood_furbolg = {
-	color = rgb{ 169 81 51 }
-	religion = protestant
-	traits = { bloodwood furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bristlelimb_furbolg = {
-	color = rgb{ 194 124 81 }
-	religion = protestant
-	traits = { bristlelimb furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-deadwood_furbolg = {
-	color = rgb{ 185 110 40 }
-	religion = protestant
-	traits = { deadwood furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-foulweald_furbolg = {
-	color = rgb{ 84 165 69 }
-	religion = protestant
-	traits = { foulweald furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-gnarlpine_furbolg = {
-	color = rgb{ 130 112 47 }
-	religion = protestant
-	traits = { gnarlpine furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stillpine_furbolg = {
+furbolg = {
 	color = rgb{ 153 105 35 }
-	religion = protestant
-	traits = { stillpine furbolg_heritage }
+	religion = ursoc
+	heritage = furbolg_heritage
+	language = language_furbolg
+	traditions = { }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Arngrum Atok Aukir
+		Balruk Bronnak Brymnar
+		Caldor Cragnok Cuthran
+		Dorgar Dravnok Dunmar
+		Eldruk Ernok Erynnar
+		Farnok Frundar Fyrnoth
+		Gorvak Grumnar Guthrok
+		Harrok Hrothmar Hulgar
+		Ilnok Irthran Ismar
+		Jorvak Jurnoth Jorgrim
+		Kaldrok Krumnar Kyrnoth
+		Lornak Lughar Lysrok
+		Marnok Morgrum Myrthak
+		Narnok Norvak Nythrak
+		Orvak Othmar Ozruk
+		Pargun Pralnok Pyrthar
+		Quarnok Qorvak Qulmar
+		Ragnok Rulmar Rythrak
+		Strogar Surnok Sylgar
+		Tarnok Thorgrum Tuthrak
+		Urgar Ulmok Uthran
+		Vargrum Volnoth Vyrgar
+		Wornok Wrathgar Wulmak
+		Xornok Xulgar Xythrak
+		Yrmok Yorgrum Ythrak
+		Zarnok Zorvak Zyrthar
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aenra Algra Arvika
+		Balnora Brynja Borga
+		Calira Cynra Cyrnora
+		Daelra Dorga Dyrnna
+		Eilna Elgra Eryna
+		Feyra Fridna Fyrra
+		Galnora Grysha Guthra
+		Halnora Hyrna Hulda
+		Ilgra Inra Isolda
+		Jorna Jylra Junna
+		Kalna Kyrna Korga
+		Larna Lysra Lunna
+		Malna Myrsha Morra
+		Nalra Nysha Norra
+		Olgra Onra Ormya
+		Paela Prynna Pyrra
+		Qynra Qorla Qysha
+		Ralna Rynora Rysla
+		Saela Sylra Synra
+		Taela Thora Tyrna
+		Ulna Umra Uthra
+		Valna Veyra Vorna
+		Weyla Wyrna Wulna
+		Xynra Xeyla Xora
+		Ylna Yrrna Ysra
+		Zalra Zynna Zorya
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-thistlefur_furbolg = {
-	color = rgb{ 168 152 68 }
-	religion = protestant
-	traits = { thistlefur furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-timbermaw_furbolg = {
-	color = rgb{ 140 118 73 }
-	religion = protestant
-	traits = { timbermaw furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-winterfall_furbolg = {
-	color = rgb{ 119 212 201 }
-	religion = protestant
-	traits = { winterfall furbolg_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Amberpaw Ashfur
+		Bearclaw Blackbark
+		Boulderpelt Broadhide
+		Cloudfur Coldbranch
+		Dawnmane Deepgrowl
+		Earthpaw Emberhide
+		Fangclaw Frostpelt
+		Grimfur Grovebark
+		Highpaw Hillfur
+		Ironhide Icebloom
+		Longfang Lowgrowl
+		Moonfur Mossback
+		Nightclaw Northbark
+		Oakfur Oldhide
+		Pinebloom Proudclaw
+		Quickpaw Quietgrowl
+		Riverfur Rockmane
+		Shadowhide Snowclaw
+		Stonepaw Sunbloom
+		Tallmane Thunderpaw
+		Umberhide Underbark
+		Valefur Vastclaw
+		Wildpaw Windhide
+		Youngfur Ysernbark
+		Zebramane Zenithfur
 	}
 
 	graphics = european

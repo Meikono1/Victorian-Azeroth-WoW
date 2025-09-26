@@ -1,0 +1,193 @@
+moonkin = {
+	color = rgb{ 72 201 177 }
+	religion = elune
+	heritage = wildkin_heritage
+	language = language_wild
+	traditions = { }
+	male_common_first_names={
+		Aurok
+		Balmoon Brakmoon
+		Corvak
+		Droonir
+		Erymos
+		Feyruk
+		Grunthor Grymoon
+		Hootmar
+		Irvak
+		Jorloon
+		Kaelruk
+		Loomar
+		Moonrik
+		Norvak
+		Orrun Owlrik
+		Pluvar
+		Quorik
+		Rulmar
+		Sylmoon
+		Talrunn Thryvak
+		Ullorin
+		Varuk
+		Wooran
+		Xyloon
+		Yorvak
+		Zulmar
+	}
+	female_common_first_names = {
+		Alymoon
+		Balura Brashara
+		Celmoon
+		Druvya
+		Elyra
+		Fynora
+		Grysha
+		Hootira
+		Ismara
+		Jaluna
+		Kaelyra
+		Lorynna Lunira
+		Moondra
+		Neysha
+		Olyra Orvila
+		Prynnal
+		Quyra
+		Rynora
+		Sylura
+		Thalyra Teymara
+		Umora
+		Veysha
+		Wynora
+		Xylune
+		Ylvara
+		Zorynna
+	}
+	common_last_names={
+		Autumnfeather
+		Brightmoon
+		Cloudwing
+		Dawnclaw
+		Ebonfeather
+		Featherwind
+		Gloombeak
+		Highbranch
+		Ironplume
+		Jademoon
+		Keenfeather
+		Lightowl
+		Moondream
+		Nightwing
+		Oakenclaw
+		Pinefeather
+		Quietbranch
+		Ravenplume
+		Shadowwing
+		Twilightfeather
+		Umberowl
+		Verdantplume
+		Whisperwing
+		Xylenmoon
+		Youngbranch
+		Zephyrclaw
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+owlkin = {
+	color = rgb{ 36 141 147 }
+	religion = earth_mother
+	heritage = wildkin_heritage
+	language = language_wild
+	traditions = { }
+	male_common_first_names={
+		Aurok
+		Balmoon Brakmoon
+		Corvak
+		Droonir
+		Erymos
+		Feyruk
+		Grunthor Grymoon
+		Hootmar
+		Irvak
+		Jorloon
+		Kaelruk
+		Loomar
+		Moonrik
+		Norvak
+		Orrun Owlrik
+		Pluvar
+		Quorik
+		Rulmar
+		Sylmoon
+		Talrunn Thryvak
+		Ullorin
+		Varuk
+		Wooran
+		Xyloon
+		Yorvak
+		Zulmar
+	}
+	female_common_first_names = {
+		Alymoon
+		Balura Brashara
+		Celmoon
+		Druvya
+		Elyra
+		Fynora
+		Grysha
+		Hootira
+		Ismara
+		Jaluna
+		Kaelyra
+		Lorynna Lunira
+		Moondra
+		Neysha
+		Olyra Orvila
+		Prynnal
+		Quyra
+		Rynora
+		Sylura
+		Thalyra Teymara
+		Umora
+		Veysha
+		Wynora
+		Xylune
+		Ylvara
+		Zorynna
+	}
+	common_last_names={
+		Autumnfeather
+		Brightmoon
+		Cloudwing
+		Dawnclaw
+		Ebonfeather
+		Featherwind
+		Gloombeak
+		Highbranch
+		Ironplume
+		Jademoon
+		Keenfeather
+		Lightowl
+		Moondream
+		Nightwing
+		Oakenclaw
+		Pinefeather
+		Quietbranch
+		Ravenplume
+		Shadowwing
+		Twilightfeather
+		Umberowl
+		Verdantplume
+		Whisperwing
+		Xylenmoon
+		Youngbranch
+		Zephyrclaw
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

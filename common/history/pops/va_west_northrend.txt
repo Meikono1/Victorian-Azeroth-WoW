@@ -4,7 +4,7 @@ POPS = {
 	s:STATE_RIPLASH_RUINS = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = kaluak_tuskarr
+				culture = tuskarr
 				size = 48000
 			}
 			create_pop = {
@@ -12,11 +12,11 @@ POPS = {
 				size = 417000
 			}
 			create_pop = {
-				culture = naga_riplash_siren
+				culture = nazjatar
 				size = 51000
 			}
 			create_pop = {
-				culture = naga_riplash_myrmidon
+				culture = lestharian
 				size = 10000
 			}
 		}
@@ -40,20 +40,16 @@ POPS = {
 				size = 284000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 48000
 			}
 			create_pop = {
-				culture = kirintor_bloodelf
+				culture = sin_dorei
 				size = 16000
 			}
 			create_pop = {
-				culture = scourge_human_cultist
+				culture = dalaranian
 				size = 16000
-			}
-			create_pop = {
-				culture = scourge_undead_nerubian
-				size = 210000
 			}
 		}
 	}
@@ -72,7 +68,7 @@ POPS = {
 				size = 112000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 64000
 			}
 			create_pop = {
@@ -80,11 +76,11 @@ POPS = {
 				size = 80000
 			}
 			create_pop = {
-				culture = kirintor_bloodelf
+				culture = sin_dorei
 				size = 16000
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 63000
 			}
 			create_pop = {
@@ -92,15 +88,11 @@ POPS = {
 				size = 96000
 			}
 			create_pop = {
-				culture = scourge_undead_nerubian
-				size = 581000
-			}
-			create_pop = {
-				culture = magnatour_gammothherd
+				culture = magnatour
 				size = 97000
 			}
 			create_pop = {
-				culture = kobold_gammothherd
+				culture = kobold
 				size = 420000
 			}
 		}
@@ -120,15 +112,15 @@ POPS = {
 				size = 126000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 32000
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 16000
 			}
 			create_pop = {
-				culture = kaluak_tuskarr
+				culture = tuskarr
 				size = 16000
 			}
 			create_pop = {
@@ -160,19 +152,7 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = mechanical_golem
-				size = 30000
-			}
-			create_pop = {
-				culture = scourge_ghoul
-				size = 135000
-			}
-			create_pop = {
-				culture = scourge_forsaken
-				size = 35000
-			}
-			create_pop = {
-				culture = scourge_human_cultist
+				culture = dalaranian
 				size = 56000
 			}
 		}
@@ -180,16 +160,12 @@ POPS = {
 	s:STATE_DEHTA_CAMP = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 52000
 			}
 			create_pop = {
-				culture = cenarius_druid_tauren
+				culture = tauren
 				size = 62000
-			}
-			create_pop = {
-				culture = nymph_frostnymph
-				size = 32000
 			}
 			create_pop = {
 				culture = sin_dorei
@@ -204,7 +180,7 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 16000
 			}
 			create_pop = {
@@ -212,27 +188,23 @@ POPS = {
 				size = 75000
 			}
 			create_pop = {
-				culture = nesingway_human
+				culture = stormwindian
 				size = 542000
 			}
 			create_pop = {
-				culture = nesingway_broken_draenei
+				culture = draenei
 				size = 45000
 			}
 			create_pop = {
-				culture = nesingway_forsaken_undead
+				culture = forsaken
 				size = 61000
 			}
 			create_pop = {
-				culture = nesingway_tauren
+				culture = tauren
 				size = 16000
 			}
 			create_pop = {
-				culture = mechanical_golem
-				size = 40000
-			}
-			create_pop = {
-				culture = kobold_gammothherd
+				culture = kobold
 				size = 105000
 			}
 		}
@@ -240,19 +212,19 @@ POPS = {
 	s:STATE_AMBER_LEDGE = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = blue_dragonkin_dragon
+				culture = blue_dragon
 				size = 16000
 			}
 			create_pop = {
-				culture = blue_dragonkin_drakonid
+				culture = blue_dragon
 				size = 16000
 			}
 			create_pop = {
-				culture = blue_dragonkin_dragonspawn
+				culture = blue_dragon
 				size = 65000
 			}
 			create_pop = {
-				culture = blue_dragonkin_human_cultist
+				culture = kul_tiran
 				size = 202000
 			}
 			create_pop = {
@@ -260,7 +232,7 @@ POPS = {
 				size = 70000
 			}
 			create_pop = {
-				culture = kaluak_tuskarr
+				culture = tuskarr
 				size = 159000
 			}
 			create_pop = {
@@ -268,7 +240,7 @@ POPS = {
 				size = 496000
 			}
 			create_pop = {
-				culture = red_dragonkin_dragon
+				culture = red_dragon
 				size = 63000
 			}
 		}
@@ -276,31 +248,31 @@ POPS = {
 	s:STATE_NEXUS = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = blue_dragonkin_dragon
+				culture = blue_dragon
 				size = 756000
 			}
 			create_pop = {
-				culture = blue_dragonkin_dragonspawn
+				culture = blue_dragon
 				size = 847000
 			}
 			create_pop = {
-				culture = blue_dragonkin_drakonid
+				culture = blue_dragon
 				size = 71000
 			}
 			create_pop = {
-				culture = blue_dragonkin_whelp
+				culture = blue_dragon
 				size = 175000
 			}
 			create_pop = {
-				culture = blue_dragonkin_human_cultist
+				culture = kul_tiran
 				size = 312000
 			}
 			create_pop = {
-				culture = blue_dragonkin_bloodelf_cultist
+				culture = sin_dorei
 				size = 16000
 			}
 			create_pop = {
-				culture = bronze_dragonkin_dragon
+				culture = bronze_dragon
 				size = 10000
 			}
 			create_pop = {
@@ -308,47 +280,19 @@ POPS = {
 				size = 10000
 			}
 			create_pop = {
-				culture = red_dragonkin_dragon
+				culture = red_dragon
 				size = 63000
-			}
-			create_pop = {
-				culture = elemental_arcan
-				size = 111000
-			}
-			create_pop = {
-				culture = elemental_earth_ancient
-				size = 587000
-			}
-			create_pop = {
-				culture = elemental_earth_ent
-				size = 45000
-			}
-			create_pop = {
-				culture = elemental_earth_lasher
-				size = 220000
 			}
 			create_pop = {
 				culture = elemental_fire
 				size = 100000
 			}
 			create_pop = {
-				culture = elemental_mana_fiend
-				size = 80000
-			}
-			create_pop = {
-				culture = elemental_mana_voidwalker
-				size = 75000
-			}
-			create_pop = {
-				culture = nymph_crystalnymph
-				size = 30000
-			}
-			create_pop = {
 				culture = kal_dorei
 				size = 25000
 			}
 			create_pop = {
-				culture = exodar_draenei
+				culture = draenei
 				size = 30000
 			}
 			create_pop = {
@@ -358,10 +302,6 @@ POPS = {
 			create_pop = {
 				culture = bronzebeard
 				size = 16000
-			}
-			create_pop = {
-				culture = mechanical_arcane_golem
-				size = 50000
 			}
 			create_pop = {
 				culture = orgrimmari
@@ -384,11 +324,11 @@ POPS = {
 	s:STATE_KASKALA = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = kaluak_tuskarr
+				culture = tuskarr
 				size = 451000
 			}
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 16000
 			}
 			create_pop = {
@@ -399,21 +339,13 @@ POPS = {
 				culture = kvaldir
 				size = 126000
 			}
-			create_pop = {
-				culture = mechanical_golem
-				size = 25000
-			}
 		}
 	}
 	s:STATE_WINTERFIN = {
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = murloc_winterfin
+				culture = coldwater_murloc
 				size = 649000
-			}
-			create_pop = {
-				culture = murloc_makrura
-				size = 16000
 			}
 			create_pop = {
 				culture = elemental_water
@@ -436,7 +368,7 @@ POPS = {
 				size = 30000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 255000
 			}
 			create_pop = {
@@ -450,22 +382,6 @@ POPS = {
 			create_pop = {
 				culture = elemental_water
 				size = 16000
-			}
-			create_pop = {
-				culture = elemental_air
-				size = 136000
-			}
-			create_pop = {
-				culture = scourge_damned_orc
-				size = 16000
-			}
-			create_pop = {
-				culture = scourge_damned_tauren
-				size = 45000
-			}
-			create_pop = {
-				culture = scourge_damned_taunka
-				size = 45000
 			}
 		}
 	}
@@ -488,15 +404,15 @@ POPS = {
 				size = 30000
 			}
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 16000
 			}
 			create_pop = {
-				culture = magnatour_magmothherd
+				culture = magnatour
 				size = 136000
 			}
 			create_pop = {
-				culture = kobold_magmothherd
+				culture = kobold
 				size = 261000
 			}
 		}
@@ -516,40 +432,12 @@ POPS = {
 				size = 32000
 			}
 			create_pop = {
-				culture = summon_demon
-				size = 16000
-			}
-			create_pop = {
-				culture = summon_undead
-				size = 16000
-			}
-			create_pop = {
 				culture = elemental_water
 				size = 185000
 			}
 			create_pop = {
-				culture = scourge_damned_taunka
-				size = 80000
-			}
-			create_pop = {
-				culture = scourge_ghoul
-				size = 20000
-			}
-			create_pop = {
-				culture = scourge_shade
-				size = 16000
-			}
-			create_pop = {
-				culture = scourge_human_cultist
+				culture = dalaranian
 				size = 61000
-			}
-			create_pop = {
-				culture = san_layn
-				size = 25000
-			}
-			create_pop = {
-				culture = scourge_lich
-				size = 16000
 			}
 			create_pop = {
 				culture = taunka
@@ -564,10 +452,6 @@ POPS = {
 	s:STATE_GEYSER_FIELDS = {	
 		region_state:NRTHRND = {
 			create_pop = {
-				culture = elemental_air
-				size = 375000
-			}
-			create_pop = {
 				culture = taunka
 				size = 659000
 			}
@@ -580,24 +464,8 @@ POPS = {
 				size = 112000
 			}
 			create_pop = {
-				culture = mechanical_mechagnome
-				size = 105000
-			}
-			create_pop = {
-				culture = mechanical_alert_bot
-				size = 140000
-			}
-			create_pop = {
-				culture = mechanical_golem
-				size = 252000
-			}
-			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 16000
-			}
-			create_pop = {
-				culture = scourge_undead_nerubian
-				size = 221000
 			}
 		}
 	}

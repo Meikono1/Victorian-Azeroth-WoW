@@ -1,7 +1,9 @@
 dire_troll = {
 	color = rgb{ 191 168 62 }
 	religion = amani_loa
-	traits = { mountains haunted_forest troll_heritage }
+	heritage = troll_heritage
+	language = language_troll
+	traditions = { tradition_mountains tradition_haunted_forest }
 	male_common_first_names={
 		Arakaz Azgoth 
 		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
@@ -84,7 +86,9 @@ dire_troll = {
 forest_troll = {
 	color = rgb{ 191 168 62 }
 	religion = amani_loa
-	traits = { dense_forest haunted_forest troll_heritage }
+	heritage = troll_heritage
+	language = language_troll
+	traditions = { tradition_dense_forest tradition_haunted_forest }
 	male_common_first_names={
 		Arakaz Azgoth 
 		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
@@ -167,7 +171,9 @@ forest_troll = {
 frostmane_troll = {
 	color = rgb{ 162 184 50 }
 	religion = voodoo
-	traits = { mountains alpine_plateau troll_heritage }
+	heritage = troll_heritage
+	language = language_troll
+	traditions = { tradition_mountains tradition_frozen_lands }
 	male_common_first_names={
 		Arakaz Azgoth 
 		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
@@ -250,7 +256,9 @@ frostmane_troll = {
 jungle_troll = {
 	color = rgb{ 186 230 97 }
 	religion = voodoo
-	traits = { jungle troll_heritage }
+	heritage = troll_heritage
+	language = language_troll
+	traditions = { tradition_jungle }
 	male_common_first_names={
 		Arakaz Azgoth 
 		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
@@ -330,57 +338,84 @@ jungle_troll = {
 	}
 }
 
-sandfury_troll = {
+sand_troll = {
 	color = rgb{ 226 234 53 }
-	religion = protestant
-	traits = { sandfury troll_heritage }
+	religion = voodoo
+	heritage = troll_heritage
+	language = language_troll
+	traditions = { tradition_desert tradition_mountains }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Arakaz Azgoth 
+		Balkar Barzug Brakzar Brumgar Brugor Bruknar Brumak
+		Draknar Drakol Drukmar Drukol Drungar Druthak Drokath Druzgar Druzol Drogmar Drogul
+		Ekrath
+		Furgol
+		Gharzak Gromak Gromthar Grumak Gurnak
+		Hrukak Hrukar Hrukol
+		Kargath Kargol Krugol Krumak Krulak Krulgor Krugor Krogar Krogath Krogmok Krogthul Krogul
+		Lokgar Lokmar Loknar Lokthar Lokthul Lorkan Lurzak Lurthak
+		Maglok Magrok Maglor Moknar Mokthar Morgak Morgor Morgul Morgrak Morgrul Morlok Mugrak Murzak
+		Nargath Nargol Nurmar Nurzak
+		Ormar Orzak Othgar Othrak
+		Prazak Prazul
+		Rukath Rukmar Rulgar Rumak Rurmar Rurzak Rokgar Rokmok Rokthar
+		Sargath Sargol Surmak Surzak
+		Tharzak Thokgar Thokmok Thoknar Thorgar Thorgul Thrakgar Thrakthul Thulmok Thrukar Thurgak Thurgol Trugath Trugor Truzak
+		Urgak Urgath Uthmar Uthrak
+		Vrakol Vrumak
+		Wurgath Wurzak
+		Xurmak Xurzak
+		Yargol Yurmok
+		Zulgar Zulgrak Zulgrul Zulmar Zulmok Zulnar Zulrok Zulthak Zulthar Zulthul Zulzak Zulnar Zurmak Zurzak
 	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+	female_common_first_names={
+		Akara Aranya 
+		Belira Berina Briala 
+		Calina Calira Celina 
+		Delira Delya Drala 
+		Elara Elina Elira 
+		Farila Farya Fena Feriha 
+		Galena Galira Garia Gelya 
+		Halara Helia Helina Helya 
+		Ilana Ilina Ilira Ilyna 
+		Jara Jelya Jessa 
+		Kala Kena Kelna Kira 
+		Laria Lira Lyna Mela 
+		Melya Melia Melira 
+		Nala Nela Nira 
+		Orina Olina 
+		Pela Pelya 
+		Qira Quira 
+		Ralia Relya Rina 
+		Saria Sela 
+		Talia Tena Tira 
+		Ulina Ulira 
+		Vela Velya 
+		Wina Wira Xana 
+		Xalia 
+		Yara Yela Yelna 
+		Zelia Zena Zira
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowcouncil_troll = {
-	color = rgb{ 90 119 204 }
-	religion = protestant
-	traits = { shadowcouncil troll_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Akumba 
+		Banaga Baraga Bwana 
+		Chaka 
+		Dazaga Dongo Duroga 
+		Gamba Goroha 
+		Hakuma 
+		Jahari Jamba Jingo 
+		Kamba Konga Kumala 
+		Lakota Lumba 
+		Makala Mamba Mzinga 
+		Nakala Namara Nimba Nkumba Nyala 
+		Okuma Onaga 
+		Pakala Pamba 
+		Ramba Samala 
+		Shaka Shimba Simba Sokala 
+		Tangala Thonga Tumba Tumala 
+		Wanga Wemba Winga 
+		Yamba 
+		Zamba Zinga Zimba
 	}
 	graphics = european
 	ethnicities = {

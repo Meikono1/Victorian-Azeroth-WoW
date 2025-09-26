@@ -8,7 +8,7 @@ POPS = {
 		}
 		region_state:CLIFFWALKER = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
@@ -22,7 +22,7 @@ POPS = {
 		}
 		region_state:CLIFFWALKER = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
@@ -30,7 +30,7 @@ POPS = {
 	s:STATE_SLUDGEWERKS = {
 		region_state:SLUDGEWERKS = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 1000000
 			}
 		}
@@ -38,7 +38,7 @@ POPS = {
 	s:STATE_SUN_ROCK_RETREAT = {
 		region_state:CLIFFWALKER = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 1000000
 			}
 		}
@@ -84,7 +84,7 @@ POPS = {
 	s:STATE_MALAKA_JIN = {
 		region_state:GRIMMTOTEM = {
 			create_pop = {
-				culture = grimmtotem_tauren
+				culture = tauren
 				size = 1000000
 			}
 		}
@@ -98,7 +98,7 @@ POPS = {
 		}
 		region_state:WITCHWING_HARPIE = {
 			create_pop = {
-				culture = witchwing_harpy
+				culture = harpy
 				size = 500000
 			}
 		}
@@ -106,7 +106,7 @@ POPS = {
 	s:STATE_DREADMIST_PEAK = {
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 1000000
 			}
 		}
@@ -134,7 +134,7 @@ POPS = {
 		}
 		region_state:RAZORMANE = {
 			create_pop = {
-				culture = razormane_quilboar
+				culture = quilboar
 				size = 500000
 			}
 		}
@@ -148,7 +148,7 @@ POPS = {
 		}
 		region_state:DRUIDS_OF_FANG = {
 			create_pop = {
-				culture = fang_druid_nightelf
+				culture = kal_dorei
 				size = 500000
 			}
 		}
@@ -184,13 +184,13 @@ POPS = {
 		}
 		region_state:DUSTWIND_HARPY = {
 			create_pop = {
-				culture = dustwind_harpy
+				culture = harpy
 				size = 330000
 			}
 		}
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 330000
 			}
 		}
@@ -220,7 +220,7 @@ POPS = {
 	s:STATE_SHRINE_OF_DORMENT_FLAME = {
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 1000000
 			}
 		}
@@ -266,7 +266,7 @@ POPS = {
 	s:STATE_FURIENS_POST = {
 		region_state:SLITHERBLADE_NAGA = {
 			create_pop = {
-				culture = slitherblade_naga
+				culture = nazjatar
 				size = 1000000
 			}
 		}
@@ -274,7 +274,7 @@ POPS = {
 	s:STATE_THUNDER_AXE_FORTRESS = {
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 1000000
 			}
 		}
@@ -282,7 +282,7 @@ POPS = {
 	s:STATE_SARGERON = {
 		region_state:HATEFURY_SATYRS = {
 			create_pop = {
-				culture = hatefury_satyr
+				culture = fel_dorei
 				size = 500000
 			}
 		}
@@ -296,7 +296,7 @@ POPS = {
 	s:STATE_CENARION_WILDLANDS = {
 		region_state:CENARION_CIRCLE = {
 			create_pop = {
-				culture = cenarius_druid_nightelf
+				culture = kal_dorei
 				size = 1000000
 			}
 		}
@@ -304,13 +304,13 @@ POPS = {
 	s:STATE_SHOK_THOKAR = {
 		region_state:MAGRAM = {
 			create_pop = {
-				culture = magram_centaur
+				culture = centaur
 				size = 500000
 			}
 		}
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 500000
 			}
 		}
@@ -318,7 +318,7 @@ POPS = {
 	s:STATE_MANNOROC_COVEN = {
 		region_state:BURNING_BLADE = {
 			create_pop = {
-				culture = burning_blade_orc
+				culture = maghar_orc
 				size = 1000000
 			}
 		}
@@ -326,7 +326,7 @@ POPS = {
 	s:STATE_MAROUDON = {
 		region_state:MAROUDINE = {
 			create_pop = {
-				culture = maroudin_centaur
+				culture = centaur
 				size = 1000000
 			}
 		}
@@ -334,7 +334,7 @@ POPS = {
 	s:STATE_GELKIS_VILLAGE = {
 		region_state:GELKIS = {
 			create_pop = {
-				culture = gelkis_centaur
+				culture = centaur
 				size = 500000
 			}
 		}
@@ -348,19 +348,19 @@ POPS = {
 	s:STATE_STONETALON_PASS = {
 		region_state:GRIMMTOTEM = {
 			create_pop = {
-				culture = grimmtotem_tauren
+				culture = tauren
 				size = 330000
 			}
 		}
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 330000
 			}
 		}
 		region_state:WINDFURY_HARPY = {
 			create_pop = {
-				culture = windfury_harpy
+				culture = harpy
 				size = 330000
 			}
 		}
@@ -368,7 +368,7 @@ POPS = {
 	s:STATE_THUNDER_BLUFF = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 1000000
 			}
 		}
@@ -376,13 +376,13 @@ POPS = {
 	s:STATE_GOLDEN_PLAINS = {
 		region_state:BRISTLEBACK_QUILBOARS = {
 			create_pop = {
-				culture = bristleback_quilboar
+				culture = quilboar
 				size = 330000
 			}
 		}
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 330000
 			}
 		}
@@ -396,7 +396,7 @@ POPS = {
 	s:STATE_BLOODHOOF_VILLAGE = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
@@ -410,13 +410,13 @@ POPS = {
 	s:STATE_CAMP_NARACHE = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
 		region_state:BRISTLEBACK_QUILBOARS = {
 			create_pop = {
-				culture = bristleback_quilboar
+				culture = quilboar
 				size = 500000
 			}
 		}
@@ -424,7 +424,7 @@ POPS = {
 	s:STATE_GREAT_GATE = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 330000
 			}
 		}
@@ -444,7 +444,7 @@ POPS = {
 	s:STATE_THORNSNARL = {
 		region_state:BRISTLEBACK_QUILBOARS = {
 			create_pop = {
-				culture = bristleback_quilboar
+				culture = quilboar
 				size = 1000000
 			}
 		}
@@ -458,7 +458,7 @@ POPS = {
 		}
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
@@ -466,7 +466,7 @@ POPS = {
 	s:STATE_THE_OVERGROWTH = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 1000000
 			}
 		}
@@ -474,7 +474,7 @@ POPS = {
 	s:STATE_RUINS_OF_TAURAJO = {
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 1000000
 			}
 		}
@@ -488,7 +488,7 @@ POPS = {
 		}
 		region_state:BRISTLEBACK_QUILBOARS = {
 			create_pop = {
-				culture = bristleback_quilboar
+				culture = quilboar
 				size = 500000
 			}
 		}
@@ -502,13 +502,13 @@ POPS = {
 		}
 		region_state:THUNDERBLUFF = {
 			create_pop = {
-				culture = thunderbluff_tauren
+				culture = tauren
 				size = 330000
 			}
 		}
 		region_state:FRAZZLECRAZ = {
 			create_pop = {
-				culture = bilgewater_goblin
+				culture = goblin
 				size = 330000
 			}
 		}
@@ -524,7 +524,7 @@ POPS = {
 	s:STATE_RAZORFEN_KRAUL = {
 		region_state:RAZORFEN = {
 			create_pop = {
-				culture = razorfen_quilboar
+				culture = quilboar
 				size = 1000000
 			}
 		}
@@ -538,7 +538,7 @@ POPS = {
 		}
 		region_state:STRASHAZ = {
 			create_pop = {
-				culture = strashaz_naga
+				culture = nazjatar
 				size = 330000
 			}
 		}
@@ -558,7 +558,7 @@ POPS = {
 		}
 		region_state:BLACKHOOF = {
 			create_pop = {
-				culture = grimmtotem_tauren
+				culture = tauren
 				size = 500000
 			}
 		}
@@ -572,7 +572,7 @@ POPS = {
 		}
 		region_state:BRACKENWALL = {
 			create_pop = {
-				culture = brackenwall_ogre
+				culture = jungle_ogre
 				size = 500000
 			}
 		}
@@ -586,7 +586,7 @@ POPS = {
 		}
 		region_state:DIREHORN = {
 			create_pop = {
-				culture = grimmtotem_tauren
+				culture = tauren
 				size = 500000
 			}
 		}

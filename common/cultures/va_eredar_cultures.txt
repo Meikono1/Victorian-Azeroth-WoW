@@ -1,0 +1,284 @@
+draenei = {
+	color = rgb{ 51 64 156 }
+	religion = naaru
+	heritage = draenei_heritage
+	language = language_eredar
+	traditions = { tradition_lowlands tradition_temperate_forest }
+	male_common_first_names={
+		Akaan Akhar A'duun Aruven Atalos
+		Baraan Bekor Boruun Brythis
+		Cadar Celesar Cyrun
+		Daevik Dekhan Dorath Dythor
+		Ekhad Erenor Ethis
+		Faedran Felkos Ferith Fythas
+		Gavaan Genor Gethad Grylos
+		Haemir Hethal Horyn Hyrdas
+		Ikaar Ikthos Irevan Iskhar
+		Jaraan Jekhas Jorath Jythal
+		Kaedran Kethas Khadron Kyradan
+		Laevan Lekhus Lorath Lythar
+		Maedran Mekhas Morath Myrrad
+		Naevan Nekhar Norath Nyrras
+		Olaan Okhadr Oras Othar
+		Paevan Pelkos Pyrdan
+		Qadren Qelhas Qyros
+		Ravaar Rekhan Rethas Rylor
+		Saedran Sekhos Sorath Sylkar
+		Taevor Telkos Thyran Tuur
+		Ulaan Urekhos Uryth
+		Vaedor Velkas Vorath Vythor
+		Waedor Wekhan Wyrras
+		Xaedran Xelkor Xythis
+		Yaevor Yekhas Yrynn
+		Zaedran Zelkhus Zorath Zythas
+	}
+	female_common_first_names = {
+		A’daara Aelina Akashah Althiel Aru’nel
+		Baelira Beleska Brivana Brynara
+		Caeliah Celestri Cyranne
+		Daerila Delanys Deyara Dorithe
+		Elariah Elessa Emyrine Eshani
+		Faelira Felsiath Firaya
+		Gaelith Ghalira Gysara
+		Haeliah Helara Hethyne Horyssa
+		Ilyara Ishanai Ismyre
+		Jaelene Joraya Jyselle
+		Kaelira Kethyne Korasha Kyrelle
+		Laeriel Lelasha Lirenne Lythara
+		Maelani Merasha Myriala Mythise
+		Naelene Neraya Neshira Nyrisse
+		Olaria Onethra Oryssae
+		Paelara Pelani Pyrissa
+		Qaelira Qel’sha Qyrine
+		Raeliah Relisya Rhyssara
+		Saelune Selara Shyrela Sylune
+		Taelani Telessa Thyrala Tyrisse
+		Ularia Ulyene Umaara
+		Vaelira Velessa Vorynne Vysara
+		Waelina Welara Wysenne
+		Xaelira Xelyne Xyrah
+		Yaelene Yrelia Yssani
+		Zaelira Zenyss Zorynne
+	}	
+	common_last_names={
+		Adaar Athuros
+		Belmara Bronaar
+		Calaaris
+		Daelthun Duraan
+		Elun'dar Eruulon
+		Faelstrom Faraadun
+		Gaarun Graelith
+		Halaar Huraan
+		Irulan Ishaelar
+		Joruun Jovael
+		Kaelmar Kaethros
+		Lumaath Luraan
+		Maelithar Malador
+		Noruun Nuraelos
+		Oraeth Oraelthun
+		Paelir Pharion
+		Quraan
+		Raelthas
+		Shaandar
+		Turael
+		Vaalor
+		Weraal
+		Xiraal
+		Yoraen
+		Zaelthar
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+eredar = {
+	color = rgb{ 51 64 156 }
+	religion = burning_legion
+	heritage = draenei_heritage
+	language = language_eredar
+	traditions = { }
+	male_common_first_names={
+		Akaan Akhar A'duun Aruven Atalos
+		Baraan Bekor Boruun Brythis
+		Cadar Celesar Cyrun
+		Daevik Dekhan Dorath Dythor
+		Ekhad Erenor Ethis
+		Faedran Felkos Ferith Fythas
+		Gavaan Genor Gethad Grylos
+		Haemir Hethal Horyn Hyrdas
+		Ikaar Ikthos Irevan Iskhar
+		Jaraan Jekhas Jorath Jythal
+		Kaedran Kethas Khadron Kyradan
+		Laevan Lekhus Lorath Lythar
+		Maedran Mekhas Morath Myrrad
+		Naevan Nekhar Norath Nyrras
+		Olaan Okhadr Oras Othar
+		Paevan Pelkos Pyrdan
+		Qadren Qelhas Qyros
+		Ravaar Rekhan Rethas Rylor
+		Saedran Sekhos Sorath Sylkar
+		Taevor Telkos Thyran Tuur
+		Ulaan Urekhos Uryth
+		Vaedor Velkas Vorath Vythor
+		Waedor Wekhan Wyrras
+		Xaedran Xelkor Xythis
+		Yaevor Yekhas Yrynn
+		Zaedran Zelkhus Zorath Zythas
+	}
+	female_common_first_names = {
+		A’daara Aelina Akashah Althiel Aru’nel
+		Baelira Beleska Brivana Brynara
+		Caeliah Celestri Cyranne
+		Daerila Delanys Deyara Dorithe
+		Elariah Elessa Emyrine Eshani
+		Faelira Felsiath Firaya
+		Gaelith Ghalira Gysara
+		Haeliah Helara Hethyne Horyssa
+		Ilyara Ishanai Ismyre
+		Jaelene Joraya Jyselle
+		Kaelira Kethyne Korasha Kyrelle
+		Laeriel Lelasha Lirenne Lythara
+		Maelani Merasha Myriala Mythise
+		Naelene Neraya Neshira Nyrisse
+		Olaria Onethra Oryssae
+		Paelara Pelani Pyrissa
+		Qaelira Qel’sha Qyrine
+		Raeliah Relisya Rhyssara
+		Saelune Selara Shyrela Sylune
+		Taelani Telessa Thyrala Tyrisse
+		Ularia Ulyene Umaara
+		Vaelira Velessa Vorynne Vysara
+		Waelina Welara Wysenne
+		Xaelira Xelyne Xyrah
+		Yaelene Yrelia Yssani
+		Zaelira Zenyss Zorynne
+	}	
+	common_last_names={
+		Adaar Athuros
+		Belmara Bronaar
+		Calaaris
+		Daelthun Duraan
+		Elun'dar Eruulon
+		Faelstrom Faraadun
+		Gaarun Graelith
+		Halaar Huraan
+		Irulan Ishaelar
+		Joruun Jovael
+		Kaelmar Kaethros
+		Lumaath Luraan
+		Maelithar Malador
+		Noruun Nuraelos
+		Oraeth Oraelthun
+		Paelir Pharion
+		Quraan
+		Raelthas
+		Shaandar
+		Turael
+		Vaalor
+		Weraal
+		Xiraal
+		Yoraen
+		Zaelthar
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+krokul = {
+	color = rgb{ 76 179 129 }
+	religion = shamanism
+	heritage = draenei_heritage
+	language = language_eredar
+	traditions = { tradition_swamp tradition_barren }
+	male_common_first_names={
+		Akaan Akhar A'duun Aruven Atalos
+		Baraan Bekor Boruun Brythis
+		Cadar Celesar Cyrun
+		Daevik Dekhan Dorath Dythor
+		Ekhad Erenor Ethis
+		Faedran Felkos Ferith Fythas
+		Gavaan Genor Gethad Grylos
+		Haemir Hethal Horyn Hyrdas
+		Ikaar Ikthos Irevan Iskhar
+		Jaraan Jekhas Jorath Jythal
+		Kaedran Kethas Khadron Kyradan
+		Laevan Lekhus Lorath Lythar
+		Maedran Mekhas Morath Myrrad
+		Naevan Nekhar Norath Nyrras
+		Olaan Okhadr Oras Othar
+		Paevan Pelkos Pyrdan
+		Qadren Qelhas Qyros
+		Ravaar Rekhan Rethas Rylor
+		Saedran Sekhos Sorath Sylkar
+		Taevor Telkos Thyran Tuur
+		Ulaan Urekhos Uryth
+		Vaedor Velkas Vorath Vythor
+		Waedor Wekhan Wyrras
+		Xaedran Xelkor Xythis
+		Yaevor Yekhas Yrynn
+		Zaedran Zelkhus Zorath Zythas
+	}
+	female_common_first_names = {
+		A’daara Aelina Akashah Althiel Aru’nel
+		Baelira Beleska Brivana Brynara
+		Caeliah Celestri Cyranne
+		Daerila Delanys Deyara Dorithe
+		Elariah Elessa Emyrine Eshani
+		Faelira Felsiath Firaya
+		Gaelith Ghalira Gysara
+		Haeliah Helara Hethyne Horyssa
+		Ilyara Ishanai Ismyre
+		Jaelene Joraya Jyselle
+		Kaelira Kethyne Korasha Kyrelle
+		Laeriel Lelasha Lirenne Lythara
+		Maelani Merasha Myriala Mythise
+		Naelene Neraya Neshira Nyrisse
+		Olaria Onethra Oryssae
+		Paelara Pelani Pyrissa
+		Qaelira Qel’sha Qyrine
+		Raeliah Relisya Rhyssara
+		Saelune Selara Shyrela Sylune
+		Taelani Telessa Thyrala Tyrisse
+		Ularia Ulyene Umaara
+		Vaelira Velessa Vorynne Vysara
+		Waelina Welara Wysenne
+		Xaelira Xelyne Xyrah
+		Yaelene Yrelia Yssani
+		Zaelira Zenyss Zorynne
+	}	
+	common_last_names={
+		Adaar Athuros
+		Belmara Bronaar
+		Calaaris
+		Daelthun Duraan
+		Elun'dar Eruulon
+		Faelstrom Faraadun
+		Gaarun Graelith
+		Halaar Huraan
+		Irulan Ishaelar
+		Joruun Jovael
+		Kaelmar Kaethros
+		Lumaath Luraan
+		Maelithar Malador
+		Noruun Nuraelos
+		Oraeth Oraelthun
+		Paelir Pharion
+		Quraan
+		Raelthas
+		Shaandar
+		Turael
+		Vaalor
+		Weraal
+		Xiraal
+		Yoraen
+		Zaelthar
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

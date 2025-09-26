@@ -1,0 +1,954 @@
+﻿# This list is alphabetically sorted. Please keep it so.
+
+tradition_caucasian = {
+	type = tradition
+}
+
+tradition_danubian = {
+	type = tradition
+}
+
+tradition_helvetic = {
+	type = tradition
+}
+
+tradition_himalayan = {
+	type = tradition
+}
+
+tradition_persianate = {
+	type = tradition
+}
+
+tradition_rumelian = {
+	type = tradition
+}
+
+tradition_russosphere = {
+	type = tradition
+}
+
+tradition_sinosphere = {
+	type = tradition
+}
+
+tradition_israelite = {
+	type = tradition
+}
+
+tradition_ahn_qiraj = {
+	type = tradition
+}
+
+tradition_air_element = {
+	type = tradition
+}
+
+tradition_alert_bot = {
+	type = tradition
+}
+
+tradition_aldor = {
+	type = tradition
+}
+
+tradition_alliance = {
+	type = tradition
+}
+
+tradition_amani = {
+	type = tradition
+}
+
+tradition_ancient_forest = {
+	type = tradition
+}
+
+tradition_angorosh = {
+	type = tradition
+}
+
+tradition_apexis = {
+	type = tradition
+}
+
+tradition_apex = {
+	type = tradition
+}
+
+tradition_arcan_element = {
+	type = tradition
+}
+
+tradition_arcangolem = {
+	type = tradition
+}
+
+tradition_areafiftytwo = {
+	type = tradition
+}
+
+tradition_arid_plateau = {
+	type = tradition
+}
+
+tradition_ashtoungue = {
+	type = tradition
+}
+
+tradition_auchenai = {
+	type = tradition
+}
+
+tradition_barren = {
+	type = tradition
+}
+
+tradition_bashir = {
+	type = tradition
+}
+
+tradition_blackmaw = {
+	type = tradition
+}
+
+tradition_blackwood = {
+	type = tradition
+}
+
+tradition_bladespire = {
+	type = tradition
+}
+
+tradition_bloodmaul = {
+	type = tradition
+}
+
+tradition_bloodwood = {
+	type = tradition
+}
+
+tradition_bleeding_hollow = {
+	type = tradition
+}
+
+tradition_bloodfeather = {
+	type = tradition
+}
+
+tradition_bloodscale = {
+	type = tradition
+}
+
+tradition_blue_dragon = {
+	type = tradition
+}
+
+tradition_bogstrok = {
+	type = tradition
+}
+
+tradition_bonechewer = {
+	type = tradition
+}
+
+tradition_boom = {
+	type = tradition
+}
+
+tradition_boulderfist = {
+	type = tradition
+}
+
+tradition_boulderslide = {
+	type = tradition
+}
+
+tradition_bristleback = {
+	type = tradition
+}
+
+tradition_bristlelimb = {
+	type = tradition
+}
+
+tradition_broken = {
+	type = tradition
+}
+
+tradition_bronze_dragon = {
+	type = tradition
+}
+
+tradition_burning_blade = {
+	type = tradition
+}
+
+tradition_burning_legion = {
+	type = tradition
+}
+
+tradition_cenarian_circle = {
+	type = tradition
+}
+
+tradition_cetradition_ntaur = {
+	type = tradition
+}
+
+tradition_centipaar = {
+	type = tradition
+}
+
+tradition_clockwork = {
+	type = tradition
+}
+
+tradition_consortium = {
+	type = tradition
+}
+
+tradition_crown_chemical = {
+	type = tradition
+}
+
+tradition_crystal = {
+	type = tradition
+}
+
+tradition_crystalcore = {
+	type = tradition
+}
+
+tradition_cultist = {
+	type = tradition
+}
+
+tradition_daggerfen = {
+	type = tradition
+}
+
+tradition_darkcrest = {
+	type = tradition
+}
+
+tradition_darkscale = {
+	type = tradition
+}
+
+tradition_dark_conclave = {
+	type = tradition
+}
+
+tradition_dark_strand = {
+	type = tradition
+}
+
+tradition_deadwood = {
+	type = tradition
+}
+
+tradition_dense_forest = {
+	type = tradition
+}
+
+tradition_desert = {
+	type = tradition
+}
+
+tradition_dragonmaw_clan = {
+	type = tradition
+}
+
+tradition_dragonspawn = {
+	type = tradition
+}
+
+tradition_drakonid = {
+	type = tradition
+}
+
+tradition_dreghood = {
+	type = tradition
+}
+
+tradition_druid = {
+	type = tradition
+}
+
+tradition_dryad = {
+	type = tradition
+}
+
+tradition_dunemaul = {
+	type = tradition
+}
+
+tradition_dustwind = {
+	type = tradition
+}
+
+tradition_earth_element = {
+	type = tradition
+}
+
+tradition_eclipse_point = {
+	type = tradition
+}
+
+tradition_elemental_ancient = {
+	type = tradition
+}
+
+tradition_elemental_ent = {
+	type = tradition
+}
+
+tradition_elemental_lasher = {
+	type = tradition
+}
+
+tradition_emerald_dream = {
+	type = tradition
+}
+
+tradition_enkaat = {
+	type = tradition
+}
+
+tradition_earthenring = {
+	type = tradition
+}
+
+tradition_ethereum = {
+	type = tradition
+}
+
+tradition_explorers_league = {
+	type = tradition
+}
+
+tradition_fangdruid = {
+	type = tradition
+}
+
+tradition_farahlon = {
+	type = tradition
+}
+
+tradition_feral = {
+	type = tradition
+}
+
+tradition_feralfen = {
+	type = tradition
+}
+
+tradition_fiend = {
+	type = tradition
+}
+
+tradition_fire_element = {
+	type = tradition
+}
+
+tradition_firewing = {
+	type = tradition
+}
+
+tradition_fjord = {
+	type = tradition
+}
+
+tradition_foulweald = {
+	type = tradition
+}
+
+tradition_frozen_lands = {
+	type = tradition
+}
+
+tradition_galak = {
+	type = tradition
+}
+
+tradition_gammoth_herd = {
+	type = tradition
+}
+
+tradition_gelkis = {
+	type = tradition
+}
+
+tradition_gnarlpine = {
+	type = tradition
+}
+
+tradition_gorge = {
+	type = tradition
+}
+
+tradition_gorloc = {
+	type = tradition
+}
+
+tradition_greyheart = {
+	type = tradition
+}
+
+tradition_grishnath = {
+	type = tradition
+}
+
+tradition_grimmtotem = {
+	type = tradition
+}
+
+tradition_haaleshi = {
+	type = tradition
+}
+
+tradition_halaa = {
+	type = tradition
+}
+
+tradition_hatecrest = {
+	type = tradition
+}
+
+tradition_haunted_forest = {
+	type = tradition
+}
+
+tradition_hatefury = {
+	type = tradition
+}
+
+tradition_highlands = {
+	type = tradition
+}
+
+tradition_honorhold = {
+	type = tradition
+}
+
+tradition_horde = {
+	type = tradition
+}
+
+tradition_jadefire = {
+	type = tradition
+}
+
+tradition_jungle = {
+	type = tradition
+}
+
+tradition_kaluak = {
+	type = tradition
+}
+
+tradition_kilsorrow = {
+	type = tradition
+}
+
+tradition_kirintor = {
+	type = tradition
+}
+
+tradition_kurenai = {
+	type = tradition
+}
+
+tradition_kvaldir = {
+	type = tradition
+}
+
+tradition_lashhan = {
+	type = tradition
+}
+
+tradition_laughing_skull = {
+	type = tradition
+}
+
+tradition_legashi = {
+	type = tradition
+}
+
+tradition_lepergnome = {
+	type = tradition
+}
+
+tradition_lithic = {
+	type = tradition
+}
+
+tradition_lowercity = {
+	type = tradition
+}
+
+tradition_lowlands = {
+	type = tradition
+}
+
+tradition_magical_lowlands = {
+	type = tradition
+}
+
+tradition_mag_har = {
+	type = tradition
+}
+
+tradition_magmoth_herd = {
+	type = tradition
+}
+
+tradition_magram = {
+	type = tradition
+}
+
+tradition_makrinni = {
+	type = tradition
+}
+
+tradition_makrura = {
+	type = tradition
+}
+
+tradition_mannoroth = {
+	type = tradition
+}
+
+tradition_mana_element = {
+	type = tradition
+}
+
+tradition_maroudin = {
+	type = tradition
+}
+
+tradition_marshland = {
+	type = tradition
+}
+
+tradition_marshlight = {
+	type = tradition
+}
+
+tradition_mechanar = {
+	type = tradition
+}
+
+tradition_mojache = {
+	type = tradition
+}
+
+tradition_moknathal = {
+	type = tradition
+}
+
+tradition_mountains = {
+	type = tradition
+}
+
+tradition_murkblood = {
+	type = tradition
+}
+
+tradition_myrmidon = {
+	type = tradition
+}
+
+tradition_nazzivus = {
+	type = tradition
+}
+
+tradition_nesingway = {
+	type = tradition
+}
+
+tradition_nether_drake = {
+	type = tradition
+}
+
+tradition_netherock = {
+	type = tradition
+}
+
+tradition_netherwing = {
+	type = tradition
+}
+
+tradition_nethervine = {
+	type = tradition
+}
+
+tradition_nerubian = {
+	type = tradition
+}
+
+tradition_northspring = {
+	type = tradition
+}
+
+tradition_oceanic = {
+	type = tradition
+}
+
+tradition_ogrila = {
+	type = tradition
+}
+
+tradition_old_god_forces = {
+	type = tradition
+}
+
+tradition_ooze = {
+	type = tradition
+}
+
+tradition_phoenix = {
+	type = tradition
+}
+
+tradition_plateau = {
+	type = tradition
+}
+
+tradition_plagued_land = {
+	type = tradition
+}
+
+tradition_plains = {
+	type = tradition
+}
+
+tradition_protectorate = {
+	type = tradition
+}
+
+tradition_quagmirran = {
+	type = tradition
+}
+
+tradition_ravenous = {
+	type = tradition
+}
+
+tradition_razaani = {
+	type = tradition
+}
+
+tradition_razorfen = {
+	type = tradition
+}
+
+tradition_razormane = {
+	type = tradition
+}
+
+tradition_razorthorn = {
+	type = tradition
+}
+
+tradition_red_dragon = {
+	type = tradition
+}
+
+tradition_reskk = {
+	type = tradition
+}
+
+tradition_riplash = {
+	type = tradition
+}
+
+tradition_riverland = {
+	type = tradition
+}
+
+tradition_rocknail = {
+	type = tradition
+}
+
+tradition_ruuanok = {
+	type = tradition
+}
+
+tradition_sandfury = {
+	type = tradition
+}
+
+tradition_sarthis = {
+	type = tradition
+}
+
+tradition_scourge = {
+	type = tradition
+}
+
+tradition_scryer = {
+	type = tradition
+}
+
+tradition_sethekk = {
+	type = tradition
+}
+
+tradition_shadow_element = {
+	type = tradition
+}
+
+tradition_shadowcouncil = {
+	type = tradition
+}
+
+tradition_shadowmoon_clan = {
+	type = tradition
+}
+
+tradition_shalassi = {
+	type = tradition
+}
+
+tradition_shaleskin = {
+	type = tradition
+}
+
+tradition_shatar = {
+	type = tradition
+}
+
+tradition_shatari_skyguard = {
+	type = tradition
+}
+
+tradition_shattered_hand = {
+	type = tradition
+}
+
+tradition_shattered_sun = {
+	type = tradition
+}
+
+tradition_shade = {
+	type = tradition
+}
+
+tradition_shaffar = {
+	type = tradition
+}
+
+tradition_shen_dralar = {
+	type = tradition
+}
+
+tradition_shienor = {
+	type = tradition
+}
+
+tradition_skettis = {
+	type = tradition
+}
+
+tradition_silverhand = {
+	type = tradition
+}
+
+tradition_siren = {
+	type = tradition
+}
+
+tradition_skithian = {
+	type = tradition
+}
+
+tradition_slitherblade = {
+	type = tradition
+}
+
+tradition_spitelash = {
+	type = tradition
+}
+
+tradition_sporeggar = {
+	type = tradition
+}
+
+tradition_steamwheedle = {
+	type = tradition
+}
+
+tradition_stillpine = {
+	type = tradition
+}
+
+tradition_stonemaul = {
+	type = tradition
+}
+
+tradition_stonescythe = {
+	type = tradition
+}
+
+tradition_stormspike = {
+	type = tradition
+}
+
+tradition_strashaz = {
+	type = tradition
+}
+
+tradition_sunfury = {
+	type = tradition
+}
+
+tradition_sungill = {
+	type = tradition
+}
+
+tradition_sunhawk = {
+	type = tradition
+}
+
+tradition_swamp = {
+	type = tradition
+}
+
+tradition_syndicate = {
+	type = tradition
+}
+
+tradition_taiga = {
+	type = tradition
+}
+
+tradition_talondruid = {
+	type = tradition
+}
+
+tradition_temperate_forest = {
+	type = tradition
+}
+
+tradition_thistlefur = {
+	type = tradition
+}
+
+tradition_thrallmar = {
+	type = tradition
+}
+
+tradition_timbermaw = {
+	type = tradition
+}
+
+tradition_tropical = {
+	type = tradition
+}
+
+tradition_tuurem = {
+	type = tradition
+}
+
+tradition_twilight_hammer = {
+	type = tradition
+}
+
+tradition_umbrafen = {
+	type = tradition
+}
+
+tradition_vakhnir = {
+	type = tradition
+}
+
+tradition_violeteye = {
+	type = tradition
+}
+
+tradition_viraani = {
+	type = tradition
+}
+
+tradition_voidwalker = {
+	type = tradition
+}
+
+tradition_vulcanic = {
+	type = tradition
+}
+
+tradition_water_element = {
+	type = tradition
+}
+
+tradition_warmaul = {
+	type = tradition
+}
+
+tradition_wasteland = {
+	type = tradition
+}
+
+tradition_wastewalker = {
+	type = tradition
+}
+
+tradition_watchers = {
+	type = tradition
+}
+
+tradition_whiterbark = {
+	type = tradition
+}
+
+tradition_windfury = {
+	type = tradition
+}
+
+tradition_windyreed = {
+	type = tradition
+}
+
+tradition_winterfall = {
+	type = tradition
+}
+
+tradition_witchwing = {
+	type = tradition
+}
+
+tradition_wormwing = {
+	type = tradition
+}
+
+tradition_wrathfin = {
+	type = tradition
+}
+
+tradition_wrathtail = {
+	type = tradition
+}
+
+tradition_wrathscale = {
+	type = tradition
+}
+
+tradition_wrekt = {
+	type = tradition
+}
+
+tradition_wyrmcultist = {
+	type = tradition
+}
+
+tradition_xavian = {
+	type = tradition
+}
+
+tradition_zaxxis = {
+	type = tradition
+}
+

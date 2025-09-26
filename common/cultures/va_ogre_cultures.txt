@@ -1,286 +1,81 @@
-angorosh_ogre = {
-	color = rgb{ 198 118 51 }
-	religion = protestant
-	traits = { angorosh ogre_heritage }
+desert_ogre = {
+	color = rgb{ 215 171 78 }
+	religion = ogre_elements
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { tradition_desert tradition_mountains }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Agromesh Arbulak Ashrakk
+		Balthruk Bazmok Brondar Brugash
+		Crovmar Crunlok Cythrak
+		Draghul Dronmak Druthar
+		Ekmash Erogar Ezthrak
+		Farnok Floggar Frumgar
+		Garkul Garrosh Gholmak Grondir Grubash
+		Hadrak Harnok Hogrun Horvak
+		Irgash Ivogar
+		Jorvak Jugmarr
+		Kalthor Karzug Krundal Kuzmok
+		Lazrak Lorgash Lugthar
+		Magral Mogthas Mornuk Murgash
+		Nagthrul Nombar Norvak
+		Ogthur Omrak Orgoth Ovrun
+		Pragash Prothmar
+		Ragath Raskul Rogath Rulmar
+		Shagrum Skorthar Slugmak Snorvak
+		Tagrul Thokmar Thuldar
+		Urgoth Uzmor
+		Vargul Vorgash Vrothar
+		Worgath Wumrak
+		Zagrum Zalthor Zovrak
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Agrolith Arveth Ashrik
+		Bargith Bazun Bragorth Brugeth
+		Chorgith Cruneth Cyrgol
+		Draveth Dronik Drusketh
+		Egrith Elbryn Envok
+		Farnith Flogrun Frugoth
+		Garneth Gathor Grumvik Grusketh
+		Harnith Hogrun Horvok
+		Ibrith Ignor Ithrun
+		Jargol Jarnith Jorvok
+		Kargith Keldrun Krugoth Kuzrik
+		Lobrik Lorgath Lugrik
+		Magroth Mavrik Morneth Murgol
+		Nargith Nolruk Norvik
+		Ogthar Ombrith Orgoth Ovrik
+		Pruneth Pruvik
+		Ragoth Ralvik Rogrun Rusketh
+		Shargith Skorvik Slugoth Snorvik
+		Tagroth Tholrik Thurneth
+		Ugrith Ulrok Urveth
+		Vargith Vornik Vrothun
+		Worgith Wurnok
+		Zagoth Zelrik Zorvik
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-angorosh_ogre_magi = {
-	color = rgb{ 198 160 51 }
-	religion = protestant
-	traits = { angorosh ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-areaft_ogre = {
-	color = rgb{ 160 182 86 }
-	religion = protestant
-	traits = { areafiftytwo ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bladespire_ogre = {
-	color = rgb{ 210 156 107 }
-	religion = protestant
-	traits = { bladespire ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bladespire_ogre_magi = {
-	color = rgb{ 184 230 63 }
-	religion = protestant
-	traits = { bladespire ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bloodmaul_ogre = {
-	color = rgb{ 162 78 36 }
-	religion = protestant
-	traits = { bloodmaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-bloodmaul_ogre_magi = {
-	color = rgb{ 140 95 48 }
-	religion = protestant
-	traits = { bloodmaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-brackenwall_ogre = {
-	color = rgb{ 70 129 109 }
-	religion = protestant
-	traits = { stonemaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-burning_legion_ogre_magi_cultist = {
-	color = rgb{ 220 120 37 }
-	religion = burning_legion
-	traits = { cultist ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-clanless_ogre_magi = {
-	color = rgb{ 73 64 56 }
-	religion = protestant
-	traits = { ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashback Ashfist Ashgut Ashmaw Ashstone
+		Balejaw Balefang Blackclaw Blackrock Blackstone Bloodback Bloodfist Bloodmaw Boulderback Boulderclaw Boulderfist Bouldergut
+		Cliffback Cliffbrow Cliffclaw Cliffmaw Cliffstone
+		Deepback Deepgut Deepmaw Deepstone
+		Earthbinder Earthcinder Earthmaw Earthshaker Earthshaper
+		Frostback Frostclaw Frostgut Frostmaw Froststone
+		Graniteback Granitefist Granitejaw Graniteshield
+		Hardback Hardclaw Hardgut Hardmaw Highback Highclaw Highstone
+		Ironback Ironclaw Ironfist Irongut Ironjaw Ironmaw
+		Kargash Kargut Kharok Krakjaw
+		Longback Longclaw Longgut Longmaw Longstone
+		Magmajaw Magmastone Mountainback Mountainborn Mountainclaw Mountainfist Mountainmaw
+		Northback Northclaw Northmaw Northstone
+		Oldback Oldclaw Oldgut Oldmaw Oldstone
+		Peakback Peakclaw Peakfist Peakmaw Peakstone
+		Redback Redclaw Redgut Redmaw Redstone Rockback Rockclaw Rockfist Rockgut Rockmaw Rockstone
+		Shardback Shardclaw Shardgut Shardmaw Shardstone Snowback Snowclaw Snowgut Snowmaw
+		Stoneback Stoneclaw Stonefist Stonegut Stonejaw Stoneshield Stonethorn
+		Thornback Thornclaw Thornmaw Thornstone Thunderback Thunderclaw Thunderfist Thundergut Thundermane
+		Vargut Vorback Vormaw
+		Wargut Warpback Warthorn Wolfback Wolfclaw
 	}
 	graphics = european
 	ethnicities = {
@@ -291,7 +86,9 @@ clanless_ogre_magi = {
 mountain_ogre = {
 	color = rgb{ 153 156 65 }
 	religion = ogre_elements
-	traits = { mountains ogre_heritage }
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { tradition_mountains }
 	male_common_first_names={
 		Agromesh Arbulak Ashrakk
 		Balthruk Bazmok Brondar Brugash
@@ -374,7 +171,9 @@ mountain_ogre = {
 gorian_ogre = {
 	color = rgb{ 116 55 148 }
 	religion = twilight_hammer
-	traits = { highlands ogre_heritage }
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { tradition_highlands }
 	male_common_first_names={
 		Agromesh Arbulak Ashrakk
 		Balthruk Bazmok Brondar Brugash
@@ -457,7 +256,9 @@ gorian_ogre = {
 hill_ogre = {
 	color = rgb{ 215 171 78 }
 	religion = ogre_elements
-	traits = { highlands ogre_heritage }
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { tradition_highlands }
 	male_common_first_names={
 		Agromesh Arbulak Ashrakk
 		Balthruk Bazmok Brondar Brugash
@@ -537,39 +338,12 @@ hill_ogre = {
 	}
 }
 
-dunemaul_ogre = {
-	color = rgb{ 170 172 13 }
-	religion = protestant
-	traits = { dunemaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 gordunni_ogre = {
 	color = rgb{ 136 182 71 }
 	religion = burning_legion
-	traits = { ogre_heritage }
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { }
 	male_common_first_names={
 		Test Test Test Test Test Test
 	}
@@ -595,260 +369,84 @@ gordunni_ogre = {
 	}
 }
 
-lower_city_ogre = {
-	color = rgb{ 50 125 109 }
-	religion = protestant
-	traits = { lowercity ogre_heritage }
+jungle_ogre = {
+	color = rgb{ 120 171 15 }
+	religion = ogre_elements
+	heritage = ogre_heritage
+	language = language_ogre
+	traditions = { tradition_swamp tradition_jungle }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Agromesh Arbulak Ashrakk
+		Balthruk Bazmok Brondar Brugash
+		Crovmar Crunlok Cythrak
+		Draghul Dronmak Druthar
+		Ekmash Erogar Ezthrak
+		Farnok Floggar Frumgar
+		Garkul Garrosh Gholmak Grondir Grubash
+		Hadrak Harnok Hogrun Horvak
+		Irgash Ivogar
+		Jorvak Jugmarr
+		Kalthor Karzug Krundal Kuzmok
+		Lazrak Lorgash Lugthar
+		Magral Mogthas Mornuk Murgash
+		Nagthrul Nombar Norvak
+		Ogthur Omrak Orgoth Ovrun
+		Pragash Prothmar
+		Ragath Raskul Rogath Rulmar
+		Shagrum Skorthar Slugmak Snorvak
+		Tagrul Thokmar Thuldar
+		Urgoth Uzmor
+		Vargul Vorgash Vrothar
+		Worgath Wumrak
+		Zagrum Zalthor Zovrak
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
+		Agrolith Arveth Ashrik
+		Bargith Bazun Bragorth Brugeth
+		Chorgith Cruneth Cyrgol
+		Draveth Dronik Drusketh
+		Egrith Elbryn Envok
+		Farnith Flogrun Frugoth
+		Garneth Gathor Grumvik Grusketh
+		Harnith Hogrun Horvok
+		Ibrith Ignor Ithrun
+		Jargol Jarnith Jorvok
+		Kargith Keldrun Krugoth Kuzrik
+		Lobrik Lorgath Lugrik
+		Magroth Mavrik Morneth Murgol
+		Nargith Nolruk Norvik
+		Ogthar Ombrith Orgoth Ovrik
+		Pruneth Pruvik
+		Ragoth Ralvik Rogrun Rusketh
+		Shargith Skorvik Slugoth Snorvik
+		Tagroth Tholrik Thurneth
+		Ugrith Ulrok Urveth
+		Vargith Vornik Vrothun
+		Worgith Wurnok
+		Zagoth Zelrik Zorvik
 	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-moknathal_halfogre = {
-	color = rgb{ 169 150 44 }
-	religion = protestant
-	traits = { moknathal orc_heritage ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ogrila_ogre = {
-	color = rgb{ 193 148 75 }
-	religion = protestant
-	traits = { ogrila ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ogrila_ogre_magi = {
-	color = rgb{ 193 178 75 }
-	religion = protestant
-	traits = { ogrila ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shadowcouncil_ogre_magi = {
-	color = rgb{ 77 56 138 }
-	religion = protestant
-	traits = { shadowcouncil ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-shattered_hand_ogre_magi = {
-	color = rgb{ 193 91 160 }
-	religion = protestant
-	traits = { shattered_hand ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-stonemaul_ogre = {
-	color = rgb{ 118 101 35 }
-	religion = protestant
-	traits = { stonemaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-warmaul_ogre = {
-	color = rgb{ 111 73 31 }
-	religion = protestant
-	traits = { warmaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-warmaul_ogre_magi = {
-	color = rgb{ 167 90 44 }
-	religion = protestant
-	traits = { warmaul ogre_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashback Ashfist Ashgut Ashmaw Ashstone
+		Balejaw Balefang Blackclaw Blackrock Blackstone Bloodback Bloodfist Bloodmaw Boulderback Boulderclaw Boulderfist Bouldergut
+		Cliffback Cliffbrow Cliffclaw Cliffmaw Cliffstone
+		Deepback Deepgut Deepmaw Deepstone
+		Earthbinder Earthcinder Earthmaw Earthshaker Earthshaper
+		Frostback Frostclaw Frostgut Frostmaw Froststone
+		Graniteback Granitefist Granitejaw Graniteshield
+		Hardback Hardclaw Hardgut Hardmaw Highback Highclaw Highstone
+		Ironback Ironclaw Ironfist Irongut Ironjaw Ironmaw
+		Kargash Kargut Kharok Krakjaw
+		Longback Longclaw Longgut Longmaw Longstone
+		Magmajaw Magmastone Mountainback Mountainborn Mountainclaw Mountainfist Mountainmaw
+		Northback Northclaw Northmaw Northstone
+		Oldback Oldclaw Oldgut Oldmaw Oldstone
+		Peakback Peakclaw Peakfist Peakmaw Peakstone
+		Redback Redclaw Redgut Redmaw Redstone Rockback Rockclaw Rockfist Rockgut Rockmaw Rockstone
+		Shardback Shardclaw Shardgut Shardmaw Shardstone Snowback Snowclaw Snowgut Snowmaw
+		Stoneback Stoneclaw Stonefist Stonegut Stonejaw Stoneshield Stonethorn
+		Thornback Thornclaw Thornmaw Thornstone Thunderback Thunderclaw Thunderfist Thundergut Thundermane
+		Vargut Vorback Vormaw
+		Wargut Warpback Warthorn Wolfback Wolfclaw
 	}
 	graphics = european
 	ethnicities = {

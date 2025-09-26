@@ -334,7 +334,6 @@ historical_agitators_yearly_events = {
 		10 = historical_agitators.20
 		10 = historical_agitators.21
 		10 = historical_agitators.22
-		100 = gg_korea.3
 		100 = sikh_empire.9
 		100 = india_nationalism_events.4
 		100 = india_nationalism_events.5

@@ -34,7 +34,7 @@ building_arts_academy = {
 
 	city_type = city
 
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	unlocking_technologies = {
 		romanticism
@@ -58,7 +58,7 @@ building_arts_academy = {
 building_power_plant = {
 	building_group = bg_power
 	icon = "gfx/interface/icons/building_icons/power_plant.dds"
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	city_type = city
 
@@ -70,7 +70,7 @@ building_power_plant = {
 		pmg_base_building_power_plant
 	}
 
-	required_construction = construction_cost_very_high
+	required_construction = construction_cost_medium
 
 	ai_value = {
 		value = 1000
@@ -92,7 +92,7 @@ building_power_plant = {
 
 	possible = {
 		owner = {
-			NOT = { has_law = law_type:law_industry_banned }
+			NOT = { has_law_or_variant = law_type:law_industry_banned }
 		}
 	}
 

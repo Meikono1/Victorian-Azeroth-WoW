@@ -40,7 +40,7 @@ POPS = {
 		
 		region_state:RIVERPAW_PACK = {
 			create_pop = {
-				culture = mudmane_gnoll
+				culture = mudmane
 				size = 340000
 			}
 		}
@@ -141,7 +141,7 @@ POPS = {
 	s:STATE_SENTINEN_HILL = {
 		region_state:RIVERPAW_PACK = {
 			create_pop = {
-				culture = mudmane_gnoll
+				culture = mudmane
 				size = 350000
 			}
 		}
@@ -162,7 +162,7 @@ POPS = {
 		
 		region_state:RIVERPAW_PACK = {
 			create_pop = {
-				culture = mudmane_gnoll
+				culture = mudmane
 				size = 370000
 			}
 		}
@@ -192,7 +192,7 @@ POPS = {
 		}
 		region_state:RIVERPAW_PACK = {
 			create_pop = {
-				culture = mudmane_gnoll
+				culture = mudmane
 				size = 350000
 			}
 		}
@@ -315,7 +315,7 @@ POPS = {
 	s:STATE_MARSHTIDE_WATCH = {
 		region_state:LOST_ONES = {
 			create_pop = {
-				culture = lost_ones_broken
+				culture = krokul
 				size = 130000
 			}
 		}

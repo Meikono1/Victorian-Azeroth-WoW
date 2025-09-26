@@ -1,119 +1,90 @@
-galak_centaur = {
+centaur = {
 	color = rgb{ 38 66 100 }
-	religion = protestant
-	traits = { galak centaur_heritage }
+	religion = centaur_elements
+	heritage = centaur_heritage
+	language = language_centaur
+	traditions = { tradition_galak }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Akaros Argedon Ashkar Atroon
+		Bargath Belkor Brakkan Bryzor
+		Cadrin Calkor Cendros Cyrvak
+		Dargol Draven Drukash Drynor
+		Eldrak Enkor Ethron Ezvar
+		Falkor Fendros Ferak Flamir
+		Galdros Garokh Gelmar Gryvak
+		Harkon Helvar Horak Hyndros
+		Ikaros Ilgath Irvak Istran
+		Jarkor Jeldran Jorvak Jyrkon
+		Kadrin Kalgor Karthos Keldrak Kryvon
+		Larkhan Ledros Lorgath Lyrkon
+		Magran Malkor Maroth Myrdak
+		Nargol Neldros Norvak Nyron
+		Odaros Okhran Othrak Ovrin
+		Palkor Pendros Pharok Prydan
+		Raknor Relgath Rhydor Rukash
+		Sargol Selkor Sharnak Skryvon
+		Talgor Ternak Tharvos Trydan
+		Uldros Ulgath Urvak Uthran
+		Vandros Varkhan Velkor Vrydon
+		Wargath Welkor Wrynak
+		Xandros Xelkor Xyrvak
+		Yarvos Yeldran Yrkor
+		Zandor Zelgath Zorkhan Zyrvak
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aelora Akria Aletheia Arannis
+		Beryssa Belara Brinelle Brythia
+		Calandra Cenyra Ceressa Cyloria
+		Daenia Dalessa Drusara Drynelle
+		Elaria Elnyssa Ephyra Ezrinna
+		Faelia Farissa Ferona Fylara
+		Galessa Gavria Gelindra Grythia
+		Halora Helessa Herynna Hyssara
+		Ilyra Inessa Iridra Iskara
+		Jalessa Janyra Jelindra Jorythia
+		Kaelia Kalara Kerynne Kyssara
+		Laerisa Larona Lethyra Lysandra
+		Maelia Malora Merissa Myrrha
+		Naelara Neryssa Noralyn Nyssa
+		Olaria Olenya Orissa Osyra
+		Paelia Parissa Pelara Pyrone
+		Qalessa Qenyra Qirynna Qysara
+		Raelia Rhyssa Rilandra Rysene
+		Saelina Seloria Serapha Syrissa
+		Taenia Talora Thalindra Tysara
+		Ulara Ulyssa Umara Urythia
+		Vaelia Valora Venessa Vyrine
+		Waelia Welora Wynessa Wyssia
+		Xalenna Xenyra Xilessa Xyra
+		Yaelia Ylissa Yrena Ysoria
+		Zalessa Zenara Zorynna Zylia
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-gelkis_centaur = {
-	color = rgb{ 24 96 108 }
-	religion = protestant
-	traits = { gelkis centaur_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-magram_centaur = {
-	color = rgb{ 107 69 32 }
-	religion = protestant
-	traits = { magram centaur_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-maroudin_centaur = {
-	color = rgb{ 57 101 30 }
-	religion = protestant
-	traits = { maroudin centaur_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Alderhoof Amberstep Arrowgale Ashfield
+		Briarhoof Broadstep Brookwind Buckthorn
+		Claymane Cliffstride Cloudplain Courselight
+		Dawnfield Dustrider Dunehoof
+		Embermane Evergallop
+		Farwind Fieldstride Flintmane
+		Galehoof Grassrunner Greyfield
+		Highplain Hillrunner Hornwind
+		Ironstep Ironsky
+		Juniperhoof Junerun
+		Keenwind Kestrelstep Kindredmane
+		Leafmane Lightstep Longplain
+		Meadowhoof MesaRunner Moonstep
+		Nightgallop Northfield
+		Oakstride Openwind Overplain
+		Pathhoof Prairiehoof Proudstep
+		Quickgallop Quillhoof
+		Rainstep Redmane Rivergallop Ridgewind
+		Sagehoof Sandrunner Skyhoof Spearbloom Stormstep Sunplain Swiftgallop
+		Thornhoof Thunderstep Trailhoof
+		Umberfield Uplandhoof
+		Valegallop Veldhoof Verdantmane
+		Wanderstep Westplain Wheatmane Wildrunner Windmane
+		Yarrowstep Yellowhoof
+		Zephyrgallop Zephyrstep
 	}
 
 	graphics = european
