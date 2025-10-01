@@ -1,0 +1,19 @@
+﻿STATE_ZANDALAR = {
+    id = 3401
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x1CC9CC" "x1D7F5E" "x5F9550" "x68C89A" "x807060" "x91E56C" "xBE6A23" "xDABB9C" "xFE18C1" }
+    traits = {}
+    city = ""
+    port = ""
+    farm = ""
+    mine = ""
+    wood = ""
+    arable_land = 30
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 36
+        bg_lead_mining = 18
+        bg_logging = 23
+        bg_fishing = 11
+    }
+}

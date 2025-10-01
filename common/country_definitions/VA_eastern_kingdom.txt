@@ -1050,6 +1050,17 @@ THORIUM_BROTHERHOOD = {
 	capital = STATE_FIREWATCH_RIDGE
 }
 
+TRANQUILLIEN = {
+	color = { 158 118 71 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { sin_dorei }
+	capital = STATE_TRANQUILLIEN
+}
+
 TORNFIN_MURLOCS = {
 	color = { 34 144 89 }
 	

@@ -1051,7 +1051,7 @@ STATE_RED_STONE_RUN = {
 STATE_WOOD_OF_STAVES = {
     id = 3151
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x142566" "x30F1AF" "x32BA7F" "x34FFC4" "x3701A3" "x382709" "x38CCDA" "x3DB0B9" "x3FA10D" "x41B060" "x44578C" "x466F62" "x5D400F" "x64A12B" "x69D9F4" "x6AB1CB" "x6FEED1" "x700080" "x80E4E1" "x9DE783" "xB0C040" "xC070A0" "xC0F0A0" "xDA35F1" "xE131D0" "xE92D8F" }
+    provinces = { "x142566" "x32BA7F" "x34FFC4" "x3701A3" "x3DB0B9" "x3FA10D" "x41B060" "x44578C" "x466F62" "x5D400F" "x64A12B" "x69D9F4" "x6AB1CB" "x6FEED1" "x700080" "x80E4E1" "x9DE783" "xB0C040" "xC070A0" "xC0F0A0" "xDA35F1" "xE131D0" "xE92D8F" }
     traits = {}
     city = ""
     port = ""
@@ -1072,28 +1072,7 @@ STATE_WOOD_OF_STAVES = {
 STATE_MORNING_BREEZE_VILLAGE = {
     id = 3152
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x09D625" "x1343FA" "x13444D" "x169E2D" "x20AE87" "x211ECF" "x4030E0" "x553125" "x588437" "x64C2B3" "x655491" "x68FFB7" "x70C503" "x71249D" "x8D8744" "x8F1825" "xA58ED2" "xAD9186" "xB040C0" "xC2C164" "xD710D1" "xE55147" "xE7E218" "xF0EF86" }
-    traits = {}
-    city = ""
-    port = ""
-    farm = ""
-    mine = ""
-    wood = ""
-    arable_land = 30
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_iron_mining = 36
-        bg_lead_mining = 18
-        bg_logging = 23
-        bg_fishing = 11
-    }
-    naval_exit_id = 8004
-}
-
-STATE_WRECK_OF_SKYSEEKER = {
-    id = 3153
-    subsistence_building = "building_subsistence_pastures"
-    provinces = { "x00B0DF" "x017021" "x09F8D1" "x0CB556" "x241E05" "x4CA291" "x4FDA9B" "x55D475" "x80B060" "x80B0E0" "x872ACE" "x89332A" "xA18555" "xA99276" "xAA21EB" "xB5760C" "xE10ECF" "xE3DC87" "xEB9FD7" "xF5BD8F" "xFBA38B" }
+    provinces = { "x09D625" "x1343FA" "x13444D" "x20AE87" "x211ECF" "x4030E0" "x553125" "x588437" "x64C2B3" "x68FFB7" "x70C503" "x71249D" "x8D8744" "x8F1825" "xA58ED2" "xAD9186" "xC2C164" "xD710D1" "xE7E218" }
     traits = {}
     city = ""
     port = ""
@@ -1112,7 +1091,7 @@ STATE_WRECK_OF_SKYSEEKER = {
 }
 
 STATE_PEI_WU_FOREST = {
-    id = 3154
+    id = 3153
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x03630A" "x0BE32E" "x2C7B0C" "x35E580" "x4905D7" "x4B7FA5" "x57585A" "x5E72D3" "x60D60F" "x6E99FA" "x71BA88" "x8A452E" "x8AE0DC" "x8EFEFC" "x912BDA" "x92941B" "x943855" "x9C7154" "x9FB105" "x9FC86F" "xA2C3E8" "xA2E8C5" "xB8C2BA" "xC19656" "xC6F164" "xC6FC10" "xD37C65" "xE057F4" "xE3EF67" "xE8E7A2" "xF99813" "xFF1B6D" }
     traits = {}
@@ -1133,9 +1112,9 @@ STATE_PEI_WU_FOREST = {
 }
 
 STATE_DAI_LO_FARMSTEAD = {
-    id = 3155
+    id = 3154
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x015121" "x0264AE" "x0A3F4D" "x1C2FB8" "x20999F" "x38F85A" "x396B2F" "x3A8B51" "x3BED19" "x415040" "x5BB27E" "x665341" "x6BED25" "x73B0D9" "x7AAA53" "x8A60EF" "x918816" "x969B20" "x994DF0" "x9B5F76" "x9B6910" "xA487BA" "xA5EEB0" "xACA7FD" "xBF10BF" "xD2C1B9" "xD97D9F" "xDB89A8" "xEA2F67" "xEE0054" "xF2786A" }
+    provinces = { "x015121" "x0A3F4D" "x1C2FB8" "x20999F" "x38F85A" "x3A8B51" "x415040" "x5BB27E" "x665341" "x7AAA53" "x8A60EF" "x918816" "x969B20" "x994DF0" "x9B5F76" "x9B6910" "xA487BA" "xA5EEB0" "xACA7FD" "xBF10BF" "xD2C1B9" "xD97D9F" "xDB89A8" "xEE0054" "xF2786A" }
     traits = {}
     city = ""
     port = ""
@@ -1154,9 +1133,9 @@ STATE_DAI_LO_FARMSTEAD = {
 }
 
 STATE_TEMPLE_FIVE_DAWNS = {
-    id = 3156
+    id = 3155
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0A5153" "x0A68E0" "x28C6D1" "x372422" "x445B0F" "x466F4E" "x5E6DE0" "x735E95" "x875397" "xA1D13D" "xA49B9D" "xB22914" "xD5697A" }
+    provinces = { "x0A5153" "x0A68E0" "x28C6D1" "x445B0F" "x466F4E" "x5E6DE0" "x735E95" "x875397" "xA1D13D" "xA49B9D" "xB22914" "xD5697A" }
     traits = {}
     city = ""
     port = ""
@@ -1175,7 +1154,7 @@ STATE_TEMPLE_FIVE_DAWNS = {
 }
 
 STATE_SINGING_POOLS = {
-    id = 3157
+    id = 3156
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x18C7C6" "x1EA24F" "x2CDB86" "x4015A9" "x51E7A3" "x52A7BD" "x5743DD" "x576B59" "x63F238" "x6E3FFF" "x7281B9" "x8070DF" "x85804E" "x891E67" "x956DE6" "x9CF8BD" "xA63DC7" "xAC0C13" "xBA7175" "xD80A79" "xD82B39" "xEFB805" "xF1C7F1" }
     traits = {}
@@ -1196,9 +1175,9 @@ STATE_SINGING_POOLS = {
 }
 
 STATE_SHANG_XI_TRAINING_GROUNDS = {
-    id = 3158
+    id = 3157
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0170E0" "x01B2D8" "x0FF449" "x129FA5" "x241E43" "x3040C0" "x3834CF" "x4070A0" "x40EFA0" "x4FD77D" "x5ADBFF" "x5E4B82" "x769456" "x7DE678" "x90A080" "x9B6D87" "x9D3A73" "xBC8ADC" "xC0B0E0" "xE697E6" "xE6DB67" }
+    provinces = { "x01B2D8" "x0FF449" "x129FA5" "x241E43" "x3834CF" "x4070A0" "x40EFA0" "x4FD77D" "x5ADBFF" "xC0B0E0" "xE697E6" "xE6DB67" }
     traits = {}
     city = ""
     port = ""
@@ -1217,9 +1196,9 @@ STATE_SHANG_XI_TRAINING_GROUNDS = {
 }
 
 STATE_WU_SONG_WILLAGE = {
-    id = 3159
+    id = 3158
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x141ABA" "x1A77EA" "x202061" "x20EF01" "x2D2CC8" "x2E8EE8" "x2EA8EE" "x349E91" "x38B60D" "x482E88" "x51BDFA" "x544E52" "x5694AE" "x78B5D4" "x928FFD" "x939ACE" "x9963BE" "xA05932" "xBDD368" "xC0B060" "xC3A894" "xC5CE93" "xC82A67" "xC82AAC" "xE050A0" "xF8D42E" }
+    provinces = { "x141ABA" "x202061" "x20EF01" "x2D2CC8" "x2E8EE8" "x2EA8EE" "x349E91" "x482E88" "x544E52" "x5694AE" "x78B5D4" "x9963BE" "xA05932" "xBDD368" "xC0B060" "xC82A67" "xC82AAC" "xE050A0" "xF8D42E" }
     traits = {}
     city = ""
     port = ""

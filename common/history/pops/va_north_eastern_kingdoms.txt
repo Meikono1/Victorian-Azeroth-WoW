@@ -169,7 +169,7 @@ POPS = {
 				size = 860000
 			}
 		}
-		region_state:SILVERMOON = {
+		region_state:TRANQUILLIEN = {
 			create_pop = {
 				culture = sin_dorei
 				size = 230000
@@ -223,7 +223,7 @@ POPS = {
 				size = 20000
 			}
 		}
-		region_state:SILVERMOON = {
+		region_state:TRANQUILLIEN = {
 			create_pop = {
 				culture = sin_dorei
 				size = 230000

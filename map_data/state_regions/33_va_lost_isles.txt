@@ -1,0 +1,19 @@
+﻿STATE_LOST_ISLES_LEGION = {
+    id = 3301
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x02FBFB" "x0B769F" "x1D7CB1" "x20D060" "x4FD1AE" "x50D95C" "x7CAD29" "x8BC60B" "xB70CA0" "xDC55AB" }
+    traits = {}
+    city = ""
+    port = ""
+    farm = ""
+    mine = ""
+    wood = ""
+    arable_land = 30
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 36
+        bg_lead_mining = 18
+        bg_logging = 23
+        bg_fishing = 11
+    }
+}

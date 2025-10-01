@@ -1,0 +1,10 @@
+﻿STATES = {
+	s:STATE_DREANOR = {
+		create_state = {
+			country = c:DREANOR
+			owned_provinces = { x00F060 x1EC145 x1EDF69 x54DF0B x5D87C7 x79A9F3 x92702E xA05060 xC1BD52 xF1BF17 xFD7FD6 }
+		}
+
+		add_homeland = cu:kvaldir
+	}
+}

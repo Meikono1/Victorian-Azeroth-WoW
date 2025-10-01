@@ -36,6 +36,12 @@
 			type = protectorate
 		}
 	}
+	c:SILVERMOON ?= {
+		create_diplomatic_pact = {
+			country = c:TRANQUILLIEN
+			type = protectorate
+		}
+	}
 	c:STORMWIND ?= {
 		create_diplomatic_pact = {
 			country = c:HIGHBANK_EXPEDITION

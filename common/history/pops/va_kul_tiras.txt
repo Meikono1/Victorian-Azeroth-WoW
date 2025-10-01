@@ -1,0 +1,10 @@
+﻿POPS = {	
+	s:STATE_KUL_TIRAS = {
+		region_state:KULTIRAS = {
+			create_pop = {
+				culture = sin_dorei
+				size = 10000
+			}
+		}
+	}
+}

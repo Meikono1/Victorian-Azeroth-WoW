@@ -60,6 +60,30 @@ region_maelstrom = {
 	states = { STATE_KEZAN STATE_LOST_ISLES }
 }
 
+region_kul_tiras = {
+	capital_province = xDB6370
+	map_color = { 200 200 0 }
+	states = { STATE_KUL_TIRAS }
+}
+
+region_dreanor = {
+	capital_province = x1EC145
+	map_color = { 200 200 0 }
+	states = { STATE_DREANOR }
+}
+
+region_lost_isles = {
+	capital_province = x7CAD29
+	map_color = { 200 200 0 }
+	states = { STATE_LOST_ISLES_LEGION }
+}
+
+region_zandalar = {
+	capital_province = xBE6A23
+	map_color = { 200 200 0 }
+	states = { STATE_ZANDALAR }
+}
+
 region_felwood = {
 	capital_province = xE7837C
 	map_color = { 200 200 0 }

@@ -1061,15 +1061,6 @@ STATES = {
 		add_homeland = cu:kvaldir
 	}
 	
-	s:STATE_WRECK_OF_SKYSEEKER = {
-		create_state = {
-			country = c:PANDARIA
-			owned_provinces = { x00B0DF x017021 x09F8D1 x0CB556 x241E05 x4CA291 x4FDA9B x55D475 x80B060 x80B0E0 x872ACE x89332A xA18555 xA99276 xAA21EB xB5760C xE10ECF xE3DC87 xEB9FD7 xF5BD8F xFBA38B }
-		}
-
-		add_homeland = cu:kvaldir
-	}
-	
 	s:STATE_PEI_WU_FOREST = {
 		create_state = {
 			country = c:PANDARIA

@@ -3728,3 +3728,47 @@ PANDARIA = {
 	cultures = { kvaldir }	
 	capital = STATE_MOGUSHAN_PALACE
 }
+
+DREANOR = {
+	color = { 6 6 54 }
+	
+	country_type = decentralized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_DREANOR
+}
+
+LOSTISLES = {
+	color = { 45 156 39 }
+	
+	country_type = decentralized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_LOST_ISLES_LEGION
+}
+
+ZANDALAR = {
+	color = { 154 158 44 }
+	
+	country_type = decentralized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_ZANDALAR
+}
+
+KULTIRAS = {
+	color = { 44 130 158 }
+	
+	country_type = decentralized
+	
+	tier = empire
+	
+	cultures = { kvaldir }	
+	capital = STATE_KUL_TIRAS
+}
