@@ -5,7 +5,6 @@
 	generated_content=no
 	layer="static"
 	entity="african_lighthouse_01_entity"
-	count=0
 }
 object={
 	name="arabic_lighthouse_01"
@@ -14,7 +13,6 @@ object={
 	generated_content=no
 	layer="static"
 	entity="arabic_lighthouse_01_entity"
-	count=0
 }
 object={
 	name="asian_lighthouse_01"
@@ -23,7 +21,6 @@ object={
 	generated_content=no
 	layer="static"
 	entity="asian_lighthouse_01_entity"
-	count=0
 }
 object={
 	name="bird_duck_01"
@@ -32,7 +29,6 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="duck_01_frame_entity"
-	count=0
 }
 object={
 	name="bird_eagle_01"
@@ -41,7 +37,6 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="eagle_01_frame_entity"
-	count=0
 }
 object={
 	name="bird_vulture_01"
@@ -50,7 +45,6 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="vulture_01_frame_entity"
-	count=0
 }
 object={
 	name="canyon_01"
@@ -59,7 +53,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_01_mesh"
-	count=0
 }
 object={
 	name="canyon_02"
@@ -68,7 +61,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_02_mesh"
-	count=0
 }
 object={
 	name="canyon_03"
@@ -77,7 +69,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_03_mesh"
-	count=0
 }
 object={
 	name="canyon_04"
@@ -86,7 +77,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_04_mesh"
-	count=0
 }
 object={
 	name="canyon_05"
@@ -95,7 +85,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_05_mesh"
-	count=0
 }
 object={
 	name="canyon_06"
@@ -104,7 +93,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_06_mesh"
-	count=0
 }
 object={
 	name="canyon_07"
@@ -113,7 +101,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_07_mesh"
-	count=0
 }
 object={
 	name="canyon_08"
@@ -122,7 +109,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_08_mesh"
-	count=0
 }
 object={
 	name="canyon_09"
@@ -131,7 +117,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_09_mesh"
-	count=0
 }
 object={
 	name="canyon_10"
@@ -140,7 +125,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_10_mesh"
-	count=0
 }
 object={
 	name="canyon_11"
@@ -149,7 +133,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_11_mesh"
-	count=0
 }
 object={
 	name="canyon_12"
@@ -158,7 +141,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_12_mesh"
-	count=0
 }
 object={
 	name="canyon_13"
@@ -167,7 +149,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_13_mesh"
-	count=0
 }
 object={
 	name="canyon_14"
@@ -176,7 +157,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_14_mesh"
-	count=0
 }
 object={
 	name="canyon_15"
@@ -185,7 +165,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_15_mesh"
-	count=0
 }
 object={
 	name="canyon_16"
@@ -194,7 +173,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="cliff_canyon_16_mesh"
-	count=0
 }
 object={
 	name="european_lighthouse_01"
@@ -203,7 +181,6 @@ object={
 	generated_content=no
 	layer="static"
 	entity="european_lighthouse_01_entity"
-	count=0
 }
 object={
 	name="latin_lighthouse_01"
@@ -212,7 +189,6 @@ object={
 	generated_content=no
 	layer="static"
 	entity="latin_lighthouse_01_entity"
-	count=0
 }
 object={
 	name="rockformation_granite_03"
@@ -221,7 +197,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_06_mesh"
-	count=0
 }
 object={
 	name="rockformation_granite_04"
@@ -230,7 +205,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_07_mesh"
-	count=0
 }
 object={
 	name="rockformation_granite_05"
@@ -239,7 +213,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_08_mesh"
-	count=0
 }
 object={
 	name="rockformation_granite_06"
@@ -248,7 +221,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_09_mesh"
-	count=0
 }
 object={
 	name="rockformation_sandstone_01"
@@ -257,7 +229,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_sandstone_01_mesh"
-	count=0
 }
 object={
 	name="rockformation_sandstone_03"
@@ -266,7 +237,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_sandstone_03_mesh"
-	count=0
 }
 object={
 	name="rockformation_sandstone_06"
@@ -275,7 +245,6 @@ object={
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="rockformation_sandstone_06_mesh"
-	count=0
 }
 object={
 	name="rubber_lodge_01"
@@ -284,9 +253,8 @@ object={
 	generated_content=no
 	layer="farms_dynamic"
 	pdxmesh="rubber_lodge_01_mesh"
-	count=1
-	transform="5542.467285 0.000000 2891.180420 0.000000 0.979759 0.000000 -0.200181 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/rubber_lodge_01.bin"
+}
 object={
 	name="seagull_01"
 	clamp_to_water_level=yes
@@ -294,7 +262,6 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="seagull_port_entity"
-	count=0
 }
 object={
 	name="smoke_chimney_01"
@@ -303,7 +270,6 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="smoke_chimney_01"
-	count=0
 }
 object={
 	name="whale_01"
@@ -312,39 +278,8 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="whale_entity"
-	count=31
-	transform="5246.494141 0.000000 1369.819336 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-5468.133789 0.000000 1766.457764 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-5631.006348 0.000000 2232.995605 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-5015.231934 0.000000 2133.987793 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-4251.010742 0.000000 2028.243164 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-3406.218994 0.000000 2449.883301 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2288.892090 0.000000 2519.631836 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-1645.494263 0.000000 2997.369385 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2846.158936 0.000000 3040.990723 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-783.553223 0.000000 2178.077637 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-797.531860 0.000000 3063.030029 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-1298.639282 0.000000 3315.770752 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2214.848145 0.000000 968.117676 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2127.877197 0.000000 287.414337 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-1762.952637 0.000000 216.134705 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-920.772339 0.000000 316.276276 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-685.022339 0.000000 898.281921 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2728.947266 0.000000 377.453064 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-3703.095459 0.000000 1066.997559 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-4773.358398 0.000000 823.430603 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-4594.605469 0.000000 476.584442 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-5289.395996 0.000000 206.179077 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-6060.006348 0.000000 2644.031250 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-6102.435547 0.000000 3123.282471 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-6874.957520 0.000000 3236.159668 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-5381.348145 0.000000 3242.228516 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-4684.959473 0.000000 3081.132080 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-3020.695068 0.000000 3435.434814 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-2648.472656 0.000000 3320.459473 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-6786.259766 0.000000 1741.110352 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-7202.950684 0.000000 2105.551270 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/whale_01.bin"
+}
 object={
 	name="whale_white_01"
 	clamp_to_water_level=yes
@@ -352,6 +287,5 @@ object={
 	generated_content=no
 	layer="environmental_effects"
 	entity="whale_white_entity"
-	count=1
-	transform="4375.608398 0.000000 3483.159424 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/whale_white_01.bin"
+}

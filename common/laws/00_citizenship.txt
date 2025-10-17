@@ -32,7 +32,7 @@ law_subjecthood = {
 		country_support_separatism_strength_mult = -0.5
 
 		#If primary culture, only apply this value
-		country_acceptance_primary_culture_add = 50
+		country_acceptance_primary_culture_add = 100
 		country_acceptance_homeland_add = 30
 		country_acceptance_not_homeland_add = 0
 
@@ -50,7 +50,7 @@ law_subjecthood = {
 
 		#Tradition
 		#From this block, we only apply the highest value a Pop qualifies for
-		country_acceptance_shared_tradition_trait_add = 30
+		country_acceptance_shared_tradition_trait_add = 25
 		country_acceptance_no_shared_tradition_trait_add = 0
 	}
 

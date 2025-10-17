@@ -1,0 +1,6 @@
+﻿l_english:
+  assassination_events.1.t: "The Invisible Men"
+  assassination_events.1.d: "Reliable sources inform about an internal plot to end the life of [SCOPE.sCharacter('assassination_ruler_scope').GetFullNameWithTitle]. If we don't act in time, the stability of the nation will not be guaranteed."
+  assassination_events.1.f: "Maybe it's their tone, perhaps the inevitable anxiety that comes with power. A dark, sweet kindness so disingenuous that makes even traitors dread a last supper.\n\n"People talk, and some of them wish for [SCOPE.sCharacter('assassination_ruler_scope').GetFullNameNoFormatting] to talk no more."\n\nThirty pieces of silver, a symbolic price. Today, maybe tomorrow — if we're lucky."
+  assassination_events.1.a: "We shall find and hang them!"
+  advance_assassination_progress_tt: "This will advance our progress to determine who is plotting against our ruler."

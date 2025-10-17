@@ -5,7 +5,7 @@ draenei = {
 	language = language_eredar
 	traditions = { tradition_lowlands tradition_temperate_forest }
 	male_common_first_names={
-		Akaan Akhar A'duun Aruven Atalos
+		Akaan Akhar A_duun Aruven Atalos
 		Baraan Bekor Boruun Brythis
 		Cadar Celesar Cyrun
 		Daevik Dekhan Dorath Dythor
@@ -65,7 +65,7 @@ draenei = {
 		Belmara Bronaar
 		Calaaris
 		Daelthun Duraan
-		Elun'dar Eruulon
+		Elun_dar Eruulon
 		Faelstrom Faraadun
 		Gaarun Graelith
 		Halaar Huraan
@@ -100,7 +100,7 @@ eredar = {
 	language = language_eredar
 	traditions = { }
 	male_common_first_names={
-		Akaan Akhar A'duun Aruven Atalos
+		Akaan Akhar A_duun Aruven Atalos
 		Baraan Bekor Boruun Brythis
 		Cadar Celesar Cyrun
 		Daevik Dekhan Dorath Dythor
@@ -160,7 +160,7 @@ eredar = {
 		Belmara Bronaar
 		Calaaris
 		Daelthun Duraan
-		Elun'dar Eruulon
+		Elun_dar Eruulon
 		Faelstrom Faraadun
 		Gaarun Graelith
 		Halaar Huraan
@@ -195,7 +195,7 @@ krokul = {
 	language = language_eredar
 	traditions = { tradition_swamp tradition_barren }
 	male_common_first_names={
-		Akaan Akhar A'duun Aruven Atalos
+		Akaan Akhar A_duun Aruven Atalos
 		Baraan Bekor Boruun Brythis
 		Cadar Celesar Cyrun
 		Daevik Dekhan Dorath Dythor
@@ -255,7 +255,7 @@ krokul = {
 		Belmara Bronaar
 		Calaaris
 		Daelthun Duraan
-		Elun'dar Eruulon
+		Elun_dar Eruulon
 		Faelstrom Faraadun
 		Gaarun Graelith
 		Halaar Huraan

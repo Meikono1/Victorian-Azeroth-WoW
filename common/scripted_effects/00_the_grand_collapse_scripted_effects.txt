@@ -1,0 +1,113 @@
+﻿desperate_measures_ig_approval_mod_effect = {
+    if = {
+        limit = {
+            is_interest_group_type = ig_devout
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_devout
+                days = short_modifier_time
+            }
+        }
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_industrialists
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_industrialists
+                days = short_modifier_time
+            }
+        }
+        add_modifier = {
+            name = the_grand_collapse_desperate_measures_industrialists
+            days = short_modifier_time
+        }
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_intelligentsia
+                days = short_modifier_time
+            }
+        }
+
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_landowners
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_landowners
+                days = short_modifier_time
+            }
+        }
+
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_armed_forces
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_armed_forces
+                days = short_modifier_time
+            }
+        }
+
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_petty_bourgeoisie
+                days = short_modifier_time
+            }
+        }
+
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_rural_folk
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_rural_folk
+                days = short_modifier_time
+            }
+        }
+
+    }
+
+    else_if = {
+        limit = {
+            is_interest_group_type = ig_trade_unions
+        }
+        ROOT = {
+            add_modifier = {
+                name = the_grand_collapse_desperate_measures_trade_unions
+                days = short_modifier_time
+            }
+        }
+
+    }
+}
+
+the_grand_collapse_mod_cleanser = {
+    remove_modifier = the_grand_collapse_law_speed_mod
+    remove_modifier = the_grand_collapse_relation_speed_mod
+    remove_modifier = the_grand_collapse_main_mod
+}

@@ -1956,7 +1956,7 @@
 
                 austrian_empire_clothes_trigger = yes
                 OR = {
-					scope:character = {
+                    scope:character = {
                         has_role = general
                     }
                     AND = {

@@ -25,7 +25,7 @@ ideology_pro_slavery_movement = {
 		law_slave_trade = approve
 		law_debt_slavery = approve
 		law_legacy_slavery = approve
-		law_colonial_slavery = approve
+		law_colonial_slavery = disapprove
 		law_slavery_banned = strongly_disapprove
 	}
 
@@ -169,6 +169,14 @@ ideology_proletarian_movement = {
 		law_no_health_system = disapprove
 		law_charitable_health_system = neutral
 		law_public_health_insurance = approve
+	}
+
+	lawgroup_labour_associations = {
+		law_combination_acts = strongly_disapprove
+		law_guild_system = disapprove
+		law_anti_strike_laws = disapprove
+		law_corporatized_unions = neutral
+		law_right_to_associate = approve
 	}
 }
 
@@ -501,17 +509,17 @@ ideology_corporatist_movement = {
 ideology_liberal_movement = {
 	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
 	lawgroup_internal_security = {
+		law_national_guard = approve
 		law_guaranteed_liberties = approve
-		law_no_home_affairs = neutral
-		law_national_guard = neutral
+		law_no_home_affairs = disapprove
 		law_secret_police = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {
-		law_protected_speech = strongly_approve
-		law_right_of_assembly = approve
-		law_censorship = neutral
-		law_outlawed_dissent = disapprove
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
 	}
 
 	lawgroup_distribution_of_power = {
@@ -545,8 +553,8 @@ ideology_liberal_movement = {
 		law_serfdom = disapprove
 		law_tenant_farmers = neutral
 		law_homesteading = neutral
-		law_collectivized_agriculture = neutral
-		law_commercialized_agriculture = strongly_disapprove
+		law_collectivized_agriculture = disapprove
+		law_commercialized_agriculture = approve
 	}
 }
 
@@ -582,9 +590,9 @@ ideology_radical_movement = {
 	}
 
 	lawgroup_internal_security = {
+		law_national_guard = approve
 		law_guaranteed_liberties = approve
 		law_no_home_affairs = neutral
-		law_national_guard = approve
 		law_secret_police = strongly_disapprove
 	}
 
@@ -853,15 +861,15 @@ ideology_liberal_republican_movement = {
 	}
 
 	lawgroup_internal_security = {
+		law_national_guard = approve
 		law_guaranteed_liberties = approve
-		law_national_guard = neutral
-		law_no_home_affairs = neutral
+		law_no_home_affairs = disapprove
 		law_secret_police = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {
-		law_protected_speech = strongly_approve
-		law_right_of_assembly = approve
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
 		law_censorship = disapprove
 		law_outlawed_dissent = strongly_disapprove
 	}
@@ -913,8 +921,8 @@ ideology_pluralist_movement_2 = { # Racial Segregation
 	lawgroup_citizenship = {
 		law_ethnostate = strongly_disapprove
 		law_national_supremacy = disapprove
-		law_subjecthood = approve
 		law_racial_segregation = approve
+		law_subjecthood = neutral
 		law_cultural_exclusion = neutral
 		law_multicultural = neutral
 	}
@@ -1068,6 +1076,14 @@ ideology_orleanist_movement = {
 		law_protectionism = disapprove
 		law_isolationism = strongly_disapprove
 	}
+
+	lawgroup_labour_associations = {
+		law_combination_acts = approve
+		law_guild_system = disapprove
+		law_anti_strike_laws = neutral
+		law_corporatized_unions = neutral
+		law_right_to_associate = disapprove
+	}
 }
 
 
@@ -1085,21 +1101,21 @@ ideology_bonapartist_movement = {
 		law_council_republic = strongly_disapprove
 	}
 
-	lawgroup_distribution_of_power = {
-		law_autocracy = strongly_approve
-		law_oligarchy = approve
+	lawgroup_distribution_of_power = { # Napoleon III was an advocate for universal suffrage. Even if this was opportunistic, it's more accurate to say this than the alternative.
+		law_autocracy = disapprove
+		law_oligarchy = disapprove
 		law_landed_voting = neutral
 		law_wealth_voting = neutral
-		law_single_party_state = neutral
-		law_census_voting = disapprove
-		law_universal_suffrage = disapprove
+		law_single_party_state = strongly_approve
+		law_census_voting = approve
+		law_universal_suffrage = strongly_approve
 		law_anarchy = strongly_disapprove
 		law_technocracy = strongly_disapprove
 	}
 
 	lawgroup_army_model = {
-		law_mass_conscription = approve
-		law_professional_army = strongly_approve
+		law_mass_conscription = strongly_approve
+		law_professional_army = approve
 		law_national_militia = disapprove
 		law_peasant_levies = disapprove
 	}
@@ -1113,6 +1129,14 @@ ideology_bonapartist_movement = {
 		law_command_economy = strongly_disapprove
 		law_industry_banned = strongly_disapprove
 		law_extraction_economy = strongly_disapprove
+	}
+
+	lawgroup_labour_associations = { # Napoleon III was a corporatist.
+		law_combination_acts = disapprove
+		law_guild_system = disapprove
+		law_anti_strike_laws = approve
+		law_corporatized_unions = approve
+		law_right_to_associate = neutral
 	}
 }
 
@@ -1155,6 +1179,14 @@ ideology_legitimist_movement = {
 		law_censorship = approve
 		law_outlawed_dissent = strongly_approve
 	}
+
+	lawgroup_labour_associations = {
+		law_combination_acts = neutral
+		law_guild_system = approve
+		law_anti_strike_laws = neutral
+		law_corporatized_unions = neutral
+		law_right_to_associate = disapprove
+	}
 }
 
 ideology_national_liberal_movement = {
@@ -1163,16 +1195,16 @@ ideology_national_liberal_movement = {
 	character_ideology = yes
 
 	lawgroup_internal_security = {
+		law_national_guard = approve
 		law_guaranteed_liberties = approve
-		law_no_home_affairs = neutral
-		law_national_guard = neutral
+		law_no_home_affairs = disapprove
 		law_secret_police = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {
-		law_protected_speech = strongly_approve
-		law_right_of_assembly = approve
-		law_censorship = neutral
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
 		law_outlawed_dissent = disapprove
 	}
 

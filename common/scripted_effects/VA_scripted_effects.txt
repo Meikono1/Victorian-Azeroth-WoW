@@ -1,0 +1,27 @@
+﻿fra_set_divided_monarchist_variables = {
+	#Bonapartist Variables
+	set_variable = { name = bonapartist_progress_from_characters value = 0 } #Progress-from-character component. This updates with the combined popularities of every Bonapartist character later on, and is used to calculate monthly progress in the progress bar.
+	set_variable = { name = bonapartist_progress_from_igs value = 0 } #Progress-from-IG component. This updates with the combined clout of every Bonapartist IG later on, and is used to calculate monthly progress in the progress bar.
+	set_variable = { name = bonapartist_progress_from_military value = 0 } #Progress-from-military-building component. This updates with the sum of military building levels in France later on, and is used to calculate monthly progress in the progress bar.
+	set_variable = { name = bonapartist_progress_from_legitimacy value = 0 } #Progress-from-legitimacy component. This updates with the current government legitimacy, and is also used to calculate monthly progress in the progress bar.
+	set_variable = { name = bonapartist_progress_from_movements value = 0 } #Progress-from-movements component. This depends upon the support of various movements, and is also used to calculate monthly progress in the progress bar.
+	set_variable = { name = bonapartist_progress_from_effects value = 0 } #Final element in the progress bar. This is defined by various effects, and is based solely on scripted effects. This is how designers can manually grant ticking bonuses or maluses to this mechanic.
+
+	#Orleanist Variables
+	set_variable = { name = orleanist_progress_from_characters value = 0 }
+	set_variable = { name = orleanist_progress_from_igs value = 0 }
+	set_variable = { name = orleanist_progress_from_factories value = 0 } #These variables use the same scheme as the Bonapartist ones, with the exception that Orleanists derive from the sum of light/heavy industry building levels in France.
+	set_variable = { name = orleanist_progress_from_legitimacy value = 0 }
+	set_variable = { name = orleanist_progress_from_movements value = 0 }
+	set_variable = { name = orleanist_progress_from_effects value = 0 }
+
+	#Legitimist Variables
+	set_variable = { name = legitimist_progress_from_characters value = 0 }
+	set_variable = { name = legitimist_progress_from_igs value = 0 }
+	set_variable = { name = legitimist_progress_from_farms value = 0 } #These variables use the same scheme as the Bonapartist ones, with the exception that Legitimists derive from the sum of agricultural building levels in France.
+	set_variable = { name = legitimist_progress_from_legitimacy value = 0 }
+	set_variable = { name = legitimist_progress_from_movements value = 0 }
+	set_variable = { name = legitimist_progress_from_effects value = 0 }
+
+	set_variable = { name = ig_weight value = 0 } #This variable is used solely for mathematical purposes, and is set as equivalent to the clout of a given interest group. It exists so that IGs can be weighted higher or lower depending on whether they're in-government or not.
+}

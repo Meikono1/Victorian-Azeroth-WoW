@@ -288,8 +288,8 @@ gov_anglo_parliamentary_provincial = {
 	transfer_of_power = parliamentary_elective
 	new_leader_on_reform_government = no
 
-	male_ruler = "RULER_TITLE_PREMIER"
-	female_ruler = "RULER_TITLE_PREMIER"
+	male_ruler = "RULER_PREMIER"
+	female_ruler = "RULER_PREMIER"
 
 	possible = {
 		has_law_or_variant = law_type:law_parliamentary_republic

@@ -10,9 +10,18 @@ harsh_ai_behavior_trigger = {
 
 ai_strongly_desires_target_state = {
 	OR = {
-		has_secret_goal = { # AI wants to conquer the state owner
-			who = scope:target_state.owner
-			secret_goal = conquer
+		AND = {
+			has_secret_goal = { # AI wants to conquer the state owner
+				who = scope:target_state.owner
+				secret_goal = conquer
+			}
+			OR = {
+				has_strategic_land_adjacency = scope:target_state # Will limit its ambitions to land borders
+				AND = {
+					scope:target_state.region ?= capital.region # Will try to annex states in its capital region regardless of whether they border it or not
+					can_reach_target_state = yes
+				}
+			}
 		}
 		scope:target_state = { has_claim_by = root } # AI always wants claims
 	}
@@ -38,7 +47,13 @@ ai_desires_target_state = {
 				has_strategy = ai_strategy_world_revolution
 				has_strategy = ai_strategy_territorial_expansion
 			}
-			has_strategic_adjacency = scope:target_state
+			OR = {
+				has_strategic_land_adjacency = scope:target_state # Will limit its ambitions to land borders
+				AND = {
+					scope:target_state.region ?= capital.region # Will try to annex states in its capital region regardless of whether they border it or not
+					can_reach_target_state = yes
+				}
+			}
 		}
 		AND = { # Colonialist AI wants colonies
 			OR = {
@@ -46,7 +61,7 @@ ai_desires_target_state = {
 				has_strategy = ai_strategy_colonial_expansion
 			}
 			scope:target_state.owner = { is_country_type = unrecognized }
-			can_reach_target_state = yes
+			can_reach_target_state = yes  # Willing to go overseas to acquire territories
 		}
 		AND = { # AI wants nearby states if gifted them by overlord
 			has_strategic_adjacency = scope:target_state
@@ -59,7 +74,6 @@ has_enactment_je_or_law_commitment = {
 	OR = {
 		has_journal_entry = je_government_petition
 		has_journal_entry = je_law_imposition
-		has_journal_entry = je_british_dictate_law
 		has_any_law_commitment = yes
 	}
 }
@@ -122,101 +136,16 @@ has_je_conquest_reason = {
 
 has_je_subjugation_reason = {
 	can_reach_target_country = yes
-
-	OR = {
-		AND = {
-			OR = {
-				has_journal_entry = je_sick_man_syria
-				has_journal_entry = je_veiled_protectorate
-			}
-			exists = c:EGY
-			$TARGET$ = c:EGY
-		}
-		AND = { # Open up Japan
-			has_strategy = ai_strategy_economic_imperialism
-			has_technology_researched = nationalism # Just to make sure it doesn't happen immediately in 1836
-			country_rank = rank_value:great_power
-			navy_size >= 25
-			scope:target_country = {
-				exists = c:JAP
-				this = c:JAP
-				has_law = law_type:law_isolationism
-				gdp >= 5000000
-			}
-		}
-		AND = {
-			c:GBR ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_RUS
-			}
-		}
-		AND = {
-			c:RUS ?= this
-			has_variable = committed_to_afghanistan_assistance
-			$TARGET$ = {
-				has_variable = AFG_appealed_to_GBR
-			}
-		}
-		AND = {
-			has_journal_entry = je_maintain_afghan_protectorate
-			$TARGET$ = {
-				capital = {
-					region = sr:region_persia
-				}
-				OR = {
-					country_has_primary_culture = cu:pashtun
-					country_has_primary_culture = cu:tajik
-				}
-			}
-		}
-	}
 }
 
 has_je_befriend_reason = {
 	can_reach_target_country = yes
 	country_rank <= $TARGET$.country_rank
-
-	OR = {
-		AND = {
-			exists = c:RSM
-			THIS = {
-				has_journal_entry = je_risorgimento
-			}
-			has_variable = rsm_friendship
-		}
-	}
 }
 
 has_je_protect_reason = {
 	can_reach_target_country = yes
 	country_rank > $TARGET$.country_rank
-
-	OR = {
-		AND = {
-			exists = c:RSM
-			THIS = {
-				has_journal_entry = je_risorgimento
-			}
-			has_variable = rsm_friendship
-		}
-
-		AND = {
-			has_variable = sided_with_korean_gov
-			scope:target_country = {
-				country_has_primary_culture = cu:korean
-				is_revolutionary = no
-			}
-		}
-
-		AND = {
-			has_variable = sided_with_korean_rebels
-			scope:target_country = {
-				country_has_primary_culture = cu:korean
-				is_revolutionary = yes
-			}
-		}
-	}
 }
 
 has_powerful_protectors = {

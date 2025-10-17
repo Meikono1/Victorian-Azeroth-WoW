@@ -62,6 +62,7 @@ law_interventionism = {
 	disallowing_laws = {
 		law_serfdom
 		law_anarchy
+		law_women_in_the_fields
 	}
 
 	on_activate = {
@@ -132,6 +133,7 @@ law_agrarianism = {
 
 	disallowing_laws = {
 		law_anarchy
+		law_women_in_the_fields
 	}
 
 	unlocking_technologies = {
@@ -317,6 +319,11 @@ law_extraction_economy = {
 		colonization
 	}
 
+	disallowing_laws = {
+		law_anarchy
+		law_women_in_the_fields
+	}
+
 	can_enact = {
 		is_subject = yes
 	}
@@ -414,6 +421,7 @@ law_laissez_faire = {
 		law_isolationism
 		law_anarchy
 		law_guild_system
+		law_women_in_the_fields
 	}
 
 	unlocking_technologies = {
@@ -486,6 +494,7 @@ law_cooperative_ownership = {
 
 	disallowing_laws = {
 		law_serfdom
+		law_women_in_the_fields
 	}
 
 	unlocking_laws = {
@@ -504,7 +513,7 @@ law_cooperative_ownership = {
 		state_farmers_investment_pool_efficiency_mult = 0.25
 		country_private_construction_allocation_mult = 0.35
 		country_government_dividends_reinvestment_add = 1.0
-		country_company_worker_dividends_add = 0.75
+		building_company_worker_dividends_add = 0.75
 		country_free_charters_add = 1
 
 		building_group_bg_manufacturing_allowed_collectivization_add = 1.0
@@ -571,6 +580,7 @@ law_command_economy = {
 	disallowing_laws = {
 		law_serfdom
 		law_anarchy
+		law_women_in_the_fields
 	}
 
 	unlocking_technologies = {
@@ -603,12 +613,12 @@ law_command_economy = {
 		building_nationalization_radicals_mult = -0.75
 		country_government_dividends_efficiency_add = 0.4
 		country_private_construction_allocation_mult = 0.1
-		country_company_government_dividends_add = 0.75
+		building_company_government_dividends_add = 0.75
 		country_free_charters_add = 1
 
 		country_leverage_resistance_mult = 0.25
 
-		country_disable_privatization_bool = yes
+		country_disable_non_company_privatization_bool = yes
 	}
 
 	ai_will_do = {

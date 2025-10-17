@@ -335,7 +335,7 @@ ideology_traditionalist_minoritarian = {
 			has_role = agitator
 			owner = {
 				has_law_or_variant = law_type:law_no_womens_rights
-				has_law_or_variant = law_type:law_state_religion
+				has_law_or_variant = law_type:law_total_separation
 			}
 		}
 		interest_group = {
@@ -589,7 +589,7 @@ ideology_nihilist = { #
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -599,7 +599,7 @@ ideology_nihilist = { #
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -684,7 +684,7 @@ ideology_nihilist = { #
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -694,7 +694,7 @@ ideology_nihilist = { #
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -1149,7 +1149,7 @@ ideology_radical = {
 					owner = {
 						OR = {
 							has_law_or_variant = law_type:law_guild_system
-							has_law_or_variant = law_type:law_labour_associations_restricted
+							has_law_or_variant = law_type:law_anti_strike_laws
 						}
 					}
 				}
@@ -1159,7 +1159,7 @@ ideology_radical = {
 				limit = {
 					is_interest_group_type = ig_trade_unions
 					owner = {
-						has_law_or_variant = law_type:law_labour_associations_permitted
+						has_law_or_variant = law_type:law_right_to_associate
 					}
 				}
 				add = -25
@@ -1318,7 +1318,7 @@ ideology_radical = {
 					owner = {
 						OR = {
 							has_law_or_variant = law_type:law_guild_system
-							has_law_or_variant = law_type:law_labour_associations_restricted
+							has_law_or_variant = law_type:law_anti_strike_laws
 						}
 					}
 				}
@@ -1328,7 +1328,7 @@ ideology_radical = {
 				limit = {
 					is_interest_group_type = ig_trade_unions
 					owner = {
-						has_law_or_variant = law_type:law_labour_associations_permitted
+						has_law_or_variant = law_type:law_right_to_associate
 					}
 				}
 				add = -25
@@ -1960,7 +1960,7 @@ ideology_slaver = {
 	lawgroup_slavery = {
 		law_slave_trade = strongly_approve
 		law_legacy_slavery = approve
-		law_colonial_slavery = approve
+		law_colonial_slavery = neutral
 		law_debt_slavery = neutral
 		law_slavery_banned = strongly_disapprove
 	}
@@ -3078,7 +3078,7 @@ ideology_communist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -3088,7 +3088,7 @@ ideology_communist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -3222,7 +3222,7 @@ ideology_communist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -3232,7 +3232,7 @@ ideology_communist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -3500,7 +3500,7 @@ ideology_vanguardist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -3510,7 +3510,7 @@ ideology_vanguardist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -3706,7 +3706,7 @@ ideology_vanguardist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -3716,7 +3716,7 @@ ideology_vanguardist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -3829,7 +3829,7 @@ ideology_fascist = {
 	}
 
 	country_trigger = {
-		has_technology_researched = mass_propaganda
+		has_technology_researched = political_agitation
 	}
 
 	interest_group_leader_trigger = {
@@ -4439,7 +4439,7 @@ ideology_anarchist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -4449,7 +4449,7 @@ ideology_anarchist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -4581,7 +4581,7 @@ ideology_anarchist = {
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_guild_system
-						has_law_or_variant = law_type:law_labour_associations_restricted
+						has_law_or_variant = law_type:law_anti_strike_laws
 					}
 				}
 			}
@@ -4591,7 +4591,7 @@ ideology_anarchist = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 				owner = {
-					has_law_or_variant = law_type:law_labour_associations_permitted
+					has_law_or_variant = law_type:law_right_to_associate
 				}
 			}
 			add = -25
@@ -5075,8 +5075,8 @@ ideology_market_liberal = {
 		law_combination_acts = approve
 		law_guild_system = strongly_disapprove
 		law_anti_strike_laws = neutral
-		law_corporatized_unions = strongly_disapprove
-		law_right_to_associate = disapprove
+		law_corporatized_unions = disapprove
+		law_right_to_associate = strongly_disapprove
 	}
 
 	country_trigger = {
@@ -6265,7 +6265,7 @@ ideology_humanitarian = {
 					}
 				}
 				is_interest_group_type = ig_trade_unions
-				ig_approval < 5
+				ig_approval < -5
 			}
 			add = -50
 		}
@@ -6876,7 +6876,7 @@ ideology_land_reformer = {
 		if = { # Likely if angry as Rural Folk
 			limit = {
 				is_interest_group_type = ig_rural_folk
-				interest_group.ig_approval <= 0
+				ig_approval <= 0
 				owner = {
 					OR = {
 						has_law_or_variant = law_type:law_serfdom
@@ -6886,7 +6886,7 @@ ideology_land_reformer = {
 				}
 			}
 			subtract = {
-				value = interest_group.ig_approval
+				value = ig_approval
 				multiply = 5
 			}
 		}
@@ -8089,7 +8089,7 @@ ideology_humanitarian_royalist = {
 			owner = {
 				has_law_or_variant = law_type:law_monarchy
 				has_law_or_variant = law_type:law_multicultural
-				has_law_or_variant = law_type:law_guaranteed_liberties
+				has_law_or_variant = law_type:law_protected_speech
 				has_law_or_variant = law_type:law_womens_suffrage
 				has_law_or_variant = law_type:law_compulsory_primary_school
 			}
@@ -8137,10 +8137,10 @@ ideology_humanitarian_royalist = {
 		# Less likely if issues are not relevant
 		if = {
 			limit = {
-				owner.ideology_humanitarian_favoured_laws > 0
+				owner.ideology_humanitarian_royalist_favoured_laws > 0
 			}
 			subtract = {
-				value = owner.ideology_humanitarian_favoured_laws
+				value = owner.ideology_humanitarian_royalist_favoured_laws
 				multiply = 8
 			}
 		}
@@ -8155,7 +8155,7 @@ ideology_humanitarian_royalist = {
 					}
 				}
 				is_interest_group_type = ig_trade_unions
-				ig_approval < 5
+				ig_approval < -5
 			}
 			add = -50
 		}
@@ -8228,10 +8228,10 @@ ideology_humanitarian_royalist = {
 		# More likely if issues are relevant - greater bonus to this than usual
 		if = {
 			limit = {
-				owner.ideology_humanitarian_disfavoured_laws > 0
+				owner.ideology_humanitarian_royalist_disfavoured_laws > 0
 			}
 			add = {
-				value = owner.ideology_humanitarian_disfavoured_laws
+				value = owner.ideology_humanitarian_royalist_disfavoured_laws
 				multiply = 16
 			}
 		}
@@ -8239,10 +8239,10 @@ ideology_humanitarian_royalist = {
 		# Less likely if issues are not relevant
 		if = {
 			limit = {
-				owner.ideology_humanitarian_favoured_laws > 0
+				owner.ideology_humanitarian_royalist_favoured_laws > 0
 			}
 			subtract = {
-				value = owner.ideology_humanitarian_favoured_laws
+				value = owner.ideology_humanitarian_royalist_favoured_laws
 				multiply = 8
 			}
 		}

@@ -1,4 +1,5 @@
 ﻿# This list is alphabetically sorted. Please keep it so.
+
 heritage_group_abrahamic = {
 	type = heritage
 }

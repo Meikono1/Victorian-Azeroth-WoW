@@ -1,4 +1,6 @@
-﻿heritage_indigenous = {
+﻿# This list is alphabetically sorted. Please keep it so.
+
+heritage_indigenous = {
 	type = heritage
 	trait_group = heritage_group_naturalistic
 }

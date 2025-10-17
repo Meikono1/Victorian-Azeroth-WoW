@@ -164,10 +164,26 @@ culture_south_america.1 = {
 				add_homeland = cu:argentine
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:argentine ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:argentine
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
-				c:PEU ?= this
+				OR = {
+					c:PEU ?= this
+					c:NPU ?= this
+					c:SPU ?= this
+				}
 			}
 			add_primary_culture = cu:peruvian
 			remove_primary_culture = cu:south_andean
@@ -175,27 +191,17 @@ culture_south_america.1 = {
 				add_homeland = cu:peruvian
 				remove_homeland = cu:south_andean
 			}
-		}
-		if = {
-			limit = {
-				c:NPU ?= this
-			}
-			add_primary_culture = cu:peruvian
-			remove_primary_culture = cu:south_andean
-			capital.state_region = {
-				add_homeland = cu:peruvian
-				remove_homeland = cu:south_andean
-			}
-		}
-		if = {
-			limit = {
-				c:SPU ?= this
-			}
-			add_primary_culture = cu:peruvian
-			remove_primary_culture = cu:south_andean
-			capital.state_region = {
-				add_homeland = cu:peruvian
-				remove_homeland = cu:south_andean
+			if = {
+				limit = {
+					cu:peruvian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:peruvian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -208,6 +214,18 @@ culture_south_america.1 = {
 				add_homeland = cu:bolivian
 				remove_homeland = cu:south_andean
 			}
+			if = {
+				limit = {
+					cu:bolivian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:bolivian
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -218,6 +236,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:ecuadorian
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:ecuadorian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:ecuadorian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -230,6 +260,18 @@ culture_south_america.1 = {
 				add_homeland = cu:chilean
 				remove_homeland = cu:south_andean
 			}
+			if = {
+				limit = {
+					cu:chilean ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:chilean
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -240,6 +282,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:venezuelan
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:venezuelan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:venezuelan
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -252,6 +306,18 @@ culture_south_america.1 = {
 				add_homeland = cu:uruguayan
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:uruguayan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:uruguayan
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -263,6 +329,18 @@ culture_south_america.1 = {
 				add_homeland = cu:paraguayan
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:paraguayan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:paraguayan
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -273,6 +351,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:colombian
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:colombian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:colombian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		add_journal_entry = {

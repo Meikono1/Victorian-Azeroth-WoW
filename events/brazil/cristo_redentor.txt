@@ -1,1 +1,1 @@
-﻿namespace = cristo_redentor
+﻿
