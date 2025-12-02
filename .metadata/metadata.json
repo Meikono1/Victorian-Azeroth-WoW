@@ -1,8 +1,9 @@
 {
   "name" : "Victorian Azeroth",
   "id" : "3300564446",
-  "version" : "0",
-  "supported_game_version" : "1.10.*",
+  "version" : "1",
+  "game_id": "victoria3",
+  "supported_game_version" : "1.11.*",
   "short_description" : "Victorian Azeroth",
   "tags" : ["Alternative History", "Total Conversion"],
   "relationships" : [],
@@ -10,18 +11,21 @@
     "multiplayer_synchronized" : true,
 	"replace_paths": [
       "common/company_types",
+      "common/character_templates",
       "common/history",
       "common/history/characters",
       "common/history/countries",
       "common/history/diplomacy",
       "common/history/pops",
       "common/history/population",
+      "common/history/states",
       "common/journal_entries",
       "common/scripted_buttons",
+      "common/strategic_regions",
 	  "events",
 	  "events/india_events",
       "events/soi_events",
-	  "map_data/",
+	  "map_data",
       "map_data/state_regions"
 	]
   }

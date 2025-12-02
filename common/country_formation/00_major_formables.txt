@@ -6,7 +6,7 @@
 	unification_play = dp_unify_germany
 	leadership_play = dp_leadership_germany
 
-	required_states_fraction = 0.75
+	required_states_fraction = 0.73
 
 	ai_will_do = { has_technology_researched = nationalism }
 
@@ -25,10 +25,17 @@
 			}
 		}
 	}
-	
+
 	max_num_formation_candidates = 3
 	can_be_formation_candidate = {
 		country_rank >= rank_value:major_power
+	}
+
+	can_be_unification_target = {
+		NOR = {
+			has_government_type = gov_dual_monarchy
+			has_government_type = gov_triple_monarchy
+		}
 	}
 }
 
@@ -50,7 +57,7 @@ ITA = {
 			country_has_primary_culture = cu:south_italian
 		}
 	}
-	
+
 	max_num_formation_candidates = 3
 	can_be_formation_candidate = {
 		country_rank >= rank_value:minor_power
@@ -87,8 +94,8 @@ SCA = {
 			country_has_primary_culture = cu:icelandic
 		}
 	}
-	
-	max_num_formation_candidates = 3
+
+	max_num_formation_candidates = 1
 	can_be_formation_candidate = {
 		country_rank >= rank_value:minor_power
 		any_country = {
@@ -99,7 +106,7 @@ SCA = {
 					country_has_primary_culture = cu:norwegian
 					country_has_primary_culture = cu:icelandic
 				}
-			}		
+			}
 			has_technology_researched = pan-nationalism
 			percent = 1
 		}

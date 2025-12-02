@@ -1,0 +1,13 @@
+﻿NGame = {
+	START_DATE = "618.1.1"
+	END_DATE = "718.1.1"
+}
+
+NJominiMap = {
+	WATERLEVEL = 1.37						#Original Settings 3.7
+}
+
+NCharacters = {
+	MIN_CHARACTER_HEALTH = 0.0					# Baseline is 1.0 (meaning 100%), defined in the base_values modifier. 0.0 means -100% from baseline. [any value]
+	MAX_CHARACTER_HEALTH = 5000.0				# Baseline is 1.0 (meaning 100%), defined in the base_values modifier. 2.0 means +100% from baseline. [>= MIN_CHARACTER_HEALTH]
+}

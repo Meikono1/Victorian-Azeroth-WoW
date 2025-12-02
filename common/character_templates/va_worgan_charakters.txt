@@ -1,0 +1,14 @@
+﻿# Bloodfang
+ivar_bloodfang = {
+	first_name = Ivar
+	last_name = Bloodfang
+	historical = yes
+	culture = cu:alpha_pack
+	birth_date = 578.3.28
+	interest_group = ig_armed_forces
+	traits = {
+		direct
+		wrathful
+	}
+	ruler = yes
+}

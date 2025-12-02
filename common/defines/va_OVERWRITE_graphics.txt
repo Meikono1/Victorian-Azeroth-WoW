@@ -1,0 +1,3 @@
+﻿NMapMode = {
+	COLOR_IMPASSABLE_TERRAIN = { 0.8 0.8 0.8 0.25 }	
+}

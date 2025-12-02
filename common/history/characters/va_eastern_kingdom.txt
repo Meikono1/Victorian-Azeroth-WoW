@@ -1,0 +1,64 @@
+﻿CHARACTERS = {
+	c:BLOODFANG_PACK ?= {
+		create_character = {
+			template = ivar_bloodfang
+		}
+	}
+	
+	c:GILNEAS ?= {
+		create_character = {
+			template = genn_greymane
+		}
+		create_character = {
+			template = liam_greymane
+		}
+	}
+	
+	c:KIRINTOR_EXPEDITION ?= {
+		create_character = {
+			template = ansirem_runeweaver
+		}
+	}
+	
+	c:SCARLET_CRUSADERS_WHITEMANE ?= {
+		create_character = {
+			template = sally_whitemane
+		}
+		create_character = {
+			template = renault_mograine
+		}
+	}
+	
+	c:SHADOWFANG_KEEP ?= {
+		create_character = {
+			template = valgan_arugal
+		}
+	}
+	
+	c:SYNDICATE ?= {
+		create_character = {
+			template = aliden_perenolde
+		}
+		create_character = {
+			template = earl_falconcrest
+		}
+	}
+	
+	c:UNDERCITY ?= {
+		create_character = {
+			template = putress
+		}
+		create_character = {
+			template = sylvanas_windrunner
+		}
+		create_character = {
+			template = varimathras
+		}
+	}
+	
+	c:VILEFIN_MURLOCS ?= {
+		create_character = {
+			template = deeb
+		}
+	}
+}

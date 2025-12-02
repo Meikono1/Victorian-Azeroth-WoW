@@ -550,29 +550,9 @@ arakkoa_heritage = {
 	trait_group = heritage_group_arakkoa
 }
 
-annihilan_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-beholder_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-bloodelf_heritage = {
-	type = heritage
-	trait_group = heritage_group_elfen
-}
-
 centaur_heritage = {
 	type = heritage
 	trait_group = heritage_group_centaur
-}
-
-deathknight_heritage = {
-	type = heritage
-	trait_group = heritage_group_undead
 }
 
 demon_heritage = {
@@ -590,11 +570,6 @@ dragon_heritage = {
 	trait_group = heritage_group_dragon
 }
 
-dread_lord_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
 dwarf_heritage = {
 	type = heritage
 	trait_group = heritage_group_dwarf
@@ -605,21 +580,6 @@ elf_heritage = {
 	trait_group = heritage_group_elfen
 }
 
-ered_ruin_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-eredar_heritage = {
-	type = heritage
-	trait_group = heritage_group_eredar
-}
-
-fel_beast_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
 ethereal_heritage = {
 	type = heritage
 	trait_group = heritage_group_ethereal
@@ -628,31 +588,6 @@ ethereal_heritage = {
 elemental_heritage = {
 	type = heritage
 	trait_group = heritage_group_element
-}
-
-felorc_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-felreaver_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-fey_dragon_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-forsaken_heritage = {
-	type = heritage
-	trait_group = heritage_group_undead
-}
-
-fungul_heritage = {
-	type = heritage
-	trait_group = heritage_group_giant
 }
 
 furbolg_heritage = {
@@ -685,39 +620,9 @@ harpy_heritage = {
 	trait_group = heritage_group_harpy
 }
 
-highborn_heritage = {
-	type = heritage
-	trait_group = heritage_group_elfen
-}
-
-highelf_heritage = {
-	type = heritage
-	trait_group = heritage_group_elfen
-}
-
 human_heritage = {
 	type = heritage
 	trait_group = heritage_group_human
-}
-
-imp_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-infernal_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-jungle = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
-keeper_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
 }
 
 kobold_heritage = {
@@ -730,16 +635,6 @@ magnatour_heritage = {
 	trait_group = heritage_group_magnatour
 }
 
-mechanical_heritage = {
-	type = heritage
-	trait_group = heritage_group_mechanical
-}
-
-moarg_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
 murloc_heritage = {
 	type = heritage
 	trait_group = heritage_group_murloc
@@ -748,11 +643,6 @@ murloc_heritage = {
 naga_heritage = {
 	type = heritage
 	trait_group = heritage_group_naga
-}
-
-nightelf_heritage = {
-	type = heritage
-	trait_group = heritage_group_elfen
 }
 
 nymph_heritage = {
@@ -780,21 +670,6 @@ quilboar_heritage = {
 	trait_group = heritage_group_quilboar
 }
 
-rock_flayer_heritage = {
-	type = heritage
-	trait_group = heritage_group_rockflayer
-}
-
-satyr_heritage = {
-	type = heritage
-	trait_group = heritage_group_satyr
-}
-
-shivan_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
-}
-
 silithid_heritage = {
 	type = heritage
 	trait_group = heritage_group_silithid
@@ -803,11 +678,6 @@ silithid_heritage = {
 sporeling_heritage = {
 	type = heritage
 	trait_group = heritage_group_podling
-}
-
-succubus_heritage = {
-	type = heritage
-	trait_group = heritage_group_demon
 }
 
 tauren_heritage = {

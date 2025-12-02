@@ -1,22 +1,4 @@
 ﻿assign_taiping_states = {
-	c:TPG = {
-		create_military_formation = {
-			type = army
-			hq_region = scope:heavenly_kingdom_spawn.region #Because the Heavenly Kingdom is not always in South China.
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = scope:heavenly_kingdom_spawn.state_region
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = scope:heavenly_kingdom_spawn.state_region
-				count = 5
-			}
-		}
-	}
 	if = {
 		limit = {
 			any_scope_state = {

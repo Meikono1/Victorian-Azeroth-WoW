@@ -1,0 +1,120 @@
+﻿#Not naturally given, manual only
+trait_immortal = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_50000_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 444000
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_25000_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 111000
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_10000_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 17600
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_300_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 15
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_200_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 8
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_100_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	character_modifier = {
+		character_health_add = 2
+	}
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}
+
+trait_75_lifespan = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/imposing.dds"
+
+	possible = {
+		always = no
+	}
+
+	weight = 0
+	value = 0
+}

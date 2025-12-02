@@ -1,3 +1,0 @@
-﻿### Minor Princely States character template file ###
-### Please keep entries in alphabetical order, or I will hunt you down and force-feed you gravel.
-#################################################################################################

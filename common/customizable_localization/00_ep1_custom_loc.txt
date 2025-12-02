@@ -257,24 +257,6 @@ great_game_advance_trans_siberian_railway = {
 	}
 }
 
-great_game_advance_consolidated_british_india = {
-	type = country
-	text = { # Blank
-		trigger = {
-			NOT = {
-				has_global_variable = consolidated_british_india_variable
-			}
-		}
-		localization_key = gg_india_consolidated_blank
-	}
-	text = { # British Victory
-		trigger = {
-			has_global_variable = consolidated_british_india_variable
-		}
-		localization_key = gg_india_consolidated_british
-	}
-}
-
 great_game_advance_contained_russian_pacific = {
 	type = country
 	text = { # Blank

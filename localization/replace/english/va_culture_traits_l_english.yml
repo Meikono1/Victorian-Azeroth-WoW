@@ -35,3 +35,21 @@
   tradition_vulcanic: "Vulcanic"
   tradition_wasteland: "Wasteland"
   
+ #Additional Traits
+  trait_immortal: "Immortal"
+  trait_immortal_desc: "Either through natural or less reputable means, this character has achieved immortality."
+  trait_50000_lifespan: "Ageless being"
+  trait_50000_lifespan_desc: "This character's lifespan spans countless millennia, untouched by the passage of time."
+  trait_10000_lifespan: "Ancient Longevity"
+  trait_10000_lifespan_desc: "A being whose life stretches across thousands of years, witnessing the rise and fall of civilizations."
+  trait_300_lifespan: "Extended Lifespan"
+  trait_300_lifespan_desc: "This character enjoys several centuries of life, aging slowly and retaining vitality long beyond mortal limits."
+  trait_200_lifespan: "Long-Lived"
+  trait_200_lifespan_desc: "Through sturdy heritage or innate vitality, this character will see multiple generations come and go."
+  trait_100_lifespan: "Moderate Longevity"
+  trait_100_lifespan_desc: "A healthy and resilient individual expected to live for about a century"
+  trait_75_lifespan: "Mortal Lifespan"
+  trait_75_lifespan_desc: "This character’s lifespan follows the natural limits of mortal beings, neither shortened nor extended by magic or heritage."
+ 
+ 
+  

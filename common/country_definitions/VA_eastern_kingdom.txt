@@ -1102,7 +1102,7 @@ UNDERCITY = {
 	
 	tier = kingdom
 	
-	cultures = { banshee forsaken }
+	cultures = { forsaken banshee }
 	capital = STATE_UNDERCITY
 }
 

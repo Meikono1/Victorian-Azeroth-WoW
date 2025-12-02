@@ -1,0 +1,32 @@
+﻿sylvanas_windrunner = {
+	first_name = Sylvanas
+	last_name = Windrunner
+	historical = yes
+	female = yes
+	culture = cu:banshee
+	age = 2800
+	interest_group = ig_armed_forces
+	traits = {
+		ambitious
+		imposing
+		basic_offensive_planner
+	}
+	ruler = yes
+}
+
+putress = {
+	first_name = Grand_Apothecary
+	last_name = Putress
+	historical = yes
+	culture = cu:forsaken
+    religion = rel:atheist
+    ideology = ideology_ethno_nationalist
+	birth_date = 582.4.17
+	interest_group = ig_intelligentsia
+	traits = {
+		ruthless
+		cruel
+		hedonist
+	}
+	ig_leader = yes
+}

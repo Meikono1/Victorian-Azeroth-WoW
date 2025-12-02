@@ -70,6 +70,56 @@ default = {
 				5 = { add_random_trait = condition }
 			}
 		}
+		
+		if = {
+			limit = {
+				culture = { 
+					OR = {
+						is_elven = yes
+						is_demon = yes
+						is_forsaken = yes
+					}
+				}
+			}
+			add_trait = trait_50000_lifespan
+		}
+		else_if = {
+			limit = {
+				culture = { is_draenei = yes }
+			}
+			add_trait = trait_25000_lifespan
+		}
+		else_if = {
+			limit = {
+				culture = { 
+					OR = {
+						is_dwarven = yes
+						is_gnome = yes
+					}
+				}
+			}
+			add_trait = trait_300_lifespan
+		}
+		else_if = {
+			limit = {
+				culture = { is_troll = yes }
+			}
+			add_trait = trait_200_lifespan
+		}
+		else_if = {
+			limit = {
+				culture = { 
+					OR = {
+						is_tauren = yes
+						is_pandaren = yes
+					}
+				}
+			}
+			add_trait = trait_100_lifespan
+		}
+		else = {
+			add_trait = trait_75_lifespan
+		}
 	}
 
 	on_created = {

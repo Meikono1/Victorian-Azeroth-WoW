@@ -1481,25 +1481,6 @@ ai_strategy_default = {
 			}
 			add = 10
 		}
-
-		# Persia is very aggressive if not cowed
-		if = {
-			limit = {
-				has_journal_entry = je_eastern_frontier
-				scope:target_country = {
-					any_scope_state = {
-						OR = {
-							region = sr:region_persia
-							region = sr:region_central_asia
-							region = sr:region_bombay
-							region = sr:region_punjab
-						}
-						has_claim_by = ROOT
-					}
-				}
-			}
-			add = 10
-		}
 		
 		if = { # The EIC/Raj should never go against its suzerain, as doing so is suicide
 			limit = {
@@ -2222,7 +2203,7 @@ ai_strategy_default = {
 				limit = {
 					country_rank = scope:target_country.country_rank
 				}
-				multiply = 0.5
+				add = 300
 			}
 		}
 		befriend = {

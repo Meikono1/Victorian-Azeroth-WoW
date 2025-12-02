@@ -1,0 +1,17 @@
+﻿varimathras = {
+	first_name = Varimathras
+	last_name = Blank
+	historical = yes
+	culture = cu:nathrezim
+	age = 16800
+	interest_group = ig_landowners
+	traits = {
+		bigoted
+		wrathful
+		imposing
+	}
+	commander_rank = commander_rank_2
+	heir = yes
+	ig_leader = yes
+	is_general = yes
+}
