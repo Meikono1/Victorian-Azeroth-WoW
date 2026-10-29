@@ -1,0 +1,1 @@
+﻿# Leer: schaltet die Vanilla-Meerengen/Kanaele (Panama, Suez ...) ab, die auf Erde-Provinzen verweisen.

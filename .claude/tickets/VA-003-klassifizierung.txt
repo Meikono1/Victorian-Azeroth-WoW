@@ -1,0 +1,437 @@
+# Stand 2026-10-29, Vergleich mit Vanilla 1.13.11 (automatisch, siehe VA-003)
+
+## Kopien MIT WoW-Bezeichnern in eigenen Zeilen (behalten, Aenderungen in va_-Dateien umziehen)
+common/buildings/08_monuments.txt  (19 eigene Zeilen)
+common/buildings/10_canals.txt  (6 eigene Zeilen)
+common/country_definitions/00_countries.txt  (79 eigene Zeilen)
+common/government_types/01_monarchies.txt  (73 eigene Zeilen)
+common/history/power_blocs/00_power_blocs.txt  (56 eigene Zeilen)
+common/objectives/01_player_objectives.txt  (8 eigene Zeilen)
+common/religions/religion.txt  (139 eigene Zeilen)
+
+## Kopien OHNE WoW-Bezeichner (Kandidaten zum Loeschen; entfernte Zeilen werden nicht erkannt!)
+common/ai_strategies/00_default_strategy.txt  (130 eigene Zeilen)
+common/ai_strategies/01_admin_strategies.txt  (37 eigene Zeilen)
+common/ai_strategies/02_diplomatic_strategies.txt  (39 eigene Zeilen)
+common/ai_strategies/02_subject_diplomatic_strategies.txt  (29 eigene Zeilen)
+common/ai_strategies/03_political_strategies.txt  (28 eigene Zeilen)
+common/building_groups/00_building_groups.txt  (77 eigene Zeilen)
+common/buildings/01_industry.txt  (34 eigene Zeilen)
+common/buildings/02_agro.txt  (6 eigene Zeilen)
+common/buildings/03_mines.txt  (7 eigene Zeilen)
+common/buildings/04_plantations.txt  (14 eigene Zeilen)
+common/buildings/05_military.txt  (6 eigene Zeilen)
+common/buildings/06_urban_center.txt  (3 eigene Zeilen)
+common/buildings/07_government.txt  (1 eigene Zeilen)
+common/buildings/09_misc_resource.txt  (0 eigene Zeilen)
+common/buildings/11_private_infrastructure.txt  (6 eigene Zeilen)
+common/buildings/12_subsistence.txt  (20 eigene Zeilen)
+common/buildings/13_construction.txt  (1 eigene Zeilen)
+common/country_creation/00_releasable_countries.txt  (16 eigene Zeilen)
+common/country_definitions/01_africa.txt  (11 eigene Zeilen)
+common/country_definitions/01_pacific_and_australasia.txt  (4 eigene Zeilen)
+common/country_formation/00_major_formables.txt  (5 eigene Zeilen)
+common/cultures/00_cultures.txt  (269 eigene Zeilen)
+common/customizable_localization/00_characters.txt  (6 eigene Zeilen)
+common/customizable_localization/00_ep1_custom_loc.txt  (0 eigene Zeilen)
+common/customizable_localization/02_events.txt  (16 eigene Zeilen)
+common/customizable_localization/03_misc.txt  (54 eigene Zeilen)
+common/customizable_localization/04_units.txt  (94 eigene Zeilen)
+common/customizable_localization/99_ru_custom_loc.txt  (0 eigene Zeilen)
+common/customizable_localization/agitators_custom_loc.txt  (3 eigene Zeilen)
+common/customizable_localization/bp1_custom_loc.txt  (2 eigene Zeilen)
+common/customizable_localization/victoria_custom_loc.txt  (2 eigene Zeilen)
+common/decisions/000_decisions_help.txt  (0 eigene Zeilen)
+common/decisions/antarctica_expedition_decision.txt  (2 eigene Zeilen)
+common/decisions/france_ashes.txt  (1 eigene Zeilen)
+common/decisions/grand_exhibition_decision.txt  (1 eigene Zeilen)
+common/decisions/japan_shinto.txt  (4 eigene Zeilen)
+common/decisions/korea_decisions.txt  (1 eigene Zeilen)
+common/decisions/romania_decision.txt  (2 eigene Zeilen)
+common/decisions/skyscraper_decision.txt  (1 eigene Zeilen)
+common/discrimination_trait_groups/00_cultural_heritage_groups.txt  (37 eigene Zeilen)
+common/discrimination_trait_groups/01_language_groups.txt  (37 eigene Zeilen)
+common/discrimination_trait_groups/02_religious_heritage_groups.txt  (6 eigene Zeilen)
+common/discrimination_traits/00_cultural_heritages.txt  (68 eigene Zeilen)
+common/discrimination_traits/01_languages.txt  (74 eigene Zeilen)
+common/discrimination_traits/02_traditions.txt  (229 eigene Zeilen)
+common/discrimination_traits/03_religious_heritages.txt  (28 eigene Zeilen)
+common/dynamic_country_map_colors/00_default.txt  (138 eigene Zeilen)
+common/dynamic_country_names/00_dynamic_country_names.txt  (56 eigene Zeilen)
+common/flag_definitions/00_flag_definitions.txt  (88 eigene Zeilen)
+common/flag_definitions/01_flag_definitions_usa.txt  (81 eigene Zeilen)
+common/government_types/02_presidential_republics.txt  (66 eigene Zeilen)
+common/government_types/03_parliamentary_republics.txt  (2 eigene Zeilen)
+common/government_types/04_theocracies.txt  (0 eigene Zeilen)
+common/government_types/05_council_republics.txt  (0 eigene Zeilen)
+common/government_types/06_corporate_states.txt  (7 eigene Zeilen)
+common/history/ai/00_secret_goals.txt  (3 eigene Zeilen)
+common/history/ai/00_strategy.txt  (0 eigene Zeilen)
+common/history/buildings/00_west_europe.txt  (0 eigene Zeilen)
+common/history/buildings/01_south_europe.txt  (0 eigene Zeilen)
+common/history/buildings/02_east_europe.txt  (0 eigene Zeilen)
+common/history/buildings/03_north_africa.txt  (1 eigene Zeilen)
+common/history/buildings/04_subsaharan_africa.txt  (1 eigene Zeilen)
+common/history/buildings/05_north_america.txt  (0 eigene Zeilen)
+common/history/buildings/06_central_america.txt  (1 eigene Zeilen)
+common/history/buildings/07_south_america.txt  (1 eigene Zeilen)
+common/history/buildings/08_middle_east.txt  (0 eigene Zeilen)
+common/history/buildings/09_central_asia.txt  (0 eigene Zeilen)
+common/history/buildings/10_india.txt  (1 eigene Zeilen)
+common/history/buildings/11_east_asia.txt  (0 eigene Zeilen)
+common/history/buildings/12_indonesia.txt  (0 eigene Zeilen)
+common/history/buildings/13_australasia.txt  (0 eigene Zeilen)
+common/history/buildings/15_russia.txt  (0 eigene Zeilen)
+common/history/diplomatic_plays/00_south_american_wars.txt  (0 eigene Zeilen)
+common/history/diplomatic_plays/00_texan_war_of_independence.txt  (0 eigene Zeilen)
+common/history/global/00_global.txt  (6 eigene Zeilen)
+common/history/lobbies/00_lobbies.txt  (0 eigene Zeilen)
+common/history/military_formations/00_military_formations_europe.txt  (1 eigene Zeilen)
+common/history/military_formations/01_military_formations_north_america.txt  (0 eigene Zeilen)
+common/history/military_formations/02_military_formations_south_america.txt  (0 eigene Zeilen)
+common/history/military_formations/03_military_formations_north_africa.txt  (0 eigene Zeilen)
+common/history/military_formations/04_military_formations_middle_east.txt  (0 eigene Zeilen)
+common/history/military_formations/05_military_formations_india.txt  (0 eigene Zeilen)
+common/history/military_formations/06_military_formations_asia.txt  (0 eigene Zeilen)
+common/history/military_formations/99_military_formations_example.txt  (0 eigene Zeilen)
+common/history/production_methods/00_urban_center.txt  (0 eigene Zeilen)
+common/history/trade/00_historical_trade.txt  (0 eigene Zeilen)
+common/history/treaties/00_historical_treaties.txt  (0 eigene Zeilen)
+common/ideologies/00_ig_ideologies.txt  (10 eigene Zeilen)
+common/ideologies/00_ig_ideologies_flavored.txt  (8 eigene Zeilen)
+common/ideologies/01_character_ideologies.txt  (307 eigene Zeilen)
+common/ideologies/02_character_french_flavored.txt  (32 eigene Zeilen)
+common/ideologies/03_ig_ideologies_movement.txt  (16 eigene Zeilen)
+common/interest_groups/00_armed_forces.txt  (16 eigene Zeilen)
+common/interest_groups/00_devout.txt  (12 eigene Zeilen)
+common/interest_groups/00_industrialists.txt  (12 eigene Zeilen)
+common/interest_groups/00_intelligentsia.txt  (7 eigene Zeilen)
+common/interest_groups/00_landowners.txt  (12 eigene Zeilen)
+common/interest_groups/00_petty_bourgeoisie.txt  (15 eigene Zeilen)
+common/interest_groups/00_rural_folk.txt  (12 eigene Zeilen)
+common/interest_groups/00_trade_unions.txt  (14 eigene Zeilen)
+common/laws/00_army_model.txt  (4 eigene Zeilen)
+common/laws/00_bureaucracy.txt  (0 eigene Zeilen)
+common/laws/00_caste_hegemony.txt  (0 eigene Zeilen)
+common/laws/00_church_and_state.txt  (3 eigene Zeilen)
+common/laws/00_citizenship.txt  (0 eigene Zeilen)
+common/laws/00_distribution_of_power.txt  (29 eigene Zeilen)
+common/laws/00_governance_principles.txt  (60 eigene Zeilen)
+common/laws/00_internal_security.txt  (1 eigene Zeilen)
+common/on_actions/00_code_on_actions.txt  (354 eigene Zeilen)
+common/on_actions/00_on_actions_half_yearly.txt  (0 eigene Zeilen)
+common/on_actions/00_on_actions_monthly.txt  (1 eigene Zeilen)
+common/on_actions/00_on_actions_yearly.txt  (69 eigene Zeilen)
+common/political_movements/00_ideological_movements.txt  (54 eigene Zeilen)
+common/political_movements/01_religious_movements.txt  (3 eigene Zeilen)
+common/political_movements/02_cultural_movement.txt  (7 eigene Zeilen)
+common/political_movements/03_pan_national_movements.txt  (0 eigene Zeilen)
+common/political_movements/04_country_specific_ideological_movements.txt  (6 eigene Zeilen)
+common/political_movements/04_national_movements.txt  (0 eigene Zeilen)
+common/power_bloc_names/00_power_bloc_names.txt  (15 eigene Zeilen)
+common/production_method_groups/01_industry.txt  (27 eigene Zeilen)
+common/production_method_groups/02_agro.txt  (0 eigene Zeilen)
+common/production_method_groups/03_mines.txt  (2 eigene Zeilen)
+common/production_method_groups/04_plantations.txt  (6 eigene Zeilen)
+common/production_method_groups/05_military.txt  (0 eigene Zeilen)
+common/production_method_groups/06_urban_center.txt  (2 eigene Zeilen)
+common/production_method_groups/08_monuments.txt  (0 eigene Zeilen)
+common/production_method_groups/12_subsistence.txt  (34 eigene Zeilen)
+common/production_methods/01_industry.txt  (23 eigene Zeilen)
+common/production_methods/02_agro.txt  (8 eigene Zeilen)
+common/production_methods/03_mines.txt  (1 eigene Zeilen)
+common/production_methods/04_plantations.txt  (19 eigene Zeilen)
+common/production_methods/05_military.txt  (4 eigene Zeilen)
+common/production_methods/07_government.txt  (1 eigene Zeilen)
+common/production_methods/08_monuments.txt  (0 eigene Zeilen)
+common/production_methods/09_misc_resource.txt  (2 eigene Zeilen)
+common/production_methods/11_private_infrastructure.txt  (7 eigene Zeilen)
+common/production_methods/12_subsistence.txt  (20 eigene Zeilen)
+common/scripted_effects/00_dynamic_state_names.txt  (0 eigene Zeilen)
+common/scripted_effects/00_scripted_effects.txt  (41 eigene Zeilen)
+common/scripted_effects/00_the_grand_collapse_scripted_effects.txt  (0 eigene Zeilen)
+common/scripted_effects/00_victoria_scripted_effects.txt  (104 eigene Zeilen)
+common/scripted_triggers/00_ai_triggers.txt  (1 eigene Zeilen)
+common/scripted_triggers/00_clothes_triggers.txt  (41 eigene Zeilen)
+common/scripted_triggers/00_coa_triggers.txt  (13 eigene Zeilen)
+common/scripted_triggers/00_geography_triggers.txt  (8 eigene Zeilen)
+common/scripted_triggers/00_gfx_route_graphics_triggers.txt  (1 eigene Zeilen)
+common/scripted_triggers/00_scripted_triggers.txt  (97 eigene Zeilen)
+common/scripted_triggers/00_victoria_scripted_triggers.txt  (25 eigene Zeilen)
+common/terrain/01_terrain.txt  (21 eigene Zeilen)
+common/themes/00_themes.txt  (3 eigene Zeilen)
+events/agitators_events/agitator_law_events_2.txt  (43 eigene Zeilen)
+events/agitators_events/agitators_election_events.txt  (112 eigene Zeilen)
+events/agitators_events/agitators_law_events.txt  (23 eigene Zeilen)
+events/agitators_events/algeria_events.txt  (36 eigene Zeilen)
+events/agitators_events/coup_events.txt  (1079 eigene Zeilen)
+events/agitators_events/dreyfus_events.txt  (38 eigene Zeilen)
+events/agitators_events/exiles_events.txt  (28 eigene Zeilen)
+events/agitators_events/exiles_events_02.txt  (19 eigene Zeilen)
+events/agitators_events/garibaldi_events.txt  (6 eigene Zeilen)
+events/agitators_events/government_petition_events.txt  (1 eigene Zeilen)
+events/agitators_events/historic_agitator_events.txt  (72 eigene Zeilen)
+events/agitators_events/land_ownership_law_events.txt  (33 eigene Zeilen)
+events/agitators_events/luddite_law_events.txt  (9 eigene Zeilen)
+events/agitators_events/paris_commune_events.txt  (40 eigene Zeilen)
+events/agitators_events/paris_commune_pulse_events.txt  (208 eigene Zeilen)
+events/agitators_events/revolution_events_01.txt  (21 eigene Zeilen)
+events/agitators_events/revolution_events_02.txt  (104 eigene Zeilen)
+events/agitators_events/revolution_events_03.txt  (18 eigene Zeilen)
+events/agitators_events/silkworm_diseases.txt  (8 eigene Zeilen)
+events/agitators_events/yeet_agitator_events.txt  (23 eigene Zeilen)
+events/american_civil_war/00_fsa_events.txt  (0 eigene Zeilen)
+events/american_civil_war/acw_events.txt  (25 eigene Zeilen)
+events/american_civil_war/acw_followup_events.txt  (3 eigene Zeilen)
+events/balkans_events/grunderzeit.txt  (4 eigene Zeilen)
+events/balkans_events/hungry_forties.txt  (2 eigene Zeilen)
+events/balkans_events/national_awakening.txt  (10 eigene Zeilen)
+events/balkans_events/subjecthood_events.txt  (6 eigene Zeilen)
+events/brazil/brazil_navy.txt  (0 eigene Zeilen)
+events/brazil/brazilian_minors.txt  (10 eigene Zeilen)
+events/brazil/caudillo.txt  (84 eigene Zeilen)
+events/brazil/culture_south_america.txt  (12 eigene Zeilen)
+events/brazil/misc_events.txt  (3 eigene Zeilen)
+events/brazil/patagonia_events.txt  (4 eigene Zeilen)
+events/brazil/pedro_brazil_events.txt  (18 eigene Zeilen)
+events/brazil/peru_bolivia.txt  (0 eigene Zeilen)
+events/brazil/south_america_migration.txt  (8 eigene Zeilen)
+events/election_events/communist_fascist_election_events.txt  (3 eigene Zeilen)
+events/election_events/election_conservative_events.txt  (5 eigene Zeilen)
+events/election_events/election_contextual_events.txt  (8 eigene Zeilen)
+events/election_events/election_liberal_events.txt  (6 eigene Zeilen)
+events/election_events/election_moderate_events.txt  (0 eigene Zeilen)
+events/election_events/election_neutral_events.txt  (14 eigene Zeilen)
+events/election_events/election_other_parties_events.txt  (11 eigene Zeilen)
+events/law_events/anarchy_law.txt  (13 eigene Zeilen)
+events/law_events/anti_state_religion_law_events.txt  (3 eigene Zeilen)
+events/law_events/bureaucracy.txt  (2 eigene Zeilen)
+events/law_events/children_rights_events.txt  (20 eigene Zeilen)
+events/law_events/citizenship_laws.txt  (27 eigene Zeilen)
+events/law_events/colonization_laws.txt  (4 eigene Zeilen)
+events/law_events/conscription_laws.txt  (2 eigene Zeilen)
+events/law_events/corporate_state_events.txt  (15 eigene Zeilen)
+events/law_events/distribution_of_power_laws.txt  (16 eigene Zeilen)
+events/law_events/economy_laws.txt  (4 eigene Zeilen)
+events/law_events/education_laws.txt  (0 eigene Zeilen)
+events/law_events/free_speech_laws.txt  (11 eigene Zeilen)
+events/law_events/healthcare_laws.txt  (2 eigene Zeilen)
+events/law_events/internal_security_events.txt  (5 eigene Zeilen)
+events/law_events/isolationism_law.txt  (4 eigene Zeilen)
+events/law_events/labor_rights_laws.txt  (17 eigene Zeilen)
+events/law_events/law_events.txt  (7 eigene Zeilen)
+events/law_events/law_events_01.txt  (34 eigene Zeilen)
+events/law_events/laws.txt  (2 eigene Zeilen)
+events/law_events/laws_police.txt  (4 eigene Zeilen)
+events/law_events/migration_laws.txt  (5 eigene Zeilen)
+events/law_events/monarchy_laws.txt  (8 eigene Zeilen)
+events/law_events/republic_laws.txt  (8 eigene Zeilen)
+events/law_events/rights_of_women_laws.txt  (7 eigene Zeilen)
+events/law_events/single_party_state_laws.txt  (8 eigene Zeilen)
+events/law_events/slavery_laws.txt  (12 eigene Zeilen)
+events/law_events/state_atheism.txt  (12 eigene Zeilen)
+events/law_events/tax_laws.txt  (17 eigene Zeilen)
+events/law_events/technocracy_law.txt  (3 eigene Zeilen)
+events/law_events/theocracy.txt  (0 eigene Zeilen)
+events/law_events/welfare_laws_events.txt  (7 eigene Zeilen)
+events/tech_events/aviation.txt  (4 eigene Zeilen)
+events/tech_events/camera_film_pm_events.txt  (2 eigene Zeilen)
+events/tech_events/naval_tech_events.txt  (91 eigene Zeilen)
+events/tech_events/nursing_events.txt  (5 eigene Zeilen)
+events/tech_events/production_tech_events.txt  (5 eigene Zeilen)
+events/tech_events/rubber_events.txt  (10 eigene Zeilen)
+events/tech_events/society_tech_events.txt  (3 eigene Zeilen)
+events/tech_events/trench_warfare.txt  (1 eigene Zeilen)
+events/tech_events/war_crimes_events.txt  (8 eigene Zeilen)
+gfx/map/army_dioramas/military_diorama_battle.txt  (0 eigene Zeilen)
+gfx/map/army_dioramas/military_diorama_frontline.txt  (0 eigene Zeilen)
+gfx/map/building_config/default.txt  (0 eigene Zeilen)
+gfx/map/city_data/city_types/00_example.txt  (0 eigene Zeilen)
+gfx/map/city_data/city_types/african_city.txt  (11 eigene Zeilen)
+gfx/map/city_data/city_types/african_farm.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/african_mine.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/african_port.txt  (3 eigene Zeilen)
+gfx/map/city_data/city_types/arabic_city.txt  (11 eigene Zeilen)
+gfx/map/city_data/city_types/arabic_farm.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/arabic_mine.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/arabic_port.txt  (3 eigene Zeilen)
+gfx/map/city_data/city_types/asian_city.txt  (11 eigene Zeilen)
+gfx/map/city_data/city_types/asian_farm.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/asian_mine.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/asian_port.txt  (3 eigene Zeilen)
+gfx/map/city_data/city_types/default_city.txt  (11 eigene Zeilen)
+gfx/map/city_data/city_types/default_farm.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/default_mine.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/default_port.txt  (3 eigene Zeilen)
+gfx/map/city_data/city_types/latin_city.txt  (12 eigene Zeilen)
+gfx/map/city_data/city_types/latin_farm.txt  (2 eigene Zeilen)
+gfx/map/city_data/city_types/latin_mine.txt  (2 eigene Zeilen)
+gfx/map/city_data/city_types/latin_port.txt  (4 eigene Zeilen)
+gfx/map/city_data/city_types/latin_wood.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/southasian_city.txt  (11 eigene Zeilen)
+gfx/map/city_data/city_types/southasian_farm.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/southasian_mine.txt  (1 eigene Zeilen)
+gfx/map/city_data/city_types/southasian_port.txt  (3 eigene Zeilen)
+gfx/map/city_data/city_types/wild_west_farm.txt  (15 eigene Zeilen)
+gfx/map/city_data/city_vfx/01_fireworks.txt  (1 eigene Zeilen)
+gfx/map/environment/environment.txt  (3 eigene Zeilen)
+gfx/map/environment/ui_power_bloc_statues_environment.txt  (15 eigene Zeilen)
+gfx/map/fleet_dioramas/fleet_dioramas.txt  (151 eigene Zeilen)
+gfx/map/fleet_entities/01_fleet_entities.txt  (44 eigene Zeilen)
+gfx/map/front_entities/front_entities_barricades.txt  (0 eigene Zeilen)
+gfx/map/front_entities/front_entities_cavalry.txt  (0 eigene Zeilen)
+gfx/map/front_entities/front_entities_generals.txt  (0 eigene Zeilen)
+gfx/map/front_entities/front_entities_infantry.txt  (0 eigene Zeilen)
+gfx/map/front_entities/front_entities_support.txt  (0 eigene Zeilen)
+gfx/map/map_modes/map_modes.txt  (29 eigene Zeilen)
+gfx/map/map_object_data/env_effects.txt  (15 eigene Zeilen)
+gfx/map/map_object_data/generated/african_dynamic_farmland_objects_generator_1.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/african_dynamic_forestry_objects_generator_1.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/african_dynamic_forestry_objects_generator_2.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/african_dynamic_mining_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/arabic_dynamic_farmland_objects_generator_1.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated/arabic_dynamic_forestry_objects_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/arabic_dynamic_forestry_objects_generator_2.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/arabic_dynamic_mining_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/asian_dynamic_farmland_objects_generator_1.txt  (6 eigene Zeilen)
+gfx/map/map_object_data/generated/asian_dynamic_forestry_objects_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/asian_dynamic_forestry_objects_generator_2.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/asian_dynamic_mining_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/baobab_generator_1.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated/baobab_generator_2.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated/baobab_generator_3.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated/bush_02_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/bush_02_generator_2.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/bush_dry_02_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/bush_dry_02_generator_2.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/cypress_dense_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/cypress_dense_generator_2.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/cypress_dense_generator_3.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/european_dynamic_farmland_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/european_dynamic_forestry_objects_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/european_dynamic_forestry_objects_generator_2.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/european_dynamic_mining_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/iceberg_generator_1.txt  (6 eigene Zeilen)
+gfx/map/map_object_data/generated/latin_dynamic_farmland_objects_generator_1.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated/latin_dynamic_forestry_objects_generator_1.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/generated/latin_dynamic_forestry_objects_generator_2.txt  (2 eigene Zeilen)
+gfx/map/map_object_data/generated/latin_dynamic_mining_objects_generator_1.txt  (12 eigene Zeilen)
+gfx/map/map_object_data/generated/palm_dense_generator_1.txt  (6 eigene Zeilen)
+gfx/map/map_object_data/generated/palm_dense_generator_2.txt  (6 eigene Zeilen)
+gfx/map/map_object_data/generated/palm_dense_generator_3.txt  (6 eigene Zeilen)
+gfx/map/map_object_data/generated/pine_sparse_generator_1.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/pine_sparse_generator_2.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/pine_sparse_generator_3.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_generator_1.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_generator_2.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_generator_3.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_sparse_generator_1.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_sparse_generator_2.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/rainforest_sparse_generator_3.txt  (10 eigene Zeilen)
+gfx/map/map_object_data/generated/savanna_tree_generator_1.txt  (8 eigene Zeilen)
+gfx/map/map_object_data/generated_map_object_locators_city.txt  (2100 eigene Zeilen)
+gfx/map/map_object_data/generated_map_object_locators_farm.txt  (2100 eigene Zeilen)
+gfx/map/map_object_data/generated_map_object_locators_mine.txt  (2100 eigene Zeilen)
+gfx/map/map_object_data/generated_map_object_locators_port.txt  (701 eigene Zeilen)
+gfx/map/map_object_data/generated_map_object_locators_wood.txt  (2100 eigene Zeilen)
+gfx/map/map_object_data/lakes.txt  (3 eigene Zeilen)
+gfx/map/map_object_data/layers.txt  (0 eigene Zeilen)
+gfx/map/map_object_data/papermap_edge.txt  (4 eigene Zeilen)
+gfx/map/map_object_data/papermap_items_locators.txt  (0 eigene Zeilen)
+gfx/map/map_object_data/sandstone_monument.txt  (1 eigene Zeilen)
+gfx/map/map_object_data/static.txt  (0 eigene Zeilen)
+gfx/map/map_object_data/unique_buildings.txt  (1 eigene Zeilen)
+gfx/map/map_object_data/wonder_great_wall_of_china.txt  (15 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_accessories.txt  (90 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_animation_props.txt  (0 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_beards.txt  (0 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_clothes.txt  (370 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_hairstyles.txt  (8 eigene Zeilen)
+gfx/portraits/portrait_modifiers/01_headgear.txt  (170 eigene Zeilen)
+
+## Kopien in replace_paths-Ordnern (erst nach VA-002 anfassen)
+common/company_types/00_companies_africa.txt
+common/company_types/00_companies_austria_hungary.txt
+common/company_types/00_companies_great_britain.txt
+common/company_types/00_companies_italy.txt
+common/company_types/00_companies_usa.txt
+common/company_types/99_basic_companies.txt
+common/history/states/00_states.txt
+common/journal_entries/00_abolish_monarchy.txt
+common/journal_entries/00_acw_entries.txt
+common/journal_entries/00_autocracy.txt
+common/journal_entries/00_communism.txt
+common/journal_entries/00_corn_laws.txt
+common/journal_entries/00_fascism.txt
+common/journal_entries/00_liberalism.txt
+common/journal_entries/00_opium.txt
+common/journal_entries/00_plague.txt
+common/journal_entries/00_player_objectives_economic_dominance.txt
+common/journal_entries/00_player_objectives_egalitarian_society.txt
+common/journal_entries/00_player_objectives_hegemon.txt
+common/journal_entries/00_skyscraper.txt
+common/journal_entries/00_strike_je.txt
+common/journal_entries/00_suffragists.txt
+common/journal_entries/00_trade_route_event_missions.txt
+common/journal_entries/00_tutorial.txt
+common/journal_entries/01_coup.txt
+common/scripted_buttons/00_scripted_buttons.txt
+common/scripted_buttons/04_law_imposition_buttons.txt
+common/strategic_regions/african_strategic_regions.txt
+common/strategic_regions/east_asia_strategic_regions.txt
+common/strategic_regions/europe_strategic_regions.txt
+common/strategic_regions/north_america_strategic_regions.txt
+common/strategic_regions/south_america_strategic_regions.txt
+common/strategic_regions/west_south_asia_strategic_regions.txt
+events/1848.txt
+events/assassination_events.txt
+events/autocracy_events.txt
+events/character_events.txt
+events/cholera.txt
+events/commander_events.txt
+events/communism.txt
+events/corn_laws_events.txt
+events/crime_events.txt
+events/cultural_homeland_events.txt
+events/debug_events.txt
+events/decree_events.txt
+events/decree_events_02.txt
+events/discrimination_events.txt
+events/fascism_events.txt
+events/general_events.txt
+events/gold_rush.txt
+events/government_conflicts_events.txt
+events/ig_leaders.txt
+events/ig_petitions.txt
+events/ig_revolutions.txt
+events/ig_suppression_events.txt
+events/industrial_accidents_events.txt
+events/liberalism.txt
+events/major_famine_events.txt
+events/movement_events.txt
+events/natural_disasters_events.txt
+events/neighbor_events.txt
+events/nihilism.txt
+events/obligation_events.txt
+events/oil_rush_events.txt
+events/opium_events.txt
+events/paralegal_discrimination_events.txt
+events/prohibition_events.txt
+events/prostitution_events.txt
+events/red_scare_events.txt
+events/resignation.txt
+events/royal_wedding.txt
+events/secession_situations.txt
+events/slave_owner_paranoia_events.txt
+events/slave_revolts.txt
+events/soi_events/00_lobbies_events_01.txt
+events/soi_events/00_lobbies_events_03.txt
+events/soi_events/00_lobbies_events_04.txt
+events/standard_of_living_events.txt
+events/strike_events.txt
+events/suffragist_events.txt
+events/technology_events.txt
+events/test_events.txt
+events/trade_route_events.txt
+events/urbanization_events.txt
+map_data/province_terrains.txt
