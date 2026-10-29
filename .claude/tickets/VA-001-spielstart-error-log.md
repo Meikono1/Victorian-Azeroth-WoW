@@ -41,3 +41,33 @@ Achtung: `map_data/provinces.png` wurde im Jan. 2026 korrigiert, die State-Regio
 - Von den zuordenbaren Fehlern: ~7.700 aus eigenen Vanilla-Kopien, ~4.600 aus Vanilla-Dateien mit Erde-Bezügen.
 - Größte Einzelquellen: `interest_groups/00_petty_bourgeoisie.txt` und `ideologies/01_character_ideologies.txt` (je ~2.080, `has_law_or_variant`: Gesetzesvarianten seit 1.12), `portrait_modifiers/01_clothes.txt` (516), Vanilla `geographic_regions/*` (~1.300), Vanilla `government_types/01_social_monarchies.txt` (368).
 - Konsequenz: Erst VA-003 (Kopien abbauen), sonst bleibt das Log unlesbar.
+### 2026-10-29 – vierter Start (22:57)
+
+- Spiel läuft auf **1.13.11** (`code_revisions.log`: `release/1.13.11`). Eine 1.14 ist lokal nicht installiert.
+- Log wieder übergelaufen, erhalten sind nur 22:58:00–22:58:17 (~15.800 Fehler).
+- 10.305× Vanilla `common/ai_strategies/00_default_strategy.txt` (Block `strategic_region_scores` fragt `sr:region_arabia` usw. ab). Fix: `common/ai_strategies/va_default_strategy.txt` ersetzt nur diesen Block per `INJECT:ai_strategy_default`. Im nächsten Test prüfen, ob `INJECT` den Block ersetzt (Fehler weg) oder nur anhängt (Fehler bleiben → dann bewusster Override nötig).
+- 5.496× Vanilla `gfx/portraits/portrait_modifiers/01_headgear.txt`/`01_clothes.txt`: `cu:griqua` fehlt, weil die Mod-Kopie `common/cultures/00_cultures.txt` eine alte Vanilla-Kulturliste ist (13 neue 1.13-Kulturen fehlen). Fix über VA-003 (Kulturen und Merkmale).
+- Rest: 4× `00_acw_entries.txt`, fehlende Wappen-Texturen (wie zuvor), 18× `gfx/map/textures/ not found` (leerer Texturpfad, Quelle noch unklar).
+### 2026-10-29 – fünfter Start (23:08)
+
+- Kulturen-/Merkmal-Kopien gelöscht: `griqua`-Fehler weg. `INJECT:ai_strategy_default` wirkt (Fehler aus `strategic_region_scores` weg).
+- Log läuft trotzdem in ~8 s über. Neu sichtbar: 15.952× `strategic_region_stance_type_scores` (Zeilen 4262/4285, gleicher Vanilla-Block-Typ) und 46× `01_admin_strategies.txt:51`. Beide jetzt ebenfalls per `INJECT` in `va_default_strategy.txt`.
+- 490× `01_clothes.txt:13537` (`scope:pop` fehlt): Die Mod-Kopie `scripted_triggers/00_clothes_triggers.txt` ist alt, 53 Vanilla-Trigger fehlen (u. a. `spanish_clothes_pop_trigger`). → VA-003.
+- 141× `Country X is not permitted to retain law …` (75 Länder) → VA-014.
+- 318× `pdx_persistent_reader: Failed to read key reference … in file: ""` direkt nach den Gesetzen, Quelle unklar.
+### 2026-10-29 – sechster Start (23:15)
+
+- **Log läuft nicht mehr über.** 11.665 Einträge, alle beim Laden (23:15:04–23:15:51), danach nichts mehr. Kein Dauerfeuer mehr.
+- Auswertung jetzt mit `python -I .claude/tools/va_errlog.py [--by-file] [--filter TEXT] [--top N]` (nimmt nur die Logs des letzten Starts).
+- Aufteilung: ~8.400 aus Vanilla-Dateien mit Erde-Bezug (größte: `geographic_regions/*` ~1.300, `ai_strategies` ~630 PostValidate, `portrait_modifiers` ~620, Vanilla-`00_scripted_triggers.txt` 330, `government_types/01_social_monarchies` 195), ~3.300 Engine-Meldungen.
+- Behoben: 586× `Missing expected culture/religion static modifier` → `common/static_modifiers/va_culture_modifiers.txt` (86 Kulturen × 6) und `va_religion_modifiers.txt` (35 Religionen × 2). Neue Kulturen/Religionen dort nachtragen.
+- Offen, mit Ticket: Gebäude (279 fehlende Loc, VA-003), Start-Gesetze (141, VA-014).
+- Offen, ohne Ticket bisher: 367× Festungs-Locator in Meeresprovinz (`fortification_graphics`), 318× `pdx_persistent_reader … file: ""`, 77× ungültige Hauptstädte von Erde-Tags aus `country_definitions/00_countries.txt`, ~185× State-Region-Hubs (Hub in fremder State Region/Seeregion, fehlende Hubs, z. B. `STATE_GILNEAS_CITY`, `STATE_LARGO_OVERLOOK`), 28× Strategic-Region-Hauptstadt außerhalb (Northrend), 70× Modifier-Typen aus Kopie „defined in script but not in code“, ~90× fehlende Loc `regaltest` in Kulturen.
+### 2026-10-29 – siebter Start (23:24)
+
+- Log wieder übergelaufen, Ursache selbst verschuldet: Die neuen Static Modifiers nutzen Modifier-Typen (`state_<kultur>_standard_of_living_add`, `country_<kultur>_cultural_acceptance_add`, `country_fervor_target_<kultur>_add`), die Vanilla eigens in `common/modifier_type_definitions/` anlegt. Fix: `common/modifier_type_definitions/va_culture_religion_modifier_types.txt` (293 Typen). Neue Kulturen/Religionen dort ebenfalls nachtragen.
+- Karte geprüft (`map_data/provinces.png` gegen Vanilla): Mod 32.655 Provinzen, Median 180 px; Vanilla 40.875, Median 228 px. Provinzen <100 px: Mod 1.954, Vanilla 1.349. Die Provinzgröße liegt also im Vanilla-Rahmen, Neuzeichnen ist nicht nötig. Falls gewünscht: Winzlinge per Skript mit Nachbarn derselben State Region verschmelzen (Ticket bei Bedarf).
+### 2026-10-29 – achter Start (23:29)
+
+- Log läuft nicht über, 11.079 Einträge, nur beim Laden. Culture/Religion-Modifier und ihre Typen greifen (0 Fehler).
+- Rest wie beim sechsten Start; dazu einzelne `Unknown modifier type` aus alten Kopien (`production_methods/11_private_infrastructure.txt`, `company_types/99_basic_companies.txt` mit alten Gebäudenamen → VA-003 Gebäude).

@@ -525,7 +525,7 @@ HIGHLAND_FROSTWOLFES = {
 	tier = grand_principality
 	
 	cultures = { frostwolf }
-	capital = STATE_HEADLAND
+	capital = STATE_TARRENS_MILL
 }
 
 HIGHVALE_HIGHELFES = {
@@ -881,7 +881,7 @@ SHADOWPINE_TRIBE = {
 	tier = principality
 	
 	cultures = { forest_troll }
-	capital = STATE_ULDAMAN
+	capital = STATE_DAWNSTAR_SPIRE
 }
 
 SI7_HIGHLANDS = {
@@ -1170,7 +1170,7 @@ WILDHAMMER_CLAN_AZ = {
 	tier = kingdom
 	
 	cultures = { wildhammer }
-	capital = STATE_BAMBALA
+	capital = STATE_AERIE_PEAK
 }
 
 WHITERBARK_TROLLS = {
@@ -1193,7 +1193,7 @@ WRETCHED_BLOODELFES = {
 	
 	cultures = { sin_dorei }
 	religion = holy_light
-	capital = STATE_WITHERBARK_VILLAGE
+	capital = STATE_RUINS_OF_SILVERMOON
 }
 
 WORMTHORN_CORRUPTION = {

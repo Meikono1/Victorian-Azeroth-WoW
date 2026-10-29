@@ -1,0 +1,58 @@
+﻿# Victorian Azeroth: entschärfte Fassungen aus der alten Vollkopie 00_geography_triggers.txt.
+# Vanilla 1.13 fragt hier Erde-Regionen bzw. Erde-JEs ab. REPLACE: ersetzt nur diese Trigger,
+# alle anderen kommen aus Vanilla.
+
+REPLACE:is_arabic_farmland = {
+}
+
+REPLACE:is_jungle_hills = {
+}
+
+REPLACE:is_asian_farmland = {
+}
+
+REPLACE:is_subtropic_farmland = {
+}
+
+REPLACE:is_arid_region = {
+}
+
+REPLACE:is_vulnerable_to_droughts = {
+}
+
+REPLACE:is_vulnerable_to_floods = {
+}
+
+REPLACE:is_vulnerable_to_frosts = {
+}
+
+REPLACE:is_vulnerable_to_locust_swarms = {
+}
+
+REPLACE:is_vulnerable_to_heatwaves = {
+}
+
+# Alte Vanilla-Trigger (seit 1.13 entfernt), noch benutzt von alten Kopien in
+# common/terrain/01_terrain.txt und common/dynamic_country_map_colors/00_default.txt.
+# TODO: entfernen, sobald diese Kopien abgebaut sind (VA-003).
+
+state_is_in_europe = {
+}
+
+state_is_in_north_america = {
+}
+
+state_is_in_central_america = {
+}
+
+state_is_in_south_america = {
+}
+
+state_is_in_americas = {
+}
+
+state_is_in_africa = {
+}
+
+state_is_in_middle_east = {
+}

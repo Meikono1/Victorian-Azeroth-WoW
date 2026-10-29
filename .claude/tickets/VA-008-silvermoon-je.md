@@ -1,6 +1,6 @@
 # VA-008: Silvermoon-JE ausbauen
 
-- **Status:** offen
+- **Status:** verworfen (aufgegangen in VA-019/VA-020)
 - **Typ:** content
 - **Priorität:** niedrig
 - **Erstellt:** 2026-10-29

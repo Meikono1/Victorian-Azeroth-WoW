@@ -58,7 +58,7 @@ POPS = {
 				size = 829400
 			}
 			create_pop = {
-				culture = wretched_bloodelf
+				culture = sin_dorei
 				size = 600600
 			}
 		}

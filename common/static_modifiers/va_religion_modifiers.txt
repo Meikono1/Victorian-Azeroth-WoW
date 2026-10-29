@@ -1,0 +1,353 @@
+﻿# Victorian Azeroth: Pflicht-Modifier pro religion (vom Spiel erwartet, siehe error.log
+# 'Missing expected religion static modifier'). Aufbau wie Vanilla 08_religion_standard_of_living.txt.
+# Neue WoW-Religionen hier ergänzen.
+
+agamaggan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_agamaggan_standard_of_living_add = 1
+}
+
+agamaggan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_agamaggan_standard_of_living_add = 1
+}
+
+amani_loa_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_amani_loa_standard_of_living_add = 1
+}
+
+amani_loa_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_amani_loa_standard_of_living_add = 1
+}
+
+black_dragon_worship_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_black_dragon_worship_standard_of_living_add = 1
+}
+
+black_dragon_worship_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_black_dragon_worship_standard_of_living_add = 1
+}
+
+blue_dragon_worship_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_blue_dragon_worship_standard_of_living_add = 1
+}
+
+blue_dragon_worship_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_blue_dragon_worship_standard_of_living_add = 1
+}
+
+bronce_dragon_worship_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bronce_dragon_worship_standard_of_living_add = 1
+}
+
+bronce_dragon_worship_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bronce_dragon_worship_standard_of_living_add = 1
+}
+
+brotherhood_light_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_brotherhood_light_standard_of_living_add = 1
+}
+
+brotherhood_light_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_brotherhood_light_standard_of_living_add = 1
+}
+
+burning_legion_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_burning_legion_standard_of_living_add = 1
+}
+
+burning_legion_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_burning_legion_standard_of_living_add = 1
+}
+
+call_of_wild_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_call_of_wild_standard_of_living_add = 1
+}
+
+call_of_wild_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_call_of_wild_standard_of_living_add = 1
+}
+
+candle_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_candle_standard_of_living_add = 1
+}
+
+candle_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_candle_standard_of_living_add = 1
+}
+
+centaur_elements_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_centaur_elements_standard_of_living_add = 1
+}
+
+centaur_elements_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_centaur_elements_standard_of_living_add = 1
+}
+
+earth_mother_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_earth_mother_standard_of_living_add = 1
+}
+
+earth_mother_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_earth_mother_standard_of_living_add = 1
+}
+
+elune_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_elune_standard_of_living_add = 1
+}
+
+elune_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_elune_standard_of_living_add = 1
+}
+
+fire_lord_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_fire_lord_standard_of_living_add = 1
+}
+
+fire_lord_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_fire_lord_standard_of_living_add = 1
+}
+
+great_tide_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_great_tide_standard_of_living_add = 1
+}
+
+great_tide_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_great_tide_standard_of_living_add = 1
+}
+
+green_dragon_worship_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_green_dragon_worship_standard_of_living_add = 1
+}
+
+green_dragon_worship_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_green_dragon_worship_standard_of_living_add = 1
+}
+
+helya_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_helya_standard_of_living_add = 1
+}
+
+helya_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_helya_standard_of_living_add = 1
+}
+
+holy_light_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_holy_light_standard_of_living_add = 1
+}
+
+holy_light_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_holy_light_standard_of_living_add = 1
+}
+
+illidary_rel_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_illidary_rel_standard_of_living_add = 1
+}
+
+illidary_rel_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_illidary_rel_standard_of_living_add = 1
+}
+
+kragwa_loa_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kragwa_loa_standard_of_living_add = 1
+}
+
+kragwa_loa_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kragwa_loa_standard_of_living_add = 1
+}
+
+naaru_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_naaru_standard_of_living_add = 1
+}
+
+naaru_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_naaru_standard_of_living_add = 1
+}
+
+nether_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nether_standard_of_living_add = 1
+}
+
+nether_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nether_standard_of_living_add = 1
+}
+
+nzoth_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nzoth_standard_of_living_add = 1
+}
+
+nzoth_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nzoth_standard_of_living_add = 1
+}
+
+ogre_elements_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ogre_elements_standard_of_living_add = 1
+}
+
+ogre_elements_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ogre_elements_standard_of_living_add = 1
+}
+
+red_dragon_worship_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_red_dragon_worship_standard_of_living_add = 1
+}
+
+red_dragon_worship_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_red_dragon_worship_standard_of_living_add = 1
+}
+
+scarlet_crusade_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scarlet_crusade_standard_of_living_add = 1
+}
+
+scarlet_crusade_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scarlet_crusade_standard_of_living_add = 1
+}
+
+scourge_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scourge_standard_of_living_add = 1
+}
+
+scourge_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scourge_standard_of_living_add = 1
+}
+
+shadra_loa_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_shadra_loa_standard_of_living_add = 1
+}
+
+shadra_loa_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_shadra_loa_standard_of_living_add = 1
+}
+
+shamanism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_shamanism_standard_of_living_add = 1
+}
+
+shamanism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_shamanism_standard_of_living_add = 1
+}
+
+tayutka_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_tayutka_standard_of_living_add = 1
+}
+
+tayutka_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_tayutka_standard_of_living_add = 1
+}
+
+terokk_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_terokk_standard_of_living_add = 1
+}
+
+terokk_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_terokk_standard_of_living_add = 1
+}
+
+the_elements_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_the_elements_standard_of_living_add = 1
+}
+
+the_elements_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_the_elements_standard_of_living_add = 1
+}
+
+tidehunter_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_tidehunter_standard_of_living_add = 1
+}
+
+tidehunter_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_tidehunter_standard_of_living_add = 1
+}
+
+twilight_hammer_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_twilight_hammer_standard_of_living_add = 1
+}
+
+twilight_hammer_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_twilight_hammer_standard_of_living_add = 1
+}
+
+ursoc_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ursoc_standard_of_living_add = 1
+}
+
+ursoc_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ursoc_standard_of_living_add = 1
+}
+
+voodoo_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_voodoo_standard_of_living_add = 1
+}
+
+voodoo_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_voodoo_standard_of_living_add = 1
+}

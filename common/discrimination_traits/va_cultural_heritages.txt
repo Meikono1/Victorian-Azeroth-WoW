@@ -1,0 +1,171 @@
+﻿# Victorian Azeroth: eigene Einträge, herausgelöst aus der alten Vollkopie 00_cultural_heritages.txt
+
+arakkoa_heritage = {
+	type = heritage
+	trait_group = heritage_group_arakkoa
+}
+
+centaur_heritage = {
+	type = heritage
+	trait_group = heritage_group_centaur
+}
+
+demon_heritage = {
+	type = heritage
+	trait_group = heritage_group_demon
+}
+
+draenei_heritage = {
+	type = heritage
+	trait_group = heritage_group_eredar
+}
+
+dragon_heritage = {
+	type = heritage
+	trait_group = heritage_group_dragon
+}
+
+dwarf_heritage = {
+	type = heritage
+	trait_group = heritage_group_dwarf
+}
+
+elf_heritage = {
+	type = heritage
+	trait_group = heritage_group_elfen
+}
+
+ethereal_heritage = {
+	type = heritage
+	trait_group = heritage_group_ethereal
+}
+
+elemental_heritage = {
+	type = heritage
+	trait_group = heritage_group_element
+}
+
+furbolg_heritage = {
+	type = heritage
+	trait_group = heritage_group_furbolg
+}
+
+giant_heritage = {
+	type = heritage
+	trait_group = heritage_group_giant
+}
+
+gnoll_heritage = {
+	type = heritage
+	trait_group = heritage_group_gnoll
+}
+
+gnome_heritage = {
+	type = heritage
+	trait_group = heritage_group_gnome
+}
+
+goblin_heritage = {
+	type = heritage
+	trait_group = heritage_group_goblin
+}
+
+harpy_heritage = {
+	type = heritage
+	trait_group = heritage_group_harpy
+}
+
+human_heritage = {
+	type = heritage
+	trait_group = heritage_group_human
+}
+
+kobold_heritage = {
+	type = heritage
+	trait_group = heritage_group_kobold
+}
+
+magnatour_heritage = {
+	type = heritage
+	trait_group = heritage_group_magnatour
+}
+
+murloc_heritage = {
+	type = heritage
+	trait_group = heritage_group_murloc
+}
+
+naga_heritage = {
+	type = heritage
+	trait_group = heritage_group_naga
+}
+
+nymph_heritage = {
+	type = heritage
+	trait_group = heritage_group_elfen
+}
+
+ogre_heritage = {
+	type = heritage
+	trait_group = heritage_group_ogre
+}
+
+orc_heritage = {
+	type = heritage
+	trait_group = heritage_group_orc
+}
+
+qiraji_heritage = {
+	type = heritage
+	trait_group = heritage_group_qiraji
+}
+
+quilboar_heritage = {
+	type = heritage
+	trait_group = heritage_group_quilboar
+}
+
+silithid_heritage = {
+	type = heritage
+	trait_group = heritage_group_silithid
+}
+
+sporeling_heritage = {
+	type = heritage
+	trait_group = heritage_group_podling
+}
+
+tauren_heritage = {
+	type = heritage
+	trait_group = heritage_group_tauren
+}
+
+trogg_heritage = {
+	type = heritage
+	trait_group = heritage_group_trogg
+}
+
+troll_heritage = {
+	type = heritage
+	trait_group = heritage_group_troll
+}
+
+tuskarr_heritage = {
+	type = heritage
+	trait_group = heritage_group_troll
+}
+
+undead_heritage = {
+	type = heritage
+	trait_group = heritage_group_undead
+}
+
+wildkin_heritage = {
+	type = heritage
+	trait_group = heritage_group_wild
+}
+
+worgen_heritage = {
+	type = heritage
+	trait_group = heritage_group_worgan
+}

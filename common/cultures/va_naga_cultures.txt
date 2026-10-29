@@ -2,7 +2,7 @@ lestharian = {
 	color = rgb{ 53 89 192 }
 	religion = illidary_rel
 	heritage = naga_heritage
-	language = language_naga
+	language = language_nazja
 	traditions = { tradition_marshland tradition_riverland }
 	male_common_first_names={
 		Azhrak Azsor Azryth
@@ -93,7 +93,7 @@ nazjatar = {
 	color = rgb{ 89 102 172 }
 	religion = nzoth
 	heritage = naga_heritage
-	language = language_naga
+	language = language_nazja
 	traditions = { tradition_riverland tradition_oceanic }
 	male_common_first_names={
 		Azhrak Azsor Azryth

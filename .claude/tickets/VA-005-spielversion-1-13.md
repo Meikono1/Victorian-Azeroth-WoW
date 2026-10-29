@@ -1,6 +1,6 @@
 # VA-005: supported_game_version auf 1.13 setzen
 
-- **Status:** offen
+- **Status:** erledigt
 - **Typ:** technik
 - **Priorität:** mittel
 - **Erstellt:** 2026-10-29
@@ -11,3 +11,4 @@
 
 ## Notizen
 
+- 2026-10-29: auf `1.13.*` gesetzt (Christian: 1.13 gemeint).

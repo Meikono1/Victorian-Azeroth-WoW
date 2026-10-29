@@ -1,40 +1,4 @@
-﻿# This list is alphabetically sorted. Please keep it so.
-
-tradition_caucasian = {
-	type = tradition
-}
-
-tradition_danubian = {
-	type = tradition
-}
-
-tradition_helvetic = {
-	type = tradition
-}
-
-tradition_himalayan = {
-	type = tradition
-}
-
-tradition_persianate = {
-	type = tradition
-}
-
-tradition_rumelian = {
-	type = tradition
-}
-
-tradition_russosphere = {
-	type = tradition
-}
-
-tradition_sinosphere = {
-	type = tradition
-}
-
-tradition_israelite = {
-	type = tradition
-}
+﻿# Victorian Azeroth: eigene Einträge, herausgelöst aus der alten Vollkopie 02_traditions.txt
 
 tradition_ahn_qiraj = {
 	type = tradition
@@ -951,4 +915,3 @@ tradition_xavian = {
 tradition_zaxxis = {
 	type = tradition
 }
-
