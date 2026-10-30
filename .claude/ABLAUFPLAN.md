@@ -4,12 +4,13 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 3 ist durch. Als Nächstes die offenen Tests aus Runde 1 (T-003 bis T-012) zusammen mit Runde 4 (T-018).
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 3 ist durch. Als Nächstes die offenen Tests aus Runde 1 (T-003 bis T-012) zusammen mit Runde 5 (T-021, T-022) und Runde 6 (T-024 bis T-026).
 
 ## Offene Entscheidungen
 
 - Welche Formables für Nord-EK, welche davon als Major Formation? (VA-017)
 - Herrscher-Liste Nord-EK abnicken (VA-016)
+- Hungersnot (VA-029): Region für Region; Nord- und Mittel-EK erledigt, nächste Region Süd-EK (28); Vashj'ir-Ressourcen offen
 
 ## Fahrplan
 
@@ -22,7 +23,14 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 
 ## Erledigt
 
-- 2026-10-30: `events`, `events/india_events`, `events/soi_events` aus `replace_paths` genommen (Entscheidung Christian). 122 Erde-Eventdateien per leerer Datei abgeschaltet. 119 alte Kopien gelöscht, 27 geleert (VA-002).
+- 2026-10-30: Mittel-EK Start-Gebäude nach Maßstab Frankreich: +388 Stufen (VA-029).
+
+- 2026-10-30: Nord-EK Start-Gebäude nach Maßstab Frankreich 1836: +85 Stufen; Eisen 27 → 14, Holz 99 → 77, Fischerei 45 → 27 gekürzt (VA-029). Werkzeuge `va_region_overview.py`, `va_fill_buildings.py`.
+
+- 2026-10-30: `common/company_types` und `common/character_templates` aus `replace_paths` genommen (VA-002 Teil 3). 223 Erde-Dateien per leerer Datei abgeschaltet, Standardvorlage als `00_default_template.txt` auf 1.13 gebracht. Offen: alte `99_basic_companies.txt` zurückholen (siehe VA-002).
+
+- 2026-10-30: `common/journal_entries` und `common/scripted_buttons` aus `replace_paths` genommen (Entscheidung Kono). 178 Erde-Dateien per leerer Datei abgeschaltet, 20 alte Kopien gelöscht, 7 allgemeine Eventdateien wieder aktiv (VA-002 Teil 2).
+- 2026-10-30: `events`, `events/india_events`, `events/soi_events` aus `replace_paths` genommen (Entscheidung Kono). 122 Erde-Eventdateien per leerer Datei abgeschaltet. 119 alte Kopien gelöscht, 27 geleert (VA-002).
 
 - 2026-10-29: 29 Kartendateien und Menü-Video aus dem Upload-Ordner ins Repo geholt (noch nicht committet).
 - 2026-10-29: 134 Dateien gelöscht (noch nicht committet, Kategorien überschneiden sich teilweise):
@@ -47,7 +55,8 @@ _(Region, Länder, Kurzbeschreibung. Ausgereifte Ideen werden zu Tickets.)_
 _(Nur hier gelistete Vollkopien werden bei Patches nachgezogen. Format: Datei – Grund.)_
 - `common/scripted_triggers/00_gfx_buildings_graphics_triggers.txt` – die 6 Stadtgrafik-Trigger aus Vanilla zeigen auf Erde-States. Ersetzt durch `always = no`. Bei Patches prüfen, ob Vanilla neue Trigger hinzufügt (sonst fehlen sie).
 - `common/strait_definitions/strait_definitions.txt` – leer, Vanilla-Kanäle zeigen auf Erde-Provinzen.
-- `events/agitators_events/coup_events.txt` – alte Fassung, passt zur Mod-JE-Kopie `common/journal_entries/01_coup.txt`. Fällt weg, sobald `journal_entries` aus `replace_paths` kommt (VA-002, `KEEP_COPY` in `tools/va_events.py`).
+- `common/character_templates/00_default_template.txt` – Vanilla-Standardvorlage plus WoW-Lebensdauer und Staatsreligion (mit `VA:` markiert). Ein `INJECT` würde `trait_generation` komplett ersetzen, also keine Ersparnis. Bei Patches Vanilla-Teil neu übernehmen.
+- `common/company_types/99_basic_companies.txt` – vorübergehend, falls Kono die alte Kopie zurückholt (VA-002 Teil 3): passt zu den alten Gebäudenamen. Mit VA-003 (buildings) löschen.
 - `common/defines/va_OVERWRITE_defines.txt` → `NEconomy.WORLD_MARKET_LOCATION` – Vanilla zeigt auf den Nordatlantik (Absturz). Bei Patches prüfen, ob neue Defines mit Provinz-IDs dazukommen.
 
 ## Checkliste: neue Spielversion (Patch)
@@ -61,6 +70,7 @@ Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket „Patch 
 - [ ] Neue Vanilla-Ordner und -Dateien suchen, die Erde-States, -Tags oder -Kulturen referenzieren (`history`, `strait_definitions`, `geographic_regions`, `ai_strategies` …) → abschalten oder abfangen (VA-004)
 - [ ] Neue Vanilla-Pflichtfelder/-Formate in Ordnern mit eigenen Objekten prüfen (State Regions, Gebäude, Güter, Kulturen, Länder), z. B. Ressourcen-Format 1.13
 - [ ] `python -I .claude/tools/va_events.py --details`: neue Vanilla-Eventdateien mit Erde-Inhalt mit `--stubs` abschalten; bei „vanilla-allgemein“ und `GENERIC` von Hand gegenprüfen
+- [ ] Dasselbe mit `python -I .claude/tools/va_common_folders.py common/journal_entries --details` und ebenso für `common/scripted_buttons`, `common/company_types`, `common/character_templates`; neue „vanilla-allgemein“-Dateien mit Erde-Thema in `EARTH` eintragen
 - [ ] `va_lint.py --regions 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35` → 0 neue Fehler
 - [ ] Testrunde mit Kampagnenstart und `error.log`-Auswertung
 
@@ -69,6 +79,7 @@ Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket „Patch 
 - [ ] Letzte Testrunde im [Testprotokoll](TESTPROTOKOLL.md) komplett OK
 - [ ] `va_lint.py` meldet 0 neue Fehler
 - [ ] Alle Tickets dieser Version stehen auf `erledigt` oder bewusst offen (mit Notiz)
+- [ ] TODO-Durchgang: alle `TODO` im Mod (ohne `.claude/`) durchsehen; jedes gehört zu einem Ticket. Grafik-TODOs in VA-027 nachtragen bzw. erledigte dort austragen, übrige erledigen oder dem passenden Ticket als Notiz zuordnen
 - [ ] `.metadata/metadata.json`: `version` hochgezählt, `supported_game_version` stimmt
 - [ ] Mod-Ordner `mod\warcraft` vollständig aus dem Repo neu befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`; gelöschte Repo-Dateien auch dort löschen) – VA-010
 - [ ] Kurztest aus dem Mod-Ordner: Kampagne lädt

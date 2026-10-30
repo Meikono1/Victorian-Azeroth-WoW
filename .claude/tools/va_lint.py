@@ -8,7 +8,7 @@ Aufruf: python -I .claude/tools/va_lint.py [--regions 26 27] [--full] [--all-fil
 Geprüft wird nur, was der Mod selbst besitzt (Dateien ohne gleichnamiges Vanilla-Gegenstück),
 außer bei --all-files. Exit-Code 1 nur bei neuen Fehlern: Warnungen und Fehler aus
 va_lint_baseline.txt (bekannte Altlasten, Abbau in VA-023) zählen nicht. --update-baseline
-nur nach Absprache mit Christian, sonst versteckt man neue Fehler.
+nur nach Absprache mit Kono, sonst versteckt man neue Fehler.
 """
 import argparse
 import logging

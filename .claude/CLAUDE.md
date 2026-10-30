@@ -7,9 +7,9 @@ Workshop-ID `3300564446`. Fahrplan und offene Entscheidungen stehen in `.claude/
 
 | Was | Pfad |
 |---|---|
-| Repo (Quelle der Wahrheit) | `C:\Users\Christian\Desktop\Projekte\Victorian-Azeroth-WoW` |
+| Repo (Quelle der Wahrheit) | `%USERPROFILE%\Desktop\Projekte\Victorian-Azeroth-WoW` |
 | Vanilla-Spiel (nur lesen) | `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game` |
-| Vom Spiel geladener Mod / Upload-Stand | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\mod\warcraft` – bewusst eine **Kopie**, die Christian von Hand aus dem Repo befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`). Nur dieser Ordner wird hochgeladen. Weder lesen noch schreiben, außer Christian verlangt es ausdrücklich. |
+| Vom Spiel geladener Mod / Upload-Stand | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\mod\warcraft` – bewusst eine **Kopie**, die Kono von Hand aus dem Repo befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`). Nur dieser Ordner wird hochgeladen. Weder lesen noch schreiben, außer Kono verlangt es ausdrücklich. |
 | Logs | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\logs\error.log` |
 | Script-Doku | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\docs\` (`effects.log`, `triggers.log`, `modifiers.log`, `on_actions.log`, `event_targets.log`); per Konsole `script_docs` neu erzeugen |
 
@@ -40,19 +40,20 @@ Spielversion prüfen: `launcher\launcher-settings.json` → `rawVersion`. Der Mo
 
 ## Content-Ablauf (Events, JEs, Entscheidungen)
 
-1. Christian liefert die Idee (Lore, beteiligte Länder/States, gewünschter Effekt).
+1. Kono liefert die Idee (Lore, beteiligte Länder/States, gewünschter Effekt).
 2. Claude sucht ein passendes Vanilla-Vorbild (gleicher Mechanik-Typ) und prüft Effekte/Trigger in der Script-Doku.
 3. Claude schreibt Script **und** englische Lokalisierung zusammen. Keine Loc-Keys ohne Text, keine Texte ohne Key.
-4. Platzhalter-Grafiken (Icons, `event_image`) aus Vanilla verwenden und als `# TODO:` markieren, wenn eigene Grafik gewünscht ist.
-5. Claude trägt Testfälle ins Testprotokoll ein. Christian testet im Spiel und hakt ab, Claude wertet danach `error.log` aus (nur Zeilen mit Mod-Pfaden sind relevant).
+4. Platzhalter-Grafiken (Icons, `event_image`) aus Vanilla verwenden und als `# TODO: eigenes …` markieren, wenn eigene Grafik gewünscht ist. Jede solche Grafik zusätzlich in die Liste in VA-027 eintragen (Größe, Ziel-Pfad, Bildidee). TODOs werden vor jedem Upload durchgegangen (Checkliste im Ablaufplan).
+5. Claude trägt Testfälle ins Testprotokoll ein. Kono testet im Spiel und hakt ab, Claude wertet danach `error.log` aus (nur Zeilen mit Mod-Pfaden sind relevant).
 
 ## Arbeitsweise
 
 - Die Datei `error.log` ist die einzige verlässliche Prüfung; ein Parser/Build existiert nicht. Nach Änderungen um einen Spielstart bitten statt Korrektheit zu behaupten.
-- **Testprotokoll:** Jede Änderung bekommt einen Testfall in `.claude/TESTPROTOKOLL.md` (aktuelle Runde, ID `T-NNN`, Schritte, Erwartung, Ticket). Ein Ticket wird erst `erledigt`, wenn Christian alle seine Testfälle mit OK bestätigt hat; bis dahin `wartet (Spieltest)`. Der Log-Testfall jeder Runde gehört Claude.
-- **Lint vor jeder Testrunde:** `python -I .claude/tools/va_lint.py --regions <geänderte Regionen>` (BOM, Loc, Verweise `cu:`/`c:`/`s:`/`rel:`, doppelte Objekte, State-Prüfung). Eine Testrunde wird erst freigegeben, wenn der Lint **0 neue Fehler** meldet. Bekannte Altlasten stehen in `.claude/tools/va_lint_baseline.txt` (Abbau: VA-023); `--update-baseline` nur nach Abbau von Altlasten oder mit Christians Zustimmung, nie um neue Fehler zu verstecken.
+- **Testprotokoll:** Jede Änderung bekommt einen Testfall in `.claude/TESTPROTOKOLL.md` (aktuelle Runde, ID `T-NNN`, Schritte, Erwartung, Ticket). Ein Ticket wird erst `erledigt`, wenn Kono alle seine Testfälle mit OK bestätigt hat; bis dahin `wartet (Spieltest)`. Der Log-Testfall jeder Runde gehört Claude.
+- **Lint vor jeder Testrunde:** `python -I .claude/tools/va_lint.py --regions <geänderte Regionen>` (BOM, Loc, Verweise `cu:`/`c:`/`s:`/`rel:`, doppelte Objekte, State-Prüfung). Eine Testrunde wird erst freigegeben, wenn der Lint **0 neue Fehler** meldet. Bekannte Altlasten stehen in `.claude/tools/va_lint_baseline.txt` (Abbau: VA-023); `--update-baseline` nur nach Abbau von Altlasten oder mit Konos Zustimmung, nie um neue Fehler zu verstecken.
 - Weitere Prüfskripte in `.claude/tools/`: `va_errlog.py` (error.log zusammenfassen), `va_check_states.py <NN>` (State-Region-Datei gegen Karte, History, Pops, Gebäude, Länder). Python-Tools nutzen nur Standardbibliothek plus das vorhandene `numpy`/`Pillow`; nichts per pip/conda nachinstallieren, keine venvs anlegen.
 - **Checklisten** für Patch-Wechsel und Upload stehen im Ablaufplan und werden jedes Mal komplett abgehakt.
 - Große Binärdateien (Karte, Heightmap, `.bin`, `.dds`) nicht anfassen, außer ausdrücklich verlangt.
 - Achtung: Der Ingame-Map-Editor schreibt in den geladenen Mod-Ordner (`mod\warcraft`), nicht ins Repo. Nach Kartenarbeit daran erinnern, die Dateien ins Repo zurückzuholen.
+- **Provinzen löschen nur vollständig:** Farbe aus `provinces.png` weg, aber ID noch irgendwo referenziert → Absturz beim Start. Alle Referenzen weg, Farbe aber noch auf der Karte → weißer Fleck, jedes Frame Fehler unter der Maus. Danach beides gegenprüfen: ID-Suche über alle Textdateien und Farbsuche in `provinces.png` müssen 0 ergeben (Details VA-031).
 - Git: nur lesen (siehe globale Vorgaben).

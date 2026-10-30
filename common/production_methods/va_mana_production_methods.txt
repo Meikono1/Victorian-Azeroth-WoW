@@ -1,6 +1,6 @@
 ﻿# PMs der Leylinien-Anzapfung (VA-019). Vorbild: pm_picks_and_shovels_building_coal_mine.
 pm_focus_crystals_building_leyline_tap = {
-	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds" # TODO: eigenes Icon
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds" # TODO: eigenes Icon (VA-027)
 
 	building_modifiers = {
 		workforce_scaled = {

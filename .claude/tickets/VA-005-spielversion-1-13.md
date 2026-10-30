@@ -11,4 +11,4 @@
 
 ## Notizen
 
-- 2026-10-29: auf `1.13.*` gesetzt (Christian: 1.13 gemeint).
+- 2026-10-29: auf `1.13.*` gesetzt (Kono: 1.13 gemeint).

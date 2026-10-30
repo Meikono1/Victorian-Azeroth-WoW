@@ -5,11 +5,12 @@ Aufruf: python -I .claude/tools/va_events.py [--details] [--stubs] [--apply-copi
   --stubs         für Vanilla-Dateien mit Erde-Inhalt ohne Mod-Gegenstück eine leere Datei anlegen
                   (abschalten nach Projektregel)
   --apply-copies  alte Mod-Kopien bereinigen: "kopie-allgemein" und "stub-allgemein" löschen, "kopie-erde" leeren.
-                  Löscht Repo-Dateien (Christian hat Claude das Ausführen erlaubt, 2026-10-30).
+                  Löscht Repo-Dateien (Kono hat Claude das Ausführen erlaubt, 2026-10-30).
 
 Grundlage ist, was das Spiel ohne `events` in replace_paths lädt: Vanilla-Dateien unter events/
 (rekursiv), gleichnamige Mod-Dateien ersetzen sie. Erde-Verweise sind c:/cu:/rel: auf Objekte, die nur
-Vanilla definiert, s:/sr: auf States/Regionen, die der Mod nicht hat, und JEs, die der Mod nicht hat.
+Vanilla definiert, s:/sr: auf States/Regionen, die der Mod nicht hat (auch nackte STATE_… ohne s:), und JEs,
+die der Mod nicht hat.
 """
 import argparse
 import logging
@@ -19,12 +20,14 @@ from pathlib import Path
 
 sys.dont_write_bytecode = True  # kein __pycache__ im Repo
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # -I nimmt das Skriptverzeichnis aus sys.path
-from va_script import REPO, VANILLA, replace_paths
+from va_script import REPO, VANILLA, effective_files, replace_paths
 
 log = logging.getLogger("va_events")
 
 REF = re.compile(r"\b(cu|c|s|sr|rel):([A-Za-z_][A-Za-z0-9_]*)")
 JE_REF = re.compile(r"\b(je_[A-Za-z0-9_]+)\b")
+# nackte State-Region ohne s:, z. B. owns_entire_state_region = STATE_HOME_COUNTIES; s:STATE_… fängt REF
+BARE_STATE = re.compile(r"(?<![:\w])(STATE_[A-Za-z0-9_]+)\b")
 TOP_KEY = re.compile(r"^([A-Za-z_][A-Za-z0-9_\-]*)\s*=\s*\{", re.M)
 STATE_KEY = re.compile(r"^\s*(STATE_[A-Za-z0-9_]+)\s*=", re.M)
 # Allgemeine Mechaniken (Wahlen, Gesetze, Petitionen, Putsche …), die Erde-Länder/-Kulturen/-Religionen oder
@@ -63,7 +66,7 @@ GENERIC = {
 	"events/standard_of_living_events.txt",
 	"events/urbanization_events.txt",
 	"events/soi_events/00_lobbies_events_04.txt",
-	# Nachgeprüft 2026-10-30 (Hinweis Christian): Erde-Länder/-Kulturen nur als Namensverzweigung mit Fallback
+	# Nachgeprüft 2026-10-30 (Hinweis Kono): Erde-Länder/-Kulturen nur als Namensverzweigung mit Fallback
 	"events/nihilism.txt",
 	"events/agitators_events/silkworm_diseases.txt",
 	"events/agitators_events/slave_revolt_events.txt",
@@ -73,10 +76,15 @@ GENERIC = {
 	"events/iberia_events/ip4_coup_events.txt",
 	"events/iberia_events/ip4_election_rigging.txt",
 	"events/iberia_events/negotiation_events.txt",
+	# VA-002 Teil 2: vom allgemeinen Polizei-JE je_scotland_yard aufgerufen; feuert nur mit exists = c:GBR
+	"events/scotland_yard.txt",
 }
-# Mod-Kopien, die bleiben, bis common/journal_entries aus replace_paths kommt: Die Mod-JE-Kopie passt nur
-# zu dieser alten Eventfassung (01_coup.txt ruft coup.2 … auf, die Vanilla 1.13 nicht mehr hat).
-KEEP_COPY = {"events/agitators_events/coup_events.txt"}
+# Teilmenge von GENERIC, die trotz s:/STATE_-Verweis allgemein bleibt (Verweis nur in einer Erde-Textvariante).
+GENERIC_GEO = {
+	"events/scotland_yard.txt",  # STATE_HOME_COUNTIES nur in der GBR-Beschreibung, Fallback-Text allgemein
+}
+# Mod-Kopien, die vorerst bleiben (Grund als Kommentar). coup_events.txt ist seit VA-002 Teil 2 wieder Vanilla.
+KEEP_COPY = set()
 CRLF = chr(13) + chr(10)  # Zeilenende wie in den übrigen Mod-Dateien
 STUB ="\ufeff# Abgeschaltet (VA-002): Vanilla-Eventdatei mit Erde-Inhalt. Erzeugt von .claude/tools/va_events.py.\n"
 
@@ -115,9 +123,10 @@ def known_objects():
     earth["rel"] = names(VANILLA, "common/religions")
     mod["s"] = names(REPO, "map_data/state_regions", STATE_KEY)
     mod["sr"] = names(REPO, "common/strategic_regions")
-    mod["je"] = names(REPO, "common/journal_entries")
-    if "common/journal_entries" not in replace_paths():
-        mod["je"] |= names(VANILLA, "common/journal_entries")
+    # wirksame JE-Dateien: leere Mod-Datei schaltet die gleichnamige Vanilla-Datei ab
+    mod["je"] = set()
+    for f in effective_files("common/journal_entries"):
+        mod["je"] |= {m.split(":", 1)[-1] for m in TOP_KEY.findall(strip_comments(read(f)))}
     earth["je"] = names(VANILLA, "common/journal_entries") - mod["je"]
     log.info("Mod: %d Länder, %d Kulturen, %d States, %d Regionen, %d JEs", len(mod["c"]), len(mod["cu"]),
              len(mod["s"]), len(mod["sr"]), len(mod["je"]))
@@ -144,6 +153,7 @@ def earth_refs(text, earth, mod):
         elif name not in mod[kind]:
             hard.add(f"{kind}:{name}")
     hard |= {je for je in JE_REF.findall(text) if je in earth["je"]}
+    hard |= {f"s:{st}" for st in BARE_STATE.findall(text) if st not in mod["s"]}
     return hard, soft
 
 
@@ -179,7 +189,7 @@ def classify(rel, van, own, earth, mod):
             return "kopie-behalten", set()
     hard, soft = earth_refs(strip_comments(read(van)), earth, mod)
     geo = {r for r in hard if r.startswith(("s:", "sr:"))}
-    is_earth = bool(geo) or (bool(hard | soft) and rel not in GENERIC)
+    is_earth = (bool(geo) and rel not in GENERIC_GEO) or (bool(hard | soft) and rel not in GENERIC)
     prefix = "kopie" if own is not None else "vanilla"
     return (f"{prefix}-erde" if is_earth else f"{prefix}-allgemein"), hard | soft
 

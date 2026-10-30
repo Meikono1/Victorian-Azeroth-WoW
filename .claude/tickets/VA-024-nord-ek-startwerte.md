@@ -7,7 +7,7 @@
 
 ## Beschreibung
 
-Nach VA-015 (Mechanik) die Startwerte im nördlichen Eastern Kingdoms (Region 26) inhaltlich durchgehen und an Lore und Spielbalance anpassen. Wunsch von Christian nach dem ersten Lauf über einige Monate (Runde 1, T-001): „sieht ganz okay aus“, jetzt Pops, Start-Gebäude und alles Übrige prüfen.
+Nach VA-015 (Mechanik) die Startwerte im nördlichen Eastern Kingdoms (Region 26) inhaltlich durchgehen und an Lore und Spielbalance anpassen. Wunsch von Kono nach dem ersten Lauf über einige Monate (Runde 1, T-001): „sieht ganz okay aus“, jetzt Pops, Start-Gebäude und alles Übrige prüfen.
 
 Umfang je State/Land:
 
@@ -17,7 +17,7 @@ Umfang je State/Land:
 
 Dateien: `common/history/pops/va_north_eastern_kingdoms.txt`, `common/history/buildings/26_north_eastern_kingdoms.txt`, `map_data/state_regions/26_va_north_eastern_kingdoms.txt`, `common/history/countries/…`, `common/history/states/VA_eastern_kingdoms_states.txt`.
 
-Vorschlag zum Vorgehen: erst eine Übersichtstabelle (State, Besitzer, Pops, Kulturen, Gebäude-Stufen) per Skript erzeugen, Christian markiert, was nicht passt, dann gezielt anpassen. Das Skript lässt sich danach für die anderen Regionen wiederverwenden.
+Vorschlag zum Vorgehen: erst eine Übersichtstabelle (State, Besitzer, Pops, Kulturen, Gebäude-Stufen) per Skript erzeugen, Kono markiert, was nicht passt, dann gezielt anpassen. Das Skript lässt sich danach für die anderen Regionen wiederverwenden.
 
 ## Notizen
 
@@ -32,4 +32,4 @@ Vorschlag zum Vorgehen: erst eine Übersichtstabelle (State, Besitzer, Pops, Kul
 
 ## Offen
 
-- **Christian:** Gesamtgröße der Bevölkerung für Azeroth / Nord-EK festlegen (Richtwert pro State).
+- **Kono:** Gesamtgröße der Bevölkerung für Azeroth / Nord-EK festlegen (Richtwert pro State).

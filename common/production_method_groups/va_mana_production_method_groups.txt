@@ -3,6 +3,6 @@ pmg_base_building_leyline_tap = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_focus_crystals_building_leyline_tap
-		# TODO: weitere Stufen (z. B. arkane Leitungen) mit eigener Technologie
+		# TODO: weitere Stufen (z. B. arkane Leitungen) mit eigener Technologie (VA-019)
 	}
 }

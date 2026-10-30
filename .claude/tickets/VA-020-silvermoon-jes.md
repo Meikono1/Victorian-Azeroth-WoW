@@ -12,3 +12,4 @@ Fünf Ziele: Deathholme vertreiben, Zul'Aman zerstören, Wretched heilen (zusamm
 Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
 
 ## Notizen
+- 2026-10-30 (Log Runde 4): Bestehende `common/journal_entries/VA_silvermoon.txt` hat kein BOM und nutzt `should_be_pinned_by_default` (Zeile 15), das 1.13 nicht mehr kennt. Beim Neuaufbau mitbeheben.

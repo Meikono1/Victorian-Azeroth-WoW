@@ -2,7 +2,7 @@
 # Erde-Regionen ab (sr:region_arabia ...). Die gibt es hier nicht -> ~10.000 Fehler/Minute.
 # Nur die betroffenen Bloecke werden ersetzt, der Rest der Vanilla-Strategie bleibt unberuehrt.
 # strategic_region_scores aus Vanilla 1.13.11: nur Grundwert, Heimat, Kolonien.
-# TODO: Azeroth-spezifische Regionen (Kalimdor, Eastern Kingdoms ...) gewichten.
+# TODO: Azeroth-spezifische Regionen (Kalimdor, Eastern Kingdoms ...) gewichten (VA-013).
 
 INJECT:ai_strategy_default = {
 	strategic_region_scores = {

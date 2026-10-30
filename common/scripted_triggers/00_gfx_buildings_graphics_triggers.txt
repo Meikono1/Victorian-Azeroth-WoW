@@ -2,7 +2,7 @@
 # Vanilla waehlt hier regionale Stadtgrafiken ueber Erde-States/-Regionen (s:STATE_ALSACE_LORRAINE ...).
 # Die gibt es auf Azeroth nicht, die Pruefung lief pro Stadtgrafik dauerhaft auf Fehler.
 # Namen muessen erhalten bleiben, weil Vanilla-City-Types sie aufrufen.
-# TODO: Spaeter fuer eigene Baustile nutzen (z. B. Zwerge, Elfen, Orcs).
+# TODO: Spaeter fuer eigene Baustile nutzen (z. B. Zwerge, Elfen, Orcs) (VA-027).
 
 us_american_buildings_trigger = {
 	always = no

@@ -5,12 +5,12 @@ Erledigte Tickets bleiben liegen (Status `erledigt`), damit die Historie nachvol
 
 ## Felder
 
-- **Status:** `offen` · `in Arbeit` · `wartet` (auf Christian/Spieltest) · `erledigt` · `verworfen`
+- **Status:** `offen` · `in Arbeit` · `wartet` (auf Kono/Spieltest) · `erledigt` · `verworfen`
 - **Typ:** `content` · `technik` · `bug` · `aufraeumen` · `grafik`
 - **Priorität:** `hoch` · `mittel` · `niedrig`
 
 Unter „Notizen“ landen Zwischenstände, Entscheidungen und betroffene Dateien.
-Neues Ticket: Christian sagt „Ticket: …“, Claude legt die Datei an und trägt sie unten ein.
+Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt sie unten ein.
 
 ## Übersicht
 
@@ -42,3 +42,9 @@ Neues Ticket: Christian sagt „Ticket: …“, Claude legt die Datei an und tr�
 | [VA-024](VA-024-nord-ek-startwerte.md) | Nord-EK – Pops, Start-Gebäude und Startwerte | content | hoch | offen |
 | [VA-025](VA-025-log-spam-vanilla-regionen.md) | Log-Spam durch Vanilla-Scripts mit realen Regionen | bug | hoch | erledigt |
 | [VA-026](VA-026-geo-regionen-machtblock-namen.md) | Vanilla geographic_regions und power_bloc_names mit Erde-Bezug | bug | mittel | offen |
+| [VA-027](VA-027-platzhalter-grafiken.md) | Platzhalter-Grafiken durch eigene ersetzen | grafik | niedrig | offen |
+| [VA-028](VA-028-vulkan-states.md) | Vulkangebiete Azeroths für Naturkatastrophen | content | niedrig | offen |
+| [VA-029](VA-029-start-gebaeude-hungersnot.md) | Ressourcen und Start-Gebäude außerhalb Nord-EK (Hungersnot) | content | hoch | in Arbeit |
+| [VA-030](VA-030-vashjir-provinzen.md) | Vashj'ir – Provinzen neu zeichnen, Ressourcen | grafik | mittel | offen |
+| [VA-031](VA-031-rogue-provinzen.md) | Rogue-Provinzen im Süden entfernen | technik | mittel | offen |
+| [VA-032](VA-032-inseln-provinzen-unterteilen.md) | Zandalar, Kul Tiras, Verlorene Inseln, Draenor – Provinzen unterteilen | technik | mittel | offen |

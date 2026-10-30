@@ -1,0 +1,1 @@
+﻿# Abgeschaltet (VA-002): Vanilla-Datei mit Erde-Inhalt. Erzeugt von .claude/tools/va_common_folders.py.

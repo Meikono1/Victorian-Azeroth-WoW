@@ -1,104 +1,3365 @@
 BUILDINGS = {
 	s:STATE_SWIFTGEAR_STATION = {
+		region_state:MENETHIL={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:BLUEGILL_MORLOCS={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:BLUEGILL_MORLOCS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:BLUEGILL_MORLOCS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_MENETHIL_KEEP = {
+		region_state:MENETHIL={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_coffee_plantation"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_DUN_MODR = {
+		region_state:GREENWARDENS_GROVE={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:TWILIGHT_CONVERT={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHT_CONVERT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_WHELGARS_RETREAT = {
+		region_state:EXPLORERS_LEAGUE={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:EXPLORERS_LEAGUE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_coffee_plantation"
+				add_ownership={
+					country={
+						country="c:EXPLORERS_LEAGUE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:EXPLORERS_LEAGUE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:DRAGONMAW_CLAN_AZ={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_GREENWARDENS_GROVE = {
+		region_state:GREENWARDENS_GROVE={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:GREENWARDENS_GROVE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_DUN_ALGAZ = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_VERMILLION_REDOUBT = {
+		region_state:VERMILLON_DRAGONFLIGHT={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:GLOPGUT_CLAN={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:GLOPGUT_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:GLOPGUT_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_MAW_OF_MADNESS = {
+		region_state:THE_EARTHEN_RING_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:THE_EARTHEN_RING_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_KIRTHAVEN = {
+		region_state:WILDHAMMER_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_THUNDERMAR = {
+		region_state:DRAGONMAW_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:WILDHAMMER_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_TWILIGHT_SHORE = {
+		region_state:DRAGONMAW_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:AXEBITE_EXPEDITION={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:AXEBITE_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:AXEBITE_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:AXEBITE_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:AXEBITE_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:HIGHBANK_EXPEDITION={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:HIGHBANK_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:HIGHBANK_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_FIREBEARDS_PATROL = {
+		region_state:DRAGONMAW_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_CRUCIBLE_OF_CARNAGE = {
 	}
 	s:STATE_WYRMS_BEND = {
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_GRIM_BATOL = {
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_VICTORS_POINT = {
+		region_state:WILDHAMMER_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:BLOODEYE_CLAN={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:BLOODEYE_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:BLOODEYE_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_BASTION_OF_TWILIGHT = {
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_MOGROSH_STRONGHOLD = {
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_DUNWALD_RUINS = {
+		region_state:OBSIDIAN_DRAGONFLIGHT={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
+		region_state:WILDHAMMER_CLAN_AZ={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_OBSIDIAN_FOREST = {
+		region_state:OBSIDIAN_DRAGONFLIGHT={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_sugar_plantation"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:VERMILLON_DRAGONFLIGHT={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_sugar_plantation"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_FARSTRIDER_LODGE = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:STONESPLINTER_TRIBE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:STONESPLINTER_TRIBE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_STONEWROUGHT_DAM = {
+		region_state:TWILIGHTS_HAMMER={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:BLUEGILL_MORLOCS={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLUEGILL_MORLOCS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_VALLEY_OF_KINGS = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:STONESPLINTER_TRIBE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:STONESPLINTER_TRIBE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_THELSAMAR = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_NORTH_GATE_OUTPOST = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_GOL_BOLAR_QUARRY = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:ROCKJAW_TROGGS={
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:ROCKJAW_TROGGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_AMBERSTILL_RANCH = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:FROSTMANES={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_KHARANOS = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_SHIMMER_RIDGE = {
+		region_state:GNOMEREGAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:FROSTMANES={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_IRONFORGE = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=11
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=7
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_GNOMEREGAN = {
+		region_state:GNOMEREGAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=4
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_FROSTMANE_HOLD = {
+		region_state:FROSTMANES={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:FROSTMANES"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:GNOMEREGAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_COLDRIDGE_VALLEY = {
+		region_state:IRONFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:GRIKNIR_FROSTMANE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:GRIKNIR_FROSTMANE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:GRIKNIR_FROSTMANE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					country={
+						country="c:GRIKNIR_FROSTMANE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_FIREWATCH_RIDGE = {
+		region_state:THORIUM_BROTHERHOOD={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:THORIUM_BROTHERHOOD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_DUSTFIRE_VALLEY = {
+		region_state:DARK_IRON_CLAN={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:DARK_IRON_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_THE_CAULDRON = {
+		region_state:DARK_IRON_CLAN={
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:DARK_IRON_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:DARK_IRON_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:DARK_IRON_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_SEA_OF_CINDERS = {
+		region_state:DARK_IRON_CLAN={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:DARK_IRON_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
+		region_state:THORIUM_BROTHERHOOD={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:THORIUM_BROTHERHOOD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_NEW_KARGATH = {
+		region_state:BLACKWING_OUTPOST={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKWING_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
+		region_state:NEW_KARGATH={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:NEW_KARGATH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:NEW_KARGATH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:NEW_KARGATH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:NEW_KARGATH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_DRAGONS_MOUTH = {
+		region_state:DUSTBELCHER_CLAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_ANGOR_FORTRESS = {
+		region_state:SHADOWFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:SHADOWFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:SHADOWFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:SHADOWFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:BLACKWING_OUTPOST={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKWING_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_ULDAMAN = {
+		region_state:SHADOWFORGE={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:SHADOWFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:SHADOWFORGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_DUSTWIND_DIG = {
+		region_state:DUSTBELCHER_CLAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:DUSTBELCHER_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_AGMONDS_END = {
+		region_state:THE_RELIQUARY={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:THE_RELIQUARY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:THE_RELIQUARY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_LETHLOR_RAVINE = {
+		region_state:STEAMWHEEDLE_CARTEL={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:STEAMWHEEDLE_CARTEL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:STEAMWHEEDLE_CARTEL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:STEAMWHEEDLE_CARTEL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:STEAMWHEEDLE_CARTEL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:BLACKWING_OUTPOST={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKWING_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_DREADMAUL_ROCK = {
+		region_state:BLACKWING_DRAGONFLIGHT={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKWING_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
+		region_state:BLACKROCK_CLAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_MORGANS_VIGIL = {
+		region_state:BLACKROCK_CLAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+		region_state:MORGANS_VIGIL={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:MORGANS_VIGIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_RUINS_OF_THAURISSAN = {
+		region_state:BLACKROCK_CLAN={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_BLACKROCK_STRONGHOLD = {
+		region_state:BLACKROCK_CLAN={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_BLACKROCK_MOUNTAIN = {
+		region_state:BLACKWING_DRAGONFLIGHT={
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:BLACKWING_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					country={
+						country="c:BLACKWING_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					country={
+						country="c:BLACKWING_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_FLAMESTAR_POST = {
+		region_state:BLACKROCK_CLAN={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:BLACKROCK_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+		region_state:THORIUM_BROTHERHOOD={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					country={
+						country="c:THORIUM_BROTHERHOOD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
 	}
 	s:STATE_VASHJ_IR = {
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_IMMORTAL_COIL={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SMUGGLERS_SCAR={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_GNAWS_BONEYARD={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SHIMMERING_GROTTO={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_NESPIRAH={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_BIELARAN_RIDGE={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_ABYSSAL_BREACH={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_KORTHUNS_END={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_L_GHOREK={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_PROMONTORY_POINT={
+		region_state:VASHJ_IR={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 }

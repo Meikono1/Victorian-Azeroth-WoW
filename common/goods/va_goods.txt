@@ -1,6 +1,6 @@
 ﻿# Eigene Güter (VA-019). Vorbild: Vanilla common/goods/00_goods.txt (coal).
 mana = {
-	texture = "gfx/interface/icons/goods_icons/electricity.dds" # TODO: eigenes Mana-Icon
+	texture = "gfx/interface/icons/goods_icons/electricity.dds" # TODO: eigenes Mana-Icon (VA-027)
 	cost = 40
 	category = industrial
 

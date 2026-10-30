@@ -12,3 +12,5 @@
 Lösung: Provinzen per Nachbarschaft/Hub-Verweis zurück in ihre States verteilen (`va_check_states.py 26 --assign-test` als Startpunkt; 191 Provinzen grenzen nur an andere TEST-Provinzen, 102 an Meer), danach `STATE_TEST` und den leeren Block in `common/history/buildings/26_north_eastern_kingdoms.txt` entfernen.
 
 ## Notizen
+
+- 2026-10-30: Alle 312 Provinzen von `STATE_TEST` sind Splitter im Rogue-Haufen im Süden (je ~20 Pixel), keine echten Landprovinzen. Auflösen heißt löschen, nicht verteilen → VA-031.

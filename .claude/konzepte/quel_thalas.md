@@ -1,6 +1,6 @@
 # Konzept: Quel'Thalas (Nord-Nord-EK)
 
-Stand: 2026-10-30, Idee von Christian. Umsetzung in VA-019 bis VA-022.
+Stand: 2026-10-30, Idee von Kono. Umsetzung in VA-019 bis VA-022.
 
 ## Akteure
 
@@ -43,7 +43,7 @@ Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenp
 - Während der Laufzeit breitet sich `va_dead_scar` in Nachbar-States aus (gegen Silvermoons Heilung).
 - `on_timeout`: Land endgültig verdorben. Unterwerfung unter den Lichkönig nur, wenn ein Geißel-Land in Northrend existiert. **Northrend hat derzeit kein einziges Land** → Abhängigkeit, bis dahin Fallback (z. B. nur Verderbnis, keine Unterwerfung).
 
-## Entscheidungen (Christian, 2026-10-30)
+## Entscheidungen (Kono, 2026-10-30)
 
 - **Quel'Danas** gehört zum Start Silvermoon (umgesetzt). Später eine Eventreihe: Kael'thas flieht dorthin und versucht, Kil'jaeden zu beschwören. Daraus entstehen die Shadowsword (Schattenschwerter) und eine kleine Gruppe der Zerschmetterten Sonne (Shattered Sun). Kommt später, siehe Content-Ideen im Ablaufplan.
 - **Mana ist ein echtes Handelsgut** (`common/goods/va_goods.txt`), nicht nur eine Variable. Der Abschnitt „Gemeinsame Bausteine“ oben gilt für Mana entsprechend (Mangel = Marktpreis/Versorgung statt Variable). Details in VA-019.

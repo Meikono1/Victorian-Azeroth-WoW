@@ -7,7 +7,7 @@
 
 ## Beschreibung
 
-Christian startet Victoria 3 (1.13.11) mit dem Mod bis in eine Kampagne und führt in der Konsole `script_docs` aus. Claude wertet danach `logs\error.log` aus und legt pro Fehlerursache ein Ticket an.
+Kono startet Victoria 3 (1.13.11) mit dem Mod bis in eine Kampagne und führt in der Konsole `script_docs` aus. Claude wertet danach `logs\error.log` aus und legt pro Fehlerursache ein Ticket an.
 
 Achtung: `map_data/provinces.png` wurde im Jan. 2026 korrigiert, die State-Region-Dateien nicht. Auf Meldungen zu nicht zugeordneten Provinzen achten.
 

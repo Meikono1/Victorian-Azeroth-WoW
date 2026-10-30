@@ -1,6 +1,6 @@
 # Testprotokoll
 
-Jede Änderung, die Claude macht, bekommt hier einen Testfall. Christian testet im Spiel und hakt ab. Ein Ticket gilt erst als `erledigt`, wenn alle seine Testfälle **OK** sind.
+Jede Änderung, die Claude macht, bekommt hier einen Testfall. Kono testet im Spiel und hakt ab. Ein Ticket gilt erst als `erledigt`, wenn alle seine Testfälle **OK** sind.
 
 **Ablauf je Testrunde**
 0. Claude: `va_lint.py` meldet 0 neue Fehler (Voraussetzung für die Freigabe).
@@ -116,12 +116,63 @@ Tickets: VA-002, VA-025. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Alte Kop
 
 ---
 
-## Runde 4 – allgemeine Events zurück (Stand 2026-10-30)
+## Runde 4 – allgemeine Events und JEs zurück (Stand 2026-10-30)
 
 Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann zusammen mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher neu befüllen; die zwei Dateien unten dürfen dort **nicht** mehr liegen.
 
 ### T-018 error.log: Sklavenaufstand und Anarchismus (Claude)
 - **Schritte:** Kampagne starten, ein paar Monate laufen lassen, Spiel beenden, Claude Bescheid geben. Wieder aktiv aus Vanilla: `events/agitators_events/slave_revolt_events.txt`, `events/iberia_events/ip4_anarchism_events.txt`.
 - **Erwartet:** Keine Fehler aus diesen beiden Dateien im `error.log`. Ob die Events im Spiel auftauchen, ist Zufall und kein Testkriterium.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30 (ein Jahr gelaufen, kein Absturz): `slave_revolt_events.txt` fehlerfrei. `ip4_anarchism_events.txt:379` 1× `building_art_academy` unbekannt. Ursache liegt nicht in der Eventdatei: Die alten Mod-Kopien unter `common/buildings/` kennen die 1.13-Gebäude nicht → VA-003. Event-Datei bleibt aktiv.
+
+### T-019 Journal: allgemeine JEs da, keine Erde-JEs
+- **Schritte:** `mod\warcraft` **vorher leeren** und neu befüllen (viele Dateien gelöscht). Kampagne als Silvermoon starten, Journal öffnen (aktive und mögliche Einträge). Ein Jahr laufen lassen, Journal erneut ansehen.
+- **Erwartet:** Allgemeine Einträge wie Kunstrichtungen (Romantik), Prestigegüter, Lebensstandard oder Interessengruppen-Agenden können auftauchen. Keine Einträge mit Erde-Bezug (Japan, Brasilien, Indien, Afrika, Expeditionen). Petitionen der Interessengruppen zeigen ihre Buttons („Verlängerung“, „Abweisen“) mit Text.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Silvermoon nach einem Jahr, Reiter „Potential“: Poverty Crisis, Religion/Autocracy/Nationality, Corn Laws, Path to Liberalism, Patronize Romanticism, Patronize Realist Art, From Farms to Factories, Urbanize. Alles allgemein, kein Erde-Eintrag. „Urbanize SILVERMOON“ zeigt den rohen Tag statt des Ländernamens → bekannt, VA-006. Petitions-Buttons nicht gesehen (keine Petition aktiv), bei Gelegenheit nachholen.
+
+### T-020 error.log: JEs und Buttons (Claude)
+- **Schritte:** Nach T-019 Claude Bescheid geben.
+- **Erwartet:** Keine Fehler `Invalid journal entry type` mehr für `je_government_petition`, `je_law_imposition` und `je_divided_monarchists` aus Coup-Events. Die 26 Fehler „can only be used for country context“ aus `government_petition_events.txt` sind weg. Keine Ladefehler aus `common/journal_entries/0*.txt` oder `common/scripted_buttons/0*.txt`. Übrig bleiben dürfen Great-Game-Ziele (bekannt, VA-002 Notizen) und Gilneas (VA-007).
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, 9.922 Einträge. **Behoben:** `je_government_petition` und `je_law_imposition` sind nicht mehr ungültig, „country context“ 0× (vorher 26×). **Erwartet geblieben:** Great-Game-Ziele, Gilneas. **Fehler:** (1) `has_journal_entry` auf abgeschaltete JEs erzeugt doch Ladefehler (712×, z. B. `je_divided_monarchists` in Vanilla-Gesetzen, -Ideologien und `government_conflicts_events.txt`); Annahme in VA-002 war falsch → Notiz dort. (2) Aus Vanilla-JEs: fehlende 1.13-Gebäude (`building_art_academy`, `building_steel_mill`, `building_barrack` in `coup_events.txt`) und fehlender Effekt `rebind_prestige_good_company` (`05_prestige_goods.txt`) – beides durch alte Mod-Kopien (`common/buildings/0*.txt`, `common/scripted_effects/00_scripted_effects.txt`) → VA-003. (3) Eigene JEs `VA_silvermoon.txt` und `VA_gilneas_infection.txt`: kein BOM, `should_be_pinned_by_default` gibt es in 1.13 nicht mehr, Gilneas zusätzlich `je_group_g` ungültig → VA-020 bzw. VA-007. (4) `events/scotland_yard.txt:16` fragt `STATE_HOME_COUNTIES` ohne `s:` ab; `va_events.py` erkennt solche Verweise nicht → VA-002.
+
+---
+
+## Runde 5 – Firmen und Charaktervorlagen aus replace_paths (Stand 2026-10-30)
+
+Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher **leeren** und neu befüllen: `common/character_templates/default_template.txt` ist gelöscht und darf dort nicht mehr liegen (sonst gibt es `default` doppelt).
+
+### T-021 Charaktere: Lebensdauer und Religion
+- **Schritte:** Kampagne als Silvermoon starten. Herrscher, Erben und zwei Interessengruppen-Anführer ansehen (Eigenschaften, Religion). Ein Jahr laufen lassen, einen neu erschienenen Charakter (Agitator, General oder neuer IG-Anführer) ansehen.
+- **Erwartet:** Elfen tragen die Eigenschaft für 50.000 Jahre Lebensdauer, neue Charaktere ebenso. Charaktere der Hauptkultur haben die Staatsreligion. Keine Charaktere mit Erde-Namen oder Erde-Kulturen.
 - **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
 
+### T-022 Firmen: nur Basisfirmen
+- **Schritte:** In derselben Kampagne den Reiter Firmen öffnen (mögliche Firmen).
+- **Erwartet:** Nur allgemeine Basisfirmen (Fischerei, Holz, Textil …), keine historischen Firmen (Fiat, Suez, Škoda …).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-023 error.log: Firmen und Charaktervorlagen (Claude)
+- **Schritte:** Nach T-021/T-022 Claude Bescheid geben.
+- **Erwartet:** Keine Fehler aus `common/character_templates/` (insbesondere kein doppeltes `default`), keine aus `common/company_types/` außer bekannten Gebäudenamen aus den alten Gebäudekopien (VA-003). Vanilla-Vorlagen für Kolonialgouverneure (`colonial_governor_templates.txt`) laden ohne Fehler.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, 7 Jahre gelaufen, Log ab Ladebeginn vollständig (14.051 Einträge). Keine Fehler aus `common/character_templates/`, kein doppeltes `default`. `99_basic_companies.txt` 27× `is_building_type` (erwartet: Vanilla-Datei lädt, alte Kopie noch nicht zurückgeholt, VA-003). Bekannt und unverändert: `has_template` auf Erde-Vorlagen aus Vanilla-Scripts (~450, waren vorher schon fehlende Vorlagen) und `is_company_type` in `00_company_charter_types.txt`. Beim Lauf aufgefallen: weltweite Hungersnot → VA-029.
+
+---
+
+## Runde 6 – Nord- und Mittel-EK: Start-Gebäude aufgefüllt (Stand 2026-10-30)
+
+Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und den offenen Tests aus Runde 1 laufen. `mod\warcraft` neu befüllen.
+
+### T-024 Nord-EK: Nahrung und Bevölkerung
+- **Schritte:** Kampagne als Silvermoon starten. Undercity, Gilneas, Stratholme (Plaguelands) und Aerie Peak im Staatenfenster ansehen: Farmen, Ranches, Fischerei, Holz, Minen vorhanden? Markt von Silvermoon und Undercity ansehen (Getreide, Fleisch, Fisch). 5 Jahre laufen lassen, Bevölkerungsgrafik von Silvermoon, Undercity und Gilneas ansehen.
+- **Erwartet:** Nord-EK-Staaten haben Nahrungs- und Rohstoffgebäude, Eisenminen nur wenige (14 Stufen in der Region). Nahrungsengpässe auf den Märkten deutlich kleiner als vorher (Getreide vorher −882 in Silvermoon). Bevölkerung in Nord-EK schrumpft nicht mehr dauerhaft (leichtes Auf und Ab ist normal). Andere Regionen hungern weiter, das ist erwartet (VA-029, nächste Regionen).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-026 Mittel-EK: Nahrung und Bevölkerung
+- **Schritte:** In derselben Kampagne Ironforge, Gnomeregan, Grim Batol und Menethil (Sumpfland) im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Ironforge ansehen (vorher 10,7 → 4,59 Mio. in 7 Jahren).
+- **Erwartet:** Mittel-EK-Staaten haben Farmen, Ranches, Holzfäller und Minen. Ironforge schrumpft nicht mehr dauerhaft. Vashj'ir hat bewusst noch Platzhalter-Gebäude (Roggen, Holz), siehe VA-029.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-025 error.log: Gebäude Nord- und Mittel-EK (Claude)
+- **Schritte:** Nach T-024 und T-026 Claude Bescheid geben.
+- **Erwartet:** Keine neuen Fehler aus `common/history/buildings/26_north_eastern_kingdoms.txt` und `27_center_eastern_kingdoms.txt`, kein „Tried to create building … already exists“ außer dem bekannten Archerus-Fischkai (VA-024). Keine ungültigen Produktionsmethoden.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
