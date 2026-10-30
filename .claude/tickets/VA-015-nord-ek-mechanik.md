@@ -25,8 +25,9 @@ Prüfung: `python -I .claude/tools/va_check_states.py 26` (geht auch für andere
 
 ### Offen
 
-- `EASTERNKINGDOMS` (in `country_definitions/00_countries.txt`, Kultur `kvaldir`, Hauptstadt `STATE_IRONFORGE`) hält Quel'Danas (3 States, je 10.000 Sin'dorei, keine Gebäude). Wirkt wie ein Platzhalter → Entscheidung Christian: wem gehört Quel'Danas?
+- 2026-10-30 erledigt: Quel'Danas (3 States inkl. Pops/Gebäude-Blöcke) gehört jetzt `SILVERMOON` statt Platzhalter `EASTERNKINGDOMS`. Der Tag selbst steckt in der Vanilla-Kopie `country_definitions/00_countries.txt` und hat keine States mehr.
 - Ohne Start-Gebäude: `STATE_SUNS_REACH`, `STATE_MAGISTERS_TERRACE`, `STATE_SUNWELL_PLATEAU`, `STATE_STRATHOLME`, `STATE_AERIE_PEAK`.
 - `STATE_STORMGARDE_KEEP`: 18 Provinzen gehören `STEAMWHEEDLE_CARTEL`, Homeland `goblin` – Lore prüfen.
 - Gleiche Platzhalter-Hauptstädte gibt es auch bei Ländern außerhalb Nord-EK (`STATE_BAMBALA` 3×, `STATE_WITHERBARK_VILLAGE` 2×, `STATE_HEADLAND`, `STATE_ULDAMAN`) → mit `va_check_states.py 27`/`28` prüfen.
 - Gebäude-History nutzt noch den alten Gebäudebestand (VA-003). Die PM-Prüfung im Skript läuft gegen den aktuell geladenen Stand und meldet für Nord-EK nichts.
+- 2026-10-30: Testfälle im [Testprotokoll](../TESTPROTOKOLL.md), Runde 1: T-001 bis T-010.

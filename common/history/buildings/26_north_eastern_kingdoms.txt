@@ -1,14 +1,14 @@
 BUILDINGS={
 	s:STATE_SUNS_REACH={
-		region_state:EASTERNKINGDOMS={
+		region_state:SILVERMOON={
 		}
 	}
 	s:STATE_MAGISTERS_TERRACE={
-		region_state:EASTERNKINGDOMS={
+		region_state:SILVERMOON={
 		}
 	}
 	s:STATE_SUNWELL_PLATEAU={
-		region_state:EASTERNKINGDOMS={
+		region_state:SILVERMOON={
 		}
 	}
 	s:STATE_SUNSTRIDER_ISLE={

@@ -1,0 +1,8 @@
+﻿# Eigene Gebäudegruppen (VA-019). Vorbild: bg_feliron_mining.
+bg_leyline_tapping = {
+	parent_group = bg_mining
+
+	default_building = building_leyline_tap
+
+	can_use_slaves = no
+}

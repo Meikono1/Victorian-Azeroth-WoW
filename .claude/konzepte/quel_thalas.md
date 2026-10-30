@@ -8,15 +8,15 @@ Stand: 2026-10-30, Idee von Christian. Umsetzung in VA-019 bis VA-022.
 |---|---|---|
 | Silvermoon | `SILVERMOON` | Hauptspieler. Vertreibt Deathholme, zerstört Zul'Aman, heilt die Wretched und die Todesschneise, löst das Mana-Problem |
 | Wretched | `WRETCHED_BLOODELFES` | Mana-süchtig und krank. Arbeitet mit Silvermoon und geht per Eventreihe in Silvermoon auf |
-| Amani | `AMANI_TRIBE` | Will das Amani-Reich wieder aufbauen |
+| Zul'Jarra (Amani) | `AMANI_TRIBE` | Zul'jins Klan, will das Amani-Reich wieder aufbauen. Heißt Zul'Jarra, bis er als `AMANI_EMPIRE` zum Königreich wird |
 | Deathholme | `DEATHHOLME` | Hält aus, verdirbt das Land und unterwirft sich nach ~100 Jahren dem Lichkönig (nur wenn Northrend steht) |
 | Murlocs, Nachtelfen | `GRIMSCALE_MURLOCS`, `DARNASSUS_OUTPOST_EK` … | vorerst irrelevant |
 
-Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenposten), Troll-Stämme `REVANTUSK_TROLLS`, `VILEBRANCH_TROLLS`, `WHITERBARK_TROLLS`, `SHADOWPINE_TRIBE`, `MOSSFLAYER_TROLLS` (Amani-Ziel).
+Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenposten), Troll-Stämme `SHADOWPINE_TRIBE`, `MOSSFLAYER_TROLLS` (Amani-Ziel).
 
 ## Gemeinsame Bausteine
 
-- **Mana** als Länder-Variable `va_mana` (0–100), angezeigt als Scripted Progress Bar. Vorbild: `common/scripted_progress_bars/00_je_progress_bars.txt`. Mangel → Malus-Modifier (Unruhe, weniger Durchsatz), Überschuss → Bonus.
+- **Mana** als Handelsgut `mana` (Entscheidung siehe unten). Nachfrage über die Pop-Bedürfnisse und eine Obsession der Kulturen `sin_dorei`/`quel_dorei` (Vanilla: `obsessions = {…}` in Kulturen, `obsession_chance` im Gut). Mangel zeigt sich über Preis und Versorgung. JEs fragen Versorgung bzw. Produktion ab.
 - **Todesschneise** (Dead Scar) als State-Modifier `va_dead_scar` auf festen States (z. B. `STATE_RUINS_OF_SILVERMOON`, `STATE_DEATHHOLME`, Ghostlands-States). Vorbild für sich ausbreitende/heilende State-Modifier: `01_silkworm_diseases.txt`, `00_plague.txt`.
 - **Wretched-Sucht** als Pop-/Länder-Modifier. Vorbild: `00_opium.txt`.
 
@@ -35,16 +35,20 @@ Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenp
 - **Vereinigung**: Eventreihe, an deren Ende Silvermoon die Wretched annektiert (`annex_with_incorporation`). Vorbild: `00_romania.txt` (Union zweier Länder).
 
 ### Amani
-- JE „Das Amani-Reich wiederherstellen“: Ziel-States der Troll-Stämme besitzen bzw. unterwerfen. Abschluss → Formable `AMANI_EMPIRE` (VA-017). Vorbilder: `00_italian_unification.txt`, `05_serbia.txt`.
+- JE „Das Amani-Reich wiederherstellen“ (Zul'jin): States von Shadowpine und Mossflayer besitzen bzw. unterwerfen. Abschluss → Formable `AMANI_EMPIRE` (VA-017). Vorbilder: `00_italian_unification.txt`, `05_serbia.txt`.
 - Gegenspieler zu Silvermoons Ziel 2.
 
-### Deathholme
+### Deathholme (zurückgestellt, bis Northrend steht)
 - JE „Ausharren“ mit `timeout` ≈ 100 Jahre (36.500 Tage). Vorbild: `00_sick_man.txt` (`timeout`/`on_timeout`).
 - Während der Laufzeit breitet sich `va_dead_scar` in Nachbar-States aus (gegen Silvermoons Heilung).
 - `on_timeout`: Land endgültig verdorben. Unterwerfung unter den Lichkönig nur, wenn ein Geißel-Land in Northrend existiert. **Northrend hat derzeit kein einziges Land** → Abhängigkeit, bis dahin Fallback (z. B. nur Verderbnis, keine Unterwerfung).
 
-## Offene Fragen
+## Entscheidungen (Christian, 2026-10-30)
 
-- Quel'Danas: Besitzer (bisher Platzhalter `EASTERNKINGDOMS`). Für den Sunwell als Mana-Lösung wäre Silvermoon naheliegend.
-- Mana abstrakt (Variable + Balken) oder als echtes Gut/Gebäude? Empfehlung: abstrakt, weil ein neues Gut Markt, PMs und Gebäude berührt.
-- Geißel/Lichkönig in Northrend: eigenes Ticket, sobald Northrend dran ist.
+- **Quel'Danas** gehört zum Start Silvermoon (umgesetzt). Später eine Eventreihe: Kael'thas flieht dorthin und versucht, Kil'jaeden zu beschwören. Daraus entstehen die Shadowsword (Schattenschwerter) und eine kleine Gruppe der Zerschmetterten Sonne (Shattered Sun). Kommt später, siehe Content-Ideen im Ablaufplan.
+- **Mana ist ein echtes Handelsgut** (`common/goods/va_goods.txt`), nicht nur eine Variable. Der Abschnitt „Gemeinsame Bausteine“ oben gilt für Mana entsprechend (Mangel = Marktpreis/Versorgung statt Variable). Details in VA-019.
+- **Deathholme ist zurückgestellt**, bis Northrend ein Geißel-Land hat.
+- **Amani:** Träger des Wiederaufbaus ist Zul'jin (`AMANI_TRIBE`, Lore: Zul'Jarra-Klan). Zum Reich gehören zusätzlich `SHADOWPINE_TRIBE` und `MOSSFLAYER_TROLLS`. Revantusk, Vilebranch und Witherbark gehören **nicht** dazu.
+- **Zul'Jarra:** `AMANI_TRIBE` heißt im Spiel „Zul'Jarra“, solange es kein Königreich ist. Erst das Formable `AMANI_EMPIRE` trägt den Namen Amani-Reich.
+- **Mana stammt aus Leylinien:** eine abbaubare Ressource wie Kohle oder Eisen. Leylinien werden als `capped_resources` in den States verteilt (Schwerpunkt Quel'Thalas). Ein Abbaugebäude (Arbeitsname `building_leyline_tap`) fördert das Gut `mana`. Später dient Mana als Vorprodukt für magische Gegenstände und als Antrieb für Produktionen (wie Kohle bzw. Strom in Vanilla-PMs).
+- **Mana-Verbrauch** (2026-10-30): später über Produktionsmethoden und über die Bevölkerung von Blut- und Hochelfen (`sin_dorei`, `quel_dorei`). Leylinien-Verteilung in Quel'Thalas ist bestätigt (Werte in VA-019).

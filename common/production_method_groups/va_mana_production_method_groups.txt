@@ -1,0 +1,8 @@
+﻿# PM-Gruppen der Leylinien-Anzapfung (VA-019).
+pmg_base_building_leyline_tap = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_focus_crystals_building_leyline_tap
+		# TODO: weitere Stufen (z. B. arkane Leitungen) mit eigener Technologie
+	}
+}

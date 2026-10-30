@@ -4,13 +4,12 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 1 (T-001 bis T-012) ist offen.
+
 ## Offene Entscheidungen
 
-- Quel'Danas (3 States) gehört dem Platzhalter-Land `EASTERNKINGDOMS` (Kvaldir, Hauptstadt Ironforge). Wem soll es gehören? (VA-015)
 - Welche Formables für Nord-EK, welche davon als Major Formation? (VA-017)
 - Herrscher-Liste Nord-EK abnicken (VA-016)
-- Mana abstrakt (Variable + Fortschrittsbalken) oder als echtes Gut? Empfehlung: abstrakt (VA-019)
-- Deathholme braucht ein Geißel-Land in Northrend, dort gibt es noch keine Länder (VA-022)
 
 ## Fahrplan
 
@@ -38,6 +37,8 @@ _(Region, Länder, Kurzbeschreibung. Ausgereifte Ideen werden zu Tickets.)_
 
 - Gilneas: Worgen-Fluch (begonnen, VA-007)
 - Quel'Thalas: Silvermoon, Wretched, Amani, Deathholme – ausgearbeitet in `konzepte/quel_thalas.md`, Tickets VA-019 bis VA-022
+- Quel'Danas: Kael'thas flieht dorthin und will Kil'jaeden beschwören → Shadowsword und eine kleine Gruppe der Shattered Sun entstehen (Eventreihe, später)
+- Deathholme: Ausharren und Unterwerfung unter den Lichkönig, sobald Northrend ein Geißel-Land hat (zurückgestellt, VA-022)
 
 ## Bewusste Vanilla-Overrides
 
@@ -45,3 +46,26 @@ _(Nur hier gelistete Vollkopien werden bei Patches nachgezogen. Format: Datei �
 - `common/scripted_triggers/00_gfx_buildings_graphics_triggers.txt` – die 6 Stadtgrafik-Trigger aus Vanilla zeigen auf Erde-States. Ersetzt durch `always = no`. Bei Patches prüfen, ob Vanilla neue Trigger hinzufügt (sonst fehlen sie).
 - `common/strait_definitions/strait_definitions.txt` – leer, Vanilla-Kanäle zeigen auf Erde-Provinzen.
 - `common/defines/va_OVERWRITE_defines.txt` → `NEconomy.WORLD_MARKET_LOCATION` – Vanilla zeigt auf den Nordatlantik (Absturz). Bei Patches prüfen, ob neue Defines mit Provinz-IDs dazukommen.
+
+## Checkliste: neue Spielversion (Patch)
+
+Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket „Patch 1.x“.
+
+- [ ] Version prüfen: `launcher\launcher-settings.json` → `rawVersion`; `.metadata/metadata.json` → `supported_game_version` anpassen
+- [ ] Spiel einmal starten, in der Konsole `script_docs` ausführen (aktualisiert `docs\*.log`)
+- [ ] Jede Datei unter „Bewusste Vanilla-Overrides“ gegen die neue Vanilla-Datei vergleichen und Neuerungen übernehmen
+- [ ] `common/defines/00_defines.txt` auf neue Werte mit Provinz-/State-IDs prüfen (Absturzgefahr wie `WORLD_MARKET_LOCATION`)
+- [ ] Neue Vanilla-Ordner und -Dateien suchen, die Erde-States, -Tags oder -Kulturen referenzieren (`history`, `strait_definitions`, `geographic_regions`, `ai_strategies` …) → abschalten oder abfangen (VA-004)
+- [ ] Neue Vanilla-Pflichtfelder/-Formate in Ordnern mit eigenen Objekten prüfen (State Regions, Gebäude, Güter, Kulturen, Länder), z. B. Ressourcen-Format 1.13
+- [ ] `va_lint.py --regions 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35` → 0 neue Fehler
+- [ ] Testrunde mit Kampagnenstart und `error.log`-Auswertung
+
+## Checkliste: Upload in den Workshop
+
+- [ ] Letzte Testrunde im [Testprotokoll](TESTPROTOKOLL.md) komplett OK
+- [ ] `va_lint.py` meldet 0 neue Fehler
+- [ ] Alle Tickets dieser Version stehen auf `erledigt` oder bewusst offen (mit Notiz)
+- [ ] `.metadata/metadata.json`: `version` hochgezählt, `supported_game_version` stimmt
+- [ ] Mod-Ordner `mod\warcraft` vollständig aus dem Repo neu befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`; gelöschte Repo-Dateien auch dort löschen) – VA-010
+- [ ] Kurztest aus dem Mod-Ordner: Kampagne lädt
+- [ ] Änderungen seit dem letzten Upload als Workshop-Text zusammengefasst

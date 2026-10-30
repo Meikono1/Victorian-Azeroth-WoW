@@ -34,7 +34,8 @@ Neues Ticket: Christian sagt „Ticket: …“, Claude legt die Datei an und tr�
 | [VA-016](VA-016-nord-ek-herrscher.md) | Nord-EK – historische Herrscher | content | hoch | offen |
 | [VA-017](VA-017-nord-ek-formables.md) | Nord-EK – Formables | content | hoch | offen |
 | [VA-018](VA-018-state-test-aufloesen.md) | STATE_TEST auflösen | bug | mittel | offen |
-| [VA-019](VA-019-quel-thalas-grundbausteine.md) | Quel'Thalas – Mana und Todesschneise (Grundbausteine) | content | hoch | offen |
+| [VA-019](VA-019-quel-thalas-grundbausteine.md) | Quel'Thalas – Mana und Todesschneise (Grundbausteine) | content | hoch | in Arbeit |
 | [VA-020](VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | offen |
 | [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | offen |
 | [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | offen |
+| [VA-023](VA-023-lint-altlasten.md) | Lint-Altlasten abbauen | aufraeumen | mittel | offen |

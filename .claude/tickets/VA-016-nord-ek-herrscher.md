@@ -16,3 +16,4 @@ Kleine Stämme (Murlocs, Kobolde, Gnolle) dürfen Zufallsherrscher behalten.
 ## Notizen
 
 - Vorgeschlagen (Lore-Abgleich durch Christian): Silvermoon – Lor'themar Theron, Argent Crusade – Tirion Fordring, Ebon Blade – Darion Mograine, Wildhammer – Falstad Wildhammer, Amani – Zul'jin, Revantusk – Primal Torntusk, Hammerfall – Drum Fel, Scarlet Onslaught – Grand Admiral Westwind/Abbendis, Cult of the Damned – Kel'Thuzad, Deathholme – Dar'Khan Drathir, Tranquillien – Magister Sylastor? (offen).
+- 2026-10-30: Amani-Herrscher ist Zul'jin (bestätigt).

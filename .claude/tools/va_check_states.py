@@ -11,6 +11,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.dont_write_bytecode = True  # kein __pycache__ im Repo
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # -I nimmt das Skriptverzeichnis aus sys.path
 from va_script import REPO, effective_files, get, get_all, parse_file, top_level_keys, values
 

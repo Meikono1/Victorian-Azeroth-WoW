@@ -1,0 +1,4 @@
+﻿l_english:
+  # Ländernamen (VA-006). AMANI_TRIBE heißt Zul'Jarra, bis es als AMANI_EMPIRE das Amani-Reich bildet (VA-017/VA-022).
+  AMANI_TRIBE: "Zul'Jarra"
+  AMANI_TRIBE_ADJ: "Zul'Jarran"

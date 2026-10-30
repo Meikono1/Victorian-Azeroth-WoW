@@ -1,0 +1,921 @@
+﻿Loc fehlt: common/buildings | building_eternium_mine (20_Victorian_Azeroth.txt)
+Loc fehlt: common/buildings | building_feliron_mine (20_Victorian_Azeroth.txt)
+Loc fehlt: common/country_definitions | AHNQIRAJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | AHNQIRAJ_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ALLERIAN_STRONGHOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ALLERIAN_STRONGHOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ANDORHAL (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ANDORHAL_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ANGOROSH_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ANGOROSH_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | AREA_FIFTYTWO (VA_outlands.txt)
+Loc fehlt: common/country_definitions | AREA_FIFTYTWO_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ARGENT_CRUSADERS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ARGENT_CRUSADERS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | AUCHENAI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | AUCHENAI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | AXEBITE_EXPEDITION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | AXEBITE_EXPEDITION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | AZEROTH_DEFENDERS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | AZEROTH_DEFENDERS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BAMBALA (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BAMBALA_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BASHIR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BASHIR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BATHRANS_HAUNT (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BATHRANS_HAUNT_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BEAL_DUN (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BEAL_DUN_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKHOOF (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKHOOF_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKMAW_FURBOLGS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKMAW_FURBOLGS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKROCK_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKROCK_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKROCK_NORTHSHIRE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKROCK_NORTHSHIRE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKSCALE_NAGA (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKSCALE_NAGA_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKSILT_MURLOC (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKSILT_MURLOC_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKWIND_WYRMCULTISTS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLACKWIND_WYRMCULTISTS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLACKWING_DRAGONFLIGHT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKWING_DRAGONFLIGHT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKWING_OUTPOST (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKWING_OUTPOST_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLACKWOOD_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACKWOOD_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACK_DRAGONFLIGHT_ONYXIA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACK_DRAGONFLIGHT_ONYXIA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACK_DRAGONFLIGHT_SABLE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLACK_DRAGONFLIGHT_SABLE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLADESPIRE_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLADESPIRE_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLEEDING_HOLLOW_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLEEDING_HOLLOW_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLOODEYE_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODEYE_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODFANG_PACK (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODFANG_PACK_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODFEATHER_HARPY (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLOODFEATHER_HARPY_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLOODMAUL_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLOODMAUL_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLOODSAIL_PIRATES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODSAIL_PIRATES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODSCALE_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLOODSCALE_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BLOODSCALP_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODSCALP_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODVENOM_CORRUPTION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLOODVENOM_CORRUPTION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLOODWASH_NAGA (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODWASH_NAGA_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLOODWOOD_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLOODWOOD_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BLUEGILL_MORLOCS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BLUEGILL_MORLOCS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BONECHEWER_RUINS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BONECHEWER_RUINS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BOOM (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BOOM_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BOULDERFIST_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BOULDERFIST_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BOULDERFIST_CLAN_AZ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BOULDERFIST_CLAN_AZ_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | BOULDERSLIDE_KOBOLD (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BOULDERSLIDE_KOBOLD_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRACKENWALL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRACKENWALL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRISTLEBACK_QUILBOARS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRISTLEBACK_QUILBOARS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRISTLELIMB_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BRISTLELIMB_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BURNING_BLADE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BURNING_BLADE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_FORGE_CAMPS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_FORGE_CAMPS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_INVASION_NETHERSTORM (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_INVASION_NETHERSTORM_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_KILJADEN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_KILJADEN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_LEGIONS_HOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_LEGIONS_HOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_TWILIGHT_HOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | BURNING_LEGION_TWILIGHT_HOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CABAL (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CABAL_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CAMP_MOJACHE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CAMP_MOJACHE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENARION_CIRCLE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENARION_CIRCLE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENARION_CIRCLE_OUTLAND (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CENARION_CIRCLE_OUTLAND_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CENARION_HOLD (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENARION_HOLD_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENARION_REFUGE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CENARION_REFUGE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CENTIPAAR_LAIR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CENTIPAAR_LAIR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CLIFFWALKER (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CLIFFWALKER_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | COILFANG_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | COILFANG_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | COILSCAR_POINT (VA_outlands.txt)
+Loc fehlt: common/country_definitions | COILSCAR_POINT_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CONSORTIUM (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CONSORTIUM_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | CRAZED_WILDLIFE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CRAZED_WILDLIFE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | CRUCIBLE_OF_CARNAGE_GLADIATOR (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | CRUCIBLE_OF_CARNAGE_GLADIATOR_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | CRUSHRIDGE_OGRE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | CRUSHRIDGE_OGRE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | CULT_OF_DAMNED (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | CULT_OF_DAMNED_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DABYRIES_HUMANS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DABYRIES_HUMANS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DARKCREST_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DARKCREST_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DARKSCALE_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARKSCALE_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARKSPEAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARKSPEAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARK_CONCLAVE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DARK_CONCLAVE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DARK_IRON_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DARK_IRON_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DARK_STRAND_CULT (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARK_STRAND_CULT_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARNASSUS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARNASSUS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARNASSUS_OUTPOST (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARNASSUS_OUTPOST_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DARNASSUS_OUTPOST_EK (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DARNASSUS_OUTPOST_EK_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEADWIND_OGRE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEADWIND_OGRE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEADWOOD_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DEADWOOD_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DEATHHOLME (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEATHHOLME_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEFIAS_BROTHERHOOD (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DEFIAS_BROTHERHOOD_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DIREHORN (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DIREHORN_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DRAGONMAW_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DRAGONMAW_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | DRAGONMAW_CLAN_AZ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DRAGONMAW_CLAN_AZ_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DREADMAUL_OGRES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DREADMAUL_OGRES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DRUIDS_OF_FANG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DRUIDS_OF_FANG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DRUIDS_OF_TALONS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DRUIDS_OF_TALONS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DRYWHISPER_KOBOLDS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DRYWHISPER_KOBOLDS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DUNEMAUL_OGRE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DUNEMAUL_OGRE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DUN_GAROK (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DUN_GAROK_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DUSTBELCHER_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DUSTBELCHER_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | DUSTWIND_HARPY (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | DUSTWIND_HARPY_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ECLIPSE_POINT (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ECLIPSE_POINT_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | EMERALD_CIRCLE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EMERALD_CIRCLE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EMERALD_ENTRANCE_SERADANE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | EMERALD_ENTRANCE_SERADANE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ETHEREUM (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ETHEREUM_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | EVERLOOK (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EVERLOOK_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EXODAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EXODAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | EXPLORERS_LEAGUE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | EXPLORERS_LEAGUE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | FALCON_WATCH (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FALCON_WATCH_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FERALFEN_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FERALFEN_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FIREWING_POINT (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FIREWING_POINT_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | FLAMECREST_OUTPOST (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | FLAMECREST_OUTPOST_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | FOULWEALD_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | FOULWEALD_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | FRAZZLECRAZ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | FRAZZLECRAZ_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | FROSTMANES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | FROSTMANES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GALAK_CENTAUR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GALAK_CENTAUR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GELKIS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GELKIS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GILNEAS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GILNEAS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GILNEAS_EXPEDITION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GILNEAS_EXPEDITION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GLOPGUT_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GLOPGUT_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GNARLPINE_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GNARLPINE_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GNOMEREGAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GNOMEREGAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GORDUNNI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | GORDUNNI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | GORDUNNI_OGRE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GORDUNNI_OGRE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GORISHI_LAIR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GORISHI_LAIR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREENWARDENS_GROVE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GREENWARDENS_GROVE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREEN_DRAGONFLIGHT_ASHENVALE_GUARDIANS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREEN_DRAGONFLIGHT_FERALAS_GUARDIANS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREYMIST_MURLOC (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GREYMIST_MURLOC_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GRIKNIR_FROSTMANE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GRIKNIR_FROSTMANE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GRIMMTOTEM (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GRIMMTOTEM_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GRIMSCALE_MURLOCS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GRIMSCALE_MURLOCS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GRISHNATH (VA_outlands.txt)
+Loc fehlt: common/country_definitions | GRISHNATH_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | GROMGOL_BASE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GROMGOL_BASE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GUARDIANS_HYJAL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GUARDIANS_HYJAL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | GURUBASHI_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | GURUBASHI_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HAALESH_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HAALESH_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HALAA (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HALAA_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HAMMERFALL (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HAMMERFALL_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HARDWRENCH_INDUSTRIES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HARDWRENCH_INDUSTRIES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HATECREST_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HATECREST_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HATEFURY_SATYRS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HATEFURY_SATYRS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HAZZALI_LAIR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HAZZALI_LAIR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIGHBANK_EXPEDITION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIGHBANK_EXPEDITION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIGHLAND_FROSTWOLFES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIGHLAND_FROSTWOLFES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIGHVALE_HIGHELFES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIGHVALE_HIGHELFES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | HIVE_ASHI (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_ASHI_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_REGAL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_REGAL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_ZORA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_ZORA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_ZUKKASH (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HIVE_ZUKKASH_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HONOR_HOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HONOR_HOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | HONOR_STAND (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HONOR_STAND_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HYJAL_REBELLION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | HYJAL_REBELLION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ILLIDARY (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ILLIDARY_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ILLIDARY_POINT (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ILLIDARY_POINT_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | INFECTED_WILDLIFE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | INFECTED_WILDLIFE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | IRONFORGE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | IRONFORGE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | IRONTREE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | IRONTREE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | IRON_SUMMIT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | IRON_SUMMIT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | JADEFIRE_CORRUPTION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | JADEFIRE_CORRUPTION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | JAEDENAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | JAEDENAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | KARAZHAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KARAZHAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KEEPERS_OF_TIME (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | KEEPERS_OF_TIME_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | KIL_SORROW_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KIL_SORROW_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KIRINTOR_EXPEDITION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KIRINTOR_EXPEDITION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KIRIN_VAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KIRIN_VAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KNIGHTS_EBON_BLADE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KNIGHTS_EBON_BLADE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KURENAI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KURENAI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | KURZEN_COMPOUND (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | KURZEN_COMPOUND_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | LASHHAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | LASHHAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | LEGASH_CORRUPTION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | LEGASH_CORRUPTION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | LITHIC (VA_outlands.txt)
+Loc fehlt: common/country_definitions | LITHIC_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | LOST_ONES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | LOST_ONES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MAGHAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MAGHAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MAGMATHAR_FIRE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MAGMATHAR_FIRE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MAGRAM (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MAGRAM_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MANNOROTH_LEGION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MANNOROTH_LEGION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MAROUDINE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MAROUDINE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MARSHAL_EXPEDITION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MARSHAL_EXPEDITION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MARSHFIN_MURLOC (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MARSHFIN_MURLOC_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MARSHTIDE_WATCH (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MARSHTIDE_WATCH_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MENETHIL (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MENETHIL_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MIREFIN_MURLOC (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MIREFIN_MURLOC_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | MOKNATHAL (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MOKNATHAL_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MORGANS_VIGIL (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MORGANS_VIGIL_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MOSHOGG_OGRE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MOSHOGG_OGRE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MOSSFLAYER_TROLLS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MOSSFLAYER_TROLLS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MUDSNOUT_GNOLLS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MUDSNOUT_GNOLLS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MURKBLOOD_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MURKBLOOD_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | MURKGILL_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | MURKGILL_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NAZZIVUS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NAZZIVUS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NESINGWARY_EXPEDITION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NESINGWARY_EXPEDITION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NESSTLEWOOD_OWLKIN (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NESSTLEWOOD_OWLKIN_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NETHERGARDE_KEEP (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NETHERGARDE_KEEP_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NETHERWING (VA_outlands.txt)
+Loc fehlt: common/country_definitions | NETHERWING_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | NEW_KARGATH (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NEW_KARGATH_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NIGHTBANE_WORGEN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NIGHTBANE_WORGEN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | NORTHSPRING_HARPY (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NORTHSPRING_HARPY_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NORTHWATCH_EXPEDITION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | NORTHWATCH_EXPEDITION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | OBSIDIAN_DRAGONFLIGHT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | OBSIDIAN_DRAGONFLIGHT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | OGRILA (VA_outlands.txt)
+Loc fehlt: common/country_definitions | OGRILA_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | OMENAI_TEMPLE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | OMENAI_TEMPLE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ORGRIMMAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ORGRIMMAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | PALEMANE_GNOLL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | PALEMANE_GNOLL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | PLAGUELAND_UNDEAD (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | PLAGUELAND_UNDEAD_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | PROTECTORATE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | PROTECTORATE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RAZAANI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RAZAANI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RAZORFEN (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | RAZORFEN_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | RAZORMANE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | RAZORMANE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | REDGRIDGE_PACK (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | REDGRIDGE_PACK_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | REFUGEE_CAMP (VA_outlands.txt)
+Loc fehlt: common/country_definitions | REFUGEE_CAMP_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | REFUGE_POINT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | REFUGE_POINT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | REVANTUSK_TROLLS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | REVANTUSK_TROLLS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | RHAZE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RHAZE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RIVERPAW_PACK (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | RIVERPAW_PACK_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ROCKJAW_TROGGS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ROCKJAW_TROGGS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | RUUAN_OK (VA_outlands.txt)
+Loc fehlt: common/country_definitions | RUUAN_OK_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SANDFURY_TRIBE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SANDFURY_TRIBE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SCARLET_CRUSADERS_ONSLAUGHT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SCARLET_CRUSADERS_ONSLAUGHT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SCARLET_CRUSADERS_WHITEMANE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SCARLET_CRUSADERS_WHITEMANE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SENTINELS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SENTINELS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SETHEKK (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SETHEKK_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHADOWFANG_KEEP (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWFANG_KEEP_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWFORGE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWFORGE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWMOON_VILLAGE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHADOWMOON_VILLAGE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHADOWPINE_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWPINE_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SHADOWPREY (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHADOWPREY_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHADOW_COUNCIL (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHADOW_COUNCIL_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHADOW_RIDGE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHADOW_RIDGE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHAFFAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHAFFAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHALASSI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHALASSI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHATARI_SKYGUARD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHATARI_SKYGUARD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHATTERED_HAND_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHATTERED_HAND_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHATTERSPEAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHATTERSPEAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHA_TAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHA_TAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHA_TAR_ASSAULT (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHA_TAR_ASSAULT_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHA_TAR_OUTPOST (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHA_TAR_OUTPOST_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHEN_DRALAR (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHEN_DRALAR_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SHIENOR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SHIENOR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SI7_HIGHLANDS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SI7_HIGHLANDS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SILTFIN_MURLOC (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SILTFIN_MURLOC_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SILVERMOON (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SILVERMOON_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SILVERWING_OUTPOST (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SILVERWING_OUTPOST_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SKETTIS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SKETTIS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SKITH (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SKITH_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SKULLSPLITTER_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SKULLSPLITTER_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SLITHERBLADE_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SLITHERBLADE_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SLUDGEWERKS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SLUDGEWERKS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SOUTHSEE_FREEBOOTERS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SOUTHSEE_FREEBOOTERS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SPITELASH_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SPITELASH_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SPLINTERFIST_CLAN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SPLINTERFIST_CLAN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SPOREGGAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SPOREGGAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | STEAMWHEEDLE_CARTEL (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STEAMWHEEDLE_CARTEL_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STEAM_RESORT (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STEAM_RESORT_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STILLPINE_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STILLPINE_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STONARD (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STONARD_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STONEBREAKER_HOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | STONEBREAKER_HOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | STONEMAUL_OGRE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STONEMAUL_OGRE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STONESPLINTER_TRIBE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STONESPLINTER_TRIBE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STORMSPIKE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STORMSPIKE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STORMWIND (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STORMWIND_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STRANGLETHRON_NAGA (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STRANGLETHRON_NAGA_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | STRASHAZ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | STRASHAZ_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SUMMIT_DEFENDERS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SUMMIT_DEFENDERS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SUNFURY (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SUNFURY_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SUNHAWK (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SUNHAWK_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | SUNVEIL_EXCURSION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SUNVEIL_EXCURSION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SYLVANNAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SYLVANNAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | SYNDICATE (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | SYNDICATE_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TALONBRANCH_GUARDIAN (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TALONBRANCH_GUARDIAN_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THAL_DARAH (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THAL_DARAH_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THERAMORE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THERAMORE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THE_ALDOR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THE_ALDOR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THE_EARTHEN_RING (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THE_EARTHEN_RING_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THE_EARTHEN_RING_AZ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THE_EARTHEN_RING_AZ_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THE_INFERNO (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THE_INFERNO_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THE_RELIQUARY (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THE_RELIQUARY_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THE_SCRYERS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THE_SCRYERS_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THISTLEFUR_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THISTLEFUR_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THORIUM_BROTHERHOOD (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THORIUM_BROTHERHOOD_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | THRALLMAR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THRALLMAR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THUNDERBLUFF (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THUNDERBLUFF_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | THUNDERLORD_STRONGHOLD (VA_outlands.txt)
+Loc fehlt: common/country_definitions | THUNDERLORD_STRONGHOLD_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | TIMBERMAW_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TIMBERMAW_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TORNFIN_MURLOCS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TORNFIN_MURLOCS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TOSHLEY_STATION (VA_outlands.txt)
+Loc fehlt: common/country_definitions | TOSHLEY_STATION_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | TRANQUILLIEN (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TRANQUILLIEN_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TUUREM (VA_outlands.txt)
+Loc fehlt: common/country_definitions | TUUREM_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | TWILIGHTS_HAMMER (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TWILIGHTS_HAMMER_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_CONVERT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_CONVERT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_DARKSHORE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_DARKSHORE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_HYJAL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_HYJAL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_SILITHUS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_SILITHUS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_THOUSAND_NEEDLES (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | TWILIGHT_HAMMER_THOUSAND_NEEDLES_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ULDUM (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ULDUM_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ULDUM_RUINS (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ULDUM_RUINS_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | UMBRAFEN_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | UMBRAFEN_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | UNDERCITY (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | UNDERCITY_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | UNGORO_WILD (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | UNGORO_WILD_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | UNYIELDING_DEFENDER (VA_outlands.txt)
+Loc fehlt: common/country_definitions | UNYIELDING_DEFENDER_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | VASHJ_IR (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VASHJ_IR_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VEKHNIR (VA_outlands.txt)
+Loc fehlt: common/country_definitions | VEKHNIR_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | VENTURE_CO (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VENTURE_CO_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VERIDIAN_DRAGONFLIGHT (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | VERIDIAN_DRAGONFLIGHT_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | VERMILLON_DRAGONFLIGHT (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VERMILLON_DRAGONFLIGHT_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VILEBRANCH_TROLLS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VILEBRANCH_TROLLS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VILEFIN_MURLOCS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VILEFIN_MURLOCS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | VIR_AANI (VA_outlands.txt)
+Loc fehlt: common/country_definitions | VIR_AANI_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WARMAUL_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WARMAUL_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WHITERBARK_TROLLS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WHITERBARK_TROLLS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WILDHAMMER_CLAN (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WILDHAMMER_CLAN_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WILDHAMMER_CLAN_AZ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WILDHAMMER_CLAN_AZ_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WINDFURY_HARPY (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WINDFURY_HARPY_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WINDYREED_TRIBE (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WINDYREED_TRIBE_ADJ (VA_outlands.txt)
+Loc fehlt: common/country_definitions | WINTERFALL_FURBOLG (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WINTERFALL_FURBOLG_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WINTERFALL_WILD (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WINTERFALL_WILD_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WITCHWING_HARPIE (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WITCHWING_HARPIE_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WOODPAW_GNOLL (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WOODPAW_GNOLL_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WORMTHORN_CORRUPTION (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WORMTHORN_CORRUPTION_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WORMWING_HARPIES (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WORMWING_HARPIES_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WRATHSCALE_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WRATHSCALE_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WRATHTAIL_NAGA (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WRATHTAIL_NAGA_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | WRETCHED_BLOODELFES (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | WRETCHED_BLOODELFES_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | XAVIAN_CORRUPTION (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | XAVIAN_CORRUPTION_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | XYLEM_OUTPOST (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | XYLEM_OUTPOST_ADJ (VA_kalimdor.txt)
+Loc fehlt: common/country_definitions | ZANZIL_WITCHDOCTORS (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ZANZIL_WITCHDOCTORS_ADJ (VA_eastern_kingdom.txt)
+Loc fehlt: common/country_definitions | ZAXXIS (VA_outlands.txt)
+Loc fehlt: common/country_definitions | ZAXXIS_ADJ (VA_outlands.txt)
+Loc fehlt: common/cultures | aqir (va_silithid_cultures.txt)
+Loc fehlt: common/cultures | arakkoa (va_arakkoa_cultures.txt)
+Loc fehlt: common/cultures | blue_dragon (va_dragon_cultures.txt)
+Loc fehlt: common/cultures | bronze_dragon (va_dragon_cultures.txt)
+Loc fehlt: common/cultures | centaur (va_centaur_cultures.txt)
+Loc fehlt: common/cultures | coldwater_murloc (va_murloc_cultures.txt)
+Loc fehlt: common/cultures | crystalnymph (va_nymph_cultures.txt)
+Loc fehlt: common/cultures | doom_guard (va_demon_cultures.txt)
+Loc fehlt: common/cultures | dryad (va_nymph_cultures.txt)
+Loc fehlt: common/cultures | elemental_fire (va_element_cultures.txt)
+Loc fehlt: common/cultures | emberhide (va_gnoll_cultures.txt)
+Loc fehlt: common/cultures | ethereal (va_ethereal_cultures.txt)
+Loc fehlt: common/cultures | frostmane_troll (va_troll_cultures.txt)
+Loc fehlt: common/cultures | frostnymph (va_nymph_cultures.txt)
+Loc fehlt: common/cultures | fungul_giant (va_giant_cultures.txt)
+Loc fehlt: common/cultures | harpy (va_harpy_cultures.txt)
+Loc fehlt: common/cultures | imp (va_demon_cultures.txt)
+Loc fehlt: common/cultures | lepergnome (va_gnome_cultures.txt)
+Loc fehlt: common/cultures | magnaron (va_giant_cultures.txt)
+Loc fehlt: common/cultures | moonkin (va_wildkin_cultures.txt)
+Loc fehlt: common/cultures | mudmane (va_gnoll_cultures.txt)
+Loc fehlt: common/cultures | owlkin (va_wildkin_cultures.txt)
+Loc fehlt: common/cultures | qiraji (va_qiraji_cultures.txt)
+Loc fehlt: common/cultures | shen_dralar (va_elfen_cultures.txt)
+Loc fehlt: common/cultures | sporeling (va_podling_cultures.txt)
+Loc fehlt: common/cultures | trogg (va_trogg_cultures.txt)
+Loc fehlt: common/journal_entries | je_infected_gilnean (VA_gilneas_infection.txt)
+Loc fehlt: common/journal_entries | je_infected_gilnean_reason (VA_gilneas_infection.txt)
+Loc fehlt: common/journal_entries | je_silvermoon_wretched_elfes (VA_silvermoon.txt)
+Loc fehlt: common/journal_entries | je_silvermoon_wretched_elfes_reason (VA_silvermoon.txt)
+Loc fehlt: events | acw_events.9.a (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.b (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.d_1 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.d_2 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.f_1 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.f_2 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.t_1 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | acw_events.9.t_2 (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | gilnean_infection_events.1.d (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | gilnean_infection_events.1.f (events\gilneas_events\infection_events.txt)
+Loc fehlt: events | gilnean_infection_events.1.t (events\gilneas_events\infection_events.txt)
+Loc fehlt: state_regions | STATE_ABYSSAL_BREACH
+Loc fehlt: state_regions | STATE_ABYSSAL_BREACH_SEA
+Loc fehlt: state_regions | STATE_AMBER_DEPTHS_SEA
+Loc fehlt: state_regions | STATE_AMBER_WOMB
+Loc fehlt: state_regions | STATE_ANGLERS_WHARF
+Loc fehlt: state_regions | STATE_ARBORETUM
+Loc fehlt: state_regions | STATE_ARCHERUS_SEA
+Loc fehlt: state_regions | STATE_AREA_52
+Loc fehlt: state_regions | STATE_ASHENVALE_SEA
+Loc fehlt: state_regions | STATE_AZSHARA_SEA
+Loc fehlt: state_regions | STATE_AZUREMYST_SEA
+Loc fehlt: state_regions | STATE_BADLANDS_SEA
+Loc fehlt: state_regions | STATE_BARADIN_HOLD
+Loc fehlt: state_regions | STATE_BARRENS_SEA
+Loc fehlt: state_regions | STATE_BIELARAN_RIDGE
+Loc fehlt: state_regions | STATE_BILGEWATER_BEACH
+Loc fehlt: state_regions | STATE_BINAN_VILLAGE
+Loc fehlt: state_regions | STATE_BLAZING_WAY
+Loc fehlt: state_regions | STATE_BOREAN_DEEP_SEA
+Loc fehlt: state_regions | STATE_BRINY_MUCK
+Loc fehlt: state_regions | STATE_BURLAP_WAYSTATION
+Loc fehlt: state_regions | STATE_CAMP_NOOKA_NOOKA
+Loc fehlt: state_regions | STATE_CAPE_SEA
+Loc fehlt: state_regions | STATE_CELESTIAL_COURT
+Loc fehlt: state_regions | STATE_CENTRAL_SEA
+Loc fehlt: state_regions | STATE_COLDARRA_SEA
+Loc fehlt: state_regions | STATE_COURT_OF_BONES
+Loc fehlt: state_regions | STATE_CRADLE_CHI_JI
+Loc fehlt: state_regions | STATE_DAI_LO_FARMSTEAD
+Loc fehlt: state_regions | STATE_DARKWHISPER_SEA
+Loc fehlt: state_regions | STATE_DARKWOOD
+Loc fehlt: state_regions | STATE_DAWNCHASER_RETREAT
+Loc fehlt: state_regions | STATE_DAWNS_BLOSSOM
+Loc fehlt: state_regions | STATE_DESOLACE_SEA
+Loc fehlt: state_regions | STATE_DIREMOOR
+Loc fehlt: state_regions | STATE_DOMINATION_POINT
+Loc fehlt: state_regions | STATE_DREANOR
+Loc fehlt: state_regions | STATE_DUN_MOROGH_SEA
+Loc fehlt: state_regions | STATE_DUROTAR_SEA
+Loc fehlt: state_regions | STATE_DUSKLIGHT_HOLLOW
+Loc fehlt: state_regions | STATE_DUSTWALLOW_SEA
+Loc fehlt: state_regions | STATE_EASTERN_KINGDOM_SEA
+Loc fehlt: state_regions | STATE_EASTWIND_REST
+Loc fehlt: state_regions | STATE_EAST_BLODDMYST_SEA
+Loc fehlt: state_regions | STATE_ECHO_ISLES_SEA
+Loc fehlt: state_regions | STATE_EMPEROR_RIKKITIKS_REST
+Loc fehlt: state_regions | STATE_ETERNAL_WATERS_SEA
+Loc fehlt: state_regions | STATE_EVERSONG_SEA
+Loc fehlt: state_regions | STATE_EXODAR_SEA
+Loc fehlt: state_regions | STATE_FARSON_HOLD
+Loc fehlt: state_regions | STATE_FERALAS_SEA
+Loc fehlt: state_regions | STATE_FIREBOUGH_NOCK
+Loc fehlt: state_regions | STATE_FIRE_CAMP_OSUL
+Loc fehlt: state_regions | STATE_FIZZLE_POZZIK_SPEEDBARGE_SEA
+Loc fehlt: state_regions | STATE_FORBIDDEN_SEA
+Loc fehlt: state_regions | STATE_FORGOTTEN_HILL
+Loc fehlt: state_regions | STATE_FORGOTTEN_MIRE
+Loc fehlt: state_regions | STATE_FORGOTTON_COAST_SEA
+Loc fehlt: state_regions | STATE_FROSTGALE_SEA
+Loc fehlt: state_regions | STATE_FROSTSHORE_SEA
+Loc fehlt: state_regions | STATE_FROZEN_SEA
+Loc fehlt: state_regions | STATE_FROZEN_SEA_LANE_01
+Loc fehlt: state_regions | STATE_FROZEN_SEA_LANE_02
+Loc fehlt: state_regions | STATE_FROZEN_SEA_LANE_03
+Loc fehlt: state_regions | STATE_FROZEN_SEA_LANE_04
+Loc fehlt: state_regions | STATE_GAO_RAN_BATTLEFRONT
+Loc fehlt: state_regions | STATE_GATE_ENDLESS_SPRING
+Loc fehlt: state_regions | STATE_GATE_SETTING_SUN
+Loc fehlt: state_regions | STATE_GHOSTLAND_SEA
+Loc fehlt: state_regions | STATE_GILNEAS_SEA
+Loc fehlt: state_regions | STATE_GNAWS_BONEYARD
+Loc fehlt: state_regions | STATE_GOLDEN_PAGODA
+Loc fehlt: state_regions | STATE_GREENSTONE_VILLAGE
+Loc fehlt: state_regions | STATE_GRIZZLE_SEA
+Loc fehlt: state_regions | STATE_GROOKIN_HILL
+Loc fehlt: state_regions | STATE_GRUMMLE_BAZAAR
+Loc fehlt: state_regions | STATE_GUO_LAI_HALLS
+Loc fehlt: state_regions | STATE_HALFHILL
+Loc fehlt: state_regions | STATE_HATRED_VICE
+Loc fehlt: state_regions | STATE_HEART_OF_FEAR
+Loc fehlt: state_regions | STATE_HIGHLANDS_SEA
+Loc fehlt: state_regions | STATE_HOLLOWED_OUT_TREE
+Loc fehlt: state_regions | STATE_HONEYDEW_VILLAGE
+Loc fehlt: state_regions | STATE_HOWLING_SEA
+Loc fehlt: state_regions | STATE_ICECROWN_SEA
+Loc fehlt: state_regions | STATE_IHGELUK_CRAG
+Loc fehlt: state_regions | STATE_IMMORTAL_COIL
+Loc fehlt: state_regions | STATE_IMPERIAL_GRANARY
+Loc fehlt: state_regions | STATE_INCURSION
+Loc fehlt: state_regions | STATE_IRONCLAD_GARRISON
+Loc fehlt: state_regions | STATE_ISLE_OF_GIANTS
+Loc fehlt: state_regions | STATE_ISLE_OF_RECKONING
+Loc fehlt: state_regions | STATE_JADE_SEA
+Loc fehlt: state_regions | STATE_JADE_TEMPLE_GROUNDS
+Loc fehlt: state_regions | STATE_KALIMDOR_SEA
+Loc fehlt: state_regions | STATE_KEZAN
+Loc fehlt: state_regions | STATE_KEZAN_SEA
+Loc fehlt: state_regions | STATE_KLAXXI_VESS
+Loc fehlt: state_regions | STATE_KORTHUNS_END
+Loc fehlt: state_regions | STATE_KORTHUNS_SEA
+Loc fehlt: state_regions | STATE_KOR_VESS
+Loc fehlt: state_regions | STATE_KOTA_BASECAMP
+Loc fehlt: state_regions | STATE_KRASARANG_SEA
+Loc fehlt: state_regions | STATE_KRI_VESS
+Loc fehlt: state_regions | STATE_KUL_TIRAS
+Loc fehlt: state_regions | STATE_KUN_LAI_SEA
+Loc fehlt: state_regions | STATE_KYPARI_IK
+Loc fehlt: state_regions | STATE_KYPARI_VOR
+Loc fehlt: state_regions | STATE_KYPARI_ZAR
+Loc fehlt: state_regions | STATE_LAO_SON_YAKWASH
+Loc fehlt: state_regions | STATE_LARGO_OVERLOOK
+Loc fehlt: state_regions | STATE_LION_LANDING
+Loc fehlt: state_regions | STATE_LONGYING_OUTPOST
+Loc fehlt: state_regions | STATE_LOST_ISLES
+Loc fehlt: state_regions | STATE_LOST_ISLES_LEGION
+Loc fehlt: state_regions | STATE_L_GHOREK
+Loc fehlt: state_regions | STATE_MISTFALL_VILLAGE
+Loc fehlt: state_regions | STATE_MODAN_SEA
+Loc fehlt: state_regions | STATE_MOGUSHAN_PALACE
+Loc fehlt: state_regions | STATE_MOGU_SHAN_TERRACE
+Loc fehlt: state_regions | STATE_MOONGLADE_SEA
+Loc fehlt: state_regions | STATE_MOONWATER_RETREAT
+Loc fehlt: state_regions | STATE_MORNING_BREEZE_VILLAGE
+Loc fehlt: state_regions | STATE_MORTHBREATH_GROTTO
+Loc fehlt: state_regions | STATE_NECTARBREEZE_ORCHARD
+Loc fehlt: state_regions | STATE_NESINGWARY_SAFARI
+Loc fehlt: state_regions | STATE_NESPIRAH
+Loc fehlt: state_regions | STATE_NIUZAO_SEA
+Loc fehlt: state_regions | STATE_NIUZAO_TEMPLE
+Loc fehlt: state_regions | STATE_NORTHREND_SEA
+Loc fehlt: state_regions | STATE_NORTH_BLOODMYST_SEA
+Loc fehlt: state_regions | STATE_OBSIDIAN_SEA
+Loc fehlt: state_regions | STATE_OLD_PIJU
+Loc fehlt: state_regions | STATE_ONE_KEG
+Loc fehlt: state_regions | STATE_ORDON_SANCTUARY
+Loc fehlt: state_regions | STATE_PANDARIA_SEA
+Loc fehlt: state_regions | STATE_PAWDON_VILLAGE
+Loc fehlt: state_regions | STATE_PEAK_OF_SERENITY
+Loc fehlt: state_regions | STATE_PEARLFIN_VILLAGE
+Loc fehlt: state_regions | STATE_PEI_WU_FOREST
+Loc fehlt: state_regions | STATE_POOLS_OF_PURITY
+Loc fehlt: state_regions | STATE_PROMONTORY_POINT
+Loc fehlt: state_regions | STATE_QUEL_DANAS_SEA
+Loc fehlt: state_regions | STATE_RED_STONE_RUN
+Loc fehlt: state_regions | STATE_RENSAI_WATCHPOST
+Loc fehlt: state_regions | STATE_RIKKITUN_VILLAGE
+Loc fehlt: state_regions | STATE_RUINS_DOJAN
+Loc fehlt: state_regions | STATE_RUINS_GUO_LAI
+Loc fehlt: state_regions | STATE_SENTINAL_BASECAMP
+Loc fehlt: state_regions | STATE_SERPENTS_HEART
+Loc fehlt: state_regions | STATE_SETTING_SUN_GARRISON
+Loc fehlt: state_regions | STATE_SHADO_PAN_GARRISON
+Loc fehlt: state_regions | STATE_SHADO_PAN_MONASTERY
+Loc fehlt: state_regions | STATE_SHANGS_VALLEY
+Loc fehlt: state_regions | STATE_SHANG_XI_TRAINING_GROUNDS
+Loc fehlt: state_regions | STATE_SHANZE_DAO
+Loc fehlt: state_regions | STATE_SHAUL_MARA
+Loc fehlt: state_regions | STATE_SHIMMERING_GROTTO
+Loc fehlt: state_regions | STATE_SHRINE_OF_SEVEN_STARS
+Loc fehlt: state_regions | STATE_SHRINE_OF_TWO_MOONS
+Loc fehlt: state_regions | STATE_SIK_VESS
+Loc fehlt: state_regions | STATE_SILITHUS_SEA
+Loc fehlt: state_regions | STATE_SILKEN_FIELDS
+Loc fehlt: state_regions | STATE_SILVERPINE_SEA
+Loc fehlt: state_regions | STATE_SINGING_POOLS
+Loc fehlt: state_regions | STATE_SKYRANGE
+Loc fehlt: state_regions | STATE_SKÖRN
+Loc fehlt: state_regions | STATE_SLAGWORKS
+Loc fehlt: state_regions | STATE_SMUGGLERS_SCAR
+Loc fehlt: state_regions | STATE_SOGGY_GAMBLE
+Loc fehlt: state_regions | STATE_SORROW_SEA
+Loc fehlt: state_regions | STATE_SOUTHWIND_SEA
+Loc fehlt: state_regions | STATE_SOUTH_SEA_LANE_01
+Loc fehlt: state_regions | STATE_SOUTH_SEA_LANE_02
+Loc fehlt: state_regions | STATE_SOUTH_SEA_LANE_03
+Loc fehlt: state_regions | STATE_SOUTH_SEA_LANE_04
+Loc fehlt: state_regions | STATE_SOUTH_SEA_LANE_05
+Loc fehlt: state_regions | STATE_SOUTH_ULDUM_SEA
+Loc fehlt: state_regions | STATE_SRAVESS
+Loc fehlt: state_regions | STATE_SRI_LA_VILLAGE
+Loc fehlt: state_regions | STATE_STONEPLOW
+Loc fehlt: state_regions | STATE_STONETALEN_SEA
+Loc fehlt: state_regions | STATE_STORMSEA_LANDING
+Loc fehlt: state_regions | STATE_STORMSTOUT_BREWERY
+Loc fehlt: state_regions | STATE_STRANGLETHORN_SEA
+Loc fehlt: state_regions | STATE_STRONGARM_AIRSTRIP
+Loc fehlt: state_regions | STATE_TANARIS_SEA
+Loc fehlt: state_regions | STATE_TAVERN_IN_THE_MIST
+Loc fehlt: state_regions | STATE_TELDRASSIL_SEA
+Loc fehlt: state_regions | STATE_TEMPLE_FIVE_DAWNS
+Loc fehlt: state_regions | STATE_TEMPLE_JADE_TEMPLE
+Loc fehlt: state_regions | STATE_TEMPLE_OF_THE_WHITE_TIGER
+Loc fehlt: state_regions | STATE_TEMPLE_RED_CRANE
+Loc fehlt: state_regions | STATE_TERRACE_ENDLESS_SPRING
+Loc fehlt: state_regions | STATE_TERRACE_OF_GURTHAN
+Loc fehlt: state_regions | STATE_TERRACE_TEN_THUNDER
+Loc fehlt: state_regions | STATE_TEST
+Loc fehlt: state_regions | STATE_THAUSEND_NEEDLES_SEA
+Loc fehlt: state_regions | STATE_THE_ANCIENT_PASSAGE
+Loc fehlt: state_regions | STATE_THE_HEARTLAND
+Loc fehlt: state_regions | STATE_THOUSAND_NEEDLES_ENTRANCE_SEA
+Loc fehlt: state_regions | STATE_THRONE_OF_THUNDER
+Loc fehlt: state_regions | STATE_THUNDERFOOT_FARM
+Loc fehlt: state_regions | STATE_THUNDERFOOT_FIELDS
+Loc fehlt: state_regions | STATE_THUNDERPAW_OVERLOOK
+Loc fehlt: state_regions | STATE_THUNDER_CLEFT
+Loc fehlt: state_regions | STATE_THUNDER_FORGES
+Loc fehlt: state_regions | STATE_THUNDER_SEA
+Loc fehlt: state_regions | STATE_TIAN_MONASTERY
+Loc fehlt: state_regions | STATE_TIGERS_WOOD
+Loc fehlt: state_regions | STATE_TIMELESS_SEA
+Loc fehlt: state_regions | STATE_TIMELESS_SHORE
+Loc fehlt: state_regions | STATE_TIRISFALL_SEA
+Loc fehlt: state_regions | STATE_TWILIGHT_SEA
+Loc fehlt: state_regions | STATE_ULDUM_SEA
+Loc fehlt: state_regions | STATE_VASHIR_SEA
+Loc fehlt: state_regions | STATE_VASHJ_IR
+Loc fehlt: state_regions | STATE_VA_SEAS
+Loc fehlt: state_regions | STATE_VIR_NAAL_SEA
+Loc fehlt: state_regions | STATE_WANDERING_SEA
+Loc fehlt: state_regions | STATE_WARDENS_VIGIL
+Loc fehlt: state_regions | STATE_WESTFALL_SEA
+Loc fehlt: state_regions | STATE_WESTWIND_REST
+Loc fehlt: state_regions | STATE_WEST_BLODDMYST_SEA
+Loc fehlt: state_regions | STATE_WETLAND_SEA
+Loc fehlt: state_regions | STATE_WHITE_TIGER_SEA
+Loc fehlt: state_regions | STATE_WINTERSPRING_SEA
+Loc fehlt: state_regions | STATE_WINTERS_BLOSSOM
+Loc fehlt: state_regions | STATE_WOOD_OF_STAVES
+Loc fehlt: state_regions | STATE_WU_SONG_WILLAGE
+Loc fehlt: state_regions | STATE_WYRMCREST_SEA
+Loc fehlt: state_regions | STATE_ZANDALAR
+Loc fehlt: state_regions | STATE_ZAN_VESS
+Loc fehlt: state_regions | STATE_ZA_TUAL
+Loc fehlt: state_regions | STATE_ZEB_TULA
+Loc fehlt: state_regions | STATE_ZHU_WATCH
+Loc fehlt: state_regions | STATE_ZOUCHIN_VILLAGE
+Unbekannter Verweis cu: | common\character_templates\va_murloc_charakters.txt:5: cu:murloc
+Unbekannter Verweis s: | common\history\buildings\22_east_northrend.txt:90: s:STATE_SK
+Unbekannter Verweis s: | common\history\pops\va_east_northrend.txt:354: s:STATE_SK
+Unbekannter Verweis s: | common\history\states\VA_northrend_state.txt:1087: s:STATE_SK
+Unbekannter Verweis s: | events\gilneas_events\infection_events.txt:1001: s:STATE_DISTRICT_OF_COLUMBIA
