@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	s:STATE_SHADOWGLEN = {
 		region_state:DARNASSUS = {
 			create_pop = {

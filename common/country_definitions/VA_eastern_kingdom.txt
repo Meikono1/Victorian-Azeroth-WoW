@@ -1,4 +1,4 @@
-AMANI_TRIBE = {
+﻿AMANI_TRIBE = {
 	color = { 31 95 111 }
 	
 	country_type = recognized

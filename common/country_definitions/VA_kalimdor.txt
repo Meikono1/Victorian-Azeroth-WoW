@@ -1,4 +1,4 @@
-AHNQIRAJ = {
+﻿AHNQIRAJ = {
 	color = { 165 91 220 }
 	
 	country_type = recognized

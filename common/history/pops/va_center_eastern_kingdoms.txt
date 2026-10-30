@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	s:STATE_SWIFTGEAR_STATION = {
 		region_state:MENETHIL = {
 			create_pop = {

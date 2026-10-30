@@ -1,4 +1,4 @@
-magnatour = {
+﻿magnatour = {
 	color = rgb{ 88 141 218 }
 	religion = the_elements
 	heritage = magnatour_heritage

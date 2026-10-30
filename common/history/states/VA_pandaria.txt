@@ -1,4 +1,4 @@
-STATES = {
+﻿STATES = {
 	s:STATE_THRONE_OF_THUNDER = {
 		create_state = {
 			country = c:PANDARIA

@@ -1,4 +1,4 @@
-region_wow_lakes = {
+﻿region_wow_lakes = {
 	states = { STATE_VA_SEAS }
 }
 

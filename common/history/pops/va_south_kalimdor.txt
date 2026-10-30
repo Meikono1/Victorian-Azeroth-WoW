@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	s:STATE_CAMP_ATAYA = {
 		region_state:NORTHSPRING_HARPY = {
 			create_pop = {

@@ -1,4 +1,4 @@
-desert_ogre = {
+﻿desert_ogre = {
 	color = rgb{ 215 171 78 }
 	religion = ogre_elements
 	heritage = ogre_heritage

@@ -1,4 +1,4 @@
-gnome = {
+﻿gnome = {
 	color = rgb{ 183 119 198 }
 	religion = holy_light
 	heritage = gnome_heritage

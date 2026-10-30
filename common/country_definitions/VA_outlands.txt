@@ -1,4 +1,4 @@
-AUCHENAI = {
+﻿AUCHENAI = {
 	color = { 64 487 140 }
 	
 	country_type = recognized

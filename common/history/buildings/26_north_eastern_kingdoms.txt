@@ -1,4 +1,4 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_SUNS_REACH={
 		region_state:SILVERMOON={
 		}
@@ -569,6 +569,10 @@ BUILDINGS={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
+					country={
+						country="c:SILVERMOON"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
@@ -576,6 +580,10 @@ BUILDINGS={
 			create_building={
 				building="building_sugar_plantation"
 				add_ownership={
+					country={
+						country="c:SILVERMOON"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
@@ -675,6 +683,10 @@ BUILDINGS={
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
+					country={
+						country="c:WRETCHED_BLOODELFES"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
@@ -1143,28 +1155,6 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_coal_mine"
-				add_ownership={
-					country={
-						country="c:DEATHHOLME"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-			}
-			create_building={
-				building="building_lead_mine"
-				add_ownership={
-					country={
-						country="c:DEATHHOLME"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 		}
 	}
@@ -1956,6 +1946,17 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:PLAGUELAND_UNDEAD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -2790,14 +2791,7 @@ BUILDINGS={
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
+
 			create_building={
 				building="building_sulfur_mine"
 				add_ownership={
@@ -4392,6 +4386,10 @@ BUILDINGS={
 			create_building={
 				building="building_port"
 				add_ownership={
+					country={
+						country="c:UNDERCITY"
+						levels=1
+					}
 				}
 				subsidized=no
 				reserves=1
@@ -4555,6 +4553,10 @@ BUILDINGS={
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
+					country={
+						country="c:GILNEAS"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
@@ -5227,6 +5229,10 @@ BUILDINGS={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
+					country={
+						country="c:SI7_HIGHLANDS"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
@@ -5729,6 +5735,10 @@ BUILDINGS={
 			create_building={
 				building="building_barracks"
 				add_ownership={
+					country={
+						country="c:EMERALD_ENTRANCE_SERADANE"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
@@ -6108,7 +6118,7 @@ BUILDINGS={
 				add_ownership={
 					country={
 						country="c:WILDHAMMER_CLAN_AZ"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
@@ -6124,6 +6134,17 @@ BUILDINGS={
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 		}
 	}

@@ -139,7 +139,6 @@ STATE_DIREMOOR = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -368,7 +367,6 @@ STATE_LONGYING_OUTPOST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -387,7 +385,6 @@ STATE_RENSAI_WATCHPOST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -406,7 +403,6 @@ STATE_DUSKLIGHT_HOLLOW = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -425,7 +421,6 @@ STATE_GAO_RAN_BATTLEFRONT = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -444,7 +439,6 @@ STATE_HATRED_VICE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -484,7 +478,6 @@ STATE_WINTERS_BLOSSOM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -503,7 +496,6 @@ STATE_KOTA_BASECAMP = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -522,7 +514,6 @@ STATE_FIREBOUGH_NOCK = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -541,7 +532,6 @@ STATE_WESTWIND_REST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -560,7 +550,6 @@ STATE_EASTWIND_REST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -579,7 +568,6 @@ STATE_BURLAP_WAYSTATION = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -598,7 +586,6 @@ STATE_ONE_KEG = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -617,7 +604,6 @@ STATE_EMPEROR_RIKKITIKS_REST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -636,7 +622,6 @@ STATE_PEAK_OF_SERENITY = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -718,7 +703,6 @@ STATE_MOGU_SHAN_TERRACE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -800,7 +784,6 @@ STATE_GUO_LAI_HALLS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -819,7 +802,6 @@ STATE_SHRINE_OF_TWO_MOONS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -838,7 +820,6 @@ STATE_MOGUSHAN_PALACE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -857,7 +838,6 @@ STATE_GATE_SETTING_SUN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -876,7 +856,6 @@ STATE_SETTING_SUN_GARRISON = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -895,7 +874,6 @@ STATE_RUINS_GUO_LAI = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -914,7 +892,6 @@ STATE_MISTFALL_VILLAGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -933,7 +910,6 @@ STATE_GOLDEN_PAGODA = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -952,7 +928,6 @@ STATE_SHRINE_OF_SEVEN_STARS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -992,7 +967,6 @@ STATE_THE_ANCIENT_PASSAGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1011,7 +985,6 @@ STATE_TERRACE_ENDLESS_SPRING = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1030,7 +1003,6 @@ STATE_GATE_ENDLESS_SPRING = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1049,7 +1021,6 @@ STATE_TAVERN_IN_THE_MIST = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1068,7 +1039,6 @@ STATE_KYPARI_VOR = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1087,7 +1057,6 @@ STATE_KOR_VESS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1106,7 +1075,6 @@ STATE_TERRACE_OF_GURTHAN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1125,7 +1093,6 @@ STATE_KLAXXI_VESS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1144,7 +1111,6 @@ STATE_KYPARI_IK = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1184,7 +1150,6 @@ STATE_HEART_OF_FEAR = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1308,6 +1273,5 @@ STATE_FORGOTTEN_MIRE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }

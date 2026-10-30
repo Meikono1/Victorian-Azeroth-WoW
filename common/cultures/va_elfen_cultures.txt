@@ -1,4 +1,4 @@
-fel_dorei = {
+﻿fel_dorei = {
 	color = rgb{ 133 95 156 }
 	religion = burning_legion
 	heritage = elf_heritage

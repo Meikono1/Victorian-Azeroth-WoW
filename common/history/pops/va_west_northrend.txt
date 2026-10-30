@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	# 16k for 1 Unique or boss
 	# 5k for every other
 	s:STATE_RIPLASH_RUINS = {

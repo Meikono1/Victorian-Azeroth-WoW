@@ -1,4 +1,4 @@
-quilboar = {
+﻿quilboar = {
 	color = rgb{ 118 53 7 }
 	religion = agamaggan
 	heritage = quilboar_heritage

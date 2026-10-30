@@ -174,5 +174,40 @@ Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5
 
 ### T-025 error.log: Gebäude Nord- und Mittel-EK (Claude)
 - **Schritte:** Nach T-024 und T-026 Claude Bescheid geben.
-- **Erwartet:** Keine neuen Fehler aus `common/history/buildings/26_north_eastern_kingdoms.txt` und `27_center_eastern_kingdoms.txt`, kein „Tried to create building … already exists“ außer dem bekannten Archerus-Fischkai (VA-024). Keine ungültigen Produktionsmethoden.
+- **Erwartet:** Keine neuen Fehler aus `common/history/buildings/26_north_eastern_kingdoms.txt` und `27_center_eastern_kingdoms.txt`, kein „Tried to create building … already exists“ außer dem bekannten Archerus-Fischkai (VA-024). Kein „must have invented Shaft Mining“ mehr bei Deathholme (Zeile 1147/1158 im Log vom 30.10., behoben). Keine ungültigen Produktionsmethoden.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: Log 30.10. 14:23 (Stand mit Süd-EK): einziger Fehler Deathholme-Minen (26:1147/1158), behoben. Sonst nichts aus `history/buildings` oder `state_regions`, auch kein „already exists“. Nächster Lauf bestätigt den Fix.
+
+### T-027 Fischerei-Platzhalter im Binnenland entfernt (VA-029)
+- **Schritte:** Kampagne starten. Ironforge (Binnenland) und Stormwind (Küste) im Staatenfenster öffnen, unter Ressourcen nachsehen.
+- **Erwartet:** Ironforge hat keine Fischerei mehr als Ressource, Stormwind schon. Fenris Isle und Scholomance (Lordamere-See) haben weiter Fischerei. `error.log` ohne neue Zeilen aus `map_data/state_regions/` (Claude prüft mit T-025).
 - **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-028 Süd-EK: Nahrung und Länderprofile (VA-029)
+- **Schritte:** In derselben Kampagne Stormwind, Booty Bay, Zul'Gurub und Redridge Canyons im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Stormwind und Booty Bay ansehen.
+- **Erwartet:** Stormwind deutlich besser ausgebaut (Farmen, Holz, Ranches) als Gnoll- und Orkgebiete. Booty Bay mit Fischerei und Kaffee. Stormwind schrumpft nicht mehr dauerhaft. `error.log` ohne neue Fehler aus `common/history/buildings/28_south_eastern_kingdoms.txt` (Claude prüft mit T-025).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-029 Häfen und Ackerland (VA-029)
+- **Schritte:** Kampagne starten. Stormwind, Ironforge (Coldridge Valley), Gnomeregan, Deadmines, Orgrimmar im Staatenfenster öffnen. Zul'Aman, Deathknell, The Bulwark, Aerie Peak ansehen. Nach 2 Jahren Food Security in Nord-EK erneut ansehen.
+- **Erwartet:** Genannte States haben einen Hafen, die Länder haben Weltmarkt-Zugang. Mehr Ackerland in den fünf Nord-EK-States, Aerie Peak mit Ranch. Weniger Hunger in Zul'Aman, Deathknell, Bulwark, Aerie Peak. `error.log` ohne „must have invented Navigation“ und ohne neue Fehler aus `common/history/buildings/2*` (Claude).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-030 Pops gekürzt in Undercity, Scholomance, Shadowfang Keep (VA-024)
+- **Schritte:** Kampagne starten, die drei States im Staatenfenster öffnen. Nach 2 Jahren Food Security und Lebensstandard ansehen.
+- **Erwartet:** Undercity ~2,0 Mio., Scholomance ~0,6 Mio., Shadowfang Keep ~1,0 Mio. Pops. Weniger Hunger und Arbeitslose als vorher. Archerus unverändert 2,55 Mio.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-031 Farben der Strategic Regions (VA-042)
+- **Schritte:** Kampagne starten, Kartenmodus „Strategische Regionen“ öffnen (bzw. die Ansicht, in der alles gelb war). Kalimdor, Eastern Kingdoms, Northrend und Pandaria ansehen.
+- **Erwartet:** Jede Strategic Region hat eine eigene Farbe, nichts mehr einheitlich gelb. Nachbarregionen sind meist deutlich verschieden; sonst Kono meldet, welche, dann passt Claude einzeln an. `error.log` ohne neue Zeilen aus `common/strategic_regions/` (Claude).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-032 Kleidung statt Lumpen (VA-042)
+- **Schritte:** Kampagne starten. Herrscher und Politiker von Stormwind, Ironforge, Silvermoon, Undercity, Orgrimmar und Thunder Bluff ansehen (Länderfenster, Interessengruppen). Außerdem ein Pop-Porträt in Stormwind und einen Murloc- oder Gnoll-Herrscher.
+- **Erwartet:** Menschen, Zwerge, Gnome, Elfen, Worgen, Draenei, Untote, Goblins, Orks, Trolle und Tauren tragen europäische Kleidung (Mäntel, Uniformen, Herrscherkleidung), keine Lumpen mehr. Murlocs, Gnolle u. a. bleiben vorerst in Lumpen. Kono notiert, welche Völker anders aussehen sollen. `error.log` ohne Zeilen zu `va_clothes_triggers.txt` und ohne „unknown trigger“ (Claude).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-033 error.log: Kleidung, Kartenfarben, Gebäude Nord-EK (Claude)
+- **Schritte:** Nach T-031 und T-032 Claude Bescheid geben.
+- **Erwartet:** Keine Zeilen zu `va_clothes_triggers.txt`, `european_clothes_trigger` oder `common/strategic_regions/`. Kein „Both levels and ownerships are undefined“ mehr aus `common/history/buildings/26_north_eastern_kingdoms.txt`. Keine „should be in utf8-bom“-Meldungen mehr für Mod-Dateien.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: Lauf 30.10. 17:50–17:52 (Repo = Mod-Ordner): nichts zu Kleidung oder Regionsfarben. Gefunden und behoben: 8 leere `add_ownership` in 26er Gebäuden (alt, schon im letzten Commit), fehlendes BOM in 70 Mod-Dateien (darunter die Strategic Regions). Nächster Lauf bestätigt die Fixes. Restbefunde → VA-043.

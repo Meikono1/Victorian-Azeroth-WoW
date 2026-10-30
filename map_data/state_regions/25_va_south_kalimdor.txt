@@ -33,7 +33,6 @@ STATE_DREAM_BOUGH = {
     capped_resources = {
         bg_coal_mining = 18
         bg_logging = 28
-        bg_fishing = 11
     }
 }
 
@@ -95,7 +94,6 @@ STATE_DIRE_MAUL = {
         bg_coal_mining = 35
         bg_lead_mining = 20
         bg_logging = 12
-        bg_fishing = 11
     }
 }
 
@@ -114,7 +112,6 @@ STATE_RUINS_OF_ISILDIEN = {
         bg_iron_mining = 15
         bg_coal_mining = 18
         bg_logging = 25
-        bg_fishing = 11
     }
 }
 
@@ -133,7 +130,6 @@ STATE_WOODPAW_HILLS = {
         bg_sulfur_mining = 18
         bg_lead_mining = 20
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -152,7 +148,6 @@ STATE_WRITHING_DEEP = {
         bg_iron_mining = 52
         bg_coal_mining = 60
         bg_logging = 15
-        bg_fishing = 11
     }
 }
 
@@ -170,7 +165,6 @@ STATE_GORDUNNI_OUTPOST = {
     capped_resources = {
         bg_iron_mining = 15
         bg_logging = 28
-        bg_fishing = 11
     }
 }
 
@@ -354,7 +348,6 @@ STATE_CAVERNS_OF_TIME = {
         bg_sulfur_mining = 20
         bg_lead_mining = 20
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -393,7 +386,6 @@ STATE_THE_NOXIOUS_LAIR = {
         bg_coal_mining = 18
         bg_sulfur_mining = 18
         bg_logging = 12
-        bg_fishing = 11
     }
 }
 
@@ -453,7 +445,6 @@ STATE_THE_SHAPERS_TERRACE = {
     capped_resources = {
         bg_iron_mining = 17
         bg_logging = 45
-        bg_fishing = 11
     }
 }
 
@@ -472,7 +463,6 @@ STATE_THE_SLITHERING_SCAR = {
         bg_iron_mining = 15
         bg_coal_mining = 15
         bg_logging = 43
-        bg_fishing = 11
     }
 }
 
@@ -491,7 +481,6 @@ STATE_LAKKARI_TAR_PITS = {
         bg_iron_mining = 12
         bg_lead_mining = 18
         bg_logging = 38
-        bg_fishing = 11
     }
 }
 
@@ -508,7 +497,6 @@ STATE_GOLAKKA_HOT_SPRINGS = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 42
-        bg_fishing = 11
     }
 }
 
@@ -526,7 +514,6 @@ STATE_HIVE_ASHI = {
     capped_resources = {
         bg_iron_mining = 17
         bg_logging = 17
-        bg_fishing = 11
     }
 }
 
@@ -565,7 +552,6 @@ STATE_SOUTHWIND_VILLAGE = {
         bg_iron_mining = 18
         bg_coal_mining = 25
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -583,7 +569,6 @@ STATE_HIVE_REGAL = {
     capped_resources = {
         bg_sulfur_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -602,7 +587,6 @@ STATE_TWILIGHT_OUTPOST = {
         bg_iron_mining = 22
         bg_coal_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -621,7 +605,6 @@ STATE_KHARTUTS_TOMB = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -682,7 +665,6 @@ STATE_NAHOM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -701,7 +683,6 @@ STATE_RAMKAHEN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -783,7 +764,6 @@ STATE_ORSIS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -823,7 +803,6 @@ STATE_OBELISK_OF_MOON = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -842,7 +821,6 @@ STATE_RUINS_OF_KHINTASET = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 

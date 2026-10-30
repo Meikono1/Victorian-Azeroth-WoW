@@ -22,6 +22,15 @@ FOOD = ("farm", "ranch", "fishing", "whaling", "orchard", "plantation", "food_in
 SUBSISTENCE_PEASANTS = 5000  # building_employment_peasants_add je Stufe, Vanilla 12_subsistence
 
 
+def num(value, where):
+    """Ganzzahl aus Script-Wert; ungültige Werte (Tippfehler wie '6a0') als 0 mit Warnung."""
+    try:
+        return int(value or 0)
+    except ValueError:
+        log.warning("%s: ungültige Zahl %r, zähle 0", where, value)
+        return 0
+
+
 def state_key(k):
     return k.split(":", 1)[-1] if k else k
 
@@ -36,7 +45,7 @@ def load_region(prefix):
         if k and isinstance(v, list):
             capped = get(v, "capped_resources") or []
             regions[k] = {
-                "arable": int(get(v, "arable_land", "0") or 0),
+                "arable": num(get(v, "arable_land", "0"), f"{k} arable_land"),
                 "arable_res": values(get(v, "arable_resources")),
                 "capped": {ck: cv for ck, _, cv in capped if ck},
                 "subsistence": get(v, "subsistence_building", "-"),
@@ -98,7 +107,7 @@ def rows(prefix):
         cultures = Counter()
         for tag, block in pops.get(st, {}).items():
             for cp in get_all(block, "create_pop"):
-                size = int(get(cp, "size", "0") or 0)
+                size = num(get(cp, "size", "0"), f"{st}/{tag} create_pop size")
                 owners[tag] += size
                 cultures[get(cp, "culture", "?")] += size
         levels = Counter()

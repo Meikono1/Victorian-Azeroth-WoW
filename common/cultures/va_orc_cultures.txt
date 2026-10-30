@@ -1,4 +1,4 @@
-felorc = {
+﻿felorc = {
 	color = rgb{ 67 194 25 }
 	religion = burning_legion
 	heritage = orc_heritage

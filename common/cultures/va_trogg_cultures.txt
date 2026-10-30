@@ -1,4 +1,4 @@
-trogg = {
+﻿trogg = {
 	color = rgb{ 102 82 56 }
 	religion = shamanism
 	heritage = trogg_heritage

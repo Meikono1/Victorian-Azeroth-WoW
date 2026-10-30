@@ -1,4 +1,4 @@
-draenei = {
+﻿draenei = {
 	color = rgb{ 51 64 156 }
 	religion = naaru
 	heritage = draenei_heritage

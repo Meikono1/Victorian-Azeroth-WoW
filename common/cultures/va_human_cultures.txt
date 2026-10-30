@@ -1,4 +1,4 @@
-alteraci = {
+﻿alteraci = {
 	color = rgb{ 200 130 44 }
 	religion = holy_light
 	heritage = human_heritage

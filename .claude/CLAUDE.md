@@ -44,7 +44,8 @@ Spielversion prüfen: `launcher\launcher-settings.json` → `rawVersion`. Der Mo
 2. Claude sucht ein passendes Vanilla-Vorbild (gleicher Mechanik-Typ) und prüft Effekte/Trigger in der Script-Doku.
 3. Claude schreibt Script **und** englische Lokalisierung zusammen. Keine Loc-Keys ohne Text, keine Texte ohne Key.
 4. Platzhalter-Grafiken (Icons, `event_image`) aus Vanilla verwenden und als `# TODO: eigenes …` markieren, wenn eigene Grafik gewünscht ist. Jede solche Grafik zusätzlich in die Liste in VA-027 eintragen (Größe, Ziel-Pfad, Bildidee). TODOs werden vor jedem Upload durchgegangen (Checkliste im Ablaufplan).
-5. Claude trägt Testfälle ins Testprotokoll ein. Kono testet im Spiel und hakt ab, Claude wertet danach `error.log` aus (nur Zeilen mit Mod-Pfaden sind relevant).
+5. **Event-Ablaufplan** (Kono, 2026-10-30): Eine Partie geht 100 Jahre. Jedes relevante Land bekommt Journal Entries für **25–40 Jahre** Spielzeit, danach gehen sie in die globalen Probleme über (Eventgruppen, VA-034). Für jedes Land bzw. jede JE-Reihe pflegt Claude ein Ablaufdiagramm in `.claude/ablauf/<land>.md` (Mermaid). Je Knoten stehen dort: **Bedingungen** (Trigger, Auslöser), **was daraus folgt** (Folge-JE, Event, Diplomatic Play, Modifier), **Dauer** im Spiel (Jahre/Tage, `timeout`) und **gedachter Zeitaufwand** für den Spieler. Neue Events und JEs werden erst dort eingeplant, dann gescriptet. Fortschritt zu einer JE-Bedingung kann eine diplomatische Eskalation (Diplomatic Play) auslösen.
+6. Claude trägt Testfälle ins Testprotokoll ein. Kono testet im Spiel und hakt ab, Claude wertet danach `error.log` aus (nur Zeilen mit Mod-Pfaden sind relevant).
 
 ## Arbeitsweise
 

@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	s:STATE_STORMWIND = {
 		region_state:STORMWIND = {
 			create_pop = {

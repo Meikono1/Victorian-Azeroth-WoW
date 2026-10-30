@@ -1,4 +1,4 @@
-STATES = {
+﻿STATES = {
 	# Borean Tundra
 	s:STATE_RIPLASH_RUINS = {
 		create_state = {

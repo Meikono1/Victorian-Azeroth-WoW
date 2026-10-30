@@ -87,3 +87,44 @@ Nur Nord-EK ist annähernd fertig. Reihenfolge-Vorschlag: Regionen mit vielen Po
 - Nur Gebäude geändert, keine Ressourcen-Vorkommen (`map_data/state_regions` unverändert).
 - **Dunkeleisenzwerge** (Dark Iron, Schwarzfels-Gebiet) waren so gedacht, dass sie Nahrung über Fleisch und Werkzeuge bekommen statt über Ackerbau. Später einbauen (z. B. eigenes Nahrungsgebäude/PM oder Pop-Bedürfnis), vorerst Hirse/Roggen und Ranches wie überall.
 - Vashj'ir: Provinzen neu zeichnen und Ressourcen → VA-030.
+
+### 2026-10-30 – Länderprofile und Fischerei (Kono)
+
+- Kono: „Jedes Reich sollte eine Persönlichkeit haben“ – Ressourcen nicht gleichmäßig je State, sondern nach Land (Macht, Kultur, Lore).
+  - Neu: `.claude/tools/va_profiles.py` mit Länder- und Kulturprofilen (Faktor je Gruppe `all`/`food`/`fish`/`plantation`/`wood`/`mines`). Der Zwergenfaktor steckt jetzt dort. Bisher nur Süd-EK-Länder eingetragen.
+  - `va_fill_buildings.py` verteilt jetzt je (State, Land) statt je State und vergibt Stufen einzeln nach Rückstand. Kleine Mitbesitzer verlieren dadurch nicht mehr in jedem State den Rundungsrest.
+  - Nahrung hat die Untergrenze 0,8 (`FOOD_MIN`), damit schwache Reiche nicht verhungern; Schwäche zeigt sich bei Holz, Minen, Plantagen.
+  - Nord- und Mittel-EK sind noch ohne Profile gefüllt. Ein Lauf meldet dort jetzt +1 Fischerei (Steamwheedle-Profil in Stormgarde Keep); nicht angewendet.
+- **Fischerei-Platzhalter entfernt:** `bg_fishing = 11` bzw. `building_fishing_wharf = 11` in 296 Binnen-States (ohne `naval_exit_id`) aller Regionen. Andere Werte im Binnenland bleiben, weil handgesetzt (Lordamere-See: Fenris Isle 14, Scholomance 7; Zangarmarschen u. a.). Küsten-States behalten ihren Wert (meist 11). Keine Gebäude-History betroffen. Lint 0 neue Fehler. Test: T-027.
+
+### Süd-EK (28) – umgesetzt 2026-10-30 (Kono: „Ja, schreiben“)
+
+- Ausgangslage: 46 States, 42,2 Mio. Pops, keine Gebäude.
+- `va_fill_buildings.py 28 --apply` mit Länderprofilen: **+319 Stufen** (davon 238 Nahrung). Weizen 88, Holz 45, Reis 39, Ranch 37, Fischerei 27, Baumwolle 25, Kohle 18, Kaffee 9, Eisen 8, Schwefel 6, Tee 5, Hirse 5, Blei 4, Roggen 2, Opium 1.
+- Je Mio. Pops: Stormwind 10,4 · Steamwheedle 9,6 · Zanzil 9,0 · Gurubashi 8,1 · Defias 7,6 · Schwarzfels 4,5 · Gnolle, Oger, Worgen 2–4. Kleinstländer unter 0,25 Mio. bekommen nichts.
+- Prüfung: Klammern ausgeglichen, keine doppelten Typen, zweiter Lauf 0, Lint 0 neue Fehler. `va_check_states.py 28`: nur Grosh'gok Compound ohne Gebäude (230 Tsd. Ogerpops, Anteil unter einer Stufe). Nebenbei gefundene Hub-/Provinzfehler → VA-033.
+- Offen wie in Nord-EK: Weinberge (Stormwind, Goldshire, MacLure, Westbrook, Northshire) ohne Gebäude, bis VA-003 den Namen klärt; Verwaltung und Industrie. Ressourcen noch im alten `bg_`-Format.
+- Test: T-028.
+
+### 2026-10-30 – Feinabstimmung später (Kono)
+
+- Länderprofile in `va_profiles.py` werden erst verfeinert, wenn für die Reiche Events und Content entstehen. Für die übrigen Regionen also grob weiterarbeiten.
+- Spieltest mit annex all: Nazjatar hungert noch → VA-030 (Fischerei und eigene Gebäude).
+- `error.log` vom 2026-10-30 14:23 ausgewertet: keine Fehler aus Süd-EK (28) und `map_data/state_regions`. Kono: Der neue Stand war im Lauf schon drin. Spieltests T-024/T-026/T-027/T-028 (Sichtprüfung) stehen noch aus.
+- **Fehler behoben:** Deathholme (Tech-Stufe 6) bekam beim Nord-EK-Lauf Kohle 1 und Blei 1. Minen brauchen `shaft_mining`, das Stufe 6/7 nicht hat („must have invented Shaft Mining“, `26_north_eastern_kingdoms.txt:1147/1158`). Beide Einträge entfernt. `va_fill_buildings.py` vergibt Minen jetzt nur an Länder mit `shaft_mining` (`without_shaft_mining()`). Sonst ist kein Land mit Minen betroffen. Lint 0 neue Fehler.
+
+### 2026-10-30 – Häfen, Ackerland, Outland-Fehler (Spieltest Kono)
+
+- **Start-Häfen:** Kono: Stormwind, Defias, Gnomeregan brauchen einen Hafen, alle Länder sollen am Weltmarkt hängen. Neu `va_add_ports.py <Präfixe> [--apply]`: Hafen für jedes Land mit Küsten-State und ohne Hafen, in der Hauptstadt bzw. im größten Küsten-State, Stufe 1 + je 5 Mio. Pops, höchstens 3; nur mit `navigation` (Tech-Stufe 1–5). Angewendet auf 21–28: **106 Häfen, 118 Stufen**. Outland (29) und Pandaria (30/31) bewusst nicht (eigene Welt bzw. Nebel, Entscheidung offen). Zweiter Lauf 0, Klammern ausgeglichen.
+- `va_fill_buildings.py`: `without_tech(tech)` statt `without_shaft_mining()`, gilt für Minen und Häfen.
+- **Ackerland erhöht** (Kono): Zul'Aman 70 → 110, Crown Guard Tower 62 → 75, The Bulwark 38 → 60, Deathknell 37 → 65, Aerie Peak 35 → 55; Aerie Peak dazu Ranch 3 und Mais +2. Pop-Vorschläge → VA-024.
+- **Outland-Datenfehler:** `STATE_MANAFORGE_BNAAR` `arable_land = 6a0` → 60 korrigiert. Offen: `common/history/pops/va_outlands.txt:1618` `size = zombie` (STATE_EXPEDITION_ARMORY / UNYIELDING_DEFENDER, Kultur stormwindian), richtiger Wert unbekannt → bei Region 29 klären. Beides fand weder Lint noch error.log; `va_region_overview.py` warnt jetzt bei ungültigen Zahlen statt abzubrechen.
+- Lint 0 neue Fehler. Test: T-029.
+
+### Zentral-Kalimdor (24) – Vorschlag 2026-10-30, wartet auf Kono
+
+- Ausgangslage: 55 States, 53,0 Mio. Pops, 2.158 Ackerland, nur die 17 Hafenstufen. Übersicht: `.claude/regionen/24_zentral_kalimdor.md`.
+- **Alle 53 besiedelten States haben genau 1.000 Tsd. Pops** (Platzhalter, Kulturen je Besitzer gleich verteilt). Die Gebäude richten sich danach; werden die Pops später lore-genau gesetzt, Region neu füllen.
+- Länderprofile `_ZENTRAL_KALIMDOR` in `va_profiles.py` (38 Länder): Orgrimmar 1,3 (Minen hoch, Nahrung 0,9), Thunder Bluff 1,2 (Ranches × 1,6, Minen 0,5), Theramore 1,2 (Fisch 1,5), Darnassus 1,1 (Holz/Minen 0,5), Burning Blade 0,7, Onyxia 0,4, Stämme 0,4–0,6. Nord-, Mittel-, Süd-EK bleiben unverändert (Probelauf 0 / +1 bekannt / 0).
+- Probelauf: **+319 Stufen** (Mais 53, Ranch 41, Holz 40, Fischerei 30, Baumwolle 29, Roggen 24, Hirse 24, Weizen 20, Kohle 17, Reis 16, Eisen 8, Kaffee 8, Schwefel 5, Blei 4). Je Mio. Pops: Theramore 10,6 · Thunder Bluff 7,6 · Orgrimmar 7,4 · Darkspear 8,0 · Burning Blade 4,8.
+- Platzhalter: `STATE_KEZAN` und `STATE_LOST_ISLES` liegen in Region 24 (Besitzer `KALIMDOR`, je 10 Tsd. sin_dorei-Pops), bekommen nichts.

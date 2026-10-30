@@ -1,4 +1,4 @@
-aqir = {
+﻿aqir = {
 	color = rgb{ 202 95 217 }
 	religion = nzoth
 	heritage = silithid_heritage

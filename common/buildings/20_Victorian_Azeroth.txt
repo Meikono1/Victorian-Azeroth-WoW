@@ -1,4 +1,4 @@
-building_feliron_mine = {
+﻿building_feliron_mine = {
 	building_group = bg_feliron_mining
 	icon = "gfx/interface/icons/building_icons/feliron_mine.dds"
 	city_type = mine

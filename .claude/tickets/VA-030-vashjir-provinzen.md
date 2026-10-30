@@ -36,3 +36,10 @@ Stand 2026-10-30 (Analyse Claude):
 4. Gebäude neu: `va_fill_buildings.py 27`, vorher die Platzhalter-Gebäude in `common/history/buildings/27_center_eastern_kingdoms.txt` für Vashj'ir entfernen.
 
 ## Notizen
+
+### 2026-10-30 – Spieltest Kono (annex all)
+
+- Nazjatar (Naga in Vashj'ir) hungert weiterhin.
+- Kono: Die Region ist besonders fischreich und soll **einzigartige Gebäude** bekommen. Fischerei hier also eigens gestalten (z. B. eigenes Naga-Fischerei-/Seetang-Gebäude), nicht nur Vanilla-Fischkai. Bis dahin sind die Platzhalter-Gebäude der einzige Schutz vor dem Verhungern.
+
+- 2026-10-30 (Kono): Vashj'ir zeichnet Kono selbst neu. Ohne Gebirge und Gelände geht das schnell, es läuft nebenbei zu Kalimdor (VA-038).

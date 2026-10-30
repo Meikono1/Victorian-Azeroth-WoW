@@ -4,13 +4,22 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 3 ist durch. Als Nächstes die offenen Tests aus Runde 1 (T-003 bis T-012) zusammen mit Runde 5 (T-021, T-022) und Runde 6 (T-024 bis T-026).
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 3 ist durch. Als Nächstes die offenen Tests aus Runde 1 (T-003 bis T-012) zusammen mit Runde 5 (T-021, T-022) und Runde 6 (T-024 bis T-030).
 
 ## Offene Entscheidungen
 
 - Welche Formables für Nord-EK, welche davon als Major Formation? (VA-017)
 - Herrscher-Liste Nord-EK abnicken (VA-016)
-- Hungersnot (VA-029): Region für Region; Nord- und Mittel-EK erledigt, nächste Region Süd-EK (28); Vashj'ir-Ressourcen offen
+- Pops Mittel-EK-Städte Ironforge, Gnomeregan, Grim Batol: kürzen oder über Markt versorgen (VA-024, VA-036)
+- Allianz-Markt: Zollunion per Machtblock-Prinzip (DLC) oder andere Lösung (VA-036)
+- Startevent oder Spielregeln für Eventgruppen (VA-034)
+- Hungersnot (VA-029): Region für Region; Nord-, Mittel- und Süd-EK erledigt (Süd-EK mit Länderprofilen). Kalimdor erst nach dem Neuzeichnen (VA-038), Probelauf 24 liegt bereit; Vashj'ir-Ressourcen offen
+- Scarlet Empire: Träger, Weg (Formable/JE), Verhältnis zu `LORDAERON` (VA-041)
+
+## Aktueller Fokus (Kono, 2026-10-30)
+
+- **Claude: Eastern Kingdoms.** Weltmarkt reparieren (VA-040), dann Content, damit man im Spiel etwas erlebt: Silvermoon wiederherstellen (VA-019/020), Amani-Reich in Zul'Aman gründen (VA-022), Scarlet Empire (VA-041), Ebon Blade gegen Scarlet (VA-035).
+- **Kono nebenbei:** Kalimdor neu zeichnen (VA-038), Vashj'ir neu zeichnen (VA-030), Meereszugang einzelner EK-States (VA-037). Splitter-States im Süden bleiben liegen (VA-031).
 
 ## Fahrplan
 
@@ -22,6 +31,11 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 6. **Komfort** – VA-010
 
 ## Erledigt
+
+- 2026-10-30: Editor-Stand aus `mod\warcraft` ins Repo geholt (Kalimdor-History, `23_va_north_kalimdor.txt`, `provinces.png`, Splines, Locators; VA-038). 70 Strategic Regions mit eigener Farbe statt Gelb, Kleidung über `va_clothes_triggers.txt` (VA-042). 8 leere `add_ownership` in Nord-EK-Gebäuden gefüllt, 70 Mod-Dateien mit BOM versehen, Rest aus dem Log → VA-043. Tests T-031 bis T-033.
+
+- 2026-10-30: 106 Start-Häfen (21–28), Ackerland für fünf Nord-EK-States, Pops gekürzt in Undercity, Scholomance, Shadowfang Keep (VA-029, VA-024).
+- 2026-10-30: Süd-EK Start-Gebäude mit Länderprofilen: +319 Stufen; 296 Fischerei-Platzhalter im Binnenland entfernt (VA-029). Werkzeug `va_profiles.py`.
 
 - 2026-10-30: Mittel-EK Start-Gebäude nach Maßstab Frankreich: +388 Stufen (VA-029).
 

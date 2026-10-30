@@ -13,7 +13,6 @@
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -32,7 +31,6 @@ STATE_FROSTHOLD = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -51,7 +49,6 @@ STATE_VALKYRION = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -70,7 +67,6 @@ STATE_GROMS_BANE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -89,7 +85,6 @@ STATE_SIFRELDAR_VILLAGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -108,7 +103,6 @@ STATE_TEMPLE_OF_THE_STORM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -190,7 +184,6 @@ STATE_ENGINE_OF_THE_MAKER = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -230,7 +223,6 @@ STATE_BRUNNHILDAR_VILLAGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -249,7 +241,6 @@ STATE_DUN_NIFFELEM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -310,7 +301,6 @@ STATE_ZARAMAS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -329,7 +319,6 @@ STATE_THRYMS_END = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -348,7 +337,6 @@ STATE_VOLTARUS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -367,7 +355,6 @@ STATE_LIGHTS_BREACH = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -386,7 +373,6 @@ STATE_ZUL_DRAK_WEST_ALTARS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -405,7 +391,6 @@ STATE_THE_ARGENT_STAND = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -424,7 +409,6 @@ STATE_KOLRAM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -506,7 +490,6 @@ STATE_DRAK_THARON_KEEP = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -525,7 +508,6 @@ STATE_BLUE_SKY_LOGGING_GROUNDS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -544,7 +526,6 @@ STATE_GRANITE_SPRINGS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -563,7 +544,6 @@ STATE_CONQUEST_HOLD = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -624,7 +604,6 @@ STATE_AMBERPINE_LODGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -643,7 +622,6 @@ STATE_GRIZZLEMAW = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -662,7 +640,6 @@ STATE_WESTFALL_BRIGADE_ENCAMPMENT = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -765,7 +742,6 @@ STATE_HEARTS_BLOOD_SHRINE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -805,7 +781,6 @@ STATE_GJALERBRON = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -845,7 +820,6 @@ STATE_CAMP_WINTERHOOF = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -885,7 +859,6 @@ STATE_SKÖRN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1009,7 +982,6 @@ STATE_VALGARDE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1028,7 +1000,6 @@ STATE_UTGARDE_KEEP = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1047,7 +1018,6 @@ STATE_BALEHEIM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 

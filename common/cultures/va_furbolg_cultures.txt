@@ -1,4 +1,4 @@
-furbolg = {
+﻿furbolg = {
 	color = rgb{ 153 105 35 }
 	religion = ursoc
 	heritage = furbolg_heritage

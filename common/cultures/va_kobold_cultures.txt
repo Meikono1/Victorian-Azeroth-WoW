@@ -1,4 +1,4 @@
-kobold = {
+﻿kobold = {
 	color = rgb{ 146 119 70 }
 	religion = candle
 	heritage = kobold_heritage

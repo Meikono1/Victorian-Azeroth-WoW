@@ -1,4 +1,4 @@
-black_dragon = {
+﻿black_dragon = {
 	color = rgb{ 78 3 3 }
 	religion = black_dragon_worship
 	heritage = dragon_heritage

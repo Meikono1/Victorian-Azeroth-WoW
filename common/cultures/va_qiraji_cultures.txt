@@ -1,4 +1,4 @@
-qiraji = {
+﻿qiraji = {
 	color = rgb{ 211 101 226 }
 	religion = nzoth
 	heritage = qiraji_heritage

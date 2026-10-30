@@ -1,4 +1,4 @@
-magnaron = {
+﻿magnaron = {
 	color = rgb{ 184 89 16 }
 	religion = the_elements
 	heritage = giant_heritage

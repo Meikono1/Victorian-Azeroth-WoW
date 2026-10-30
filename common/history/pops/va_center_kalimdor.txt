@@ -1,4 +1,4 @@
-POPS = {
+﻿POPS = {
 	s:STATE_STONETALON_PEAK = {
 		region_state:THAL_DARAH = {
 			create_pop = {

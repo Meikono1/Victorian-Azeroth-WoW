@@ -247,7 +247,7 @@ STATE_MANAFORGE_BNAAR = {
     farm = "x5E5C94"
     mine = "x43043A"
     wood = "x42D2BF"
-    arable_land = 6a0
+    arable_land = 60
     arable_resources = { "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_rice_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_arcane_crystals_WIP = 17
@@ -349,7 +349,6 @@ STATE_RUUAN_WEALD = {
         bg_feliron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -388,7 +387,6 @@ STATE_CIRCLE_OF_BLOOD = {
         bg_feliron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 

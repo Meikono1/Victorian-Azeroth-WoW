@@ -1,4 +1,4 @@
-sporeling = {
+﻿sporeling = {
 	color = rgb{ 129 114 31 }
 	religion = the_elements
 	heritage = sporeling_heritage

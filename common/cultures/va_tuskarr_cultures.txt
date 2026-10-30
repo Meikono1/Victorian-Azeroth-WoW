@@ -1,4 +1,4 @@
-tuskarr = {
+﻿tuskarr = {
 	color = rgb { 51 156 142 }
 	religion = tayutka
 	heritage = tuskarr_heritage

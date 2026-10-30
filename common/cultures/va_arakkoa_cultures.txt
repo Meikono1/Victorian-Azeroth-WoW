@@ -1,4 +1,4 @@
-arakkoa = {
+﻿arakkoa = {
 	color = rgb{ 107 91 37 }
 	religion = terokk
 	heritage = arakkoa_heritage

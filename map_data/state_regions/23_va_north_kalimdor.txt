@@ -1,13 +1,13 @@
 ﻿STATE_SHADOWGLEN = {
     id = 2301
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x02AB5D" "x07AE87" "x0AAB43" "x0D57A1" "x0EF47B" "x13CA97" "x142E23" "x153541" "x177B79" "x1780AF" "x17D963" "x19094B" "x1A4167" "x1C026D" "x1E38D7" "x1EF394" "x1F8376" "x2118D9" "x21A0F5" "x227149" "x259965" "x26AAF6" "x2A22CB" "x2A9897" "x2B6F2B" "x2BEA43" "x2CBC0B" "x313645" "x32772F" "x329F39" "x3548BF" "x362DCE" "x36911C" "x3A6183" "x3BA23E" "x3F400E" "x415205" "x45BFC9" "x465B23" "x46C022" "x46C024" "x4882B4" "x496913" "x49B20E" "x4A82A1" "x4D7B2F" "x4F74DF" "x53DC1A" "x58E2C6" "x5D2F40" "x5EC4E2" "x5F17D5" "x5F1D19" "x5FCC52" "x6058A7" "x6566A0" "x673298" "x6796ED" "x695160" "x6BFCB0" "x6CD340" "x6D5D50" "x6D92B0" "x6DFD32" "x6EA5E1" "x7030C0" "x727FA1" "x728745" "x72B56D" "x735623" "x74063E" "x764722" "x773EC8" "x799C35" "x7BE047" "x7D7938" "x7E1555" "x7E5A63" "x824A63" "x82A9C3" "x83453A" "x85BAAD" "x87BB99" "x891E75" "x8DFB0F" "x8E8C95" "x8EDE46" "x93E37A" "x96009F" "x960903" "x98EDBF" "x9A8160" "x9CB643" "x9DAADE" "x9E92BD" "xA0EF00" "xA0F70B" "xA299F8" "xA4E077" "xA5D3E6" "xA77A56" "xA83B43" "xA98D71" "xAB9DE9" "xABD39E" "xAC1C0E" "xAC39A0" "xAE5795" "xAF6CAA" "xB03040" "xB070C0" "xB0CEA1" "xB0EE2C" "xB100D2" "xB13372" "xB274BE" "xB47854" "xB511A8" "xB533D3" "xB55389" "xB6F68E" "xBA44EA" "xBA9B97" "xBD040D" "xBE4407" "xC0970C" "xC41F5C" "xC492B5" "xC67B33" "xC690E9" "xC77507" "xCBCD11" "xCE8372" "xD10873" "xD1C794" "xD2ED35" "xD34BB3" "xDC457A" "xDCA035" "xDD82F0" "xDEE6A2" "xDF05DC" "xE20DB2" "xE63216" "xE6467D" "xE7FC7D" "xEB7C20" "xEF3040" "xEFAD69" "xF03ACC" "xF0F041" "xF1E6C3" "xF1FF9E" "xF23EA5" "xF2485D" "xF3E9F2" "xF4772A" "xF4A5AA" "xF4BBF1" "xF62ACE" "xFB39E4" "xFBDBB8" "xFC3163" "xFCD455" "xFE8CB7" "xFF05E2" }
+    provinces = { "x02AB5D" "x07AE87" "x09666E" "x0AAB43" "x0D57A1" "x0EF47B" "x13CA97" "x142E23" "x153541" "x177B79" "x1780AF" "x17D963" "x19094B" "x1A4167" "x1C026D" "x1E38D7" "x1EF394" "x1F8376" "x2118D9" "x21A0F5" "x227149" "x259965" "x26AAF6" "x2A22CB" "x2A9897" "x2B6F2B" "x2BEA43" "x2CBC0B" "x313645" "x32772F" "x329F39" "x3548BF" "x362DCE" "x36911C" "x3A6183" "x3BA23E" "x3F400E" "x415205" "x45BFC9" "x465B23" "x46C022" "x46C024" "x4882B4" "x496913" "x49B20E" "x4A82A1" "x4D7B2F" "x4F74DF" "x53DC1A" "x58E2C6" "x5D2F40" "x5EC4E2" "x5F17D5" "x5F1D19" "x5FCC52" "x6058A7" "x6566A0" "x673298" "x6796ED" "x695160" "x6BFCB0" "x6CD340" "x6D5D50" "x6D92B0" "x6DFD32" "x6EA5E1" "x7030C0" "x727FA1" "x728745" "x72B56D" "x735623" "x74063E" "x764722" "x773EC8" "x799C35" "x7BE047" "x7D7938" "x7E1555" "x7E5A63" "x824A63" "x82A9C3" "x83453A" "x85BAAD" "x87BB99" "x891E75" "x8DFB0F" "x8E8C95" "x8EDE46" "x93E37A" "x96009F" "x960903" "x98EDBF" "x9A8160" "x9CB643" "x9DAADE" "x9E92BD" "xA0EF00" "xA0F70B" "xA299F8" "xA4E077" "xA5D3E6" "xA77A56" "xA83B43" "xA98D71" "xAB9DE9" "xABD39E" "xAC1C0E" "xAC39A0" "xAE5795" "xAF6CAA" "xB03040" "xB070C0" "xB0CEA1" "xB0EE2C" "xB100D2" "xB13372" "xB274BE" "xB47854" "xB511A8" "xB533D3" "xB55389" "xB6F68E" "xBA44EA" "xBA9B97" "xBD040D" "xBE4407" "xC0970C" "xC41F5C" "xC492B5" "xC67B33" "xC690E9" "xC77507" "xCBCD11" "xCE8372" "xD10873" "xD1C794" "xD2ED35" "xD34BB3" "xDC457A" "xDCA035" "xDD82F0" "xDEE6A2" "xDF05DC" "xE20DB2" "xE63216" "xE6467D" "xE7FC7D" "xEB7C20" "xEF3040" "xEFAD69" "xF03ACC" "xF0F041" "xF1E6C3" "xF1FF9E" "xF23EA5" "xF2485D" "xF3E9F2" "xF4772A" "xF4A5AA" "xF4BBF1" "xF62ACE" "xFB39E4" "xFBDBB8" "xFC3163" "xFCD455" "xFE8CB7" "xFF05E2" }
     traits = {}
+    impassable = { "x07AE87" "x09666E" "x0AAB43" "x0D57A1" "x142E23" "x153541" "x177B79" "x1780AF" "x1F8376" "x227149" "x26AAF6" "x2A9897" "x2B6F2B" "x2BEA43" "x362DCE" "x36911C" "x45BFC9" "x46C024" "x496913" "x4D7B2F" "x5D2F40" "x5EC4E2" "x5F1D19" "x5FCC52" "x6BFCB0" "x6CD340" "x6D92B0" "x728745" "x773EC8" "x7BE047" "x7D7938" "x83453A" "x87BB99" "x960903" "x9CB643" "x9E92BD" "xA0EF00" "xA0F70B" "xA299F8" "xA4E077" "xA77A56" "xA98D71" "xAC1C0E" "xAC39A0" "xB0CEA1" "xB100D2" "xB47854" "xB6F68E" "xBA44EA" "xBA9B97" "xBD040D" "xC67B33" "xCE8372" "xD2ED35" "xD34BB3" "xDCA035" "xDD82F0" "xE6467D" "xEB7C20" "xEFAD69" "xF03ACC" "xF1E6C3" "xF2485D" "xF3E9F2" "xF4772A" "xF62ACE" "xFB39E4" "xFC3163" "xFE8CB7" "xFF05E2" }
     city = "x4D7B2F"
     farm = "x6CD340"
     mine = "x9A8160"
     wood = "xA299F8"
-    port = "xAF6CAA"
     arable_land = 68
     arable_resources = { "bg_rye_farms" "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_coffee_plantations" }
     capped_resources = {
@@ -21,8 +21,9 @@
 STATE_DOLANAAR = {
     id = 2302
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x008EC3" "x00F5CD" "x01A2B7" "x02FB90" "x0322A4" "x033DA4" "x048EAE" "x04C1C5" "x04FDE5" "x06CE66" "x08DC87" "x09666E" "x0A1FF9" "x0AFF49" "x0FDAC9" "x105E98" "x10FA1F" "x12848D" "x12B16A" "x13001D" "x141811" "x146701" "x15407B" "x15A720" "x160C3E" "x165AFE" "x186409" "x1890DF" "x1AADF8" "x1BCE6A" "x1BDBF0" "x1D428D" "x1F187B" "x221FEA" "x2227E7" "x231FB9" "x2338D0" "x2504D1" "x267B18" "x269443" "x2750DE" "x297B38" "x2981D1" "x2E4FA5" "x2F1C8E" "x307041" "x30719D" "x30EF40" "x31194F" "x31D8DF" "x329831" "x339E4C" "x36AB5B" "x36B7F9" "x36F5C8" "x383F16" "x39453E" "x3A5023" "x3BE292" "x3C0D4E" "x3D9C4C" "x3DA010" "x3DEC00" "x40529F" "x40A972" "x412C1C" "x429D72" "x44DE38" "x45A8BD" "x48A057" "x4983E8" "x4D61C5" "x4F90FE" "x52FA05" "x53BACF" "x54B70E" "x57036F" "x577C8B" "x57D5A9" "x593F25" "x5A627D" "x5DF3C0" "x5E59AC" "x5F189B" "x6190B1" "x61957F" "x61D564" "x654CF8" "x656C64" "x66A0E2" "x696F38" "x6D295A" "x6E746C" "x70660A" "x707040" "x7070BF" "x70B0C0" "x7169E0" "x71E938" "x726410" "x743198" "x7486F1" "x767E95" "x7909BC" "x7B4218" "x7B55A9" "x7B561C" "x7C501F" "x7DAAE9" "x7EB77F" "x8400B9" "x849CB5" "x8587D6" "x87B2CE" "x88561A" "x89EA99" "x8AB034" "x8E2538" "x8FA78B" "x901121" "x965518" "x969FBB" "x97F797" "x9933B7" "x9D65EB" "x9DCE76" "x9EC2C1" "xA5AEC3" "xA6894A" "xA7265D" "xA80844" "xA82DDA" "xA90C4B" "xAACD3D" "xAB7050" "xABECE6" "xACA020" "xB07040" "xB0EF40" "xB53884" "xB641E9" "xB6C103" "xB92E03" "xBAA7F0" "xBC3771" "xBCFFB5" "xBDEDE0" "xC0BC97" "xC20B5C" "xC44C6E" "xC4B6B4" "xC7E903" "xC88528" "xCBB152" "xCBB3C9" "xCBF5C9" "xCD9D60" "xCDA26C" "xCDAEDD" "xCF7001" "xD4208F" "xD593BD" "xD60BDF" "xD633FE" "xD6E38D" "xD87B61" "xD9450D" "xD950C5" "xDCF50C" "xDE33E1" "xDFEFC0" "xE0BEAB" "xE0C64B" "xE4FDFA" "xE53421" "xE5D72E" "xE69A18" "xE6E919" "xE70946" "xE98100" "xEA8822" "xEAE72D" "xEB469A" "xECB3CF" "xEF06DD" "xEF1273" "xEF30C0" "xEFAFC0" "xEFB040" "xF06D38" "xF2F684" "xF64C5E" "xF7237C" "xF82E42" "xF8E5E2" "xFA8A80" "xFAA6D6" "xFBC3C9" "xFE6ABD" }
+    provinces = { "x008EC3" "x00F5CD" "x01A2B7" "x02FB90" "x0322A4" "x033DA4" "x048EAE" "x04C1C5" "x04FDE5" "x06CE66" "x08DC87" "x0A1FF9" "x0AFF49" "x0FDAC9" "x105E98" "x10FA1F" "x12848D" "x12B16A" "x13001D" "x141811" "x146701" "x15407B" "x15A720" "x160C3E" "x165AFE" "x186409" "x1890DF" "x1AADF8" "x1BCE6A" "x1BDBF0" "x1D428D" "x1F187B" "x221FEA" "x2227E7" "x231FB9" "x2338D0" "x2504D1" "x267B18" "x269443" "x2750DE" "x297B38" "x2981D1" "x2E4FA5" "x2F1C8E" "x307041" "x30719D" "x30EF40" "x31194F" "x31D8DF" "x329831" "x339E4C" "x36AB5B" "x36B7F9" "x36F5C8" "x383F16" "x39453E" "x3A5023" "x3BE292" "x3C0D4E" "x3D9C4C" "x3DA010" "x3DEC00" "x40529F" "x40A972" "x412C1C" "x429D72" "x44DE38" "x45A8BD" "x48A057" "x4983E8" "x4D61C5" "x4F90FE" "x52FA05" "x53BACF" "x54B70E" "x57036F" "x577C8B" "x57D5A9" "x593F25" "x5A627D" "x5DF3C0" "x5E59AC" "x5F189B" "x6190B1" "x61957F" "x61D564" "x654CF8" "x656C64" "x66A0E2" "x696F38" "x6D295A" "x6E746C" "x70660A" "x707040" "x7070BF" "x70B0C0" "x7169E0" "x71E938" "x726410" "x743198" "x7486F1" "x767E95" "x7909BC" "x7B4218" "x7B55A9" "x7B561C" "x7C501F" "x7DAAE9" "x7EB77F" "x8400B9" "x849CB5" "x8587D6" "x87B2CE" "x88561A" "x89EA99" "x8AB034" "x8E2538" "x8FA78B" "x901121" "x965518" "x969FBB" "x97F797" "x9933B7" "x9D65EB" "x9DCE76" "x9EC2C1" "xA5AEC3" "xA6894A" "xA7265D" "xA80844" "xA82DDA" "xA90C4B" "xAACD3D" "xAB7050" "xABECE6" "xACA020" "xB07040" "xB0EF40" "xB53884" "xB641E9" "xB6C103" "xB92E03" "xBAA7F0" "xBC3771" "xBCFFB5" "xBDEDE0" "xC0BC97" "xC20B5C" "xC44C6E" "xC4B6B4" "xC7E903" "xC88528" "xCBB152" "xCBB3C9" "xCBF5C9" "xCD9D60" "xCDA26C" "xCDAEDD" "xCF7001" "xD4208F" "xD593BD" "xD60BDF" "xD633FE" "xD6E38D" "xD87B61" "xD9450D" "xD950C5" "xDCF50C" "xDE33E1" "xDFEFC0" "xE0BEAB" "xE0C64B" "xE4FDFA" "xE53421" "xE5D72E" "xE69A18" "xE6E919" "xE70946" "xE98100" "xEA8822" "xEAE72D" "xEB469A" "xECB3CF" "xEF06DD" "xEF1273" "xEF30C0" "xEFAFC0" "xEFB040" "xF06D38" "xF2F684" "xF64C5E" "xF7237C" "xF82E42" "xF8E5E2" "xFA8A80" "xFAA6D6" "xFBC3C9" "xFE6ABD" }
     traits = {}
+    impassable = { "x01A2B7" "x02FB90" "x0322A4" "x048EAE" "x04C1C5" "x04FDE5" "x08DC87" "x0A1FF9" "x0AFF49" "x0FDAC9" "x10FA1F" "x12848D" "x12B16A" "x141811" "x146701" "x160C3E" "x186409" "x1AADF8" "x1BDBF0" "x1F187B" "x221FEA" "x2227E7" "x267B18" "x269443" "x297B38" "x2F1C8E" "x307041" "x30EF40" "x31D8DF" "x329831" "x339E4C" "x383F16" "x39453E" "x3A5023" "x3C0D4E" "x3D9C4C" "x3DEC00" "x412C1C" "x48A057" "x4983E8" "x4D61C5" "x53BACF" "x54B70E" "x5A627D" "x5F189B" "x6190B1" "x656C64" "x696F38" "x6D295A" "x7070BF" "x70B0C0" "x7169E0" "x71E938" "x726410" "x743198" "x7486F1" "x7B4218" "x7B55A9" "x7B561C" "x7DAAE9" "x8587D6" "x8AB034" "x901121" "x969FBB" "x97F797" "x9933B7" "x9EC2C1" "xA80844" "xA90C4B" "xAACD3D" "xAB7050" "xB07040" "xB0EF40" "xB53884" "xB641E9" "xB6C103" "xBAA7F0" "xBC3771" "xBCFFB5" "xC0BC97" "xC44C6E" "xC4B6B4" "xC7E903" "xC88528" "xCBB152" "xCBF5C9" "xCD9D60" "xD633FE" "xD6E38D" "xD87B61" "xDE33E1" "xE0BEAB" "xE0C64B" "xE4FDFA" "xE5D72E" "xE69A18" "xE70946" "xEA8822" "xEAE72D" "xEB469A" "xEF30C0" "xEFB040" "xF82E42" "xF8E5E2" "xFAA6D6" }
     city = "xD60BDF"
     farm = "x71E938"
     mine = "x8E2538"
@@ -43,6 +44,7 @@ STATE_ORACLE_GLADE = {
     id = 2303
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x01014E" "x02B436" "x062126" "x07BEB5" "x098E2F" "x0AAB61" "x0AEDE7" "x1084B8" "x125F4D" "x15E299" "x164737" "x1711CF" "x18375A" "x193407" "x196F16" "x19E72F" "x1DBFB3" "x1F2AB3" "x221290" "x253F33" "x288902" "x28EC12" "x29F3A6" "x2A1C97" "x2A245E" "x333DD5" "x3383E0" "x365308" "x3670BC" "x39275A" "x3927CD" "x392CBF" "x3E347B" "x3FF213" "x483E8A" "x48B422" "x4B17DB" "x52D2F1" "x52DE28" "x57538A" "x577F5A" "x59792F" "x5C1431" "x5CF8E8" "x5D05D1" "x5D63E2" "x602C66" "x612D4C" "x6153B9" "x62CD2D" "x6703FD" "x67FE84" "x6849B4" "x6A6A6A" "x6A8F99" "x6B643E" "x6D4AA5" "x6F83E3" "x7164EB" "x73148E" "x7C56A7" "x7C9D2C" "x7DD59E" "x7F4063" "x7F9405" "x831C37" "x85F7FB" "x8C1A14" "x8D801C" "x8F553A" "x905042" "x919129" "x91D56A" "x96B4F6" "x9721EB" "x9ADA02" "x9D07DD" "x9DA82C" "x9E71D4" "x9F5DFB" "xA01E46" "xA1E2EB" "xA68D7B" "xABDF84" "xADC7CF" "xAE038D" "xAFE705" "xB16711" "xB35046" "xB6C546" "xB87E55" "xB97CB3" "xBA71E6" "xBAACF1" "xBCA55C" "xBD3E24" "xBD4CC3" "xBF2C65" "xBF87AA" "xC7C953" "xC96779" "xCA14D8" "xCB8FBE" "xCC2ED1" "xD10FEC" "xD11D05" "xD2F9BB" "xD3E02B" "xD4C390" "xE0AEE7" "xE2EEB3" "xE35510" "xE3F393" "xE665B2" "xE7A7A0" "xEC3DB7" "xEC738A" "xEE6D5F" "xF0F89B" "xF48040" "xF504B3" "xF8A372" "xF8D55C" "xF98C57" "xFA8312" "xFAB0F8" }
+    impassable = { "x062126" "x07BEB5" "x0AEDE7" "x125F4D" "x15E299" "x18375A" "x193407" "x196F16" "x19E72F" "x1DBFB3" "x288902" "x28EC12" "x2A1C97" "x333DD5" "x365308" "x3670BC" "x3FF213" "x48B422" "x52D2F1" "x52DE28" "x59792F" "x5C1431" "x5CF8E8" "x5D63E2" "x602C66" "x6849B4" "x6A8F99" "x6F83E3" "x7164EB" "x73148E" "x7DD59E" "x7F4063" "x831C37" "x8C1A14" "x8F553A" "x9721EB" "x9ADA02" "x9DA82C" "x9F5DFB" "xA01E46" "xA1E2EB" "xA68D7B" "xABDF84" "xAFE705" "xB16711" "xB35046" "xB6C546" "xBD3E24" "xBD4CC3" "xBF87AA" "xC7C953" "xCC2ED1" "xD10FEC" "xD11D05" "xD3E02B" "xD4C390" "xE0AEE7" "xE2EEB3" "xE3F393" "xE7A7A0" "xEC3DB7" "xEE6D5F" "xF0F89B" "xF48040" "xF504B3" "xF8A372" "xF98C57" "xFA8312" }
     traits = {}
     city = "xE0AEE7"
     farm = "x59792F"
@@ -62,6 +64,7 @@ STATE_GNARLPINE_HOLD = {
     id = 2304
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x024A01" "x07688A" "x0C1683" "x0CFB30" "x0EFBA2" "x12DF58" "x150B2F" "x1AF58B" "x1B00F0" "x1B967E" "x1E26E1" "x1F3AE9" "x206C06" "x209FA6" "x20C17A" "x220552" "x22103F" "x257BAE" "x2B83B7" "x2C09FA" "x30BF2A" "x3489FE" "x360420" "x3949EC" "x3DB4D7" "x405DCA" "x40B2DE" "x43525A" "x4810FC" "x51626E" "x52F647" "x5701DA" "x576151" "x58273A" "x5944CF" "x5AB097" "x5C3A5B" "x5FED21" "x6023B2" "x6382DD" "x6BEC88" "x6BF8A0" "x6D2760" "x739402" "x762DCA" "x7721EC" "x787759" "x7B994C" "x7C2F94" "x7CC77F" "x7EA51A" "x7EBFD2" "x81EBF5" "x84B0F6" "x86526E" "x875118" "x881E54" "x8FF205" "x91F526" "x97314F" "x977569" "x989C23" "x9A0689" "x9BF19F" "xA500B0" "xA5AA6C" "xA7B36A" "xA8A9CA" "xAA1A65" "xB0C6FE" "xB5389F" "xBA43EF" "xBEF1F0" "xC127C3" "xC3567A" "xC5631B" "xC97635" "xCBFADF" "xCF080C" "xD334F3" "xD4E147" "xD9F480" "xDB87B7" "xDC03C9" "xE120CF" "xE13253" "xE6FFCA" "xE98306" "xEA2558" "xEB7797" "xEEA176" "xF38808" "xF49BDC" "xF4E6EE" "xF76975" "xF81433" "xF9970B" "xFDA67A" "xFE76E8" "xFFEF4A" }
+    impassable = { "x0C1683" "x0CFB30" "x0EFBA2" "x1B967E" "x1E26E1" "x1F3AE9" "x20C17A" "x220552" "x257BAE" "x2B83B7" "x3DB4D7" "x405DCA" "x40B2DE" "x43525A" "x52F647" "x5701DA" "x5944CF" "x6382DD" "x6BEC88" "x6BF8A0" "x7721EC" "x7B994C" "x7C2F94" "x7EBFD2" "x81EBF5" "x875118" "x8FF205" "x97314F" "x989C23" "x9A0689" "xA5AA6C" "xA7B36A" "xA8A9CA" "xB0C6FE" "xBA43EF" "xBEF1F0" "xCBFADF" "xD334F3" "xD9F480" "xDB87B7" "xDC03C9" "xE13253" "xE6FFCA" "xE98306" "xEA2558" "xEEA176" "xF38808" "xF49BDC" "xF76975" "xF81433" "xF9970B" "xFFEF4A" }
     traits = {}
     city = "x12DF58"
     farm = "x739402"
@@ -82,6 +85,7 @@ STATE_DARNASSUS = {
     id = 2305
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x08D187" "x0938B7" "x0B215E" "x134775" "x135EA4" "x175438" "x1FC5DB" "x1FF2FE" "x206858" "x20CCD9" "x2137C4" "x242DE2" "x253000" "x2B301E" "x31711B" "x339B2C" "x3B07FC" "x3B2981" "x3C10FA" "x3C131F" "x3C4807" "x3C7542" "x3F8861" "x4125BE" "x461F1E" "x4C6183" "x4CD34B" "x4DD511" "x4E223C" "x53399C" "x55B895" "x56AA1D" "x57DDA0" "x5993E2" "x5B4881" "x5C257E" "x5C9E7F" "x5D3DBE" "x614A0B" "x63D2B4" "x641A73" "x66DDBD" "x66E939" "x688A87" "x68E22B" "x6A8756" "x6BDCBC" "x6DB0BF" "x72651D" "x756618" "x762FBB" "x781474" "x7B73F1" "x7F179D" "x8E0FC3" "x8F7436" "x90EB0E" "x962817" "x964EE4" "x9709C3" "x98E7C3" "x991DD8" "x9BF3C8" "x9C1A90" "x9F05DF" "xA09BF8" "xA38174" "xA5C0D6" "xA6F50B" "xA7B1F4" "xAA1837" "xAD5ACC" "xB091B4" "xB71F67" "xB92E1C" "xC58963" "xC6746B" "xC74610" "xCF55DB" "xD0B6C2" "xD5BE4A" "xD68306" "xD84904" "xD997BA" "xDBD6A3" "xE2FC83" "xE47149" "xE4D2C0" "xE66133" "xEAAEB2" "xEC87AD" "xF4F758" "xF5FFDC" "xFB564A" }
+    impassable = { "x08D187" "x0938B7" "x135EA4" "x1FC5DB" "x206858" "x20CCD9" "x2137C4" "x253000" "x31711B" "x339B2C" "x3B07FC" "x3C10FA" "x3C131F" "x3C7542" "x4125BE" "x461F1E" "x4C6183" "x4E223C" "x57DDA0" "x5993E2" "x5C9E7F" "x66DDBD" "x66E939" "x762FBB" "x781474" "x7B73F1" "x90EB0E" "x962817" "x9709C3" "x98E7C3" "x991DD8" "x9BF3C8" "xA38174" "xA7B1F4" "xB091B4" "xB71F67" "xC6746B" "xD0B6C2" "xD84904" "xE47149" "xE66133" "xEC87AD" "xF5FFDC" }
     traits = {}
     city = "x962817"
     farm = "x3C7542"
@@ -477,7 +481,6 @@ STATE_TOWER_OF_ALTHALAXX = {
         bg_coal_mining = 15
         bg_iron_mining = 18
         bg_logging = 28
-        bg_fishing = 11
     }
 }
 
@@ -642,7 +645,6 @@ STATE_STARFALL_VILLAGE = {
         bg_iron_mining = 27
         bg_coal_mining = 14
         bg_logging = 45
-        bg_fishing = 11
     }
 }
 
@@ -661,7 +663,6 @@ STATE_TIMBERMAW_HOLD = {
         bg_iron_mining = 37
         bg_lead_mining = 12
         bg_logging = 53
-        bg_fishing = 11
     }
 }
 
@@ -679,7 +680,6 @@ STATE_MAZTHORIL = {
     capped_resources = {
         bg_gold_mining = 12
         bg_logging = 57
-        bg_fishing = 11
     }
 }
 
@@ -720,7 +720,6 @@ STATE_TALONBRANCH_GLADE = {
         bg_iron_mining = 12
         bg_lead_mining = 8
         bg_logging = 48
-        bg_fishing = 11
     }
 }
 
@@ -739,7 +738,6 @@ STATE_WHISPERWIND_GROVE = {
         bg_iron_mining = 17
         bg_sulfur_mining = 12
         bg_logging = 44
-        bg_fishing = 11
     }
 }
 
@@ -757,7 +755,6 @@ STATE_BLOODVENOM_POST = {
     capped_resources = {
         bg_sulfur_mining = 18
         bg_logging = 42
-        bg_fishing = 11
     }
 }
 
@@ -776,7 +773,6 @@ STATE_JAEDENAR = {
         bg_iron_mining = 12
         bg_coal_mining = 18
         bg_logging = 44
-        bg_fishing = 11
     }
 }
 
@@ -794,7 +790,6 @@ STATE_JADEFIRE_GLEN = {
     capped_resources = {
         bg_logging = 38
         bg_sulfur_mining = 17
-        bg_fishing = 11
     }
 }
 
@@ -813,7 +808,6 @@ STATE_EMERALD_SANCTUARY = {
         bg_iron_mining = 24
         bg_coal_mining = 22
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -832,7 +826,6 @@ STATE_NORDRASSIL = {
         bg_iron_mining = 12
         bg_coal_mining = 70
         bg_logging = 80
-        bg_fishing = 11
     }
 }
 
@@ -851,7 +844,6 @@ STATE_CIRCLE_OF_CINDERS = {
         bg_iron_mining = 20
         bg_coal_mining = 12
         bg_logging = 77
-        bg_fishing = 11
     }
 }
 
@@ -869,7 +861,6 @@ STATE_SHRINE_OF_GOLDRINN = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 72
-        bg_fishing = 11
     }
 }
 
@@ -886,7 +877,6 @@ STATE_GROVE_OF_AESSINA = {
     arable_resources = { "bg_rye_farms" "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 68
-        bg_fishing = 11
     }
 }
 
@@ -905,7 +895,6 @@ STATE_SHRINE_OF_AVIANA = {
         bg_iron_mining = 24
         bg_lead_mining = 15
         bg_logging = 60
-        bg_fishing = 11
     }
 }
 
@@ -926,7 +915,6 @@ STATE_SANCTUARY_OF_MALORNE = {
         bg_sulfur_mining = 27
         bg_coal_mining = 18
         bg_logging = 45
-        bg_fishing = 11
     }
 }
 
@@ -946,7 +934,6 @@ STATE_SULFURON_SPIRE = {
         bg_coal_mining = 25
         bg_sulfur_mining = 50
         bg_logging = 17
-        bg_fishing = 11
     }
 }
 
@@ -965,7 +952,6 @@ STATE_CRUCIBLE_OF_FLAME = {
         bg_coal_mining = 25
         bg_sulfur_mining = 45
         bg_logging = 25
-        bg_fishing = 11
     }
 }
 
@@ -985,7 +971,6 @@ STATE_SEAT_OF_THE_CHOOSEN = {
         bg_coal_mining = 25
         bg_sulfur_mining = 15
         bg_logging = 28
-        bg_fishing = 11
     }
 }
 
@@ -1146,7 +1131,6 @@ STATE_GALLYWIX_PLEASURE_PALACE = {
         bg_coal_mining = 33
         bg_lead_mining = 12
         bg_logging = 25
-        bg_fishing = 11
     }
 }
 
@@ -1164,7 +1148,6 @@ STATE_ROCKETWAY_EXCHANGE = {
     capped_resources = {
         bg_iron_mining = 12
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1222,7 +1205,6 @@ STATE_WARSONG_LUMBER_CAMP = {
         bg_iron_mining = 10
         bg_coal_mining = 10
         bg_logging = 51
-        bg_fishing = 11
     }
 }
 
@@ -1242,7 +1224,6 @@ STATE_DEMON_FALL_CANYON = {
         bg_coal_mining = 15
         bg_lead_mining = 18
         bg_logging = 26
-        bg_fishing = 11
     }
 }
 
@@ -1261,7 +1242,6 @@ STATE_SPLINTERTREE_POST = {
         bg_iron_mining = 17
         bg_lead_mining = 15
         bg_logging = 46
-        bg_fishing = 11
     }
 }
 
@@ -1279,7 +1259,6 @@ STATE_MORSHAN_RAMPART = {
     capped_resources = {
         bg_coal_mining = 15
         bg_logging = 25
-        bg_fishing = 11
     }
 }
 
@@ -1298,7 +1277,6 @@ STATE_MOONWELL_OF_CLEANSING = {
         bg_iron_mining = 15
         bg_coal_mining = 12
         bg_logging = 48
-        bg_fishing = 11
     }
 }
 
@@ -1316,7 +1294,6 @@ STATE_RAYNEWOOD_RETREAT = {
     capped_resources = {
         bg_iron_mining = 14
         bg_logging = 48
-        bg_fishing = 11
     }
 }
 
@@ -1335,7 +1312,6 @@ STATE_THUNDER_PEAK = {
         bg_iron_mining = 24
         bg_sulfur_mining = 27
         bg_logging = 38
-        bg_fishing = 11
     }
 }
 
@@ -1354,7 +1330,6 @@ STATE_SILVERWIND_REFUGE = {
         bg_iron_mining = 12
         bg_coal_mining = 18
         bg_logging = 48
-        bg_fishing = 11
     }
 }
 
@@ -1372,7 +1347,6 @@ STATE_ASTRANAAR = {
     capped_resources = {
         bg_lead_mining = 18
         bg_logging = 50
-        bg_fishing = 11
     }
 }
 
@@ -1391,7 +1365,6 @@ STATE_STARDUST_SPIRE = {
         bg_iron_mining = 18
         bg_coal_mining = 12
         bg_logging = 45
-        bg_fishing = 11
     }
 }
 
@@ -1408,7 +1381,6 @@ STATE_SHRINE_OF_AESSINA = {
     arable_resources = { "bg_wheat_farms" "bg_rice_farms" "bg_livestock_ranches" "bg_banana_plantations" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 55
-        bg_fishing = 11
     }
 }
 
@@ -1427,7 +1399,6 @@ STATE_MAESTRAS_POST = {
         bg_iron_mining = 34
         bg_lead_mining = 12
         bg_logging = 48
-        bg_fishing = 11
     }
 }
 

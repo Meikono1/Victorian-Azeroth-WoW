@@ -1,4 +1,4 @@
-banshee = {
+﻿banshee = {
 	color = rgb{ 64 29 128 }
 	religion = scourge
 	heritage = undead_heritage

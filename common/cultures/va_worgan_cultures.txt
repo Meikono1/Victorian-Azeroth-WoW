@@ -1,4 +1,4 @@
-alpha_pack = {
+﻿alpha_pack = {
 	color = rgb{ 169 47 84 }
 	religion = call_of_wild
 	heritage = worgen_heritage

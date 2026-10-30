@@ -48,3 +48,14 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-030](VA-030-vashjir-provinzen.md) | Vashj'ir – Provinzen neu zeichnen, Ressourcen | grafik | mittel | offen |
 | [VA-031](VA-031-rogue-provinzen.md) | Rogue-Provinzen im Süden entfernen | technik | mittel | offen |
 | [VA-032](VA-032-inseln-provinzen-unterteilen.md) | Zandalar, Kul Tiras, Verlorene Inseln, Draenor – Provinzen unterteilen | technik | mittel | offen |
+| [VA-033](VA-033-sued-ek-kartenbefunde.md) | Süd-EK – Hubs und State-History-Provinz bereinigen | bug | niedrig | offen |
+| [VA-034](VA-034-startevent-eventgruppen.md) | Startevent – Event-Übersicht und Zeitplan der Eventgruppen | content | mittel | offen |
+| [VA-035](VA-035-ebon-blade-scarlet-start.md) | Ebon Blade gegen Scarlet Crusade zum Spielstart | content | mittel | offen |
+| [VA-036](VA-036-allianz-markt.md) | Allianz – gemeinsamer Markt für Ironforge, Gnomeregan und Stormwind | technik | hoch | offen |
+| [VA-037](VA-037-ek-impassable-port.md) | Eastern Kingdoms – falsche impassable- und port-Einträge entfernen | bug | hoch | offen |
+| [VA-038](VA-038-kalimdor-sanierung.md) | Kalimdor von Grund auf sanieren (Provinzen und States) | technik | hoch | in Arbeit |
+| [VA-039](VA-039-states-aus-malkarte.md) | Werkzeug – States aus einer gemalten State-Karte erzeugen | technik | hoch | verworfen |
+| [VA-040](VA-040-weltmarkt-handel.md) | Weltmarkt – kein Land handelt | bug | hoch | offen |
+| [VA-041](VA-041-scarlet-empire.md) | Scarlet Crusade → Scarlet Empire | content | mittel | offen |
+| [VA-042](VA-042-portraits-kleidung-kartenfarben.md) | Charakter-Kleidung (Lumpen) und Kartenfarben der Regionen | grafik | mittel | in Arbeit |
+| [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | offen |

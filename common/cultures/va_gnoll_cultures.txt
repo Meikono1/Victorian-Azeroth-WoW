@@ -1,4 +1,4 @@
-bluepelt = {
+﻿bluepelt = {
 	color = rgb{ 95 200 180 }
 	religion = shamanism
 	heritage = gnoll_heritage

@@ -1,4 +1,4 @@
-crystalnymph = {
+﻿crystalnymph = {
 	color = rgb{ 67 145 176 }
 	religion = protestant
 	heritage = nymph_heritage

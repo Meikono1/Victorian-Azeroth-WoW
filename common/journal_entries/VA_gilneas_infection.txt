@@ -1,4 +1,4 @@
-je_infected_gilnean = {
+﻿je_infected_gilnean = {
 	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 
 	group = je_group_g

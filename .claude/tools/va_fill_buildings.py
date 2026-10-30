@@ -10,7 +10,9 @@ Maßstab: Vanilla-Frankreich 1836 (Kono: nicht zu viele Ressourcen am Start), St
 Je Gebäudeart bekommt die Region RATES × Pops Stufen. Vorhandene Stufen der ganzen Region werden angerechnet,
 also gibt es nur dort Neues, wo die Region insgesamt unter dem Maßstab liegt. Verteilt wird auf die States mit
 dem größten eigenen Rückstand. Grenzen: Farmen, Ranches, Plantagen zusammen höchstens arable_land; gedeckelte
-Ressourcen höchstens bis zum Deckel. Mehrere Besitzer teilen nach Pop-Anteil.
+Ressourcen höchstens bis zum Deckel. Mehrere Besitzer teilen nach Pop-Anteil mal Länderfaktor.
+Länder- und Kulturprofile (va_profiles.py) skalieren den Maßstab je State: mächtige Reiche bekommen mehr,
+Lore verschiebt die Gewichte (Zwerge Minen, Goblins Fisch und Handel).
 Nur Gebäude, deren Name sich mit 1.13 nicht ändert (gültig vor und nach VA-003). Besitz: Land.
 """
 import argparse
@@ -22,6 +24,7 @@ from pathlib import Path
 
 sys.dont_write_bytecode = True  # kein __pycache__ im Repo
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # -I nimmt das Skriptverzeichnis aus sys.path
+from va_profiles import country_factor, culture_factor, state_factor
 from va_region_overview import rows
 from va_script import REPO
 
@@ -39,9 +42,27 @@ RATES = {
 	"building_sulfur_mine": 0.12,
 	"building_lead_mine": 0.09,
 }
-ZWERGE_MINEN = 1.5  # Zwergen-States: Minen mal diesen Faktor
-ZWERGE = {"bronzebeard", "wildhammer", "dark_iron"}
 MIN_POPS = 100_000  # darunter Platzhalter-States, nichts setzen
+# Minen (Kohle, Eisen, Blei, Schwefel) brauchen shaft_mining, Häfen navigation (beide Ära 1). Vanilla-Tech-Stufe
+# 6 und 7 haben Ära 1 nicht (00_starting_inventions.txt). Sonst Fehler „must have invented …“ wie bei Deathholme.
+NEEDS_SHAFT_MINING = ("building_coal_mine", "building_iron_mine", "building_lead_mine", "building_sulfur_mine")
+
+
+def without_tech(tech="shaft_mining"):
+    """Länder ohne diese Ära-1-Tech laut common/history/countries (Stufe 6/7 oder gar keine, ohne eigene Freigabe)."""
+    tags = set()
+    for f in sorted((REPO / "common/history/countries").glob("*.txt")):
+        try:
+            text = f.read_text(encoding="utf-8-sig")
+        except (OSError, UnicodeDecodeError) as e:
+            log.error("%s nicht lesbar: %s", f, e)
+            continue
+        for m in re.finditer(r"c:(\w+)\s*\??=\s*\{", text):
+            body = text[m.end():block_end(text, m.end() - 1)]
+            tier = re.search(r"effect_starting_technology_tier_(\d)_tech", body)
+            if (not tier or int(tier.group(1)) >= 6) and tech not in body:
+                tags.add(m.group(1))
+    return tags
 
 GRAIN = ("building_wheat_farm", "building_rye_farm", "building_maize_farm", "building_millet_farm",
          "building_rice_farm")
@@ -51,6 +72,7 @@ PMS = {
     "building_rice_farm": '"pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"',
     "building_livestock_ranch": '"pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"',
     "building_fishing_wharf": '"pm_simple_fishing" "pm_unrefrigerated"',
+    "building_port": '"pm_basic_port"',
     "building_whaling_station": '"pm_simple_whaling" "pm_unrefrigerated"',
     "building_logging_camp": '"pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"',
     "mine": '"pm_picks_and_shovels_{b}" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"',
@@ -99,19 +121,6 @@ def building_name(res):
     return name
 
 
-def alloc(budget, want, room):
-    """budget Stufen nach Rückstand want verteilen, je State höchstens room. Liefert State → Stufen."""
-    out = Counter()
-    for _ in range(5):  # Rest neu verteilen, wenn States an ihre Grenze stoßen
-        left = budget - sum(out.values())
-        weights = {s: w for s, w in want.items() if w > 0 and room.get(s, 0) > out[s]}
-        if left <= 0 or not weights:
-            break
-        for s, v in split(left, weights).items():
-            out[s] += min(v, room[s] - out[s])
-    return +out
-
-
 def kinds(r):
     """Gebäudeart → konkretes Gebäude für diesen State (None, wenn die Ressource fehlt)."""
     arable_res = [building_name(a) for a in r["arable_res"]]
@@ -145,34 +154,65 @@ def room_of(r, kind, cap, arable_free):
     return max(0, cap.get(kind, 0) - lv[kind])
 
 
+def alloc_units(budget, want, room):
+    """budget Stufen einzeln an die (State, Land)-Einheit mit dem größten Rückstand want vergeben.
+
+    room ist je State gedeckelt und wird von allen Ländern im State geteilt. Einzeln statt per Rundung, damit
+    kleine Mitbesitzer nicht bei jedem State den Rest verlieren.
+    """
+    out, used = Counter(), Counter()
+    for _ in range(max(0, budget)):
+        options = [u for u in want if room.get(u[0], 0) > used[u[0]]]
+        if not options:
+            break
+        u = max(options, key=lambda u: (want[u] - out[u], want[u]))
+        out[u] += 1
+        used[u[0]] += 1
+    return +out
+
+
 def plan_region(data):
-    """State → Counter(Gebäude → zusätzliche Stufen)."""
+    """State → Land → Counter(Gebäude → zusätzliche Stufen).
+
+    Nur Länder mit create_state im State bekommen etwas (sonst schlägt das Gebäude beim Laden fehl).
+    """
     states = {r["state"]: r for r in data if r["pops"] >= MIN_POPS}
-    plans = {st: Counter() for st in states}
+    owners = {}
+    for st, r in states.items():
+        owners[st] = {tag: n for tag, n in r["owners"].items() if tag in r["created"]}
+        if not owners[st]:
+            log.warning("%s: kein Pop-Besitzer mit create_state, nichts gesetzt", st)
+    plans = {st: {tag: Counter() for tag in owners[st]} for st in states}
     caps = {st: {building_name(k): int(v) for k, v in r["capped"].items() if str(v).isdigit()} for st, r in states.items()}
     arable_free = {st: r["arable"] - sum(v for k, v in r["levels"].items() if k in AGRO or "plantation" in k)
                    for st, r in states.items()}
+    no_mines = without_tech("shaft_mining")
     for kind, rate in RATES.items():
         target, want, room = 0.0, {}, {}
         for st, r in states.items():
-            dwarf = kind.endswith("_mine") and any(c in ZWERGE for c in r["cultures"])
-            t = rate * (ZWERGE_MINEN if dwarf else 1) * r["pops"] / 1e6
-            target += t
-            want[st] = t - have_of(r, kind)
+            total = sum(owners[st].values())
+            for tag, n in owners[st].items():
+                if kind in NEEDS_SHAFT_MINING and tag in no_mines:
+                    continue
+                t = rate * country_factor(tag, kind) * culture_factor(r, kind) * n / 1e6
+                target += t
+                want[(st, tag)] = t - have_of(r, kind) * n / total  # vorhandene Stufen nach Pop-Anteil
             room[st] = room_of(r, kind, caps[st], arable_free[st])
         budget = round(target) - sum(have_of(r, kind) for r in states.values())
-        for st, n in alloc(budget, want, room).items():
-            r = states[st]
+        for (st, tag), n in alloc_units(budget, want, room).items():
+            r, plan = states[st], plans[st][tag]
             if kind in ARABLE_KINDS:
-                plans[st][kinds(r)[kind]] += n
+                plan[kinds(r)[kind]] += n
                 arable_free[st] -= n
             elif kind == "fish":
-                fish = min(n, max(0, caps[st].get("building_fishing_wharf", 0) - r["levels"]["building_fishing_wharf"]))
-                plans[st]["building_fishing_wharf"] += fish
-                plans[st]["building_whaling_station"] += n - fish
+                done = sum(p["building_fishing_wharf"] for p in plans[st].values())
+                free = max(0, caps[st].get("building_fishing_wharf", 0) - r["levels"]["building_fishing_wharf"] - done)
+                plan["building_fishing_wharf"] += min(n, free)
+                plan["building_whaling_station"] += n - min(n, free)
             else:
-                plans[st][kind] += n
-    return {st: +add for st, add in plans.items() if +add}
+                plan[kind] += n
+    return {st: {tag: +p for tag, p in by_tag.items() if +p} for st, by_tag in plans.items()
+            if any(+p for p in by_tag.values())}
 
 
 def entry(b, tag, levels):
@@ -262,9 +302,9 @@ def plan_trim(text, data, b, rate, offset=0):
     Gekürzt wird zuerst, wo ein State am weitesten über seinem Anteil liegt. Das letzte Gebäude dieses Typs
     eines Landes bleibt stehen.
     """
-    pops = {r["state"]: r["pops"] * (ZWERGE_MINEN if b.endswith("_mine") and any(c in ZWERGE for c in r["cultures"])
-                                     else 1)
-            for r in data if r["pops"] >= MIN_POPS}  # Zwergenfaktor wie beim Auffüllen, als gewichtete Pops
+    kind = "fish" if b == "building_fishing_wharf" else b
+    pops = {r["state"]: r["pops"] * state_factor(r, kind)
+            for r in data if r["pops"] >= MIN_POPS}  # Profilfaktor wie beim Auffüllen, als gewichtete Pops
     lv = {(s, t): n for s, t, n in entries_of(text, b) if s in pops}
     target = round(rate * sum(pops.values()) / 1e6) - offset
     steps = []
@@ -345,18 +385,24 @@ def main():
     if args.trim:
         return trim(target, data, args.trim, args.apply)
     total = Counter()
+    per_tag = Counter()
     plans = []
-    print("| State | Pops (Tsd.) | neu |\n|---|---|---|")
+    print("| State | Land | Pops (Tsd.) | neu |\n|---|---|---|---|")
     planned = plan_region(data)
     for r in sorted(data, key=lambda r: -r["pops"]):
-        add = planned.get(r["state"])
-        if not add:
-            continue
-        total += add
-        plans.append((r, add))
-        print(f"| {r['state']} | {r['pops'] / 1e3:,.0f} | "
-              f"{' '.join(f'{k.replace(chr(98) + 'uilding_', '')} +{v}' for k, v in add.most_common())} |")
+        for tag, add in planned.get(r["state"], {}).items():
+            total += add
+            per_tag[tag] += sum(add.values())
+            plans.append((r, tag, add))
+            print(f"| {r['state']} | {tag} | {r['owners'][tag] / 1e3:,.0f} | "
+                  f"{' '.join(f'{k.replace(chr(98) + 'uilding_', '')} +{v}' for k, v in add.most_common())} |")
     print(f"\nSumme neu: {sum(total.values())} Stufen: {dict(total.most_common())}")
+    pops = Counter()
+    for r in data:
+        pops.update(r["owners"])
+    print("\n| Land | Pops (Mio.) | neu | je Mio. |\n|---|---|---|---|")
+    for tag, n in pops.most_common():
+        print(f"| {tag} | {n / 1e6:.2f} | {per_tag[tag]} | {per_tag[tag] / (n / 1e6):.1f} |")
     if not args.apply:
         return 0
     try:
@@ -365,16 +411,10 @@ def main():
         log.error("%s nicht lesbar: %s", target, e)
         return 1
     bom = target.read_bytes().startswith(b"\xef\xbb\xbf")
-    for r, add in plans:
-        # nur Länder mit create_state, sonst schlägt das Gebäude beim Laden fehl
-        owners = {tag: n for tag, n in r["owners"].items() if tag in r["created"]}
-        if not owners:
-            log.warning("%s: kein Pop-Besitzer mit create_state, nichts gesetzt", r["state"])
-            continue
-        for b, lv in add.items():
-            for tag, n in split(lv, owners).items():
-                raised = raise_existing(text, r["state"], tag, b, n)
-                text = raised if raised is not None else insert(text, r["state"], tag, entry(b, tag, n))
+    for r, tag, add in plans:
+        for b, n in add.items():
+            raised = raise_existing(text, r["state"], tag, b, n)
+            text = raised if raised is not None else insert(text, r["state"], tag, entry(b, tag, n))
     try:
         target.write_text(("﻿" if bom else "") + text, encoding="utf-8", newline="")
         log.info("geschrieben: %s", target.relative_to(REPO))

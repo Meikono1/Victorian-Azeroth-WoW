@@ -13,7 +13,6 @@
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -32,7 +31,6 @@ STATE_SKYRANGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -51,7 +49,6 @@ STATE_NESINGWARY_SAFARI = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -70,7 +67,6 @@ STATE_STORMSTOUT_BREWERY = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -89,7 +85,6 @@ STATE_THE_HEARTLAND = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -108,7 +103,6 @@ STATE_POOLS_OF_PURITY = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -127,7 +121,6 @@ STATE_HALFHILL = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -146,7 +139,6 @@ STATE_IMPERIAL_GRANARY = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -165,7 +157,6 @@ STATE_SILKEN_FIELDS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -205,7 +196,6 @@ STATE_THUNDERFOOT_FARM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -266,7 +256,6 @@ STATE_SENTINAL_BASECAMP = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -369,7 +358,6 @@ STATE_RUINS_DOJAN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -409,7 +397,6 @@ STATE_THUNDER_CLEFT = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -575,7 +562,6 @@ STATE_TIAN_MONASTERY = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -594,7 +580,6 @@ STATE_THUNDERPAW_OVERLOOK = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -613,7 +598,6 @@ STATE_CAMP_NOOKA_NOOKA = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -632,7 +616,6 @@ STATE_TIGERS_WOOD = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -651,7 +634,6 @@ STATE_GROOKIN_HILL = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -670,7 +652,6 @@ STATE_DAWNS_BLOSSOM = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -710,7 +691,6 @@ STATE_GREENSTONE_VILLAGE = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -918,7 +898,6 @@ STATE_CELESTIAL_COURT = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1000,7 +979,6 @@ STATE_RED_STONE_RUN = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -1103,7 +1081,6 @@ STATE_TEMPLE_FIVE_DAWNS = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 

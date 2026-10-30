@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 	s:STATE_SWIFTGEAR_STATION = {
 		region_state:MENETHIL={
 			create_building={
@@ -69,6 +69,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLUEGILL_MORLOCS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_MENETHIL_KEEP = {
@@ -127,6 +138,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MENETHIL"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -438,6 +460,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:VERMILLON_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:GLOPGUT_CLAN={
 			create_building={
@@ -462,6 +495,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GLOPGUT_CLAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_MAW_OF_MADNESS = {
@@ -476,6 +520,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:THE_EARTHEN_RING_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 		region_state:TWILIGHTS_HAMMER={
@@ -522,6 +577,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TWILIGHTS_HAMMER"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -581,6 +647,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WILDHAMMER_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -713,6 +790,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DRAGONMAW_CLAN_AZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:AXEBITE_EXPEDITION={
 			create_building={
@@ -759,6 +847,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:AXEBITE_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:HIGHBANK_EXPEDITION={
 			create_building={
@@ -782,6 +881,30 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:HIGHBANK_EXPEDITION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+		region_state:BLACKSCALE_NAGA={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACKSCALE_NAGA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -1249,6 +1372,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:OBSIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 		region_state:VERMILLON_DRAGONFLIGHT={
@@ -1946,6 +2080,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GNOMEREGAN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_FROSTMANE_HOLD = {
@@ -2110,6 +2255,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:IRONFORGE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:GRIKNIR_FROSTMANE={
 			create_building={
@@ -2145,6 +2301,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GRIKNIR_FROSTMANE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_FIREWATCH_RIDGE = {
@@ -2159,6 +2326,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:THORIUM_BROTHERHOOD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -2538,6 +2716,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACKWING_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_DREADMAUL_ROCK = {
@@ -2868,6 +3057,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:VASHJ_IR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 	s:STATE_K_THREE = {	
 	}
 	s:STATE_FROSTHOLD = {	

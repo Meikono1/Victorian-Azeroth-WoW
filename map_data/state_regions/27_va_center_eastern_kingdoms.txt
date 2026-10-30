@@ -59,7 +59,6 @@ STATE_DUN_MODR = {
         bg_iron_mining = 22
         bg_coal_mining = 18
         bg_logging = 15
-        bg_fishing = 11
     }
 }
 
@@ -78,7 +77,6 @@ STATE_WHELGARS_RETREAT = {
     capped_resources = {
         bg_lead_mining = 17
         bg_logging = 18
-        bg_fishing = 11
     }
 }
 
@@ -97,7 +95,6 @@ STATE_GREENWARDENS_GROVE = {
     capped_resources = {
         bg_coal_mining = 36
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -117,7 +114,6 @@ STATE_DUN_ALGAZ = {
         bg_iron_mining = 27
         bg_coal_mining = 18
         bg_logging = 16
-        bg_fishing = 11
     }
 }
 
@@ -204,7 +200,6 @@ STATE_THUNDERMAR = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -265,7 +260,6 @@ STATE_CRUCIBLE_OF_CARNAGE = {
         bg_coal_mining = 5
         bg_sulfur_mining = 2
         bg_logging = 8
-        bg_fishing = 11
     }
 }
 
@@ -284,7 +278,6 @@ STATE_WYRMS_BEND = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 7
-        bg_fishing = 11
     }
 }
 
@@ -303,7 +296,6 @@ STATE_GRIM_BATOL = {
     capped_resources = {
         bg_iron_mining = 36
         bg_coal_mining = 28
-        bg_fishing = 11
     }
 }
 
@@ -321,7 +313,6 @@ STATE_VICTORS_POINT = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 16
-        bg_fishing = 11
     }
 }
 
@@ -342,7 +333,6 @@ STATE_BASTION_OF_TWILIGHT = {
         bg_coal_mining = 28
         bg_lead_mining = 18
         bg_logging = 3
-        bg_fishing = 11
     }
 }
 
@@ -361,7 +351,6 @@ STATE_MOGROSH_STRONGHOLD = {
     capped_resources = {
         bg_sulfur_mining = 12
         bg_logging = 6
-        bg_fishing = 11
     }
 }
 
@@ -378,7 +367,6 @@ STATE_DUNWALD_RUINS = {
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 15
-        bg_fishing = 11
     }
 }
 
@@ -419,7 +407,6 @@ STATE_FARSTRIDER_LODGE = {
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 20
-        bg_fishing = 11
     }
 }
 
@@ -437,7 +424,6 @@ STATE_STONEWROUGHT_DAM = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 14
-        bg_fishing = 11
     }
 }
 
@@ -457,7 +443,6 @@ STATE_VALLEY_OF_KINGS = {
         bg_iron_mining = 22
         bg_coal_mining = 17
         bg_logging = 18
-        bg_fishing = 11
     }
 }
 
@@ -477,7 +462,6 @@ STATE_THELSAMAR = {
         bg_iron_mining = 36
         bg_sulfur_mining = 7
         bg_logging = 18
-        bg_fishing = 11
     }
 }
 
@@ -496,7 +480,6 @@ STATE_NORTH_GATE_OUTPOST = {
     capped_resources = {
         bg_iron_mining = 25
         bg_logging = 7
-        bg_fishing = 11
     }
 }
 
@@ -516,7 +499,6 @@ STATE_GOL_BOLAR_QUARRY = {
         bg_iron_mining = 39
         bg_coal_mining = 43
         bg_logging = 10
-        bg_fishing = 11
     }
 }
 
@@ -534,7 +516,6 @@ STATE_AMBERSTILL_RANCH = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 24
-        bg_fishing = 11
     }
 }
 
@@ -553,7 +534,6 @@ STATE_KHARANOS = {
     capped_resources = {
         bg_iron_mining = 27
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 
@@ -574,7 +554,6 @@ STATE_SHIMMER_RIDGE = {
         bg_iron_mining = 18
         bg_lead_mining = 18
         bg_logging = 22
-        bg_fishing = 11
     }
 }
 
@@ -593,7 +572,6 @@ STATE_IRONFORGE = {
     capped_resources = {
         bg_iron_mining = 115
         bg_coal_mining = 75
-        bg_fishing = 11
     }
 }
 
@@ -633,7 +611,6 @@ STATE_FROSTMANE_HOLD = {
     capped_resources = {
         bg_lead_mining = 12
         bg_logging = 25
-        bg_fishing = 11
     }
 }
 
@@ -694,7 +671,6 @@ STATE_DUSTFIRE_VALLEY = {
     capped_resources = {
         bg_iron_mining = 12
         bg_logging = 2
-        bg_fishing = 11
     }
 }
 
@@ -715,7 +691,6 @@ STATE_THE_CAULDRON = {
         bg_coal_mining = 42
         bg_gold_mining = 22
         bg_sulfur_mining = 7
-        bg_fishing = 11
     }
 }
 
@@ -734,7 +709,6 @@ STATE_SEA_OF_CINDERS = {
     capped_resources = {
         bg_iron_mining = 25
         bg_lead_mining = 12
-        bg_fishing = 11
     }
 }
 
@@ -754,7 +728,6 @@ STATE_NEW_KARGATH = {
         bg_iron_mining = 22
         bg_coal_mining = 12
         bg_logging = 12
-        bg_fishing = 11
     }
 }
 
@@ -774,7 +747,6 @@ STATE_DRAGONS_MOUTH = {
         bg_iron_mining = 17
         bg_lead_mining = 12
         bg_logging = 13
-        bg_fishing = 11
     }
 }
 
@@ -793,7 +765,6 @@ STATE_ANGOR_FORTRESS = {
     capped_resources = {
         bg_iron_mining = 19
         bg_logging = 15
-        bg_fishing = 11
     }
 }
 
@@ -814,7 +785,6 @@ STATE_ULDAMAN = {
         bg_coal_mining = 12
         bg_iron_mining = 16
         bg_logging = 7
-        bg_fishing = 11
     }
 }
 
@@ -834,7 +804,6 @@ STATE_DUSTWIND_DIG = {
         bg_iron_mining = 8
         bg_lead_mining = 4
         bg_logging = 15
-        bg_fishing = 11
     }
 }
 
@@ -852,7 +821,6 @@ STATE_AGMONDS_END = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_opium_plantations" }
     capped_resources = {
         bg_logging = 17
-        bg_fishing = 11
     }
 }
 
@@ -893,7 +861,6 @@ STATE_DREADMAUL_ROCK = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 6
-        bg_fishing = 11
     }
 }
 
@@ -913,7 +880,6 @@ STATE_MORGANS_VIGIL = {
     capped_resources = {
         bg_sulfur_mining = 7
         bg_logging = 3
-        bg_fishing = 11
     }
 }
 
@@ -933,7 +899,6 @@ STATE_RUINS_OF_THAURISSAN = {
         bg_coal_mining = 12
         bg_iron_mining = 16
         bg_logging = 6
-        bg_fishing = 11
     }
 }
 
@@ -954,7 +919,6 @@ STATE_BLACKROCK_STRONGHOLD = {
         bg_lead_mining = 18
         bg_sulfur_mining = 7
         bg_logging = 10
-        bg_fishing = 11
     }
 }
 
@@ -975,7 +939,6 @@ STATE_BLACKROCK_MOUNTAIN = {
         bg_coal_mining = 88
         bg_sulfur_mining = 56
         bg_lead_mining = 18
-        bg_fishing = 11
     }
 }
 
@@ -996,7 +959,6 @@ STATE_FLAMESTAR_POST = {
         bg_iron_mining = 12
         bg_lead_mining = 15
         bg_logging = 8
-        bg_fishing = 11
     }
 }
 
@@ -1141,7 +1103,6 @@ STATE_BARADIN_HOLD = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
-        bg_fishing = 11
     }
 }
 

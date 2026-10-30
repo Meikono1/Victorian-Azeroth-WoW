@@ -1,4 +1,4 @@
-centaur = {
+﻿centaur = {
 	color = rgb{ 38 66 100 }
 	religion = centaur_elements
 	heritage = centaur_heritage

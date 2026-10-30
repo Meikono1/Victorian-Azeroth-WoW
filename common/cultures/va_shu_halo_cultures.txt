@@ -1,4 +1,4 @@
-taunka = {
+﻿taunka = {
 	color = rgb{ 167 176 99 }
 	religion = earth_mother
 	heritage = tauren_heritage

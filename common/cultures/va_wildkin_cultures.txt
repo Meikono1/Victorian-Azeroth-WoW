@@ -1,4 +1,4 @@
-moonkin = {
+﻿moonkin = {
 	color = rgb{ 72 201 177 }
 	religion = elune
 	heritage = wildkin_heritage

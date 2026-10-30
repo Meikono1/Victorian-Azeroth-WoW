@@ -1,4 +1,4 @@
-murloc_gorloc = {
+﻿murloc_gorloc = {
 	color = rgb{ 49 195 135 }
 	religion = kragwa_loa
 	heritage = murloc_heritage

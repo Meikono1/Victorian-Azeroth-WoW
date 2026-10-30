@@ -1,4 +1,4 @@
-harpy = {
+﻿harpy = {
 	color = rgb{ 224 168 138 }
 	religion = earth_mother
 	heritage = harpy_heritage

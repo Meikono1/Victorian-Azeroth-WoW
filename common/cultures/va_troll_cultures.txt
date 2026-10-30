@@ -1,4 +1,4 @@
-dire_troll = {
+﻿dire_troll = {
 	color = rgb{ 191 168 62 }
 	religion = amani_loa
 	heritage = troll_heritage

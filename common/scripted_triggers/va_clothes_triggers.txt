@@ -1,0 +1,44 @@
+﻿# Kleidung für Azeroth-Kulturen (VA-042). Vorbild: Vanilla european_clothes_trigger und
+# european_clothes_pop_trigger (common/scripted_triggers/00_clothes_triggers.txt).
+# Vanilla vergibt Kleidung nur an heritage_group_european usw.; die Mod-Kulturen haben eigene Gruppen
+# und fielen deshalb auf peasant_outfits (Lumpen) zurück. REPLACE: ersetzt nur diese zwei Trigger.
+# Die Erde-Sonderfälle (Japan, Albanien, Tscherkessen) entfallen, weil es diese Kulturen nicht gibt.
+# TODO: eigene Outfits je Volk statt europäischer Vorlagen (VA-042, VA-027).
+
+# Kulturen mit europäischer Kleidung (Scope: culture). Völker ohne Eintrag bleiben vorerst in Lumpen.
+va_european_look_culture_trigger = {
+	OR = {
+		has_discrimination_trait_group = heritage_group_european
+		# Allianz und Verwandte
+		has_discrimination_trait_group = heritage_group_human
+		has_discrimination_trait_group = heritage_group_dwarf
+		has_discrimination_trait_group = heritage_group_gnome
+		has_discrimination_trait_group = heritage_group_elfen
+		has_discrimination_trait_group = heritage_group_worgan
+		has_discrimination_trait_group = heritage_group_eredar
+		# Horde und Handelsvölker
+		has_discrimination_trait_group = heritage_group_undead
+		has_discrimination_trait_group = heritage_group_goblin
+		has_discrimination_trait_group = heritage_group_orc
+		has_discrimination_trait_group = heritage_group_troll
+		has_discrimination_trait_group = heritage_group_tauren
+	}
+}
+
+REPLACE:european_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			va_european_look_culture_trigger = yes
+		}
+	}
+}
+
+REPLACE:european_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			va_european_look_culture_trigger = yes
+		}
+	}
+}

@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 	s:STATE_SHADOWGLEN = {
 		region_state:DARNASSUS = {
 			create_building={
@@ -137,6 +137,17 @@ BUILDINGS = {
 				}
 				reserves=1
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLOODFEATHER_HARPY"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:DARNASSUS = {
 			create_building={
@@ -191,6 +202,17 @@ BUILDINGS = {
 					}
 				}
 				reserves=1
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GNARLPINE_FURBOLG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 		region_state:DARNASSUS = {
@@ -331,6 +353,17 @@ BUILDINGS = {
 	}
 	s:STATE_WYRMSCARE_ISLAND = {
 		region_state:VERIDIAN_DRAGONFLIGHT = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:VERIDIAN_DRAGONFLIGHT"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_AXXARIEN = {
@@ -349,6 +382,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACKSILT_MURLOC"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -430,6 +474,17 @@ BUILDINGS = {
 					}
 				}
 				reserves=1
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SUNHAWK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 		region_state:EXODAR = {
@@ -534,6 +589,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NAZZIVUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:BLACKSILT_MURLOC = {
 			create_building={
@@ -637,6 +703,17 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:STILLPINE_FURBOLG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:CRAZED_WILDLIFE = {
 			create_building={
@@ -664,6 +741,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:CRAZED_WILDLIFE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -709,6 +797,17 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_simple_fishing" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SILTFIN_MURLOC"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -901,6 +1000,17 @@ BUILDINGS = {
 	}
 	s:STATE_SILVERMYST_ISLE = {
 		region_state:INFECTED_WILDLIFE = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:INFECTED_WILDLIFE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_ODESYUS_LANDING = {
@@ -915,8 +1025,30 @@ BUILDINGS = {
 	}
 	s:STATE_NESTLEWOOD_HILLS = {
 		region_state:NESSTLEWOOD_OWLKIN = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:NESSTLEWOOD_OWLKIN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:SHADOW_RIDGE = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SHADOW_RIDGE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:EXODAR = {
 		}
@@ -927,8 +1059,30 @@ BUILDINGS = {
 	}
 	s:STATE_SHATTERSPEAR_WAR_CAMP = {
 		region_state:SHATTERSPEAR = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SHATTERSPEAR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:GREYMIST_MURLOC = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GREYMIST_MURLOC"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_TOWER_OF_ALTHALAXX = {
@@ -939,14 +1093,47 @@ BUILDINGS = {
 	}
 	s:STATE_RUINS_OF_AUBERDINE = {
 		region_state:DARKSCALE_NAGA = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DARKSCALE_NAGA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:DARNASSUS = {
 		}
 	}
 	s:STATE_AMETH_ARAN = {
 		region_state:BLACKWOOD_FURBOLG = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACKWOOD_FURBOLG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:TWILIGHT_HAMMER_DARKSHORE = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:TWILIGHT_HAMMER_DARKSHORE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_GROVE_OF_THE_ANCIENTS = {
@@ -965,6 +1152,17 @@ BUILDINGS = {
 	}
 	s:STATE_MOONGLADE = {
 		region_state:CENARION_CIRCLE = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:CENARION_CIRCLE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_FROSTSABER_ROCK = {
@@ -973,8 +1171,30 @@ BUILDINGS = {
 	}
 	s:STATE_EVERLOOK = {
 		region_state:WINTERFALL_FURBOLG = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WINTERFALL_FURBOLG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:EVERLOOK = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:EVERLOOK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_STARFALL_VILLAGE = {
@@ -993,6 +1213,17 @@ BUILDINGS = {
 	}
 	s:STATE_FROSTWHISPER_GORGE = {
 		region_state:WINTERFALL_WILD = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WINTERFALL_WILD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_TALONBRANCH_GLADE = {
@@ -1081,20 +1312,75 @@ BUILDINGS = {
 	}
 	s:STATE_TOWER_OF_ELDARA = {
 		region_state:BLACK_DRAGONFLIGHT_SABLE = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACK_DRAGONFLIGHT_SABLE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_RUINS_OF_NORDESSA = {
 		region_state:XYLEM_OUTPOST = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:XYLEM_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:LEGASH_CORRUPTION = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:LEGASH_CORRUPTION"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:DARNASSUS_OUTPOST = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DARNASSUS_OUTPOST"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_BLACKMAW_HOLD = {
 		region_state:XYLEM_OUTPOST = {
 		}
 		region_state:BLACKMAW_FURBOLGS = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:BLACKMAW_FURBOLGS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_BILGEWATER_HARBOR = {
@@ -1113,6 +1399,17 @@ BUILDINGS = {
 	}
 	s:STATE_RUINS_OF_ELDARATH = {
 		region_state:SPITELASH_NAGA = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SPITELASH_NAGA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_GALLYWIX_PLEASURE_PALACE = {
@@ -1129,6 +1426,17 @@ BUILDINGS = {
 	}
 	s:STATE_ORGRIMMAR = {
 		region_state:ORGRIMMAR = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:ORGRIMMAR"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_FOREST_SONG = {
@@ -1207,6 +1515,17 @@ BUILDINGS = {
 	}
 	s:STATE_BLACKFATHOM_DEEPS = {
 		region_state:WRATHTAIL_NAGA = {
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:WRATHTAIL_NAGA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 		region_state:TWILIGHT_HAMMER_DARKSHORE = {
 		}

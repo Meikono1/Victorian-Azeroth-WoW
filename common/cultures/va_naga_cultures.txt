@@ -1,4 +1,4 @@
-lestharian = {
+﻿lestharian = {
 	color = rgb{ 53 89 192 }
 	religion = illidary_rel
 	heritage = naga_heritage
