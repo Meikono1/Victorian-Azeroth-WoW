@@ -1,0 +1,16 @@
+﻿# Werte zu untoten Pops (VA-019). Vorbild: Vanilla script_values/building_values.txt (Summe per every_scope_state, divide = state_population).
+
+# State-Scope: Anteil untoter Pops an der Bevölkerung (0 bis 1). Liste der Kulturen: va_is_undead_culture_trigger.
+va_state_undead_share = {
+	value = 0
+	if = {
+		limit = { state_population > 0 }
+		every_scope_pop = {
+			limit = {
+				culture = { va_is_undead_culture_trigger = yes }
+			}
+			add = total_size
+		}
+		divide = state_population
+	}
+}

@@ -1,0 +1,19 @@
+﻿# Trigger zur Mana-Abhängigkeit (VA-019). Vorbild: market_capital.market/mg: in Vanilla journal_entries/00_corn_laws.txt.
+# Zentrale Liste der Mana-abhängigen Kulturen; neue Kultur nur hier eintragen.
+
+# Culture-Scope: Die Kultur ist von Mana abhängig.
+va_is_mana_dependent_culture_trigger = {
+	OR = {
+		this = cu:sin_dorei
+		this = cu:quel_dorei
+	}
+}
+
+# Country-Scope: Eine Hauptkultur des Landes ist von Mana abhängig.
+# custom_tooltip: der Kulturvergleich "this = cu:" hat in Vanilla keinen Tooltip-Text.
+va_country_mana_dependent_trigger = {
+	custom_tooltip = {
+		text = va_country_mana_dependent_trigger_tt
+		any_primary_culture = { va_is_mana_dependent_culture_trigger = yes }
+	}
+}

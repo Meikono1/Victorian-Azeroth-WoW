@@ -1,0 +1,26 @@
+﻿# Mana-Abhängigkeit der Blut- und Hochelfen, drei Stufen nach Mana-Preis im eigenen Markt (VA-019, Baustein 2).
+# Vorbild: Vanilla 101_modifiers.txt (country_weekly_innovation_mult), 00_code_static_modifiers.txt (building_throughput_add).
+# Vergabe: je_mana_hunger (journal_entries/va_mana.txt) über va_update_mana_dependency_effect, monatlich.
+
+# Preis höchstens Grundpreis (≤ 40)
+va_mana_abundance = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds # TODO: eigenes Mana-Icon (VA-027)
+	country_weekly_innovation_mult = 0.1
+	state_standard_of_living_add = 1
+}
+
+# Preis ab +25 % (≥ 50)
+va_mana_scarcity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds # TODO: eigenes Mana-Icon (VA-027)
+	state_standard_of_living_add = -1
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+}
+
+# Preis ab +70 % (≥ 68, Maximum ist +75 %), Richtung Wretched (VA-021)
+va_mana_withdrawal = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Mana-Icon (VA-027)
+	state_standard_of_living_add = -2
+	state_radicals_and_loyalists_from_sol_change_mult = 0.25
+	state_mortality_mult = 0.05
+	building_throughput_add = -0.1
+}

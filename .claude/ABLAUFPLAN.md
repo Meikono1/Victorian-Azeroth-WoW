@@ -4,7 +4,7 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runden 3, 7 und 8 sind durch, Runde 1 bis auf T-003 (Kono später, hängt an VA-037). Offen: Runde 5 (T-021, T-022), Runde 6 (T-024 bis T-030), neu Runde 9 (T-040, T-041, Mana-Obsession).
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runden 3, 7 und 8 sind durch, Runde 1 bis auf T-003 (Kono später, hängt an VA-037). Offen: Runde 5 (T-021, T-022), Runde 6 (T-024 bis T-030), Runde 9 (T-041, T-043, T-045, T-047, T-048: Mana-Angebot, Mana-Abhängigkeit).
 
 ## Offene Entscheidungen
 
@@ -32,6 +32,7 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 
 ## Erledigt
 
+- 2026-10-30: Quel'Thalas-Grundbausteine (VA-019, wartet auf Spieltest): Mana als Stimulans mit Obsession der Elfen, Start-Ley-Line-Tap auf Sunwell Plateau, Todesschneise an State-Regionen (Lebenden-Malus nur ohne untote Mehrheit, monatlich und bei Besitzwechsel), Dauer-JE `je_mana_hunger` mit drei Preisstufen. Neue Regel: Claude-Texte enden sichtbar mit „(AI WRITTEN)“. Ablauf `.claude/ablauf/silvermoon.md`. Test-Icon im Schiffsbau → VA-045.
 - 2026-10-30: KI stapelte Verwaltung und Bausektoren (VA-044): Start-Gebäude fehlten fast überall. Verwaltung für 93 EK-Länder (193 Stufen), Bausektor für 29 (45 Stufen), Werkzeug `va_add_gov_buildings.py`. Test T-039.
 - 2026-10-30: Weltmarkt (VA-040): kein Land hatte eine Handelszentrale, 1.13 handelt nur darüber. 46 Start-Zentralen (134 Stufen) in den EK-Hauptstädten, Werkzeug `va_add_trade_centers.py`. `va_add_ports.py` zählte Häfen je State statt je Land, dadurch neue Häfen für Booty Bay (Steamwheedle) und Hammerfall. Kalimdor folgt nach VA-038. Test T-037, T-038.
 - 2026-10-30: Editor-Stand aus `mod\warcraft` ins Repo geholt (Kalimdor-History, `23_va_north_kalimdor.txt`, `provinces.png`, Splines, Locators; VA-038). 70 Strategic Regions mit eigener Farbe statt Gelb, Kleidung über `va_clothes_triggers.txt` (VA-042). 8 leere `add_ownership` in Nord-EK-Gebäuden gefüllt, 70 Mod-Dateien mit BOM versehen, Rest aus dem Log → VA-043. Tests T-031 bis T-033.

@@ -1,265 +1,2262 @@
-# Testprotokoll
-
-Jede Änderung, die Claude macht, bekommt hier einen Testfall. Kono testet im Spiel und hakt ab. Ein Ticket gilt erst als `erledigt`, wenn alle seine Testfälle **OK** sind.
-
-**Ablauf je Testrunde**
-0. Claude: `va_lint.py` meldet 0 neue Fehler (Voraussetzung für die Freigabe).
-1. Repo-Stand in den Mod-Ordner `mod\warcraft` kopieren.
-2. Victoria 3 starten, Kampagne mit dem Mod laden, Tests unten durchgehen.
-3. Spiel beenden und Claude Bescheid geben. Claude wertet `error.log` aus (Testfall „Log“ der Runde) und trägt das Ergebnis ein.
-4. Ergebnis je Test eintragen: `[x] OK` oder `[x] Fehler` plus kurze Notiz (was stattdessen passiert ist, Screenshot-Name).
-
-Einmal **OK** bestätigte Tests bleiben stehen (Historie). Bei einem Fehler legt Claude ein Ticket an oder öffnet das zugehörige wieder.
-
----
-
-## Runde 1 – Nord-EK, Quel'Danas, Zul'Jarra, Mana (Stand 2026-10-30)
-
-Tickets: VA-015, VA-006, VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Silvermoon** spielen.
-
-### T-001 Kampagne lädt
-- **Schritte:** Neue Kampagne starten (Land egal), bis die Karte steht. 2–3 Monate laufen lassen.
-- **Erwartet:** Kein Absturz, kein Einfrieren.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 einige Monate gelaufen, „sieht ganz okay aus“. Folgearbeit Pops/Gebäude/Startwerte → VA-024.
-
-### T-002 error.log (Claude)
-- **Schritte:** Nach T-001 Spiel beenden, Claude Bescheid geben. Claude prüft mit `python -I .claude/tools/va_errlog.py --filter …` auf: `26_va_north_eastern_kingdoms`, `VA_eastern_kingdoms_states`, `va_north_eastern_kingdoms`, `VA_eastern_kingdom.txt`, `va_eastern_kingdom_countries`, `va_goods`, `va_mana`, `va_building_groups`, `leyline`, `mana`, `va_countries_l_english`. Außerdem `python -I .claude/tools/va_check_states.py 26`.
-- **Erwartet:** Keine Fehler aus diesen Dateien. Die Hub-Fehler für Gilneas City, The Headlands, Seradane, Scholomance, Northgate Woods und Tyr's Hand sind weg.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 (Runde 3, vollständiges Log): keine Fehler aus den Prüfdateien außer fehlendem BOM (bekannte Altlast, VA-023), keine Hub-Fehler mehr. Erster Versuch: nur teilweise auswertbar. Log-Spam aus Vanilla-Scripts (reale Regionen, ~13.000 Einträge in 8 s) hat die Ladefehler wegrotiert (→ VA-025). Im erhaltenen Teil keine Fehler aus den Prüfdateien; einziger Mod-Bezug: doppeltes `building_company_basic_fishing` in Archerus (→ VA-024). `va_check_states.py 26`: Hubs nur noch bei STATE_TEST (VA-018). Wiederholen nach VA-025.
-
-### T-003 Stadt- und Hafenmarker sitzen sinnvoll
-- **Schritte:** Auf der Karte heranzoomen bei Gilneas City, The Headlands, Scholomance, Northgate Woods (Hafen) und Seradane.
-- **Erwartet:** Stadt, Farm, Mine, Holz und Hafen stehen jeweils im eigenen State, nicht im Wasser oder Gebirge. Northgate Woods hat einen Hafen an der Küste.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: noch grafische Fehler, wird später genauer angesehen. Hängt mit fehlenden impassable-Bergprovinzen zusammen (VA-037). Offen.
-
-### T-004 Seradane und Scholomance
-- **Schritte:** Kartenmodus „States“ bzw. Mausover auf die Region zwischen Scholomance und Seradane (Hinterland).
-- **Erwartet:** Seradane umfasst das Gebiet des Emerald-Entrance-Landes und der Revantusk. Scholomance (Cult of the Damned) ist kleiner und **keine** Küstenregion mehr.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Scholomance ist keine Küste mehr.
-
-### T-005 West Sanctum geteilt
-- **Schritte:** State West Sanctum anklicken.
-- **Erwartet:** Zwei Teilstaaten, Silvermoon und Grimscale-Murlocs. Keine Provinz flackert oder gehört beiden.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: geteilt in Elfen und Murlocs.
-
-### T-006 Quel'Danas gehört Silvermoon
-- **Schritte:** Sun's Reach, Magisters' Terrace und Sunwell Plateau anklicken.
-- **Erwartet:** Besitzer Silvermoon, Bevölkerung Sin'dorei. Magisters' Terrace zeigt Gebirge/unpassierbare Provinzen, Sun's Reach nicht.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: stimmt. Bevölkerung noch Platzhalter (je 10.000 Sin'dorei in Sun's Reach, Magisters' Terrace, Sunwell Plateau) → VA-024.
-
-### T-007 Hauptstädte
-- **Schritte:** Länderansicht bzw. Karte für die vier Länder öffnen.
-- **Erwartet:** Wildhammer → Aerie Peak, Wretched → Ruins of Silvermoon, Frostwolf Highlands → Tarren Mill, Shadowpine → Dawnstar Spire. Keine Hauptstadt liegt außerhalb des eigenen Gebiets.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
-
-### T-008 Tranquillien
-- **Schritte:** Tranquillien in der Länderauswahl bzw. Länderansicht öffnen, Reiter „Politik/Gesetze“.
-- **Erwartet:** Gesetze wie bei Silvermoon gesetzt (u. a. Protektionismus, Pachtbauern, Sklaverei verboten), keine leeren oder ungültigen Gesetze.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
-
-### T-009 Zul'Jarra
-- **Schritte:** Zul'Aman auf der Karte anklicken.
-- **Erwartet:** Das Land heißt „Zul'Jarra“ (Adjektiv „Zul'Jarran“), kein roher Key `AMANI_TRIBE`.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
-
-### T-010 Ressourcen im neuen Format
-- **Schritte:** State Sunwell Plateau, Silvermoon City und Koroth Den öffnen, Bereich „Ressourcen/Potenziale“.
-- **Erwartet:** Ressourcen werden angezeigt (z. B. Eisen, Kohle, Holz, Fischerei, Farmen). Sunwell Plateau zeigt „Ley Line Tap“ mit 40, Silvermoon City mit 20.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono. Gebäudebild noch Kohlemine (Platzhalter, in VA-027 gelistet).
-
-### T-011 Leylinien-Gebäude baubar
-- **Schritte:** Als Silvermoon in Silvermoon City „Ley Line Tap“ bauen. Nach Fertigstellung das Gebäude öffnen.
-- **Erwartet:** Baubar ohne Technologie. Produktionsmethode „Focus Crystals“, Verbrauch Werkzeug, Produktion Mana, Arbeiter und Akademiker als Belegschaft. Texte ohne rohe Keys. Icons sind Platzhalter (Kohlemine/Strom), das ist gewollt.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: baubar, produziert Mana. Mana noch mit Strom-Icon (Platzhalter, VA-027).
-
-### T-012 Mana am Markt
-- **Schritte:** Marktansicht von Silvermoon öffnen, Gut „Mana“ suchen.
-- **Erwartet:** Gut „Mana“ ist vorhanden, Angebot steigt nach T-011. Preis am Minimum ist **erwartet**, denn es gibt noch keine Abnehmer (VA-019).
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
-
----
-
-## Runde 2 – Log-Spam (Stand 2026-10-30)
-
-Tickets: VA-025. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Danach T-002 aus Runde 1 wiederholen.
-
-### T-013 Log bleibt lesbar
-- **Schritte:** Kampagne starten, auf höchster Geschwindigkeit etwa 2–3 Monate laufen lassen, Spiel beenden.
-- **Erwartet:** Im Log-Ordner gibt es nur `error.log` oder wenige Rotationsdateien, und `error.log` beginnt mit den Ladefehlern vom Spielstart (nicht mit `Script system error!` aus dem laufenden Spiel).
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30 ein Jahr gelaufen, kein Absturz. Log rotiert weiter, jetzt durch `is_oppressor_of_schleswig_holstein` (11.071 Einträge in ~10 s). Behoben mit `va_earth_triggers.txt` → T-015.
-
-### T-014 error.log (Claude)
-- **Schritte:** Nach T-013 Claude Bescheid geben. Claude prüft mit `va_errlog.py`: keine Einträge mehr aus `00_scripted_triggers.txt:357–393` (`in_volcanic_zone`), `00_ai_triggers.txt:619–634` (`should_carve_up_china`), `has_law_or_variant`-Fehlern und `historic_agitator_events.txt`. Danach T-002 (Runde 1) mit dem vollständigen Log auswerten.
-- **Erwartet:** Diese Fehlergruppen sind weg; die restlichen Fehler werden als neue Tickets erfasst.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 alle vier Gruppen (Vulkan, China, has_law_or_variant, Agitatoren) sind weg. Rest: Fortschrittsbalken (72+), Power-Bloc-Namen `00_power_bloc_names.txt:577` (19), Petitions-Events (9), Archerus-Fischerei (7).
-
-### T-015 Log bleibt lesbar (zweiter Anlauf) – entfällt, geht in Runde 3 auf
-- **Schritte:** Wie T-013: Kampagne starten, ein paar Monate auf höchster Geschwindigkeit laufen lassen, Spiel beenden, Claude Bescheid geben. Neu seit T-013: `common/scripted_triggers/va_earth_triggers.txt` (17 Erde-Trigger auf „nie wahr“).
-- **Erwartet:** Höchstens eine `error.log` ohne Rotationsdateien, beginnt mit den Ladefehlern. Keine Einträge aus `00_scripted_triggers.txt:1727` (Schleswig-Holstein). Danach wertet Claude T-002 vollständig aus.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
----
-
-## Runde 3 – events aus replace_paths (Stand 2026-10-30)
-
-Tickets: VA-002, VA-025. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Alte Kopien sind bereinigt (`va_events.py --apply-copies`, 2026-10-30). Runde 3 ersetzt T-015.
-
-### T-016 Kampagne lädt und läuft
-- **Schritte:** Repo in `mod\warcraft` kopieren (alte Dateien dort vorher löschen, sonst bleiben die gelöschten Kopien liegen). Kampagne als Silvermoon starten, 1 Jahr laufen lassen.
-- **Erwartet:** Kein Absturz. Es tauchen allgemeine Events auf (Wahlen, Gesetzesdebatten, Petitionen o. Ä.), aber keine Erde-Events (Brasilien, Japan, Balkan …).
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 ein Jahr bis 1. Januar gelaufen. Gesehen: „Request Market Control“ (13. Januar, Diplomatie-Aktion) und „Secret Societies“ (5. April, `autocracy.2` aus Vanilla 1.13). Beides allgemeine Mechaniken, keine Erde-Events.
-
-### T-017 error.log (Claude)
-- **Schritte:** Nach T-016 Claude Bescheid geben.
-- **Erwartet:** Log rotiert nicht oder kaum, die Ladefehler vom Start sind lesbar. Claude wertet T-002 vollständig aus und legt für verbleibende Fehlergruppen Tickets an. Einmalige „unbekanntes Event“-Fehler aus `common/on_actions/00_*.txt` sind erwartet (VA-003).
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 Log vollständig lesbar: Start 11:08:40 bis Ende 11:12:02, nur zwei Rotationen während des Ladens, im laufenden Spiel kein Spam mehr (`error.log` 487 KB über drei Minuten). Schleswig-Holstein nur noch 3× (REPLACE wirkt). T-002 damit ausgewertet. Restliche Fehlergruppen → VA-001 (Notizen) und VA-026.
-
----
-
-## Runde 4 – allgemeine Events und JEs zurück (Stand 2026-10-30)
-
-Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann zusammen mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher neu befüllen; die zwei Dateien unten dürfen dort **nicht** mehr liegen.
-
-### T-018 error.log: Sklavenaufstand und Anarchismus (Claude)
-- **Schritte:** Kampagne starten, ein paar Monate laufen lassen, Spiel beenden, Claude Bescheid geben. Wieder aktiv aus Vanilla: `events/agitators_events/slave_revolt_events.txt`, `events/iberia_events/ip4_anarchism_events.txt`.
-- **Erwartet:** Keine Fehler aus diesen beiden Dateien im `error.log`. Ob die Events im Spiel auftauchen, ist Zufall und kein Testkriterium.
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30 (ein Jahr gelaufen, kein Absturz): `slave_revolt_events.txt` fehlerfrei. `ip4_anarchism_events.txt:379` 1× `building_art_academy` unbekannt. Ursache liegt nicht in der Eventdatei: Die alten Mod-Kopien unter `common/buildings/` kennen die 1.13-Gebäude nicht → VA-003. Event-Datei bleibt aktiv.
-
-### T-019 Journal: allgemeine JEs da, keine Erde-JEs
-- **Schritte:** `mod\warcraft` **vorher leeren** und neu befüllen (viele Dateien gelöscht). Kampagne als Silvermoon starten, Journal öffnen (aktive und mögliche Einträge). Ein Jahr laufen lassen, Journal erneut ansehen.
-- **Erwartet:** Allgemeine Einträge wie Kunstrichtungen (Romantik), Prestigegüter, Lebensstandard oder Interessengruppen-Agenden können auftauchen. Keine Einträge mit Erde-Bezug (Japan, Brasilien, Indien, Afrika, Expeditionen). Petitionen der Interessengruppen zeigen ihre Buttons („Verlängerung“, „Abweisen“) mit Text.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Silvermoon nach einem Jahr, Reiter „Potential“: Poverty Crisis, Religion/Autocracy/Nationality, Corn Laws, Path to Liberalism, Patronize Romanticism, Patronize Realist Art, From Farms to Factories, Urbanize. Alles allgemein, kein Erde-Eintrag. „Urbanize SILVERMOON“ zeigt den rohen Tag statt des Ländernamens → bekannt, VA-006. Petitions-Buttons nicht gesehen (keine Petition aktiv), bei Gelegenheit nachholen.
-
-### T-020 error.log: JEs und Buttons (Claude)
-- **Schritte:** Nach T-019 Claude Bescheid geben.
-- **Erwartet:** Keine Fehler `Invalid journal entry type` mehr für `je_government_petition`, `je_law_imposition` und `je_divided_monarchists` aus Coup-Events. Die 26 Fehler „can only be used for country context“ aus `government_petition_events.txt` sind weg. Keine Ladefehler aus `common/journal_entries/0*.txt` oder `common/scripted_buttons/0*.txt`. Übrig bleiben dürfen Great-Game-Ziele (bekannt, VA-002 Notizen) und Gilneas (VA-007).
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, 9.922 Einträge. **Behoben:** `je_government_petition` und `je_law_imposition` sind nicht mehr ungültig, „country context“ 0× (vorher 26×). **Erwartet geblieben:** Great-Game-Ziele, Gilneas. **Fehler:** (1) `has_journal_entry` auf abgeschaltete JEs erzeugt doch Ladefehler (712×, z. B. `je_divided_monarchists` in Vanilla-Gesetzen, -Ideologien und `government_conflicts_events.txt`); Annahme in VA-002 war falsch → Notiz dort. (2) Aus Vanilla-JEs: fehlende 1.13-Gebäude (`building_art_academy`, `building_steel_mill`, `building_barrack` in `coup_events.txt`) und fehlender Effekt `rebind_prestige_good_company` (`05_prestige_goods.txt`) – beides durch alte Mod-Kopien (`common/buildings/0*.txt`, `common/scripted_effects/00_scripted_effects.txt`) → VA-003. (3) Eigene JEs `VA_silvermoon.txt` und `VA_gilneas_infection.txt`: kein BOM, `should_be_pinned_by_default` gibt es in 1.13 nicht mehr, Gilneas zusätzlich `je_group_g` ungültig → VA-020 bzw. VA-007. (4) `events/scotland_yard.txt:16` fragt `STATE_HOME_COUNTIES` ohne `s:` ab; `va_events.py` erkennt solche Verweise nicht → VA-002.
-
----
-
-## Runde 5 – Firmen und Charaktervorlagen aus replace_paths (Stand 2026-10-30)
-
-Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher **leeren** und neu befüllen: `common/character_templates/default_template.txt` ist gelöscht und darf dort nicht mehr liegen (sonst gibt es `default` doppelt).
-
-### T-021 Charaktere: Lebensdauer und Religion
-- **Schritte:** Kampagne als Silvermoon starten. Herrscher, Erben und zwei Interessengruppen-Anführer ansehen (Eigenschaften, Religion). Ein Jahr laufen lassen, einen neu erschienenen Charakter (Agitator, General oder neuer IG-Anführer) ansehen.
-- **Erwartet:** Elfen tragen die Eigenschaft für 50.000 Jahre Lebensdauer, neue Charaktere ebenso. Charaktere der Hauptkultur haben die Staatsreligion. Keine Charaktere mit Erde-Namen oder Erde-Kulturen.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-022 Firmen: nur Basisfirmen
-- **Schritte:** In derselben Kampagne den Reiter Firmen öffnen (mögliche Firmen).
-- **Erwartet:** Nur allgemeine Basisfirmen (Fischerei, Holz, Textil …), keine historischen Firmen (Fiat, Suez, Škoda …).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-023 error.log: Firmen und Charaktervorlagen (Claude)
-- **Schritte:** Nach T-021/T-022 Claude Bescheid geben.
-- **Erwartet:** Keine Fehler aus `common/character_templates/` (insbesondere kein doppeltes `default`), keine aus `common/company_types/` außer bekannten Gebäudenamen aus den alten Gebäudekopien (VA-003). Vanilla-Vorlagen für Kolonialgouverneure (`colonial_governor_templates.txt`) laden ohne Fehler.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, 7 Jahre gelaufen, Log ab Ladebeginn vollständig (14.051 Einträge). Keine Fehler aus `common/character_templates/`, kein doppeltes `default`. `99_basic_companies.txt` 27× `is_building_type` (erwartet: Vanilla-Datei lädt, alte Kopie noch nicht zurückgeholt, VA-003). Bekannt und unverändert: `has_template` auf Erde-Vorlagen aus Vanilla-Scripts (~450, waren vorher schon fehlende Vorlagen) und `is_company_type` in `00_company_charter_types.txt`. Beim Lauf aufgefallen: weltweite Hungersnot → VA-029.
-
----
-
-## Runde 7 – Neue History-Ordner abgefangen (Stand 2026-10-30)
-
-Tickets: VA-004. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und 6 laufen. `mod\warcraft` neu befüllen (inkl. `.metadata/metadata.json`).
-
-### T-034 History-Ordner ohne Erde-Inhalte (VA-004)
-- **Schritte:** Kampagne starten. Bei Stormwind und Silvermoon im Politik-Fenster die politischen Bewegungen ansehen. Im Kulturfenster (z. B. Kultur von Stormwind) den Fervor ansehen.
-- **Erwartet:** Länder haben Start-Bewegungen (Royalisten, religiöse und kulturelle Mehrheit, ggf. Pro-Sklaverei). Kulturen haben Fervor ≥ 5. `error.log` ohne Zeilen aus `common/history/military_deployments/`, `common/history/diplomatic_plays/`, `common/history/governments/`, `common/history/cultures/00_cultures.txt`, `common/history/political_movements/00_movements.txt` und ohne neue Zeilen aus `va_movements.txt`, `va_cultures.txt`, `va_ai_strategy.txt` (Claude). Zeilen aus `history/conscription/` bleiben bis VA-003.
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Bewegungen vorhanden. Fervor Blood Elf startet bei **0** (Ziel 7), `va_cultures.txt` greift also nicht → T-035. Log 18:21 (4 Dateien, 19.584 Zeilen, ab Ladebeginn): keine Zeilen mehr aus `military_deployments`, `diplomatic_plays`, `military_formations`, `governments`, `cultures`, `political_movements`, `ai`; nichts aus den neuen `va_`-Dateien. Übrig nur 2× `is_building_type` in `conscription/00_conscription_center.txt` (erwartet, VA-003).
-
-### T-035 Start-Fervor (VA-004)
-- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Kampagne starten (neu, kein Spielstand), im ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
-- **Erwartet:** Blood Elf 10 (Kontrollwert), Stormwindian und Bronzebeard 5. Auswertung: Blood Elf 10 und Rest 0 → Schleife über `every_country` greift nicht, Claude stellt auf Direktwerte je Kultur um. Alles 0 → Fervor-History wirkt gar nicht (zu früh/überschrieben). `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Blood Elf 10, Stormwindian 0, Bronzebeard 0 → nur Direktaufruf `cu:` wirkt, Schleife nicht. Log 18:27 ohne Zeilen aus `history/cultures`. Umgestellt auf Direktwerte → T-036.
-
-### T-036 Start-Fervor je Kultur (VA-004)
-- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Neue Kampagne starten, am ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
-- **Erwartet:** Alle drei bei 5. `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: alle drei bei 5. Log 18:47 ohne Zeilen aus `history/cultures`.
-
-## Runde 6 – Nord- und Mittel-EK: Start-Gebäude aufgefüllt (Stand 2026-10-30)
-
-Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und den offenen Tests aus Runde 1 laufen. `mod\warcraft` neu befüllen.
-
-### T-024 Nord-EK: Nahrung und Bevölkerung
-- **Schritte:** Kampagne als Silvermoon starten. Undercity, Gilneas, Stratholme (Plaguelands) und Aerie Peak im Staatenfenster ansehen: Farmen, Ranches, Fischerei, Holz, Minen vorhanden? Markt von Silvermoon und Undercity ansehen (Getreide, Fleisch, Fisch). 5 Jahre laufen lassen, Bevölkerungsgrafik von Silvermoon, Undercity und Gilneas ansehen.
-- **Erwartet:** Nord-EK-Staaten haben Nahrungs- und Rohstoffgebäude, Eisenminen nur wenige (14 Stufen in der Region). Nahrungsengpässe auf den Märkten deutlich kleiner als vorher (Getreide vorher −882 in Silvermoon). Bevölkerung in Nord-EK schrumpft nicht mehr dauerhaft (leichtes Auf und Ab ist normal). Andere Regionen hungern weiter, das ist erwartet (VA-029, nächste Regionen).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-026 Mittel-EK: Nahrung und Bevölkerung
-- **Schritte:** In derselben Kampagne Ironforge, Gnomeregan, Grim Batol und Menethil (Sumpfland) im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Ironforge ansehen (vorher 10,7 → 4,59 Mio. in 7 Jahren).
-- **Erwartet:** Mittel-EK-Staaten haben Farmen, Ranches, Holzfäller und Minen. Ironforge schrumpft nicht mehr dauerhaft. Vashj'ir hat bewusst noch Platzhalter-Gebäude (Roggen, Holz), siehe VA-029.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-025 error.log: Gebäude Nord- und Mittel-EK (Claude)
-- **Schritte:** Nach T-024 und T-026 Claude Bescheid geben.
-- **Erwartet:** Keine neuen Fehler aus `common/history/buildings/26_north_eastern_kingdoms.txt` und `27_center_eastern_kingdoms.txt`, kein „Tried to create building … already exists“ außer dem bekannten Archerus-Fischkai (VA-024). Kein „must have invented Shaft Mining“ mehr bei Deathholme (Zeile 1147/1158 im Log vom 30.10., behoben). Keine ungültigen Produktionsmethoden.
-- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: Log 30.10. 14:23 (Stand mit Süd-EK): einziger Fehler Deathholme-Minen (26:1147/1158), behoben. Sonst nichts aus `history/buildings` oder `state_regions`, auch kein „already exists“. Nächster Lauf bestätigt den Fix.
-
-### T-027 Fischerei-Platzhalter im Binnenland entfernt (VA-029)
-- **Schritte:** Kampagne starten. Ironforge (Binnenland) und Stormwind (Küste) im Staatenfenster öffnen, unter Ressourcen nachsehen.
-- **Erwartet:** Ironforge hat keine Fischerei mehr als Ressource, Stormwind schon. Fenris Isle und Scholomance (Lordamere-See) haben weiter Fischerei. `error.log` ohne neue Zeilen aus `map_data/state_regions/` (Claude prüft mit T-025).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-028 Süd-EK: Nahrung und Länderprofile (VA-029)
-- **Schritte:** In derselben Kampagne Stormwind, Booty Bay, Zul'Gurub und Redridge Canyons im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Stormwind und Booty Bay ansehen.
-- **Erwartet:** Stormwind deutlich besser ausgebaut (Farmen, Holz, Ranches) als Gnoll- und Orkgebiete. Booty Bay mit Fischerei und Kaffee. Stormwind schrumpft nicht mehr dauerhaft. `error.log` ohne neue Fehler aus `common/history/buildings/28_south_eastern_kingdoms.txt` (Claude prüft mit T-025).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-029 Häfen und Ackerland (VA-029)
-- **Schritte:** Kampagne starten. Stormwind, Ironforge (Coldridge Valley), Gnomeregan, Deadmines, Orgrimmar im Staatenfenster öffnen. Zul'Aman, Deathknell, The Bulwark, Aerie Peak ansehen. Nach 2 Jahren Food Security in Nord-EK erneut ansehen.
-- **Erwartet:** Genannte States haben einen Hafen, die Länder haben Weltmarkt-Zugang. Mehr Ackerland in den fünf Nord-EK-States, Aerie Peak mit Ranch. Weniger Hunger in Zul'Aman, Deathknell, Bulwark, Aerie Peak. `error.log` ohne „must have invented Navigation“ und ohne neue Fehler aus `common/history/buildings/2*` (Claude).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-030 Pops gekürzt in Undercity, Scholomance, Shadowfang Keep (VA-024)
-- **Schritte:** Kampagne starten, die drei States im Staatenfenster öffnen. Nach 2 Jahren Food Security und Lebensstandard ansehen.
-- **Erwartet:** Undercity ~2,0 Mio., Scholomance ~0,6 Mio., Shadowfang Keep ~1,0 Mio. Pops. Weniger Hunger und Arbeitslose als vorher. Archerus unverändert 2,55 Mio.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-031 Farben der Strategic Regions (VA-042)
-- **Schritte:** Kampagne starten, Kartenmodus „Strategische Regionen“ öffnen (bzw. die Ansicht, in der alles gelb war). Kalimdor, Eastern Kingdoms, Northrend und Pandaria ansehen.
-- **Erwartet:** Jede Strategic Region hat eine eigene Farbe, nichts mehr einheitlich gelb. Nachbarregionen sind meist deutlich verschieden; sonst Kono meldet, welche, dann passt Claude einzeln an. `error.log` ohne neue Zeilen aus `common/strategic_regions/` (Claude).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-032 Kleidung statt Lumpen (VA-042)
-- **Schritte:** Kampagne starten. Herrscher und Politiker von Stormwind, Ironforge, Silvermoon, Undercity, Orgrimmar und Thunder Bluff ansehen (Länderfenster, Interessengruppen). Außerdem ein Pop-Porträt in Stormwind und einen Murloc- oder Gnoll-Herrscher.
-- **Erwartet:** Menschen, Zwerge, Gnome, Elfen, Worgen, Draenei, Untote, Goblins, Orks, Trolle und Tauren tragen europäische Kleidung (Mäntel, Uniformen, Herrscherkleidung), keine Lumpen mehr. Murlocs, Gnolle u. a. bleiben vorerst in Lumpen. Kono notiert, welche Völker anders aussehen sollen. `error.log` ohne Zeilen zu `va_clothes_triggers.txt` und ohne „unknown trigger“ (Claude).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-033 error.log: Kleidung, Kartenfarben, Gebäude Nord-EK (Claude)
-- **Schritte:** Nach T-031 und T-032 Claude Bescheid geben.
-- **Erwartet:** Keine Zeilen zu `va_clothes_triggers.txt`, `european_clothes_trigger` oder `common/strategic_regions/`. Kein „Both levels and ownerships are undefined“ mehr aus `common/history/buildings/26_north_eastern_kingdoms.txt`. Keine „should be in utf8-bom“-Meldungen mehr für Mod-Dateien.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: Lauf 30.10. 17:50–17:52 (Repo = Mod-Ordner): nichts zu Kleidung oder Regionsfarben. Gefunden und behoben: 8 leere `add_ownership` in 26er Gebäuden (alt, schon im letzten Commit), fehlendes BOM in 70 Mod-Dateien (darunter die Strategic Regions). Nächster Lauf bestätigt die Fixes. Restbefunde → VA-043.
-
-## Runde 8 – Handelszentralen für den Weltmarkt (Stand 2026-10-30)
-
-Ticket: VA-040. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Stormwind** spielen.
-
-### T-037 Handel in Eastern Kingdoms (VA-040)
-- **Schritte:** Kampagne starten. In Stormwind, Undercity, Ironforge und Booty Bay im Staatenfenster der Hauptstadt die Handelszentrale ansehen. Handels-Lens bzw. Marktfenster von Stormwind öffnen (Importe/Exporte). 1 Jahr laufen lassen, dann erneut Handelsrouten und Food Security in Nord- und Süd-EK ansehen.
-- **Erwartet:** 46 EK-Länder haben eine Handelszentrale in der Hauptstadt (Stormwind, Undercity, Ironforge, Vashj'ir je 10 Stufen, Booty Bay 7, Silvermoon 5). Booty Bay und Hammerfall haben jetzt einen Hafen. Nach kurzer Zeit laufen Importe und Exporte, mindestens Getreide/Nahrung wird zwischen Märkten gehandelt. Länder mit Isolationismus (Amani, Defias, Murloc-Stämme u. a.) handeln weiterhin nicht. Merchant-Marine-Engpass in großen Zentralen möglich, Kono notiert ihn.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Handel sitzt, die Länder nutzen ihn. Nebenbefund: KI stapelt Construction Sector und Government Administration (Stormwind 40+ Aufträge), `building_paper_mills` ohne Loc → VA-044.
-
-### T-038 error.log: Handelszentralen, Verwaltung, Bausektor (Claude)
-- **Schritte:** Nach T-037 und T-039 Claude Bescheid geben.
-- **Erwartet:** Keine neuen Zeilen zu `building_trade_center`, `building_government_administration`, `building_construction_sector` oder deren PMs aus `common/history/buildings/26_*`, `27_*`, `28_*`.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: Log 30.10. 20:26 (`va_errlog.py`, 4 Dateien, 9.616 Einträge): keine Zeilen zu den drei Gebäuden oder aus `history/buildings/26–28`. Übrig nur bekannte Altlasten (VA-003, VA-026, VA-043).
-
-### T-039 Verwaltung und Bausektor zum Start (VA-044)
-- **Schritte:** Kampagne starten als Stormwind. Bürokratie (Länderübersicht) und Bauliste ansehen, Stormwind-Hauptstadt im Staatenfenster öffnen. Danach Ironforge und ein kleines Land (z. B. Menethil) ansehen. 2 Jahre laufen lassen, Bauliste von Stormwind und 2–3 KI-Ländern erneut ansehen.
-- **Erwartet:** Stormwind startet mit 21 Stufen Government Administration und 5 Stufen Construction Sector, Bürokratie nicht (stark) negativ. Die KI-Baulisten bestehen nicht mehr überwiegend aus Verwaltung und Bausektor. Papiermangel in der Verwaltung möglich (bekannt, VA-003), Kono notiert ihn.
-- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Verwaltung okay, nur wenige Stellen mit Mangel. Bausektor stapelt die KI weiterhin, liegt aber auch daran, dass es keine Probleme gibt, die Geld kosten (KI hat Überschuss und steckt ihn in Bau). Rest über Content (VA-034).
-
-## Runde 9 – Mana als Obsession der Elfen (Stand 2026-10-30)
-
-Ticket: VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Silvermoon** spielen.
-
-### T-040 Mana-Nachfrage durch Elfen (VA-019)
-- **Schritte:** Kampagne starten als Silvermoon. Kulturfenster `Sin'dorei` und `Quel'dorei` öffnen (Obsessionen). Marktfenster Silvermoon → Mana: Angebot, Nachfrage, Preis. Ein Pop der Blutelfen öffnen → Bedürfnis „Intoxicants“. Zum Vergleich Marktfenster Stormwind → Liquor/Tobacco. 1 Jahr laufen lassen, Mana-Preis erneut ansehen.
-- **Erwartet:** Beide Elfenkulturen haben die Obsession Mana. Mana hat im Silvermoon-Markt Pop-Nachfrage, der Preis liegt nicht mehr am Minimum. Im Bedürfnis Intoxicants steht Mana **zusätzlich** zu Liquor, Tobacco, Opium und Wine (wichtig: `INJECT` darf die Vanilla-Einträge nicht ersetzen; in Stormwind wird weiter Liquor/Tobacco konsumiert). Andere Kulturen kaufen Mana höchstens in kleinen Mengen.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
-
-### T-041 error.log: Mana-Obsession (Claude)
-- **Schritte:** Nach T-040 Claude Bescheid geben.
-- **Erwartet:** Keine Zeilen zu `common/pop_needs/va_pop_needs.txt`, `va_goods.txt`, `obsessions` in `va_elfen_cultures.txt` oder „unknown goods mana“.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+# Testprotokoll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jede Änderung, die Claude macht, bekommt hier einen Testfall. Kono testet im Spiel und hakt ab. Ein Ticket gilt erst als `erledigt`, wenn alle seine Testfälle **OK** sind.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Ablauf je Testrunde**
+
+
+
+
+
+
+
+0. Claude: `va_lint.py` meldet 0 neue Fehler (Voraussetzung für die Freigabe).
+
+
+
+
+
+
+
+1. Repo-Stand in den Mod-Ordner `mod\warcraft` kopieren.
+
+
+
+
+
+
+
+2. Victoria 3 starten, Kampagne mit dem Mod laden, Tests unten durchgehen.
+
+
+
+
+
+
+
+3. Spiel beenden und Claude Bescheid geben. Claude wertet `error.log` aus (Testfall „Log“ der Runde) und trägt das Ergebnis ein.
+
+
+
+
+
+
+
+4. Ergebnis je Test eintragen: `[x] OK` oder `[x] Fehler` plus kurze Notiz (was stattdessen passiert ist, Screenshot-Name).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Einmal **OK** bestätigte Tests bleiben stehen (Historie). Bei einem Fehler legt Claude ein Ticket an oder öffnet das zugehörige wieder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 1 – Nord-EK, Quel'Danas, Zul'Jarra, Mana (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-015, VA-006, VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Silvermoon** spielen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-001 Kampagne lädt
+
+
+
+
+
+
+
+- **Schritte:** Neue Kampagne starten (Land egal), bis die Karte steht. 2–3 Monate laufen lassen.
+
+
+
+
+
+
+
+- **Erwartet:** Kein Absturz, kein Einfrieren.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 einige Monate gelaufen, „sieht ganz okay aus“. Folgearbeit Pops/Gebäude/Startwerte → VA-024.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-002 error.log (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-001 Spiel beenden, Claude Bescheid geben. Claude prüft mit `python -I .claude/tools/va_errlog.py --filter …` auf: `26_va_north_eastern_kingdoms`, `VA_eastern_kingdoms_states`, `va_north_eastern_kingdoms`, `VA_eastern_kingdom.txt`, `va_eastern_kingdom_countries`, `va_goods`, `va_mana`, `va_building_groups`, `leyline`, `mana`, `va_countries_l_english`. Außerdem `python -I .claude/tools/va_check_states.py 26`.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Fehler aus diesen Dateien. Die Hub-Fehler für Gilneas City, The Headlands, Seradane, Scholomance, Northgate Woods und Tyr's Hand sind weg.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 (Runde 3, vollständiges Log): keine Fehler aus den Prüfdateien außer fehlendem BOM (bekannte Altlast, VA-023), keine Hub-Fehler mehr. Erster Versuch: nur teilweise auswertbar. Log-Spam aus Vanilla-Scripts (reale Regionen, ~13.000 Einträge in 8 s) hat die Ladefehler wegrotiert (→ VA-025). Im erhaltenen Teil keine Fehler aus den Prüfdateien; einziger Mod-Bezug: doppeltes `building_company_basic_fishing` in Archerus (→ VA-024). `va_check_states.py 26`: Hubs nur noch bei STATE_TEST (VA-018). Wiederholen nach VA-025.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-003 Stadt- und Hafenmarker sitzen sinnvoll
+
+
+
+
+
+
+
+- **Schritte:** Auf der Karte heranzoomen bei Gilneas City, The Headlands, Scholomance, Northgate Woods (Hafen) und Seradane.
+
+
+
+
+
+
+
+- **Erwartet:** Stadt, Farm, Mine, Holz und Hafen stehen jeweils im eigenen State, nicht im Wasser oder Gebirge. Northgate Woods hat einen Hafen an der Küste.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: noch grafische Fehler, wird später genauer angesehen. Hängt mit fehlenden impassable-Bergprovinzen zusammen (VA-037). Offen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-004 Seradane und Scholomance
+
+
+
+
+
+
+
+- **Schritte:** Kartenmodus „States“ bzw. Mausover auf die Region zwischen Scholomance und Seradane (Hinterland).
+
+
+
+
+
+
+
+- **Erwartet:** Seradane umfasst das Gebiet des Emerald-Entrance-Landes und der Revantusk. Scholomance (Cult of the Damned) ist kleiner und **keine** Küstenregion mehr.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Scholomance ist keine Küste mehr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-005 West Sanctum geteilt
+
+
+
+
+
+
+
+- **Schritte:** State West Sanctum anklicken.
+
+
+
+
+
+
+
+- **Erwartet:** Zwei Teilstaaten, Silvermoon und Grimscale-Murlocs. Keine Provinz flackert oder gehört beiden.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: geteilt in Elfen und Murlocs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-006 Quel'Danas gehört Silvermoon
+
+
+
+
+
+
+
+- **Schritte:** Sun's Reach, Magisters' Terrace und Sunwell Plateau anklicken.
+
+
+
+
+
+
+
+- **Erwartet:** Besitzer Silvermoon, Bevölkerung Sin'dorei. Magisters' Terrace zeigt Gebirge/unpassierbare Provinzen, Sun's Reach nicht.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: stimmt. Bevölkerung noch Platzhalter (je 10.000 Sin'dorei in Sun's Reach, Magisters' Terrace, Sunwell Plateau) → VA-024.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-007 Hauptstädte
+
+
+
+
+
+
+
+- **Schritte:** Länderansicht bzw. Karte für die vier Länder öffnen.
+
+
+
+
+
+
+
+- **Erwartet:** Wildhammer → Aerie Peak, Wretched → Ruins of Silvermoon, Frostwolf Highlands → Tarren Mill, Shadowpine → Dawnstar Spire. Keine Hauptstadt liegt außerhalb des eigenen Gebiets.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-008 Tranquillien
+
+
+
+
+
+
+
+- **Schritte:** Tranquillien in der Länderauswahl bzw. Länderansicht öffnen, Reiter „Politik/Gesetze“.
+
+
+
+
+
+
+
+- **Erwartet:** Gesetze wie bei Silvermoon gesetzt (u. a. Protektionismus, Pachtbauern, Sklaverei verboten), keine leeren oder ungültigen Gesetze.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-009 Zul'Jarra
+
+
+
+
+
+
+
+- **Schritte:** Zul'Aman auf der Karte anklicken.
+
+
+
+
+
+
+
+- **Erwartet:** Das Land heißt „Zul'Jarra“ (Adjektiv „Zul'Jarran“), kein roher Key `AMANI_TRIBE`.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-010 Ressourcen im neuen Format
+
+
+
+
+
+
+
+- **Schritte:** State Sunwell Plateau, Silvermoon City und Koroth Den öffnen, Bereich „Ressourcen/Potenziale“.
+
+
+
+
+
+
+
+- **Erwartet:** Ressourcen werden angezeigt (z. B. Eisen, Kohle, Holz, Fischerei, Farmen). Sunwell Plateau zeigt „Ley Line Tap“ mit 40, Silvermoon City mit 20.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono. Gebäudebild noch Kohlemine (Platzhalter, in VA-027 gelistet).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-011 Leylinien-Gebäude baubar
+
+
+
+
+
+
+
+- **Schritte:** Als Silvermoon in Silvermoon City „Ley Line Tap“ bauen. Nach Fertigstellung das Gebäude öffnen.
+
+
+
+
+
+
+
+- **Erwartet:** Baubar ohne Technologie. Produktionsmethode „Focus Crystals“, Verbrauch Werkzeug, Produktion Mana, Arbeiter und Akademiker als Belegschaft. Texte ohne rohe Keys. Icons sind Platzhalter (Kohlemine/Strom), das ist gewollt.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: baubar, produziert Mana. Mana noch mit Strom-Icon (Platzhalter, VA-027).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-012 Mana am Markt
+
+
+
+
+
+
+
+- **Schritte:** Marktansicht von Silvermoon öffnen, Gut „Mana“ suchen.
+
+
+
+
+
+
+
+- **Erwartet:** Gut „Mana“ ist vorhanden, Angebot steigt nach T-011. Preis am Minimum ist **erwartet**, denn es gibt noch keine Abnehmer (VA-019).
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 2 – Log-Spam (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-025. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Danach T-002 aus Runde 1 wiederholen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-013 Log bleibt lesbar
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten, auf höchster Geschwindigkeit etwa 2–3 Monate laufen lassen, Spiel beenden.
+
+
+
+
+
+
+
+- **Erwartet:** Im Log-Ordner gibt es nur `error.log` oder wenige Rotationsdateien, und `error.log` beginnt mit den Ladefehlern vom Spielstart (nicht mit `Script system error!` aus dem laufenden Spiel).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30 ein Jahr gelaufen, kein Absturz. Log rotiert weiter, jetzt durch `is_oppressor_of_schleswig_holstein` (11.071 Einträge in ~10 s). Behoben mit `va_earth_triggers.txt` → T-015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-014 error.log (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-013 Claude Bescheid geben. Claude prüft mit `va_errlog.py`: keine Einträge mehr aus `00_scripted_triggers.txt:357–393` (`in_volcanic_zone`), `00_ai_triggers.txt:619–634` (`should_carve_up_china`), `has_law_or_variant`-Fehlern und `historic_agitator_events.txt`. Danach T-002 (Runde 1) mit dem vollständigen Log auswerten.
+
+
+
+
+
+
+
+- **Erwartet:** Diese Fehlergruppen sind weg; die restlichen Fehler werden als neue Tickets erfasst.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 alle vier Gruppen (Vulkan, China, has_law_or_variant, Agitatoren) sind weg. Rest: Fortschrittsbalken (72+), Power-Bloc-Namen `00_power_bloc_names.txt:577` (19), Petitions-Events (9), Archerus-Fischerei (7).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-015 Log bleibt lesbar (zweiter Anlauf) – entfällt, geht in Runde 3 auf
+
+
+
+
+
+
+
+- **Schritte:** Wie T-013: Kampagne starten, ein paar Monate auf höchster Geschwindigkeit laufen lassen, Spiel beenden, Claude Bescheid geben. Neu seit T-013: `common/scripted_triggers/va_earth_triggers.txt` (17 Erde-Trigger auf „nie wahr“).
+
+
+
+
+
+
+
+- **Erwartet:** Höchstens eine `error.log` ohne Rotationsdateien, beginnt mit den Ladefehlern. Keine Einträge aus `00_scripted_triggers.txt:1727` (Schleswig-Holstein). Danach wertet Claude T-002 vollständig aus.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 3 – events aus replace_paths (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-002, VA-025. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Alte Kopien sind bereinigt (`va_events.py --apply-copies`, 2026-10-30). Runde 3 ersetzt T-015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-016 Kampagne lädt und läuft
+
+
+
+
+
+
+
+- **Schritte:** Repo in `mod\warcraft` kopieren (alte Dateien dort vorher löschen, sonst bleiben die gelöschten Kopien liegen). Kampagne als Silvermoon starten, 1 Jahr laufen lassen.
+
+
+
+
+
+
+
+- **Erwartet:** Kein Absturz. Es tauchen allgemeine Events auf (Wahlen, Gesetzesdebatten, Petitionen o. Ä.), aber keine Erde-Events (Brasilien, Japan, Balkan …).
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 ein Jahr bis 1. Januar gelaufen. Gesehen: „Request Market Control“ (13. Januar, Diplomatie-Aktion) und „Secret Societies“ (5. April, `autocracy.2` aus Vanilla 1.13). Beides allgemeine Mechaniken, keine Erde-Events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-017 error.log (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-016 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Log rotiert nicht oder kaum, die Ladefehler vom Start sind lesbar. Claude wertet T-002 vollständig aus und legt für verbleibende Fehlergruppen Tickets an. Einmalige „unbekanntes Event“-Fehler aus `common/on_actions/00_*.txt` sind erwartet (VA-003).
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30 Log vollständig lesbar: Start 11:08:40 bis Ende 11:12:02, nur zwei Rotationen während des Ladens, im laufenden Spiel kein Spam mehr (`error.log` 487 KB über drei Minuten). Schleswig-Holstein nur noch 3× (REPLACE wirkt). T-002 damit ausgewertet. Restliche Fehlergruppen → VA-001 (Notizen) und VA-026.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 4 – allgemeine Events und JEs zurück (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann zusammen mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher neu befüllen; die zwei Dateien unten dürfen dort **nicht** mehr liegen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-018 error.log: Sklavenaufstand und Anarchismus (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten, ein paar Monate laufen lassen, Spiel beenden, Claude Bescheid geben. Wieder aktiv aus Vanilla: `events/agitators_events/slave_revolt_events.txt`, `events/iberia_events/ip4_anarchism_events.txt`.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Fehler aus diesen beiden Dateien im `error.log`. Ob die Events im Spiel auftauchen, ist Zufall und kein Testkriterium.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30 (ein Jahr gelaufen, kein Absturz): `slave_revolt_events.txt` fehlerfrei. `ip4_anarchism_events.txt:379` 1× `building_art_academy` unbekannt. Ursache liegt nicht in der Eventdatei: Die alten Mod-Kopien unter `common/buildings/` kennen die 1.13-Gebäude nicht → VA-003. Event-Datei bleibt aktiv.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-019 Journal: allgemeine JEs da, keine Erde-JEs
+
+
+
+
+
+
+
+- **Schritte:** `mod\warcraft` **vorher leeren** und neu befüllen (viele Dateien gelöscht). Kampagne als Silvermoon starten, Journal öffnen (aktive und mögliche Einträge). Ein Jahr laufen lassen, Journal erneut ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Allgemeine Einträge wie Kunstrichtungen (Romantik), Prestigegüter, Lebensstandard oder Interessengruppen-Agenden können auftauchen. Keine Einträge mit Erde-Bezug (Japan, Brasilien, Indien, Afrika, Expeditionen). Petitionen der Interessengruppen zeigen ihre Buttons („Verlängerung“, „Abweisen“) mit Text.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Silvermoon nach einem Jahr, Reiter „Potential“: Poverty Crisis, Religion/Autocracy/Nationality, Corn Laws, Path to Liberalism, Patronize Romanticism, Patronize Realist Art, From Farms to Factories, Urbanize. Alles allgemein, kein Erde-Eintrag. „Urbanize SILVERMOON“ zeigt den rohen Tag statt des Ländernamens → bekannt, VA-006. Petitions-Buttons nicht gesehen (keine Petition aktiv), bei Gelegenheit nachholen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-020 error.log: JEs und Buttons (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-019 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Fehler `Invalid journal entry type` mehr für `je_government_petition`, `je_law_imposition` und `je_divided_monarchists` aus Coup-Events. Die 26 Fehler „can only be used for country context“ aus `government_petition_events.txt` sind weg. Keine Ladefehler aus `common/journal_entries/0*.txt` oder `common/scripted_buttons/0*.txt`. Übrig bleiben dürfen Great-Game-Ziele (bekannt, VA-002 Notizen) und Gilneas (VA-007).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, 9.922 Einträge. **Behoben:** `je_government_petition` und `je_law_imposition` sind nicht mehr ungültig, „country context“ 0× (vorher 26×). **Erwartet geblieben:** Great-Game-Ziele, Gilneas. **Fehler:** (1) `has_journal_entry` auf abgeschaltete JEs erzeugt doch Ladefehler (712×, z. B. `je_divided_monarchists` in Vanilla-Gesetzen, -Ideologien und `government_conflicts_events.txt`); Annahme in VA-002 war falsch → Notiz dort. (2) Aus Vanilla-JEs: fehlende 1.13-Gebäude (`building_art_academy`, `building_steel_mill`, `building_barrack` in `coup_events.txt`) und fehlender Effekt `rebind_prestige_good_company` (`05_prestige_goods.txt`) – beides durch alte Mod-Kopien (`common/buildings/0*.txt`, `common/scripted_effects/00_scripted_effects.txt`) → VA-003. (3) Eigene JEs `VA_silvermoon.txt` und `VA_gilneas_infection.txt`: kein BOM, `should_be_pinned_by_default` gibt es in 1.13 nicht mehr, Gilneas zusätzlich `je_group_g` ungültig → VA-020 bzw. VA-007. (4) `events/scotland_yard.txt:16` fragt `STATE_HOME_COUNTIES` ohne `s:` ab; `va_events.py` erkennt solche Verweise nicht → VA-002.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 5 – Firmen und Charaktervorlagen aus replace_paths (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit den offenen Tests aus Runde 1 laufen. `mod\warcraft` vorher **leeren** und neu befüllen: `common/character_templates/default_template.txt` ist gelöscht und darf dort nicht mehr liegen (sonst gibt es `default` doppelt).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-021 Charaktere: Lebensdauer und Religion
+
+
+
+
+
+
+
+- **Schritte:** Kampagne als Silvermoon starten. Herrscher, Erben und zwei Interessengruppen-Anführer ansehen (Eigenschaften, Religion). Ein Jahr laufen lassen, einen neu erschienenen Charakter (Agitator, General oder neuer IG-Anführer) ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Elfen tragen die Eigenschaft für 50.000 Jahre Lebensdauer, neue Charaktere ebenso. Charaktere der Hauptkultur haben die Staatsreligion. Keine Charaktere mit Erde-Namen oder Erde-Kulturen.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-022 Firmen: nur Basisfirmen
+
+
+
+
+
+
+
+- **Schritte:** In derselben Kampagne den Reiter Firmen öffnen (mögliche Firmen).
+
+
+
+
+
+
+
+- **Erwartet:** Nur allgemeine Basisfirmen (Fischerei, Holz, Textil …), keine historischen Firmen (Fiat, Suez, Škoda …).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-023 error.log: Firmen und Charaktervorlagen (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-021/T-022 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Fehler aus `common/character_templates/` (insbesondere kein doppeltes `default`), keine aus `common/company_types/` außer bekannten Gebäudenamen aus den alten Gebäudekopien (VA-003). Vanilla-Vorlagen für Kolonialgouverneure (`colonial_governor_templates.txt`) laden ohne Fehler.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, 7 Jahre gelaufen, Log ab Ladebeginn vollständig (14.051 Einträge). Keine Fehler aus `common/character_templates/`, kein doppeltes `default`. `99_basic_companies.txt` 27× `is_building_type` (erwartet: Vanilla-Datei lädt, alte Kopie noch nicht zurückgeholt, VA-003). Bekannt und unverändert: `has_template` auf Erde-Vorlagen aus Vanilla-Scripts (~450, waren vorher schon fehlende Vorlagen) und `is_company_type` in `00_company_charter_types.txt`. Beim Lauf aufgefallen: weltweite Hungersnot → VA-029.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 7 – Neue History-Ordner abgefangen (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-004. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und 6 laufen. `mod\warcraft` neu befüllen (inkl. `.metadata/metadata.json`).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-034 History-Ordner ohne Erde-Inhalte (VA-004)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten. Bei Stormwind und Silvermoon im Politik-Fenster die politischen Bewegungen ansehen. Im Kulturfenster (z. B. Kultur von Stormwind) den Fervor ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Länder haben Start-Bewegungen (Royalisten, religiöse und kulturelle Mehrheit, ggf. Pro-Sklaverei). Kulturen haben Fervor ≥ 5. `error.log` ohne Zeilen aus `common/history/military_deployments/`, `common/history/diplomatic_plays/`, `common/history/governments/`, `common/history/cultures/00_cultures.txt`, `common/history/political_movements/00_movements.txt` und ohne neue Zeilen aus `va_movements.txt`, `va_cultures.txt`, `va_ai_strategy.txt` (Claude). Zeilen aus `history/conscription/` bleiben bis VA-003.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Bewegungen vorhanden. Fervor Blood Elf startet bei **0** (Ziel 7), `va_cultures.txt` greift also nicht → T-035. Log 18:21 (4 Dateien, 19.584 Zeilen, ab Ladebeginn): keine Zeilen mehr aus `military_deployments`, `diplomatic_plays`, `military_formations`, `governments`, `cultures`, `political_movements`, `ai`; nichts aus den neuen `va_`-Dateien. Übrig nur 2× `is_building_type` in `conscription/00_conscription_center.txt` (erwartet, VA-003).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-035 Start-Fervor (VA-004)
+
+
+
+
+
+
+
+- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Kampagne starten (neu, kein Spielstand), im ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
+
+
+
+
+
+
+
+- **Erwartet:** Blood Elf 10 (Kontrollwert), Stormwindian und Bronzebeard 5. Auswertung: Blood Elf 10 und Rest 0 → Schleife über `every_country` greift nicht, Claude stellt auf Direktwerte je Kultur um. Alles 0 → Fervor-History wirkt gar nicht (zu früh/überschrieben). `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Blood Elf 10, Stormwindian 0, Bronzebeard 0 → nur Direktaufruf `cu:` wirkt, Schleife nicht. Log 18:27 ohne Zeilen aus `history/cultures`. Umgestellt auf Direktwerte → T-036.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-036 Start-Fervor je Kultur (VA-004)
+
+
+
+
+
+
+
+- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Neue Kampagne starten, am ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
+
+
+
+
+
+
+
+- **Erwartet:** Alle drei bei 5. `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: alle drei bei 5. Log 18:47 ohne Zeilen aus `history/cultures`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 6 – Nord- und Mittel-EK: Start-Gebäude aufgefüllt (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und den offenen Tests aus Runde 1 laufen. `mod\warcraft` neu befüllen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-024 Nord-EK: Nahrung und Bevölkerung
+
+
+
+
+
+
+
+- **Schritte:** Kampagne als Silvermoon starten. Undercity, Gilneas, Stratholme (Plaguelands) und Aerie Peak im Staatenfenster ansehen: Farmen, Ranches, Fischerei, Holz, Minen vorhanden? Markt von Silvermoon und Undercity ansehen (Getreide, Fleisch, Fisch). 5 Jahre laufen lassen, Bevölkerungsgrafik von Silvermoon, Undercity und Gilneas ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Nord-EK-Staaten haben Nahrungs- und Rohstoffgebäude, Eisenminen nur wenige (14 Stufen in der Region). Nahrungsengpässe auf den Märkten deutlich kleiner als vorher (Getreide vorher −882 in Silvermoon). Bevölkerung in Nord-EK schrumpft nicht mehr dauerhaft (leichtes Auf und Ab ist normal). Andere Regionen hungern weiter, das ist erwartet (VA-029, nächste Regionen).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-026 Mittel-EK: Nahrung und Bevölkerung
+
+
+
+
+
+
+
+- **Schritte:** In derselben Kampagne Ironforge, Gnomeregan, Grim Batol und Menethil (Sumpfland) im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Ironforge ansehen (vorher 10,7 → 4,59 Mio. in 7 Jahren).
+
+
+
+
+
+
+
+- **Erwartet:** Mittel-EK-Staaten haben Farmen, Ranches, Holzfäller und Minen. Ironforge schrumpft nicht mehr dauerhaft. Vashj'ir hat bewusst noch Platzhalter-Gebäude (Roggen, Holz), siehe VA-029.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-025 error.log: Gebäude Nord- und Mittel-EK (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-024 und T-026 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine neuen Fehler aus `common/history/buildings/26_north_eastern_kingdoms.txt` und `27_center_eastern_kingdoms.txt`, kein „Tried to create building … already exists“ außer dem bekannten Archerus-Fischkai (VA-024). Kein „must have invented Shaft Mining“ mehr bei Deathholme (Zeile 1147/1158 im Log vom 30.10., behoben). Keine ungültigen Produktionsmethoden.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: Log 30.10. 14:23 (Stand mit Süd-EK): einziger Fehler Deathholme-Minen (26:1147/1158), behoben. Sonst nichts aus `history/buildings` oder `state_regions`, auch kein „already exists“. Nächster Lauf bestätigt den Fix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-027 Fischerei-Platzhalter im Binnenland entfernt (VA-029)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten. Ironforge (Binnenland) und Stormwind (Küste) im Staatenfenster öffnen, unter Ressourcen nachsehen.
+
+
+
+
+
+
+
+- **Erwartet:** Ironforge hat keine Fischerei mehr als Ressource, Stormwind schon. Fenris Isle und Scholomance (Lordamere-See) haben weiter Fischerei. `error.log` ohne neue Zeilen aus `map_data/state_regions/` (Claude prüft mit T-025).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-028 Süd-EK: Nahrung und Länderprofile (VA-029)
+
+
+
+
+
+
+
+- **Schritte:** In derselben Kampagne Stormwind, Booty Bay, Zul'Gurub und Redridge Canyons im Staatenfenster ansehen. Nach 5 Jahren Bevölkerungsgrafik von Stormwind und Booty Bay ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Stormwind deutlich besser ausgebaut (Farmen, Holz, Ranches) als Gnoll- und Orkgebiete. Booty Bay mit Fischerei und Kaffee. Stormwind schrumpft nicht mehr dauerhaft. `error.log` ohne neue Fehler aus `common/history/buildings/28_south_eastern_kingdoms.txt` (Claude prüft mit T-025).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-029 Häfen und Ackerland (VA-029)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten. Stormwind, Ironforge (Coldridge Valley), Gnomeregan, Deadmines, Orgrimmar im Staatenfenster öffnen. Zul'Aman, Deathknell, The Bulwark, Aerie Peak ansehen. Nach 2 Jahren Food Security in Nord-EK erneut ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Genannte States haben einen Hafen, die Länder haben Weltmarkt-Zugang. Mehr Ackerland in den fünf Nord-EK-States, Aerie Peak mit Ranch. Weniger Hunger in Zul'Aman, Deathknell, Bulwark, Aerie Peak. `error.log` ohne „must have invented Navigation“ und ohne neue Fehler aus `common/history/buildings/2*` (Claude).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-030 Pops gekürzt in Undercity, Scholomance, Shadowfang Keep (VA-024)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten, die drei States im Staatenfenster öffnen. Nach 2 Jahren Food Security und Lebensstandard ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Undercity ~2,0 Mio., Scholomance ~0,6 Mio., Shadowfang Keep ~1,0 Mio. Pops. Weniger Hunger und Arbeitslose als vorher. Archerus unverändert 2,55 Mio.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-031 Farben der Strategic Regions (VA-042)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten, Kartenmodus „Strategische Regionen“ öffnen (bzw. die Ansicht, in der alles gelb war). Kalimdor, Eastern Kingdoms, Northrend und Pandaria ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Jede Strategic Region hat eine eigene Farbe, nichts mehr einheitlich gelb. Nachbarregionen sind meist deutlich verschieden; sonst Kono meldet, welche, dann passt Claude einzeln an. `error.log` ohne neue Zeilen aus `common/strategic_regions/` (Claude).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-032 Kleidung statt Lumpen (VA-042)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten. Herrscher und Politiker von Stormwind, Ironforge, Silvermoon, Undercity, Orgrimmar und Thunder Bluff ansehen (Länderfenster, Interessengruppen). Außerdem ein Pop-Porträt in Stormwind und einen Murloc- oder Gnoll-Herrscher.
+
+
+
+
+
+
+
+- **Erwartet:** Menschen, Zwerge, Gnome, Elfen, Worgen, Draenei, Untote, Goblins, Orks, Trolle und Tauren tragen europäische Kleidung (Mäntel, Uniformen, Herrscherkleidung), keine Lumpen mehr. Murlocs, Gnolle u. a. bleiben vorerst in Lumpen. Kono notiert, welche Völker anders aussehen sollen. `error.log` ohne Zeilen zu `va_clothes_triggers.txt` und ohne „unknown trigger“ (Claude).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-033 error.log: Kleidung, Kartenfarben, Gebäude Nord-EK (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-031 und T-032 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Zeilen zu `va_clothes_triggers.txt`, `european_clothes_trigger` oder `common/strategic_regions/`. Kein „Both levels and ownerships are undefined“ mehr aus `common/history/buildings/26_north_eastern_kingdoms.txt`. Keine „should be in utf8-bom“-Meldungen mehr für Mod-Dateien.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: Lauf 30.10. 17:50–17:52 (Repo = Mod-Ordner): nichts zu Kleidung oder Regionsfarben. Gefunden und behoben: 8 leere `add_ownership` in 26er Gebäuden (alt, schon im letzten Commit), fehlendes BOM in 70 Mod-Dateien (darunter die Strategic Regions). Nächster Lauf bestätigt die Fixes. Restbefunde → VA-043.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 8 – Handelszentralen für den Weltmarkt (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ticket: VA-040. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Stormwind** spielen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-037 Handel in Eastern Kingdoms (VA-040)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten. In Stormwind, Undercity, Ironforge und Booty Bay im Staatenfenster der Hauptstadt die Handelszentrale ansehen. Handels-Lens bzw. Marktfenster von Stormwind öffnen (Importe/Exporte). 1 Jahr laufen lassen, dann erneut Handelsrouten und Food Security in Nord- und Süd-EK ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** 46 EK-Länder haben eine Handelszentrale in der Hauptstadt (Stormwind, Undercity, Ironforge, Vashj'ir je 10 Stufen, Booty Bay 7, Silvermoon 5). Booty Bay und Hammerfall haben jetzt einen Hafen. Nach kurzer Zeit laufen Importe und Exporte, mindestens Getreide/Nahrung wird zwischen Märkten gehandelt. Länder mit Isolationismus (Amani, Defias, Murloc-Stämme u. a.) handeln weiterhin nicht. Merchant-Marine-Engpass in großen Zentralen möglich, Kono notiert ihn.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Handel sitzt, die Länder nutzen ihn. Nebenbefund: KI stapelt Construction Sector und Government Administration (Stormwind 40+ Aufträge), `building_paper_mills` ohne Loc → VA-044.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-038 error.log: Handelszentralen, Verwaltung, Bausektor (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-037 und T-039 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine neuen Zeilen zu `building_trade_center`, `building_government_administration`, `building_construction_sector` oder deren PMs aus `common/history/buildings/26_*`, `27_*`, `28_*`.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: Log 30.10. 20:26 (`va_errlog.py`, 4 Dateien, 9.616 Einträge): keine Zeilen zu den drei Gebäuden oder aus `history/buildings/26–28`. Übrig nur bekannte Altlasten (VA-003, VA-026, VA-043).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-039 Verwaltung und Bausektor zum Start (VA-044)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten als Stormwind. Bürokratie (Länderübersicht) und Bauliste ansehen, Stormwind-Hauptstadt im Staatenfenster öffnen. Danach Ironforge und ein kleines Land (z. B. Menethil) ansehen. 2 Jahre laufen lassen, Bauliste von Stormwind und 2–3 KI-Ländern erneut ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Stormwind startet mit 21 Stufen Government Administration und 5 Stufen Construction Sector, Bürokratie nicht (stark) negativ. Die KI-Baulisten bestehen nicht mehr überwiegend aus Verwaltung und Bausektor. Papiermangel in der Verwaltung möglich (bekannt, VA-003), Kono notiert ihn.
+
+
+
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Verwaltung okay, nur wenige Stellen mit Mangel. Bausektor stapelt die KI weiterhin, liegt aber auch daran, dass es keine Probleme gibt, die Geld kosten (KI hat Überschuss und steckt ihn in Bau). Rest über Content (VA-034).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Runde 9 – Mana als Obsession der Elfen (Stand 2026-10-30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ticket: VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Silvermoon** spielen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-040 Mana-Nachfrage durch Elfen (VA-019)
+
+
+
+
+
+
+
+- **Schritte:** Kampagne starten als Silvermoon. Kulturfenster `Sin'dorei` und `Quel'dorei` öffnen (Obsessionen). Marktfenster Silvermoon → Mana: Angebot, Nachfrage, Preis. Ein Pop der Blutelfen öffnen → Bedürfnis „Intoxicants“. Zum Vergleich Marktfenster Stormwind → Liquor/Tobacco. 1 Jahr laufen lassen, Mana-Preis erneut ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Beide Elfenkulturen haben die Obsession Mana. Mana hat im Silvermoon-Markt Pop-Nachfrage, der Preis liegt nicht mehr am Minimum. Im Bedürfnis Intoxicants steht Mana **zusätzlich** zu Liquor, Tobacco, Opium und Wine (wichtig: `INJECT` darf die Vanilla-Einträge nicht ersetzen; in Stormwind wird weiter Liquor/Tobacco konsumiert). Andere Kulturen kaufen Mana höchstens in kleinen Mengen.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: andere Rauschmittel gehen weiter, Mana erscheint mit 1.3. Effekt aber zu schwach. KI baut Ley Line Taps selbstständig. → Mana aus Intoxicants raus und nur noch in Stimulants (Kono: kein Rauschmittel), T-042.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-041 error.log: Mana-Obsession (Claude)
+
+
+
+
+
+
+
+- **Schritte:** Nach T-040 Claude Bescheid geben.
+
+
+
+
+
+
+
+- **Erwartet:** Keine Zeilen zu `common/pop_needs/va_pop_needs.txt`, `va_goods.txt`, `obsessions` in `va_elfen_cultures.txt` oder „unknown goods mana“.
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-042 Mana-Nachfrage verstärkt (VA-019)
+
+
+
+
+
+
+
+- **Schritte:** Wie T-040: Kampagne als Silvermoon, Marktfenster Mana (Nachfrage, Preis), Blutelfen-Pop → Bedürfnisse Intoxicants und Stimulants. Marktfenster Stormwind → Mana, Tea, Tobacco. 2 Jahre laufen lassen, Mana-Preis und Zahl der Ley Line Taps in Silvermoon ansehen.
+
+
+
+
+
+
+
+- **Erwartet:** Mana steht nur noch in Stimulants (neben Sugar, Tea, Coffee, Tobacco), nicht mehr in Intoxicants. Mana-Nachfrage in Silvermoon deutlich höher als in T-040, Preis über Grundpreis (40) oder zumindest klar über dem Minimum. Nebenwirkung: Auch Menschen u. a. kaufen spürbar Mana (Gewicht wie Tobacco). Kono notiert, ob das zu viel ist; dann sinkt das Grundgewicht wieder und die Elfen bekommen einen eigenen Hebel (Baustein 2).
+
+
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-10-30, Kono (Stand weight 0.8/min 0, dann auf 0.65/0.1 geändert): Stormwind 15 Mio. Einwohner, Mana-Bedarf 11; Silvermoon 5,1 Mio., Bedarf 11; beide Märkte ohne Mana-Angebot. Nachfrage passt, Angebot fehlt → Start-Ley-Line-Tap (T-043). Nebenbefund Test-Icon im Schiffsbau → VA-045.
+
+
+
+
+
+
+
+
+
+
+
+
+
+### T-043 Mana-Angebot zum Start (VA-019)
+
+
+
+
+
+- **Schritte:** Kampagne als Silvermoon. Staatenfenster Sunwell Plateau ansehen. Marktfenster Silvermoon → Mana (Angebot, Nachfrage, Preis). Marktfenster Stormwind → Mana. 1 Jahr laufen lassen, erneut ansehen.
+
+
+
+
+
+- **Erwartet:** Sunwell Plateau hat 1 Stufe Ley Line Tap (Silvermoon, PM Focus Crystals), voll besetzt (10.000 Sin'dorei im State, Bedarf 4.000 Arbeiter + 500 Akademiker). Silvermoon-Markt bietet ab Start bis zu 20 Mana an; die Nachfrage (Werte 0.65/0.1) liegt dort jetzt höher als 11, weil Angebot da ist. Überschuss geht über die Handelszentrale in andere Märkte, Stormwind importiert ggf. Mana. Preis nicht am Minimum.
+
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+### T-044 Todesschneise (VA-019)
+
+
+
+
+- **Schritte:** Kampagne als Silvermoon. Staatenfenster von Sunwell Plateau, Ruins of Silvermoon, West Sanctum, East Sanctum, Tranquillien und Deathholme öffnen (Modifier-Liste), Tooltip lesen. Zum Vergleich Silvermoon City, Sanctum of the Sun und Farstrider Retreat. Wo Ackerbau steht: Durchsatz ansehen.
+
+
+
+
+- **Erwartet:** Die sechs States tragen „The Dead Scar“ (Platzhalter-Icon Feuer): Ackerbau-Durchsatz −30 %, Infrastruktur −15 %, Baugeschwindigkeit −15 %. Zusätzlich „Shadow of the Dead Scar“ (Sterblichkeit +10 %, Migrationssog −50 %) **nur** dort, wo Lebende die Mehrheit stellen: Sunwell Plateau, Ruins of Silvermoon, West Sanctum, Silvermoons Teile von East Sanctum und Tranquillien, Tranquilliens Teil. **Nicht** in Deathholmes Teilen (Banshees). Andere States ohne Modifier. Wird der Zweitmodifier zum Start nicht gesetzt, aber nach einem Jahr schon, läuft nur die On-Action (dann Startaufruf prüfen). Kono notiert, ob die Auswahl der States und die Stärke passen.
+
+
+
+
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Untote Bereiche ohne Lebenden-Malus, Elfen-Bereiche mit. Effekte greifen gut. Infrastruktur auf −30 % erhöht (nur Wert, kein neuer Test nötig).
+
+
+
+
+
+
+
+
+
+### T-045 error.log: Mana-Angebot, Todesschneise (Claude)
+
+
+
+
+- **Schritte:** Nach T-043 und T-044 Claude Bescheid geben.
+
+
+
+
+- **Erwartet:** Keine Zeilen zu `building_leyline_tap` aus `history/buildings/26_*`, zu `va_dead_scar`, `va_quel_thalas_modifiers.txt`, `history/global/va_global_quel_thalas.txt` `va_quel_thalas_l_english.yml`, `va_undead_triggers.txt`, `va_undead_values.txt` (`total_size`, `this = cu:`), `va_quel_thalas_effects.txt`, `va_on_actions_quel_thalas.txt` oder `culture_percent_state`.
+
+
+
+
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+
+
+
+
+
+
+
+
+
+### T-046 Todesschneise bei Eroberung (VA-019)
+- **Schritte:** Kampagne als Silvermoon. Zum Start die sechs Schneisen-States wie in T-044 ansehen (beide Modifier wie vorher). Dann per Konsole oder Krieg einen Deathholme-Teil übernehmen, z. B. Deathholmes Teil von Tranquillien oder East Sanctum (`annex DEATHHOLME` oder Friedensvertrag). Direkt danach und nach 1 Monat den State ansehen.
+- **Erwartet:** Zum Start unverändert: „The Dead Scar“ auf allen sechs States, „Shadow of the Dead Scar“ nur bei Elfen-Mehrheit. Nach der Übernahme steht „The Dead Scar“ weiter auf dem State (auch wenn er mit dem Silvermoon-Teil verschmilzt). „Shadow of the Dead Scar“ passt sich sofort bzw. spätestens nach einem Monat an die neue Mehrheit an, nicht erst nach einem Jahr.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Anpassung nach Übernahme nahezu sofort.
+
+
+### T-047 Mana-Hunger als Journal Entry (VA-019)
+- **Schritte:** Kampagne als Silvermoon. **Sofort zum Start** das Journal öffnen (Innere Angelegenheiten), danach die Länder-Modifier. Dasselbe kurz für Tranquillien und Wretched (Länderfenster → Journal bzw. Modifier). Zum Vergleich Stormwind. Dann per Konsole oder Abriss den Ley Line Tap auf Sunwell Plateau entfernen bzw. Mana-Preis steigen lassen und 1–2 Monate warten.
+- **Erwartet:** „The Mana Hunger (AI WRITTEN)“ ist ab Tag 1 aktiv und angeheftet, die Beschreibung erklärt die drei Stufen mit Preisgrenzen. Die Statuszeile zeigt die aktuelle Stufe (grün Arcane Abundance, neutral Stable, rot Scarcity/Withdrawal) und passt zum Länder-Modifier. Stufen: ≤ 40 Arcane Abundance (Forschung +10 %, Lebensstandard +1), 41–49 keine, ≥ 50 Mana Scarcity (Lebensstandard −1, Radikale/Loyale aus Lebensstandard +10 %), ≥ 68 Mana Withdrawal (Lebensstandard −2, Radikale/Loyale +25 %, Sterblichkeit +5 %, Durchsatz −10 %). Wechsel spätestens einen Monat nach Preisänderung. Stormwind hat weder JE noch Modifier.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-10-30, Kono (Screenshot Highvale): JE aktiv, Status „Mana Withdrawal“ mit passenden Werten. Bedingungen zeigten „culture_this_equal has no localization“ → per `custom_tooltip` behoben, beim nächsten Start Tooltip erneut ansehen. `HIGHVALE_HIGHELFES_ADJ` ohne Loc → VA-006.
+
+### T-048 error.log: Mana-Abhängigkeit (Claude)
+- **Schritte:** Nach T-047 Claude Bescheid geben.
+- **Erwartet:** Keine Zeilen zu `va_mana_modifiers.txt`, `va_mana_triggers.txt`, `va_mana_effects.txt`, `journal_entries/va_mana.txt`, `je_mana_hunger`, `add_journal_entry`, `market_goods_pricier`, `market_capital` oder `mg:mana`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+

@@ -1,0 +1,55 @@
+﻿# Effekte zur Mana-Abhängigkeit (VA-019). Vorbild: market_goods_pricier in Vanilla journal_entries/00_corn_laws.txt.
+
+# Aufruf aus je_mana_hunger (journal_entries/va_mana.txt), monatlich.
+# Country-Scope: genau eine Mana-Stufe nach Preis im eigenen Markt vergeben, sonst keine.
+# market_goods_pricier ist der Anteil über Grundpreis; Vanilla deckelt bei +75 % (PRICE_RANGE).
+va_update_mana_dependency_effect = {
+	if = {
+		limit = {
+			va_country_mana_dependent_trigger = yes
+			market_capital.market = { mg:mana = { market_goods_pricier >= 0.7 } }
+		}
+		va_set_mana_stage_withdrawal_effect = yes
+	}
+	else_if = {
+		limit = {
+			va_country_mana_dependent_trigger = yes
+			market_capital.market = { mg:mana = { market_goods_pricier >= 0.25 } }
+		}
+		va_set_mana_stage_scarcity_effect = yes
+	}
+	else_if = {
+		limit = {
+			va_country_mana_dependent_trigger = yes
+			market_capital.market = { mg:mana = { NOT = { market_goods_pricier > 0 } } }
+		}
+		va_set_mana_stage_abundance_effect = yes
+	}
+	else = {
+		va_clear_mana_stages_effect = yes
+	}
+}
+
+va_set_mana_stage_abundance_effect = {
+	if = { limit = { has_modifier = va_mana_scarcity } remove_modifier = va_mana_scarcity }
+	if = { limit = { has_modifier = va_mana_withdrawal } remove_modifier = va_mana_withdrawal }
+	if = { limit = { NOT = { has_modifier = va_mana_abundance } } add_modifier = { name = va_mana_abundance } }
+}
+
+va_set_mana_stage_scarcity_effect = {
+	if = { limit = { has_modifier = va_mana_abundance } remove_modifier = va_mana_abundance }
+	if = { limit = { has_modifier = va_mana_withdrawal } remove_modifier = va_mana_withdrawal }
+	if = { limit = { NOT = { has_modifier = va_mana_scarcity } } add_modifier = { name = va_mana_scarcity } }
+}
+
+va_set_mana_stage_withdrawal_effect = {
+	if = { limit = { has_modifier = va_mana_abundance } remove_modifier = va_mana_abundance }
+	if = { limit = { has_modifier = va_mana_scarcity } remove_modifier = va_mana_scarcity }
+	if = { limit = { NOT = { has_modifier = va_mana_withdrawal } } add_modifier = { name = va_mana_withdrawal } }
+}
+
+va_clear_mana_stages_effect = {
+	if = { limit = { has_modifier = va_mana_abundance } remove_modifier = va_mana_abundance }
+	if = { limit = { has_modifier = va_mana_scarcity } remove_modifier = va_mana_scarcity }
+	if = { limit = { has_modifier = va_mana_withdrawal } remove_modifier = va_mana_withdrawal }
+}

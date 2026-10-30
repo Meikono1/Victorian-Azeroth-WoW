@@ -1,0 +1,24 @@
+﻿# Startzustand Quel'Thalas: Mana-JE und Todesschneise auf den States entlang von Arthas' Marsch zum Sonnenbrunnen, Auswahl Kono (VA-019).
+# Vorbild: Vanilla common/history/global/00_global.txt (add_modifier auf States) und state_region-Variablen in 00_code_on_actions.txt.
+GLOBAL = {
+	# Betroffene State-Regionen markieren; die Modifier setzt va_update_dead_scar_effect.
+	s:STATE_SUNWELL_PLATEAU = { set_variable = { name = va_dead_scar_region } }
+	s:STATE_RUINS_OF_SILVERMOON = { set_variable = { name = va_dead_scar_region } }
+	s:STATE_WEST_SANCTUM = { set_variable = { name = va_dead_scar_region } }
+	s:STATE_EAST_SANCTUM = { set_variable = { name = va_dead_scar_region } }
+	s:STATE_TRANQUILLIEN = { set_variable = { name = va_dead_scar_region } }
+	s:STATE_DEATHHOLME = { set_variable = { name = va_dead_scar_region } }
+
+	every_state = {
+		limit = {
+			state_region = { has_variable = va_dead_scar_region }
+		}
+		va_update_dead_scar_effect = yes
+	}
+
+	# Mana-Abhängigkeit ab Tag 1 sichtbar (VA-019)
+	every_country = {
+		limit = { va_country_mana_dependent_trigger = yes }
+		add_journal_entry = { type = je_mana_hunger }
+	}
+}

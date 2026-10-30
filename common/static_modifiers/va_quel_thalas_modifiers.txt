@@ -1,0 +1,17 @@
+﻿# State-Modifier der Todesschneise in Quel'Thalas (VA-019, Heilung per JE in VA-020).
+# Vorbild: Vanilla harvest_condition_types (Dürre, Missernte) und Seuchen-Modifier in 00_code_static_modifiers.txt.
+
+# Verdorbenes Land, trifft jeden State auf der Schneise.
+va_dead_scar = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Todesschneisen-Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.3
+	state_infrastructure_mult = -0.3
+	state_construction_mult = -0.15
+}
+
+# Folgen für Lebende. Nur solange die Untoten im State nicht die Mehrheit stellen (va_update_dead_scar_effect).
+va_dead_scar_living = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Todesschneisen-Icon (VA-027)
+	state_mortality_mult = 0.1
+	state_migration_pull_mult = -0.5
+}

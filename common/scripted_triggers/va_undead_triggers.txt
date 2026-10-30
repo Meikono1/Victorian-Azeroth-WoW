@@ -1,0 +1,22 @@
+﻿# Zentrale Liste der untoten Kulturen (VA-019). Alle Abfragen "ist untot?" laufen über diesen Trigger.
+# Vorbild: Kulturvergleich "this = cu:…" in Vanilla customizable_localization/99_ru_custom_loc.txt.
+# Neue untote Kultur: hier eintragen, sonst nirgends.
+
+# Culture-Scope: Die Kultur gehört zu den Untoten.
+va_is_undead_culture_trigger = {
+	OR = {
+		this = cu:banshee
+		this = cu:death_knight
+		this = cu:forsaken
+		this = cu:kvaldir
+		this = cu:zombie
+	}
+}
+
+# State-Scope: Untote stellen mindestens die Hälfte der Bevölkerung (Summe aller untoten Kulturen).
+va_state_undead_majority_trigger = {
+	custom_tooltip = {
+		text = va_state_undead_majority_trigger_tt
+		va_state_undead_share >= 0.5
+	}
+}

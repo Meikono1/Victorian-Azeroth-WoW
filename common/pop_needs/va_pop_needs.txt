@@ -1,12 +1,12 @@
-﻿# Mana als Rauschmittel-Bedürfnis, damit die feste Obsession der Blut- und Hochelfen (va_elfen_cultures.txt) Nachfrage erzeugt (VA-019).
-# Vorbild: Vanilla popneed_intoxicants, Eintrag opium (common/pop_needs/00_pop_needs.txt).
-# Niedriges Grundgewicht: andere Kulturen kaufen Mana nur nebenbei, Obsession hebt die Nachfrage.
-INJECT:popneed_intoxicants = {
+﻿# Mana als Stimulans, damit die feste Obsession der Blut- und Hochelfen (va_elfen_cultures.txt) Nachfrage erzeugt (VA-019).
+# Vorbild: Vanilla popneed_stimulants, Eintrag tobacco; Werte nach Kono: etwas weniger Gewicht, dafür Mindestnachfrage (common/pop_needs/00_pop_needs.txt).
+# Kein Rauschmittel (Entscheidung Kono). INJECT hängt den Eintrag an, die Vanilla-Einträge bleiben (T-040 bestätigt).
+INJECT:popneed_stimulants = {
 	entry = {
 		goods = mana
 
-		weight = 0.25
-		max_supply_share = 0.5
-		min_supply_share = 0.0
+		weight = 0.65
+		max_supply_share = 0.75
+		min_supply_share = 0.1
 	}
 }

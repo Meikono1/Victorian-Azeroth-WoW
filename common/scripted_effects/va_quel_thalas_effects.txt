@@ -1,0 +1,37 @@
+﻿# Effekte zur Todesschneise (VA-019). Vorbild: add_modifier/remove_modifier und state_region-Variablen in Vanilla common/on_actions/00_code_on_actions.txt (on_monthly_pulse_state).
+
+# State-Scope: Modifier der Todesschneise an State-Region und Bevölkerung anpassen.
+# Die Schneise hängt an der State-Region (Variable va_dead_scar_region), damit sie bei Eroberung oder neuen Teil-States erhalten bleibt.
+# Lebenden-Malus nur ohne untote Mehrheit. Heilung (VA-020) entfernt die Variable, dann fallen beide Modifier weg.
+va_update_dead_scar_effect = {
+	if = {
+		limit = {
+			state_region = { has_variable = va_dead_scar_region }
+		}
+		if = {
+			limit = { NOT = { has_modifier = va_dead_scar } }
+			add_modifier = { name = va_dead_scar }
+		}
+		if = {
+			limit = { NOT = { va_state_undead_majority_trigger = yes } }
+			if = {
+				limit = { NOT = { has_modifier = va_dead_scar_living } }
+				add_modifier = { name = va_dead_scar_living }
+			}
+		}
+		else_if = {
+			limit = { has_modifier = va_dead_scar_living }
+			remove_modifier = va_dead_scar_living
+		}
+	}
+	else = {
+		if = {
+			limit = { has_modifier = va_dead_scar }
+			remove_modifier = va_dead_scar
+		}
+		if = {
+			limit = { has_modifier = va_dead_scar_living }
+			remove_modifier = va_dead_scar_living
+		}
+	}
+}

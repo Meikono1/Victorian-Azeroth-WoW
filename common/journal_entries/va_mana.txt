@@ -1,0 +1,60 @@
+﻿# Dauer-JE Mana-Hunger: macht die Mana-Abhängigkeit der Blut- und Hochelfen sichtbar und vergibt monatlich die Stufe (VA-019).
+# Vorbild: Vanilla je_opium_obsession (journal_entries/00_opium_wars.txt), status_desc wie 00_antarctica.txt.
+# Ablauf: .claude/ablauf/silvermoon.md. Abschluss (Sunwell-Projekt) folgt mit VA-020.
+je_mana_hunger = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Mana-Icon (VA-027)
+
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		va_country_mana_dependent_trigger = yes
+	}
+
+	possible = {
+		va_country_mana_dependent_trigger = yes
+	}
+
+	immediate = {
+		va_update_mana_dependency_effect = yes
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			va_update_mana_dependency_effect = yes
+		}
+	}
+
+	invalid = {
+		NOT = { va_country_mana_dependent_trigger = yes }
+	}
+
+	on_invalid = {
+		va_clear_mana_stages_effect = yes
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_mana_hunger_status_withdrawal
+				trigger = { has_modifier = va_mana_withdrawal }
+			}
+			triggered_desc = {
+				desc = je_mana_hunger_status_scarcity
+				trigger = { has_modifier = va_mana_scarcity }
+			}
+			triggered_desc = {
+				desc = je_mana_hunger_status_abundance
+				trigger = { has_modifier = va_mana_abundance }
+			}
+			triggered_desc = {
+				desc = je_mana_hunger_status_stable
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 1000
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

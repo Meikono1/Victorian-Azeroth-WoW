@@ -1,6 +1,6 @@
 # VA-019: Quel'Thalas – Mana und Todesschneise (Grundbausteine)
 
-- **Status:** in Arbeit
+- **Status:** wartet (Spieltest)
 - **Typ:** content
 - **Priorität:** hoch
 - **Erstellt:** 2026-10-30
@@ -45,3 +45,40 @@ Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
   - Neu `common/pop_needs/va_pop_needs.txt`: `INJECT:popneed_intoxicants` mit Eintrag Mana (Gewicht 0.25, max. Anteil 0.5). Offen: ob `INJECT` den wiederholten Schlüssel `entry` anhängt oder alle Vanilla-Einträge ersetzt. Prüft T-040; ersetzt er, bleibt nur eine bewusste Vollkopie von `popneed_intoxicants` (dann unter „Bewusste Vanilla-Overrides“).
   - Nebenbefund: `quel_dorei` hat `tradition_magical_lowlands` doppelt in `traditions`.
   - Tests T-040, T-041. Danach Baustein 2 (Abhängigkeit, gestufte Modifier).
+- 2026-10-30, T-040 (Kono): `INJECT` hängt an, Vanilla-Rauschmittel bleiben. Effekt zu schwach. KI baut Ley Line Taps von selbst. Daraufhin `va_pop_needs.txt`: Intoxicants Gewicht 0.25 → 1, max. Anteil 0.5 → 0.75; neu Mana in `popneed_stimulants` (Gewicht 0.8 wie Tabak, Anteil 0.75). Folge: Auch andere Kulturen kaufen mehr Mana. Test T-042.
+- 2026-10-30: **Kono: Mana ist kein Rauschmittel**, nur Stimulans. Eintrag in `popneed_intoxicants` entfernt; bleibt `popneed_stimulants` (Gewicht 0.8, Anteil 0.75, min. 0). Hebel, falls weiter zu schwach: `min_supply_share` > 0 (Nachfrage auch ohne Angebot im Markt) oder Gewicht erhöhen.
+- 2026-10-30: Kono: `weight` 0.8 → 0.65, `min_supply_share` 0 → 0.1 (Mindestnachfrage auch ohne Angebot). Test T-042.
+- 2026-10-30, Kono: Bedarf Stormwind 11 (15 Mio. Einwohner), Silvermoon 11 (5,1 Mio.), beide ohne Angebot. Daher 1 Stufe `building_leyline_tap` (20 Mana) als Start-Gebäude auf `STATE_SUNWELL_PLATEAU` für `SILVERMOON` in `common/history/buildings/26_north_eastern_kingdoms.txt`. Test T-043.
+- 2026-10-30: **Todesschneise angelegt**, nicht getestet:
+  - `common/static_modifiers/va_quel_thalas_modifiers.txt`: `va_dead_scar` (Ackerbau-Durchsatz −0,3, Infrastruktur −15 %, Bau −15 %, Sterblichkeit +0,1, Migrationssog −50 %). Icon vorerst `modifier_fire_negative` (TODO, VA-027).
+  - `common/history/global/va_global_quel_thalas.txt`: setzt den Modifier zum Start dauerhaft auf `STATE_DEATHHOLME`, `STATE_SANCTUM_OF_SUN`, `STATE_TRANQUILLIEN`, `STATE_RUINS_OF_SILVERMOON` (Arthas' Weg zum Sonnenbrunnen). Kono bestätigt Auswahl/Stärke. Offen: ob ein zweiter `GLOBAL`-Block neben `00_global.txt` geladen wird (T-044).
+  - Loc `localization/replace/english/va_quel_thalas_l_english.yml`. Heilung (Entfernen per JE) kommt mit VA-020, Ausbreitung durch Deathholme mit VA-022.
+  - Tests T-044, T-045. Offen in diesem Ticket nur noch Baustein 2 (Abhängigkeit), Stufen/Werte warten auf Kono.
+- 2026-10-30, Kono: Todesschneise auf **Sunwell Plateau, Ruins of Silvermoon, West Sanctum, East Sanctum, Tranquillien, Deathholme** (Sanctum of the Sun raus). Umgesetzt in `va_global_quel_thalas.txt`.
+- 2026-10-30, Baustein 2 Vorschlag: Stufen nach Mana-Preis im eigenen Markt (Arkane Fülle ≤ Grundpreis, Knappheit ab +25 %, Mana-Entzug ab +70 %). Vanilla-Preis ist bei ±75 % gedeckelt, daher Entzug-Schwelle unter dem Maximum (Hinweis Kono). Werte noch nicht bestätigt.
+- 2026-10-30, Kono: **Untote leiden kaum unter der Todesschneise.** Aufgeteilt: `va_dead_scar` (Land: Ackerbau, Infrastruktur, Bau) auf allen sechs States; `va_dead_scar_living` (Sterblichkeit +0,1, Migrationssog −50 %) nur, wenn keine untote Kultur ≥ 50 % stellt (`va_state_undead_majority_trigger` in `common/scripted_triggers/va_quel_thalas_triggers.txt`, Kulturen banshee, death_knight, forsaken, kvaldir, zombie). Anpassung per `va_update_dead_scar_living_effect` (`common/scripted_effects/va_quel_thalas_effects.txt`) zum Start und jährlich über `on_yearly_pulse_state` (`common/on_actions/va_on_actions_quel_thalas.txt`). Grenze: Vic3 hat keine Sterblichkeit je Kultur, der Malus gilt also für alle Pops eines States, entschieden wird nach Mehrheit. Offen: ob `on_actions` in der eigenen Datei an Vanillas `on_yearly_pulse_state` angehängt wird (T-044).
+- 2026-10-30, Kono: **Feste Untoten-Liste.** `common/scripted_triggers/va_undead_triggers.txt`: `va_is_undead_culture_trigger` (Culture-Scope, Liste banshee, death_knight, forsaken, kvaldir, zombie) ist die einzige Stelle, an der untote Kulturen stehen. `va_state_undead_majority_trigger` fragt `va_state_undead_share` (neu `common/script_values/va_undead_values.txt`, summiert `total_size` aller untoten Pops / `state_population`) ≥ 0,5. Damit zählen gemischte Untote zusammen. `va_quel_thalas_triggers.txt` entfällt. Ungeprüft: `total_size` als Wert (Vanilla nutzt es so nicht, nur als Vergleich), T-044.
+- 2026-10-30: T-044 OK (Kono). Mehrheitsprüfung über `va_state_undead_share` funktioniert, damit auch `total_size` als Wert und der zweite `GLOBAL`-Block. Noch nicht belegt: die jährliche Nachprüfung per `on_actions` aus eigener Datei (zeigt sich erst bei Besitz- oder Bevölkerungswechsel). Infrastruktur der Todesschneise −0,15 → −0,3 (Kono). Offen im Ticket: Baustein 2 (Abhängigkeit), Stufen vorgeschlagen (Entzug ab +70 %).
+- 2026-10-30, Kono: Lebenden-Malus wechselte erst nach 11 Monaten (jährliche Prüfung zu langsam). Damit belegt: `on_actions` aus eigener Datei wird an Vanilla angehängt. Umbau:
+  - Schneise hängt jetzt an der **State-Region** (Variable `va_dead_scar_region`, gesetzt in `va_global_quel_thalas.txt`), nicht am State. So bleibt sie bei Eroberung, Verschmelzung und neuen Teil-States erhalten.
+  - `va_update_dead_scar_effect` (ersetzt `va_update_dead_scar_living_effect`) setzt/entfernt beide Modifier anhand der Variable und der Untoten-Mehrheit.
+  - Prüfung monatlich (`on_monthly_pulse_state`) und sofort bei `on_state_owner_change` und `on_state_created`. Die jährliche Prüfung entfällt. Heilung (VA-020) = Variable entfernen.
+  - Test T-046.
+- 2026-10-30, Kono: **Alle von Claude geschriebenen Texte mit `[AI WRITTEN]` markieren** (Ausnahme: Übersetzungen, die Kono vorgibt). In Loc-Dateien als Zeilenkommentar `# [AI WRITTEN]`, weil eckige Klammern im Text als Script-Funktion gelesen würden. Nachgetragen in `va_mana_l_english.yml` und `va_quel_thalas_l_english.yml`.
+- 2026-10-30, Kono: Markierung soll **im Spiel sichtbar** sein. Jetzt ` (AI WRITTEN)` am Ende jedes Claude-Textes statt Zeilenkommentar (Regel in `.claude/CLAUDE.md`).
+- 2026-10-30: T-046 OK (Kono): Anpassung nach Übernahme nahezu sofort.
+- 2026-10-30: **Baustein 2 (Abhängigkeit) angelegt**, nicht getestet. Stufen von Kono bestätigt:
+  - `common/static_modifiers/va_mana_modifiers.txt`: `va_mana_abundance` (Preis ≤ Grundpreis: Forschung +10 %, Lebensstandard +1), `va_mana_scarcity` (ab +25 %: Lebensstandard −1, `state_radicals_and_loyalists_from_sol_change_mult` +0,1), `va_mana_withdrawal` (ab +70 %: Lebensstandard −2, Radikale/Loyale +0,25, Sterblichkeit +0,05, Durchsatz −0,1).
+  - `common/scripted_triggers/va_mana_triggers.txt`: zentrale Liste `va_is_mana_dependent_culture_trigger` (sin_dorei, quel_dorei) und `va_country_mana_dependent_trigger` (Hauptkultur).
+  - `common/scripted_effects/va_mana_effects.txt`: `va_update_mana_dependency_effect` prüft `market_capital.market` → `mg:mana` → `market_goods_pricier`, vergibt genau eine Stufe.
+  - `common/on_actions/va_on_actions_mana.txt`: monatlich über `on_monthly_pulse_country`.
+  - Loc in `va_mana_l_english.yml` (AI WRITTEN). Icons vorerst Glühbirne/Feuer (VA-027).
+  - Einschränkung: Länder-Modifier wirken auf alle Pops des Landes, nicht nur auf Elfen (Vic3 kennt keine Kultur-Modifier). Für Silvermoon & Co. unkritisch, bei gemischten Ländern später prüfen.
+  - Tests T-047, T-048. Danach in VA-019 offen: nichts mehr außer Testbestätigung.
+- 2026-10-30, Kono: **Mana-Abhängigkeit muss ein Journal Entry sein**, ein reiner Modifier fällt erst nach vielen Stunden auf. Umgebaut:
+  - Neu `common/journal_entries/va_mana.txt`: Dauer-JE `je_mana_hunger` (Innere Angelegenheiten, angeheftet), aktiv für Länder mit Mana-abhängiger Hauptkultur, ab Spielstart per `add_journal_entry` in `va_global_quel_thalas.txt`. Vergibt die Stufe beim Start und monatlich, Statuszeile zeigt die aktuelle Stufe, Beschreibung erklärt die Preisgrenzen. Ungültig, wenn keine Mana-abhängige Hauptkultur mehr → Modifier weg.
+  - `common/on_actions/va_on_actions_mana.txt` gelöscht (JE übernimmt den Monatstakt).
+  - Ablaufdiagramm angelegt: `.claude/ablauf/silvermoon.md`. Abschluss per Sunwell-Projekt kommt mit VA-020.
+  - Loc in `va_mana_l_english.yml` (AI WRITTEN). JE-Icon vorerst `event_scales` (VA-027).
+- 2026-10-30: JE läuft (Kono, Highvale in „Mana Withdrawal“). Tooltip „culture_this_equal has no localization“ behoben: `va_country_mana_dependent_trigger` und `va_state_undead_majority_trigger` in `custom_tooltip` gekapselt (Loc `_tt`, AI WRITTEN). Regel für künftige Listen-Trigger mit `this = cu:`: immer per `custom_tooltip` kapseln, wenn sie in JE/Entscheidung sichtbar sind.
+- **Stand zum Session-Schnitt (2026-10-30):** VA-019 inhaltlich fertig (Mana-Gut, Leylinien, Obsession als Stimulans, Start-Tap, Todesschneise, Mana-JE). Offen: Spieltests T-041, T-043, T-045, T-047 (Tooltip), T-048; danach Ticket auf `erledigt`. Nächste Content-Schritte laut Fokus: VA-020 (übrige Silvermoon-Ziele, Ablauf in `.claude/ablauf/silvermoon.md`), optional Erklär-Event beim ersten „Mana Withdrawal“.

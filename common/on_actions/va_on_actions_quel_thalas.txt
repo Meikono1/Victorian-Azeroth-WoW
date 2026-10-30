@@ -1,0 +1,26 @@
+﻿# Prüfung der Todesschneise je State (VA-019): monatlich und sofort bei Besitzwechsel bzw. neuem State (Eroberung, Annexion).
+# Vorbild: Vanilla on_monthly_pulse_state, on_state_owner_change, on_state_created in common/on_actions/00_code_on_actions.txt.
+# Eigene Einträge werden über on_actions an die Vanilla-On-Actions angehängt (bestätigt in T-044).
+on_monthly_pulse_state = {
+	on_actions = {
+		va_on_state_dead_scar_check
+	}
+}
+
+on_state_owner_change = {
+	on_actions = {
+		va_on_state_dead_scar_check
+	}
+}
+
+on_state_created = {
+	on_actions = {
+		va_on_state_dead_scar_check
+	}
+}
+
+va_on_state_dead_scar_check = {
+	effect = { # prüft selbst, ob der State betroffen ist
+		va_update_dead_scar_effect = yes
+	}
+}
