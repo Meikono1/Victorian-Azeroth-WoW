@@ -1,0 +1,3 @@
+﻿# Abgeschaltet (VA-004): Vanilla setzt Fervor für Erde-Kulturen. Allgemeiner Teil in va_cultures.txt.
+CULTURES = {
+}

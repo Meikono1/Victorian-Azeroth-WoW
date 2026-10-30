@@ -1,0 +1,159 @@
+﻿# Grund-Fervor 5 für alle Kulturen zum Spielstart (VA-004). Vorbild: Vanilla common/history/cultures/00_cultures.txt.
+# Je Kultur ein eigener Eintrag: Die Vanilla-Schleife every_country/every_scope_culture greift zur History-Zeit nicht (T-034/T-035), nur cu:<kultur> wirkt.
+# Neue Kultur in common/cultures/ angelegt → hier ergänzen.
+# TODO: höhere Startwerte für einzelne Azeroth-Kulturen, wenn gewünscht.
+CULTURES = {
+	# va_arakkoa_cultures.txt
+	cu:arakkoa = { set_fervor = 5 }
+
+	# va_centaur_cultures.txt
+	cu:centaur = { set_fervor = 5 }
+
+	# va_demon_cultures.txt
+	cu:doom_guard = { set_fervor = 5 }
+	cu:imp = { set_fervor = 5 }
+	cu:nathrezim = { set_fervor = 5 }
+
+	# va_dragon_cultures.txt
+	cu:black_dragon = { set_fervor = 5 }
+	cu:blue_dragon = { set_fervor = 5 }
+	cu:bronze_dragon = { set_fervor = 5 }
+	cu:green_dragon = { set_fervor = 5 }
+	cu:nether_dragon = { set_fervor = 5 }
+	cu:red_dragon = { set_fervor = 5 }
+
+	# va_dwarf_cultures.txt
+	cu:bronzebeard = { set_fervor = 5 }
+	cu:darkiron = { set_fervor = 5 }
+	cu:wildhammer = { set_fervor = 5 }
+
+	# va_element_cultures.txt
+	cu:elemental_fire = { set_fervor = 5 }
+	cu:elemental_water = { set_fervor = 5 }
+
+	# va_elfen_cultures.txt
+	cu:fel_dorei = { set_fervor = 5 }
+	cu:kal_dorei = { set_fervor = 5 }
+	cu:quel_dorei = { set_fervor = 5 }
+	cu:shen_dralar = { set_fervor = 5 }
+	cu:sin_dorei = { set_fervor = 5 }
+
+	# va_eredar_cultures.txt
+	cu:draenei = { set_fervor = 5 }
+	cu:eredar = { set_fervor = 5 }
+	cu:krokul = { set_fervor = 5 }
+
+	# va_ethereal_cultures.txt
+	cu:ethereal = { set_fervor = 5 }
+
+	# va_furbolg_cultures.txt
+	cu:furbolg = { set_fervor = 5 }
+
+	# va_giant_cultures.txt
+	cu:magnaron = { set_fervor = 5 }
+	cu:mountain_giant = { set_fervor = 5 }
+	cu:fungul_giant = { set_fervor = 5 }
+
+	# va_gnoll_cultures.txt
+	cu:bluepelt = { set_fervor = 5 }
+	cu:emberhide = { set_fervor = 5 }
+	cu:mudmane = { set_fervor = 5 }
+
+	# va_gnome_cultures.txt
+	cu:gnome = { set_fervor = 5 }
+	cu:lepergnome = { set_fervor = 5 }
+
+	# va_goblin_cultures.txt
+	cu:goblin = { set_fervor = 5 }
+
+	# va_harpy_cultures.txt
+	cu:harpy = { set_fervor = 5 }
+
+	# va_human_cultures.txt
+	cu:alteraci = { set_fervor = 5 }
+	cu:dalaranian = { set_fervor = 5 }
+	cu:gilnean = { set_fervor = 5 }
+	cu:kul_tiran = { set_fervor = 5 }
+	cu:lordorean = { set_fervor = 5 }
+	cu:stormwindian = { set_fervor = 5 }
+
+	# va_kobold_cultures.txt
+	cu:kobold = { set_fervor = 5 }
+
+	# va_magnatour_cultures.txt
+	cu:magnatour = { set_fervor = 5 }
+
+	# va_murloc_cultures.txt
+	cu:murloc_gorloc = { set_fervor = 5 }
+	cu:coldwater_murloc = { set_fervor = 5 }
+	cu:warmwater_murloc = { set_fervor = 5 }
+
+	# va_naga_cultures.txt
+	cu:lestharian = { set_fervor = 5 }
+	cu:nazjatar = { set_fervor = 5 }
+
+	# va_nymph_cultures.txt
+	cu:crystalnymph = { set_fervor = 5 }
+	cu:dryad = { set_fervor = 5 }
+	cu:frostnymph = { set_fervor = 5 }
+
+	# va_ogre_cultures.txt
+	cu:desert_ogre = { set_fervor = 5 }
+	cu:mountain_ogre = { set_fervor = 5 }
+	cu:gorian_ogre = { set_fervor = 5 }
+	cu:hill_ogre = { set_fervor = 5 }
+	cu:gordunni_ogre = { set_fervor = 5 }
+	cu:jungle_ogre = { set_fervor = 5 }
+
+	# va_orc_cultures.txt
+	cu:felorc = { set_fervor = 5 }
+	cu:frostwolf = { set_fervor = 5 }
+	cu:maghar_orc = { set_fervor = 5 }
+	cu:mok_grondal = { set_fervor = 5 }
+	cu:nelghor_shomash = { set_fervor = 5 }
+	cu:orgrimmari = { set_fervor = 5 }
+
+	# va_podling_cultures.txt
+	cu:sporeling = { set_fervor = 5 }
+
+	# va_qiraji_cultures.txt
+	cu:qiraji = { set_fervor = 5 }
+
+	# va_quilboar_cultures.txt
+	cu:quilboar = { set_fervor = 5 }
+
+	# va_shu_halo_cultures.txt
+	cu:taunka = { set_fervor = 5 }
+	cu:tauren = { set_fervor = 5 }
+
+	# va_silithid_cultures.txt
+	cu:aqir = { set_fervor = 5 }
+
+	# va_trogg_cultures.txt
+	cu:trogg = { set_fervor = 5 }
+
+	# va_troll_cultures.txt
+	cu:dire_troll = { set_fervor = 5 }
+	cu:forest_troll = { set_fervor = 5 }
+	cu:frostmane_troll = { set_fervor = 5 }
+	cu:jungle_troll = { set_fervor = 5 }
+	cu:sand_troll = { set_fervor = 5 }
+
+	# va_tuskarr_cultures.txt
+	cu:tuskarr = { set_fervor = 5 }
+
+	# va_undead_cultures.txt
+	cu:banshee = { set_fervor = 5 }
+	cu:death_knight = { set_fervor = 5 }
+	cu:forsaken = { set_fervor = 5 }
+	cu:kvaldir = { set_fervor = 5 }
+	cu:zombie = { set_fervor = 5 }
+
+	# va_wildkin_cultures.txt
+	cu:moonkin = { set_fervor = 5 }
+	cu:owlkin = { set_fervor = 5 }
+
+	# va_worgan_cultures.txt
+	cu:alpha_pack = { set_fervor = 5 }
+	cu:tal_dorens = { set_fervor = 5 }
+}

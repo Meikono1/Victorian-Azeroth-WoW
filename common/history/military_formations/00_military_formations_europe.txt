@@ -1,22 +1,3 @@
-﻿MILITARY_FORMATIONS = {
-	c:SPA ?= {
-
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_iberia
-			name = Ejercito_del_Norte
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_VALENCIA
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_VALENCIA
-				count = 2
-			}
-		}
-	}
+﻿# Abgeschaltet (VA-004): Vanilla-Kopie mit Erde-Ländern.
+MILITARY_FORMATIONS = {
 }

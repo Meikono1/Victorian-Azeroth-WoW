@@ -30,52 +30,52 @@ Tickets: VA-015, VA-006, VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). 
 ### T-003 Stadt- und Hafenmarker sitzen sinnvoll
 - **Schritte:** Auf der Karte heranzoomen bei Gilneas City, The Headlands, Scholomance, Northgate Woods (Hafen) und Seradane.
 - **Erwartet:** Stadt, Farm, Mine, Holz und Hafen stehen jeweils im eigenen State, nicht im Wasser oder Gebirge. Northgate Woods hat einen Hafen an der Küste.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: noch grafische Fehler, wird später genauer angesehen. Hängt mit fehlenden impassable-Bergprovinzen zusammen (VA-037). Offen.
 
 ### T-004 Seradane und Scholomance
 - **Schritte:** Kartenmodus „States“ bzw. Mausover auf die Region zwischen Scholomance und Seradane (Hinterland).
 - **Erwartet:** Seradane umfasst das Gebiet des Emerald-Entrance-Landes und der Revantusk. Scholomance (Cult of the Damned) ist kleiner und **keine** Küstenregion mehr.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Scholomance ist keine Küste mehr.
 
 ### T-005 West Sanctum geteilt
 - **Schritte:** State West Sanctum anklicken.
 - **Erwartet:** Zwei Teilstaaten, Silvermoon und Grimscale-Murlocs. Keine Provinz flackert oder gehört beiden.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: geteilt in Elfen und Murlocs.
 
 ### T-006 Quel'Danas gehört Silvermoon
 - **Schritte:** Sun's Reach, Magisters' Terrace und Sunwell Plateau anklicken.
 - **Erwartet:** Besitzer Silvermoon, Bevölkerung Sin'dorei. Magisters' Terrace zeigt Gebirge/unpassierbare Provinzen, Sun's Reach nicht.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: stimmt. Bevölkerung noch Platzhalter (je 10.000 Sin'dorei in Sun's Reach, Magisters' Terrace, Sunwell Plateau) → VA-024.
 
 ### T-007 Hauptstädte
 - **Schritte:** Länderansicht bzw. Karte für die vier Länder öffnen.
 - **Erwartet:** Wildhammer → Aerie Peak, Wretched → Ruins of Silvermoon, Frostwolf Highlands → Tarren Mill, Shadowpine → Dawnstar Spire. Keine Hauptstadt liegt außerhalb des eigenen Gebiets.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
 
 ### T-008 Tranquillien
 - **Schritte:** Tranquillien in der Länderauswahl bzw. Länderansicht öffnen, Reiter „Politik/Gesetze“.
 - **Erwartet:** Gesetze wie bei Silvermoon gesetzt (u. a. Protektionismus, Pachtbauern, Sklaverei verboten), keine leeren oder ungültigen Gesetze.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
 
 ### T-009 Zul'Jarra
 - **Schritte:** Zul'Aman auf der Karte anklicken.
 - **Erwartet:** Das Land heißt „Zul'Jarra“ (Adjektiv „Zul'Jarran“), kein roher Key `AMANI_TRIBE`.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
 
 ### T-010 Ressourcen im neuen Format
 - **Schritte:** State Sunwell Plateau, Silvermoon City und Koroth Den öffnen, Bereich „Ressourcen/Potenziale“.
 - **Erwartet:** Ressourcen werden angezeigt (z. B. Eisen, Kohle, Holz, Fischerei, Farmen). Sunwell Plateau zeigt „Ley Line Tap“ mit 40, Silvermoon City mit 20.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono. Gebäudebild noch Kohlemine (Platzhalter, in VA-027 gelistet).
 
 ### T-011 Leylinien-Gebäude baubar
 - **Schritte:** Als Silvermoon in Silvermoon City „Ley Line Tap“ bauen. Nach Fertigstellung das Gebäude öffnen.
 - **Erwartet:** Baubar ohne Technologie. Produktionsmethode „Focus Crystals“, Verbrauch Werkzeug, Produktion Mana, Arbeiter und Akademiker als Belegschaft. Texte ohne rohe Keys. Icons sind Platzhalter (Kohlemine/Strom), das ist gewollt.
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: baubar, produziert Mana. Mana noch mit Strom-Icon (Platzhalter, VA-027).
 
 ### T-012 Mana am Markt
 - **Schritte:** Marktansicht von Silvermoon öffnen, Gut „Mana“ suchen.
 - **Erwartet:** Gut „Mana“ ist vorhanden, Angebot steigt nach T-011. Preis am Minimum ist **erwartet**, denn es gibt noch keine Abnehmer (VA-019).
-- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono.
 
 ---
 
@@ -158,6 +158,25 @@ Tickets: VA-002. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit den off
 
 ---
 
+## Runde 7 – Neue History-Ordner abgefangen (Stand 2026-10-30)
+
+Tickets: VA-004. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und 6 laufen. `mod\warcraft` neu befüllen (inkl. `.metadata/metadata.json`).
+
+### T-034 History-Ordner ohne Erde-Inhalte (VA-004)
+- **Schritte:** Kampagne starten. Bei Stormwind und Silvermoon im Politik-Fenster die politischen Bewegungen ansehen. Im Kulturfenster (z. B. Kultur von Stormwind) den Fervor ansehen.
+- **Erwartet:** Länder haben Start-Bewegungen (Royalisten, religiöse und kulturelle Mehrheit, ggf. Pro-Sklaverei). Kulturen haben Fervor ≥ 5. `error.log` ohne Zeilen aus `common/history/military_deployments/`, `common/history/diplomatic_plays/`, `common/history/governments/`, `common/history/cultures/00_cultures.txt`, `common/history/political_movements/00_movements.txt` und ohne neue Zeilen aus `va_movements.txt`, `va_cultures.txt`, `va_ai_strategy.txt` (Claude). Zeilen aus `history/conscription/` bleiben bis VA-003.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Bewegungen vorhanden. Fervor Blood Elf startet bei **0** (Ziel 7), `va_cultures.txt` greift also nicht → T-035. Log 18:21 (4 Dateien, 19.584 Zeilen, ab Ladebeginn): keine Zeilen mehr aus `military_deployments`, `diplomatic_plays`, `military_formations`, `governments`, `cultures`, `political_movements`, `ai`; nichts aus den neuen `va_`-Dateien. Übrig nur 2× `is_building_type` in `conscription/00_conscription_center.txt` (erwartet, VA-003).
+
+### T-035 Start-Fervor (VA-004)
+- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Kampagne starten (neu, kein Spielstand), im ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
+- **Erwartet:** Blood Elf 10 (Kontrollwert), Stormwindian und Bronzebeard 5. Auswertung: Blood Elf 10 und Rest 0 → Schleife über `every_country` greift nicht, Claude stellt auf Direktwerte je Kultur um. Alles 0 → Fervor-History wirkt gar nicht (zu früh/überschrieben). `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-10-30, Kono: Blood Elf 10, Stormwindian 0, Bronzebeard 0 → nur Direktaufruf `cu:` wirkt, Schleife nicht. Log 18:27 ohne Zeilen aus `history/cultures`. Umgestellt auf Direktwerte → T-036.
+
+### T-036 Start-Fervor je Kultur (VA-004)
+- **Schritte:** `common/history/cultures/va_cultures.txt` in `mod\warcraft` kopieren. Neue Kampagne starten, am ersten Tag pausiert lassen. Gesellschaft → Kulturen: Fervor („Current“) von Blood Elf (Silvermoon), Stormwindian (Stormwind) und Bronzebeard (Ironforge) ablesen.
+- **Erwartet:** Alle drei bei 5. `error.log` ohne Zeilen aus `va_cultures.txt` (Claude).
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: alle drei bei 5. Log 18:47 ohne Zeilen aus `history/cultures`.
+
 ## Runde 6 – Nord- und Mittel-EK: Start-Gebäude aufgefüllt (Stand 2026-10-30)
 
 Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5 und den offenen Tests aus Runde 1 laufen. `mod\warcraft` neu befüllen.
@@ -211,3 +230,36 @@ Tickets: VA-029. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Kann mit Runde 5
 - **Schritte:** Nach T-031 und T-032 Claude Bescheid geben.
 - **Erwartet:** Keine Zeilen zu `va_clothes_triggers.txt`, `european_clothes_trigger` oder `common/strategic_regions/`. Kein „Both levels and ownerships are undefined“ mehr aus `common/history/buildings/26_north_eastern_kingdoms.txt`. Keine „should be in utf8-bom“-Meldungen mehr für Mod-Dateien.
 - **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: Lauf 30.10. 17:50–17:52 (Repo = Mod-Ordner): nichts zu Kleidung oder Regionsfarben. Gefunden und behoben: 8 leere `add_ownership` in 26er Gebäuden (alt, schon im letzten Commit), fehlendes BOM in 70 Mod-Dateien (darunter die Strategic Regions). Nächster Lauf bestätigt die Fixes. Restbefunde → VA-043.
+
+## Runde 8 – Handelszentralen für den Weltmarkt (Stand 2026-10-30)
+
+Ticket: VA-040. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Stormwind** spielen.
+
+### T-037 Handel in Eastern Kingdoms (VA-040)
+- **Schritte:** Kampagne starten. In Stormwind, Undercity, Ironforge und Booty Bay im Staatenfenster der Hauptstadt die Handelszentrale ansehen. Handels-Lens bzw. Marktfenster von Stormwind öffnen (Importe/Exporte). 1 Jahr laufen lassen, dann erneut Handelsrouten und Food Security in Nord- und Süd-EK ansehen.
+- **Erwartet:** 46 EK-Länder haben eine Handelszentrale in der Hauptstadt (Stormwind, Undercity, Ironforge, Vashj'ir je 10 Stufen, Booty Bay 7, Silvermoon 5). Booty Bay und Hammerfall haben jetzt einen Hafen. Nach kurzer Zeit laufen Importe und Exporte, mindestens Getreide/Nahrung wird zwischen Märkten gehandelt. Länder mit Isolationismus (Amani, Defias, Murloc-Stämme u. a.) handeln weiterhin nicht. Merchant-Marine-Engpass in großen Zentralen möglich, Kono notiert ihn.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Handel sitzt, die Länder nutzen ihn. Nebenbefund: KI stapelt Construction Sector und Government Administration (Stormwind 40+ Aufträge), `building_paper_mills` ohne Loc → VA-044.
+
+### T-038 error.log: Handelszentralen, Verwaltung, Bausektor (Claude)
+- **Schritte:** Nach T-037 und T-039 Claude Bescheid geben.
+- **Erwartet:** Keine neuen Zeilen zu `building_trade_center`, `building_government_administration`, `building_construction_sector` oder deren PMs aus `common/history/buildings/26_*`, `27_*`, `28_*`.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: Log 30.10. 20:26 (`va_errlog.py`, 4 Dateien, 9.616 Einträge): keine Zeilen zu den drei Gebäuden oder aus `history/buildings/26–28`. Übrig nur bekannte Altlasten (VA-003, VA-026, VA-043).
+
+### T-039 Verwaltung und Bausektor zum Start (VA-044)
+- **Schritte:** Kampagne starten als Stormwind. Bürokratie (Länderübersicht) und Bauliste ansehen, Stormwind-Hauptstadt im Staatenfenster öffnen. Danach Ironforge und ein kleines Land (z. B. Menethil) ansehen. 2 Jahre laufen lassen, Bauliste von Stormwind und 2–3 KI-Ländern erneut ansehen.
+- **Erwartet:** Stormwind startet mit 21 Stufen Government Administration und 5 Stufen Construction Sector, Bürokratie nicht (stark) negativ. Die KI-Baulisten bestehen nicht mehr überwiegend aus Verwaltung und Bausektor. Papiermangel in der Verwaltung möglich (bekannt, VA-003), Kono notiert ihn.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-10-30, Kono: Verwaltung okay, nur wenige Stellen mit Mangel. Bausektor stapelt die KI weiterhin, liegt aber auch daran, dass es keine Probleme gibt, die Geld kosten (KI hat Überschuss und steckt ihn in Bau). Rest über Content (VA-034).
+
+## Runde 9 – Mana als Obsession der Elfen (Stand 2026-10-30)
+
+Ticket: VA-019. Lint vor Freigabe: 0 neue Fehler (2026-10-30). Zum Testen am besten als **Silvermoon** spielen.
+
+### T-040 Mana-Nachfrage durch Elfen (VA-019)
+- **Schritte:** Kampagne starten als Silvermoon. Kulturfenster `Sin'dorei` und `Quel'dorei` öffnen (Obsessionen). Marktfenster Silvermoon → Mana: Angebot, Nachfrage, Preis. Ein Pop der Blutelfen öffnen → Bedürfnis „Intoxicants“. Zum Vergleich Marktfenster Stormwind → Liquor/Tobacco. 1 Jahr laufen lassen, Mana-Preis erneut ansehen.
+- **Erwartet:** Beide Elfenkulturen haben die Obsession Mana. Mana hat im Silvermoon-Markt Pop-Nachfrage, der Preis liegt nicht mehr am Minimum. Im Bedürfnis Intoxicants steht Mana **zusätzlich** zu Liquor, Tobacco, Opium und Wine (wichtig: `INJECT` darf die Vanilla-Einträge nicht ersetzen; in Stormwind wird weiter Liquor/Tobacco konsumiert). Andere Kulturen kaufen Mana höchstens in kleinen Mengen.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-041 error.log: Mana-Obsession (Claude)
+- **Schritte:** Nach T-040 Claude Bescheid geben.
+- **Erwartet:** Keine Zeilen zu `common/pop_needs/va_pop_needs.txt`, `va_goods.txt`, `obsessions` in `va_elfen_cultures.txt` oder „unknown goods mana“.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:

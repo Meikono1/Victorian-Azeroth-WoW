@@ -34,3 +34,4 @@ Normaler Zeitplan der Eventgruppen (Jahre nach Spielbeginn):
 - Multiplayer: Wer darf entscheiden? Vorschlag: nur der Host bzw. das erste Spielerland.
 
 - 2026-10-30 (Kono): Vor den globalen Eventgruppen bekommt jedes relevante Land 25–40 Jahre Journal Entries (Partie: 100 Jahre). Die Zeitpunkte der Eventgruppen oben sollten dazu passen, also die erste globale Gruppe frühestens ab etwa +25 Jahren. Ablaufdiagramme je Land unter `.claude/ablauf/` (Regel in `.claude/CLAUDE.md`, Content-Ablauf Punkt 5).
+- 2026-10-30 (aus VA-044): Kono beobachtet, dass der KI Geldabflüsse fehlen. Ohne Probleme, die Geld kosten, steckt sie den Überschuss in Bausektoren. Eventgruppen sollten auch Kosten bringen (Wiederaufbau, Seuchen, Kriegsfolgen, Unterhalt).

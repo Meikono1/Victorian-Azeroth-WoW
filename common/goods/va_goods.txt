@@ -10,5 +10,5 @@ mana = {
 	convoy_cost_multiplier = 0.5
 
 	consumption_tax_cost = 150
-	# TODO: obsession_chance und Aufnahme in Pop-Bedürfnisse (Sin'dorei-Sucht, VA-019/VA-021)
+	obsession_chance = 0.5 # niedrig: feste Obsession nur bei sin_dorei/quel_dorei (va_elfen_cultures.txt), andere Kulturen sollen sie kaum entwickeln
 }

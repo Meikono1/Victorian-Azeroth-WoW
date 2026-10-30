@@ -13,3 +13,4 @@ Für die 319 Tags in `common/country_definitions/VA_eastern_kingdom.txt`, `VA_ka
 
 - 2026-10-30: Datei `localization/replace/english/va_countries_l_english.yml` angelegt. Bisher nur `AMANI_TRIBE` = „Zul'Jarra“ (Lore-Name bis zur Reichsgründung, Entscheidung Kono).
 - 2026-10-30: Testfälle im [Testprotokoll](../TESTPROTOKOLL.md), Runde 1: T-009.
+- 2026-10-30: T-009 OK (Zul'Jarra korrekt). Rest des Tickets weiter offen.

@@ -1,0 +1,71 @@
+﻿# Start-Bewegungen für alle Länder (VA-004). Vorbild: Vanilla common/history/political_movements/00_movements.txt (allgemeiner every_country-Teil, ohne Erde-Länder und deutsche/italienische Nationalbewegung).
+POLITICAL_MOVEMENTS = {
+	every_country = {
+		limit = { NOT = { is_country_type = decentralized } }
+		### Royalisten
+		if = {
+			limit = {
+				has_law = law_type:law_monarchy
+				country_has_voting_franchise = no
+			}
+			create_political_movement = { type = movement_royalist_absolutist }
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_monarchy
+				country_has_voting_franchise = yes
+			}
+			create_political_movement = { type = movement_royalist_constitutional }
+		}
+
+		### Liberale
+		if = {
+			limit = {
+				has_technology_researched = democracy
+				OR = {
+					has_law_or_variant = law_type:law_landed_voting
+					has_law_or_variant = law_type:law_wealth_voting
+					has_law_or_variant = law_type:law_census_voting
+					has_law_or_variant = law_type:law_universal_suffrage
+					has_law_or_variant = law_type:law_presidential_republic
+					has_law_or_variant = law_type:law_parliamentary_republic
+				}
+				country_should_exclusively_focus_on_modernization = no
+			}
+			create_political_movement = { type = movement_liberal }
+		}
+
+		### Arbeiterbewegung
+		if = {
+			limit = {
+				has_technology_researched = labor_movement
+			}
+			create_political_movement = { type = movement_labor }
+		}
+
+		### Sklaverei
+		if = {
+			limit = {
+				NOT = { has_law_or_variant = law_type:law_slavery_banned }
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_law_or_variant = law_type:law_colonial_slavery
+					}
+				}
+				create_political_movement = { type = movement_pro_slavery }
+			}
+			if = {
+				limit = {
+					has_technology_researched = empiricism
+				}
+				create_political_movement = { type = movement_anti_slavery }
+			}
+		}
+
+		### Religion und Kultur der Mehrheit
+		create_political_movement = { type = movement_religious_majority }
+		create_political_movement = { type = movement_cultural_majority }
+	}
+}

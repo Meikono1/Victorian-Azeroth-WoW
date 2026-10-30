@@ -19,7 +19,7 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-001](VA-001-spielstart-error-log.md) | Spielstart mit Mod und error.log auswerten | technik | hoch | in Arbeit |
 | [VA-002](VA-002-replace-paths-verschlanken.md) | replace_paths verschlanken | technik | hoch | in Arbeit |
 | [VA-003](VA-003-vanilla-kopien-pruefen.md) | Verbleibende Vanilla-Kopien abbauen | aufraeumen | hoch | in Arbeit |
-| [VA-004](VA-004-neue-vanilla-history.md) | Neue Vanilla-History-Ordner abfangen | technik | mittel | offen |
+| [VA-004](VA-004-neue-vanilla-history.md) | Neue Vanilla-History-Ordner abfangen | technik | mittel | erledigt |
 | [VA-005](VA-005-spielversion-1-13.md) | supported_game_version auf 1.13 setzen | technik | mittel | erledigt |
 | [VA-006](VA-006-laendernamen-loc.md) | Lokalisierung der Ländernamen | content | hoch | offen |
 | [VA-007](VA-007-gilneas-loc.md) | Gilneas-Inhalt lokalisieren | content | mittel | offen |
@@ -55,7 +55,8 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-037](VA-037-ek-impassable-port.md) | Eastern Kingdoms – falsche impassable- und port-Einträge entfernen | bug | hoch | offen |
 | [VA-038](VA-038-kalimdor-sanierung.md) | Kalimdor von Grund auf sanieren (Provinzen und States) | technik | hoch | in Arbeit |
 | [VA-039](VA-039-states-aus-malkarte.md) | Werkzeug – States aus einer gemalten State-Karte erzeugen | technik | hoch | verworfen |
-| [VA-040](VA-040-weltmarkt-handel.md) | Weltmarkt – kein Land handelt | bug | hoch | offen |
+| [VA-040](VA-040-weltmarkt-handel.md) | Weltmarkt – kein Land handelt | bug | hoch | erledigt |
 | [VA-041](VA-041-scarlet-empire.md) | Scarlet Crusade → Scarlet Empire | content | mittel | offen |
 | [VA-042](VA-042-portraits-kleidung-kartenfarben.md) | Charakter-Kleidung (Lumpen) und Kartenfarben der Regionen | grafik | mittel | in Arbeit |
 | [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | offen |
+| [VA-044](VA-044-ki-verwaltung-bausektor.md) | KI stapelt Verwaltung und Bausektoren – Start-Gebäude fehlen | bug | hoch | erledigt |

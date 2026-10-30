@@ -27,6 +27,7 @@ Vorschlag zum Vorgehen: erst eine Übersichtstabelle (State, Besitzer, Pops, Kul
 - Größte States: Undercity 3,5 Mio., Zul'Aman 3,05 Mio., Gilneas City 2,76 Mio., **Archerus 2,55 Mio.** (Ebon Hold, Lore eher klein), New Avalon 2,34 Mio., Jintha'Alor 2,01 Mio.
 - Kleinste: Sun's Reach, Magisters' Terrace, Sunwell Plateau je 10.000 (Platzhalter aus der Quel'Danas-Übernahme), Fenris Isle 280.000.
 - Ohne Start-Gebäude: Sun's Reach, Magisters' Terrace, Sunwell Plateau, Stratholme, Aerie Peak.
+- 2026-10-30 (T-006): Kono bestätigt, Quel'Danas hat noch die Platzhalter-Bevölkerung (je 10.000).
 - Archerus: Laufzeitfehler `Tried to create building of Type building_company_basic_fishing … in State 'Archerus', but such a building already exists` (mehrfach). Der Fischkai in der Gebäude-History hat Firmenbesitz `building_company_basic_fishing` – prüfen, ob die Firma dort zusätzlich ihr HQ bauen will; ggf. auf Länderbesitz umstellen.
 - `STATE_STORMGARDE_KEEP`: 18 Provinzen gehören `STEAMWHEEDLE_CARTEL` (aus VA-015 offen).
 

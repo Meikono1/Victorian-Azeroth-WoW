@@ -34,7 +34,14 @@ Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
 - **Offen (präzisiert unten, 2026-10-30):** Nachfrage fehlt noch. Ohne Abnehmer fällt der Mana-Preis auf das Minimum → als Nächstes Pop-Bedürfnis/Obsession (Sin'dorei) oder erste Mana-verbrauchende PMs. Leylinien außerhalb Nord-EK (Karazhan, Kalimdor, Northrend …) später.
 - 2026-10-30: **Kono: Verteilung passt fürs Erste.** Verbrauch kommt später über (a) Produktionsmethoden, die Mana verbrauchen, und (b) die Bevölkerung der Blutelfen (`sin_dorei`) und Hochelfen (`quel_dorei`), also Pop-Bedürfnis/Obsession. Beides ist noch nicht gebaut. Nächster Schritt in diesem Ticket: Todesschneise (`va_dead_scar`).
 - 2026-10-30: Testfälle im [Testprotokoll](../TESTPROTOKOLL.md), Runde 1: T-010 bis T-012.
+- 2026-10-30: T-010 bis T-012 OK. Ley Line Tap baubar, Mana am Markt. Gebäude-Icon (Kohlemine) und Mana-Icon (Strom) noch Platzhalter, in VA-027 gelistet.
 - 2026-10-30: **Nachfrage präzisiert (Kono):** Mana ist für Blutelfen (`sin_dorei`) und Hochelfen (`quel_dorei`) eine **Obsession** (wie Opium/Tee in Vanilla). Zusätzlich eine **Abhängigkeit**: Je nach Mana-Zugang gibt es Mali oder Boni.
   - Baustein 1, Obsession: In den beiden Kulturen `obsessions = { mana }` eintragen, beim Gut `obsession_chance` setzen und Mana in ein Pop-Bedürfnis aufnehmen. Vorbilder: Vanilla `opium` in `00_goods.txt`, Kultur-`obsessions` in `common/cultures/`, `common/pop_needs/00_pop_needs.txt`. Syntax vor dem Schreiben in Vanilla 1.13 und der Script-Doku prüfen.
   - Baustein 2, Abhängigkeit: Mana-Versorgung der Elfen-Pops bzw. des Markts monatlich auswerten und gestufte Modifier vergeben, z. B. Mangel → Malus (Zustimmung, Arbeitsleistung, Radikale; Richtung „Wretched“, VA-021), gute Versorgung → Bonus. Vorbild für die Mechanik suchen: Marktknappheit-Trigger plus Modifier über On-Action oder JE-Pulse. Stufen und Werte mit Kono abstimmen.
   - Reihenfolge: zuerst Baustein 1 (damit der Mana-Preis nicht mehr am Minimum liegt), dann Baustein 2. Die Todesschneise bleibt in diesem Ticket offen.
+- 2026-10-30: **Baustein 1 (Obsession) angelegt**, nicht getestet:
+  - `common/cultures/va_elfen_cultures.txt`: `obsessions = { mana }` bei `quel_dorei` und `sin_dorei`.
+  - `common/goods/va_goods.txt`: `obsession_chance = 0.5` (niedrigste Vanilla-Stufe, damit andere Kulturen Mana kaum als dynamische Obsession bekommen).
+  - Neu `common/pop_needs/va_pop_needs.txt`: `INJECT:popneed_intoxicants` mit Eintrag Mana (Gewicht 0.25, max. Anteil 0.5). Offen: ob `INJECT` den wiederholten Schlüssel `entry` anhängt oder alle Vanilla-Einträge ersetzt. Prüft T-040; ersetzt er, bleibt nur eine bewusste Vollkopie von `popneed_intoxicants` (dann unter „Bewusste Vanilla-Overrides“).
+  - Nebenbefund: `quel_dorei` hat `tradition_magical_lowlands` doppelt in `traditions`.
+  - Tests T-040, T-041. Danach Baustein 2 (Abhängigkeit, gestufte Modifier).

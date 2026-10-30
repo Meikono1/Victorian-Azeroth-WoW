@@ -29,3 +29,4 @@ Aus `mod\warcraft` übernommen (dort neuer als im Repo): `common/history/states/
 - Die Provinzen von `STATE_TEST` und Gnarlpine Hold hat Kono selbst erledigt. Die Splitter-States im Süden bleiben vorerst liegen und schaden nicht, solange niemand sie benutzt.
 - Kono zeichnet Kalimdor selbst neu. Ein generierter Stand würde nicht zur Heightmap und zu den Texturen passen (VA-039 verworfen). Das läuft nebenbei, der Fokus liegt auf EK.
 - Start-Gebäude für Kalimdor (VA-029, Regionen 23–25) erst nach dem Neuzeichnen. Der Probelauf für 24 und die Profile `_ZENTRAL_KALIMDOR` bleiben liegen.
+- Nach dem Neuzeichnen (aus VA-040/VA-044): Start-Gebäude nachziehen, je zuerst als Probelauf ohne `--apply`: `va_add_ports.py 23 24 25`, `va_add_trade_centers.py 23 24 25`, `va_add_gov_buildings.py 23 24 25`.

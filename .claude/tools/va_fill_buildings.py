@@ -73,6 +73,7 @@ PMS = {
     "building_livestock_ranch": '"pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"',
     "building_fishing_wharf": '"pm_simple_fishing" "pm_unrefrigerated"',
     "building_port": '"pm_basic_port"',
+    "building_trade_center": '"pm_trade_center_trade_quantity_normal"',  # wie Vanilla-History (VA-040)
     "building_whaling_station": '"pm_simple_whaling" "pm_unrefrigerated"',
     "building_logging_camp": '"pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"',
     "mine": '"pm_picks_and_shovels_{b}" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"',

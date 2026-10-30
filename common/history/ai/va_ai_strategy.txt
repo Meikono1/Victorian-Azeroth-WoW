@@ -1,0 +1,21 @@
+﻿# Start-Strategie der KI für Subjects nach Liberty Desire (VA-004). Vorbild: Vanilla common/history/ai/00_strategy.txt (allgemeiner Teil, ohne Erde-Länder).
+AI = {
+	every_country = {
+		limit = { is_subject = yes }
+		if = {
+			limit = { liberty_desire >= 80 }
+			set_strategy = ai_strategy_subject_break_free
+		}
+		else_if = {
+			limit = { liberty_desire >= 60 }
+			set_strategy = ai_strategy_subject_strengthen_self
+		}
+		else_if = {
+			limit = { liberty_desire <= 20 }
+			set_strategy = ai_strategy_subject_overlord_compliance
+		}
+		else = {
+			set_strategy = ai_strategy_subject_maintain_autonomy
+		}
+	}
+}

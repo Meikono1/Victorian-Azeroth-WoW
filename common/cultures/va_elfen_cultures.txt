@@ -168,6 +168,7 @@ quel_dorei  = {
 	religion = holy_light
 	heritage = elf_heritage
 	language = language_elfen
+	obsessions = { mana }	# Mana-Sucht (VA-019)
 	traditions = { tradition_magical_lowlands tradition_magical_lowlands }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren
@@ -365,6 +366,7 @@ sin_dorei = {
 	religion = holy_light
 	heritage = elf_heritage
 	language = language_elfen
+	obsessions = { mana }	# Mana-Sucht (VA-019)
 	traditions = { tradition_magical_lowlands tradition_ancient_forest tradition_haunted_forest }
 	male_common_first_names={
 		Aelar Aeltheron Alandor Alarien Altheron Amareth Anarith Anetheron Anvarion Aranarth Arelion Arkenor Arlinor Arthion Asandor Auren

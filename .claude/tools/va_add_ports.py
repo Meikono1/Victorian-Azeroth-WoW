@@ -22,7 +22,7 @@ from pathlib import Path
 sys.dont_write_bytecode = True  # kein __pycache__ im Repo
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # -I nimmt das Skriptverzeichnis aus sys.path
 from va_fill_buildings import entry, insert, without_tech
-from va_region_overview import rows
+from va_region_overview import building_levels, by_state, rows
 from va_script import REPO
 
 log = logging.getLogger("va_add_ports")
@@ -51,14 +51,15 @@ def capitals():
 def plan(targets):
     """Land → (Präfix, State, Stufen); nur Küsten-States in den Regionen targets."""
     prefixes = sorted({f.name[:2] for f in (REPO / "map_data/state_regions").glob("[23]?_*.txt")})
-    pops, has_port = Counter(), set()
+    pops = Counter()
+    # Hafen je Land, nicht je State: sonst zählt der Hafen eines Nachbarn im geteilten State mit (Steamwheedle, VA-040)
+    has_port = {tag for by_tag in by_state("common/history/buildings", "BUILDINGS").values()
+                for tag, block in by_tag.items() if building_levels(block).get("building_port")}
     coastal = defaultdict(list)  # Land → [(eigene Pops, State, Präfix)]
     for p in prefixes:
         _, data = rows(p)
         for r in data:
             pops.update(r["owners"])
-            if r["levels"].get("building_port"):
-                has_port.update(r["owners"])
             if r["coastal"] and p in targets:
                 for tag in r["created"]:
                     coastal[tag].append((r["owners"].get(tag, 0), r["state"], p))

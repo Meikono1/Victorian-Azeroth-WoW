@@ -1,0 +1,3 @@
+﻿# Abgeschaltet (VA-004): Vanilla mit Erde-Ländern und -Kulturen. Allgemeiner Teil in va_movements.txt.
+POLITICAL_MOVEMENTS = {
+}

@@ -31,3 +31,4 @@ Prüfung: `python -I .claude/tools/va_check_states.py 26` (geht auch für andere
 - Gleiche Platzhalter-Hauptstädte gibt es auch bei Ländern außerhalb Nord-EK (`STATE_BAMBALA` 3×, `STATE_WITHERBARK_VILLAGE` 2×, `STATE_HEADLAND`, `STATE_ULDAMAN`) → mit `va_check_states.py 27`/`28` prüfen.
 - Gebäude-History nutzt noch den alten Gebäudebestand (VA-003). Die PM-Prüfung im Skript läuft gegen den aktuell geladenen Stand und meldet für Nord-EK nichts.
 - 2026-10-30: Testfälle im [Testprotokoll](../TESTPROTOKOLL.md), Runde 1: T-001 bis T-010.
+- 2026-10-30 Spieltest: T-001, T-002, T-004 bis T-010 OK. **Offen: T-003** (Stadt-/Hafenmarker), Kono sieht es sich später an; grafische Fehler hängen an nicht impassable gesetzten Bergprovinzen (VA-037). Ticket bleibt bis dahin `wartet`.
