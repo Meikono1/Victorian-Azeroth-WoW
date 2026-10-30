@@ -5,7 +5,5 @@
 	generated_content=yes
 	layer="forestry_dynamic"
 	pdxmesh="french_forestry_scatter_01_mesh"
-	count=2
-	transform="4084.600586 0.000000 2565.010742 0.000000 0.301323 0.000000 -0.953522 0.000000 0.000000 0.000000
-4148.600586 0.000000 2565.010742 0.000000 0.649054 0.000000 -0.760743 0.000000 0.000000 0.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/french_dynamic_forestry_objects_generator_1_0.bin"
+}

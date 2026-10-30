@@ -1,0 +1,71 @@
+tuskarr = {
+	color = rgb { 51 156 142 }
+	religion = tayutka
+	heritage = tuskarr_heritage
+	language = language_humanoid
+	traditions = { tradition_kaluak }
+	male_common_first_names={
+		Agloolik Akiaruk Akiun Alornerk Aluyk Anuniaq Arrluk Arvik
+		Babunituk Beks Bo Bukarakikk
+		Daruk
+		Etaruk
+		Gotuk Grak’i
+		Haaik Haruqti
+		Ijap Iki Iruk
+		Janatak Jinkutuk
+		Karuk Kurr Korvik
+		Lani Lukoturukk
+		Moruk Murik
+		Nagojut Norukk
+		Taruka
+		Yotimo
+	}
+	female_common_first_names = {
+		Akilna Aluyra Anuva
+		Beyra Binata Brylla
+		Chyra Corlika
+		Deyna Dulima
+		Eryka Elunai
+		Feyra Finuta
+		Gryna Gulira
+		Haelmi Horyna
+		Ilura Inaya
+		Jeyra Jolima
+		Kaluna Kyrra
+		Loryna Lunaka
+		Meyri Molika
+		Nayra Norimi
+		Oryna Ovlika
+		Peyla Pryna
+		Quyra Qiluna
+		Ranya Riluna
+		Seyra Sylimi
+		Talyra Tiruna
+		Ulyra Umika
+		Veyra Vornika
+		Weyna Wylira
+		Yaluna Ysmira
+		Zeyra Zorina
+	}	
+	common_last_names={
+		Bearhunter
+		Clamdiver
+		Deepcurrent
+		Eaglecaller
+		Frostbloom
+		Harpoonhand
+		Icebloom Icespear
+		Kaldrunner
+		Lobstercaller
+		Moosechaser
+		Netcaster
+		Oarfisher Otterfriend
+		Sealbreaker Seafur Snowstrider Spearfang Stoneharpoon Stormchaser
+		Tidewalker
+		Walrusfang Wavebinder Whalecaller Winterhide
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

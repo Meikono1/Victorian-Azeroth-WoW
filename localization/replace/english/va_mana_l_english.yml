@@ -1,0 +1,12 @@
+﻿l_english:
+  mana: "Mana"
+  bg_leyline_tapping: "Ley Line Taps"
+  building_leyline_tap: "Ley Line Tap"
+  building_leyline_tap_desc: "Arcane energy is drawn from the ley lines running beneath the land and condensed into usable mana."
+  pmg_base_building_leyline_tap: "Ley Line Focus"
+  pm_focus_crystals_building_leyline_tap: "Focus Crystals"
+  goods_output_mana_add: "Mana output"
+  goods_output_mana_add_desc: "The amount of Mana produced by buildings"
+  goods_input_mana_add: "Mana input"
+  goods_input_mana_add_desc: "The amount of Mana consumed by buildings"
+  building_leyline_tap_throughput_add: "$building_leyline_tap$ building [concept_throughput]"

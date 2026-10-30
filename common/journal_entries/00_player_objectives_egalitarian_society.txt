@@ -5,23 +5,23 @@
 	group = je_group_objectives
 
 	complete = {
-		ig:ig_intelligentsia = {
+		ig:ig_intelligentsia ?= {
 			is_powerful = yes
 			is_in_government = yes
 		}
 	}
-	
+
 	on_complete = {
 		hidden_effect = {
 			owner = {
-				start_tutorial_lesson = { 
+				start_tutorial_lesson = {
 					tutorial_lesson = liberalizing_the_government_complete
 					journal_entry = je:je_objective_encourage_liberal_ideas
 				}
 			}
 		}
 	}
-		
+
 	weight = 1000
 	transferable = yes
 }
@@ -31,9 +31,9 @@ je_liberate_the_slaves = {
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	group = je_group_objectives
-	
+
 	complete = {
-		has_law = law_type:law_slavery_banned
+		has_law_or_variant = law_type:law_slavery_banned
 	}
 
 	weight = 1003
@@ -45,12 +45,12 @@ je_pass_laws = {
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	group = je_group_objectives
-	
+
 	complete = {
-		NOT = { has_law = law_type:law_state_religion }
-		has_law = law_type:law_multicultural
-		has_law = law_type:law_public_schools
-		has_law = law_type:law_protected_speech
+		NOT = { has_law_or_variant = law_type:law_state_religion }
+		has_law_or_variant = law_type:law_multicultural
+		has_law_or_variant = law_type:law_public_schools
+		has_law_or_variant = law_type:law_protected_speech
 	}
 
 	is_progressing = {
@@ -72,7 +72,7 @@ je_public_services = {
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	group = je_group_objectives
-	
+
 	complete = {
 		institution_investment_level = {
 			institution = institution_schools
@@ -103,17 +103,17 @@ je_public_services = {
 
 	invalid = {
 		OR = {
-			NOT = { has_law = law_type:law_multicultural }
-			NOT = { has_law = law_type:law_public_schools }
-			NOT = { has_law = law_type:law_protected_speech }
-			has_law = law_type:law_state_religion
+			NOT = { has_law_or_variant = law_type:law_multicultural }
+			NOT = { has_law_or_variant = law_type:law_public_schools }
+			NOT = { has_law_or_variant = law_type:law_protected_speech }
+			has_law_or_variant = law_type:law_state_religion
 		}
 	}
 
 	on_invalid = {
 		remove_active_objective_subgoal = sg_public_services
 	}
-	
+
 	weight = 1002
 	transferable = yes
 }
@@ -123,10 +123,10 @@ je_women_and_children = {
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	group = je_group_objectives
-	
+
 	complete = {
-		has_law = law_type:law_compulsory_primary_school
-		has_law = law_type:law_womens_suffrage
+		has_law_or_variant = law_type:law_compulsory_primary_school
+		has_law_or_variant = law_type:law_womens_suffrage
 	}
 
 	is_progressing = {
@@ -138,17 +138,17 @@ je_women_and_children = {
 
 	invalid = {
 		OR = {
-			NOT = { has_law = law_type:law_multicultural }
-			NOT = { has_law = law_type:law_public_schools }
-			NOT = { has_law = law_type:law_protected_speech }
-			has_law = law_type:law_state_religion
+			NOT = { has_law_or_variant = law_type:law_multicultural }
+			NOT = { has_law_or_variant = law_type:law_public_schools }
+			NOT = { has_law_or_variant = law_type:law_protected_speech }
+			has_law_or_variant = law_type:law_state_religion
 		}
 	}
-	
+
 	on_invalid = {
 		remove_active_objective_subgoal = sg_women_and_children
 	}
-	
+
 	weight = 1004
 	transferable = yes
 }
@@ -158,8 +158,6 @@ je_egalitarian_society = {
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	group = je_group_objectives
-	active_update_frequency = 1
-	
 	complete = {
 		pop_type_percent_country = {
 			pop_type = peasants
@@ -180,15 +178,15 @@ je_egalitarian_society = {
 
 	invalid = {
 		OR = {
-			NOT = { has_law = law_type:law_multicultural }
-			NOT = { has_law = law_type:law_public_schools }
-			NOT = { has_law = law_type:law_protected_speech }
-			NOT = { has_law = law_type:law_compulsory_primary_school }
-			NOT = { has_law = law_type:law_womens_suffrage }
-			has_law = law_type:law_state_religion
+			NOT = { has_law_or_variant = law_type:law_multicultural }
+			NOT = { has_law_or_variant = law_type:law_public_schools }
+			NOT = { has_law_or_variant = law_type:law_protected_speech }
+			NOT = { has_law_or_variant = law_type:law_compulsory_primary_school }
+			NOT = { has_law_or_variant = law_type:law_womens_suffrage }
+			has_law_or_variant = law_type:law_state_religion
 		}
 	}
-	
+
 	on_invalid = {
 		remove_active_objective_subgoal = sg_egalitarian_society
 	}
@@ -196,7 +194,7 @@ je_egalitarian_society = {
 	on_complete = {
 		hidden_effect = {
 			owner = {
-				start_tutorial_lesson = { 
+				start_tutorial_lesson = {
 					tutorial_lesson = egalitarian_society_complete
 					journal_entry = je:je_egalitarian_society
 				}

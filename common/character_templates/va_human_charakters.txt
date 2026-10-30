@@ -1,0 +1,130 @@
+﻿# Gilnean
+genn_greymane = {
+	first_name = Genn
+	last_name = Greymane
+	historical = yes
+	culture = cu:gilnean
+	birth_date = 562.6.14
+	interest_group = ig_landowners
+	traits = {
+		direct
+		cautious
+		arrogant
+	}
+	ruler = yes
+}
+
+liam_greymane = {
+	first_name = Liam
+	last_name = Greymane
+	historical = yes
+	culture = cu:gilnean
+	birth_date = 608.10.12
+	interest_group = ig_landowners
+	traits = {
+		brave
+	}
+	heir = yes
+}
+
+valgan_arugal = {
+	first_name = Valgan
+	last_name = Arugal
+	historical = yes
+	culture = cu:gilnean
+	birth_date = 558.2.24
+	interest_group = ig_landowners
+	traits = {
+		reckless
+		innovative
+		compliant
+	}
+	commander_rank = commander_rank_2
+	ruler = yes
+	ig_leader = yes
+	is_general = yes
+}
+
+# Kirin Tor
+ansirem_runeweaver = {
+	first_name = Ansirem
+	last_name = Runeweaver
+	historical = yes
+	culture = cu:dalaranian
+	birth_date = 544.08.03
+	interest_group = ig_landowners
+	traits = {
+		bigoted
+		meticulous
+	}
+	ruler = yes
+	ig_leader = yes
+}
+
+# Scarlet Crusaders
+renault_mograine = {
+	first_name = Renault
+	last_name = Mograine
+	historical = yes
+	culture = cu:lordorean
+	# 34 Jahre
+	birth_date = 584.6.27
+	interest_group = ig_armed_forces
+	traits = {
+		cruel
+		compliant
+		pious
+	}
+	commander_rank = commander_rank_4
+	is_general = yes
+	ig_leader = yes
+}
+
+sally_whitemane = {
+	first_name = Sally
+	last_name = Whitemane
+	historical = yes
+	female = yes
+	culture = cu:lordorean
+	# 22 Years
+	birth_date = 595.10.17
+	interest_group = ig_devout
+	traits = {
+		ambitious
+		charismatic
+		imperious
+		wrathful
+	}
+	ruler = yes
+	ig_leader = yes
+}
+
+# Syndicate
+aliden_perenolde = {
+	first_name = Aliden
+	last_name = Perenolde
+	historical = yes
+	culture = cu:alteraci
+	birth_date = 568.3.09
+	interest_group = ig_armed_forces
+	traits = {
+		ruthless
+		wrathful
+		direct
+	}
+	ig_leader = yes
+}
+
+earl_falconcrest = {
+	first_name = Earl
+	last_name = Falconcrest
+	historical = yes
+	culture = cu:alteraci
+	birth_date = 573.5.21
+	interest_group = ig_landowners
+	traits = {
+		ruthless
+		arrogant
+	}
+	ruler = yes
+}

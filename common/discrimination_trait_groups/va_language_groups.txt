@@ -1,0 +1,149 @@
+﻿# Victorian Azeroth: eigene Einträge, herausgelöst aus der alten Vollkopie 01_language_groups.txt
+
+language_group_arakkoa = {
+	type = language
+}
+
+language_group_centaur = {
+	type = language
+}
+
+language_group_demon = {
+	type = language
+}
+
+language_group_dragon = {
+	type = language
+}
+
+language_group_dwarf = {
+	type = language
+}
+
+language_group_element = {
+	type = language
+}
+
+language_group_elfen = {
+	type = language
+}
+
+language_group_eredar = {
+	type = language
+}
+
+language_group_ethereal = {
+	type = language
+}
+
+language_group_furbolg = {
+	type = language
+}
+
+language_group_giant = {
+	type = language
+}
+
+language_group_gnoll = {
+	type = language
+}
+
+language_group_gnome = {
+	type = language
+}
+
+language_group_goblin = {
+	type = language
+}
+
+language_group_harpy = {
+	type = language
+}
+
+language_group_human = {
+	type = language
+}
+
+language_group_humanoid = {
+	type = language
+}
+
+language_group_kobold = {
+	type = language
+}
+
+language_group_magnatour = {
+	type = language
+}
+
+language_group_mechanical = {
+	type = language
+}
+
+language_group_murloc = {
+	type = language
+}
+
+language_group_naga = {
+	type = language
+}
+
+language_group_nymph = {
+	type = language
+}
+
+language_group_ogre = {
+	type = language
+}
+
+language_group_orc = {
+	type = language
+}
+
+language_group_podling = {
+	type = language
+}
+
+language_group_qiraji = {
+	type = language
+}
+
+language_group_quilboar = {
+	type = language
+}
+
+language_group_rockflayer = {
+	type = language
+}
+
+language_group_satyr = {
+	type = language
+}
+
+language_group_silithid = {
+	type = language
+}
+
+language_group_tauren = {
+	type = language
+}
+
+language_group_trogg = {
+	type = language
+}
+
+language_group_troll = {
+	type = language
+}
+
+language_group_undead = {
+	type = language
+}
+
+language_group_wild = {
+	type = language
+}
+
+language_group_worgan = {
+	type = language
+}

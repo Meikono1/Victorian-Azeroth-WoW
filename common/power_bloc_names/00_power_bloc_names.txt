@@ -27,31 +27,31 @@ universal_league = {
 steadfast_union = {
 	trigger = {
 		always = yes
-	}	
+	}
 }
 
 glorious_union = {
 	trigger = {
 		always = yes
-	}	
+	}
 }
 
 unity_league = {
 	trigger = {
 		always = yes
-	}	
+	}
 }
 
 supreme_alliance = {
 	trigger = {
 		always = yes
-	}	
+	}
 }
 
 coalition_of_states = {
 	trigger = {
 		always = yes
-	}	
+	}
 }
 
 united_front = {
@@ -82,6 +82,95 @@ imperial_conference = {
 	}
 }
 
+mitteleuropa = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		any_primary_culture = {
+			has_discrimination_trait = german_speaking
+		}
+	}
+}
+
+italian_empire = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		any_primary_culture = {
+			has_discrimination_trait = italophone
+		}
+	}
+}
+
+russian_empire = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		c:RUS ?= this
+	}
+}
+
+stormakt = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		c:SWE ?= this
+	}
+}
+
+iran-e_bozorg = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		c:PER ?= this
+	}
+}
+
+golden_circle = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		OR = {
+			c:CSA ?= this
+			AND = {
+				c:USA ?= this
+				NOT = {
+					has_law = law_type:law_slavery_banned
+				}
+				NOR = {
+					has_journal_entry = je_acw_countdown
+					has_journal_entry = je_acw_war
+				}
+			}
+		}
+	}
+}
+
+da_zhongguo = { # greater china
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		OR = {
+			c:CHI ?= this
+			any_primary_culture = {
+				has_discrimination_trait = han_chinese
+			}
+		}
+	}
+}
+
+international_association = {
+	trigger = {
+		scope:selected_identity = identity:identity_sovereign_empire
+		OR = {
+			c:BEL ?= this
+			any_scope_state = {
+				OR = {
+					state_region = s:STATE_CONGO_ORIENTALE
+					state_region = s:STATE_KATANGA
+					state_region = s:STATE_BAS_CONGO
+					state_region = s:STATE_EQUATEUR
+					state_region = s:STATE_KASAI
+				}
+				is_incorporated = no
+			}
+		}
+	}
+}
+
 ### religious ###
 
 virtuous_league = {
@@ -96,6 +185,66 @@ coalition_of_innocents = {
 	}
 }
 
+holy_league = {
+	trigger = {
+        scope:selected_identity = identity:identity_religious
+        country_has_state_religion = rel:catholic
+	}
+}
+
+evangelical_league = {
+	trigger = {
+        scope:selected_identity = identity:identity_religious
+        country_has_state_religion = rel:protestant
+		any_primary_culture = {
+			has_discrimination_trait = german_speaking
+		}
+	}
+}
+
+new_schmalkaldic_league = {
+	trigger = {
+        scope:selected_identity = identity:identity_religious
+        country_has_state_religion = rel:protestant
+		any_primary_culture = {
+			has_discrimination_trait = german_speaking
+		}
+	}
+}
+
+holy_alliance = {
+	trigger = {
+		OR = {
+	        scope:selected_identity = identity:identity_religious
+	        AND = {
+		        coa_undemocratic_monarchy_trigger = yes
+		        scope:selected_identity = identity:identity_ideological_union
+		    }
+	    }
+        religion = {
+        	has_discrimination_trait = christian
+        }
+	}
+}
+
+great_crusade = {
+	trigger = {
+	    scope:selected_identity = identity:identity_religious
+        religion = {
+        	has_discrimination_trait = christian
+        }
+    }
+}
+
+dar_al_islam = {
+	trigger = {
+	    scope:selected_identity = identity:identity_religious
+        religion = {
+        	has_discrimination_trait = muslim
+        }
+	}
+}
+
 league_of_reason = {
 	trigger = {
         scope:selected_identity = identity:identity_religious
@@ -107,6 +256,76 @@ league_of_the_faithful = {
 	trigger = {
 	    scope:selected_identity = identity:identity_religious
 	    NOT = { country_has_state_religion = rel:atheist }
+	}
+}
+
+league_of_harmony = {
+	trigger = {
+		scope:selected_identity = identity:identity_religious
+		OR = {
+			c:CHI ?= this
+			any_primary_culture = {
+				has_discrimination_trait = han_chinese
+			}
+			religion = { has_discrimination_trait = eastern }
+			religion = { has_discrimination_trait = buddhist }
+		}
+	}
+}
+
+solemn_league = { # Solemn League and Covenant
+	trigger = {
+		scope:selected_identity = identity:identity_religious
+		OR = {
+			c:GBR ?= this
+			c:SCO ?= this
+			c:ENG ?= this
+		}
+	}
+}
+
+sons_of_saint_louis = {
+	trigger = {
+		OR = {
+			scope:selected_identity = identity:identity_religious
+			AND = {
+				scope:selected_identity = identity:identity_ideological_union
+				coa_undemocratic_monarchy_trigger = yes
+			}
+		}
+		c:FRA ?= this
+	}
+}
+
+league_of_santiago = {
+	trigger = {
+		c:SPA ?= this
+		scope:selected_identity = identity:identity_religious
+	}
+}
+
+order_of_the_seraphim = {
+	trigger = {
+		c:SWE ?= this
+		scope:selected_identity = identity:identity_religious
+		coa_monarchy_trigger = yes
+	}
+}
+
+league_of_solomon = {
+	trigger = {
+		c:ETH ?= this
+		OR = {
+			scope:selected_identity = identity:identity_religious
+			coa_monarchy_trigger = yes
+		}
+	}
+}
+
+league_of_providence = {
+	trigger = {
+		c:USA ?= this
+		scope:selected_identity = identity:identity_religious
 	}
 }
 
@@ -138,6 +357,136 @@ democratic_ring = {
 	}
 }
 
+league_of_versailles = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_ILE_DE_FRANCE }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_ILE_DE_FRANCE }
+	    	}
+	    }
+	}
+}
+
+london_conference = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_HOME_COUNTIES }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_HOME_COUNTIES }
+	    	}
+	    }
+	}
+}
+
+congress_of_berlin = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_BRANDENBURG }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_BRANDENBURG }
+	    	}
+	    }
+	}
+}
+
+congress_of_vienna = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_AUSTRIA }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_AUSTRIA }
+	    	}
+	    }
+	}
+}
+
+pact_of_rome = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_LAZIO }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_LAZIO }
+	    	}
+	    }
+	}
+}
+
+convention_of_naples = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_CAMPANIA }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_CAMPANIA }
+	    	}
+	    }
+	}
+}
+
+washington_convention = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    any_scope_state = { state_region = s:STATE_DISTRICT_OF_COLUMBIA is_incorporated = yes }
+	}
+}
+
+beijing_convention = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_BEIJING }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_BEIJING }
+	    	}
+	    }
+	}
+}
+
+pact_of_veracruz = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_VERACRUZ }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_VERACRUZ }
+	    	}
+	    }
+	}
+}
+
+pact_of_calcutta = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_EAST_BENGAL }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_EAST_BENGAL }
+	    	}
+	    }
+	}
+}
+
+seneca_falls_coalition = {
+	trigger = {
+	    scope:selected_identity = identity:identity_ideological_union
+
+	    has_law = law_type:law_womens_suffrage
+
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_NEW_YORK }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_NEW_YORK }
+	    	}
+	    }
+	}
+}
+
 self_rule_league = {
 	trigger = {
 	    scope:selected_identity = identity:identity_ideological_union
@@ -150,6 +499,109 @@ self_rule_league = {
 }
 
 ### military treaty organization ###
+
+central_powers = {
+	trigger = {
+	    scope:selected_identity = identity:identity_military_treaty_organization
+	    OR = {
+	    	c:GER ?= this
+	    	c:AUS ?= this
+	    	c:TUR ?= this
+	    	c:ITA ?= this
+	    }
+	    any_scope_ally = {
+	    	count >= 2
+	    	OR = {
+	    		c:TUR ?= this
+	    		c:AUS ?= this
+	    		c:GER ?= this
+	    		c:ITA ?= this
+	    	}
+	    }
+	}
+}
+
+entente = {
+	trigger = {
+	    scope:selected_identity = identity:identity_military_treaty_organization
+	    OR = {
+		    c:FRA ?= this
+		    c:PRC ?= this
+		}
+	    any_scope_ally = {
+	    	count >= 2
+	    	OR = {
+		    	c:GBR ?= this
+		    	c:RUS ?= this
+		    	c:ITA ?= this
+		    	c:USA ?= this
+		    	c:JAP ?= this
+	    	}
+	    }
+	}
+}
+
+unholy_alliance = {
+	trigger = {
+	    scope:selected_identity = identity:identity_military_treaty_organization
+
+	    OR = {
+	    	AND = {
+	    		OR = {
+		    		c:FRA ?= this
+		    		c:PRC ?= this
+		    	}
+	    		any_scope_ally = {
+	    			c:GER ?= this
+	    			is_subject = no
+	    		}
+	    	}
+	    	AND = {
+	    		c:GER ?= this
+	    		any_scope_ally = {
+	    			OR = {
+		    			c:FRA ?= this
+		    			c:PRC ?= this
+		    		}
+	    			is_subject = no
+	    		}
+	    	}
+	    }
+	}
+}
+
+pact_of_pearl_harbor = {
+	trigger = {
+		scope:selected_identity = identity:identity_military_treaty_organization
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_HAWAIIAN_ISLANDS }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_HAWAIIAN_ISLANDS }
+	    	}
+	    }
+	}
+}
+
+waterloo_pact = {
+	trigger = {
+		scope:selected_identity = identity:identity_military_treaty_organization
+	    OR = {
+	    	c:BEL ?= this
+	    	any_scope_ally = {
+	    		c:BEL ?= this
+	    	}
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_WALLONIA }
+	    	}
+	    }
+		any_rival_country = {
+			OR = {
+				c:FRA ?= this
+				c:PRC ?= this
+			}
+		}
+	}
+}
 
 ### trade league ###
 
@@ -175,6 +627,32 @@ galveston_league = {
 	trigger = {
 		scope:selected_identity = identity:identity_trade_league
 		c:TEX ?= this
+	}
+}
+
+threadneedle_league = {
+	trigger = {
+		scope:selected_identity = identity:identity_trade_league
+		any_scope_state = { state_region = s:STATE_HOME_COUNTIES }
+	}
+}
+
+bloc_brongniart = {
+	trigger = {
+		scope:selected_identity = identity:identity_trade_league
+		c:FRA ?= this
+	}
+}
+
+singapore_pact = {
+	trigger = {
+		scope:selected_identity = identity:identity_trade_league
+	    OR = {
+	    	any_scope_state = { state_region = s:STATE_MALAYA }
+	    	any_scope_ally = {
+	    		any_scope_state = { state_region = s:STATE_MALAYA }
+	    	}
+	    }
 	}
 }
 
@@ -361,8 +839,8 @@ pan_african_union = {
 
 non_aligned_conference = {
 	trigger = {
-		NOR = { 
-			scope:selected_identity = identity:identity_religious 
+		NOR = {
+			scope:selected_identity = identity:identity_religious
 			scope:selected_identity = identity:identity_sovereign_empire
 		}
 		country_rank < rank_value:great_power

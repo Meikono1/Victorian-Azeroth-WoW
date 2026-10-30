@@ -1,0 +1,10 @@
+﻿deeb = {
+	first_name = Deeb
+	last_name = Blank
+	historical = yes
+	culture = cu:murloc
+	interest_group = ig_landowners
+	commander_rank = commander_rank_2
+	ruler = yes
+	is_general = yes
+}

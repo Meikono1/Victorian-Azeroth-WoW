@@ -4,7 +4,7 @@
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
-		has_law = law_type:law_dedicated_police
+		has_law_or_variant = law_type:law_dedicated_police
 	}
 
 	possible = {
@@ -45,7 +45,7 @@
 	}
 
 	invalid = {
-		NOT = { has_law = law_type:law_dedicated_police }
+		NOT = { has_law_or_variant = law_type:law_dedicated_police }
 	}
 
 	weight = 100
@@ -117,7 +117,7 @@ je_serial_killer = {
 			}
 			else = {
 				random_list = {
-					5 = { trigger_event = { id = crime_events.11 } } # killer caught 
+					5 = { trigger_event = { id = crime_events.11 } } # killer caught
 					20 = { trigger_event = { id = crime_events.12 } } # letter
 					25 = { trigger_event = { id = crime_events.13 } } # another murder
 					50 = { } # nothing happens this year

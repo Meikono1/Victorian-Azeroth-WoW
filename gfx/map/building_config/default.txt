@@ -203,8 +203,8 @@ african_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -214,8 +214,8 @@ african_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -225,8 +225,8 @@ african_manufactory_03_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -236,8 +236,8 @@ african_colonial_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -247,8 +247,8 @@ african_colonial_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -258,8 +258,8 @@ african_colonial_manufactory_03_mesh = {
 	size = 2
 	
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -269,8 +269,8 @@ african_furniture_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_2x2_entity"
@@ -280,8 +280,8 @@ african_glassworks_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -291,8 +291,8 @@ african_tools_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -337,7 +337,7 @@ african_mininghub_centerpiece_01_mesh = {
 	size = 3
 		
 	particles = {
-		"locator_chimney" = "smoke_chimney"
+		"locator_chimney" = "infrastructure/smoke_chimney"
 	}
 	
 	construction_entity = "building_construction_6x6_entity"
@@ -561,8 +561,8 @@ arabic_factory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -572,8 +572,8 @@ arabic_factory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -583,8 +583,8 @@ arabic_factory_03_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -594,8 +594,8 @@ arabic_factory_colonial_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -605,8 +605,8 @@ arabic_factory_colonial_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -616,8 +616,8 @@ arabic_factory_colonial_03_mesh = {
 	size = 2
 	
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -627,8 +627,8 @@ arabic_factory_furniture_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_2x2_entity"
@@ -638,8 +638,8 @@ arabic_factory_glassworks_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -649,8 +649,8 @@ arabic_factory_tools_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -695,7 +695,7 @@ mininghub_centerpiece_sandstone_01_mesh = {
 	size = 3
 		
 	particles = {
-		"locator_chimney" = "smoke_chimney"
+		"locator_chimney" = "infrastructure/smoke_chimney"
 	}
 	
 	construction_entity = "building_construction_6x6_entity"
@@ -924,8 +924,8 @@ asian_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -935,8 +935,8 @@ asian_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -946,8 +946,8 @@ asian_manufactory_03_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -957,8 +957,8 @@ asian_colonial_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -968,8 +968,8 @@ asian_colonial_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -979,8 +979,8 @@ asian_colonial_manufactory_03_mesh = {
 	size = 2
 	
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -990,8 +990,8 @@ asian_furniture_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_2x2_entity"
@@ -1001,8 +1001,8 @@ asian_glassworks_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1012,8 +1012,8 @@ asian_tools_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1058,7 +1058,7 @@ asian_mining_centerpiece_01_mesh = {
 	size = 3
 		
 	particles = {
-		"locator_chimney" = "smoke_chimney"
+		"locator_chimney" = "infrastructure/smoke_chimney"
 	}
 	
 	construction_entity = "building_construction_6x6_entity"
@@ -1281,8 +1281,8 @@ generic_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1292,8 +1292,8 @@ generic_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1303,8 +1303,8 @@ generic_manufactory_03_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1314,8 +1314,8 @@ colonial_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1325,8 +1325,8 @@ colonial_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1336,8 +1336,8 @@ colonial_manufactory_03_mesh = {
 	size = 2
 	
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1347,8 +1347,8 @@ furniture_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_2x2_entity"
@@ -1358,8 +1358,8 @@ glassworks_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1369,8 +1369,8 @@ tools_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1380,8 +1380,8 @@ war_machines_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1426,7 +1426,7 @@ mininghub_centerpiece_01_mesh = {
 	size = 3
 		
 	particles = {
-		"locator_chimney" = "smoke_chimney"
+		"locator_chimney" = "infrastructure/smoke_chimney"
 	}
 	
 	construction_entity = "building_construction_6x6_entity"
@@ -1660,8 +1660,8 @@ latin_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1671,8 +1671,8 @@ latin_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1682,8 +1682,8 @@ latin_manufactory_03_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_4x4_entity"
@@ -1693,8 +1693,8 @@ latin_colonial_manufactory_01_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1704,8 +1704,8 @@ latin_colonial_manufactory_02_mesh = {
 	size = 2
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1715,8 +1715,8 @@ latin_colonial_manufactory_03_mesh = {
 	size = 2
 	
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_3x3_entity"
@@ -1726,8 +1726,8 @@ latin_furniture_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 
 	construction_entity = "building_construction_2x2_entity"
@@ -1737,8 +1737,8 @@ latin_glassworks_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1748,8 +1748,8 @@ latin_tools_manufactory_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_2x2_entity"
@@ -1794,7 +1794,7 @@ latin_mininghub_centerpiece_01_mesh = {
 	size = 3
 		
 	particles = {
-		"locator_chimney" = "smoke_chimney"
+		"locator_chimney" = "infrastructure/smoke_chimney"
 	}
 	
 	construction_entity = "building_construction_6x6_entity"
@@ -1820,6 +1820,11 @@ french_revolutioncamp_placeholder_mesh = {
 ####################################################################################
 
 generic_companyhq_01_mesh = {
+	size = 2
+	construction_entity = "building_construction_4x4_entity"
+}
+
+generic_regionalcompanyhq_01_mesh = {
 	size = 2
 	construction_entity = "building_construction_4x4_entity"
 }

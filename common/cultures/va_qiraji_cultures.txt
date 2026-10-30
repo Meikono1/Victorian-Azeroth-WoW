@@ -1,57 +1,92 @@
-old_gods_qiraji = {
+qiraji = {
 	color = rgb{ 211 101 226 }
-	religion = protestant
-	traits = { old_god_forces qiraji_heritage }
+	religion = nzoth
+	heritage = qiraji_heritage
+	language = language_qiraji
+	traditions = { tradition_old_god_forces }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Aqirith Arqen Ashruq
+		Baquor Byssiq Broqir
+		Cthaqen Cazir Cyrqun
+		Dreqor Dazhik Drunqis
+		Eqirith Ezqor Exanq
+		Faqir Fynqor Frassith
+		Gaqesh Gryqor Grozhiq
+		Haquor Hynqis Hrassiq
+		Iqoril Izqir Inaqesh
+		Jaqun Jysqor Jorqis
+		Kaqir Kryssun Korathiq
+		Lazqir Lynquor Lorzhiq
+		Maqirith Myssaq Morqun
+		Naqis Nyrqor Nozzir
+		Oqen Ozyqir Onqar
+		Paqor Pryqesh Phaqqis
+		Qirath Qyssor Qozir
+		Raqith Rynquor Rozqis
+		Saqor Sylqir Sorrath
+		Taqesh Tyzzor Tqirith
+		Uqirith Uzzor Umnaq
+		Vaqir Vynquor Vroqqis
+		Waqesh Wyssiq Worqir
+		Xaqir Xynquor Xorqis
+		Yaqesh Yrrqor Yzqith
+		Zaqir Zynqor Zorqun
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Aqira Athissra Azqina
+		Baquira Byssara Broqira
+		Cthaqira Cazira Cyrissa
+		Dreqira Dazhira Drissqa
+		Eqira Ezqina Exira
+		Faqira Fynissa Frassira
+		Gaqira Gryssra Grozhira
+		Haquira Hynissa Hrassira
+		Iqira Izqina Inaqra
+		Jaquira Jyssera Jorqina
+		Kaqira Kryssa Korissra
+		Lazqira Lynira Lorzira
+		Maqira Myssira Morqina
+		Naqira Nyssera Nozzira
+		Oqira Ozyssa Onqira
+		Paqira Pryssra Phaqqira
+		Qirissa Qyssira Qozira
+		Raqira Rynira Rozqina
+		Saqira Sylqira Sorrissa
+		Taqira Tyssira Trissqa
+		Uqira Uzzira Umnissra
+		Vaqira Vynira Vroqqina
+		Waqira Wyssira Worqina
+		Xaqira Xynira Xorissa
+		Yaqira Yssira Yzqina
+		Zaqira Zynira Zorqina
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-ahn_qiraj_qiraji = {
-	color = rgb{ 203 68 172 }
-	religion = protestant
-	traits = { ahn_qiraj old_god_forces qiraji_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Aqrathis Ashcarapex
+		Barqis Beetlefane
+		Caraphex Chitraz
+		Dronelith Duskmandible
+		Eqrissar Exosith
+		Fangthys Frassicar
+		Ghorcarapex Grimscarab
+		Hivecaris Hivelith
+		Iktharis Inqiscarab
+		Jorcaris Jaqmandros
+		Kitharax Kralscaris
+		Lobqaris Locusthrax
+		Mandicaris Mandibrix
+		Noxcarapex Nerubthys
+		Obscarax Onqarith
+		Phorosith Pincerath
+		Qirathis Quashcarab
+		Roqcaris Ravexith
+		Scarabiss Skithrax
+		Tombscarapex Thyscaris
+		Umbracarax Ulithis
+		Venqiscarab Vorycaris
+		Wyrscarath Webcaris
+		Xilithis Xorcarapex
+		Ythscarab Yroncaris
+		Zaqcaris Zorqithis
 	}
 
 	graphics = european

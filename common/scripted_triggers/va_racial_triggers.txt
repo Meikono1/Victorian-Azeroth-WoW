@@ -1,0 +1,35 @@
+﻿is_draenei = {
+    has_discrimination_trait = draenei_heritage
+}
+
+is_demon = {
+	has_discrimination_trait = demon_heritage
+}
+
+is_dwarven = {
+    has_discrimination_trait = dwarf_heritage
+}
+
+is_elven = {
+    has_discrimination_trait = elf_heritage
+}
+
+is_forsaken = {
+    has_discrimination_trait = undead_heritage
+}
+
+is_gnome = {
+    has_discrimination_trait = gnome_heritage
+}
+
+is_pandaren = {
+    has_discrimination_trait = centaur_heritage
+}
+
+is_tauren = {
+    has_discrimination_trait = tauren_heritage
+}
+
+is_troll = {
+    has_discrimination_trait = troll_heritage
+}

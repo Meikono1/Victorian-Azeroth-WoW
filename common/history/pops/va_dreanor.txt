@@ -1,0 +1,10 @@
+﻿POPS = {
+	s:STATE_DREANOR = {
+		region_state:DREANOR = {
+			create_pop = {
+				culture = sin_dorei
+				size = 10000
+			}
+		}
+	}
+}

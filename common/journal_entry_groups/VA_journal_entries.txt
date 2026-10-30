@@ -1,0 +1,9 @@
+﻿##Define journal entry groups here:
+
+# journalentrygroup_mygroup = {
+
+# }
+
+## Place flavour content above generic groups
+
+je_group_gilneas_infection = {}

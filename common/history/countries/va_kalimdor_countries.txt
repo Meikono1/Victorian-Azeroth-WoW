@@ -184,11 +184,6 @@ COUNTRIES = {
 		effect_starting_politics_traditional = yes
 	}
 
-	c:FERAL_SCAR_YETI ?= {
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
-
 	c:FOULWEALD_FURBOLG ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -269,11 +264,6 @@ COUNTRIES = {
 		effect_starting_politics_traditional = yes
 	}
 
-	c:HIGHBORN_UNDEAD ?= {
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
-
 	c:HIVE_ASHI ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -344,11 +334,6 @@ COUNTRIES = {
 		effect_starting_politics_traditional = yes
 	}
 
-	c:MAKRINNI_MAKRURA ?= {
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
-
 	c:MANNOROTH_LEGION ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -399,11 +384,6 @@ COUNTRIES = {
 		effect_starting_politics_traditional = yes
 	}
 
-	c:RAGE_SCAR_YETI ?= {
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
-
 	c:RAZORFEN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -430,11 +410,6 @@ COUNTRIES = {
 	}
 
 	c:SENTINELS ?= {
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
-
-	c:SEVERED_NIGHTELFES ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
 	}

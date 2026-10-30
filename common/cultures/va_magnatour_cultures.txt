@@ -1,57 +1,88 @@
-magnatour_magmothherd = {
+magnatour = {
 	color = rgb{ 88 141 218 }
-	religion = protestant
-	traits = { centaur magmoth_herd magnatour_heritage }
+	religion = the_elements
+	heritage = magnatour_heritage
+	language = language_magnatour
+	traditions = { tradition_magmoth_herd }
 	male_common_first_names={
-		Test Test Test Test Test Test
+		Argrun
+		Balmak Brorn Brulgar
+		Cragthar
+		Drogath Drumok
+		Erlgar
+		Frornak
+		Grathor Gurnok
+		Halruk
+		Igron
+		Jorvak
+		Kragmar
+		Lorhoth
+		Marnok
+		Norgal
+		Orgrun
+		Pralgar
+		Quarnok
+		Rothgar
+		Stornak
+		Thalgor
+		Ulmok
+		Vargrun
+		Worhak
+		Xarnok
+		Yorgrim
+		Zornak
 	}
 	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
+		Agnara
+		Balnora Bravira Brulka
+		Cravira
+		Dornika Drunaka
+		Elygra
+		Fornika
+		Garnora Grasha
+		Haldra
+		Ilyra
+		Jornika
+		Kravira
+		Lunara
+		Mordra
+		Norgra
+		Olmara
+		Pravira
+		Quarna
+		Rulgra
+		Stalra
+		Thalora
+		Ulvira
+		Valdra
+		Worina
+		Xalra
+		Ylgrina
+		Zornika
 	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
 	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
-	}
-
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-magnatour_gammothherd = {
-	color = rgb{ 201 141 70 }
-	religion = protestant
-	traits = { centaur gammoth_herd magnatour_heritage }
-	male_common_first_names={
-		Test Test Test Test Test Test
-	}
-	female_common_first_names = {
-		Test Test Test Test Test Test Test Test Test Test Test
-	}
-	noble_last_names = {
-		Herwarth_von_Test
-		Vogel_von_Test
-	}	
-	common_last_names={
-		Abegg Anger Arendt Ackermann Arntz
-	}
-
-	male_regal_first_names = {
-		regaltest
-	}
-	female_regal_first_names = {
-		regaltest
+		Ashhorn
+		Battlehoof
+		Coldhide Cragmane
+		Deepfrost
+		Earthhoof
+		Frostgore
+		Glaciermane
+		Hornbreaker
+		Icefang Ironhoof
+		Longtusk
+		Mammothide Mistrunner
+		Northhide
+		Oathhorn
+		Pinehoof
+		Quakehoof
+		Rimefang
+		Snowhide Stonehorn Stormhoof
+		Tundramane Tuskrend
+		Ulfhide
+		Wintertusk Woolmane Wrathhide
+		Yserhorn
+		Zerfrost
 	}
 
 	graphics = european

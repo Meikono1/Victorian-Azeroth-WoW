@@ -1,0 +1,10 @@
+﻿POPS = {
+	s:STATE_ZANDALAR = {
+		region_state:ZANDALAR = {
+			create_pop = {
+				culture = sin_dorei
+				size = 10000
+			}
+		}
+	}
+}

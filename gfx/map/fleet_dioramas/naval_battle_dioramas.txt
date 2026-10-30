@@ -1,15 +1,13 @@
 ﻿naval_battle_diorama_00 = {
+	group = battle_side
 	
-	# Unit composition is checked when picking a diorama for a certain military formation
-	# The closer the composition of the formation corresponds to the percentage, the higher the chance of choosing this diorama
 	unit_composition = {
-		combat_unit_group_light_ship = 0.5
-		combat_unit_group_capital_ship = 0.5
-		combat_unit_group_support_ship = 0.0
+		combat_unit_group_light_ship = 1
+		combat_unit_group_capital_ship = 1
+		combat_unit_group_support_ship = 0
 	}
 
 	distance = 0
-	battle_side = yes
 
 	#####		LIGHT LOCATORS		#####
 	locator = { name = "light_ship_01_loc" 
@@ -53,33 +51,27 @@
 				rotation = { -60.519 0.0 0.0 } 
 				scale = 1.0 }
 
-	# Attach all the correct units to locators
-	# If combat_unit_group is set, then the units of that group will be counted and passed to the is_visible trigger as scope:num_units 
-	# and a combat unit type of that group will be chosen for the fleet entity trigger as scope:combat_unit_type (see ../fleet_entities/*.txt scripts)
-
-	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
-	attach = { name = light_ship_05 	locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 150 } }
-	attach = { name = capital_ship_01 	locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = capital_ship_03 	locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
+	attach = { locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 150 } }
+	attach = { locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 100 } }
 }
 
 
 naval_battle_diorama_01 = {
+	group = battle_side
 	
-	# Unit composition is checked when picking a diorama for a certain military formation
-	# The closer the composition of the formation corresponds to the percentage, the higher the chance of choosing this diorama
 	unit_composition = {
-		combat_unit_group_light_ship = 0.4
-		combat_unit_group_capital_ship = 0.3
-		combat_unit_group_support_ship = 0.3
+		combat_unit_group_light_ship = 4
+		combat_unit_group_capital_ship = 3
+		combat_unit_group_support_ship = 3
 	}
 
 	distance = 0
-	battle_side = yes
 
 	#####		LIGHT LOCATORS		#####
 	locator = { name = "light_ship_01_loc" 
@@ -126,18 +118,19 @@ naval_battle_diorama_01 = {
 
 	# Attach all the correct units to locators
 
-	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
-	attach = { name = capital_ship_01 	locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
-	attach = { name = support_ship_01 	locator = support_ship_01_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = support_ship_02 	locator = support_ship_02_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 25 } }
+	attach = { locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship 	is_visible = { scope:num_units >= 100 } }
+	attach = { locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = support_ship_01_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = support_ship_02_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
 }
 
 
 naval_battle_diorama_02 = {
+	group = battle_side
 	unit_composition = {
 		combat_unit_group_light_ship = 1
 		combat_unit_group_capital_ship = 0
@@ -145,7 +138,6 @@ naval_battle_diorama_02 = {
 	}
 
 	distance = 0
-	battle_side = yes
 
 	#####		LIGHT LOCATORS		#####
 	locator = { name = "light_ship_01_loc" 
@@ -172,20 +164,17 @@ naval_battle_diorama_02 = {
 				position = { 0.078 0.0 10.104 } 
 				rotation = { -90.351 0.0 0.0 } 
 				scale = 1.0 }
-	
-	# Attach all the correct units to locators
 
-	attach = { name = light_ship_01 	locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units > 0 } }
-	attach = { name = light_ship_02 	locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 25 } }
-	attach = { name = light_ship_03 	locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 50 } }
-	attach = { name = light_ship_04 	locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 100 } }
-	attach = { name = light_ship_05 	locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 150 } }
+	attach = { locator = light_ship_01_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units > 0 } }
+	attach = { locator = light_ship_02_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 25 } }
+	attach = { locator = light_ship_03_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = light_ship_04_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 100 } }
+	attach = { locator = light_ship_05_loc		combat_unit_group = combat_unit_group_light_ship	is_visible = { scope:num_units >= 150 } }
 }
 
 naval_battle_diorama_03 = {
+	group = battle_side
 	
-	# Unit composition is checked when picking a diorama for a certain military formation
-	# The closer the composition of the formation corresponds to the percentage, the higher the chance of choosing this diorama
 	unit_composition = {
 		combat_unit_group_light_ship = 0
 		combat_unit_group_capital_ship = 1
@@ -193,7 +182,6 @@ naval_battle_diorama_03 = {
 	}
 
 	distance = 0
-	battle_side = yes
 
 	#####		CAPITAL LOCATORS		#####
 	locator = { name = "capital_ship_01_loc" 
@@ -210,18 +198,15 @@ naval_battle_diorama_03 = {
 				position = { -10.193 0.0 5.7 } 
 				rotation = { -77.0 0.0 0.0 } 
 				scale = 1.0 }
-
-	# Attach all the correct units to locators
 	
-	attach = { name = capital_ship_01 	locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units > 0 } }
-	attach = { name = capital_ship_02 	locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units >= 50 } }
-	attach = { name = capital_ship_03 	locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units >= 100 } }
+	attach = { locator = capital_ship_01_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units > 0 } }
+	attach = { locator = capital_ship_02_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = capital_ship_03_loc	combat_unit_group = combat_unit_group_capital_ship	is_visible = { scope:num_units >= 100 } }
 }
 
 naval_battle_diorama_04 = {
+	group = battle_side
 	
-	# Unit composition is checked when picking a diorama for a certain military formation
-	# The closer the composition of the formation corresponds to the percentage, the higher the chance of choosing this diorama
 	unit_composition = {
 		combat_unit_group_light_ship = 0
 		combat_unit_group_capital_ship = 0
@@ -229,7 +214,6 @@ naval_battle_diorama_04 = {
 	}
 
 	distance = 0
-	battle_side = yes
 
 	#####		SUPPORT LOCATORS		#####
 	locator = { name = "support_ship_01_loc" 
@@ -242,8 +226,6 @@ naval_battle_diorama_04 = {
 				rotation = { -52.845 0.0 0.0 } 
 				scale = 1.0 }
 
-	# Attach all the correct units to locators
-
-	attach = { name = support_ship_01 	locator = support_ship_01_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
-	attach = { name = support_ship_02 	locator = support_ship_02_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
+	attach = { locator = support_ship_01_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units > 0 } }
+	attach = { locator = support_ship_02_loc	combat_unit_group = combat_unit_group_support_ship 	is_visible = { scope:num_units >= 50 } }
 }

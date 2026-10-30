@@ -5,17 +5,8 @@
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_01_mesh"
-	count=9
-	transform="5712.002930 0.000000 1682.692139 0.000000 0.727937 0.000000 0.685645 1.000000 1.000000 1.000000
-5728.528320 0.000000 1679.063721 0.000000 0.833500 0.000000 0.552519 1.000000 1.000000 1.000000
-5769.800781 0.000000 1659.039917 0.000000 0.833601 0.000000 0.552367 1.000000 1.000000 1.000000
-5754.182617 0.000000 1666.224243 0.000000 0.850003 0.000000 0.526778 1.000000 1.000000 1.000000
-6145.374512 0.000000 1696.897949 0.000000 0.325156 0.000000 0.945660 1.000000 1.000000 1.000000
-6134.431152 0.000000 1683.582397 0.000000 0.346542 0.000000 0.938035 1.000000 1.000000 1.000000
-6123.439453 0.000000 1670.296021 0.000000 0.331498 0.000000 0.943456 1.000000 1.000000 1.000000
-6097.300781 0.000000 1636.833862 0.000000 0.317643 0.000000 0.948211 1.000000 1.000000 1.000000
-6107.797363 0.000000 1650.434692 0.000000 0.327925 0.000000 0.944704 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/wonder_wallofchina_01.bin"
+}
 object={
 	name="wonder_wallofchina_02"
 	clamp_to_water_level=no
@@ -23,7 +14,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_02_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_03"
@@ -32,7 +22,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_03_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_04"
@@ -41,7 +30,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_04_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_05"
@@ -50,7 +38,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_05_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_06"
@@ -59,7 +46,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_06_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_07"
@@ -68,7 +54,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_07_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_08"
@@ -77,7 +62,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_08_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchina_09"
@@ -86,7 +70,6 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchina_09_mesh"
-	count=0
 }
 object={
 	name="wonder_wallofchinaend_01"
@@ -95,10 +78,8 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchinaend_01_mesh"
-	count=2
-	transform="5738.321289 0.000000 1674.975098 0.000000 0.837625 0.000000 0.546246 1.000000 1.000000 1.000000
-5745.957520 0.000000 1670.280396 0.000000 -0.549518 0.000000 0.835482 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/wonder_wallofchinaend_01.bin"
+}
 object={
 	name="wonder_wallofchinaend_02"
 	clamp_to_water_level=no
@@ -106,10 +87,8 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchinaend_02_mesh"
-	count=2
-	transform="6114.121094 0.000000 1658.554565 0.000000 0.317411 0.000000 0.948288 1.000000 1.000000 1.000000
-6117.816406 0.000000 1663.469849 0.000000 0.932944 0.000000 -0.360021 1.000000 1.000000 1.000000
-"}
+	transform_bin_file="gfx/map/map_object_data/wonder_wallofchinaend_02.bin"
+}
 object={
 	name="wonder_wallofchinatower_01"
 	clamp_to_water_level=no
@@ -117,5 +96,4 @@ object={
 	generated_content=no
 	layer="cities"
 	pdxmesh="wonder_wallofchinatower_01_mesh"
-	count=0
 }

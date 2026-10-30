@@ -475,33 +475,6 @@ BUILDINGS = {
 				reserves=1
 			}
 		}
-		region_state:SUNHAWK = {
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:SUNHAWK"
-						levels=1
-						region="SUNHAWK"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_cotton_plantation"
-				add_ownership={
-					building={
-						type="building_cotton_plantation"
-						country="c:SUNHAWK"
-						levels=1
-						region="SUNHAWK"
-					}
-				}
-				reserves=1
-			}
-		}
 	}
 	s:STATE_WRATHSCALE_LAIR = {
 		region_state:WRATHSCALE_NAGA = {
@@ -1109,8 +1082,6 @@ BUILDINGS = {
 	s:STATE_TOWER_OF_ELDARA = {
 		region_state:BLACK_DRAGONFLIGHT_SABLE = {
 		}
-		region_state:MAKRINNI_MAKRURA = {
-		}
 	}
 	s:STATE_RUINS_OF_NORDESSA = {
 		region_state:XYLEM_OUTPOST = {
@@ -1132,8 +1103,6 @@ BUILDINGS = {
 	}
 	s:STATE_RAVENCREST_MONUMENT = {
 		region_state:SPITELASH_NAGA = {
-		}
-		region_state:MAKRINNI_MAKRURA = {
 		}
 	}
 	s:STATE_SECRET_LAB = {
@@ -1180,8 +1149,6 @@ BUILDINGS = {
 	}
 	s:STATE_SPLINTERTREE_POST = {
 		region_state:ORGRIMMAR = {
-		}
-		region_state:SEVERED_NIGHTELFES = {
 		}
 		region_state:SILVERWING_OUTPOST = {
 		}

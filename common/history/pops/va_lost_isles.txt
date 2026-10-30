@@ -1,0 +1,10 @@
+﻿POPS = {
+	s:STATE_LOST_ISLES_LEGION = {
+		region_state:LOSTISLES = {
+			create_pop = {
+				culture = sin_dorei
+				size = 10000
+			}
+		}
+	}
+}

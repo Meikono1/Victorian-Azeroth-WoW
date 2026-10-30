@@ -1,0 +1,71 @@
+﻿# Victorian Azeroth: eigene Einträge, herausgelöst aus der alten Vollkopie 03_religious_heritages.txt
+
+heritage_arak = {
+	type = heritage
+	trait_group = heritage_group_life
+}
+
+heritage_arcane = {
+	type = heritage
+	trait_group = heritage_group_order
+}
+
+heritage_demon = {
+	type = heritage
+	trait_group = heritage_group_disorder
+}
+
+heritage_earth_elements = {
+	type = heritage
+	trait_group = heritage_group_order
+}
+
+heritage_fire_elements = {
+	type = heritage
+	trait_group = heritage_group_disorder
+}
+
+heritage_holy = {
+	type = heritage
+	trait_group = heritage_group_light
+}
+
+heritage_naaru = {
+	type = heritage
+	trait_group = heritage_group_light
+}
+
+heritage_nature = {
+	type = heritage
+	trait_group = heritage_group_life
+}
+
+heritage_old_gods = {
+	type = heritage
+	trait_group = heritage_group_shadow
+}
+
+heritage_spirit_elements = {
+	type = heritage
+	trait_group = heritage_group_disorder
+}
+
+heritage_time = {
+	type = heritage
+	trait_group = heritage_group_order
+}
+
+heritage_undead = {
+	type = heritage
+	trait_group = heritage_group_death
+}
+
+heritage_water_elements = {
+	type = heritage
+	trait_group = heritage_group_life
+}
+
+heritage_wild_gods = {
+	type = heritage
+	trait_group = heritage_group_life
+}

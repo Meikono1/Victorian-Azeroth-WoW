@@ -1,1 +1,51 @@
-﻿
+﻿objective_war_for_light = {
+	enabled_background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	
+	recommended_tags = { ARGENT_CRUSADERS CULT_OF_DAMNED SCARLET_CRUSADERS_WHITEMANE SCARLET_CRUSADERS_ONSLAUGHT }	
+	
+	objective_subgoals = {
+	}
+	
+	on_start = {
+	}
+}
+
+objective_azharen_forest = {
+	enabled_background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	
+	recommended_tags = { DARNASSUS ORGRIMMAR MAGMATHAR_FIRE }	
+	
+	objective_subgoals = {
+	}
+	
+	on_start = {
+	}
+}
+
+objective_a_fourth_war = {
+	enabled_background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	
+	recommended_tags = { STORMWIND BLACKWING_DRAGONFLIGHT BLACKROCK_CLAN DARK_IRON_CLAN IRONFORGE GNOMEREGAN }	
+	
+	objective_subgoals = {
+	}
+	
+	on_start = {
+	}
+}
+
+objective_future_of_humanity = {
+	enabled_background = "gfx/interface/icons/objectives/egalitarian_society_illu.dds"
+	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
+	
+	recommended_tags = { GILNEAS UNDERCITY ARGENT_CRUSADERS KIRINTOR_EXPEDITION SYNDICATE }	
+	
+	objective_subgoals = {
+	}
+	
+	on_start = {
+	}
+}

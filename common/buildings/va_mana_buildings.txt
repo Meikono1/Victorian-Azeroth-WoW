@@ -1,0 +1,17 @@
+﻿# Mana-Förderung an Leylinien (VA-019). Vorbild: Vanilla building_coal_mine (03_mines.txt).
+# Kein unlocking_technologies: Leylinien-Anzapfung ist von Spielbeginn an bekannt.
+building_leyline_tap = {
+	building_group = bg_leyline_tapping
+	icon = "gfx/interface/icons/building_icons/coal_mine.dds" # TODO: eigenes Icon
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_base_building_leyline_tap
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}

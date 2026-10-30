@@ -1,0 +1,10 @@
+﻿STATES = {
+	s:STATE_ZANDALAR = {
+		create_state = {
+			country = c:ZANDALAR
+			owned_provinces = { x1CC9CC x1D7F5E x5F9550 x68C89A x807060 x91E56C xBE6A23 xDABB9C xFE18C1 }
+		}
+
+		add_homeland = cu:kvaldir
+	}
+}

@@ -8,8 +8,8 @@ american_mining_oilrig_01_mesh = {
 	size = 1
 
 	particles = {
-		"locator_chimney" = "particle_factory_smoke"
-		"locator_chimney_02" = "particle_factory_smoke"
+		"locator_chimney" 	 = "infrastructure/factory_smoke"
+		"locator_chimney_02" = "infrastructure/factory_smoke"
 	}
 	
 	construction_entity = "building_construction_1x1_entity"

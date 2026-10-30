@@ -1,24 +1,24 @@
 POPS = {
 	s:STATE_SUNS_REACH = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
 	}
 	s:STATE_MAGISTERS_TERRACE = {
-		region_state:EASTERNKINGDOMS = {
+		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
 	}
 	s:STATE_SUNWELL_PLATEAU = { 
-		region_state:EASTERNKINGDOMS = {
+		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
+				culture = sin_dorei
 				size = 10000
 			}
 		}
@@ -26,876 +26,990 @@ POPS = {
 	s:STATE_SUNSTRIDER_ISLE = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 225000
 			}
 		}
 		region_state:WRETCHED_BLOODELFES = {
 			create_pop = {
-				culture = wretched_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 376000
 			}
 		}
 	}
 	s:STATE_RUINS_OF_SILVERMOON = {
 		region_state:WRETCHED_BLOODELFES = {
 			create_pop = {
-				culture = wretched_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 744000
 			}
 		}
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 356000
 			}
 		}
 	}
 	s:STATE_SILVERMOON_CITY = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 1000000
+				culture = sin_dorei
+				size = 829400
+			}
+			create_pop = {
+				culture = sin_dorei
+				size = 600600
 			}
 		}
 	}
 	s:STATE_WEST_SANCTUM = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 620000
 			}
 		}
 		region_state:GRIMSCALE_MURLOCS = {
 			create_pop = {
-				culture = grimscale_murloc
-				size = 500000
+				culture = warmwater_murloc
+				size = 232000
 			}
 		}
 	}
 	s:STATE_SUNSAIL_ANCHORAGE = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 330000
+				culture = sin_dorei
+				size = 345000
 			}
 		}
 		region_state:WRETCHED_BLOODELFES = {
 			create_pop = {
-				culture = wretched_bloodelf
-				size = 330000
+				culture = sin_dorei
+				size = 520000
 			}
 		}
 		region_state:GRIMSCALE_MURLOCS = {
 			create_pop = {
-				culture = grimscale_murloc
-				size = 330000
+				culture = warmwater_murloc
+				size = 150000
 			}
 		}
 	}
 	s:STATE_EAST_SANCTUM = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 423000
 			}
 		}
 		region_state:DEATHHOLME = {
 			create_pop = {
-				culture = scourge_zombie
-				size = 500000
+				culture = banshee
+				size = 653000
 			}
 		}
 	}
 	s:STATE_FARSTRIDER_RETREAT = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 1000000
+				culture = sin_dorei
+				size = 320000
+			}
+			create_pop = {
+				culture = sin_dorei
+				size = 580000
 			}
 		}
 	}
 	s:STATE_DUSKWITHER_SPIRE = {
 		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 1000000
+				culture = sin_dorei
+				size = 432000
+			}
+			create_pop = {
+				culture = sin_dorei
+				size = 270000
 			}
 		}
 	}
 	s:STATE_TOR_WATHA = {
 		region_state:AMANI_TRIBE = {
 			create_pop = {
-				culture = amani_troll
-				size = 1000000
+				culture = forest_troll
+				size = 320000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sin_dorei
+				size = 120000
 			}
 		}
 	}
 	s:STATE_WINDRUNNER_VILLAGE = {
 		region_state:DEATHHOLME = {
 			create_pop = {
-				culture = scourge_zombie
-				size = 500000
+				culture = banshee
+				size = 586000
 			}
 		}
 		region_state:GRIMSCALE_MURLOCS = {
 			create_pop = {
-				culture = grimscale_murloc
-				size = 500000
+				culture = warmwater_murloc
+				size = 382000
 			}
 		}
 	}
 	s:STATE_TRANQUILLIEN = {
 		region_state:DEATHHOLME = {
 			create_pop = {
-				culture = scourge_zombie
-				size = 500000
+				culture = banshee
+				size = 860000
 			}
 		}
-		region_state:SILVERMOON = {
+		region_state:TRANQUILLIEN = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 500000
+				culture = sin_dorei
+				size = 230000
 			}
 		}
 	}
 	s:STATE_DEATHHOLME = {
 		region_state:DEATHHOLME = {
 			create_pop = {
-				culture = scourge_zombie
-				size = 1000000
+				culture = banshee
+				size = 1400000
 			}
 		}
 	}
 	s:STATE_SUNCROWN_VILLAGE = {
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
-				culture = shadowpine_troll
-				size = 500000
+				culture = forest_troll
+				size = 280000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sin_dorei
+				size = 80000
 			}
 		}
 		region_state:DEATHHOLME = {
 			create_pop = {
-				culture = scourge_zombie
-				size = 500000
+				culture = banshee
+				size = 460000
 			}
 		}
 	}
 	s:STATE_DAWNSTAR_SPIRE = {
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
-				culture = shadowpine_troll
-				size = 1000000
+				culture = forest_troll
+				size = 350000
 			}
 		}
 	}
 	s:STATE_SANCTUM_OF_SUN = {
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
-				culture = shadowpine_troll
+				culture = forest_troll
 				size = 330000
 			}
-		}
-		region_state:SILVERMOON = {
 			create_pop = {
-				culture = silvermoon_bloodelf
-				size = 330000
+				pop_type = slaves
+				culture = sin_dorei
+				size = 20000
+			}
+		}
+		region_state:TRANQUILLIEN = {
+			create_pop = {
+				culture = sin_dorei
+				size = 230000
 			}
 		}
 		region_state:DARNASSUS_OUTPOST_EK = {
 			create_pop = {
-				culture = darnassus_nightelf
-				size = 330000
+				culture = kal_dorei
+				size = 130000
 			}
 		}
 	}
 	s:STATE_ZUL_AMAN = {
 		region_state:AMANI_TRIBE = {
 			create_pop = {
-				culture = amani_troll
-				size = 1000000
+				culture = forest_troll
+				size = 980000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = forest_troll
+				size = 1350000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = forest_troll
+				size = 350000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sin_dorei
+				size = 374000
 			}
 		}
 	}
 	s:STATE_ARCHERUS = {
 		region_state:KNIGHTS_EBON_BLADE = {
 			create_pop = {
-				culture = ebonblade_deathknight
-				size = 1000000
+				culture = death_knight
+				size = 1700000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lordorean
+				size = 850000
 			}
 		}
 	}
 	s:STATE_LIGHTS_HOPE_CHAPEL = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 500000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 750000
 			}
 		}
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 500000
+				culture = lordorean
+				religion = scourge
+				size = 470000
 			}
 		}
 	}
 	s:STATE_ZUL_MASHER = {
 		region_state:MOSSFLAYER_TROLLS = {
 			create_pop = {
-				culture = mossflayer_troll
-				size = 500000
+				culture = forest_troll
+				size = 650000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 500000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 220000
+			}
+			create_pop = {
+				culture = zombie
+				size = 370000
 			}
 		}
 	}
 	s:STATE_NORTHPASS_TOWER = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 500000
+				culture = zombie
+				size = 480000
+			}
+			create_pop = {
+				culture = banshee
+				size = 260000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 500000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 350000
+			}
+			create_pop = {
+				culture = zombie
+				size = 35000
 			}
 		}
 	}
 	s:STATE_STRATHOLME = { 
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 1000000
+				culture = zombie
+				size = 1580000
 			}
 		}
 	}
 	s:STATE_PLAGUEWOOD_TOWER = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 500000
+				culture = lordorean
+				religion = scourge
+				size = 160000
+			}
+			create_pop = {
+				culture = zombie
+				size = 430000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 500000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 320000
+			}
+			create_pop = {
+				culture = zombie
+				size = 150000
 			}
 		}
 	}
 	s:STATE_CROWN_GUARD_TOWER = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 330000
+				culture = zombie
+				size = 370000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 330000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 290000
 			}
 		}
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 330000
+				culture = lordorean
+				religion = scourge
+				size = 260000
+			}
+			create_pop = {
+				culture = zombie
+				size = 550000
 			}
 		}
 	}
 	s:STATE_LIGHTS_SHIELD_TOWER = {
 		region_state:PLAGUELAND_UNDEAD = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 500000
+				culture = zombie
+				size = 440000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 500000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 530000
+			}
+			create_pop = {
+				culture = zombie
+				size = 52000
 			}
 		}
 	}
 	s:STATE_TYRS_HAND = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 1500000
 			}
 		}
 	}
 	s:STATE_HAVENSHIRE = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 1340000
 			}
 		}
 	}
 	s:STATE_NEW_AVALON = {
 		region_state:SCARLET_CRUSADERS_ONSLAUGHT = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 2340000
 			}
 		}
 	}
 	s:STATE_HEARTHGLEN = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 1000000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 860000
 			}
 		}
 	}
 	s:STATE_GAHRRONS_WITHERING = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 1000000
+				culture = lordorean
+				religion = scourge
+				size = 560000
 			}
 		}
 	}
 	s:STATE_ANDORHAL = {
 		region_state:ANDORHAL = {
 			create_pop = {
-				culture = andorhal_human
-				size = 330000
+				culture = lordorean
+				size = 325000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 330000
+				culture = forsaken
+				size = 289000
 			}
 		}
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 330000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 270000
 			}
 		}
 	}
 	s:STATE_SCHOLOMANCE = {
 		region_state:CULT_OF_DAMNED = {
 			create_pop = {
-				culture = scourge_human_cultist
-				size = 1000000
+				culture = lordorean
+				religion = scourge
+				size = 1580000
 			}
 		}
 	}
 	s:STATE_SORROW_HILL = {
 		region_state:ARGENT_CRUSADERS = {
 			create_pop = {
-				culture = argent_human
-				size = 1000000
+				culture = lordorean
+				religion = brotherhood_light
+				size = 780000
 			}
 		}
 	}
 	s:STATE_SCARLET_MONASTERY = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 1900000
 			}
 		}
 	}
 	s:STATE_WHISPERING_GARDENS = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 1340000
 			}
 		}
 	}
 	s:STATE_THE_BULWARK = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 500000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 890000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 660000
 			}
 		}
 	}
 	s:STATE_BRILL = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 780000
 			}
 		}
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 500000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 220000
 			}
 		}
 	}
 	s:STATE_AGAMAND_MILLS = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 670000
 			}
 		}
 	}
 	s:STATE_UNDERCITY = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 3500000
 			}
 		}
 	}
 	s:STATE_NIGHTMARE_VALE = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 500000
+				culture = lordorean
+				religion = scarlet_crusade
+				size = 460000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 790000
 			}
 		}
 	}
 	s:STATE_SOLLIDEN = {
 		region_state:SCARLET_CRUSADERS_WHITEMANE = {
 			create_pop = {
-				culture = scarlet_crusade_human
-				size = 1000000
+				culture = lordorean
+				size = 600000
 			}
 		}
 	}
 	s:STATE_DEATHKNELL = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 1700000
 			}
 		}
 	}
 	s:STATE_FORSAKEN_HIGH_COMMAND = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 680000
 			}
 		}
 	}
 	s:STATE_FORSAKEN_REAR_GUARD = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 460000
 			}
 		}
 		region_state:BLOODFANG_PACK = {
 			create_pop = {
-				culture = bloodfang_worgen
-				size = 500000
+				culture = alpha_pack
+				size = 370000
 			}
 		}
 	}
 	s:STATE_FENRIS_ISLE = {
 		region_state:VILEFIN_MURLOCS = {
 			create_pop = {
-				culture = vilefin_tribe_murloc
-				size = 1000000
+				culture = warmwater_murloc
+				size = 280000
 			}
 		}
 	}
 	s:STATE_SEPULCHER = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 890000
 			}
 		}
 	}
 	s:STATE_DALARAN_CRATER = {
 		region_state:KIRINTOR_EXPEDITION = {
 			create_pop = {
-				culture = kirintor_human
-				size = 500000
+				culture = dalaranian
+				size = 350000
 			}
 		}
 		region_state:SYNDICATE = {
 			create_pop = {
-				culture = syndicate_human
-				size = 500000
+				culture = alteraci
+				size = 130000
 			}
 		}
 	}
 	s:STATE_SHADOWFANG_KEEP = {
 		region_state:SHADOWFANG_KEEP = {
 			create_pop = {
-				culture = shadowfang_worgen
-				size = 1000000
+				culture = alpha_pack
+				size = 1700000
 			}
 		}
 	}
 	s:STATE_FORSAKEN_FRONT = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 600000
 			}
 		}
 		region_state:KIRINTOR_EXPEDITION = {
 			create_pop = {
-				culture = kirintor_human
-				size = 500000
+				culture = dalaranian
+				size = 230000
 			}
 		}
 	}
 	s:STATE_PYREWOOD_VILLAGE = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 464000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 486000
 			}
 		}
 	}
 	s:STATE_NORTHGATE_WOODS = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 360000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 310000
 			}
 		}
 	}
 	s:STATE_NORTHERN_HEADLANDS = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 180000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 410000
 			}
 		}
 	}
 	s:STATE_THE_HEADLANDS = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 450000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 210000
 			}
 		}
 	}
 	s:STATE_EMBERSTONE = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 680000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 170000
 			}
 		}
 	}
 	s:STATE_GILNEAS_CITY = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 2440000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 320000
 			}
 		}
 	}
 	s:STATE_KOROTH_DEN = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 1290000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 210000
 			}
 		}
 	}
 	s:STATE_STORMGLEN_VILLAGE = {
 		region_state:GILNEAS = {
 			create_pop = {
-				culture = gilneas_worgen
-				size = 1000000
+				culture = gilnean
+				size = 198000
+			}
+			create_pop = {
+				culture = tal_dorens
+				size = 540000
+			}
+			create_pop = {
+				culture = alpha_pack
+				size = 240000
 			}
 		}
 	}
 	s:STATE_STRAHNBRAD = {
 		region_state:SYNDICATE = {
 			create_pop = {
-				culture = syndicate_human
-				size = 500000
+				culture = alteraci
+				size = 340000
 			}
 		}
 		region_state:CRUSHRIDGE_OGRE = {
 			create_pop = {
-				culture = crushridge_ogre
-				size = 500000
+				culture = mountain_ogre
+				size = 270000
 			}
 		}
 	}
 	s:STATE_RUINS_OF_ALTERAC = {
 		region_state:CRUSHRIDGE_OGRE = {
 			create_pop = {
-				culture = crushridge_ogre
-				size = 1000000
+				culture = mountain_ogre
+				size = 350000
 			}
 		}
 	}
 	s:STATE_TARRENS_MILL = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 330000
+				culture = forsaken
+				size = 550000
 			}
 		}
 		region_state:HIGHLAND_FROSTWOLFES = {
 			create_pop = {
-				culture = frostwolf_orc
+				culture = frostwolf
 				size = 330000
 			}
 		}
 		region_state:SI7_HIGHLANDS = {
 			create_pop = {
-				culture = stormwind_human
-				size = 330000
+				culture = stormwindian
+				size = 150000
 			}
 		}
 	}
 	s:STATE_HEADLAND = {
-		region_state:STORMSPIKE = {
+		region_state:SI7_HIGHLANDS = {
 			create_pop = {
-				culture = stormspike_dwarf
-				size = 500000
+				culture = stormwindian
+				size = 232000
 			}
 		}
-		region_state:HIGHLAND_YETI = {
+		region_state:UNDERCITY = {
 			create_pop = {
-				culture = highland_yeti
-				size = 500000
+				culture = forsaken
+				size = 620000
 			}
 		}
 	}
 	s:STATE_THE_SLUDGGE_FIELDS = {
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 1000000
+				culture = forsaken
+				size = 680000
 			}
 		}
 	}
 	s:STATE_RUINS_OF_SOUTHSHORE = {
 		region_state:TORNFIN_MURLOCS = {
 			create_pop = {
-				culture = tornfin_murloc
-				size = 500000
+				culture = warmwater_murloc
+				size = 230000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 570000
 			}
 		}
 	}
 	s:STATE_JINTHA_ALOR = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
-				culture = vilebranch_troll
-				size = 500000
+				culture = forest_troll
+				religion = shadra_loa
+				size = 1670000
 			}
 		}
-		region_state:RAVENTUSK_TROLLS = {
+		region_state:REVANTUSK_TROLLS = {
 			create_pop = {
-				culture = raventusk_troll
-				size = 500000
+				culture = forest_troll
+				religion = shamanism
+				size = 340000
 			}
 		}
 	}
 	s:STATE_SERADANE = {
 		region_state:EMERALD_ENTRANCE_SERADANE = {
 			create_pop = {
-				culture = green_dragonkin_dragon
-				size = 330000
+				culture = green_dragon
+				size = 280000
 			}
 		}
-		region_state:WILDHAMMER_CLAN_AZ = {
+		region_state:REVANTUSK_TROLLS = {
 			create_pop = {
-				culture = wildhammer_dwarf
-				size = 330000
-			}
-		}
-		region_state:RAVENTUSK_TROLLS = {
-			create_pop = {
-				culture = raventusk_troll
-				size = 330000
+				culture = forest_troll
+				religion = shamanism
+				size = 560000
 			}
 		}
 	}
 	s:STATE_ALTER_OF_ZUL = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
-				culture = vilebranch_troll
-				size = 1000000
+				culture = forest_troll
+				religion = shadra_loa
+				size = 1300000
 			}
 		}
 	}
 	s:STATE_QUEL_DANIL_LODGE = {
 		region_state:HIGHVALE_HIGHELFES = {
 			create_pop = {
-				culture = silvermoon_highelf
-				size = 1000000
+				culture = quel_dorei
+				size = 370000
 			}
 		}
 	}
 	s:STATE_SHADRA_ALOR = {
 		region_state:VILEBRANCH_TROLLS = {
 			create_pop = {
-				culture = vilebranch_troll
-				size = 500000
-			}
-		}
-		region_state:UNDERCITY = {
-			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forest_troll
+				religion = shadra_loa
+				size = 850000
 			}
 		}
 	}
 	s:STATE_AERIE_PEAK = {
 		region_state:WILDHAMMER_CLAN_AZ = {
 			create_pop = {
-				culture = wildhammer_dwarf
-				size = 1000000
+				culture = wildhammer
+				size = 1470000
 			}
 		}
 	}
 	s:STATE_DURNHOLDE_KEEP = {
 		region_state:SYNDICATE = {
 			create_pop = {
-				culture = syndicate_human
-				size = 500000
+				culture = alteraci
+				size = 480000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 500000
+				culture = forsaken
+				size = 269000
 			}
 		}
 	}
 	s:STATE_DUN_GAROK = {
 		region_state:MUDSNOUT_GNOLLS = {
 			create_pop = {
-				culture = mudsnout_gnoll
-				size = 500000
+				culture = bluepelt
+				size = 380000
 			}
 		}
 		region_state:DUN_GAROK = {
 			create_pop = {
-				culture = ironhill_undead_dwarf
-				size = 500000
+				culture = bronzebeard
+				size = 670000
 			}
 		}
 	}
 	s:STATE_NORTHFOLD_MANOR = {
 		region_state:SYNDICATE = {
 			create_pop = {
-				culture = syndicate_human
-				size = 330000
-			}
-		}
-		region_state:BOULDERFIST_CLAN_AZ = {
-			create_pop = {
-				culture = boulderfist_ogre
-				size = 330000
+				culture = alteraci
+				size = 630000
 			}
 		}
 		region_state:UNDERCITY = {
 			create_pop = {
-				culture = undercity_forsaken_undead
-				size = 330000
+				culture = forsaken
+				size = 360000
 			}
 		}
 	}
 	s:STATE_STORMGARDE_KEEP = {
 		region_state:SYNDICATE = {
 			create_pop = {
-				culture = syndicate_human
-				size = 330000
-			}
-		}
-		region_state:BOULDERFIST_CLAN_AZ = {
-			create_pop = {
-				culture = boulderfist_ogre
-				size = 330000
+				culture = alteraci
+				size = 680000
 			}
 		}
 		region_state:STEAMWHEEDLE_CARTEL = {
 			create_pop = {
-				culture = steamwheedle_goblin
-				size = 330000
+				culture = goblin
+				size = 220000
 			}
 		}
 	}
 	s:STATE_BOULDER_GOR = {
 		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
-				culture = boulderfist_ogre
-				size = 500000
+				culture = hill_ogre
+				size = 470000
 			}
 		}
 		region_state:REFUGE_POINT = {
 			create_pop = {
-				culture = stormwind_human
-				size = 500000
+				culture = stormwindian
+				size = 245000
 			}
 		}
 	}
 	s:STATE_HAMMERFALL = {
 		region_state:HAMMERFALL = {
 			create_pop = {
-				culture = orgrimmar_orc
-				size = 330000
+				culture = orgrimmari
+				size = 530000
 			}
 		}
 		region_state:DRYWHISPER_KOBOLDS = {
 			create_pop = {
-				culture = drywhisper_kobold
-				size = 330000
+				culture = kobold
+				size = 85000
 			}
 		}
 		region_state:DABYRIES_HUMANS = {
 			create_pop = {
-				culture = stormwind_human
-				size = 330000
+				culture = stormwindian
+				size = 170000
 			}
 		}
 	}
 	s:STATE_WITHERBARK_VILLAGE = {
 		region_state:WHITERBARK_TROLLS = {
 			create_pop = {
-				culture = whiterbark_troll
-				size = 330000
+				culture = forest_troll
+				size = 150000
 			}
 		}
 		region_state:HAMMERFALL = {
 			create_pop = {
-				culture = orgrimmar_orc
-				size = 330000
+				culture = orgrimmari
+				size = 680000
 			}
 		}
 		region_state:BOULDERFIST_CLAN_AZ = {
 			create_pop = {
-				culture = boulderfist_ogre
-				size = 330000
+				culture = hill_ogre
+				size = 370000
 			}
 		}
 	}

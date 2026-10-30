@@ -10,8 +10,8 @@ building_coffee_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_coffee_plantation
 		pmg_train_automation_building_coffee_plantation
@@ -31,7 +31,7 @@ building_cotton_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	production_method_groups = {
 		pmg_base_building_cotton_plantation
@@ -40,6 +40,20 @@ building_cotton_plantation = {
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					var:dictate_plantation_type ?= 4
+				}
+			}
+			add = 2000
+		}
+	}
 }
 
 building_dye_plantation = {
@@ -52,8 +66,8 @@ building_dye_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_dye_plantation
 		pmg_train_automation_building_dye_plantation
@@ -61,6 +75,20 @@ building_dye_plantation = {
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					var:dictate_plantation_type ?= 3
+				}
+			}
+			add = 2000
+		}
+	}
 }
 
 building_opium_plantation = {
@@ -73,22 +101,36 @@ building_opium_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_opium_plantation
 		pmg_train_automation_building_opium_plantation
 	}
-	
+
 	can_build_government = {
 		owner = { NOT = { is_banning_goods = g:opium } }
 	}
 	can_build_private = {
 		owner = { NOT = { is_banning_goods = g:opium } }
-	}	
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					var:dictate_plantation_type ?= 1
+				}
+			}
+			add = 2000
+		}
+	}
 }
 
 building_tea_plantation = {
@@ -101,8 +143,8 @@ building_tea_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_tea_plantation
 		pmg_train_automation_building_tea_plantation
@@ -110,6 +152,20 @@ building_tea_plantation = {
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					var:dictate_plantation_type ?= 2
+				}
+			}
+			add = 2000
+		}
+	}
 }
 
 building_tobacco_plantation = {
@@ -122,8 +178,8 @@ building_tobacco_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_tobacco_plantation
 		pmg_train_automation_building_tobacco_plantation
@@ -131,6 +187,20 @@ building_tobacco_plantation = {
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+
+	ai_value = {
+		value = 1000
+
+		if = { # British dictates
+			limit = {
+				owner = {
+					has_journal_entry = je_british_dictate_plantations
+					var:dictate_plantation_type ?= 5
+				}
+			}
+			add = 2000
+		}
+	}
 }
 
 building_sugar_plantation = {
@@ -141,9 +211,9 @@ building_sugar_plantation = {
 	unlocking_technologies = {
 		enclosure
 	}
-	
+
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	production_method_groups = {
 		pmg_base_building_sugar_plantation
@@ -164,8 +234,8 @@ building_banana_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_banana_plantation
 		pmg_train_automation_building_banana_plantation
@@ -185,7 +255,7 @@ building_silk_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	production_method_groups = {
 		pmg_base_building_silk_plantation
@@ -206,8 +276,8 @@ building_vineyard_plantation = {
 	}
 
 	city_type = farm
-	levels_per_mesh = 5
-	
+	levels_per_mesh = 50
+
 	production_method_groups = {
 		pmg_base_building_vineyard_plantation
 		pmg_train_automation_building_vineyard_plantation

@@ -1,0 +1,19 @@
+﻿STATE_KUL_TIRAS = {
+    id = 3501
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x13CEE0" "x2050E0" "x281DD3" "x41F864" "x6CBE21" "x7AD6CB" "x7F8783" "x81730A" "x88ADC8" "x93CB74" "x9F9CCA" "xA4A407" "xDB6370" "xE090E0" "xEE1814" }
+    traits = {}
+    city = ""
+    port = ""
+    farm = ""
+    mine = ""
+    wood = ""
+    arable_land = 30
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 36
+        bg_lead_mining = 18
+        bg_logging = 23
+        bg_fishing = 11
+    }
+}

@@ -4,6 +4,10 @@
 
 	visible = { always = yes }
 
+	ai_chance = {
+		value = 100
+	}
+
 	possible = {
 		scope:journal_entry = {
 			not = {

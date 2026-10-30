@@ -1,0 +1,25 @@
+﻿# Victorian Azeroth: eigene Einträge, herausgelöst aus der alten Vollkopie 02_religious_heritage_groups.txt
+
+heritage_group_death = {
+	type = heritage
+}
+
+heritage_group_disorder = {
+	type = heritage
+}
+
+heritage_group_life = {
+	type = heritage
+}
+
+heritage_group_light = {
+	type = heritage
+}
+
+heritage_group_order = {
+	type = heritage
+}
+
+heritage_group_shadow = {
+	type = heritage
+}

@@ -5,5 +5,4 @@
 	generated_content=no
 	layer="massive_environment"
 	pdxmesh="sandstone_monument_01_mesh"
-	count=0
 }

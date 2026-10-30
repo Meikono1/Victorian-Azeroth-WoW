@@ -1,0 +1,14 @@
+﻿# Eigene Güter (VA-019). Vorbild: Vanilla common/goods/00_goods.txt (coal).
+mana = {
+	texture = "gfx/interface/icons/goods_icons/electricity.dds" # TODO: eigenes Mana-Icon
+	cost = 40
+	category = industrial
+
+	prestige_factor = 3
+
+	traded_quantity = 5
+	convoy_cost_multiplier = 0.5
+
+	consumption_tax_cost = 150
+	# TODO: obsession_chance und Aufnahme in Pop-Bedürfnisse (Sin'dorei-Sucht, VA-019/VA-021)
+}

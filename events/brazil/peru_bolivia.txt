@@ -1,1 +1,1 @@
-﻿namespace = peru_bolivia_events
+﻿# Abgeschaltet (VA-002): Vanilla-Eventdatei mit Erde-Inhalt. Erzeugt von .claude/tools/va_events.py.

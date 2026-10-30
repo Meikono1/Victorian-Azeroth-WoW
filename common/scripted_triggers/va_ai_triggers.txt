@@ -1,0 +1,36 @@
+﻿# Victorian Azeroth: entschärfte Fassungen aus der alten Vollkopie 00_ai_triggers.txt.
+# Vanilla 1.13 fragt hier Erde-Regionen bzw. Erde-JEs ab. REPLACE: ersetzt nur diese Trigger,
+# alle anderen kommen aus Vanilla.
+
+REPLACE:has_je_conquest_reason = {
+	can_reach_target_country = yes
+
+	OR = {
+		AND = {
+			has_variable = sided_with_korean_rebels
+			scope:target_country = {
+				country_has_primary_culture = cu:korean
+				is_revolutionary = no
+			}
+		}
+	}
+}
+
+REPLACE:has_je_subjugation_reason = {
+	can_reach_target_country = yes
+}
+
+REPLACE:has_je_befriend_reason = {
+	can_reach_target_country = yes
+	country_rank <= $TARGET$.country_rank
+}
+
+REPLACE:has_je_protect_reason = {
+	can_reach_target_country = yes
+	country_rank > $TARGET$.country_rank
+}
+
+# VA-025: Vanilla should_carve_up_china fragt sr:region_north_china/south_china ab (gibt es nicht). Nie wahr.
+REPLACE:should_carve_up_china = {
+	always = no
+}

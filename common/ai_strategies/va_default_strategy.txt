@@ -1,0 +1,423 @@
+﻿# Victorian Azeroth: Vanilla ai_strategy_default fragt in strategic_region_scores
+# Erde-Regionen ab (sr:region_arabia ...). Die gibt es hier nicht -> ~10.000 Fehler/Minute.
+# Nur die betroffenen Bloecke werden ersetzt, der Rest der Vanilla-Strategie bleibt unberuehrt.
+# strategic_region_scores aus Vanilla 1.13.11: nur Grundwert, Heimat, Kolonien.
+# TODO: Azeroth-spezifische Regionen (Kalimdor, Eastern Kingdoms ...) gewichten.
+
+INJECT:ai_strategy_default = {
+	strategic_region_scores = {
+		value = 0
+
+		# Base Value
+		add = {
+			value = 100
+
+			add = {
+				scope:region = {
+					every_scope_state = {
+						add = gdp
+					}
+				}
+				divide = 40000
+				max = 50
+			}
+
+			every_rival_country = {
+				limit = {
+					has_strategic_region_interest_tier = {
+						strategic_region = scope:region
+						value >= 1
+					}
+				}
+				add = 25
+			}
+
+			scope:region = {
+				every_scope_state = {
+					limit = {
+						is_homeland_of_country_cultures = root
+					}
+					add = 10
+				}
+			}
+		}
+
+		# We care about the things happening at home
+		if = {
+			limit = {
+				any_scope_state = {
+					region = scope:region
+				}
+			}
+			add = 50
+
+			if = {
+				limit = {
+					scope:region = {
+						any_scope_state = {
+							owner = root
+							is_incorporated = yes
+						}
+					}
+				}
+				add = 50
+			}
+
+			if = {
+				limit = {
+					scope:region = capital.region
+				}
+				add = 100
+			}
+		}
+
+		# Ensure we maintain interests in colonies
+		if = {
+			limit = {
+				scope:region = {
+					any_scope_state = {
+						is_under_colonization = yes
+						owner = root
+					}
+				}
+			}
+			add = 1000
+		}
+	}
+
+	# Aus Vanilla 1.13.11 ohne die Erde-Sonderfälle (Japan öffnen, natürliche Grenzen,
+	# Brasilien-Bonus im Aberdeen Act, Scramble for Africa).
+	strategic_region_stance_type_scores = {
+		stance_conquer_region = {
+			value = 0
+
+			if = {
+				limit = {
+					scope:target_region = {
+						any_scope_country = {
+							NOR = {
+								this = root
+								is_subject_of = root
+							}
+						}
+					}
+				}
+
+				add = {
+					desc = "AI_REGION_STANCE_BASE_VALUE"
+					value = 100
+				}
+
+				add = {
+					desc = "AI_REGION_STANCE_NUMBER_OF_CLAIMS"
+					scope:target_region = {
+						every_scope_state = {
+							limit = {
+								owner = {
+									NOT = { is_country_type = decentralized }
+								}
+								has_claim_by = root
+							}
+							add = 100
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						is_country_type = unrecognized
+						scope:target_region = {
+							this = root.capital.region
+						}
+					}
+					add = {
+						desc = "AI_REGION_STANCE_CAPITAL_REGION"
+						value = 150
+					}
+				}
+
+				if = {
+					limit = {
+						has_strategy = ai_strategy_territorial_expansion
+					}
+					multiply = {
+						desc = "ai_strategy_territorial_expansion"
+						value = 3
+					}
+				}
+
+				if = {
+					limit = {
+						is_subject = yes
+						liberty_desire <= 25
+					}
+					multiply = {
+						desc = "AI_REGION_STANCE_IS_LOYAL_SUBJECT"
+						value = 0.5
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					country_rank <= rank_value:minor_power
+					scope:target_region != capital.region
+				}
+				multiply = {
+					desc = "AI_REGION_STANCE_SMALL_COUNTRY"
+					value = 0
+				}
+			}
+		}
+
+		stance_protect_region = {
+			value = 0
+
+			if = {
+				limit = {
+					scope:target_region = {
+						any_scope_country = {
+							NOT = {
+								this = root
+							}
+						}
+					}
+				}
+				add = {
+					desc = "AI_REGION_STANCE_BASE_VALUE"
+					value = 100
+				}
+
+				if = {
+					limit = {
+						scope:target_region = {
+							this = root.capital.region
+						}
+					}
+					add = {
+						desc = "AI_REGION_STANCE_CAPITAL_REGION"
+						value = 100
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_aberdeen_act
+					scope:target_region = {
+						is_in_geographic_region = geographic_region_americas
+					}
+				}
+
+				add = {
+					desc = "je_aberdeen_act"
+					value = 200
+
+				}
+			}
+
+			if = {
+				limit = {
+					country_rank <= rank_value:minor_power
+					scope:target_region != capital.region
+				}
+				multiply = {
+					desc = "AI_REGION_STANCE_SMALL_COUNTRY"
+					value = 0
+				}
+			}
+		}
+
+		stance_colonize_region = {
+			value = 0
+
+			if = {
+				limit = {
+					has_technology_researched = colonization
+					NOR = {
+						has_law_or_variant = law_type:law_no_colonial_affairs
+						is_country_type = unrecognized
+					}
+					OR = {
+						any_neighbouring_state = {
+							region = scope:target_region
+						}
+						navy_size >= 50
+					}
+					scope:target_region = {
+						any_scope_state = {
+							owner = {
+								OR = {
+									is_country_type = unrecognized
+									is_country_type = decentralized
+								}
+							}
+						}
+					}
+				}
+
+				add = {
+					desc = "AI_REGION_STANCE_BASE_VALUE"
+					value = 100
+				}
+
+				if = {
+					limit = {
+						country_is_colonial_or_company = yes
+					}
+					add =  {
+						desc = "AI_REGION_STANCE_COLONIAL_COUNTRY"
+						value = 200
+					}
+				}
+
+				scope:target_region = {
+					every_scope_state = {
+						limit = {
+							owner = {
+								OR = {
+									is_country_type = unrecognized
+									is_country_type = decentralized
+								}
+							}
+						}
+						add = {
+							desc = "AI_REGION_STANCE_FREE_REAL_ESTATE"
+							value = 200
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						has_strategy = ai_strategy_colonial_expansion
+					}
+					multiply = {
+						desc = "ai_strategy_colonial_expansion"
+						value = 3
+					}
+				}
+
+				if = {
+					limit = {
+						has_technology_researched = civilizing_mission
+					}
+					multiply = {
+						desc = "AI_REGION_STANCE_CIVILIZING_MISSION_RESEARCHED"
+						value = 5
+					}
+				}
+				else_if = {
+					limit = {
+						has_technology_researched = quinine
+					}
+					multiply = {
+						desc = "AI_REGION_STANCE_QUININE_RESEARCHED"
+						value = 2.5
+					}
+				}
+
+			}
+
+			if = {
+				limit = {
+					country_rank <= rank_value:minor_power
+					scope:target_region != capital.region
+				}
+				multiply = {
+					desc = "AI_REGION_STANCE_SMALL_COUNTRY"
+					value = 0
+				}
+			}
+		}
+
+		stance_none = {
+			value = 0
+
+			add = {
+				desc = "AI_REGION_STANCE_BASE_VALUE"
+				value = 100
+				subtract = scope:region_score
+				min = 1
+			}
+		}
+	}
+}
+
+# Vanilla fragt im Gewicht capital.region = sr:region_oceania ab, nur diese Zeile entfernt.
+INJECT:ai_strategy_agricultural_expansion = {
+	weight = {
+		value = 10
+
+		if = {
+			limit = {
+				OR = {
+					is_in_geographic_region = geographic_region_europe
+					is_in_geographic_region = geographic_region_north_america
+					is_in_geographic_region = geographic_region_east_asia
+					is_in_geographic_region = geographic_region_middle_east
+					is_in_geographic_region = geographic_region_central_asia_old
+				}
+			}
+			add = 20
+		}
+
+		if = {
+			limit = {
+				exists = c:FRA
+				c:FRA = this
+				ruler = {
+					has_variable = legitimist_leader
+				}
+			}
+			add = 20
+		}
+
+		if = {
+			limit = {
+				is_princely_state = yes
+			}
+			add = 10
+		}
+
+		if = {
+			limit = { literacy_rate < 0.25 }
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { literacy_rate < 0.35 }
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { literacy_rate >= 0.50 }
+			multiply = 0.5
+		}
+
+		if = {
+			limit = {
+				exists = ig:ig_landowners
+				ig:ig_landowners ?= { is_powerful = yes }
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = {
+				exists = overlord
+				overlord = {
+					OR = {
+						AND = {
+							is_ai = no
+							NOT = { has_law_or_variant = law_type:law_traditionalism }
+						}
+						has_strategy = ai_strategy_resource_expansion
+						has_strategy = ai_strategy_industrial_expansion
+					}
+				}
+			}
+			multiply = 0.5
+		}
+	}
+}

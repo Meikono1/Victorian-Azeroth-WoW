@@ -200,6 +200,21 @@ game_object_locator={
 	}
 }
 game_object_locator={
+	name="halloween_castledracula_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+		{
+			id=1
+			position={ 4642.506348 0.000000 2678.339355 }
+			rotation={ -0.000000 -0.000000 -0.000000 0.000000 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+	}
+}
+game_object_locator={
 	name="khaju_bridge_locator"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -330,21 +345,6 @@ game_object_locator={
 			id=1
 			position={ 2343.350098 0.000000 2438.699951 }
 			rotation={ -0.000000 0.103938 -0.000000 0.994584 }
-			scale={ 1.000000 1.000000 1.000000 }
-		}
-	}
-}
-game_object_locator={
-	name="halloween_castledracula_locator"
-	clamp_to_water_level=no
-	render_under_water=no
-	generated_content=no
-	layer="static"
-	instances={
-		{
-			id=1
-			position={ 4642.506348 0.000000 2678.339355 }
-			rotation={ -0.000000 -0.000000 -0.000000 0.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 	}
