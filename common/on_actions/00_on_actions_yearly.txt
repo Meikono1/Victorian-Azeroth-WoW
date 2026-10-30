@@ -310,34 +310,9 @@ exiles_yearly_events = {
 }
 
 # Historical Agitators
+# VA-025: Alle Events sind reale Personen (Lenin, Mazzini, Dickens …) mit Erde-Bezügen (c:FRA, s:STATE_VOLHYNIA …)
+# und erzeugen Laufzeitfehler. Abgeschaltet; die On-Action bleibt leer, weil 00_code_on_actions.txt sie aufruft.
 historical_agitators_yearly_events = {
-	random_events = {
-		chance_to_happen = 25
-		10 = historical_agitators.1
-		10 = historical_agitators.2
-		10 = historical_agitators.3
-		10 = historical_agitators.4
-		10 = historical_agitators.5
-		10 = historical_agitators.6
-		300 = historical_agitators.8
-		2 = historical_agitators.9
-		10 = historical_agitators.10
-		10 = historical_agitators.11
-		10 = historical_agitators.12
-		10 = historical_agitators.13
-		10 = historical_agitators.14
-		10 = historical_agitators.15
-		10 = historical_agitators.16
-		10 = historical_agitators.17
-		10 = historical_agitators.18
-		10 = historical_agitators.19
-		10 = historical_agitators.20
-		10 = historical_agitators.21
-		10 = historical_agitators.22
-		100 = sikh_empire.9
-		100 = india_nationalism_events.4
-		100 = india_nationalism_events.5
-	}
 }
 
 # Slavery Abolition

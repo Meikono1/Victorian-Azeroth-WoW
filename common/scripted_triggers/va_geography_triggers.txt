@@ -56,3 +56,10 @@ state_is_in_africa = {
 
 state_is_in_middle_east = {
 }
+
+# VA-025: Vanilla in_volcanic_zone (00_scripted_triggers.txt) fragt nur Erde-Regionen/-States ab und
+# erzeugt bei jedem Naturkatastrophen-Event tausende Fehler. Bis Azeroth eigene Vulkangebiete hat: nie wahr.
+# TODO: Vulkan-States Azeroths eintragen (z. B. Searing Gorge, Burning Steppes, Un'Goro, Blackrock).
+REPLACE:in_volcanic_zone = {
+	always = no
+}

@@ -4,7 +4,7 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 1 (T-001 bis T-012) ist offen.
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runde 3 ist durch. Als Nächstes die offenen Tests aus Runde 1 (T-003 bis T-012) zusammen mit Runde 4 (T-018).
 
 ## Offene Entscheidungen
 
@@ -21,6 +21,8 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 6. **Komfort** – VA-010
 
 ## Erledigt
+
+- 2026-10-30: `events`, `events/india_events`, `events/soi_events` aus `replace_paths` genommen (Entscheidung Christian). 122 Erde-Eventdateien per leerer Datei abgeschaltet. 119 alte Kopien gelöscht, 27 geleert (VA-002).
 
 - 2026-10-29: 29 Kartendateien und Menü-Video aus dem Upload-Ordner ins Repo geholt (noch nicht committet).
 - 2026-10-29: 134 Dateien gelöscht (noch nicht committet, Kategorien überschneiden sich teilweise):
@@ -45,6 +47,7 @@ _(Region, Länder, Kurzbeschreibung. Ausgereifte Ideen werden zu Tickets.)_
 _(Nur hier gelistete Vollkopien werden bei Patches nachgezogen. Format: Datei – Grund.)_
 - `common/scripted_triggers/00_gfx_buildings_graphics_triggers.txt` – die 6 Stadtgrafik-Trigger aus Vanilla zeigen auf Erde-States. Ersetzt durch `always = no`. Bei Patches prüfen, ob Vanilla neue Trigger hinzufügt (sonst fehlen sie).
 - `common/strait_definitions/strait_definitions.txt` – leer, Vanilla-Kanäle zeigen auf Erde-Provinzen.
+- `events/agitators_events/coup_events.txt` – alte Fassung, passt zur Mod-JE-Kopie `common/journal_entries/01_coup.txt`. Fällt weg, sobald `journal_entries` aus `replace_paths` kommt (VA-002, `KEEP_COPY` in `tools/va_events.py`).
 - `common/defines/va_OVERWRITE_defines.txt` → `NEconomy.WORLD_MARKET_LOCATION` – Vanilla zeigt auf den Nordatlantik (Absturz). Bei Patches prüfen, ob neue Defines mit Provinz-IDs dazukommen.
 
 ## Checkliste: neue Spielversion (Patch)
@@ -57,6 +60,7 @@ Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket „Patch 
 - [ ] `common/defines/00_defines.txt` auf neue Werte mit Provinz-/State-IDs prüfen (Absturzgefahr wie `WORLD_MARKET_LOCATION`)
 - [ ] Neue Vanilla-Ordner und -Dateien suchen, die Erde-States, -Tags oder -Kulturen referenzieren (`history`, `strait_definitions`, `geographic_regions`, `ai_strategies` …) → abschalten oder abfangen (VA-004)
 - [ ] Neue Vanilla-Pflichtfelder/-Formate in Ordnern mit eigenen Objekten prüfen (State Regions, Gebäude, Güter, Kulturen, Länder), z. B. Ressourcen-Format 1.13
+- [ ] `python -I .claude/tools/va_events.py --details`: neue Vanilla-Eventdateien mit Erde-Inhalt mit `--stubs` abschalten; bei „vanilla-allgemein“ und `GENERIC` von Hand gegenprüfen
 - [ ] `va_lint.py --regions 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35` → 0 neue Fehler
 - [ ] Testrunde mit Kampagnenstart und `error.log`-Auswertung
 

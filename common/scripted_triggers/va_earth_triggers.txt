@@ -1,0 +1,89 @@
+﻿# Vanilla-Trigger, die nur Erde-States/-Regionen (s:/sr:) abfragen, auf "nie wahr" setzen (VA-025).
+# Ohne diese Fassungen schreiben KI-Strategien und Pulse tausende Fehler pro Sekunde ins error.log.
+# Vorbild: die jeweils genannte Vanilla-Datei in common/scripted_triggers/. REPLACE: ersetzt nur diesen Trigger.
+# Beim Patch: va_lint/Scan auf neue Vanilla-Trigger mit fehlenden s:/sr:-Verweisen wiederholen.
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:is_oppressor_of_schleswig_holstein = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:is_greek_homeland = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:is_byzantium_state_region = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_gre = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_ser = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_bul = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_mon = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_alb = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:spoils_of_war_complete_rom = {
+	always = no
+}
+
+# Vanilla: 00_geography_triggers.txt
+REPLACE:is_important_strait_state_region = {
+	always = no
+}
+
+# Vanilla: 00_coa_triggers.txt
+REPLACE:coa_def_dominant_scotland_trigger = {
+	always = no
+}
+
+# Vanilla: 00_ip3_victoria_scripted_triggers.txt
+REPLACE:hungary_owns_croatia = {
+	always = no
+}
+
+# Vanilla: 00_ip4_victoria_scripted_triggers.txt
+REPLACE:country_federation_of_the_americas_trigger = {
+	always = no
+}
+
+# Vanilla: 00_ip4_victoria_scripted_triggers.txt
+REPLACE:country_has_interest_marker_in_europe = {
+	always = no
+}
+
+# Vanilla: 00_ip4_victoria_scripted_triggers.txt
+REPLACE:country_has_interest_marker_in_great_eastern_crisis_region = {
+	always = no
+}
+
+# Vanilla: 00_victoria_scripted_triggers.txt
+REPLACE:is_brazil_northeast_state = {
+	always = no
+}
+
+# Vanilla: 00_victoria_scripted_triggers.txt
+REPLACE:asian_ally_against_russia_trigger = {
+	always = no
+}

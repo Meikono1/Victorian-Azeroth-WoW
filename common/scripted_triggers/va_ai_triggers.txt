@@ -29,3 +29,8 @@ REPLACE:has_je_protect_reason = {
 	can_reach_target_country = yes
 	country_rank > $TARGET$.country_rank
 }
+
+# VA-025: Vanilla should_carve_up_china fragt sr:region_north_china/south_china ab (gibt es nicht). Nie wahr.
+REPLACE:should_carve_up_china = {
+	always = no
+}

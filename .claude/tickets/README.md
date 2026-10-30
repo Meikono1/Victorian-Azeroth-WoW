@@ -17,7 +17,7 @@ Neues Ticket: Christian sagt „Ticket: …“, Claude legt die Datei an und tr�
 | Ticket | Titel | Typ | Prio | Status |
 |---|---|---|---|---|
 | [VA-001](VA-001-spielstart-error-log.md) | Spielstart mit Mod und error.log auswerten | technik | hoch | in Arbeit |
-| [VA-002](VA-002-replace-paths-verschlanken.md) | replace_paths verschlanken | technik | hoch | offen |
+| [VA-002](VA-002-replace-paths-verschlanken.md) | replace_paths verschlanken | technik | hoch | in Arbeit |
 | [VA-003](VA-003-vanilla-kopien-pruefen.md) | Verbleibende Vanilla-Kopien abbauen | aufraeumen | hoch | in Arbeit |
 | [VA-004](VA-004-neue-vanilla-history.md) | Neue Vanilla-History-Ordner abfangen | technik | mittel | offen |
 | [VA-005](VA-005-spielversion-1-13.md) | supported_game_version auf 1.13 setzen | technik | mittel | erledigt |
@@ -39,3 +39,6 @@ Neues Ticket: Christian sagt „Ticket: …“, Claude legt die Datei an und tr�
 | [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | offen |
 | [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | offen |
 | [VA-023](VA-023-lint-altlasten.md) | Lint-Altlasten abbauen | aufraeumen | mittel | offen |
+| [VA-024](VA-024-nord-ek-startwerte.md) | Nord-EK – Pops, Start-Gebäude und Startwerte | content | hoch | offen |
+| [VA-025](VA-025-log-spam-vanilla-regionen.md) | Log-Spam durch Vanilla-Scripts mit realen Regionen | bug | hoch | erledigt |
+| [VA-026](VA-026-geo-regionen-machtblock-namen.md) | Vanilla geographic_regions und power_bloc_names mit Erde-Bezug | bug | mittel | offen |

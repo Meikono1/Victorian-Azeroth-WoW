@@ -22,9 +22,6 @@
       "common/journal_entries",
       "common/scripted_buttons",
       "common/strategic_regions",
-	  "events",
-	  "events/india_events",
-      "events/soi_events",
 	  "map_data",
       "map_data/state_regions"
 	]

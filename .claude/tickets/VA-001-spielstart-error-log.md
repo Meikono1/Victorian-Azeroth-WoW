@@ -71,3 +71,20 @@ Achtung: `map_data/provinces.png` wurde im Jan. 2026 korrigiert, die State-Regio
 
 - Log läuft nicht über, 11.079 Einträge, nur beim Laden. Culture/Religion-Modifier und ihre Typen greifen (0 Fehler).
 - Rest wie beim sechsten Start; dazu einzelne `Unknown modifier type` aus alten Kopien (`production_methods/11_private_infrastructure.txt`, `company_types/99_basic_companies.txt` mit alten Gebäudenamen → VA-003 Gebäude).
+
+### 2026-10-30 – erstes vollständiges Log (Runde 3, nach VA-025/VA-002 Teil 1)
+
+Das Log enthält jetzt die Ladefehler vom Start. Fehlergruppen nach Größe, mit Zuordnung:
+
+- ~500× Vanilla `geographic_regions` und `power_bloc_names` mit Erde-Bezug → VA-026.
+- 367× `fortification_graphics`: Festungs-Locator in Wasserprovinzen (Karten-Grafik, `gfx/map`). Noch kein Ticket; vermutlich alte Locator-Datei aus Vanilla.
+- 216× `Invalid owner for scope type 0` und 216× `Value of wrong type` aus Vanilla `scripted_progress_bars` (JE-Fortschrittsbalken ohne JE) → mit VA-002 Teil 2 (journal_entries).
+- 200× `… does not have a valid namespace`: On-Actions und Mod-JE-Kopien rufen abgeschaltete Erde-Events auf (erwartet, VA-002/VA-003).
+- ~600× `PostValidate of trigger … returned false` (Vanilla `ai_strategies`, `laws`, `decrees`, `portrait_modifiers`, `royal_successions` …): Folgefehler fehlender Erde-Objekte; erst nach VA-002 Teil 2 neu zählen.
+- 44× fehlendes UTF-8-BOM in Mod-Dateien (u. a. `VA_eastern_kingdom.txt`, alle `history/pops`, `history/states`) → VA-023.
+- 13× `create_state … Province crossing multiple state regions` (Grim Batol, Booty Bay, Northrend, Outland, Pandaria) → VA-011.
+- 24 Gebäude ohne Loc-Key (z. B. `building_eternium_mine`), 44 Ressourcen mit `_WIP`-Gebäudegruppen (`bg_fel_energy_crystals_WIP` …) → VA-006/VA-015-Umfeld.
+- Herrscher führen ihre eigene Interessengruppe (Kirin Tor Expedition, Scarlet Crusade Whitemane) → VA-016.
+- `history/characters/va_eastern_kingdom.txt:60` ungültige Kultur, `history/pops/va_outlands.txt:1618` Kultur `zombie` fehlt.
+- 29× Archerus `building_company_basic_fishing` → VA-024.
+
