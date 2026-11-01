@@ -35,7 +35,7 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-017](VA-017-nord-ek-formables.md) | Nord-EK – Formables | content | hoch | offen |
 | [VA-018](VA-018-state-test-aufloesen.md) | STATE_TEST auflösen | bug | mittel | offen |
 | [VA-019](VA-019-quel-thalas-grundbausteine.md) | Quel'Thalas – Mana und Todesschneise (Grundbausteine) | content | hoch | wartet (Spieltest) |
-| [VA-020](VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | offen |
+| [VA-020](VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | wartet (Spieltest) |
 | [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | offen |
 | [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | offen |
 | [VA-023](VA-023-lint-altlasten.md) | Lint-Altlasten abbauen | aufraeumen | mittel | offen |
@@ -61,3 +61,9 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | offen |
 | [VA-044](VA-044-ki-verwaltung-bausektor.md) | KI stapelt Verwaltung und Bausektoren – Start-Gebäude fehlen | bug | hoch | erledigt |
 | [VA-045](VA-045-schiffsbau-test-icon.md) | Schiffsbau-Tab zeigt Test-Icon (Smiley) | grafik | niedrig | offen |
+| [VA-046](VA-046-todesschneise-heilung.md) | Todesschneise – Heilung je Region mit laufenden Kosten | content | hoch | wartet (Spieltest) |
+| [VA-047](VA-047-korridor-tranquillien.md) | Silvermoon – Korridor nach Tranquillien | content | hoch | wartet (Spieltest) |
+| [VA-048](VA-048-untoten-system.md) | Untoten-System – Status, Ausrottung oder Inklusion | content | hoch | offen |
+| [VA-049](VA-049-bevoelkerung-vielfalt.md) | Bevölkerung weltweit zu eintönig | content | mittel | offen |
+| [VA-050](VA-050-blutelfen-koenigreich.md) | Blutelfen – Gründung eines eigenen Königreichs | content | mittel | offen |
+| [VA-051](VA-051-provinz-terrain.md) | Provinz-Terrain zufällig (Berg, Feld) | bug | mittel | offen |

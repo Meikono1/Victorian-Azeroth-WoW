@@ -1,16 +1,154 @@
-﻿je_silvermoon_wretched_elfes = {
-	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+﻿# Silvermoon-Ziele in Quel'Thalas (VA-020): Deathholme vertreiben, Zul'Aman zerstören. Todesschneise: je_va_dead_scar (VA-046).
+# Vorbild: Vanilla je_sick_man_syria (journal_entries/00_sick_man.txt) für Besitz-Ziele.
+# Ablauf: .claude/ablauf/silvermoon.md. Wretched (VA-021) und Sunwell-Projekt folgen.
+
+# Ziel 1: Deathholme vertreiben. Erfüllt, sobald Deathholme nicht mehr existiert.
+je_silvermoon_deathholme = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
 
 	group = je_group_historical_content
 
 	immediate = {
-        c:SILVERMOON = {
-            save_scope_as = silvermoon_scope
-        }
-    }
-	
-	
+		s:STATE_DEATHHOLME = { add_claim = ROOT }
+		s:STATE_WINDRUNNER_VILLAGE = { add_claim = ROOT }
+		s:STATE_TRANQUILLIEN = { add_claim = ROOT }
+		s:STATE_EAST_SANCTUM = { add_claim = ROOT }
+		s:STATE_SUNCROWN_VILLAGE = { add_claim = ROOT }
+	}
+
+	complete = {
+		NOT = { exists = c:DEATHHOLME }
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = va_silvermoon_ghostlands_avenged
+			years = 10
+		}
+		trigger_event = { id = silvermoon_events.2 popup = yes }
+	}
+
+	timeout = 5475 # 15 Jahre
+
+	on_timeout = {
+		add_modifier = {
+			name = va_silvermoon_deathholme_endures
+			years = 10
+		}
+	}
+
+	transferable = no
 	weight = 100
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Ziel 2: Zul'Aman zerstören. Erfüllt mit vollem Besitz von Zul'Aman und Tor Watha.
+# Setzt va_amani_claims_shattered, damit das Amani-Formable (VA-017/VA-022) gesperrt werden kann.
+je_silvermoon_zul_aman = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	immediate = {
+		s:STATE_ZUL_AMAN = { add_claim = ROOT }
+		s:STATE_TOR_WATHA = { add_claim = ROOT }
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_ZUL_AMAN
+		owns_entire_state_region = STATE_TOR_WATHA
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = va_silvermoon_amani_broken
+			years = 10
+		}
+		custom_tooltip = {
+			text = je_silvermoon_zul_aman_shatter_tt
+			set_global_variable = va_amani_claims_shattered
+		}
+		trigger_event = { id = silvermoon_events.3 popup = yes }
+	}
+
+	timeout = 7300 # 20 Jahre
+
+	transferable = no
+	weight = 90
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Ziel 3 (VA-047): Korridor nach Tranquillien. Drei Logistik-Etappen ohne Krieg oder Eroberung im Krieg.
+# Etappen, Provinzen und Abfragen: va_silvermoon_corridor_triggers.txt / _effects.txt. Vorbild Schalter + Balken: je_va_dead_scar (VA-046).
+je_silvermoon_corridor = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	scripted_progress_bar = va_silvermoon_corridor_bar
+	scripted_button = va_silvermoon_corridor_start_button
+
+	immediate = {
+		set_variable = { name = va_corridor_stage value = 1 }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			va_silvermoon_corridor_pulse_effect = yes
+		}
+	}
+
+	complete = {
+		va_silvermoon_corridor_open_trigger = yes
+	}
+
+	on_complete = {
+		if = {
+			limit = { has_modifier = va_silvermoon_corridor_logistics }
+			remove_modifier = va_silvermoon_corridor_logistics
+		}
+		remove_variable = va_corridor_stage
+		add_modifier = {
+			name = va_silvermoon_road_to_tranquillien
+			years = 10
+		}
+		trigger_event = { id = silvermoon_events.5 popup = yes }
+	}
+
+	timeout = 2920 # 8 Jahre, gedacht ca. 5
+
+	on_timeout = {
+		if = {
+			limit = { has_modifier = va_silvermoon_corridor_logistics }
+			remove_modifier = va_silvermoon_corridor_logistics
+		}
+		remove_variable = va_corridor_stage
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_silvermoon_corridor_status_war
+				trigger = {
+					has_modifier = va_silvermoon_corridor_logistics
+					is_at_war = yes
+				}
+			}
+			triggered_desc = {
+				desc = je_silvermoon_corridor_status_running
+				trigger = { has_modifier = va_silvermoon_corridor_logistics }
+			}
+			triggered_desc = {
+				desc = je_silvermoon_corridor_status_idle
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 110
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

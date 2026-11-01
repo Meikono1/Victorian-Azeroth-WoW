@@ -22,5 +22,16 @@ on_state_created = {
 va_on_state_dead_scar_check = {
 	effect = { # prüft selbst, ob der State betroffen ist
 		va_update_dead_scar_effect = yes
+		# Besitzer eines Schneisen-States bekommt das Heil-JE, sobald Quinine erforscht ist (VA-046); Monatspuls fängt die Forschung ab
+		if = {
+			limit = {
+				va_state_on_dead_scar_trigger = yes
+				owner = {
+					has_technology_researched = quinine
+					NOT = { has_journal_entry = je_va_dead_scar }
+				}
+			}
+			owner = { add_journal_entry = { type = je_va_dead_scar } }
+		}
 	}
 }

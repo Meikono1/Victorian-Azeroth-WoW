@@ -1,0 +1,108 @@
+﻿# Todesschneise heilen (VA-046): für jedes Land mit einem State auf der Schneise, auch Untote.
+# Je Region ein Balken (20 Monate) und ein An-/Aus-Schalter; aktiv = Ritual Site im State (Kosten: Löhne, Mana, Bürokratie).
+# Vorbild: Vanilla je_expedition (00_antarctica.txt) für mehrere scripted_progress_bar, je_mana_hunger für den Monatstakt.
+# Regionsteile (Balken, Schalter, Monatsprüfung) erzeugt .claude/tools/va_gen_dead_scar.py.
+je_va_dead_scar = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_internal_affairs
+
+	scripted_progress_bar = va_dead_scar_bar_sunwell_plateau
+	scripted_progress_bar = va_dead_scar_bar_ruins_of_silvermoon
+	scripted_progress_bar = va_dead_scar_bar_west_sanctum
+	scripted_progress_bar = va_dead_scar_bar_east_sanctum
+	scripted_progress_bar = va_dead_scar_bar_tranquillien
+	scripted_progress_bar = va_dead_scar_bar_deathholme
+
+	scripted_button = va_dead_scar_start_sunwell_plateau_button
+	scripted_button = va_dead_scar_stop_sunwell_plateau_button
+	scripted_button = va_dead_scar_start_ruins_of_silvermoon_button
+	scripted_button = va_dead_scar_stop_ruins_of_silvermoon_button
+	scripted_button = va_dead_scar_start_west_sanctum_button
+	scripted_button = va_dead_scar_stop_west_sanctum_button
+	scripted_button = va_dead_scar_start_east_sanctum_button
+	scripted_button = va_dead_scar_stop_east_sanctum_button
+	scripted_button = va_dead_scar_start_tranquillien_button
+	scripted_button = va_dead_scar_stop_tranquillien_button
+	scripted_button = va_dead_scar_start_deathholme_button
+	scripted_button = va_dead_scar_stop_deathholme_button
+
+	# Quinine-Sperre (Kono 2026-11-01): hier nötig, weil Vic3 das JE sonst selbst aktiviert, sobald possible erfüllt ist
+	is_shown_when_inactive = {
+		any_scope_state = { va_state_on_dead_scar_trigger = yes }
+	}
+
+	possible = {
+		any_scope_state = { va_state_on_dead_scar_trigger = yes }
+		has_technology_researched = quinine
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			va_dead_scar_heal_pulse_effect = yes
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_va_dead_scar_complete_tt
+			NOT = {
+				any_state = { va_state_on_dead_scar_trigger = yes }
+			}
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = va_dead_scar_land_restored
+			years = 20
+		}
+		trigger_event = { id = dead_scar_events.2 popup = yes }
+	}
+
+	invalid = {
+		custom_tooltip = {
+			text = je_va_dead_scar_invalid_tt
+			NOT = { any_scope_state = { va_state_on_dead_scar_trigger = yes } }
+		}
+	}
+
+	on_invalid = {
+		# Ritual Sites außerhalb der Schneise gibt es nicht; Abriss nur zur Sicherheit
+		every_scope_state = {
+			limit = { has_building = building_va_scar_ward }
+			remove_building = building_va_scar_ward
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_va_dead_scar_status_stalled
+				trigger = {
+					any_scope_state = {
+						any_scope_building = {
+							is_building_type = building_va_scar_ward
+							building_has_goods_shortage = yes
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_va_dead_scar_status_running
+				trigger = {
+					any_scope_state = { has_building = building_va_scar_ward }
+				}
+			}
+			triggered_desc = {
+				desc = je_va_dead_scar_status_idle
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 900
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

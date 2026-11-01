@@ -52,3 +52,16 @@ Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenp
 - **Zul'Jarra:** `AMANI_TRIBE` heißt im Spiel „Zul'Jarra“, solange es kein Königreich ist. Erst das Formable `AMANI_EMPIRE` trägt den Namen Amani-Reich.
 - **Mana stammt aus Leylinien:** eine abbaubare Ressource wie Kohle oder Eisen. Leylinien werden als `capped_resources` in den States verteilt (Schwerpunkt Quel'Thalas). Ein Abbaugebäude (Arbeitsname `building_leyline_tap`) fördert das Gut `mana`. Später dient Mana als Vorprodukt für magische Gegenstände und als Antrieb für Produktionen (wie Kohle bzw. Strom in Vanilla-PMs).
 - **Mana-Verbrauch** (2026-10-30): später über Produktionsmethoden und über die Bevölkerung von Blut- und Hochelfen (`sin_dorei`, `quel_dorei`). Leylinien-Verteilung in Quel'Thalas ist bestätigt (Werte in VA-019).
+
+## Überarbeitung nach Kono-Feedback (2026-10-30)
+
+Die ersten Silvermoon-JEs (VA-020) sind ein Start, aber zu simpel. Neue Fassung:
+
+| Ziel | Neu | Ticket |
+|---|---|---|
+| Deathholme | Nach ca. 5 Jahren Korridor nach Tranquillien (Markt), per Triage/Logistik (Provinzen übernehmen) oder militärisch. Danach Untote eingliedern statt nur vertreiben | VA-047, VA-048 |
+| Untote | Status-System wie Citizenship: Geißel, Verlassene, sonstige Untote; Ausrottung oder Inklusion; Umsiedlung (Banshees nach Undercity), Akzeptanz | VA-048, VA-049 |
+| Todesschneise | Für jeden Besitzer (auch Untote). Ein Balken je verdorbener Region, je Region an/aus. Laufende Kosten Gold, Mana, Bürokratie. 20 Monate aktiv → Region geheilt. Schwerer als bisher | VA-046 |
+| Zul'Aman | Erst Trolle nach Zul'Aman zurücktreiben und einsperren. Eventreihe mit Zul'jin, nach Quest-Lektüre durch Kono | VA-022 |
+| Wretched | Annektieren (schnell, Folgen: Radikale, Unruhe) oder heilen (teuer, langsam, keine Probleme) | VA-021 |
+| Eigenes Königreich | Formable bzw. Umbenennung; Name offen, weder „Quel'Thalas“ noch „Silvermoon“ passt | VA-050 |

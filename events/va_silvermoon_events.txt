@@ -1,0 +1,133 @@
+﻿# Events zu den Silvermoon-Zielen (VA-020). Vorbild: Vanilla land_reclamation.1 (events/land_reclamation.txt).
+# Alle Events werden aus VA_silvermoon.txt bzw. va_quel_thalas_effects.txt ausgelöst.
+namespace = silvermoon_events
+
+# Deathholme ist gefallen
+silvermoon_events.2 = {
+	type = country_event
+
+	title = silvermoon_events.2.t
+	desc = silvermoon_events.2.d
+	flavor = silvermoon_events.2.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_silvermoon_deathholme
+	}
+
+	option = {
+		name = silvermoon_events.2.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_silvermoon_ghostlands_avenged
+				years = 10
+			}
+		}
+	}
+}
+
+# Zul'Aman ist gefallen
+silvermoon_events.3 = {
+	type = country_event
+
+	title = silvermoon_events.3.t
+	desc = silvermoon_events.3.d
+	flavor = silvermoon_events.3.f
+
+	event_image = {
+		video = "unspecific_military_parade" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_silvermoon_zul_aman
+	}
+
+	option = {
+		name = silvermoon_events.3.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_silvermoon_amani_broken
+				years = 10
+			}
+		}
+	}
+}
+
+# Korridor-Etappe gesichert (VA-047), ausgelöst von va_silvermoon_corridor_pulse_effect
+silvermoon_events.4 = {
+	type = country_event
+
+	title = silvermoon_events.4.t
+	desc = silvermoon_events.4.d
+	flavor = silvermoon_events.4.f
+
+	event_image = {
+		video = "africa_construction_colony" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_silvermoon_corridor
+	}
+
+	option = {
+		name = silvermoon_events.4.a
+		default_option = yes
+	}
+}
+
+# Korridor nach Tranquillien steht (VA-047), ausgelöst von je_silvermoon_corridor
+silvermoon_events.5 = {
+	type = country_event
+
+	title = silvermoon_events.5.t
+	desc = silvermoon_events.5.d
+	flavor = silvermoon_events.5.f
+
+	event_image = {
+		video = "unspecific_trains" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_silvermoon_corridor
+	}
+
+	option = {
+		name = silvermoon_events.5.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_silvermoon_road_to_tranquillien
+				years = 10
+			}
+		}
+	}
+}

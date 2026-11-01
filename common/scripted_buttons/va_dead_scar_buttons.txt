@@ -1,0 +1,513 @@
+﻿# An-/Aus-Schalter der Heilung je Region (VA-046), erzeugt von .claude/tools/va_gen_dead_scar.py.
+# Vorbild: Vanilla je_haitian_debt_payment_button (scripted_buttons/00_hispaniola_buttons.txt).
+# An: Ritual Site im eigenen State der Region bauen. Aus: wieder abreißen (Fortschritt bleibt im Balken).
+
+va_dead_scar_start_sunwell_plateau_button = {
+	name = "va_dead_scar_start_sunwell_plateau_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_SUNWELL_PLATEAU
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNWELL_PLATEAU
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_sunwell_plateau_button = {
+	name = "va_dead_scar_stop_sunwell_plateau_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_SUNWELL_PLATEAU
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_SUNWELL_PLATEAU
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}
+
+va_dead_scar_start_ruins_of_silvermoon_button = {
+	name = "va_dead_scar_start_ruins_of_silvermoon_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_RUINS_OF_SILVERMOON
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_RUINS_OF_SILVERMOON
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_ruins_of_silvermoon_button = {
+	name = "va_dead_scar_stop_ruins_of_silvermoon_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_RUINS_OF_SILVERMOON
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_RUINS_OF_SILVERMOON
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}
+
+va_dead_scar_start_west_sanctum_button = {
+	name = "va_dead_scar_start_west_sanctum_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_WEST_SANCTUM
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_west_sanctum_button = {
+	name = "va_dead_scar_stop_west_sanctum_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_WEST_SANCTUM
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_WEST_SANCTUM
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}
+
+va_dead_scar_start_east_sanctum_button = {
+	name = "va_dead_scar_start_east_sanctum_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_EAST_SANCTUM
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_east_sanctum_button = {
+	name = "va_dead_scar_stop_east_sanctum_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_EAST_SANCTUM
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_EAST_SANCTUM
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}
+
+va_dead_scar_start_tranquillien_button = {
+	name = "va_dead_scar_start_tranquillien_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_TRANQUILLIEN
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TRANQUILLIEN
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_tranquillien_button = {
+	name = "va_dead_scar_stop_tranquillien_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_TRANQUILLIEN
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_TRANQUILLIEN
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}
+
+va_dead_scar_start_deathholme_button = {
+	name = "va_dead_scar_start_deathholme_button"
+	desc = "va_dead_scar_start_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_DEATHHOLME
+			va_state_on_dead_scar_trigger = yes
+			NOT = { has_building = building_va_scar_ward }
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_dead_scar_ward_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				scaled_debt <= 0
+			}
+			add = 25
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_DEATHHOLME
+				va_state_on_dead_scar_trigger = yes
+			}
+			create_building = {
+				building = building_va_scar_ward
+				level = 1
+				activate_production_methods = { pm_ritual_circles_building_va_scar_ward }
+			}
+		}
+	}
+}
+
+va_dead_scar_stop_deathholme_button = {
+	name = "va_dead_scar_stop_deathholme_button"
+	desc = "va_dead_scar_stop_button_desc"
+
+	visible = {
+		any_scope_state = {
+			state_region = s:STATE_DEATHHOLME
+			has_building = building_va_scar_ward
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_modifier = declared_bankruptcy
+					scaled_debt > 0.5
+				}
+			}
+			add = 50
+		}
+	}
+
+	effect = {
+		# Eigener Tooltip: Vanilla-Text zu remove_building ist kaputt (BUG: missing perspective)
+		custom_tooltip = va_dead_scar_stop_tt
+		hidden_effect = {
+			every_scope_state = {
+				limit = {
+					state_region = s:STATE_DEATHHOLME
+					has_building = building_va_scar_ward
+				}
+				remove_building = building_va_scar_ward
+			}
+		}
+	}
+}

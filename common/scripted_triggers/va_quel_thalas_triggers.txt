@@ -1,0 +1,6 @@
+﻿# Bedingungen zur Todesschneise in Quel'Thalas (VA-020). Vorbild: state_region-Abfragen in Vanilla events/land_reclamation.txt.
+
+# State-Scope: Der State liegt in einer Region der Todesschneise (Variable va_dead_scar_region, VA-019).
+va_state_on_dead_scar_trigger = {
+	state_region = { has_variable = va_dead_scar_region }
+}

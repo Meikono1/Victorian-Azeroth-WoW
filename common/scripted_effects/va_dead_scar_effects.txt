@@ -1,0 +1,150 @@
+﻿# Monatsprüfung der Todesschneisen-Heilung (VA-046), erzeugt von .claude/tools/va_gen_dead_scar.py.
+# Country-Scope aus je_va_dead_scar (on_monthly_pulse). Voller Balken + Region noch verdorben → Ritual Site weg, Region heilen, Event.
+# Vorbild: Balkenabfrage wie Vanilla je_expedition (00_antarctica.txt).
+
+va_dead_scar_heal_pulse_effect = {
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_sunwell_plateau)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_SUNWELL_PLATEAU
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNWELL_PLATEAU
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_RUINS_OF_SILVERMOON
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_RUINS_OF_SILVERMOON
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_west_sanctum)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_WEST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_EAST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_SANCTUM
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_tranquillien)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_TRANQUILLIEN
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TRANQUILLIEN
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	if = {
+		limit = {
+			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_deathholme)" >= 20 }
+			any_scope_state = {
+				state_region = s:STATE_DEATHHOLME
+				va_state_on_dead_scar_trigger = yes
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_DEATHHOLME
+				va_state_on_dead_scar_trigger = yes
+			}
+			save_scope_as = va_healed_state
+		}
+		scope:va_healed_state = {
+			if = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
+			va_heal_dead_scar_state_effect = yes
+		}
+		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+}

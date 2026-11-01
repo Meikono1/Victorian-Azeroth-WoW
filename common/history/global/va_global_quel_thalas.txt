@@ -21,4 +21,21 @@ GLOBAL = {
 		limit = { va_country_mana_dependent_trigger = yes }
 		add_journal_entry = { type = je_mana_hunger }
 	}
+
+	# Todesschneise heilen: jedes Land mit State auf der Schneise und Quinine (VA-046, Kono 2026-11-01)
+	every_country = {
+		limit = {
+			any_scope_state = { va_state_on_dead_scar_trigger = yes }
+			has_technology_researched = quinine
+			NOT = { has_journal_entry = je_va_dead_scar } # on_state_created war schneller (error.log 01.11.)
+		}
+		add_journal_entry = { type = je_va_dead_scar }
+	}
+
+	# Silvermoon-Ziele (VA-020)
+	c:SILVERMOON ?= {
+		add_journal_entry = { type = je_silvermoon_deathholme }
+		add_journal_entry = { type = je_silvermoon_zul_aman }
+		add_journal_entry = { type = je_silvermoon_corridor } # VA-047
+	}
 }

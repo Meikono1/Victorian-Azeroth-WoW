@@ -1,0 +1,7 @@
+﻿# PM-Gruppe der Ritual Site (VA-046). Vorbild: Vanilla pmg_base_building_government_administration.
+pmg_base_building_va_scar_ward = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ritual_circles_building_va_scar_ward
+	}
+}

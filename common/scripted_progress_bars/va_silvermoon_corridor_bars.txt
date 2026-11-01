@@ -1,0 +1,37 @@
+﻿# Fortschritt der laufenden Korridor-Etappe (VA-047). Vorbild: Vanilla expedition_progress_bar (scripted_progress_bars/00_je_progress_bars.txt).
+# Scope in monthly_progress: das Land selbst (wie Vanilla 00_greece_progress_bars.txt). Läuft nur während einer Logistik-Operation und ruht im Krieg.
+
+va_silvermoon_corridor_bar = {
+	name = "va_silvermoon_corridor_bar"
+	desc = "va_silvermoon_corridor_bar_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_modifier = va_silvermoon_corridor_logistics
+				is_at_war = no
+			}
+			add = {
+				desc = "va_silvermoon_corridor_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen
+		else_if = {
+			limit = {
+				has_modifier = va_silvermoon_corridor_logistics
+				is_at_war = yes
+			}
+			add = {
+				desc = "va_silvermoon_corridor_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 18
+}

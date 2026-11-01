@@ -1,0 +1,23 @@
+﻿# PM der Ritual Site (VA-046). Vorbild: Vanilla pm_horizontal_drawer_cabinets (07_government.txt), dort Bürokratie +50.
+# Hier umgekehrt: Bürokratie kostet, Mana und Papier werden verbraucht. Werte zum Abstimmen mit Kono (Kosten erhöht 2026-10-31).
+pm_ritual_circles_building_va_scar_ward = {
+	texture = "gfx/interface/icons/production_method_icons/horizontal_drawer_cabinets.dds" # TODO: eigenes Icon (VA-027)
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = -25
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_mana_add = 15
+			goods_input_paper_add = 10
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 1000
+			building_employment_academics_add = 500
+		}
+	}
+}

@@ -15,3 +15,4 @@ Für die 319 Tags in `common/country_definitions/VA_eastern_kingdom.txt`, `VA_ka
 - 2026-10-30: Testfälle im [Testprotokoll](../TESTPROTOKOLL.md), Runde 1: T-009.
 - 2026-10-30: T-009 OK (Zul'Jarra korrekt). Rest des Tickets weiter offen.
 - 2026-10-30: Im Mana-JE sichtbar: `HIGHVALE_HIGHELFES` und `HIGHVALE_HIGHELFES_ADJ` ohne Loc (Fund Kono, Screenshot).
+- 2026-11-01: Auch `SILVERMOON_ADJ` fehlt (Tooltip Heil-JE, Fund Kono).

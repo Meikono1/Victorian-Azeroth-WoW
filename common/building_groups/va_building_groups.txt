@@ -6,3 +6,8 @@ bg_leyline_tapping = {
 
 	can_use_slaves = no
 }
+
+# Heilritual der Todesschneise (VA-046). Staatlich finanziert wie Vanilla bg_bureaucracy (Eltern bg_government).
+bg_va_dead_scar_healing = {
+	parent_group = bg_government
+}

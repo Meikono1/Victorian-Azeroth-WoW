@@ -1,0 +1,279 @@
+﻿# Ein Balken je Region der Todesschneise (VA-046), erzeugt von .claude/tools/va_gen_dead_scar.py.
+# Vorbild: Vanilla bavarocracy-Balken (scripted_progress_bars/00_greece_progress_bars.txt).
+# Scope in monthly_progress: das Land selbst (nicht der Journal Entry). Fortschritt nur mit Ritual Site in der Region, die all ihre Inputs (Mana, Papier) bekommt (Kono 2026-11-01: gilt auch für Untote ohne Mana-Entzug).
+
+va_dead_scar_bar_sunwell_plateau = {
+	name = "va_dead_scar_bar_sunwell_plateau"
+	desc = "va_dead_scar_bar_sunwell_plateau_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_SUNWELL_PLATEAU
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_SUNWELL_PLATEAU
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}
+
+va_dead_scar_bar_ruins_of_silvermoon = {
+	name = "va_dead_scar_bar_ruins_of_silvermoon"
+	desc = "va_dead_scar_bar_ruins_of_silvermoon_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_RUINS_OF_SILVERMOON
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_RUINS_OF_SILVERMOON
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}
+
+va_dead_scar_bar_west_sanctum = {
+	name = "va_dead_scar_bar_west_sanctum"
+	desc = "va_dead_scar_bar_west_sanctum_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_WEST_SANCTUM
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_WEST_SANCTUM
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}
+
+va_dead_scar_bar_east_sanctum = {
+	name = "va_dead_scar_bar_east_sanctum"
+	desc = "va_dead_scar_bar_east_sanctum_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_EAST_SANCTUM
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_EAST_SANCTUM
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}
+
+va_dead_scar_bar_tranquillien = {
+	name = "va_dead_scar_bar_tranquillien"
+	desc = "va_dead_scar_bar_tranquillien_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_TRANQUILLIEN
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_TRANQUILLIEN
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}
+
+va_dead_scar_bar_deathholme = {
+	name = "va_dead_scar_bar_deathholme"
+	desc = "va_dead_scar_bar_deathholme_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_DEATHHOLME
+					va_state_on_dead_scar_trigger = yes
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = no
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen (Kono 2026-11-01)
+		else_if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_DEATHHOLME
+					any_scope_building = {
+						is_building_type = building_va_scar_ward
+						building_has_goods_shortage = yes
+					}
+				}
+			}
+			add = {
+				desc = "va_dead_scar_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 20
+}

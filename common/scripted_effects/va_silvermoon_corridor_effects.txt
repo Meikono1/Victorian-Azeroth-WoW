@@ -1,0 +1,61 @@
+﻿# Korridor Silvermoon → Tranquillien (VA-047): Provinzübernahme je Etappe und Monatsprüfung.
+# Vorbild: Vanilla set_owner_of_provinces in events/agitators_events/paris_commune_events.txt, Balkenabfrage wie je_expedition (00_antarctica.txt).
+# Etappen und Provinzen: siehe va_silvermoon_corridor_triggers.txt.
+
+# Eine Provinz an ROOT, nur wenn Deathholme sie noch hält (nie Dritten wegnehmen).
+va_silvermoon_corridor_take_province_effect = {
+	if = {
+		limit = { va_silvermoon_corridor_province_deathholme_trigger = { PROV = $PROV$ } }
+		s:$REGION$ = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = { $PROV$ }
+			}
+		}
+	}
+}
+
+# Country-Scope: Provinzen der aktuellen Etappe übernehmen.
+va_silvermoon_corridor_take_stage_effect = {
+	if = {
+		limit = { var:va_corridor_stage = 1 }
+		va_silvermoon_corridor_take_province_effect = { REGION = STATE_TRANQUILLIEN PROV = xFDDA71 }
+		va_silvermoon_corridor_take_province_effect = { REGION = STATE_TRANQUILLIEN PROV = x186841 }
+	}
+	else_if = {
+		limit = { var:va_corridor_stage = 2 }
+		va_silvermoon_corridor_take_province_effect = { REGION = STATE_TRANQUILLIEN PROV = xCEF332 }
+		va_silvermoon_corridor_take_province_effect = { REGION = STATE_TRANQUILLIEN PROV = x2FC0FD }
+	}
+	else_if = {
+		limit = { var:va_corridor_stage = 3 }
+		va_silvermoon_corridor_take_province_effect = { REGION = STATE_TRANQUILLIEN PROV = xD536B6 }
+	}
+}
+
+# Country-Scope aus je_silvermoon_corridor (on_monthly_pulse).
+va_silvermoon_corridor_pulse_effect = {
+	# Etappe fertig: Provinzen übernehmen, Balken zurücksetzen, nächste Etappe
+	if = {
+		limit = {
+			has_modifier = va_silvermoon_corridor_logistics
+			scope:journal_entry = { "scripted_bar_progress(va_silvermoon_corridor_bar)" >= 18 }
+		}
+		va_silvermoon_corridor_take_stage_effect = yes
+		remove_modifier = va_silvermoon_corridor_logistics
+		scope:journal_entry = {
+			set_bar_progress = { value = 0 name = va_silvermoon_corridor_bar }
+		}
+		change_variable = { name = va_corridor_stage add = 1 }
+		trigger_event = { id = silvermoon_events.4 popup = yes }
+	}
+	# Etappe ohne Deathholme-Provinzen (z. B. im Krieg erobert) wird übersprungen
+	else_if = {
+		limit = {
+			NOT = { has_modifier = va_silvermoon_corridor_logistics }
+			var:va_corridor_stage < 4
+			NOT = { va_silvermoon_corridor_stage_contested_trigger = yes }
+		}
+		change_variable = { name = va_corridor_stage add = 1 }
+	}
+}

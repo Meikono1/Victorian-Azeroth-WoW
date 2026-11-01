@@ -35,3 +35,9 @@ va_update_dead_scar_effect = {
 		}
 	}
 }
+
+# State-Scope: Heilt die Region der Todesschneise, in der der State liegt (VA-020). Andere Teil-States der Region folgen beim nächsten Monatstakt. Aufruf aus va_dead_scar_heal_pulse_effect (VA-046).
+va_heal_dead_scar_state_effect = {
+	state_region = { remove_variable = va_dead_scar_region }
+	va_update_dead_scar_effect = yes
+}

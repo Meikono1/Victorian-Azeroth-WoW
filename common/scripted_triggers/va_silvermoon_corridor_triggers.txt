@@ -1,0 +1,59 @@
+﻿# Korridor Silvermoon → Tranquillien (VA-047). Vorbild: Provinz-Besitzabfrage p:x….state.owner wie Vanilla canal_decisions.txt.
+# Etappen (Provinzen aus provinces.png-Nachbarschaft, Claude 2026-10-31):
+#   1 Grenze: STATE_TRANQUILLIEN xFDDA71 x186841
+#   2 Berge:  STATE_TRANQUILLIEN xCEF332 x2FC0FD (impassable)
+#   3 Straße: STATE_TRANQUILLIEN xD536B6 (grenzt an Tranquilliens Exklave)
+# Auswahl Kono 2026-10-31. xA4E8D0 xFB0892 x7511A0 gehören zur Schneisen-Grafik und bleiben bewusst außen vor.
+
+# Provinz-Scope-Hilfe: Besitzer ist ROOT oder ein Subjekt von ROOT (Tranquillien ist Protektorat).
+va_silvermoon_corridor_province_ours_trigger = {
+	p:$PROV$.state.owner = {
+		OR = {
+			this = ROOT
+			is_subject_of = ROOT
+		}
+	}
+}
+
+va_silvermoon_corridor_province_deathholme_trigger = {
+	p:$PROV$.state.owner = { country_definition = cd:DEATHHOLME }
+}
+
+# Country-Scope (ROOT = Silvermoon): Landweg nach Tranquillien steht, egal ob per Logistik oder Krieg.
+# Straße: x186841 + xD536B6. Im Krieg reicht auch eine andere Provinz, die an Silvermoon und an xD536B6 grenzt (xFDDA71, x7C385F).
+va_silvermoon_corridor_open_trigger = {
+	custom_tooltip = {
+		text = va_silvermoon_corridor_open_tt
+		va_silvermoon_corridor_province_ours_trigger = { PROV = xD536B6 }
+		OR = {
+			va_silvermoon_corridor_province_ours_trigger = { PROV = x186841 }
+			va_silvermoon_corridor_province_ours_trigger = { PROV = xFDDA71 }
+			va_silvermoon_corridor_province_ours_trigger = { PROV = x7C385F }
+		}
+	}
+}
+
+# Country-Scope: Deathholme hält noch mindestens eine Provinz der aktuellen Etappe (var:va_corridor_stage).
+va_silvermoon_corridor_stage_contested_trigger = {
+	has_variable = va_corridor_stage
+	OR = {
+		AND = {
+			var:va_corridor_stage = 1
+			OR = {
+				va_silvermoon_corridor_province_deathholme_trigger = { PROV = xFDDA71 }
+				va_silvermoon_corridor_province_deathholme_trigger = { PROV = x186841 }
+			}
+		}
+		AND = {
+			var:va_corridor_stage = 2
+			OR = {
+				va_silvermoon_corridor_province_deathholme_trigger = { PROV = xCEF332 }
+				va_silvermoon_corridor_province_deathholme_trigger = { PROV = x2FC0FD }
+			}
+		}
+		AND = {
+			var:va_corridor_stage = 3
+			va_silvermoon_corridor_province_deathholme_trigger = { PROV = xD536B6 }
+		}
+	}
+}

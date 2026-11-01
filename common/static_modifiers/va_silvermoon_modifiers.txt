@@ -1,0 +1,32 @@
+﻿# Belohnungen und Mali der Silvermoon-Ziele (VA-020). Vorbild: Vanilla sick_man_of_europe / dead_man_of_europe (static_modifiers).
+
+# Deathholme vertrieben
+va_silvermoon_ghostlands_avenged = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 25
+}
+
+# Deathholme besteht nach 15 Jahren weiter
+va_silvermoon_deathholme_endures = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_mult = -0.1
+}
+
+# Zul'Aman zerstört
+va_silvermoon_amani_broken = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 25
+}
+
+# Logistik-Operation für eine Korridor-Etappe läuft (VA-047)
+va_silvermoon_corridor_logistics = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds # TODO: eigenes Icon (VA-027)
+	country_bureaucracy_add = -25
+	country_authority_add = -25
+}
+
+# Korridor nach Tranquillien steht (VA-047)
+va_silvermoon_road_to_tranquillien = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 10
+}

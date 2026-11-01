@@ -1,0 +1,41 @@
+﻿# Logistik-Operation für die nächste Korridor-Etappe starten (VA-047).
+# Vorbild: Vanilla je_haitian_debt_payment_button (scripted_buttons/00_hispaniola_buttons.txt), Einmalkosten per add_treasury.
+
+va_silvermoon_corridor_start_button = {
+	name = "va_silvermoon_corridor_start_button"
+	desc = "va_silvermoon_corridor_start_button_desc"
+
+	visible = {
+		NOT = { has_modifier = va_silvermoon_corridor_logistics }
+		has_variable = va_corridor_stage
+		var:va_corridor_stage < 4
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_silvermoon_corridor_stage_contested_tt
+			va_silvermoon_corridor_stage_contested_trigger = yes
+		}
+		custom_tooltip = {
+			text = va_silvermoon_corridor_not_at_war_tt
+			is_at_war = no
+		}
+		custom_tooltip = {
+			text = va_silvermoon_corridor_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 50
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		add_modifier = { name = va_silvermoon_corridor_logistics }
+	}
+}

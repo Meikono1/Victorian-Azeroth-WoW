@@ -1,0 +1,77 @@
+﻿# Events zur Heilung der Todesschneise (VA-046). Vorbild: Vanilla land_reclamation.1 (events/land_reclamation.txt).
+# Ausgelöst aus va_dead_scar_heal_pulse_effect bzw. je_va_dead_scar.
+namespace = dead_scar_events
+
+# Eine Region der Schneise ist geheilt
+dead_scar_events.1 = {
+	type = country_event
+	placement = scope:va_healed_state
+
+	title = dead_scar_events.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = dead_scar_events.1.d_undead
+				trigger = { va_country_undead_primary_trigger = yes }
+			}
+			triggered_desc = {
+				desc = dead_scar_events.1.d
+				trigger = { always = yes }
+			}
+		}
+	}
+	flavor = dead_scar_events.1.f
+
+	event_image = {
+		video = "europenorthamerica_russian_serfs" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_dead_scar_heal_pulse_effect
+	}
+
+	option = {
+		name = dead_scar_events.1.a
+		default_option = yes
+	}
+}
+
+# Die ganze Schneise ist geheilt
+dead_scar_events.2 = {
+	type = country_event
+
+	title = dead_scar_events.2.t
+	desc = dead_scar_events.2.d
+	flavor = dead_scar_events.2.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_va_dead_scar
+	}
+
+	option = {
+		name = dead_scar_events.2.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_dead_scar_land_restored
+				years = 20
+			}
+		}
+	}
+}

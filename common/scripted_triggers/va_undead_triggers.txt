@@ -20,3 +20,11 @@ va_state_undead_majority_trigger = {
 		va_state_undead_share >= 0.5
 	}
 }
+
+# Country-Scope: Eine Hauptkultur des Landes ist untot (VA-046, z. B. für Eventtexte).
+va_country_undead_primary_trigger = {
+	custom_tooltip = {
+		text = va_country_undead_primary_trigger_tt
+		any_primary_culture = { va_is_undead_culture_trigger = yes }
+	}
+}
