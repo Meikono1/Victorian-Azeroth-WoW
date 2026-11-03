@@ -1,0 +1,23 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/balkans_events/00_ip3_hungary_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = hungary_events
+
+hungary_events.6 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+hungary_events.11 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+hungary_events.13 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

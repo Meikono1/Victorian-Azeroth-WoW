@@ -1,0 +1,214 @@
+﻿# Schalter zur Vereinigung mit den Wretched (VA-021): Mana-Pakt anbieten, Eingliedern, Heilung beginnen.
+# Vorbild: Vanilla je_haitian_debt_payment_button (scripted_buttons/00_hispaniola_buttons.txt), Hausstil va_silvermoon_corridor_start_button.
+
+# Schritt 1: Pakt anbieten. Die Wretched entscheiden in wretched_events.1, Abkühlung 1 Jahr.
+va_silvermoon_wretched_pact_button = {
+	name = "va_silvermoon_wretched_pact_button"
+	desc = "va_silvermoon_wretched_pact_button_desc"
+
+	visible = {
+		exists = c:WRETCHED_BLOODELFES
+		NOT = { va_silvermoon_wretched_partner_trigger = yes }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_silvermoon_wretched_free_tt
+			c:WRETCHED_BLOODELFES = { is_subject = no }
+		}
+		custom_tooltip = {
+			text = va_silvermoon_wretched_peace_tt
+			NOT = { has_war_with = c:WRETCHED_BLOODELFES }
+		}
+		custom_tooltip = {
+			text = va_silvermoon_wretched_cooldown_tt
+			NOT = { has_variable = va_wretched_pact_cooldown }
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+
+	effect = {
+		set_variable = {
+			name = va_wretched_pact_cooldown
+			days = 365
+		}
+		save_scope_as = va_wretched_suitor
+		c:WRETCHED_BLOODELFES = {
+			trigger_event = { id = wretched_events.1 popup = yes }
+		}
+	}
+}
+
+# Schritt 2a: Eingliedern. Schnell, Folgen siehe va_silvermoon_wretched_absorb_effect.
+va_silvermoon_wretched_annex_button = {
+	name = "va_silvermoon_wretched_annex_button"
+	desc = "va_silvermoon_wretched_annex_button_desc"
+
+	visible = {
+		va_silvermoon_wretched_partner_trigger = yes
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_silvermoon_wretched_not_at_war_tt
+			is_at_war = no
+		}
+	}
+
+	ai_chance = {
+		value = 5
+	}
+
+	effect = {
+		va_silvermoon_wretched_absorb_effect = yes
+		trigger_event = { id = wretched_events.4 popup = yes }
+	}
+}
+
+# Schritt 2b: Heilung beginnen. Einmal 100.000, danach 10.000 je Monat; drei Etappen à 20 Monate (va_silvermoon_wretched_pulse_effect).
+va_silvermoon_wretched_heal_button = {
+	name = "va_silvermoon_wretched_heal_button"
+	desc = "va_silvermoon_wretched_heal_button_desc"
+
+	visible = {
+		va_silvermoon_wretched_partner_trigger = yes
+		NOT = { has_modifier = va_silvermoon_wretched_healing }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_silvermoon_wretched_not_at_war_tt
+			is_at_war = no
+		}
+		custom_tooltip = {
+			text = va_silvermoon_wretched_not_bankrupt_tt
+			NOT = { has_modifier = declared_bankruptcy }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 50
+		}
+	}
+
+	effect = {
+		add_treasury = -100000
+		add_modifier = { name = va_silvermoon_wretched_healing }
+		set_variable = { name = va_wretched_heal_stage value = 1 }
+		va_silvermoon_wretched_heal_stage_effect = yes
+	}
+}
+
+# Kopfgeld (VA-021 Schritt 3, einfache Fassung): je Anführer ein Schalter, sichtbar solange er lebt und Silvermoon Land in seinem State hält.
+# Monatliche Erfolgschance und Scheitern nach 12 Monaten: va_silvermoon_wretched_bounty_pulse_effect.
+
+# WANTED: Thaelis the Hungerer (Quest 8468), Ruins of Silvermoon. 15 % je Monat.
+va_silvermoon_wretched_bounty_thaelis_button = {
+	name = "va_silvermoon_wretched_bounty_thaelis_button"
+	desc = "va_silvermoon_wretched_bounty_thaelis_button_desc"
+
+	visible = {
+		va_wretched_thaelis_alive_trigger = yes
+		any_scope_state = { state_region = s:STATE_RUINS_OF_SILVERMOON }
+	}
+
+	possible = {
+		va_silvermoon_wretched_can_hunt_trigger = yes
+		custom_tooltip = {
+			text = va_silvermoon_wretched_hunt_cooldown_tt
+			NOT = { has_variable = va_wretched_hunt_cooldown_thaelis }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 60 }
+				scaled_debt <= 0.2
+			}
+			add = 10
+		}
+	}
+
+	effect = {
+		add_treasury = -30000
+		va_silvermoon_wretched_start_hunt_effect = { TARGET = thaelis }
+	}
+}
+
+# Wretched Ringleader (Quest 9076): Aldaron the Reckless, Sunsail Anchorage. 20 % je Monat, beendet "Harbor Overrun".
+va_silvermoon_wretched_bounty_aldaron_button = {
+	name = "va_silvermoon_wretched_bounty_aldaron_button"
+	desc = "va_silvermoon_wretched_bounty_aldaron_button_desc"
+
+	visible = {
+		va_wretched_aldaron_alive_trigger = yes
+		any_scope_state = { state_region = s:STATE_SUNSAIL_ANCHORAGE }
+	}
+
+	possible = {
+		va_silvermoon_wretched_can_hunt_trigger = yes
+		custom_tooltip = {
+			text = va_silvermoon_wretched_hunt_cooldown_tt
+			NOT = { has_variable = va_wretched_hunt_cooldown_aldaron }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 60 }
+				scaled_debt <= 0.2
+			}
+			add = 10
+		}
+	}
+
+	effect = {
+		add_treasury = -25000
+		va_silvermoon_wretched_start_hunt_effect = { TARGET = aldaron }
+	}
+}
+
+# Felendren the Banished (Quest 8335), Sunstrider Isle. 25 % je Monat.
+va_silvermoon_wretched_bounty_felendren_button = {
+	name = "va_silvermoon_wretched_bounty_felendren_button"
+	desc = "va_silvermoon_wretched_bounty_felendren_button_desc"
+
+	visible = {
+		va_wretched_felendren_alive_trigger = yes
+		any_scope_state = { state_region = s:STATE_SUNSTRIDER_ISLE }
+	}
+
+	possible = {
+		va_silvermoon_wretched_can_hunt_trigger = yes
+		custom_tooltip = {
+			text = va_silvermoon_wretched_hunt_cooldown_tt
+			NOT = { has_variable = va_wretched_hunt_cooldown_felendren }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 60 }
+				scaled_debt <= 0.2
+			}
+			add = 10
+		}
+	}
+
+	effect = {
+		add_treasury = -20000
+		va_silvermoon_wretched_start_hunt_effect = { TARGET = felendren }
+	}
+}

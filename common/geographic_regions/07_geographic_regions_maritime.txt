@@ -1,0 +1,10 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 07_geographic_regions_maritime.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_polar_seas = {
+	short_key = "polar_seas"
+}
+
+geographic_region_tropical_seas = {
+	short_key = "tropical_seas"
+}

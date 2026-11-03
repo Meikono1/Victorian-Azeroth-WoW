@@ -84,6 +84,34 @@ Grundton: Nach dem Fall des Sonnenbrunnens hat Quel'Thalas die Kontrolle über d
 - **Pelt Collection** ([8491](https://www.wowhead.com/quest=8491)) · Velan Brightoak · Wegen der Amani-Kämpfe fehlt den Waldläufern die Zeit zum Jagen; nachtelfische Wilderer kommen sogar bis hierher.
 - **Missing in the Ghostlands** / **The Fallen Courier** / **Delivery to Tranquillien** ([9144](https://www.wowhead.com/quest=9144), [9147](https://www.wowhead.com/quest=9147), [9148](https://www.wowhead.com/quest=9148)) · Übergang in die Geisterlande (Details siehe unten, sobald gelesen).
 
+## Wretched – Anführer und Banden (Abruf 2026-11-03)
+
+**Abrufweg (Stand 2026-11-03):** Am sparsamsten ist die Wowhead-Zonenseite (`https://www.wowhead.com/zone=3430`): ein Abruf liefert alle Quests (ID, Name) und NPCs der Zone über `g_listviews` im Browser. WowDB (`wowdb.com/zones/3430-…`) zeigt die Quest-Tabelle nicht an (leer) und taugt nicht. Einzelne Quests danach mit mindestens 1 s Pause.
+
+Abruf über den eingebauten Browser mit mindestens 1 s Pause je Seite. Nach ca. 12 Seiten lieferte Wowhead eine CloudFront-Fehlerseite („request could not be satisfied“), danach abgebrochen. Direktabruf per Skript (urllib) liefert leere Seiten.
+
+**Benannte Anführer (je einer pro Wretched-State in der Mod):**
+
+| NPC (ID) | Ort | Quest (ID) · Questgeber | Inhalt |
+|---|---|---|---|
+| Felendren the Banished ([15367](https://www.wowhead.com/npc=15367)) | Sunstrider Isle, Falthrien-Akademie (schwebendes Gebäude im Südwesten) | Felendren the Banished ([8335](https://www.wowhead.com/quest=8335)) · Lanthan Perilon | Verbannt, weil er die Warnungen der Lehrer ignorierte und die Sucht nie beherrschen lernte. Hält die Akademie mit Arkangeistern (auch „verderbten“) als Dienern, gilt als Gefahr für den Sonnenturm. Kopf als Beweis. |
+| Thaelis the Hungerer ([15949](https://www.wowhead.com/npc=15949)) | Ruinen von Silvermoon, großes kapellenartiges Gebäude, umgeben von Urchins | WANTED: Thaelis the Hungerer ([8468](https://www.wowhead.com/quest=8468)) · Steckbrief → Sergeant Kan'ren | Offizielles Kopfgeld der Stadt Silvermoon auf den „berüchtigten Wretched-Rädelsführer“, wiederholte Verbrechen gegen die Bevölkerung, Mord an zwei Stadtwachen. |
+| Aldaron the Reckless ([16294](https://www.wowhead.com/npc=16294)) | Sunsail Anchorage, oberstes Stockwerk des Gebäudes am Ankerplatz | Lost Armaments ([8480](https://www.wowhead.com/quest=8480)) → Wretched Ringleader ([9076](https://www.wowhead.com/quest=9076)) · Velendris Whitemorn | Die Wretched sind inzwischen so koordiniert, dass sie den Hafen überfallen konnten; die Waldläufer ließen dabei ihre Waffen zurück. Erst Waffen zurückholen, dann gezielter Schlag gegen Aldaron, solange die Wretched im Manarausch dösen – „ein Exempel statuieren“. |
+
+**Banden in den Ruinen (NPC-Typen, Eversong `zone=3430`):** Wretched Urchin ([15644](https://www.wowhead.com/npc=15644), Stufe 1), Wretched Thug ([15645](https://www.wowhead.com/npc=15645), Stufe 8), Wretched Hooligan ([16162](https://www.wowhead.com/npc=16162), Stufe 8). Dazu Wretched Captive ([16916](https://www.wowhead.com/npc=16916), Gefangener). Spätere Typen: Isle of Quel'Danas (Devourer 24960, Fiend 24966, Hungerer 25047), Magisters' Terrace (Skulker 24688, Bruiser 24689, Husk 24690); Midnight-Typen (z. B. Starving Wretched 241983) bewusst ausgelassen.
+
+**Questgeber/NPCs (zone=3430):** Magistrix Erona 15278, Lanthan Perilon 15281, Arcanist Helion 15297, Outrunner Alarion 15301, Aeldon Sunbrand 15403 (Captain of the Blood Hawks), Velendris Whitemorn 15404, Captain Kelisendra 15921, Ranger Degolien 15939, Sergeant Kan'ren 16924. Wretched Captive 16916 ist freundlich zu beiden Seiten (Zweck nicht gelesen).
+
+**Weitere Wretched-Quests (nachgelesen):**
+- Situation at Sunsail Anchorage ([8892](https://www.wowhead.com/quest=8892)) · Ranger Degolien: Der Hafen ist von Wretched überrannt, Verstärkung erst später; bis dahin „Disziplin zeigen“.
+- Grimscale Pirates! ([8886](https://www.wowhead.com/quest=8886)) · Captain Kelisendra: Die Wretched stahlen ihre magischen Waren, die Grimscale-Murlocs den Rest.
+- Tainted Arcane Sliver ([8338](https://www.wowhead.com/quest=8338)): dunkler, unheimlicher Manasplitter vom verderbten Arkangeist, Gefühl unnatürlicher Vorahnung; geht an Arcanist Helion.
+- Thirst Unending ([37439](https://www.wowhead.com/quest=37439)) · Arcanist Helion: Kernlehre – den Durst kontrollieren und Überschuss ablassen, sonst wird man Wretched, hoffnungslos süchtig und wahnsinnig.
+- Slain by the Wretched ([9704](https://www.wowhead.com/quest=9704)) / Package Recovery ([9705](https://www.wowhead.com/quest=9705)) · Outrunner Alarion: Die Straße von Sunstrider Isle nach Falconwing Square führt durch die Ruinen; Wretched töten Boten für ein paar Manakristalle. Der verschwundene Bote liegt tot in der Dawning Lane, das Paket wird geborgen.
+- Unstable Mana Crystals ([8463](https://www.wowhead.com/quest=8463)) · Aeldon Sunbrand: Wretched plünderten instabile Kristalle aus einem Sanktum, genug, um ein Loch in die Stadtmauer zu sprengen. Aeldon sorgt sich vor allem um den Ruf seiner Wache.
+
+**Mod:** Drei Anführer = drei Wretched-States (Sunstrider Isle, Ruins of Silvermoon, Sunsail Anchorage) → Charaktere und Kopfgeld-/Attentats-Weg, siehe Konzept „Wretched“ in `konzepte/quel_thalas.md`.
+
 ## Ghostlands
 
 _Noch nicht zusammengefasst: Wowhead hat die automatischen Abrufe nach den ersten Seiten blockiert. Folgt im nächsten Durchgang._

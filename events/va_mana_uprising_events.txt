@@ -1,0 +1,136 @@
+﻿# Mana-Aufstand bei dauerhaftem Mana-Mangel (VA-021, Schritt 4). Vorbild: Vanilla brazilian_minors.txt (create_country), raj.3 (Kriegs-Play).
+# Ausgelöst von va_mana_shortage_counter_effect (va_mana_uprising_effects.txt). Ablaufplan-IDs: .1 = Plan .60, .2 = .61, .3 = Idee „Wretched bestehen schon“.
+namespace = mana_uprising_events
+
+# Warnung: Hungernde in den Straßen (Zähler ≥ 12)
+mana_uprising_events.1 = {
+	type = country_event
+
+	title = mana_uprising_events.1.t
+	desc = mana_uprising_events.1.d
+	flavor = mana_uprising_events.1.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_mana_shortage_counter_effect
+	}
+
+	# Notprogramm
+	option = {
+		name = mana_uprising_events.1.a
+		default_option = yes
+		add_treasury = -50000
+		custom_tooltip = {
+			text = mana_uprising_events.1.a.tt
+			change_variable = { name = va_mana_shortage_months add = -6 }
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				trigger = { scaled_debt <= 0.3 }
+				add = 60
+			}
+		}
+	}
+
+	# Wachen verstärken
+	option = {
+		name = mana_uprising_events.1.b
+		add_modifier = {
+			name = va_mana_crackdown
+			years = 2
+		}
+		custom_tooltip = mana_uprising_events.1.b.tt
+		ai_chance = {
+			base = 30
+		}
+	}
+}
+
+# Aufstand: ein neues Wretched-Land spaltet sich ab (Zähler ≥ 24, keine Wretched)
+mana_uprising_events.2 = {
+	type = country_event
+
+	title = mana_uprising_events.2.t
+	desc = mana_uprising_events.2.d
+	flavor = mana_uprising_events.2.f
+
+	event_image = {
+		video = "europenorthamerica_political_extremism" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		NOT = { exists = c:WRETCHED_BLOODELFES }
+		any_scope_state = { is_capital = no }
+	}
+
+	option = {
+		name = mana_uprising_events.2.a
+		default_option = yes
+		custom_tooltip = mana_uprising_events.2.a.tt
+		hidden_effect = {
+			va_mana_uprising_create_wretched_effect = yes
+		}
+	}
+}
+
+# Flucht: die Hungernden laufen zu den bestehenden Wretched über (Zähler ≥ 24)
+mana_uprising_events.3 = {
+	type = country_event
+
+	title = mana_uprising_events.3.t
+	desc = mana_uprising_events.3.d
+	flavor = mana_uprising_events.3.f
+
+	event_image = {
+		video = "europenorthamerica_rich_and_poor" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		exists = c:WRETCHED_BLOODELFES
+	}
+
+	option = {
+		name = mana_uprising_events.3.a
+		default_option = yes
+		capital = {
+			add_radicals_in_state = {
+				value = medium_radicals
+			}
+		}
+		if = {
+			limit = { has_journal_entry = je_silvermoon_wretched }
+			custom_tooltip = {
+				text = va_wretched_threat_up_30_tt
+				je:je_silvermoon_wretched ?= { add_progress = { value = 30 name = va_silvermoon_wretched_threat_bar } }
+			}
+		}
+		c:WRETCHED_BLOODELFES ?= {
+			if = {
+				limit = { has_variable = va_wretched_addiction_level }
+				va_wretched_addiction_up_effect = yes
+			}
+		}
+	}
+}

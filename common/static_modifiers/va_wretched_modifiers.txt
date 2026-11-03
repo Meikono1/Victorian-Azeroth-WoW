@@ -1,0 +1,56 @@
+﻿# Mana-Sucht der Wretched (VA-021). Vorbild: Vanilla opium_wars_lost (static_modifiers/content_1_modifiers.txt) für Unruhe-Werte.
+
+# Sucht-Stufen am Land der Wretched (Variable va_wretched_addiction_level, va_wretched_refresh_addiction_effect).
+# 3 = verzweifelt (Spielstart), 2 = süchtig, 1 = gezügelt.
+va_wretched_addiction_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_standard_of_living_add = -2
+	state_mortality_mult = 0.1
+	building_throughput_add = -0.1
+}
+
+va_wretched_addiction_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_standard_of_living_add = -1
+	state_mortality_mult = 0.05
+	building_throughput_add = -0.05
+}
+
+va_wretched_addiction_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_mortality_mult = 0.02
+	building_throughput_add = -0.02
+}
+
+# Ehemaliges Wretched-Land nach Eingliedern, Eroberung oder Zerfall (va_silvermoon_wretched_addicts_aftermath_effect), Dauer nach Sucht-Stufe
+va_wretched_addicts = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_standard_of_living_add = -2
+	state_mortality_mult = 0.1
+	state_turmoil_effects_mult = 0.25
+	state_radicals_and_loyalists_from_sol_change_mult = 0.25
+}
+
+# Heil-Etappen am Land der Wretched (va_silvermoon_wretched_heal_stage_effect)
+va_wretched_supervised_withdrawal = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds # TODO: eigenes Icon (VA-027)
+	state_mortality_mult = -0.05
+	building_throughput_add = -0.1
+}
+
+va_wretched_clarity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds # TODO: eigenes Icon (VA-027)
+	state_standard_of_living_add = 1
+}
+
+va_wretched_homesick = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	state_radicals_from_political_movements_mult = -0.25
+}
+
+# Mana-Aufstand (VA-021, mana_uprising_events.1 b): Wachen gegen Hungernde, 2 Jahre
+va_mana_crackdown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	country_authority_add = -50
+	state_turmoil_effects_mult = 0.1
+}

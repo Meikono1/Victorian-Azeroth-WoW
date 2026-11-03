@@ -1,0 +1,12 @@
+﻿# Festungs-Locators für Azeroth (VA-060). Ersetzt Vanillas Erde-Positionen (586 Stück, 734 Log-Meldungen "non-land province").
+# Vorbild: Vanilla gfx/map/map_object_data/fortification_locators.txt. position = { x 0 z }, z von unten gezählt (Bildzeile = 3615 - z).
+# Bewusst leer (Kono 2026-11-03): Im Map-Editor nicht verschieb- oder auffindbar. Später ggf. per Skript setzen (VA-060).
+game_object_locator={
+	name="fortification"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="fortifications"
+	instances={
+	}
+}

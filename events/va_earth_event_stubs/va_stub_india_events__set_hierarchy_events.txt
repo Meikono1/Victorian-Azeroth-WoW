@@ -1,0 +1,23 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/india_events/set_hierarchy_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = set_hierarchy_event
+
+set_hierarchy_event.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+set_hierarchy_event.2 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+set_hierarchy_event.3 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

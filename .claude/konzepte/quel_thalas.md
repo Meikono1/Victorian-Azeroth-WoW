@@ -34,6 +34,27 @@ Randfiguren, die in die Ziele hineinspielen: `TRANQUILLIEN` (Silvermoons Außenp
 - Zusammenarbeit: Events bieten Kooperation mit Silvermoon an (Mana-Lieferungen, Pakt). Annahme senkt Sucht schrittweise.
 - **Vereinigung**: Eventreihe, an deren Ende Silvermoon die Wretched annektiert (`annex_with_incorporation`). Vorbild: `00_romania.txt` (Union zweier Länder).
 
+#### Vorschlag 2026-11-03: Anführer, Quests, Attentat (Claude, offen für Kono)
+
+Ablaufplan: [ablauf/wretched.md](../ablauf/wretched.md).
+
+Grundlage: Recherche „Wretched – Anführer und Banden“ in `recherche/quests_quel_thalas.md`. Gebaut ist bisher Pakt → Eingliedern oder Heilen (VA-021, ungetestet).
+
+**Charaktere (History der Wretched):** Jeder der drei Wretched-States bekommt seinen Anführer aus den Quests.
+- **Thaelis the Hungerer** (Ruinen, Hauptstadt): Herrscher, „Rädelsführer“, Kopfgeld der Stadt.
+- **Aldaron the Reckless** (Sunsail Anchorage): General, hält den Hafen und die erbeuteten Waffen der Waldläufer.
+- **Felendren the Banished** (Sunstrider Isle, Falthrien-Akademie): Agitator oder General, befehligt Arkangeister.
+- Die Banden (Urchins, Thugs, Hooligans) bleiben Flavour: Event-Texte, evtl. Modifier „Wretched Gangs“ auf den Ruinen (Infrastruktur, Handelsweg).
+
+**Dritter Weg „Kopfgeld“ (Attentat):** Ein Schalter je Anführer im Silvermoon-JE, jeweils nach seiner Quest:
+1. *WANTED: Thaelis* – Steckbrief aushängen. Kosten Gold, Erfolgschance per Event, getötet → `kill_character`.
+2. *Lost Armaments → Wretched Ringleader* – erst Waffen zurückholen (Wartezeit, z. B. 6 Monate), dann Schlag gegen Aldaron im Manarausch. Bonus: Silvermoon bekommt seine Waffen zurück (Armee-Modifier).
+3. *Felendren the Banished* – Waldläufer stürmen die Akademie. Risiko: der verderbte Splitter („Tainted Arcane Sliver“) deutet auf Fremdeinwirkung → Folge-Event (Brennende Legion, Hinweis auf Kael'thas/Quel'Danas).
+- Folge, wenn alle drei tot sind (Wahl für Kono): (a) die Wretched nehmen den Mana-Pakt sofort an, (b) Eingliedern verliert einen Teil seiner Folgen, oder (c) die Wretched zerfallen und Silvermoon übernimmt die Ruinen direkt.
+- Pro Attentat Gegenreaktion der Wretched (Event): Überfall auf Boten (*Slain by the Wretched*: Handelsweg-Malus), Diebstahl instabiler Kristalle (*Unstable Mana Crystals*: Explosion an der Stadtmauer, Infrastruktur/Gebäudeschaden).
+
+**Offen:** Welche Folge (a/b/c)? Soll das Attentat ein eigener Weg sein oder Schritt vor dem Pakt? Felendren als General oder Agitator?
+
 ### Amani
 - JE „Das Amani-Reich wiederherstellen“ (Zul'jin): States von Shadowpine und Mossflayer besitzen bzw. unterwerfen. Abschluss → Formable `AMANI_EMPIRE` (VA-017). Vorbilder: `00_italian_unification.txt`, `05_serbia.txt`.
 - Gegenspieler zu Silvermoons Ziel 2.

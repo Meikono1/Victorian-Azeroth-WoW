@@ -1,0 +1,23 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/american_civil_war/acw_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = acw_events
+
+acw_events.7 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+acw_events.8 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+acw_events.9 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

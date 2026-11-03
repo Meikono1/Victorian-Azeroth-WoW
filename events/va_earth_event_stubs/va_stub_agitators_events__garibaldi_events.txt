@@ -1,0 +1,30 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/agitators_events/garibaldi_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = garibaldi_events
+
+garibaldi_events.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+garibaldi_events.2 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+garibaldi_events.3 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+garibaldi_events.4 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

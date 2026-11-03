@@ -1,0 +1,37 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/japan_events/ep2_japan_earthquake_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = japan_earthquakes
+
+japan_earthquakes.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+japan_earthquakes.2 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+japan_earthquakes.3 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+japan_earthquakes.4 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+japan_earthquakes.5 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

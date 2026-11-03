@@ -78,7 +78,7 @@
 	building_tobacco_plantation = {"balkan_farm_vineyard_01_mesh"}
 	building_sugar_plantation = {"balkan_farm_vineyard_01_mesh"}
 	building_banana_plantation = {"balkan_farm_vineyard_01_mesh"}
-	building_vineyard_plantation = {"balkan_farm_vineyard_01_mesh"}
+	building_vineyard = {"balkan_farm_vineyard_01_mesh"}
 
 	building_manor_house = {"balkan_rural_manorhouse_01_mesh"}
 }

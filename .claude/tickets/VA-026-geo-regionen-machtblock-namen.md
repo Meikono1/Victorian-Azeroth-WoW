@@ -1,6 +1,6 @@
 # VA-026: Vanilla geographic_regions und power_bloc_names mit Erde-Bezug
 
-- **Status:** offen
+- **Status:** wartet (Spieltest)
 - **Typ:** bug
 - **Priorität:** mittel
 - **Erstellt:** 2026-10-30
@@ -13,3 +13,4 @@ Größte verbliebene Fehlergruppen im vollständigen Log aus Runde 3 (T-017). Ke
 - **`common/power_bloc_names/00_power_bloc_names.txt` (Vanilla), ~19× je Zeile, viele Zeilen:** `Invalid right side during comparison` – die Namensregeln fragen Erde-Regionen/-Länder ab. Lösung prüfen: Datei leer überschreiben und eigene Azeroth-Namen in `va_power_bloc_names.txt` (Vorbild: Vanilla-Datei), oder Erde-Einträge per `REPLACE:` entschärfen.
 
 ## Notizen
+- 2026-11-03: `geographic_regions` erledigt: 175 Vanilla-Regionen leer mit gleichem `short_key` (`va_gen_geo_regions.py`). Alte Kopie `power_bloc_names/00_power_bloc_names.txt` gelöscht; Vanillas Datei lädt jetzt, ihre Erde-Abfragen bleiben bis eigene Azeroth-Namen kommen. Test T-081, Details VA-043.

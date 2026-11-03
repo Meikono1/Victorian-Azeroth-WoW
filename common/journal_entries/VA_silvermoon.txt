@@ -1,6 +1,6 @@
 ﻿# Silvermoon-Ziele in Quel'Thalas (VA-020): Deathholme vertreiben, Zul'Aman zerstören. Todesschneise: je_va_dead_scar (VA-046).
 # Vorbild: Vanilla je_sick_man_syria (journal_entries/00_sick_man.txt) für Besitz-Ziele.
-# Ablauf: .claude/ablauf/silvermoon.md. Wretched (VA-021) und Sunwell-Projekt folgen.
+# Ablauf: .claude/ablauf/silvermoon.md. Wretched: je_silvermoon_wretched (VA-021). Sunwell-Projekt folgt.
 
 # Ziel 1: Deathholme vertreiben. Erfüllt, sobald Deathholme nicht mehr existiert.
 je_silvermoon_deathholme = {
@@ -149,6 +149,105 @@ je_silvermoon_corridor = {
 
 	transferable = no
 	weight = 110
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Ziel 4 (VA-021): Die Wretched. Erst Mana-Pakt (Protektorat), dann Eingliedern (schnell, mit Folgen) oder Heilen (teuer, langsam, ohne Folgen).
+# Schalter, Balken, Effekte, Trigger: va_silvermoon_wretched_*.txt, Events: va_wretched_events.txt. Vorbild Union: Vanilla romania.2 (events/romania_events.txt).
+je_silvermoon_wretched = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	scripted_progress_bar = va_silvermoon_wretched_threat_bar
+	scripted_progress_bar = va_silvermoon_wretched_bar
+	scripted_button = va_silvermoon_wretched_pact_button
+	scripted_button = va_silvermoon_wretched_annex_button
+	scripted_button = va_silvermoon_wretched_heal_button
+	scripted_button = va_silvermoon_wretched_bounty_thaelis_button
+	scripted_button = va_silvermoon_wretched_bounty_aldaron_button
+	scripted_button = va_silvermoon_wretched_bounty_felendren_button
+
+	# Ansprüche auf das Wretched-Land (Krieg gegen das eigene Volk, Phase 2c) und Heimat markieren
+	immediate = {
+		va_silvermoon_wretched_start_effect = yes
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			va_silvermoon_wretched_pulse_effect = yes
+			va_silvermoon_wretched_war_effect = yes
+			va_silvermoon_wretched_raid_effect = yes
+			va_silvermoon_wretched_bounty_pulse_effect = yes
+		}
+	}
+
+	# Gesetzt von va_silvermoon_wretched_absorb_effect bzw. _heal_complete_effect
+	complete = {
+		has_variable = va_wretched_united
+	}
+
+	on_complete = {
+		va_silvermoon_wretched_cleanup_effect = yes
+		va_silvermoon_wretched_complete_effect = yes
+	}
+
+	# Wretched anders untergegangen (Krieg, Dritte); Folgen nur, wenn Silvermoon ihr Land hält
+	invalid = {
+		NOT = { exists = c:WRETCHED_BLOODELFES }
+		NOT = { has_variable = va_wretched_united }
+	}
+
+	on_invalid = {
+		va_silvermoon_wretched_cleanup_effect = yes
+		va_silvermoon_wretched_conquered_effect = yes
+	}
+
+	timeout = 7300 # 20 Jahre
+
+	# 20 Jahre ohne Lösung: Wretched bleiben, Silvermoon verliert Ansehen
+	on_timeout = {
+		va_silvermoon_wretched_cleanup_effect = yes
+		add_modifier = {
+			name = va_silvermoon_wretched_neglected
+			years = 10
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_silvermoon_wretched_status_war
+				trigger = {
+					has_modifier = va_silvermoon_wretched_healing
+					is_at_war = yes
+				}
+			}
+			triggered_desc = {
+				desc = je_silvermoon_wretched_status_starved
+				trigger = {
+					has_modifier = va_silvermoon_wretched_healing
+					NOT = { va_silvermoon_wretched_mana_supplied_trigger = yes }
+				}
+			}
+			triggered_desc = {
+				desc = je_silvermoon_wretched_status_healing
+				trigger = { has_modifier = va_silvermoon_wretched_healing }
+			}
+			triggered_desc = {
+				desc = je_silvermoon_wretched_status_protectorate
+				trigger = { va_silvermoon_wretched_partner_trigger = yes }
+			}
+			triggered_desc = {
+				desc = je_silvermoon_wretched_status_independent
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 100
 
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }

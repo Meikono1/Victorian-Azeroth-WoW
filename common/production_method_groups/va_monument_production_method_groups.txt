@@ -1,0 +1,12 @@
+﻿# PMG der WoW-Monumente (VA-003). Vorbild: Vanilla pmg_base_building_big_ben (08_monuments.txt).
+
+pmg_base_building_dark_portal = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = yes
+
+	production_methods = {
+		pm_monument_prestige_only # TODO: eigene PM mit Portal-Effekten (VA-053)
+		pm_monument_no_effects
+	}
+}

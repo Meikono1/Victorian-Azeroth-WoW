@@ -1,0 +1,24 @@
+﻿# WoW-Regierungsformen (VA-003, aus der alten Vollkopie 01_monarchies.txt gelöst). Vorbild: Vanilla gov_crown_land_governor_generic (01_monarchies.txt).
+# Präfix 00_, damit die Formen vor Vanillas allgemeinen Monarchien geprüft werden.
+
+gov_archmage = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_ARCHMAGE"
+	female_ruler = "RULER_TITLE_ARCHMAGE"
+
+	possible = {
+		has_law_or_variant = law_type:law_monarchy
+		OR = {
+			c:SHADOWFANG_KEEP ?= this
+			c:KIRINTOR_EXPEDITION ?= this
+		}
+	}
+
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}

@@ -1,0 +1,9 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/native_resettlement.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = native_resettlement
+
+native_resettlement.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

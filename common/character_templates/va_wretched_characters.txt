@@ -1,0 +1,48 @@
+﻿# Anführer der Wretched (VA-021 Schritt 3). Wowhead-NPC-IDs: Thaelis 15949, Aldaron 16294, Felendren 15367 (recherche/quests_quel_thalas.md).
+# Vorbild: Vanilla character_templates/country_arg.txt (is_agitator), country_ald.txt (is_general); Hausstil va_human_charakters.txt.
+# Erzeugt in common/history/characters/va_eastern_kingdom.txt. Kopfgeld sucht sie per has_template.
+
+# Herrscher, Ruins of Silvermoon
+va_wretched_thaelis = {
+	first_name = va_name_thaelis
+	last_name = va_name_the_hungerer
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 575.3.9
+	interest_group = ig_rural_folk
+	traits = {
+		cruel
+		opium_addiction
+	}
+	ruler = yes
+}
+
+# General, Sunsail Anchorage
+va_wretched_aldaron = {
+	first_name = va_name_aldaron
+	last_name = va_name_the_reckless
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 588.7.21
+	is_general = yes
+	interest_group = ig_armed_forces
+	traits = {
+		reckless
+	}
+}
+
+# Agitator, Sunstrider Isle (Kono 2026-11-03); später Brücke zu Kael'thas/Legion (VA-056)
+va_wretched_felendren = {
+	first_name = va_name_felendren
+	last_name = va_name_the_banished
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 590.11.2
+	is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+	traits = {
+		arrogant
+		demagogue
+	}
+}

@@ -42,22 +42,22 @@
 #	
 #	building_construction_sector = {"furniture_manufactory_01_mesh"}
 #	building_food_industry = {"furniture_manufactory_01_mesh"}
-#	building_textile_mills = {
+#	building_textile_mill = {
 #		#"generic_manufactory_01_mesh"
 #		"tools_manufactory_01_mesh"
 #		#"generic_manufactory_03_mesh"
 #	}
-#	building_furniture_manufacturies= {"furniture_manufactory_01_mesh"}
+#	building_furniture_manufactory= {"furniture_manufactory_01_mesh"}
 #	building_glassworks = {"glassworks_manufactory_01_mesh"}
-#	building_tooling_workshops = {"tools_manufactory_01_mesh"}
-#	building_paper_mills = {"tools_manufactory_01_mesh"}
-#	building_chemical_plants = {"glassworks_manufactory_01_mesh"}
-#	building_steel_mills = {"glassworks_manufactory_01_mesh"}
+#	building_tooling_workshop = {"tools_manufactory_01_mesh"}
+#	building_paper_mill = {"tools_manufactory_01_mesh"}
+#	building_chemical_plant = {"glassworks_manufactory_01_mesh"}
+#	building_steel_mill = {"glassworks_manufactory_01_mesh"}
 #	building_arms_industry = {"tools_manufactory_01_mesh"}
 #	building_automotive_industry = {"war_machines_manufactory_01_mesh"}
 #	building_motor_industry = {"furniture_manufactory_01_mesh"}
-#	building_munition_plants = {"tools_manufactory_01_mesh"}
-#	building_synthetics_plants = {"tools_manufactory_01_mesh"}
+#	building_munition_plant = {"tools_manufactory_01_mesh"}
+#	building_synthetics_plant = {"tools_manufactory_01_mesh"}
 #	building_electrics_industry = {"tools_manufactory_01_mesh"}
 #	building_power_plant = {"furniture_manufactory_01_mesh"}
 #
@@ -72,9 +72,9 @@
 #	building_government_administration = {"european_city_government_administration_01_mesh"}
 #	building_trade_center = {"european_city_tradecenter_01_mesh"}
 #	building_university = {"european_city_university_01_mesh"}
-#	building_arts_academy = {"european_city_academy_01_mesh"}
+#	building_art_academy = {"european_city_academy_01_mesh"}
 #	building_skyscraper = {"wonder_big_ben_01_mesh"}
-#	building_barracks = {"european_city_barracks_01_mesh"}
+#	building_barrack = {"european_city_barracks_01_mesh"}
 #	building_manor_house = {"european_city_tradecenter_01_mesh"}
 #	building_financial_district = {"european_city_tradecenter_01_mesh"}
 #	building_company_headquarter = {"generic_companyhq_01_mesh"}

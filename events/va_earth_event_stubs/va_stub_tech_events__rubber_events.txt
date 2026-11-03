@@ -1,0 +1,16 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/tech_events/rubber_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = rubber_events
+
+rubber_events.1 = {
+	type = state_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+rubber_events.2 = {
+	type = state_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

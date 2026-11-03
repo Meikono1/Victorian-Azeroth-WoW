@@ -1,0 +1,246 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 06_old_strategic_regions.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_england_old = {
+	short_key = "england_old"
+}
+
+geographic_region_north_sea_coast_old = {
+	short_key = "north_sea_old"
+}
+
+geographic_region_iberia_old = {
+	short_key = "iberia_old"
+}
+
+geographic_region_france_old = {
+	short_key = "france_old"
+}
+
+geographic_region_occitania_old = {
+	short_key = "occitania_old"
+}
+
+geographic_region_rhine_old = {
+	short_key = "rhine_old"
+}
+
+geographic_region_italy_old = {
+	short_key = "italy_old"
+}
+
+geographic_region_balkans_old = {
+	short_key = "balkans_old"
+}
+
+geographic_region_north_germany_old = {
+	short_key = "north_germany_old"
+}
+
+geographic_region_south_germany_old = {
+	short_key = "south_germany_old"
+}
+
+geographic_region_baltic_old = {
+	short_key = "baltic_old"
+}
+
+geographic_region_danubia_old = {
+	short_key = "danubia_old"
+}
+
+geographic_region_poland_old = {
+	short_key = "poland_old"
+}
+
+geographic_region_russia_old = {
+	short_key = "russia_old"
+}
+
+geographic_region_dnieper_old = {
+	short_key = "dnieper_old"
+}
+
+geographic_region_belarus_old = {
+	short_key = "belarus_old"
+}
+
+geographic_region_baltic_states_old = {
+	short_key = "baltic_states_old"
+}
+
+geographic_region_finland_old = {
+	short_key = "finland_old"
+}
+
+geographic_region_arctic_russia_old = {
+	short_key = "arctic_russia_old"
+}
+
+geographic_region_urals_old = {
+	short_key = "urals_old"
+}
+
+geographic_region_nile_basin_old = {
+	short_key = "nile_basin_old"
+}
+
+geographic_region_ethiopia_old = {
+	short_key = "ethiopia_old"
+}
+
+geographic_region_north_africa_old = {
+	short_key = "north_africa_old"
+}
+
+geographic_region_senegal_old = {
+	short_key = "senegal_old"
+}
+
+geographic_region_niger_old = {
+	short_key = "niger_old"
+}
+
+geographic_region_congo_old = {
+	short_key = "congo_old"
+}
+
+geographic_region_southern_africa_old = {
+	short_key = "southern_africa_old"
+}
+
+geographic_region_zanj_old = {
+	short_key = "zanj_old"
+}
+
+geographic_region_indochina_old = {
+	short_key = "indochina_old"
+}
+
+geographic_region_indonesia_old = {
+	short_key = "indonesia_old"
+}
+
+geographic_region_south_china_old = {
+	short_key = "south_china_old"
+}
+
+geographic_region_north_china_old = {
+	short_key = "north_china_old"
+}
+
+geographic_region_manchuria_old = {
+	short_key = "manchuria_old"
+}
+
+geographic_region_japan_old = {
+	short_key = "japan_old"
+}
+
+geographic_region_west_siberia_old = {
+	short_key = "west_siberia_old"
+}
+
+geographic_region_east_siberia_old = {
+	short_key = "east_sibera_old"
+}
+
+geographic_region_oceania_old = {
+	short_key = "oceania_old"
+}
+
+geographic_region_anatolia_old = {
+	short_key = "anatolia_old"
+}
+
+geographic_region_arabic_old = {
+	short_key = "arabic_old"
+}
+
+geographic_region_persia_old = {
+	short_key = "persia_old"
+}
+
+geographic_region_central_asia_old = {
+	short_key = "central_asia_old"
+}
+
+geographic_region_caucasus_old = {
+	short_key = "caucasus_old"
+}
+
+geographic_region_madras_old = {
+	short_key = "madras_old"
+}
+
+geographic_region_bengal_old = {
+	short_key = "bengal_old"
+}
+
+geographic_region_bombay_old = {
+	short_key = "bombay_old"
+}
+
+geographic_region_punjab_old = {
+	short_key = "punjab_old"
+}
+
+geographic_region_himalayas_old = {
+	short_key = "himalayas_old"
+}
+
+geographic_region_central_india_old = {
+	short_key = "central_india_old"
+}
+
+geographic_region_canada_old = {
+	short_key = "canada_old"
+}
+
+geographic_region_new_england_old = {
+	short_key = "new_england_old"
+}
+
+geographic_region_pacific_coast_old = {
+	short_key = "pacific_coast_old"
+}
+
+geographic_region_great_plains_old = {
+	short_key = "great_plains_old"
+}
+
+geographic_region_the_midwest_old = {
+	short_key = "the_midwest_old"
+}
+
+geographic_region_dixie_old = {
+	short_key = "dixie_old"
+}
+
+geographic_region_mexico_old = {
+	short_key = "mexico_old"
+}
+
+geographic_region_central_america_old = {
+	short_key = "central_america_old"
+}
+
+geographic_region_caribbean_old = {
+	short_key = "caribbean_old"
+}
+
+geographic_region_brazil_old = {
+	short_key = "brazil_old"
+}
+
+geographic_region_andes_old = {
+	short_key = "andes_old"
+}
+
+geographic_region_la_plata_old = {
+	short_key = "la_plata_old"
+}
+
+geographic_region_gran_colombia_old = {
+	short_key = "gran_colombia_old"
+}

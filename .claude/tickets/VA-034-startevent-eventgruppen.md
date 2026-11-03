@@ -17,12 +17,14 @@ Normaler Zeitplan der Eventgruppen (Jahre nach Spielbeginn):
 | Eventgruppe | Standard |
 |---|---|
 | Deathwings Flug (Kataklysmus) | Spielstart, die Karte basiert auf Cataclysm |
-| Outland | +25 Jahre |
+| Outland – Dunkles Portal öffnet sich | ~+15 Jahre (Kono, 2026-11-02; vorher +25) |
 | Northrend | +50 Jahre |
 | Draenor – Portal öffnet sich | +60 Jahre |
 | Lost Isles – Dämoneninvasion | +75 Jahre |
 
 ## Notizen
+
+- 2026-11-02 (Kono): Das Dunkle Portal öffnet nach ~15 Jahren, nicht nach 60. Offen: Was genau ist die Gruppe „Draenor +60“, und gehört die Dämoneninvasion dorthin oder zu Lost Isles +75? Technik zum Portal in VA-053.
 
 - Die Eventgruppen selbst gibt es noch nicht. Dieses Ticket baut zuerst den Rahmen (Startevent, Schalter, Zeitgeber), die einzelnen Gruppen kommen als eigene Tickets dazu.
 - Technik-Idee (vor Umsetzung an Vanilla und Script-Doku prüfen):

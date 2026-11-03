@@ -19,13 +19,14 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_secret_police
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_no_home_affairs
 	}
 
 	c:ARGENT_CRUSADERS ?= {
@@ -34,18 +35,19 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_theocracy
-		activate_law = law_type:law_multicultural
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_frontier_colonization
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_subjecthood
 	}
 
 	c:AXEBITE_EXPEDITION ?= {
@@ -64,7 +66,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKROCK_CLAN ?= {
@@ -75,11 +78,13 @@
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_serfdom
 	}
 
 	c:BLACKROCK_NORTHSHIRE ?= {
@@ -87,9 +92,10 @@
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKSCALE_NAGA ?= {
@@ -98,7 +104,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLACKWING_DRAGONFLIGHT ?= {
@@ -109,10 +116,12 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_serfdom
 	}
 
 	c:BLACKWING_OUTPOST ?= {
@@ -122,9 +131,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:BLOODEYE_CLAN ?= {
@@ -133,7 +144,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODFANG_PACK ?= {
@@ -142,7 +154,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODSAIL_PIRATES ?= {
@@ -152,9 +165,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:BLOODSCALP_TRIBE ?= {
@@ -163,7 +178,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BLOODWASH_NAGA ?= {
@@ -173,9 +189,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:BLUEGILL_MORLOCS ?= {
@@ -184,7 +202,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:BOULDERFIST_CLAN_AZ ?= {
@@ -194,9 +213,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:CRUCIBLE_OF_CARNAGE_GLADIATOR ?= {
@@ -206,9 +227,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:CRUSHRIDGE_OGRE ?= {
@@ -218,9 +241,11 @@
 		
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:CULT_OF_DAMNED ?= {
@@ -233,12 +258,13 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_frontier_colonization
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:DABYRIES_HUMANS ?= {
@@ -247,7 +273,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DARK_IRON_CLAN ?= {
@@ -263,8 +290,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:DARNASSUS_OUTPOST_EK ?= {
@@ -280,8 +308,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:DEADWIND_OGRE ?= {
@@ -290,7 +319,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DEATHHOLME ?= {
@@ -298,10 +328,12 @@
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_mass_conscription
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_slave_trade
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_state_religion
 	}
 
 	c:DEFIAS_BROTHERHOOD ?= {
@@ -317,8 +349,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:DRAGONMAW_CLAN_AZ ?= {
@@ -328,9 +361,11 @@
 		
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_local_police
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:DREADMAUL_OGRES ?= {
@@ -339,9 +374,11 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:DRYWHISPER_KOBOLDS ?= {
@@ -350,7 +387,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:DUN_GAROK ?= {
@@ -366,8 +404,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:DUSTBELCHER_CLAN ?= {
@@ -376,9 +415,11 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:EMERALD_ENTRANCE_SERADANE ?= {
@@ -395,9 +436,11 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:FLAMECREST_OUTPOST ?= {
@@ -417,8 +460,10 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:GILNEAS ?= {
@@ -504,8 +549,10 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_per_capita_based_taxation
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:GRIMSCALE_MURLOCS ?= {
@@ -535,7 +582,8 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:HAMMERFALL ?= {
@@ -571,6 +619,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:HIGHLAND_FROSTWOLFES ?= {
@@ -580,12 +630,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_slavery_banned
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_mercantilism
 	}
 
 	c:HIGHVALE_HIGHELFES ?= {
@@ -635,8 +686,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:KARAZHAN ?= {
@@ -654,10 +706,12 @@
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_mass_conscription
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_slave_trade
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:KIRINTOR_EXPEDITION ?= {
@@ -671,8 +725,9 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
 	}
 
 	c:KURZEN_COMPOUND ?= {
@@ -680,9 +735,11 @@
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_mass_conscription
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:LOST_ONES ?= {
@@ -690,9 +747,11 @@
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_mass_conscription
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:MARSHFIN_MURLOC ?= {
@@ -899,18 +958,19 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_theocracy
-		activate_law = law_type:law_multicultural
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_frontier_colonization
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_subjecthood
 	}
 
 	c:SCARLET_CRUSADERS_ONSLAUGHT ?= {
@@ -919,18 +979,19 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_theocracy
-		activate_law = law_type:law_multicultural
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_national_guard
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_frontier_colonization
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_subjecthood
 	}
 
 	c:SHADOWFANG_KEEP ?= {
@@ -1086,11 +1147,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:STEAMWHEEDLE_CARTEL ?= {
@@ -1100,11 +1163,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:STORMWIND ?= {
@@ -1131,11 +1196,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:THE_EARTHEN_RING_AZ ?= {
@@ -1145,11 +1212,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:THE_RELIQUARY ?= {
@@ -1158,10 +1227,12 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:THORIUM_BROTHERHOOD ?= {
@@ -1171,11 +1242,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:TORNFIN_MURLOCS ?= {
@@ -1213,11 +1286,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:TWILIGHTS_HAMMER ?= {
@@ -1227,11 +1302,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:UNDERCITY ?= {
@@ -1275,11 +1352,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:VERMILLON_DRAGONFLIGHT ?= {
@@ -1289,11 +1368,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:VILEBRANCH_TROLLS ?= {
@@ -1325,11 +1406,13 @@
 		
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_censorship
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_traditionalism
 	}
 
 	c:WHITERBARK_TROLLS ?= {
@@ -1349,10 +1432,11 @@
 		effect_starting_politics_traditional = yes
 		
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_censorship
 		activate_law = law_type:law_slavery_banned
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_right_of_assembly
 	}
 
 	c:WORMTHORN_CORRUPTION ?= {

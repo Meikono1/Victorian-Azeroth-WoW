@@ -1,0 +1,70 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 01_geographic_regions_europe.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_europe = {
+	short_key = "europe"
+}
+
+geographic_region_hungary = {
+	short_key = "hungary"
+}
+
+geographic_region_german_confederation = {
+	short_key = "german_confederation"
+}
+
+geographic_region_megali_greece = {
+	short_key = "megali_greece"
+}
+
+geographic_region_historic_byzantium = {
+	short_key = "historic_byzantium"
+}
+
+geographic_region_iceland = {
+	short_key = "iceland"
+}
+
+geographic_region_greater_germany = {
+	short_key = "greater_germany"
+}
+
+geographic_region_lesser_germany = {
+	short_key = "lesser_germany"
+}
+
+geographic_region_scandinavia = {
+	short_key = "scandinavia"
+}
+
+geographic_region_yugoslavia = {
+	short_key = "yugoslavia"
+}
+
+geographic_region_castile = {
+	short_key = "castile"
+}
+
+geographic_region_aragon = {
+	short_key = "aragon"
+}
+
+geographic_region_greater_romania = {
+	short_key = "greater_romania"
+}
+
+geographic_region_france = {
+	short_key = "france"
+}
+
+geographic_region_greater_croatia = {
+	short_key = "greater_croatia"
+}
+
+geographic_region_french_natural_borders = {
+	short_key = "french_natural_borders"
+}
+
+geographic_region_greater_bulgaria = {
+	short_key = "greater_bulgaria"
+}

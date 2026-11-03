@@ -87,3 +87,50 @@ REPLACE:is_brazil_northeast_state = {
 REPLACE:asian_ally_against_russia_trigger = {
 	always = no
 }
+
+# --- VA-043 (2026-11-03): Ladefehler mit nackten Erde-States, -Tags und -Firmen ---
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_andes_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_la_plata_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_central_asia_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_great_plains_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_pacific_coast_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:owned_gran_colombia_region_states = {
+	always = no
+}
+
+# Vanilla: 00_scripted_triggers.txt
+REPLACE:iberian_treaty_ports = {
+	always = no
+}
+
+# Vanilla: 00_victoria_scripted_triggers.txt
+REPLACE:is_afghan_nation = {
+	always = no
+}
+
+# Vanilla: 00_ep2_victoria_scripted_triggers.txt
+REPLACE:company_is_zaibatsu = {
+	always = no
+}

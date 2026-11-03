@@ -1,0 +1,172 @@
+﻿# Kopfgeld auf die drei Wretched-Anführer und Zerfall der Wretched (VA-021, Schritt 3). Ablauf: .claude/ablauf/wretched.md (2b, Führungslos c).
+# Vorbild: Vanilla kill_character (effects.log), add_devastation wie events/paris_commune_events.txt, Zufallsjagd wie crime_events (00_scotland_yard.txt).
+# Erste Fassung bewusst einfach: ein Schalter je Anführer, monatliche Chance, höchstens 12 Monate. Ausbaustufe (Lost Armaments, Splitter) und Heldengruppen: VA-054.
+
+# Country-Scope Silvermoon: Jagd starten. Aufruf aus den Schaltern va_silvermoon_wretched_bounty_*_button.
+va_silvermoon_wretched_start_hunt_effect = {
+	set_variable = { name = va_wretched_hunt_$TARGET$ }
+	set_variable = { name = va_wretched_hunt_months value = 0 }
+}
+
+va_silvermoon_wretched_end_hunt_effect = {
+	if = { limit = { has_variable = va_wretched_hunt_thaelis } remove_variable = va_wretched_hunt_thaelis }
+	if = { limit = { has_variable = va_wretched_hunt_aldaron } remove_variable = va_wretched_hunt_aldaron }
+	if = { limit = { has_variable = va_wretched_hunt_felendren } remove_variable = va_wretched_hunt_felendren }
+	if = { limit = { has_variable = va_wretched_hunt_months } remove_variable = va_wretched_hunt_months }
+}
+
+# Country-Scope Silvermoon aus je_silvermoon_wretched (on_monthly_pulse): laufende Jagd, Zerfall prüfen.
+va_silvermoon_wretched_bounty_pulse_effect = {
+	if = {
+		limit = { has_variable = va_wretched_hunt_months }
+		change_variable = { name = va_wretched_hunt_months add = 1 }
+		# Ziel lebt nicht mehr (Krieg, Alter, Annexion): Jagd endet still
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_variable = va_wretched_hunt_thaelis
+						NOT = { va_wretched_thaelis_alive_trigger = yes }
+					}
+					AND = {
+						has_variable = va_wretched_hunt_aldaron
+						NOT = { va_wretched_aldaron_alive_trigger = yes }
+					}
+					AND = {
+						has_variable = va_wretched_hunt_felendren
+						NOT = { va_wretched_felendren_alive_trigger = yes }
+					}
+				}
+			}
+			va_silvermoon_wretched_end_hunt_effect = yes
+		}
+		else_if = {
+			limit = { has_variable = va_wretched_hunt_thaelis }
+			random_list = {
+				15 = { va_silvermoon_wretched_slay_thaelis_effect = yes }
+				85 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
+			}
+		}
+		else_if = {
+			limit = { has_variable = va_wretched_hunt_aldaron }
+			random_list = {
+				20 = { va_silvermoon_wretched_slay_aldaron_effect = yes }
+				80 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
+			}
+		}
+		else_if = {
+			limit = { has_variable = va_wretched_hunt_felendren }
+			random_list = {
+				25 = { va_silvermoon_wretched_slay_felendren_effect = yes }
+				75 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
+			}
+		}
+	}
+	# Alle drei durch Kopfgeld gefallen: Zerfall (Führungslos, Variante c)
+	if = {
+		limit = {
+			exists = c:WRETCHED_BLOODELFES
+			NOT = { has_variable = va_wretched_united }
+			has_variable = va_wretched_thaelis_slain
+			has_variable = va_wretched_aldaron_slain
+			has_variable = va_wretched_felendren_slain
+		}
+		va_silvermoon_wretched_leaderless_effect = yes
+		trigger_event = { id = wretched_bounty_events.6 popup = yes }
+	}
+}
+
+# Kein Erfolg in diesem Monat: nach 12 Monaten scheitert die Jagd (Bedrohung +10, Anführer 1 Jahr gesperrt).
+va_silvermoon_wretched_hunt_timeout_effect = {
+	if = {
+		limit = { var:va_wretched_hunt_months >= 12 }
+		if = {
+			limit = { has_variable = va_wretched_hunt_thaelis }
+			set_variable = { name = va_wretched_hunt_cooldown_thaelis days = 365 }
+		}
+		else_if = {
+			limit = { has_variable = va_wretched_hunt_aldaron }
+			set_variable = { name = va_wretched_hunt_cooldown_aldaron days = 365 }
+		}
+		else = {
+			set_variable = { name = va_wretched_hunt_cooldown_felendren days = 365 }
+		}
+		va_silvermoon_wretched_end_hunt_effect = yes
+		je:je_silvermoon_wretched ?= { add_progress = { value = 10 name = va_silvermoon_wretched_threat_bar } }
+		trigger_event = { id = wretched_bounty_events.2 popup = yes }
+	}
+}
+
+# Gemeinsamer Teil jedes Erfolgs: Bedrohung −20, mit 50 % Rache-Raubzug nach 2 Monaten.
+va_silvermoon_wretched_hunt_success_effect = {
+	va_silvermoon_wretched_end_hunt_effect = yes
+	je:je_silvermoon_wretched ?= { add_progress = { value = -20 name = va_silvermoon_wretched_threat_bar } }
+	random = {
+		chance = 50
+		trigger_event = { id = wretched_bounty_events.5 days = 60 popup = yes }
+	}
+}
+
+# WANTED: Thaelis the Hungerer (Quest 8468)
+va_silvermoon_wretched_slay_thaelis_effect = {
+	c:WRETCHED_BLOODELFES ?= {
+		random_scope_character = {
+			limit = { has_template = va_wretched_thaelis }
+			kill_character = yes
+		}
+	}
+	set_variable = { name = va_wretched_thaelis_slain }
+	va_silvermoon_wretched_hunt_success_effect = yes
+	trigger_event = { id = wretched_bounty_events.1 popup = yes }
+}
+
+# Wretched Ringleader (Quest 9076): Aldaron fällt, der Hafen von Sunsail ist wieder frei
+va_silvermoon_wretched_slay_aldaron_effect = {
+	c:WRETCHED_BLOODELFES ?= {
+		random_scope_character = {
+			limit = { has_template = va_wretched_aldaron }
+			kill_character = yes
+		}
+	}
+	set_variable = { name = va_wretched_aldaron_slain }
+	every_scope_state = {
+		limit = { has_modifier = va_silvermoon_harbor_overrun }
+		remove_modifier = va_silvermoon_harbor_overrun
+	}
+	va_silvermoon_wretched_hunt_success_effect = yes
+	trigger_event = { id = wretched_bounty_events.3 popup = yes }
+}
+
+# Felendren the Banished (Quest 8335)
+va_silvermoon_wretched_slay_felendren_effect = {
+	c:WRETCHED_BLOODELFES ?= {
+		random_scope_character = {
+			limit = { has_template = va_wretched_felendren }
+			kill_character = yes
+		}
+	}
+	set_variable = { name = va_wretched_felendren_slain }
+	va_silvermoon_wretched_hunt_success_effect = yes
+	trigger_event = { id = wretched_bounty_events.4 popup = yes }
+}
+
+# Country-Scope Silvermoon: Zerfall der Wretched (Kono 2026-11-03, Variante c). Übernahme ohne Pakt, Land verwüstet (Devastation 50),
+# Sucht im Land nach letzter Stufe, kein Legitimitätsmalus. JE endet über va_wretched_united, Folgen in va_silvermoon_wretched_complete_effect.
+va_silvermoon_wretched_leaderless_effect = {
+	c:WRETCHED_BLOODELFES = {
+		every_scope_state = {
+			state_region = { set_variable = { name = va_wretched_homeland } }
+		}
+	}
+	va_silvermoon_wretched_store_level_effect = yes
+	va_silvermoon_wretched_stop_healing_effect = yes
+	set_variable = { name = va_wretched_united }
+	set_variable = { name = va_wretched_leaderless }
+	annex = c:WRETCHED_BLOODELFES
+	every_scope_state = {
+		limit = {
+			state_region = { has_variable = va_wretched_homeland }
+		}
+		add_devastation = 50
+	}
+}

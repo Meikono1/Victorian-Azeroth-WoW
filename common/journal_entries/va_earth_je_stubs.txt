@@ -1,0 +1,2146 @@
+﻿# Hüllen für abgeschaltete Erde-JEs (VA-043), erzeugt von .claude/tools/va_gen_earth_je_stubs.py – nicht von Hand ändern.
+# Vorbild: Vanilla journal_entries.md. Nie sichtbar, nie möglich, sofort ungültig; hält nur Vanilla-Verweise gültig.
+
+je_acw_countdown = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acw_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acw_reconstruction = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acw_reincorporate = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acw_equality = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acw_wild_wild_west = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sale_of_alaska = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_alaska = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_antarctica = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_belle_epoque = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_boxer_rebellion = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_canada_can = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_canada_gbr = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_australia_aus = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_australia_gbr = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_suez_survey = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_suez_canal = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_panama_survey = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_panama_canal = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_central_africa_expedition = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_reunify_central_america = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_congo_expedition = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_free_state = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_colonial_rule = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_reform_indies = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_ethical_policy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_colonial_administration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_age_of_princes = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_schleswig_holstein_question = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_german_unification_idea = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_north_german_unification = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_south_german_unification = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_german_unification = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_greek_nationalism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_hawaii = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_hawaiian_interest = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_indian_removal = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_risorgimento = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_krakatoa = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_land_reclamation = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_trans_siberian_railway = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_trans_continental_railway = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_canada_pacific_railway = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_manifest_destiny_mexico = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_manifest_destiny_frontier_wars = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_restoration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_imperial_marriage = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_main = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_economy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_army = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_meiji_diplomacy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_niger_river_expedition = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_opium_obsession = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_opium_wars = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_oregon = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_conquer_oregon = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_patagonia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_springtime_of_the_peoples = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_red_summer = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_game_control = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_secure_persian_border = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pacify_kazakh_steppes = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_codify_chinese_border = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_central_asia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_chinese_concessions = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acquire_korean_protectorate = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_disrupt_russian_caucasus = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_counter_russian_pacific_influence = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_british_india = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pamir_expedition_objective = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_maintain_afghan_protectorate = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_afghanistan_objective = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_secure_influence_over_persia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_unify_afghanistan_objective = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_persia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_achieve_sovereignty = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_christ_of_nations = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_poland_lithuania = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_reunify_china = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_unite_the_principalities = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_all_for_one = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_scramble_for_africa = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_seminole_wars = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_main = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_syria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_egypt = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_economy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_education = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_separatism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_army = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sick_man_bureaucracy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_chinese_missions = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_heavenly_kingdom_main = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_taiping = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_taiping_revolution = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_texas_tex = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_texas_usa = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_conference_of_london = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_unite_the_nations = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_veiled_protectorate = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_victoria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_warlord_china = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_west_america_expedition = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_splitting_oman = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_lion_of_the_zanj = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_conquest_of_algeria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_algerian_departements = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_reconquest_of_algeria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_french_foreign_legion = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_dreyfus_affair = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_divided_monarchists = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_cement_the_rightful_dynasty = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_haitian_debt = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_indochina = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_krakow_uprising = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_french_natural_borders = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_confederation_of_the_rhine = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_paris_commune_display = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_paris_commune_france = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_paris_commune_communards = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_ryukyu_rivalry = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_acre_dispute = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_amazonas = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_brazil_navy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_brazilian_nation_building = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_aberdeen_act = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_matter_of_slavery = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_caudillo = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_agricultural_development = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_coffee_with_milk = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_cristo_redentor = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_gran_colombia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_la_plata = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_andean_federation = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_francocracia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_modernizing_paraguay = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_expanding_paraguay = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_paraguayan_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pedro_brazil = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pedro_republic = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_isabel = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_peru_bolivia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_positivist_movement = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_south_america_migration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_central_america_migration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_american_west_migration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_south_american_national_identity_emergence = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_south_american_national_identity = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_populist_unrest = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_new_republic = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_consolidate_afghanistan = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_unify_afghanistan = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_eastern_frontier = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_donghak_movement = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_gyojo_shinwon = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_korean_rebellion = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_eastern_border = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_caucasian_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_circassian_expulsions = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_caucasian_war_circassia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_caucasian_war_imamate = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pacify_the_steppes = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_last_kazakh_khan = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_conquest_of_central_asia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_reformer = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_reforms_serfdom = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_reforms_military = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_reforms_bureaucratic = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_tibet_expedition = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_communal_divides = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_dravidian_movement = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_imperialism_of_promise = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_british_dictate_plantations = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_british_dictate_military = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_british_dictate_law = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_british_dictate_universities = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_india_home_rule = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_india_nationalism_britain = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_india_nationalism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_india_non_cooperation_movement = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_india_railway = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_indian_famines = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_federation_of_india = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_mughal_hindustan = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_princely_states = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_uneasy_raj = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sepoy_mutiny = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sikh_sovereignty = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_victoria_terminus = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_matter_of_hungary = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_austrian_neo_absolutism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_standestaat = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_balkan_national_awakenings = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_balkan_league = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spoils_of_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_prussia_of_the_balkans = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_yugoslavia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_danubian_federation = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_danubian_federation_observer = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_eastern_question_russia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_eastern_question_austria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_great_eastern_crisis = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_bavarocracy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_hungarian_revolution = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_metternich = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_montenegrin_raiding = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_mon_state_formation = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_mon_austria_alliance = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_mon_serb_unity = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_tur_raided = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_kaiserforum = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_serbian_throne = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_struggle_for_the_highveld = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_grand_collapse = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_cuba_la_vida_dulce = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_cuba_espanol = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_cuba_independencia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_la_trinitaria = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_master = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_mining = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_light_industry = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_land_reform = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_railways = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_modernise_agriculture = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spa_economic_regeneration_ultramar = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_iberia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sagrada_familia = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_pena_palace = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_gran_teatro = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_atocha_railway = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_manila_cathedral = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_vernacular_policy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_and_brazil = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_united_kingdom = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_lands_of_anarchy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_philippines_development = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_philippines_main = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_filipino_ethnogenesis = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_devorismo = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_second_liberalism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_regeneration = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_regeneration_public_works = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_regeneration_agriculture = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portugal_regeneration_institutions = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_portuguese_colonialism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_pink_map = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spain_provisional_government = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spain_glorious_revolution_dummy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_conquest_of_tetouan = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_western_saharan_conquest = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_guinean_conquest = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_moroccan_conquest = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spanish_anarchism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spanish_new_world_dummy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_reconquista = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_hispanoamerica = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_spanish_american_independence = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_first_carlist_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_the_two_spains = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_taming_the_north = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_iwakura_mission = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_shinbutsu_bunri = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_elevate_buddhism = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_colonize_korea = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_sakoku = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_tenpo_crisis = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_zaibatsu = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}
+
+je_global_test = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	invalid = { always = yes }
+}

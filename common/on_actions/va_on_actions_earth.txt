@@ -1,0 +1,9 @@
+﻿# Vanilla-On-Actions mit Erde-Inhalt abschalten, ohne die Vanilla-Dateien zu kopieren (VA-003/VA-025). Vorbild: Vanilla _on_actions.md (MODDING INFO).
+# Eine On-Action darf nur einen trigger-Block haben; die hier gesetzten fehlen in Vanilla. Bei Patches prüfen, ob Vanilla einen ergänzt.
+
+# Alle historischen Agitatoren sind reale Personen (Lenin, Mazzini, Dickens …) mit Erde-Bezügen (c:FRA, s:STATE_VOLHYNIA …).
+historical_agitators_yearly_events = {
+	trigger = {
+		always = no
+	}
+}

@@ -1,2 +1,4 @@
 ﻿l_english:
   RULER_TITLE_ARCHMAGE: "Archmage"
+  gov_archmage: "Archmagocracy (AI WRITTEN)"
+  gov_archmage_desc: "Rule by the foremost archmage, chosen for mastery of the arcane rather than by birth.\n\n$TRANSFER_OF_POWER_NAME_DESC$ (AI WRITTEN)"

@@ -1,0 +1,81 @@
+﻿# Vanilla-Effekte, die nur Erde-Inhalte bedienen und Erde-Regionen/-Tags nennen, leer setzen (VA-043).
+# Vorbild: va_earth_triggers.txt (REPLACE: ersetzt nur das genannte Objekt). Aufrufer liegen nur in Erde-Inhalten (geprüft 2026-11-03).
+# Beim Patch: Aufrufer erneut prüfen; wird ein Effekt von allgemeinen Vanilla-Dateien gebraucht, hier streichen.
+
+# Vanilla: 00_victoria_great_game_scripted_effects.txt (Great Game; handle_ai_great_game_objectives bleibt, Vanilla-On-Actions rufen ihn)
+REPLACE:great_game_britain_progress_15 = {
+}
+
+REPLACE:great_game_britain_progress_25 = {
+}
+
+REPLACE:great_game_britain_progress_50 = {
+}
+
+REPLACE:great_game_russia_progress_10 = {
+}
+
+REPLACE:great_game_russia_progress_15 = {
+}
+
+REPLACE:great_game_russia_progress_25 = {
+}
+
+REPLACE:complete_great_game_effect = {
+}
+
+REPLACE:update_gg_progressbar_tooltips = {
+}
+
+REPLACE:clear_great_game_variables = {
+}
+
+REPLACE:calculate_great_game_passive_progress = {
+}
+
+REPLACE:assign_russia_ai_great_game_objectives = {
+}
+
+REPLACE:assign_britain_ai_great_game_objectives = {
+}
+
+REPLACE:assign_afghanistan_ai_great_game_objectives = {
+}
+
+REPLACE:assign_persia_ai_great_game_objectives = {
+}
+
+
+# Vanilla: 00_chris_scripted_effects.txt (Orientkrise; generate_*_side_list bleiben, Vanilla-On-Actions rufen sie)
+REPLACE:eastern_crisis_2_event_effects = {
+}
+
+REPLACE:eastern_crisis_3_event_effects = {
+}
+
+
+# Vanilla: 00_scripted_effects.txt (Beute der Balkankriege, nirgends aufgerufen)
+REPLACE:spoils_of_war_initiation_bul = {
+}
+
+REPLACE:spoils_of_war_initiation_ser = {
+}
+
+REPLACE:spoils_of_war_initiation_wal = {
+}
+
+REPLACE:spoils_of_war_initiation_gre = {
+}
+
+REPLACE:spoils_of_war_initiation_mon = {
+}
+
+
+# Vanilla: 00_victoria_ep2_scripted_effects.txt (Ezo-Republik)
+REPLACE:generate_ezo_military = {
+}
+
+
+# Vanilla: 00_victoria_scripted_effects.txt (Zerfall Indiens)
+REPLACE:collapse_india_effect = {
+}

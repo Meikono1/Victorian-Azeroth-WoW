@@ -87,7 +87,7 @@
 	}
 	s:STATE_FORT_WILDERVAR = {	
 	}
-	s:STATE_SKÖRN = {	
+	s:STATE_SKORN = {	
 	}
 	s:STATE_VANGUARD_KEEP = {	
 	}

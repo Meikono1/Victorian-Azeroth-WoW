@@ -1,0 +1,39 @@
+﻿# Startgesetze der dezentralen Platzhalter-Länder je Kontinent (VA-014). Vorbild: Vanilla common/history/countries (decentralized nations).
+# Ohne Eintrag setzt das Spiel Merkantilismus und Verbotene Opposition und fällt dann selbst auf diese Gesetze zurück (error.log 03.11.).
+
+COUNTRIES = {
+	c:NRTHRND ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:KALIMDOR ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:PANDARIA ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:DREANOR ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:LOSTISLES ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:ZANDALAR ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+
+	c:KULTIRAS ?= {
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+}

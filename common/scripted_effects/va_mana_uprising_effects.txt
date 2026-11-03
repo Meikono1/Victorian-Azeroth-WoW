@@ -1,0 +1,120 @@
+﻿# Mana-Aufstand: Wer das Mana-Problem zu lange ignoriert, schafft sich neue Wretched (VA-021, Schritt 4; Kono 2026-11-03).
+# Ablauf: .claude/ablauf/wretched.md (2d). Vorbild: Vanilla create_country in events/brazil/brazilian_minors.txt,
+# Kriegs-Play per Effekt wie events/british_raj_events.txt (create_diplomatic_play mit add_war_goal).
+
+# Country-Scope, monatlich aus va_update_mana_dependency_effect (je_mana_hunger).
+# Zähler va_mana_shortage_months: Entzug +1 je Monat, Knappheit +1 alle 2 Monate, sonst −1 (nicht unter 0).
+# Ab 12 Warnung (mana_uprising_events.1, höchstens alle 2 Jahre), ab 24 Aufstand (mana_uprising_events.2) bzw. Flucht zu bestehenden Wretched (.3).
+va_mana_shortage_counter_effect = {
+	if = {
+		limit = {
+			va_country_mana_dependent_trigger = yes
+			NOT = { c:WRETCHED_BLOODELFES ?= this }
+		}
+		if = {
+			limit = { NOT = { has_variable = va_mana_shortage_months } }
+			set_variable = { name = va_mana_shortage_months value = 0 }
+		}
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			change_variable = { name = va_mana_shortage_months add = 1 }
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			if = {
+				limit = { has_variable = va_mana_scarcity_tick }
+				remove_variable = va_mana_scarcity_tick
+				change_variable = { name = va_mana_shortage_months add = 1 }
+			}
+			else = {
+				set_variable = { name = va_mana_scarcity_tick }
+			}
+		}
+		else_if = {
+			limit = { var:va_mana_shortage_months > 0 }
+			change_variable = { name = va_mana_shortage_months add = -1 }
+		}
+
+		if = {
+			limit = { var:va_mana_shortage_months >= 24 }
+			set_variable = { name = va_mana_shortage_months value = 0 }
+			if = {
+				limit = { exists = c:WRETCHED_BLOODELFES }
+				trigger_event = { id = mana_uprising_events.3 popup = yes }
+			}
+			else_if = {
+				limit = {
+					any_scope_state = { is_capital = no }
+				}
+				trigger_event = { id = mana_uprising_events.2 popup = yes }
+			}
+		}
+		else_if = {
+			limit = {
+				var:va_mana_shortage_months >= 12
+				NOT = { has_variable = va_mana_uprising_warned }
+			}
+			set_variable = { name = va_mana_uprising_warned days = 730 }
+			trigger_event = { id = mana_uprising_events.1 popup = yes }
+		}
+	}
+}
+
+# Country-Scope (betroffenes Land) aus mana_uprising_events.2: neues Wretched-Land aus einem State außerhalb der Hauptstadt,
+# bevorzugt mit Unruhe. Danach versucht das Land, die Abtrünnigen per Krieg zurückzuholen (Annexion als Bürgerkrieg).
+va_mana_uprising_create_wretched_effect = {
+	if = {
+		limit = {
+			any_scope_state = {
+				is_capital = no
+				turmoil >= 0.1
+			}
+		}
+		random_scope_state = {
+			limit = {
+				is_capital = no
+				turmoil >= 0.1
+			}
+			save_scope_as = va_uprising_state
+		}
+	}
+	else = {
+		random_scope_state = {
+			limit = { is_capital = no }
+			save_scope_as = va_uprising_state
+		}
+	}
+	create_country = {
+		tag = WRETCHED_BLOODELFES
+		origin = ROOT
+		state = scope:va_uprising_state
+		on_created = {
+			va_wretched_init_addiction_effect = yes
+		}
+	}
+	# Silvermoon: Wretched-Strang beginnt von vorn (Bedrohung, Ansprüche, Pakt, Heilung)
+	if = {
+		limit = {
+			c:SILVERMOON ?= this
+			NOT = { has_journal_entry = je_silvermoon_wretched }
+		}
+		va_silvermoon_wretched_reset_effect = yes
+		add_journal_entry = { type = je_silvermoon_wretched }
+	}
+	c:WRETCHED_BLOODELFES ?= { save_scope_as = va_uprising_wretched }
+	create_diplomatic_play = {
+		target_country = scope:va_uprising_wretched
+		type = dp_annex_war
+		handle_annexation_as_civil_war = yes
+	}
+}
+
+# Country-Scope Silvermoon: Zustände einer früheren Vereinigung löschen, damit je_silvermoon_wretched nicht sofort wieder endet.
+va_silvermoon_wretched_reset_effect = {
+	if = { limit = { has_variable = va_wretched_united } remove_variable = va_wretched_united }
+	if = { limit = { has_variable = va_wretched_absorbed } remove_variable = va_wretched_absorbed }
+	if = { limit = { has_variable = va_wretched_leaderless } remove_variable = va_wretched_leaderless }
+	if = { limit = { has_variable = va_wretched_thaelis_slain } remove_variable = va_wretched_thaelis_slain }
+	if = { limit = { has_variable = va_wretched_aldaron_slain } remove_variable = va_wretched_aldaron_slain }
+	if = { limit = { has_variable = va_wretched_felendren_slain } remove_variable = va_wretched_felendren_slain }
+}

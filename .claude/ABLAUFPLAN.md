@@ -4,7 +4,7 @@ Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Comm
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), Runden 3, 7 und 8 sind durch, Runde 1 bis auf T-003 (Kono später, hängt an VA-037). Offen: Runde 5 (T-021, T-022), Runde 6 (T-024 bis T-030), Runde 9 (T-041, T-043, T-045, T-047, T-048: Mana-Angebot, Mana-Abhängigkeit), Runde 10 (T-049, T-051, T-052: Silvermoon-Ziele), Runde 11 (T-053 bis T-055: Todesschneise heilen), Runde 12 (T-056 bis T-058: Korridor nach Tranquillien).
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), abgeschlossene Runden (2, 3, 4, 7, 8) im [Archiv](TESTPROTOKOLL_ARCHIV.md), Runde 1 bis auf T-003 (Kono später, hängt an VA-037). Offen: Runde 5 (T-021, T-022), Runde 6 (T-024 bis T-030), Runde 9 (T-041, T-043, T-045, T-047, T-048: Mana-Angebot, Mana-Abhängigkeit), Runde 10 (T-049, T-051, T-052: Silvermoon-Ziele), Runde 11 (T-053 bis T-055: Todesschneise heilen), Runde 12 (T-056 bis T-058: Korridor nach Tranquillien), Runde 13 (T-061, T-062, T-064: Wretched Eingliedern, Heilen, Bedrohungsbalken), Runde 15 (T-071 bis T-077: Wretched Schritt 2–4), Runde 16 (T-078 bis T-082: error.log-Großputz, **vorher Kono: Alt-Kopien löschen**, Liste in VA-043).
 
 ## Offene Entscheidungen
 
@@ -32,6 +32,8 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 
 ## Erledigt
 
+- 2026-11-03: error.log-Großputz (VA-043/VA-003/VA-026/VA-014, wartet auf Spieltest): 30 alte Vanilla-Kopien gelöscht (On-Actions, politische Bewegungen, Scripted Effects, Flaggen, Machtblock-Namen, Custom Loc, Terrain …), 5 Erde-Decisions abgeschaltet, `gov_archmage` nach `00_va_monarchies.txt`; Erde-`geographic_regions` und 268 Erde-JEs als leere Hüllen (Werkzeuge `va_gen_geo_regions.py`, `va_gen_earth_je_stubs.py`); Startgesetze nach Spiel-Fallback, History-Provinzen in Pandaria/Northrend, Kalimdor-PMs, Gilneas-Kopien, Loc-Keys mit `’`/`Ö`. Gebäude-Kopien warten auf Löschung durch Kono.
+- 2026-11-01: Token-Optimierung: Code-Karte `KARTE.md` und vier Skills unter `skills/` (`va-content`, `va-testrunde`, `va-karte`, `va-patch-upload`); Checklisten in den Skill verschoben; `CLAUDE.md` gestrafft, Regel „Wissenspflege“ (Claude pflegt Karte und Skills selbst). `TESTPROTOKOLL.md` von 18.084 auf 516 Zeilen (Leerzeilen). `va_errlog.py --mod`. Vorlagen erfüllen VA-009 (wartet auf Kono). Script-Doku neu erzeugt (VA-052 erledigt). Archiv eingeführt: abgeschlossene Testrunden in `TESTPROTOKOLL_ARCHIV.md`, erledigte/verworfene Tickets in `tickets/archiv/`. Gefunden: veraltete Script-Doku (VA-052), Länderfarbe 487 (VA-043). Community Mod Framework geprüft und verworfen: Kompatibilitätsschicht für Erde-Mods, überschreibt Parteien/War Goals/GUI.
 - 2026-10-30: Todesschneise heilen (VA-046, wartet auf Spieltest): JE `je_va_dead_scar` für jeden Besitzer, sechs Balken à 20 Monate, Schalter je Region, Kosten über staatliche Ritual Site (Löhne, Mana, Bürokratie). Ersetzt das Silvermoon-Ritual aus VA-020. Werkzeug `va_gen_dead_scar.py`.
 - 2026-10-30: Silvermoon-Ziele (VA-020, wartet auf Spieltest): drei JEs ab Spielstart – Deathholme vertreiben, Zul'Aman zerstören, Todesschneise per Heilritual (Knopf, 24 Monate je Region, ruht im Mana-Entzug) heilen. Events `silvermoon_events.1`–`.4`. Wretched folgt mit VA-021, Sunwell-Projekt später. Ablauf `.claude/ablauf/silvermoon.md`.
 - 2026-10-30: Quel'Thalas-Grundbausteine (VA-019, wartet auf Spieltest): Mana als Stimulans mit Obsession der Elfen, Start-Ley-Line-Tap auf Sunwell Plateau, Todesschneise an State-Regionen (Lebenden-Malus nur ohne untote Mehrheit, monatlich und bei Besitzwechsel), Dauer-JE `je_mana_hunger` mit drei Preisstufen. Neue Regel: Claude-Texte enden sichtbar mit „(AI WRITTEN)“. Ablauf `.claude/ablauf/silvermoon.md`. Test-Icon im Schiffsbau → VA-045.
@@ -77,31 +79,13 @@ _(Nur hier gelistete Vollkopien werden bei Patches nachgezogen. Format: Datei �
 - `common/scripted_triggers/00_gfx_buildings_graphics_triggers.txt` – die 6 Stadtgrafik-Trigger aus Vanilla zeigen auf Erde-States. Ersetzt durch `always = no`. Bei Patches prüfen, ob Vanilla neue Trigger hinzufügt (sonst fehlen sie).
 - `common/strait_definitions/strait_definitions.txt` – leer, Vanilla-Kanäle zeigen auf Erde-Provinzen.
 - `common/character_templates/00_default_template.txt` – Vanilla-Standardvorlage plus WoW-Lebensdauer und Staatsreligion (mit `VA:` markiert). Ein `INJECT` würde `trait_generation` komplett ersetzen, also keine Ersparnis. Bei Patches Vanilla-Teil neu übernehmen.
-- `common/company_types/99_basic_companies.txt` – vorübergehend, falls Kono die alte Kopie zurückholt (VA-002 Teil 3): passt zu den alten Gebäudenamen. Mit VA-003 (buildings) löschen.
+- `common/scripted_effects/00_dynamic_state_names.txt` – beide Vanilla-Effekte (`evaluate_and_assign_state_hub_dynamic_names`, `assign_state_hub_dynamic_names`) leer, sie benennen Erde-Hubs um. Bei Patches prüfen, ob Vanilla weitere Effekte in der Datei ergänzt.
+- `common/geographic_regions/0*.txt` – erzeugt von `va_gen_geo_regions.py` (gleiche Schlüssel, leer). Bei Patches neu erzeugen.
+- `common/buildings/08_monuments.txt`, `10_canals.txt`, `common/power_bloc_names/00_power_bloc_names.txt`, `common/political_movements/03_pan_national_movements.txt`, `common/government_types/01_monarchies.txt`, `01_regencies.txt`, `01_social_monarchies.txt`, `05_council_republics.txt`, `common/achievements/*.txt` – erzeugt von `va_gen_earth_overrides.py` (Vanilla mit `always = no` in Bedingungen mit Erde-States, -Regionen oder -Tags). Bei Patches neu erzeugen.
+- `events/va_earth_event_stubs/`, `common/journal_entries/va_earth_je_stubs.txt`, `common/character_templates/va_earth_template_stubs.txt` – erzeugte Hüllen (`va_gen_earth_event_stubs.py`, `va_gen_earth_je_stubs.py`, `va_gen_earth_template_stubs.py`). Bei Patches und nach neuen Stubs neu erzeugen.
+- `common/on_actions/va_on_actions_earth.txt` – keine Vollkopie, aber ein `trigger` an Vanilla-On-Actions (`historical_agitators_yearly_events`). Bei Patches prüfen, ob Vanilla dort selbst einen Trigger setzt (dann Konflikt).
 - `common/defines/va_OVERWRITE_defines.txt` → `NEconomy.WORLD_MARKET_LOCATION` – Vanilla zeigt auf den Nordatlantik (Absturz). Bei Patches prüfen, ob neue Defines mit Provinz-IDs dazukommen.
 
-## Checkliste: neue Spielversion (Patch)
+## Checklisten Patch und Upload
 
-Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket „Patch 1.x“.
-
-- [ ] Version prüfen: `launcher\launcher-settings.json` → `rawVersion`; `.metadata/metadata.json` → `supported_game_version` anpassen
-- [ ] Spiel einmal starten, in der Konsole `script_docs` ausführen (aktualisiert `docs\*.log`)
-- [ ] Jede Datei unter „Bewusste Vanilla-Overrides“ gegen die neue Vanilla-Datei vergleichen und Neuerungen übernehmen
-- [ ] `common/defines/00_defines.txt` auf neue Werte mit Provinz-/State-IDs prüfen (Absturzgefahr wie `WORLD_MARKET_LOCATION`)
-- [ ] Neue Vanilla-Ordner und -Dateien suchen, die Erde-States, -Tags oder -Kulturen referenzieren (`history`, `strait_definitions`, `geographic_regions`, `ai_strategies` …) → abschalten oder abfangen (VA-004)
-- [ ] Neue Vanilla-Pflichtfelder/-Formate in Ordnern mit eigenen Objekten prüfen (State Regions, Gebäude, Güter, Kulturen, Länder), z. B. Ressourcen-Format 1.13
-- [ ] `python -I .claude/tools/va_events.py --details`: neue Vanilla-Eventdateien mit Erde-Inhalt mit `--stubs` abschalten; bei „vanilla-allgemein“ und `GENERIC` von Hand gegenprüfen
-- [ ] Dasselbe mit `python -I .claude/tools/va_common_folders.py common/journal_entries --details` und ebenso für `common/scripted_buttons`, `common/company_types`, `common/character_templates`; neue „vanilla-allgemein“-Dateien mit Erde-Thema in `EARTH` eintragen
-- [ ] `va_lint.py --regions 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35` → 0 neue Fehler
-- [ ] Testrunde mit Kampagnenstart und `error.log`-Auswertung
-
-## Checkliste: Upload in den Workshop
-
-- [ ] Letzte Testrunde im [Testprotokoll](TESTPROTOKOLL.md) komplett OK
-- [ ] `va_lint.py` meldet 0 neue Fehler
-- [ ] Alle Tickets dieser Version stehen auf `erledigt` oder bewusst offen (mit Notiz)
-- [ ] TODO-Durchgang: alle `TODO` im Mod (ohne `.claude/`) durchsehen; jedes gehört zu einem Ticket. Grafik-TODOs in VA-027 nachtragen bzw. erledigte dort austragen, übrige erledigen oder dem passenden Ticket als Notiz zuordnen
-- [ ] `.metadata/metadata.json`: `version` hochgezählt, `supported_game_version` stimmt
-- [ ] Mod-Ordner `mod\warcraft` vollständig aus dem Repo neu befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`; gelöschte Repo-Dateien auch dort löschen) – VA-010
-- [ ] Kurztest aus dem Mod-Ordner: Kampagne lädt
-- [ ] Änderungen seit dem letzten Upload als Workshop-Text zusammengefasst
+Stehen im Skill `.claude/skills/va-patch-upload/SKILL.md` (einzige Quelle, seit 2026-11-01). Jedes Mal komplett abhaken, Ergebnis als Notiz in einem eigenen Ticket.

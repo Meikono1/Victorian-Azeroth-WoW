@@ -1,0 +1,531 @@
+﻿# Events zur Vereinigung von Silvermoon und den Wretched (VA-021). Vorbild: Vanilla romania.1/.2 (events/romania_events.txt).
+# Ausgelöst von den Schaltern in va_silvermoon_wretched_buttons.txt bzw. va_silvermoon_wretched_pulse_effect.
+namespace = wretched_events
+
+# Silvermoon bietet den Wretched den Mana-Pakt an (Empfänger: Wretched, scope:va_wretched_suitor = Silvermoon)
+wretched_events.1 = {
+	type = country_event
+
+	title = wretched_events.1.t
+	desc = wretched_events.1.d
+	flavor = wretched_events.1.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_pact_button
+	}
+
+	# Annehmen: Protektorat von Silvermoon
+	option = {
+		name = wretched_events.1.a
+		default_option = yes
+		ai_chance = {
+			base = 50
+			modifier = {
+				trigger = {
+					OR = {
+						has_modifier = va_mana_scarcity
+						has_modifier = va_mana_withdrawal
+					}
+				}
+				add = 40
+			}
+			# VA-021 Schritt 3: je gefallenem Anführer +10, solange Thaelis lebt und die Sucht verzweifelt ist −30
+			modifier = {
+				trigger = { scope:va_wretched_suitor = { has_variable = va_wretched_thaelis_slain } }
+				add = 10
+			}
+			modifier = {
+				trigger = { scope:va_wretched_suitor = { has_variable = va_wretched_aldaron_slain } }
+				add = 10
+			}
+			modifier = {
+				trigger = { scope:va_wretched_suitor = { has_variable = va_wretched_felendren_slain } }
+				add = 10
+			}
+			modifier = {
+				trigger = {
+					va_wretched_thaelis_alive_trigger = yes
+					var:va_wretched_addiction_level >= 3
+				}
+				add = -30
+			}
+		}
+		scope:va_wretched_suitor = {
+			create_diplomatic_pact = {
+				country = ROOT
+				type = protectorate
+			}
+			custom_tooltip = {
+				text = va_wretched_threat_down_30_tt
+				je:je_silvermoon_wretched ?= { add_progress = { value = -30 name = va_silvermoon_wretched_threat_bar } }
+			}
+			trigger_event = { id = wretched_events.2 popup = yes }
+		}
+	}
+
+	# Ablehnen
+	option = {
+		name = wretched_events.1.b
+		ai_chance = {
+			base = 50
+		}
+		scope:va_wretched_suitor = {
+			custom_tooltip = {
+				text = va_wretched_threat_up_5_tt
+				je:je_silvermoon_wretched ?= { add_progress = { value = 5 name = va_silvermoon_wretched_threat_bar } }
+			}
+			trigger_event = { id = wretched_events.3 popup = yes }
+		}
+	}
+}
+
+# Die Wretched nehmen den Pakt an (Empfänger: Silvermoon)
+wretched_events.2 = {
+	type = country_event
+
+	title = wretched_events.2.t
+	desc = wretched_events.2.d
+	flavor = wretched_events.2.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von wretched_events.1
+	}
+
+	option = {
+		name = wretched_events.2.a
+		default_option = yes
+	}
+}
+
+# Die Wretched lehnen ab (Empfänger: Silvermoon)
+wretched_events.3 = {
+	type = country_event
+
+	title = wretched_events.3.t
+	desc = wretched_events.3.d
+	flavor = wretched_events.3.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von wretched_events.1
+	}
+
+	option = {
+		name = wretched_events.3.a
+		default_option = yes
+	}
+}
+
+# Silvermoon gliedert die Wretched ein, ohne sie zu heilen (Empfänger: Silvermoon)
+wretched_events.4 = {
+	type = country_event
+
+	title = wretched_events.4.t
+	desc = wretched_events.4.d
+	flavor = wretched_events.4.f
+
+	event_image = {
+		video = "europenorthamerica_political_extremism" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_annex_button
+	}
+
+	option = {
+		name = wretched_events.4.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_silvermoon_wretched_absorbed
+				years = 10
+			}
+		}
+		custom_tooltip = wretched_events.4.a.tt
+	}
+}
+
+# Die Wretched sind geheilt und vereint (Empfänger: Silvermoon)
+wretched_events.5 = {
+	type = country_event
+
+	title = wretched_events.5.t
+	desc = wretched_events.5.d
+	flavor = wretched_events.5.f
+
+	event_image = {
+		video = "unspecific_military_parade" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_pulse_effect
+	}
+
+	option = {
+		name = wretched_events.5.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_silvermoon_wretched_restored
+				years = 10
+			}
+		}
+	}
+}
+
+# ---------------------------------------------------------------------------
+# Phase 1: Raub-Events (Empfänger: Silvermoon). Ausgelöst von va_silvermoon_wretched_raid_effect.
+# Vorbild: Vanilla crime_events (00_scotland_yard.txt, random_list im JE). Quest-IDs (Wowhead) je Event im Kommentar.
+# ---------------------------------------------------------------------------
+
+# Slain by the Wretched (Quests 9704, 9705, 8350): Händler auf der Straße nach Silvermoon erschlagen
+wretched_events.10 = {
+	type = country_event
+
+	title = wretched_events.10.t
+	desc = wretched_events.10.d
+	flavor = wretched_events.10.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+	}
+
+	# Patrouillen auf der Straße
+	option = {
+		name = wretched_events.10.a
+		default_option = yes
+		add_treasury = -25000
+		custom_tooltip = {
+			text = va_wretched_threat_down_10_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = -10 name = va_silvermoon_wretched_threat_bar } }
+		}
+	}
+
+	# Umweg über das Meer: die Straße nach Sunstrider Isle bleibt unsicher
+	option = {
+		name = wretched_events.10.b
+		every_scope_state = {
+			limit = { state_region = s:STATE_SUNSTRIDER_ISLE }
+			add_modifier = {
+				name = va_silvermoon_unsafe_road
+				years = 2
+			}
+		}
+	}
+}
+
+# Unstable Mana Crystals (Quest 8463): Kisten mit Manakristallen gestohlen
+wretched_events.11 = {
+	type = country_event
+
+	title = wretched_events.11.t
+	desc = wretched_events.11.d
+	flavor = wretched_events.11.f
+
+	event_image = {
+		video = "votp_cops_march" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+	}
+
+	# Suchtrupp der Wache (Aeldon Sunbrand)
+	option = {
+		name = wretched_events.11.a
+		default_option = yes
+		add_treasury = -15000
+	}
+
+	# Vertuschen: nach 6 Monaten 50 % Chance auf die Explosion
+	option = {
+		name = wretched_events.11.b
+		custom_tooltip = wretched_events.11.b.tt
+		hidden_effect = {
+			random = {
+				chance = 50
+				trigger_event = { id = wretched_events.14 days = 180 popup = yes }
+			}
+		}
+	}
+}
+
+# Roadside Ambush (Quests 9035, 9062, 9064, 9066): Lehrlinge der Falthrien-Akademie überfallen
+wretched_events.12 = {
+	type = country_event
+
+	title = wretched_events.12.t
+	desc = wretched_events.12.d
+	flavor = wretched_events.12.f
+
+	event_image = {
+		video = "ip3_village_school" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+	}
+
+	# Leichtsinnige Lehrlinge bestrafen (Instructor Antheol): die Gelehrten begrüßen die Strenge
+	option = {
+		name = wretched_events.12.a
+		default_option = yes
+		ig:ig_intelligentsia ?= {
+			add_modifier = {
+				name = va_silvermoon_apprentices_disciplined
+				years = 2
+			}
+		}
+	}
+
+	# Wachen zur Akademie
+	option = {
+		name = wretched_events.12.b
+		add_treasury = -10000
+		custom_tooltip = {
+			text = va_wretched_threat_down_5_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = -5 name = va_silvermoon_wretched_threat_bar } }
+		}
+	}
+}
+
+# Situation at Sunsail Anchorage (Quests 8892, 8886): Wretched überrennen Silvermoons Hafen, Grimscale stehlen die Ladung
+wretched_events.13 = {
+	type = country_event
+
+	title = wretched_events.13.t
+	desc = wretched_events.13.d
+	flavor = wretched_events.13.f
+
+	event_image = {
+		video = "unspecific_naval_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+		va_silvermoon_wretched_sunsail_open_trigger = yes
+	}
+
+	# Hafen aufgeben, bis die Waldläufer zurückschlagen können
+	# TODO: Modifier endet vorzeitig, wenn Aldaron fällt (Kopfgeld, Schritt 3 im Ablauf wretched.md)
+	option = {
+		name = wretched_events.13.a
+		default_option = yes
+		every_scope_state = {
+			limit = { state_region = s:STATE_SUNSAIL_ANCHORAGE }
+			add_modifier = {
+				name = va_silvermoon_harbor_overrun
+				years = 5
+			}
+		}
+	}
+
+	# Captain Kelisendra anheuern und den Kai zurückerobern
+	option = {
+		name = wretched_events.13.b
+		add_treasury = -30000
+		every_scope_state = {
+			limit = { state_region = s:STATE_SUNSAIL_ANCHORAGE }
+			add_modifier = {
+				name = va_silvermoon_harbor_overrun
+				years = 2
+			}
+		}
+		custom_tooltip = {
+			text = va_wretched_threat_down_5_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = -5 name = va_silvermoon_wretched_threat_bar } }
+		}
+	}
+}
+
+# Explosion an der Stadtmauer (Folge von Quest 8463): gestohlene Kristalle explodieren in Silvermoon City
+wretched_events.14 = {
+	type = country_event
+
+	title = wretched_events.14.t
+	desc = wretched_events.14.d
+	flavor = wretched_events.14.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+	}
+
+	# Mauer sofort schließen
+	option = {
+		name = wretched_events.14.a
+		default_option = yes
+		add_treasury = -20000
+		capital = {
+			add_modifier = {
+				name = va_silvermoon_wall_breach
+				years = 1
+			}
+		}
+	}
+
+	# Die Bresche bleibt offen, die Schuld trifft die Wretched
+	option = {
+		name = wretched_events.14.b
+		capital = {
+			add_modifier = {
+				name = va_silvermoon_wall_breach
+				years = 2
+			}
+			add_radicals_in_state = {
+				value = small_radicals
+			}
+		}
+	}
+}
+
+# Lehrlinge fallen der Sucht anheim (Duskwither Spire, Quests 8888–8891): Mana-Knappheit in Silvermoon selbst
+wretched_events.15 = {
+	type = country_event
+
+	title = wretched_events.15.t
+	desc = wretched_events.15.d
+	flavor = wretched_events.15.f
+
+	event_image = {
+		video = "unspecific_sick_in_hospital" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+	}
+
+	# Mana für die Akademien
+	option = {
+		name = wretched_events.15.a
+		default_option = yes
+		add_treasury = -20000
+	}
+
+	# Verbannen: die Verstoßenen laufen zu den Wretched über
+	option = {
+		name = wretched_events.15.b
+		capital = {
+			add_radicals_in_state = {
+				value = small_radicals
+				pop_type = academics
+			}
+		}
+		custom_tooltip = {
+			text = va_wretched_threat_up_10_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = 10 name = va_silvermoon_wretched_threat_bar } }
+		}
+	}
+}
+
+# Phase 2c: Silvermoon hat die Wretched mit Gewalt unterworfen (aus va_silvermoon_wretched_conquered_effect)
+wretched_events.16 = {
+	type = country_event
+
+	title = wretched_events.16.t
+	desc = wretched_events.16.d
+	flavor = wretched_events.16.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_conquered_effect
+	}
+
+	option = {
+		name = wretched_events.16.a
+		default_option = yes
+	}
+}

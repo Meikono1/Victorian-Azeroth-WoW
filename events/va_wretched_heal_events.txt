@@ -1,0 +1,183 @@
+﻿# Heil-Etappen, Rückfall und Nachspiel der Wretched (VA-021, Schritt 2). Vorbild: Vanilla romania.1/.2 (events/romania_events.txt) für den Aufbau.
+# Ausgelöst von va_silvermoon_wretched_pulse_effect / _relapse_check_effect / _aftermath_pulse_effect (va_wretched_addiction_effects.txt).
+# Ablaufplan-IDs: .1 = Plan .30, .2 = .31, .3 = .32, .4 = .40.
+namespace = wretched_heal_events
+
+# Etappe 1 geschafft: Erste Genesene (Empfänger: Silvermoon)
+wretched_heal_events.1 = {
+	type = country_event
+
+	title = wretched_heal_events.1.t
+	desc = wretched_heal_events.1.d
+	flavor = wretched_heal_events.1.f
+
+	event_image = {
+		video = "unspecific_sick_in_hospital" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_pulse_effect
+	}
+
+	option = {
+		name = wretched_heal_events.1.a
+		default_option = yes
+		custom_tooltip = {
+			text = va_wretched_threat_down_10_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = -10 name = va_silvermoon_wretched_threat_bar } }
+		}
+		custom_tooltip = {
+			text = va_wretched_addiction_down_tt
+			c:WRETCHED_BLOODELFES ?= { va_wretched_addiction_down_effect = yes }
+		}
+	}
+}
+
+# Etappe 2 geschafft: Die Augen werden klar. Wohin mit den Genesenen? (Empfänger: Silvermoon)
+wretched_heal_events.2 = {
+	type = country_event
+
+	title = wretched_heal_events.2.t
+	desc = wretched_heal_events.2.d
+	flavor = wretched_heal_events.2.f
+
+	event_image = {
+		video = "ip3_village_school" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_pulse_effect
+	}
+
+	# Als Waldläufer anwerben
+	option = {
+		name = wretched_heal_events.2.a
+		default_option = yes
+		add_treasury = -15000
+		add_modifier = {
+			name = va_silvermoon_wretched_ranger_volunteers
+			years = 5
+		}
+		custom_tooltip = {
+			text = va_wretched_addiction_down_tt
+			c:WRETCHED_BLOODELFES ?= { va_wretched_addiction_down_effect = yes }
+		}
+	}
+
+	# Als Arbeiter in die Werkstätten
+	option = {
+		name = wretched_heal_events.2.b
+		add_modifier = {
+			name = va_silvermoon_wretched_worker_volunteers
+			years = 5
+		}
+		custom_tooltip = {
+			text = va_wretched_addiction_down_tt
+			c:WRETCHED_BLOODELFES ?= { va_wretched_addiction_down_effect = yes }
+		}
+	}
+}
+
+# Rückfall: Die Wretched sind 3 Monate im Mana-Entzug (Empfänger: Silvermoon)
+wretched_heal_events.3 = {
+	type = country_event
+
+	title = wretched_heal_events.3.t
+	desc = wretched_heal_events.3.d
+	flavor = wretched_heal_events.3.f
+
+	event_image = {
+		video = "unspecific_sick_in_hospital" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_relapse_check_effect
+	}
+
+	# Notlieferung
+	option = {
+		name = wretched_heal_events.3.a
+		default_option = yes
+		add_treasury = -50000
+		ai_chance = {
+			base = 0
+			modifier = {
+				trigger = { scaled_debt <= 0.2 }
+				add = 50
+			}
+		}
+	}
+
+	# Rückschlag hinnehmen: 6 Monate Heilung verloren
+	option = {
+		name = wretched_heal_events.3.b
+		custom_tooltip = {
+			text = wretched_heal_events.3.b.tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = -6 name = va_silvermoon_wretched_bar } }
+		}
+		ai_chance = {
+			base = 25
+		}
+	}
+}
+
+# Nachspiel: Süchtige plündern die Mana-Lager (Empfänger: Land mit "Wretched Addicts", alle 2 Jahre)
+wretched_heal_events.4 = {
+	type = country_event
+
+	title = wretched_heal_events.4.t
+	desc = wretched_heal_events.4.d
+	flavor = wretched_heal_events.4.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		any_scope_state = { has_modifier = va_wretched_addicts }
+	}
+
+	# Hart durchgreifen
+	option = {
+		name = wretched_heal_events.4.a
+		default_option = yes
+		add_modifier = {
+			name = va_silvermoon_mana_store_crackdown
+			years = 1
+		}
+	}
+
+	# Versorgen: in einem betroffenen State endet die Sucht
+	option = {
+		name = wretched_heal_events.4.b
+		add_treasury = -25000
+		random_scope_state = {
+			limit = { has_modifier = va_wretched_addicts }
+			remove_modifier = va_wretched_addicts
+		}
+	}
+}

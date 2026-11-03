@@ -18,7 +18,10 @@ GLOBAL = {
 
 	# Mana-Abhängigkeit ab Tag 1 sichtbar (VA-019)
 	every_country = {
-		limit = { va_country_mana_dependent_trigger = yes }
+		limit = {
+			va_country_mana_dependent_trigger = yes
+			NOT = { has_journal_entry = je_mana_hunger } # aktiviert sich über possible oft schon selbst (error.log 03.11., 17×)
+		}
 		add_journal_entry = { type = je_mana_hunger }
 	}
 
@@ -37,5 +40,14 @@ GLOBAL = {
 		add_journal_entry = { type = je_silvermoon_deathholme }
 		add_journal_entry = { type = je_silvermoon_zul_aman }
 		add_journal_entry = { type = je_silvermoon_corridor } # VA-047
+		if = {
+			limit = { exists = c:WRETCHED_BLOODELFES }
+			add_journal_entry = { type = je_silvermoon_wretched } # VA-021
+		}
+	}
+
+	# Mana-Sucht der Wretched (VA-021), Stufe 3 von 3, endet mit der Vereinigung
+	c:WRETCHED_BLOODELFES ?= {
+		va_wretched_init_addiction_effect = yes
 	}
 }

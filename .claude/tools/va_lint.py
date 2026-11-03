@@ -37,6 +37,8 @@ LOC_FOLDERS = {
     "common/journal_entries": ["", "_reason"],
     "common/modifier_type_definitions": [""],
 }
+# Erzeugte Hüllen, die nie im Spiel erscheinen (va_gen_earth_je_stubs.py): keine Loc nötig
+LOC_SKIP = {"va_earth_je_stubs.txt"}
 # Ordner ohne sinnvolle Doppel-Prüfung (Wurzelblöcke wie STATES/POPS, Listen statt Objekte)
 NO_DUP = ("common/history", "common/defines", "common/on_actions", "common/coat_of_arms")
 REF = re.compile(r"\b(cu|c|s|rel):([A-Za-z_][A-Za-z0-9_]*)(\s*\?=)?")
@@ -169,7 +171,7 @@ def check_duplicates(fd):
 def check_loc(fd, loc, all_files):
     for folder, suffixes in LOC_FOLDERS.items():
         for f in (REPO / folder).glob("*.txt"):
-            if not mod_owned(f, all_files):
+            if not mod_owned(f, all_files) or f.name in LOC_SKIP:
                 continue
             for k, _, v in parse_file(f):
                 if not k or ":" in k or not isinstance(v, list) or GENERATED_MODIFIER.match(k):

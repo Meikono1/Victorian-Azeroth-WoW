@@ -1,0 +1,320 @@
+﻿# Vereinigung mit den Wretched (VA-021): Eingliedern, Heilung in Etappen, Monatsprüfung, Folgen nach Sucht-Stufe.
+# Vorbild: Vanilla annex_with_incorporation in events/canada_australia_events.txt (can_aus.1), Balkenabfrage wie je_silvermoon_corridor.
+# Sucht-Stufen und Heil-Etappen im Detail: va_wretched_addiction_effects.txt, Kopfgeld: va_silvermoon_wretched_bounty_effects.txt.
+
+# Country-Scope (Silvermoon), Schalter "Eingliedern": sofort, Folgen nach Sucht-Stufe im on_complete.
+# Wretched-Land an der State-Region markieren, damit die Sucht-Folgen nach dem Zusammenlegen der States wissen, wohin.
+va_silvermoon_wretched_absorb_effect = {
+	c:WRETCHED_BLOODELFES = {
+		every_scope_state = {
+			state_region = { set_variable = { name = va_wretched_homeland } }
+		}
+	}
+	va_silvermoon_wretched_store_level_effect = yes
+	va_silvermoon_wretched_stop_healing_effect = yes
+	annex_with_incorporation = c:WRETCHED_BLOODELFES
+	set_variable = { name = va_wretched_united }
+	set_variable = { name = va_wretched_absorbed }
+}
+
+# Country-Scope (Silvermoon), Heilbalken voll: Vereinigung ohne Folgen.
+va_silvermoon_wretched_heal_complete_effect = {
+	va_silvermoon_wretched_stop_healing_effect = yes
+	annex_with_incorporation = c:WRETCHED_BLOODELFES
+	set_variable = { name = va_wretched_united }
+	add_modifier = {
+		name = va_silvermoon_wretched_restored
+		years = 10
+	}
+}
+
+# Country-Scope (Silvermoon): Heilung beenden, Etappen-Modifier beider Länder entfernen.
+va_silvermoon_wretched_stop_healing_effect = {
+	if = {
+		limit = { has_modifier = va_silvermoon_wretched_healing }
+		remove_modifier = va_silvermoon_wretched_healing
+	}
+	if = {
+		limit = { has_variable = va_wretched_heal_stage }
+		remove_variable = va_wretched_heal_stage
+	}
+	if = {
+		limit = { has_variable = va_wretched_relapse_months }
+		remove_variable = va_wretched_relapse_months
+	}
+	va_silvermoon_wretched_clear_stage_modifiers_effect = yes
+}
+
+# Country-Scope aus je_silvermoon_wretched (on_monthly_pulse): Heilung in drei Etappen à 20 Monate (Balken 0–60).
+va_silvermoon_wretched_pulse_effect = {
+	va_silvermoon_wretched_addiction_pulse_effect = yes
+	if = {
+		limit = { has_modifier = va_silvermoon_wretched_healing }
+		# Schutz verloren (Unabhängigkeit, Dritte): Heilung bricht ab, Balken bleibt stehen
+		if = {
+			limit = { NOT = { va_silvermoon_wretched_partner_trigger = yes } }
+			va_silvermoon_wretched_stop_healing_effect = yes
+		}
+		else_if = {
+			limit = {
+				scope:journal_entry = { "scripted_bar_progress(va_silvermoon_wretched_bar)" >= 60 }
+			}
+			va_silvermoon_wretched_heal_complete_effect = yes
+			trigger_event = { id = wretched_events.5 popup = yes }
+		}
+		else = {
+			# Heilung aus einem Spielstand vor den Etappen: mit Etappe 1 weiterführen
+			if = {
+				limit = { NOT = { has_variable = va_wretched_heal_stage } }
+				set_variable = { name = va_wretched_heal_stage value = 1 }
+				va_silvermoon_wretched_heal_stage_effect = yes
+			}
+			add_treasury = -10000 # laufende Kosten für Heiler und Mana-Lieferungen
+			# Etappe 1 → 2 (Entgiftung geschafft), Etappe 2 → 3 (Klarheit)
+			if = {
+				limit = {
+					var:va_wretched_heal_stage < 2
+					scope:journal_entry = { "scripted_bar_progress(va_silvermoon_wretched_bar)" >= 20 }
+				}
+				set_variable = { name = va_wretched_heal_stage value = 2 }
+				va_silvermoon_wretched_heal_stage_effect = yes
+				trigger_event = { id = wretched_heal_events.1 popup = yes }
+			}
+			else_if = {
+				limit = {
+					var:va_wretched_heal_stage < 3
+					scope:journal_entry = { "scripted_bar_progress(va_silvermoon_wretched_bar)" >= 40 }
+				}
+				set_variable = { name = va_wretched_heal_stage value = 3 }
+				va_silvermoon_wretched_heal_stage_effect = yes
+				trigger_event = { id = wretched_heal_events.2 popup = yes }
+			}
+			va_silvermoon_wretched_relapse_check_effect = yes
+		}
+	}
+}
+
+# Country-Scope aus je_silvermoon_wretched (on_complete): Folgen nach dem Weg der Vereinigung.
+# Eingliedern: Sucht im Land und Legitimität nach Stufe. Zerfall (führungslos): nur Sucht im Land. Heilung: keine Folgen.
+va_silvermoon_wretched_complete_effect = {
+	if = {
+		limit = { has_variable = va_wretched_absorbed }
+		va_silvermoon_wretched_addicts_aftermath_effect = yes
+		if = {
+			limit = { var:va_wretched_last_level >= 3 }
+			add_modifier = {
+				name = va_silvermoon_wretched_absorbed
+				years = 10
+			}
+		}
+		else_if = {
+			limit = { var:va_wretched_last_level >= 2 }
+			add_modifier = {
+				name = va_silvermoon_wretched_absorbed_mild
+				years = 6
+			}
+		}
+		else = {
+			add_modifier = {
+				name = va_silvermoon_wretched_absorbed_light
+				years = 5
+			}
+		}
+	}
+	else_if = {
+		limit = { has_variable = va_wretched_leaderless }
+		va_silvermoon_wretched_addicts_aftermath_effect = yes
+	}
+}
+
+# Country-Scope (Silvermoon): "Wretched Addicts" auf das ehemalige Wretched-Land, Dauer nach letzter Sucht-Stufe (3: 10 J., 2: 6 J., 1: keine).
+va_silvermoon_wretched_addicts_aftermath_effect = {
+	set_variable = { name = va_wretched_aftermath_cooldown days = 730 }
+	if = {
+		limit = { var:va_wretched_last_level >= 3 }
+		every_scope_state = {
+			limit = {
+				state_region = { has_variable = va_wretched_homeland }
+			}
+			add_modifier = {
+				name = va_wretched_addicts
+				years = 10
+			}
+		}
+	}
+	else_if = {
+		limit = { var:va_wretched_last_level >= 2 }
+		every_scope_state = {
+			limit = {
+				state_region = { has_variable = va_wretched_homeland }
+			}
+			add_modifier = {
+				name = va_wretched_addicts
+				years = 6
+			}
+		}
+	}
+}
+
+# Country-Scope (Silvermoon): letzte Sucht-Stufe der Wretched merken, bevor sie verschwinden (monatlich und vor dem Eingliedern).
+va_silvermoon_wretched_store_level_effect = {
+	if = {
+		limit = {
+			c:WRETCHED_BLOODELFES ?= { has_variable = va_wretched_addiction_level }
+		}
+		set_variable = {
+			name = va_wretched_last_level
+			value = c:WRETCHED_BLOODELFES.var:va_wretched_addiction_level
+		}
+	}
+	else_if = {
+		limit = { NOT = { has_variable = va_wretched_last_level } }
+		set_variable = { name = va_wretched_last_level value = 3 }
+	}
+}
+
+# Country-Scope aus je_silvermoon_wretched (immediate): Ansprüche auf das Wretched-Land (Phase 2c, wie je_silvermoon_deathholme)
+# und die State-Regionen der Wretched als Heimat markieren (für die Folgen nach Eroberung oder Eingliedern).
+va_silvermoon_wretched_start_effect = {
+	c:WRETCHED_BLOODELFES ?= {
+		every_scope_state = {
+			state_region = {
+				set_variable = { name = va_wretched_homeland }
+				add_claim = ROOT
+			}
+		}
+	}
+}
+
+# Country-Scope aus je_silvermoon_wretched (on_monthly_pulse): Bruderkrieg, solange Silvermoon gegen die Wretched kämpft.
+va_silvermoon_wretched_war_effect = {
+	if = {
+		limit = {
+			NOT = { has_modifier = va_silvermoon_kinslaying_war }
+			c:WRETCHED_BLOODELFES ?= { has_war_with = ROOT }
+		}
+		add_modifier = { name = va_silvermoon_kinslaying_war }
+	}
+	else_if = {
+		limit = {
+			has_modifier = va_silvermoon_kinslaying_war
+			NOT = { c:WRETCHED_BLOODELFES ?= { has_war_with = ROOT } }
+		}
+		remove_modifier = va_silvermoon_kinslaying_war
+	}
+}
+
+# Country-Scope aus je_silvermoon_wretched (on_monthly_pulse): Raub-Events der Phase 1.
+# Höchstens ein Raub alle 6 Monate, nur ab Bedrohung 50 und solange die Wretched frei sind. Vorbild: Vanilla 00_plague.txt (random_list mit modifier).
+va_silvermoon_wretched_raid_effect = {
+	if = {
+		limit = {
+			exists = c:WRETCHED_BLOODELFES
+			NOT = { va_silvermoon_wretched_partner_trigger = yes }
+			NOT = { has_variable = va_wretched_raid_cooldown }
+			je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 50 }
+		}
+		random_list = {
+			# nichts passiert; ab Bedrohung 80 seltener
+			80 = {
+				modifier = {
+					if = {
+						limit = {
+							je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 80 }
+						}
+						add = -40
+					}
+				}
+			}
+			# Slain by the Wretched
+			10 = {
+				set_variable = { name = va_wretched_raid_cooldown days = 180 }
+				trigger_event = { id = wretched_events.10 popup = yes }
+			}
+			# Unstable Mana Crystals
+			10 = {
+				set_variable = { name = va_wretched_raid_cooldown days = 180 }
+				trigger_event = { id = wretched_events.11 popup = yes }
+			}
+			# Roadside Ambush
+			10 = {
+				set_variable = { name = va_wretched_raid_cooldown days = 180 }
+				trigger_event = { id = wretched_events.12 popup = yes }
+			}
+			# Situation at Sunsail Anchorage: unter 80 selten, nur mit eigenem Hafenteil und nicht doppelt
+			10 = {
+				modifier = {
+					if = {
+						limit = {
+							NOT = { va_silvermoon_wretched_sunsail_open_trigger = yes }
+						}
+						add = -10
+					}
+					else_if = {
+						limit = {
+							je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" < 80 }
+						}
+						add = -7
+					}
+				}
+				set_variable = { name = va_wretched_raid_cooldown days = 180 }
+				trigger_event = { id = wretched_events.13 popup = yes }
+			}
+			# Explosion an der Stadtmauer: nur ab 80 (sonst als Folge von .11)
+			10 = {
+				modifier = {
+					if = {
+						limit = {
+							je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" < 80 }
+						}
+						add = -10
+					}
+				}
+				set_variable = { name = va_wretched_raid_cooldown days = 180 }
+				trigger_event = { id = wretched_events.14 popup = yes }
+			}
+		}
+	}
+	# Lehrlinge fallen der Sucht anheim: eigener Takt, hängt an Silvermoons eigener Mana-Knappheit
+	if = {
+		limit = {
+			NOT = { has_variable = va_wretched_apprentice_cooldown }
+			OR = {
+				has_modifier = va_mana_scarcity
+				has_modifier = va_mana_withdrawal
+			}
+		}
+		random = {
+			chance = 10
+			set_variable = { name = va_wretched_apprentice_cooldown days = 730 }
+			trigger_event = { id = wretched_events.15 popup = yes }
+		}
+	}
+}
+
+# Country-Scope (Silvermoon): Bruderkrieg und laufende Heilung beenden (Ende des JE auf jedem Weg).
+va_silvermoon_wretched_cleanup_effect = {
+	va_silvermoon_wretched_stop_healing_effect = yes
+	if = {
+		limit = { has_modifier = va_silvermoon_kinslaying_war }
+		remove_modifier = va_silvermoon_kinslaying_war
+	}
+}
+
+# Country-Scope aus je_silvermoon_wretched (on_invalid): Wretched sind untergegangen, ohne vereint zu sein.
+# Hält Silvermoon ihr Land (Krieg gegen das eigene Volk), kommen Sucht im Land (nach letzter Stufe) und Narben des Bruderkriegs.
+va_silvermoon_wretched_conquered_effect = {
+	if = {
+		limit = {
+			any_scope_state = {
+				state_region = { has_variable = va_wretched_homeland }
+			}
+		}
+		add_modifier = {
+			name = va_silvermoon_kinslaying_scars
+			years = 5
+		}
+		va_silvermoon_wretched_addicts_aftermath_effect = yes
+		trigger_event = { id = wretched_events.16 popup = yes }
+	}
+}

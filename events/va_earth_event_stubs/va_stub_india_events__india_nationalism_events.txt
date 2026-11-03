@@ -1,0 +1,16 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/india_events/india_nationalism_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = india_nationalism_events
+
+india_nationalism_events.4 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+india_nationalism_events.5 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

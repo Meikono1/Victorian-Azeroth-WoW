@@ -1,0 +1,9 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/soi_events/00_ep1_persia_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = persia_events
+
+persia_events.5 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

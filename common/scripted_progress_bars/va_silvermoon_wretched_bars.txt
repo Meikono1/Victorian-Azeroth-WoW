@@ -1,0 +1,80 @@
+﻿# Fortschritt der Heilung der Wretched (VA-021). Vorbild: Vanilla expedition_progress_bar (scripted_progress_bars/00_je_progress_bars.txt).
+# Scope in monthly_progress: das Land selbst. Läuft nur bei laufender Heilung, ohne Krieg und mit Mana im Markt der Wretched.
+
+va_silvermoon_wretched_bar = {
+	name = "va_silvermoon_wretched_bar"
+	desc = "va_silvermoon_wretched_bar_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_modifier = va_silvermoon_wretched_healing
+				is_at_war = no
+				va_silvermoon_wretched_mana_supplied_trigger = yes
+			}
+			add = {
+				desc = "va_silvermoon_wretched_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen
+		else_if = {
+			limit = {
+				has_modifier = va_silvermoon_wretched_healing
+				is_at_war = yes
+			}
+			add = {
+				desc = "va_silvermoon_wretched_bar_stalled_war_desc"
+				value = 0
+			}
+		}
+		else_if = {
+			limit = { has_modifier = va_silvermoon_wretched_healing }
+			add = {
+				desc = "va_silvermoon_wretched_bar_stalled_mana_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 60
+}
+
+# Bedrohung durch die Wretched (VA-021, Phase 1). Vorbild: Vanilla divided_monarchists-Balken (add_progress aus Events, historic_agitator_events.txt).
+# Steigt monatlich, solange die Wretched frei sind und Mana in ihrem Markt knapp ist; Events ändern sie per je:je_silvermoon_wretched = { add_progress }.
+# Ab 50 Raub-Events, ab 80 schwere Events (va_silvermoon_wretched_raid_effect).
+va_silvermoon_wretched_threat_bar = {
+	name = "va_silvermoon_wretched_threat_bar"
+	desc = "va_silvermoon_wretched_threat_bar_desc"
+
+	default_bad = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				exists = c:WRETCHED_BLOODELFES
+				NOT = { va_silvermoon_wretched_partner_trigger = yes }
+				NOT = { va_silvermoon_wretched_mana_supplied_trigger = yes }
+			}
+			add = {
+				desc = "va_silvermoon_wretched_threat_bar_hunger_desc"
+				value = 1
+			}
+		}
+		if = {
+			limit = { has_modifier = va_silvermoon_wretched_healing }
+			add = {
+				desc = "va_silvermoon_wretched_threat_bar_healing_desc"
+				value = -1
+			}
+		}
+	}
+
+	start_value = 40
+	min_value = 0
+	max_value = 100
+}

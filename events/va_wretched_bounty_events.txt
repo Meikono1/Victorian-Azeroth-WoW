@@ -1,0 +1,190 @@
+﻿# Kopfgeld auf die Wretched-Anführer und Zerfall (VA-021, Schritt 3). Vorbild: Vanilla crime_events (00_scotland_yard.txt) für Erfolg/Scheitern.
+# Ausgelöst von va_silvermoon_wretched_bounty_effects.txt. Ablaufplan-IDs: .1 = Plan .20, .2 = .21, .3 = .23, .4 = .24, .5 = .26, .6 = .27.
+namespace = wretched_bounty_events
+
+# Thaelis the Hungerer ist tot (Quest 8468: Kopf zu Sergeant Kan'ren)
+wretched_bounty_events.1 = {
+	type = country_event
+
+	title = wretched_bounty_events.1.t
+	desc = wretched_bounty_events.1.d
+	flavor = wretched_bounty_events.1.f
+
+	event_image = {
+		video = "votp_cops_march" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_slay_thaelis_effect
+	}
+
+	option = {
+		name = wretched_bounty_events.1.a
+		default_option = yes
+		custom_tooltip = va_wretched_threat_down_20_tt
+	}
+}
+
+# Die Jagd ist gescheitert (Empfänger: Silvermoon)
+wretched_bounty_events.2 = {
+	type = country_event
+
+	title = wretched_bounty_events.2.t
+	desc = wretched_bounty_events.2.d
+	flavor = wretched_bounty_events.2.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_hunt_timeout_effect
+	}
+
+	option = {
+		name = wretched_bounty_events.2.a
+		default_option = yes
+		custom_tooltip = va_wretched_threat_up_10_tt
+		custom_tooltip = wretched_bounty_events.2.a.tt
+	}
+}
+
+# Aldaron the Reckless ist tot (Quest 9076: Schlag im Manarausch), der Hafen ist frei
+wretched_bounty_events.3 = {
+	type = country_event
+
+	title = wretched_bounty_events.3.t
+	desc = wretched_bounty_events.3.d
+	flavor = wretched_bounty_events.3.f
+
+	event_image = {
+		video = "unspecific_naval_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_slay_aldaron_effect
+	}
+
+	option = {
+		name = wretched_bounty_events.3.a
+		default_option = yes
+		custom_tooltip = va_wretched_threat_down_20_tt
+	}
+}
+
+# Felendren the Banished ist tot (Quest 8335), zurück bleibt ein verderbter Splitter (Quest 8338, Aufhänger VA-056)
+wretched_bounty_events.4 = {
+	type = country_event
+
+	title = wretched_bounty_events.4.t
+	desc = wretched_bounty_events.4.d
+	flavor = wretched_bounty_events.4.f
+
+	event_image = {
+		video = "votp_conspiring" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_slay_felendren_effect
+	}
+
+	# Arcanist Helion untersucht den Splitter. TODO: Variable für die Kael'thas-Reihe (VA-056)
+	option = {
+		name = wretched_bounty_events.4.a
+		default_option = yes
+		custom_tooltip = va_wretched_threat_down_20_tt
+		set_variable = { name = va_tainted_sliver_kept }
+	}
+
+	# Splitter vernichten
+	option = {
+		name = wretched_bounty_events.4.b
+		custom_tooltip = va_wretched_threat_down_20_tt
+	}
+}
+
+# Gegenreaktion: Rache-Raubzug nach einem Kopfgeld-Erfolg (Quests 9704, 8463)
+wretched_bounty_events.5 = {
+	type = country_event
+
+	title = wretched_bounty_events.5.t
+	desc = wretched_bounty_events.5.d
+	flavor = wretched_bounty_events.5.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		has_journal_entry = je_silvermoon_wretched
+		exists = c:WRETCHED_BLOODELFES
+	}
+
+	option = {
+		name = wretched_bounty_events.5.a
+		default_option = yes
+		custom_tooltip = {
+			text = va_wretched_threat_up_10_tt
+			je:je_silvermoon_wretched ?= { add_progress = { value = 10 name = va_silvermoon_wretched_threat_bar } }
+		}
+	}
+}
+
+# Führungslos: Die Wretched zerfallen, Silvermoon übernimmt das verwüstete Land (Kono 2026-11-03, Variante c)
+wretched_bounty_events.6 = {
+	type = country_event
+
+	title = wretched_bounty_events.6.t
+	desc = wretched_bounty_events.6.d
+	flavor = wretched_bounty_events.6.f
+
+	event_image = {
+		video = "middleeast_battlefield_trenches" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_bounty_pulse_effect
+	}
+
+	option = {
+		name = wretched_bounty_events.6.a
+		default_option = yes
+		custom_tooltip = wretched_bounty_events.6.a.tt
+	}
+}

@@ -2,7 +2,7 @@
 	city_type = port
 	center_building_entity = "european_port_02_entity"
 	center_modifiers = {
-		building_shipyards = "s"
+		building_shipyard = "s"
 		building_port = "d"
 		building_fishing_wharf = "f"
 	}

@@ -1,0 +1,17 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/balkans_events/eastern_question.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = eastern_question_austria
+namespace = eastern_question_russia
+
+eastern_question_austria.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+eastern_question_russia.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

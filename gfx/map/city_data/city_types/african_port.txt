@@ -37,7 +37,7 @@
 	building_fishing_wharf = {}
 	building_whaling_station = {}
 	building_port = {}
-	building_naval_base = {"african_port_navalbase_01_mesh"}
-	building_shipyards = {}
-	building_military_shipyards = {}
+	building_naval_administration = {"african_port_navalbase_01_mesh"}
+	building_shipyard = {}
+	building_shipyard = {}
 }

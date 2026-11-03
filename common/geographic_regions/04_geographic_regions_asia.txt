@@ -1,0 +1,118 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 04_geographic_regions_asia.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_asia = {
+	short_key = "asia"
+}
+
+geographic_region_middle_east = {
+	short_key = "middle_east"
+}
+
+geographic_region_india = {
+	short_key = "india"
+}
+
+geographic_region_east_asia = {
+	short_key = "east_asia"
+}
+
+geographic_region_south_east_asia = {
+	short_key = "south_east_asia"
+}
+
+geographic_region_china = {
+	short_key = "china"
+}
+
+geographic_region_greater_khorasan = {
+	short_key = "greater_khorasan"
+}
+
+geographic_region_chorasmia = {
+	short_key = "chorasmia"
+}
+
+geographic_region_transoxiana = {
+	short_key = "transoxiana"
+}
+
+geographic_region_honshu = {
+	short_key = "honshu"
+}
+
+geographic_region_ezochi = {
+	short_key = "ezochi"
+}
+
+geographic_region_japan = {
+	short_key = "japan"
+}
+
+geographic_region_philippines = {
+	short_key = "philippines"
+}
+
+geographic_region_home_islands = {
+	short_key = "home_islands"
+}
+
+geographic_region_korea = {
+	short_key = "korea"
+}
+
+geographic_region_han_homelands = {
+	short_key = "han_homelands"
+}
+
+geographic_region_indian_frontier = {
+	short_key = "indian_frontier"
+}
+
+geographic_region_turkestan = {
+	short_key = "turkestan"
+}
+
+geographic_region_burma = {
+	short_key = "burma"
+}
+
+geographic_region_afghanistan = {
+	short_key = "afghanistan"
+}
+
+geographic_region_greater_afghanistan = {
+	short_key = "greater_afghanistan"
+}
+
+geographic_region_great_game_region = {
+	short_key = "great_game_region"
+}
+
+geographic_region_australia = {
+	short_key = "australia"
+}
+
+geographic_region_new_zealand = {
+	short_key = "new_zealand"
+}
+
+geographic_region_australasia = {
+	short_key = "australasia"
+}
+
+geographic_region_delhi_calcutta_line = {
+	short_key = "delhi_calcutta_line"
+}
+
+geographic_region_allahabad_bombay_line = {
+	short_key = "allahabad_bombay_line"
+}
+
+geographic_region_bombay_madras_line = {
+	short_key = "bombay_madras_line"
+}
+
+geographic_region_gujarat_bombay_line = {
+	short_key = "gujarat_bombay_line"
+}

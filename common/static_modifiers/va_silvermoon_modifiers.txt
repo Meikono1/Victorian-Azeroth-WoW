@@ -30,3 +30,111 @@ va_silvermoon_road_to_tranquillien = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
 	country_prestige_add = 10
 }
+
+# Heilung der Wretched läuft (VA-021); Gold kostet zusätzlich va_silvermoon_wretched_pulse_effect
+va_silvermoon_wretched_healing = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds # TODO: eigenes Icon (VA-027)
+	country_bureaucracy_add = -25
+}
+
+# Wretched eingegliedert, ohne sie zu heilen (VA-021)
+va_silvermoon_wretched_absorbed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -10
+	state_radicals_from_political_movements_mult = 0.25
+}
+
+# Wretched geheilt und vereint (VA-021)
+va_silvermoon_wretched_restored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 25
+}
+
+# --- Wretched Phase 1 und 2c (VA-021). Vorbild Werte: Vanilla 00_code_static_modifiers.txt (state_infrastructure_mult, country_legitimacy_base_add).
+
+# State: Straße nach Sunstrider Isle unsicher (wretched_events.10 b)
+va_silvermoon_unsafe_road = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds # TODO: eigenes Icon (VA-027)
+	state_infrastructure_mult = -0.2
+}
+
+# State: Silvermoons Teil von Sunsail Anchorage überrannt (wretched_events.13)
+va_silvermoon_harbor_overrun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_infrastructure_mult = -0.2
+	building_port_throughput_add = -0.25
+}
+
+# State: Bresche in der Stadtmauer (wretched_events.14)
+va_silvermoon_wall_breach = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	state_infrastructure_mult = -0.1
+	state_turmoil_effects_mult = 0.25
+}
+
+# Interessengruppe Intelligenzija: Strenge gegen leichtsinnige Lehrlinge (wretched_events.12 a)
+va_silvermoon_apprentices_disciplined = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds # TODO: eigenes Icon (VA-027)
+	interest_group_approval_add = 2
+}
+
+# Land: Krieg gegen das eigene Volk, solange Silvermoon mit den Wretched im Krieg ist (va_silvermoon_wretched_war_effect)
+va_silvermoon_kinslaying_war = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -10
+	state_turmoil_effects_mult = 0.25
+}
+
+# Land: Narben nach der Eroberung der Wretched (va_silvermoon_wretched_conquered_effect, 5 Jahre)
+va_silvermoon_kinslaying_scars = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
+	state_radicals_from_political_movements_mult = 0.1
+}
+
+# --- Wretched Schritt 2–4 (VA-021): Heil-Etappen, Folgen nach Sucht-Stufe, Kopfgeld, Nachspiel.
+
+# Heil-Etappe 2 und 3 (va_silvermoon_wretched_heal_stage_effect); Etappe 1 trägt nur va_silvermoon_wretched_healing
+va_silvermoon_wretched_hope = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = 5
+}
+
+va_silvermoon_wretched_families = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	state_loyalists_from_political_movements_mult = 0.1
+}
+
+# Genesene aus wretched_heal_events.2: als Waldläufer bzw. als Arbeiter, 5 Jahre
+va_silvermoon_wretched_ranger_volunteers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_offense_mult = 0.05
+}
+
+va_silvermoon_wretched_worker_volunteers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds # TODO: eigenes Icon (VA-027)
+	building_throughput_add = 0.03
+}
+
+# Eingegliedert bei Sucht-Stufe 2 bzw. 1 (Stufe 3: va_silvermoon_wretched_absorbed)
+va_silvermoon_wretched_absorbed_mild = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -5
+	state_radicals_from_political_movements_mult = 0.125
+}
+
+va_silvermoon_wretched_absorbed_light = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -5
+}
+
+# 20 Jahre ohne Lösung (je_silvermoon_wretched on_timeout), 10 Jahre
+va_silvermoon_wretched_neglected = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_mult = -0.1
+}
+
+# Nachspiel (wretched_heal_events.4 a): hart gegen plündernde Süchtige, 1 Jahr
+va_silvermoon_mana_store_crackdown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	state_radicals_from_political_movements_mult = 0.1
+}

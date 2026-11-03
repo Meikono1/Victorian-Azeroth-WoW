@@ -1,0 +1,18 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 05_geographic_regions_content.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_wet_process_coffee_region = {
+	short_key = "wet_process_region"
+}
+
+geographic_region_new_world = {
+	short_key = "new_world"
+}
+
+geographic_region_old_world = {
+	short_key = "old_world"
+}
+
+geographic_region_krakatoa_tsunami_zone = {
+	short_key = "krakatoa_tsunami_zone"
+}

@@ -68,7 +68,7 @@
 		"balkan_mining_gold_01_mesh"
 	}	
 	
-	building_gold_fields = {
+	building_gold_field = {
 		"balkan_mining_gold_01_mesh"
 	}
 	

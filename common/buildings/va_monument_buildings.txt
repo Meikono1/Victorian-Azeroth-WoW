@@ -1,0 +1,36 @@
+﻿# WoW-Monumente (VA-003, aus der alten Vollkopie 08_monuments.txt gelöst). Vorbild: Vanilla building_big_ben (08_monuments.txt).
+
+building_dark_portal = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/dark_portal.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "big_ben_locator" # TODO: eigener Locator am Dunklen Portal (Karte)
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { "wonder_big_ben_01_entity" } # TODO: eigenes Modell (VA-027)
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_dark_portal
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		OR = {
+			state_region = s:STATE_THE_DARK_PORTAL_OUTLANDS
+			state_region = s:STATE_THE_DARK_PORTAL
+		}
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

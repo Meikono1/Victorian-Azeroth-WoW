@@ -1,0 +1,73 @@
+﻿# Abfragen zur Vereinigung mit den Wretched (VA-021). Vorbild: is_subject_of wie Vanilla 00_alaska.txt, market_goods_pricier wie 00_corn_laws.txt.
+
+# Country-Scope (Silvermoon): Die Wretched sind Schutzbefohlene dieses Landes.
+va_silvermoon_wretched_partner_trigger = {
+	custom_tooltip = {
+		text = va_silvermoon_wretched_partner_tt
+		exists = c:WRETCHED_BLOODELFES
+		c:WRETCHED_BLOODELFES = { is_subject_of = ROOT }
+	}
+}
+
+# Mana ist im Markt der Wretched nicht knapp (unter +25 %, Schwelle von va_mana_scarcity).
+va_silvermoon_wretched_mana_supplied_trigger = {
+	custom_tooltip = {
+		text = va_silvermoon_wretched_mana_supplied_tt
+		exists = c:WRETCHED_BLOODELFES
+		c:WRETCHED_BLOODELFES.market_capital.market = {
+			mg:mana = { market_goods_pricier < 0.25 }
+		}
+	}
+}
+
+# Country-Scope (Silvermoon): hält einen Teil von Sunsail Anchorage, der noch nicht überrannt ist (wretched_events.13).
+va_silvermoon_wretched_sunsail_open_trigger = {
+	any_scope_state = {
+		state_region = s:STATE_SUNSAIL_ANCHORAGE
+		NOT = { has_modifier = va_silvermoon_harbor_overrun }
+	}
+}
+
+# Anführer der Wretched leben noch (Vorlagen in common/character_templates/va_wretched_characters.txt, VA-021 Schritt 3).
+va_wretched_thaelis_alive_trigger = {
+	c:WRETCHED_BLOODELFES ?= {
+		any_scope_character = { has_template = va_wretched_thaelis }
+	}
+}
+
+va_wretched_aldaron_alive_trigger = {
+	c:WRETCHED_BLOODELFES ?= {
+		any_scope_character = { has_template = va_wretched_aldaron }
+	}
+}
+
+va_wretched_felendren_alive_trigger = {
+	c:WRETCHED_BLOODELFES ?= {
+		any_scope_character = { has_template = va_wretched_felendren }
+	}
+}
+
+# Country-Scope (Silvermoon): Es läuft gerade eine Kopfgeldjagd.
+va_silvermoon_wretched_hunting_trigger = {
+	OR = {
+		has_variable = va_wretched_hunt_thaelis
+		has_variable = va_wretched_hunt_aldaron
+		has_variable = va_wretched_hunt_felendren
+	}
+}
+
+# Country-Scope (Silvermoon): Voraussetzungen jeder Jagd (Wretched frei, kein Krieg mit ihnen, keine andere Jagd).
+va_silvermoon_wretched_can_hunt_trigger = {
+	custom_tooltip = {
+		text = va_silvermoon_wretched_free_tt
+		c:WRETCHED_BLOODELFES ?= { is_subject = no }
+	}
+	custom_tooltip = {
+		text = va_silvermoon_wretched_peace_tt
+		NOT = { c:WRETCHED_BLOODELFES ?= { has_war_with = ROOT } }
+	}
+	custom_tooltip = {
+		text = va_silvermoon_wretched_no_hunt_tt
+		NOT = { va_silvermoon_wretched_hunting_trigger = yes }
+	}
+}

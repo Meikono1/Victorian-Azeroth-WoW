@@ -1,6 +1,6 @@
 ﻿STATE_ZANDALAR = {
     id = 3401
-    subsistence_building = "building_subsistence_pastures"
+    subsistence_building = "building_subsistence_pasture"
     provinces = { "x1CC9CC" "x1D7F5E" "x5F9550" "x68C89A" "x807060" "x91E56C" "xBE6A23" "xDABB9C" "xFE18C1" }
     traits = {}
     city = ""

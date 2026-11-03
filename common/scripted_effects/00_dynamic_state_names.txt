@@ -1,3 +1,7 @@
-﻿# All dynamic names should be applied on a strategic region level for ease of use and to avoid overlapping script
+﻿# VA: bewusster Override – Vanilla benennt Erde-Hubs je Strategic Region um. Beide Effekte bleiben leer.
+evaluate_and_assign_state_hub_dynamic_names = {
+}
+
+# All dynamic names should be applied on a strategic region level for ease of use and to avoid overlapping script
 assign_state_hub_dynamic_names = {
 }

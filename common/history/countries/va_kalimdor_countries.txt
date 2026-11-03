@@ -7,6 +7,9 @@
 	c:BEAL_DUN ?= {
 		effect_starting_politics_reactionary = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_no_police
 	}
 
 	c:BATHRANS_HAUNT ?= {
@@ -132,6 +135,8 @@
 	c:DARNASSUS ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:DARNASSUS_OUTPOST ?= {
@@ -177,6 +182,8 @@
 	c:EXODAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:EVERLOOK ?= {

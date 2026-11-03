@@ -1615,7 +1615,7 @@
 		region_state:UNYIELDING_DEFENDER = {
 			create_pop = {
 				culture = stormwindian
-				size = zombie
+				size = 12800 # TODO: Platzhalter (VA-055), war "zombie" – Größe und ggf. Zombie-Pop von Kono festlegen
 			}
 		}
 		region_state:THRALLMAR = {

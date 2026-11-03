@@ -61,4 +61,17 @@
 			template = deeb
 		}
 	}
+	
+	# Anführer der Wretched (VA-021): Herrscher, General, Agitator
+	c:WRETCHED_BLOODELFES ?= {
+		create_character = {
+			template = va_wretched_thaelis
+		}
+		create_character = {
+			template = va_wretched_aldaron
+		}
+		create_character = {
+			template = va_wretched_felendren
+		}
+	}
 }

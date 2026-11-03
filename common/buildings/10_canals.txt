@@ -1,21 +1,22 @@
-﻿building_suez_canal = {
+﻿# Erzeugt von .claude/tools/va_gen_earth_overrides.py aus Vanilla 10_canals.txt – nicht von Hand ändern (VA-043).
+# Objekte mit Erde-States, -Regionen oder -Tags: potential/possible = always = no, strait gestrichen. Rest unverändert Vanilla.
+building_suez_canal = {
 	building_group = bg_canals
 	icon = "gfx/interface/icons/building_icons/suez_canal.dds"
-	canal = canal_suez
 	expandable = no
 	downsizeable = no
 	unique = yes
 	required_construction = construction_cost_canal
 
-	ai_value = 50000 # Canals are very important
+	ai_value = 100000 # Canals are very important
 
 	unlocking_technologies = {
 		colonization
 	}
 
-	potential = {
-		state_region = s:STATE_DALARAN_CRATER
-	}
+	potential = { always = no } # VA: Erde-Bezug
+
+	possible = { always = no } # VA: Erde-Bezug
 
 	entity_not_constructed = { }
 	entity_under_construction = { "canal_suezcanal_under_construction_01_entity" }
@@ -37,26 +38,60 @@
 building_panama_canal = {
 	building_group = bg_canals
 	icon = "gfx/interface/icons/building_icons/panama_canal.dds"
-	canal = canal_panama
 	expandable = no
 	downsizeable = no
 	unique = yes
 	required_construction = construction_cost_canal
 
-	ai_value = 50000 # Canals are very important
+	ai_value = 100000 # Canals are very important
 
 	unlocking_technologies = {
 		civilizing_mission
 	}
 
-	potential = {
-		state_region = s:STATE_DALARAN_CRATER
-	}
-	
+	potential = { always = no } # VA: Erde-Bezug
+
+	possible = { always = no } # VA: Erde-Bezug
+
 	entity_not_constructed = { }
 	entity_under_construction = { "canal_panamacanal_under_construction_01_entity" }
 	entity_constructed = { "canal_panamacanal_01_entity" }
 	locator = "canal_panama_locator"
+
+	city_gfx_interactions = {
+		clear_collision_mesh_area = yes
+		clear_size_area = no
+	}
+
+	production_method_groups = {
+		pmg_canal
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_harbour.dds"
+}
+
+building_kiel_canal = {
+	building_group = bg_canals
+	icon = "gfx/interface/icons/building_icons/kiel_canal.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	required_construction = construction_cost_canal
+
+	ai_value = 100000 # Canals are very important
+
+	unlocking_technologies = {
+		ironclad_tech
+	}
+
+	potential = { always = no } # VA: Erde-Bezug
+
+	possible = { always = no } # VA: Erde-Bezug
+
+	entity_not_constructed = { }
+	entity_under_construction = { }
+	entity_constructed = { "canal_kiel_entity" }
+	locator = "canal_kiel_locator"
 
 	city_gfx_interactions = {
 		clear_collision_mesh_area = yes

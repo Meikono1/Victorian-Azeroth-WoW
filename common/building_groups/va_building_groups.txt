@@ -7,6 +7,23 @@ bg_leyline_tapping = {
 	can_use_slaves = no
 }
 
+# Feleisen und Eternium (aus der alten Vollkopie 00_building_groups.txt gelöst, VA-003).
+bg_feliron_mining = {
+	parent_group = bg_mining
+
+	default_building = building_feliron_mine
+
+	can_use_slaves = yes
+}
+
+bg_eternium_mining = {
+	parent_group = bg_mining
+
+	default_building = building_eternium_mine
+
+	can_use_slaves = yes
+}
+
 # Heilritual der Todesschneise (VA-046). Staatlich finanziert wie Vanilla bg_bureaucracy (Eltern bg_government).
 bg_va_dead_scar_healing = {
 	parent_group = bg_government

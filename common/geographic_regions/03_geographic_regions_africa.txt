@@ -1,0 +1,30 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 03_geographic_regions_africa.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_africa = {
+	short_key = "africa"
+}
+
+geographic_region_subsaharan_africa = {
+	short_key = "subsaharan_africa"
+}
+
+geographic_region_north_africa_egypt = {
+	short_key = "north_africa_egypt"
+}
+
+geographic_region_south_africa = {
+	short_key = "south_africa"
+}
+
+geographic_region_angola = {
+	short_key = "angola"
+}
+
+geographic_region_mozambique = {
+	short_key = "mozambique"
+}
+
+geographic_region_zambezi_basin = {
+	short_key = "zambezi_basin"
+}

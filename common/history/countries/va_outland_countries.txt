@@ -52,6 +52,8 @@
 	c:BLOODSCALE_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:BONECHEWER_RUINS ?= {
@@ -112,11 +114,15 @@
 	c:COILFANG_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:COILSCAR_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:CONSORTIUM ?= {
@@ -127,6 +133,8 @@
 	c:DARKCREST_TRIBE ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:DARK_CONCLAVE ?= {
@@ -137,11 +145,15 @@
 	c:DRAGONMAW_CLAN ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:ECLIPSE_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:ETHEREUM ?= {
@@ -202,11 +214,15 @@
 	c:ILLIDARY ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:ILLIDARY_POINT ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:OGRILA ?= {
@@ -357,6 +373,8 @@
 	c:SUNFURY ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		# VA-014: Startgesetz, auf das das Spiel sonst selbst zurückfällt (error.log 03.11.)
+		activate_law = law_type:law_local_police
 	}
 
 	c:SYLVANNAR ?= {

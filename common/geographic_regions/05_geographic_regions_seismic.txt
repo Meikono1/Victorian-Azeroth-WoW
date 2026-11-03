@@ -1,0 +1,14 @@
+﻿# Erde-Regionen ohne Inhalt (VA-026), erzeugt von .claude/tools/va_gen_geo_regions.py – nicht von Hand ändern.
+# Vorbild: Vanilla 05_geographic_regions_seismic.txt. Gleiche Schlüssel und short_keys, damit Vanilla-Verweise gültig bleiben.
+
+geographic_region_ring_of_fire = {
+	short_key = "ring_of_fire"
+}
+
+geographic_region_alpide_belt = {
+	short_key = "alpide_belt"
+}
+
+geographic_region_great_rift_valley = {
+	short_key = "great_rift_valley"
+}

@@ -1,16 +1,20 @@
 """Fasst error.log des letzten Spielstarts zusammen (inkl. rotierter error.N.log).
 
-Aufruf: python -I .claude/tools/va_errlog.py [--top N] [--filter TEXT]
+Aufruf: python -I .claude/tools/va_errlog.py [--top N] [--filter TEXT] [--by-file] [--mod]
 Gruppiert nach Quelle (Script location / Datei) und Fehlertext, Zahlen normalisiert.
+  --mod  nur Einträge, deren Quelldatei im Repo liegt (eigene Dateien, Stubs, alte Kopien);
+         Erstauswertung damit beginnen, spart den Großteil der Ausgabe.
 """
 import argparse
 import logging
 import os
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 
 log = logging.getLogger("va_errlog")
+REPO = Path(__file__).resolve().parents[2]
 LOGS = Path(os.environ["USERPROFILE"]) / "Documents/Paradox Interactive/Victoria 3/logs"
 ENTRY = re.compile(r"^\[(\d\d:\d\d:\d\d)\]\[([^\]]+)\]: ?(.*)")
 LOCATION = re.compile(r"((?:common|events|gfx|map_data|localization|gui)/[\w./-]+\.(?:txt|gui|yml|gfx))")
@@ -55,15 +59,19 @@ def main():
     ap.add_argument("--top", type=int, default=40)
     ap.add_argument("--filter", default="")
     ap.add_argument("--by-file", action="store_true", help="nur nach Quelldatei gruppieren")
+    ap.add_argument("--mod", action="store_true", help="nur Quelldateien, die im Repo liegen")
     a = ap.parse_args()
+    sys.stdout.reconfigure(encoding="utf-8")  # Windows-Konsole sonst cp1252
     files = run_files()
     log.info("Dateien: %s", ", ".join(f.name for f in files))
     groups, total = Counter(), 0
     for e in entries(files):
         if a.filter and a.filter not in " ".join(e):
             continue
-        total += 1
         k = key(e)
+        if a.mod and not (REPO / k[0]).is_file():
+            continue
+        total += 1
         groups[(k[0], "") if a.by_file else k] += 1
     print(f"{total} Einträge, {len(groups)} Gruppen")
     for (src, msg), n in groups.most_common(a.top):

@@ -1,0 +1,9 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/treaty_of_london_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = treaty_of_london_events
+
+treaty_of_london_events.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

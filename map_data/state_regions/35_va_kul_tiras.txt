@@ -1,6 +1,6 @@
 ﻿STATE_KUL_TIRAS = {
     id = 3501
-    subsistence_building = "building_subsistence_pastures"
+    subsistence_building = "building_subsistence_pasture"
     provinces = { "x13CEE0" "x2050E0" "x281DD3" "x41F864" "x6CBE21" "x7AD6CB" "x7F8783" "x81730A" "x88ADC8" "x93CB74" "x9F9CCA" "xA4A407" "xDB6370" "xE090E0" "xEE1814" }
     traits = {}
     city = ""

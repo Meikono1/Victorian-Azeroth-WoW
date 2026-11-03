@@ -1,0 +1,149 @@
+﻿# Sucht-Stufen der Wretched und Heil-Etappen (VA-021, Schritt 2). Ablauf: .claude/ablauf/wretched.md (Kennzahlen, Phase 3b).
+# Vorbild: Vanilla change_variable/var-Vergleiche (events/agitators_events, populism_progress_var_add); Modifier-Wechsel wie va_set_mana_stage_*_effect.
+
+# Country-Scope Wretched: Modifier va_wretched_addiction_1/2/3 passend zu va_wretched_addiction_level setzen.
+va_wretched_refresh_addiction_effect = {
+	if = { limit = { has_modifier = va_wretched_addiction_1 } remove_modifier = va_wretched_addiction_1 }
+	if = { limit = { has_modifier = va_wretched_addiction_2 } remove_modifier = va_wretched_addiction_2 }
+	if = { limit = { has_modifier = va_wretched_addiction_3 } remove_modifier = va_wretched_addiction_3 }
+	if = {
+		limit = { var:va_wretched_addiction_level >= 3 }
+		add_modifier = { name = va_wretched_addiction_3 }
+	}
+	else_if = {
+		limit = { var:va_wretched_addiction_level >= 2 }
+		add_modifier = { name = va_wretched_addiction_2 }
+	}
+	else = {
+		add_modifier = { name = va_wretched_addiction_1 }
+	}
+}
+
+# Country-Scope Wretched: Spielstart bzw. neues Wretched-Land (Mana-Aufstand). Stufe 3, Zähler auf 0.
+va_wretched_init_addiction_effect = {
+	set_variable = { name = va_wretched_addiction_level value = 3 }
+	set_variable = { name = va_wretched_withdrawal_months value = 0 }
+	set_variable = { name = va_wretched_supplied_months value = 0 }
+	va_wretched_refresh_addiction_effect = yes
+}
+
+# Country-Scope Wretched: eine Stufe tiefer (höchstens bis 1).
+va_wretched_addiction_down_effect = {
+	if = {
+		limit = { var:va_wretched_addiction_level > 1 }
+		change_variable = { name = va_wretched_addiction_level add = -1 }
+		va_wretched_refresh_addiction_effect = yes
+	}
+}
+
+# Country-Scope Wretched: eine Stufe höher (höchstens bis 3).
+va_wretched_addiction_up_effect = {
+	if = {
+		limit = { var:va_wretched_addiction_level < 3 }
+		change_variable = { name = va_wretched_addiction_level add = 1 }
+		va_wretched_refresh_addiction_effect = yes
+	}
+}
+
+# Country-Scope Silvermoon aus va_silvermoon_wretched_pulse_effect, monatlich.
+# Entzug im Markt der Wretched: alle 12 Monate Stufe +1. Pakt mit Versorgung: nach 12 Monaten Stufe −1, aber nicht unter 2 (Stufe 1 nur durch Heilung).
+va_silvermoon_wretched_addiction_pulse_effect = {
+	c:WRETCHED_BLOODELFES ?= {
+		if = {
+			limit = { NOT = { has_variable = va_wretched_addiction_level } }
+			va_wretched_init_addiction_effect = yes
+		}
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			change_variable = { name = va_wretched_withdrawal_months add = 1 }
+			if = {
+				limit = { var:va_wretched_withdrawal_months >= 12 }
+				set_variable = { name = va_wretched_withdrawal_months value = 0 }
+				va_wretched_addiction_up_effect = yes
+			}
+		}
+		if = {
+			limit = {
+				is_subject_of = ROOT
+				NOT = { has_modifier = va_mana_withdrawal }
+				NOT = { has_modifier = va_mana_scarcity }
+			}
+			change_variable = { name = va_wretched_supplied_months add = 1 }
+			if = {
+				limit = { var:va_wretched_supplied_months >= 12 }
+				set_variable = { name = va_wretched_supplied_months value = 0 }
+				if = {
+					limit = { var:va_wretched_addiction_level >= 3 }
+					va_wretched_addiction_down_effect = yes
+				}
+			}
+		}
+	}
+	va_silvermoon_wretched_store_level_effect = yes
+}
+
+# Country-Scope Silvermoon: Etappen-Modifier beider Länder nach va_wretched_heal_stage setzen.
+# Etappe 1: Silvermoon nur va_silvermoon_wretched_healing, Wretched "Entzug unter Aufsicht". 2: Hoffnung / Klarheit. 3: Familien / Heimweh.
+va_silvermoon_wretched_heal_stage_effect = {
+	va_silvermoon_wretched_clear_stage_modifiers_effect = yes
+	if = {
+		limit = { var:va_wretched_heal_stage >= 3 }
+		add_modifier = { name = va_silvermoon_wretched_families }
+		c:WRETCHED_BLOODELFES ?= { add_modifier = { name = va_wretched_homesick } }
+	}
+	else_if = {
+		limit = { var:va_wretched_heal_stage >= 2 }
+		add_modifier = { name = va_silvermoon_wretched_hope }
+		c:WRETCHED_BLOODELFES ?= { add_modifier = { name = va_wretched_clarity } }
+	}
+	else = {
+		c:WRETCHED_BLOODELFES ?= { add_modifier = { name = va_wretched_supervised_withdrawal } }
+	}
+}
+
+va_silvermoon_wretched_clear_stage_modifiers_effect = {
+	if = { limit = { has_modifier = va_silvermoon_wretched_hope } remove_modifier = va_silvermoon_wretched_hope }
+	if = { limit = { has_modifier = va_silvermoon_wretched_families } remove_modifier = va_silvermoon_wretched_families }
+	c:WRETCHED_BLOODELFES ?= {
+		if = { limit = { has_modifier = va_wretched_supervised_withdrawal } remove_modifier = va_wretched_supervised_withdrawal }
+		if = { limit = { has_modifier = va_wretched_clarity } remove_modifier = va_wretched_clarity }
+		if = { limit = { has_modifier = va_wretched_homesick } remove_modifier = va_wretched_homesick }
+	}
+}
+
+# Country-Scope Silvermoon: Rückfall, wenn die Wretched 3 Monate am Stück im Mana-Entzug sind (wretched_heal_events.3).
+va_silvermoon_wretched_relapse_check_effect = {
+	if = {
+		limit = {
+			c:WRETCHED_BLOODELFES ?= { has_modifier = va_mana_withdrawal }
+		}
+		if = {
+			limit = { NOT = { has_variable = va_wretched_relapse_months } }
+			set_variable = { name = va_wretched_relapse_months value = 0 }
+		}
+		change_variable = { name = va_wretched_relapse_months add = 1 }
+		if = {
+			limit = { var:va_wretched_relapse_months >= 3 }
+			set_variable = { name = va_wretched_relapse_months value = 0 }
+			trigger_event = { id = wretched_heal_events.3 popup = yes }
+		}
+	}
+	else_if = {
+		limit = { has_variable = va_wretched_relapse_months }
+		set_variable = { name = va_wretched_relapse_months value = 0 }
+	}
+}
+
+# Country-Scope, monatlich aus va_update_mana_dependency_effect (je_mana_hunger), weil je_silvermoon_wretched dann schon beendet ist.
+# Nachspiel nach Eingliedern, Eroberung oder Zerfall: solange ein Staat "Wretched Addicts" trägt, alle 2 Jahre wretched_heal_events.4.
+# Erste Sperre setzt va_silvermoon_wretched_addicts_aftermath_effect.
+va_silvermoon_wretched_aftermath_pulse_effect = {
+	if = {
+		limit = {
+			NOT = { has_variable = va_wretched_aftermath_cooldown }
+			any_scope_state = { has_modifier = va_wretched_addicts }
+		}
+		set_variable = { name = va_wretched_aftermath_cooldown days = 730 }
+		trigger_event = { id = wretched_heal_events.4 popup = yes }
+	}
+}

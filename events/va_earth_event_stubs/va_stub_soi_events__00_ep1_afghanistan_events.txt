@@ -1,0 +1,16 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/soi_events/00_ep1_afghanistan_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = gg_afghanistan
+
+gg_afghanistan.4 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+gg_afghanistan.7 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

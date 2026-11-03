@@ -1,0 +1,9 @@
+﻿# Hüllen für abgeschaltete Vanilla-Events aus events/iberia_events/iberian_union_events.txt (VA-043), erzeugt von .claude/tools/va_gen_earth_event_stubs.py – nicht von Hand ändern.
+namespace = iberia
+
+iberia.1 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

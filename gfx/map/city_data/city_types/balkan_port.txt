@@ -50,7 +50,7 @@
 	building_fishing_wharf = {}
 	building_whaling_station = {}
 	building_port = {}
-	building_naval_base = {}
-	building_shipyards = {}
-	building_military_shipyards = {}
+	building_naval_administration = {}
+	building_shipyard = {}
+	building_shipyard = {}
 }

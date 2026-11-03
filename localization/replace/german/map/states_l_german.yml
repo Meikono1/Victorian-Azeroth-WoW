@@ -894,7 +894,7 @@
  STATE_APOTHECARY_CAMP: "Apotheker Lager"
  STATE_CAMP_WINTERHOOF: "Lager der Winterhufe"
  STATE_FORT_WILDERVAR: "Fort Wildervar"
- STATE_SKÖRN: "Skorn"
+ STATE_SKORN: "Skorn"
  STATE_VANGUARD_KEEP: "Westwacht"
  STATE_KAMAGUA: "Kamagua"
  STATE_EMBER_CLUTCH: "Glutstätte"

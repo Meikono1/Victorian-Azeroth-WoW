@@ -1,7 +1,7 @@
 # Tickets
 
 Eine Datei pro Ticket: `VA-<nr>-<kurztitel>.md`. Nummern fortlaufend, nie wiederverwenden.
-Erledigte Tickets bleiben liegen (Status `erledigt`), damit die Historie nachvollziehbar ist.
+Erledigte und verworfene Tickets wandern nach `archiv/` (Historie). Die Tabelle unten listet weiter alle Tickets.
 
 ## Felder
 
@@ -19,29 +19,29 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-001](VA-001-spielstart-error-log.md) | Spielstart mit Mod und error.log auswerten | technik | hoch | in Arbeit |
 | [VA-002](VA-002-replace-paths-verschlanken.md) | replace_paths verschlanken | technik | hoch | in Arbeit |
 | [VA-003](VA-003-vanilla-kopien-pruefen.md) | Verbleibende Vanilla-Kopien abbauen | aufraeumen | hoch | in Arbeit |
-| [VA-004](VA-004-neue-vanilla-history.md) | Neue Vanilla-History-Ordner abfangen | technik | mittel | erledigt |
-| [VA-005](VA-005-spielversion-1-13.md) | supported_game_version auf 1.13 setzen | technik | mittel | erledigt |
+| [VA-004](archiv/VA-004-neue-vanilla-history.md) | Neue Vanilla-History-Ordner abfangen | technik | mittel | erledigt |
+| [VA-005](archiv/VA-005-spielversion-1-13.md) | supported_game_version auf 1.13 setzen | technik | mittel | erledigt |
 | [VA-006](VA-006-laendernamen-loc.md) | Lokalisierung der Ländernamen | content | hoch | offen |
 | [VA-007](VA-007-gilneas-loc.md) | Gilneas-Inhalt lokalisieren | content | mittel | offen |
-| [VA-008](VA-008-silvermoon-je.md) | Silvermoon-JE ausbauen | content | niedrig | verworfen (→ VA-019/020) |
-| [VA-009](VA-009-content-vorlagen.md) | Vorlagen für Event, JE und Decision | technik | mittel | offen |
+| [VA-008](archiv/VA-008-silvermoon-je.md) | Silvermoon-JE ausbauen | content | niedrig | verworfen (→ VA-019/020) |
+| [VA-009](VA-009-content-vorlagen.md) | Vorlagen für Event, JE und Decision | technik | mittel | wartet (Kono) |
 | [VA-010](VA-010-kopierskript.md) | Kopierskript Repo → Upload-Ordner | technik | niedrig | offen |
 | [VA-011](VA-011-state-history-provinzen.md) | State-History: Provinzen in mehreren State Regions | bug | hoch | offen |
 | [VA-012](VA-012-strait-definitions.md) | Vanilla-Meerengen/Kanäle abschalten | bug | hoch | wartet (Spieltest) |
 | [VA-013](VA-013-ki-regionsgewichtung.md) | KI-Regionsgewichtung für Azeroth | content | niedrig | offen |
-| [VA-014](VA-014-gesetze-history.md) | Unzulässige Start-Gesetze in der Länder-History | bug | mittel | offen |
+| [VA-014](VA-014-gesetze-history.md) | Unzulässige Start-Gesetze in der Länder-History | bug | mittel | wartet (Spieltest) |
 | [VA-015](VA-015-nord-ek-mechanik.md) | Nord-EK – Karte, Besitz, Ressourcen bereinigen | bug | hoch | wartet (Spieltest) |
 | [VA-016](VA-016-nord-ek-herrscher.md) | Nord-EK – historische Herrscher | content | hoch | offen |
 | [VA-017](VA-017-nord-ek-formables.md) | Nord-EK – Formables | content | hoch | offen |
 | [VA-018](VA-018-state-test-aufloesen.md) | STATE_TEST auflösen | bug | mittel | offen |
 | [VA-019](VA-019-quel-thalas-grundbausteine.md) | Quel'Thalas – Mana und Todesschneise (Grundbausteine) | content | hoch | wartet (Spieltest) |
 | [VA-020](VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | wartet (Spieltest) |
-| [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | offen |
+| [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | wartet (Spieltest) |
 | [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | offen |
 | [VA-023](VA-023-lint-altlasten.md) | Lint-Altlasten abbauen | aufraeumen | mittel | offen |
 | [VA-024](VA-024-nord-ek-startwerte.md) | Nord-EK – Pops, Start-Gebäude und Startwerte | content | hoch | offen |
-| [VA-025](VA-025-log-spam-vanilla-regionen.md) | Log-Spam durch Vanilla-Scripts mit realen Regionen | bug | hoch | erledigt |
-| [VA-026](VA-026-geo-regionen-machtblock-namen.md) | Vanilla geographic_regions und power_bloc_names mit Erde-Bezug | bug | mittel | offen |
+| [VA-025](archiv/VA-025-log-spam-vanilla-regionen.md) | Log-Spam durch Vanilla-Scripts mit realen Regionen | bug | hoch | erledigt |
+| [VA-026](VA-026-geo-regionen-machtblock-namen.md) | Vanilla geographic_regions und power_bloc_names mit Erde-Bezug | bug | mittel | wartet (Spieltest) |
 | [VA-027](VA-027-platzhalter-grafiken.md) | Platzhalter-Grafiken durch eigene ersetzen | grafik | niedrig | offen |
 | [VA-028](VA-028-vulkan-states.md) | Vulkangebiete Azeroths für Naturkatastrophen | content | niedrig | offen |
 | [VA-029](VA-029-start-gebaeude-hungersnot.md) | Ressourcen und Start-Gebäude außerhalb Nord-EK (Hungersnot) | content | hoch | in Arbeit |
@@ -54,12 +54,12 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-036](VA-036-allianz-markt.md) | Allianz – gemeinsamer Markt für Ironforge, Gnomeregan und Stormwind | technik | hoch | offen |
 | [VA-037](VA-037-ek-impassable-port.md) | Eastern Kingdoms – falsche impassable- und port-Einträge entfernen | bug | hoch | offen |
 | [VA-038](VA-038-kalimdor-sanierung.md) | Kalimdor von Grund auf sanieren (Provinzen und States) | technik | hoch | in Arbeit |
-| [VA-039](VA-039-states-aus-malkarte.md) | Werkzeug – States aus einer gemalten State-Karte erzeugen | technik | hoch | verworfen |
-| [VA-040](VA-040-weltmarkt-handel.md) | Weltmarkt – kein Land handelt | bug | hoch | erledigt |
+| [VA-039](archiv/VA-039-states-aus-malkarte.md) | Werkzeug – States aus einer gemalten State-Karte erzeugen | technik | hoch | verworfen |
+| [VA-040](archiv/VA-040-weltmarkt-handel.md) | Weltmarkt – kein Land handelt | bug | hoch | erledigt |
 | [VA-041](VA-041-scarlet-empire.md) | Scarlet Crusade → Scarlet Empire | content | mittel | offen |
 | [VA-042](VA-042-portraits-kleidung-kartenfarben.md) | Charakter-Kleidung (Lumpen) und Kartenfarben der Regionen | grafik | mittel | in Arbeit |
-| [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | offen |
-| [VA-044](VA-044-ki-verwaltung-bausektor.md) | KI stapelt Verwaltung und Bausektoren – Start-Gebäude fehlen | bug | hoch | erledigt |
+| [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | wartet (Spieltest) |
+| [VA-044](archiv/VA-044-ki-verwaltung-bausektor.md) | KI stapelt Verwaltung und Bausektoren – Start-Gebäude fehlen | bug | hoch | erledigt |
 | [VA-045](VA-045-schiffsbau-test-icon.md) | Schiffsbau-Tab zeigt Test-Icon (Smiley) | grafik | niedrig | offen |
 | [VA-046](VA-046-todesschneise-heilung.md) | Todesschneise – Heilung je Region mit laufenden Kosten | content | hoch | wartet (Spieltest) |
 | [VA-047](VA-047-korridor-tranquillien.md) | Silvermoon – Korridor nach Tranquillien | content | hoch | wartet (Spieltest) |
@@ -67,3 +67,12 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-049](VA-049-bevoelkerung-vielfalt.md) | Bevölkerung weltweit zu eintönig | content | mittel | offen |
 | [VA-050](VA-050-blutelfen-koenigreich.md) | Blutelfen – Gründung eines eigenen Königreichs | content | mittel | offen |
 | [VA-051](VA-051-provinz-terrain.md) | Provinz-Terrain zufällig (Berg, Feld) | bug | mittel | offen |
+| [VA-052](archiv/VA-052-script-doku-veraltet.md) | Script-Doku (docs/*.log) älter als das Spiel | technik | mittel | erledigt |
+| [VA-053](VA-053-portale-verbindungen.md) | Portale und Verbindungen – Dunkles Portal, Dalaran, Tiefenbahn | content | mittel | offen |
+| [VA-054](VA-054-heldengruppen.md) | Heldengruppen – Menü für Kopfgeld und Dungeons (Machbarkeit) | technik | niedrig | offen |
+| [VA-055](VA-055-pop-groesse-zombie.md) | Ungültige Pop-Größe „zombie“ in Outland | bug | niedrig | offen |
+| [VA-056](VA-056-kaelthas-legion.md) | Kael'thas und die Brennende Legion – Alternative für die Wretched | content | mittel | offen |
+| [VA-057](archiv/VA-057-strategic-region-namen.md) | Namen für 130 Strategic Regions fehlen (`region_searing_gorge`) | loc | mittel | erledigt |
+| [VA-058](archiv/VA-058-einheiten-marker-krieg.md) | Einheiten-Icons im Krieg fehlen (alte Dioramen-Kopien) | bug | mittel | erledigt |
+| [VA-059](VA-059-gfx-map-altkopien.md) | Alte Vanilla-Kopien unter `gfx/map` aufräumen | technik | mittel | offen |
+| [VA-060](VA-060-festungs-locators.md) | Festungs-Locators für Azeroth (Vanilla-Erde-Positionen ersetzt) | grafik | niedrig | wartet (Spieltest) |

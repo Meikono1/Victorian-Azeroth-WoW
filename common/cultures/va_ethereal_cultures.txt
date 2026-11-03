@@ -61,32 +61,32 @@
 		Zorynna
 	}
 	common_last_names={
-		Azyth’ra
-		Byrr’qal
-		Cyn’tharis
-		Dyss’qor
-		Eryx’thul
-		Fyn’qoril
-		Gyrr’zael
-		Hyss’thoril
-		Iyrr’ven
-		Jaz’qorin
-		Kyrr’zael
-		Lyth’qorim
-		Myrr’zalith
-		Nyss’vorin
-		Ozyr’thul
-		Phyrr’qan
-		Qyss’tharil
-		Ryzz’qorin
-		Syrr’thalos
-		Thyrr’zan
-		Ulyss’qor
-		Vyrr’thal
-		Wyss’qorin
-		Xyrr’thas
-		Yz’qorin
-		Zyrr’veth
+		Azyth_ra
+		Byrr_qal
+		Cyn_tharis
+		Dyss_qor
+		Eryx_thul
+		Fyn_qoril
+		Gyrr_zael
+		Hyss_thoril
+		Iyrr_ven
+		Jaz_qorin
+		Kyrr_zael
+		Lyth_qorim
+		Myrr_zalith
+		Nyss_vorin
+		Ozyr_thul
+		Phyrr_qan
+		Qyss_tharil
+		Ryzz_qorin
+		Syrr_thalos
+		Thyrr_zan
+		Ulyss_qor
+		Vyrr_thal
+		Wyss_qorin
+		Xyrr_thas
+		Yz_qorin
+		Zyrr_veth
 	}
 
 	graphics = european

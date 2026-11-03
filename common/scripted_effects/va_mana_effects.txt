@@ -28,6 +28,8 @@ va_update_mana_dependency_effect = {
 	else = {
 		va_clear_mana_stages_effect = yes
 	}
+	va_mana_shortage_counter_effect = yes # Mana-Aufstand (VA-021), va_mana_uprising_effects.txt
+	va_silvermoon_wretched_aftermath_pulse_effect = yes # Nachspiel Wretched (VA-021)
 }
 
 va_set_mana_stage_abundance_effect = {

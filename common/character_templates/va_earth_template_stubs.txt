@@ -1,0 +1,1310 @@
+﻿# Hüllen für abgeschaltete Erde-Charaktervorlagen (VA-043), erzeugt von .claude/tools/va_gen_earth_template_stubs.py – nicht von Hand ändern.
+# Vorbild: Vanilla test_template.txt. Ohne Kultur und Verwendungsregel, hält nur Vanilla-Verweise (has_template …) gültig.
+
+KAB_josiah_harlan = {
+	age = 40
+}
+
+ARG_Juan_Manuel_de_Rosas = {
+	age = 40
+}
+
+AST_william_light = {
+	age = 40
+}
+
+aus_ferdinand_I_habsburg_template = {
+	age = 40
+}
+
+aus_franz_josef_I_habsburg_template = {
+	age = 40
+}
+
+aus_maximilian_I_habsburg_template = {
+	age = 40
+}
+
+aus_rudolf_habsburg = {
+	age = 40
+}
+
+aus_karl_I_habsburg = {
+	age = 40
+}
+
+aus_franz_ferdinand = {
+	age = 40
+}
+
+aus_klemens_von_metternich = {
+	age = 40
+}
+
+aus_sigmund_freud = {
+	age = 40
+}
+
+AUS_baron_alexander_von_bach = {
+	age = 40
+}
+
+BAV_max_stirner = {
+	age = 40
+}
+
+BIC_george_eden = {
+	age = 40
+}
+
+BIC_radhakanta_deb = {
+	age = 40
+}
+
+BIC_dwarkanath_tagore = {
+	age = 40
+}
+
+BIC_charles_canning = {
+	age = 40
+}
+
+BIC_john_lawrence = {
+	age = 40
+}
+
+BIC_lakshmeshwar_singh = {
+	age = 40
+}
+
+BIC_narayan_lokhande = {
+	age = 40
+}
+
+BIC_debendranath_tagore = {
+	age = 40
+}
+
+BIC_motilal_nehru = {
+	age = 40
+}
+
+BIC_henry_petty-fitzmaurice = {
+	age = 40
+}
+
+BIC_jawaharlal_nehru = {
+	age = 40
+}
+
+BIC_gopal_gokhale = {
+	age = 40
+}
+
+BIC_swami_vivkananda = {
+	age = 40
+}
+
+BIC_jamshedji_tata = {
+	age = 40
+}
+
+BIC_rabindranath_tagore = {
+	age = 40
+}
+
+BIC_dadabhai_naoroji = {
+	age = 40
+}
+
+BIC_amritlal_thakkar = {
+	age = 40
+}
+
+BIC_henry_godwin = {
+	age = 40
+}
+
+BIC_reginald_dyer = {
+	age = 40
+}
+
+BIC_JOD_pratap_singh_of_idar = {
+	age = 40
+}
+
+BIC_mohandas_karamchand_gandhi = {
+	age = 40
+}
+
+BIC_muhammad_ali_jinnah = {
+	age = 40
+}
+
+BIC_bipin_chandra_pal = {
+	age = 40
+}
+
+BIC_bal_gangadhar_tilak = {
+	age = 40
+}
+
+BIC_lala_lajpat_rai = {
+	age = 40
+}
+
+BIC_pandita_ramabai_sarasvati = {
+	age = 40
+}
+
+BIC_bhagat_singh = {
+	age = 40
+}
+
+BIC_sarojini_naidu = {
+	age = 40
+}
+
+BIC_maulana_azad = {
+	age = 40
+}
+
+BIC_udham_singh = {
+	age = 40
+}
+
+BIC_mithuben_petit = {
+	age = 40
+}
+
+BIC_bhimrao_ramji_ambedkar = {
+	age = 40
+}
+
+BIC_erode_venkatappa_ramasamy = {
+	age = 40
+}
+
+BIC_amy_carmichael = {
+	age = 40
+}
+
+BIC_jiddu_krishnamurti = {
+	age = 40
+}
+
+BIC_khudiram_bose = {
+	age = 40
+}
+
+BIC_damodar_hari_chapekar = {
+	age = 40
+}
+
+BRZ_emperor_pedro_02 = {
+	age = 40
+}
+
+BRZ_getulio_vargas_character_template = {
+	age = 40
+}
+
+BRZ_virgulino_ferreira = {
+	age = 40
+}
+
+BUL_ferdinand_i = {
+	age = 40
+}
+
+HBC_george_simpson = {
+	age = 40
+}
+
+chi_sun_yat_sen_character_template = {
+	age = 40
+}
+
+TPG_hong_xiuquan = {
+	age = 40
+}
+
+TPG_xiuqing_yang = {
+	age = 40
+}
+
+TPG_chaogui_xiao = {
+	age = 40
+}
+
+TPG_hong_rengan = {
+	age = 40
+}
+
+TPG_hong_tianguifu = {
+	age = 40
+}
+
+CHL_joaquin_edwards_bello = {
+	age = 40
+}
+
+CUB_jose_marti = {
+	age = 40
+}
+
+CUB_carlos_manuel_de_cespedes = {
+	age = 40
+}
+
+CUB_antonio_maceo = {
+	age = 40
+}
+
+CUB_maximo_gomez = {
+	age = 40
+}
+
+DEN_arnold_peter_moller = {
+	age = 40
+}
+
+egy_muhammad_ali_template = {
+	age = 40
+}
+
+egy_ibrahim_alawi_template = {
+	age = 40
+}
+
+EGY_talaat_harb = {
+	age = 40
+}
+
+eth_sahle_dengel_solomon = {
+	age = 40
+}
+
+FRA_ferdinand_philippe = {
+	age = 40
+}
+
+FRA_francois-rene_de_chateaubriand = {
+	age = 40
+}
+
+FRA_thomas_bugeaud = {
+	age = 40
+}
+
+FRA_philippe_de_orleans_of_paris = {
+	age = 40
+}
+
+FRA_philippe_de_orleans_of_orleans = {
+	age = 40
+}
+
+FRA_jean_de_orleans = {
+	age = 40
+}
+
+FRA_henri_de_orleans = {
+	age = 40
+}
+
+FRA_louis_antoine_de_bourbon = {
+	age = 40
+}
+
+FRA_henri_de_bourbon = {
+	age = 40
+}
+
+FRA_napoleon_eugene_louis_bonaparte = {
+	age = 40
+}
+
+FRA_victor_bonaparte = {
+	age = 40
+}
+
+FRA_louis_bonaparte = {
+	age = 40
+}
+
+fra_auguste_comte_character_template = {
+	age = 40
+}
+
+PRC_gustave_cluseret = {
+	age = 40
+}
+
+PRC_eugene_varlin = {
+	age = 40
+}
+
+gbr_william_hanover_template = {
+	age = 40
+}
+
+gbr_queen_victoria_template = {
+	age = 40
+}
+
+gbr_albert_edward_template = {
+	age = 40
+}
+
+gbr_george_v_template = {
+	age = 40
+}
+
+gbr_george_curzon = {
+	age = 40
+}
+
+agitator_john_stuart_mill = {
+	age = 40
+}
+
+gbr_pankhurst_character_template = {
+	age = 40
+}
+
+gbr_charles_dickens_character_template = {
+	age = 40
+}
+
+GBR_rotha_lintorn-orman = {
+	age = 40
+}
+
+GBR_annie_besant = {
+	age = 40
+}
+
+GBR_florence_nightingale = {
+	age = 40
+}
+
+GBR_isambard_kingdom_brunel = {
+	age = 40
+}
+
+GBR_john_maple = {
+	age = 40
+}
+
+GBR_thomas_ismay = {
+	age = 40
+}
+
+GBR_joseph_ismay = {
+	age = 40
+}
+
+GBR_david_copperfield = {
+	age = 40
+}
+
+GBR_george_holyoake = {
+	age = 40
+}
+
+GBR_charles_bradlaugh = {
+	age = 40
+}
+
+GRE_george_i_of_greece = {
+	age = 40
+}
+
+agitator_ion_dragoumis = {
+	age = 40
+}
+
+HAW_kamehameha_iii = {
+	age = 40
+}
+
+HUN_gyula_andrassy = {
+	age = 40
+}
+
+HUN_ferenc_deak = {
+	age = 40
+}
+
+HUN_sandor_petofi = {
+	age = 40
+}
+
+JAP_ninko_yamato = {
+	age = 40
+}
+
+JAP_komei_yamato = {
+	age = 40
+}
+
+JAP_meiji_yamato = {
+	age = 40
+}
+
+JAP_taisho_yamato = {
+	age = 40
+}
+
+JAP_showa_yamato = {
+	age = 40
+}
+
+JAP_backup_emperor_template = {
+	age = 40
+}
+
+JAP_ienari_tokugawa = {
+	age = 40
+}
+
+JAP_ieyoshi_tokugawa = {
+	age = 40
+}
+
+JAP_iesada_tokugawa = {
+	age = 40
+}
+
+JAP_yoshiyori_tokugawa = {
+	age = 40
+}
+
+JAP_iemochi_tokugawa = {
+	age = 40
+}
+
+JAP_yoshinobu_tokugawa = {
+	age = 40
+}
+
+JAP_iesato_tokugawa = {
+	age = 40
+}
+
+JAP_backup_shogun_template = {
+	age = 40
+}
+
+JAP_nariakira_shimazu = {
+	age = 40
+}
+
+JAP_hisamitsu_shimazu = {
+	age = 40
+}
+
+JAP_tadayoshi_shimazu = {
+	age = 40
+}
+
+JAP_tadashige_shimazu = {
+	age = 40
+}
+
+JAP_motonori_mori = {
+	age = 40
+}
+
+JAP_motoaki_mori = {
+	age = 40
+}
+
+JAP_yoshiatsu_tokugawa = {
+	age = 40
+}
+
+JAP_akitake_tokugawa = {
+	age = 40
+}
+
+JAP_hachisuka_narihiro = {
+	age = 40
+}
+
+JAP_hachisuka_mochiaki = {
+	age = 40
+}
+
+JAP_hachisuka_maasaki = {
+	age = 40
+}
+
+JAP_tokugawa_nariyuki = {
+	age = 40
+}
+
+JAP_tokugawa_narikatsu = {
+	age = 40
+}
+
+JAP_tokugawa_mochitsugu = {
+	age = 40
+}
+
+JAP_tokugawa_naritaka = {
+	age = 40
+}
+
+JAP_tokugawa_yoshikatsu = {
+	age = 40
+}
+
+JAP_tokugawa_yoshinori = {
+	age = 40
+}
+
+JAP_ii_naosuke = {
+	age = 40
+}
+
+JAP_ii_naonori = {
+	age = 40
+}
+
+JAP_ii_naotada = {
+	age = 40
+}
+
+JAP_maeda_yoshiyasu = {
+	age = 40
+}
+
+JAP_maeda_toshitsugu = {
+	age = 40
+}
+
+JAP_date_yoshikuni = {
+	age = 40
+}
+
+JAP_date_muneatsu = {
+	age = 40
+}
+
+JAP_date_munemoto = {
+	age = 40
+}
+
+JAP_matsumae_yoshihiro = {
+	age = 40
+}
+
+JAP_matsumae_masahiro = {
+	age = 40
+}
+
+JAP_matsumae_takahiro = {
+	age = 40
+}
+
+JAP_matsumae_norihiro = {
+	age = 40
+}
+
+JAP_matsumae_nagahiro = {
+	age = 40
+}
+
+JAP_matsumae_yoshihiro_ii = {
+	age = 40
+}
+
+JAP_moriko_yamato = {
+	age = 40
+}
+
+JAP_sumiko_yamato = {
+	age = 40
+}
+
+JAP_chikako_yamato = {
+	age = 40
+}
+
+JAP_kume_kunitake = {
+	age = 40
+}
+
+JAP_aizawa_seishisai = {
+	age = 40
+}
+
+KOR_empress_myeongseong = {
+	age = 40
+}
+
+mon_petar_II_petrovic_njegos = {
+	age = 40
+}
+
+mon_danilo_petrovic_njegos = {
+	age = 40
+}
+
+mon_dordije_petrovic_njegos = {
+	age = 40
+}
+
+mon_general_mirko_petrovic_njegos = {
+	age = 40
+}
+
+mon_general_novica_cerovic = {
+	age = 40
+}
+
+mon_general_petar_vukotić = {
+	age = 40
+}
+
+mon_nikola_petrovic_njegos = {
+	age = 40
+}
+
+mon_ali_pasha_rizvanbegovic = {
+	age = 40
+}
+
+MOR_muhammad_al_alawi = {
+	age = 40
+}
+
+MOR_hasan_al_alawi = {
+	age = 40
+}
+
+MOR_abdelaziz_al_alawi = {
+	age = 40
+}
+
+MOR_abd_alhafid_al_alawi = {
+	age = 40
+}
+
+MOR_yusef_al_alawi = {
+	age = 40
+}
+
+MOR_muhammad_v_al_alawi = {
+	age = 40
+}
+
+mug_mirza_mughal = {
+	age = 40
+}
+
+NOR_sam_eyde = {
+	age = 40
+}
+
+oma_said_bin_sultan = {
+	age = 40
+}
+
+oma_thuwaini_bin_said = {
+	age = 40
+}
+
+oma_ahmad_bin_nahman = {
+	age = 40
+}
+
+pan_ranjit_singh = {
+	age = 40
+}
+
+pan_kharak_singh = {
+	age = 40
+}
+
+pan_duleep_singh = {
+	age = 40
+}
+
+pan_dhian_singh = {
+	age = 40
+}
+
+PAN_chand_kaur = {
+	age = 40
+}
+
+PAN_jind_kaur = {
+	age = 40
+}
+
+PAN_lal_singh = {
+	age = 40
+}
+
+KAS_gulab_singh = {
+	age = 40
+}
+
+per_nasir_al_din_qajar_template = {
+	age = 40
+}
+
+PER_reza_pahlavi = {
+	age = 40
+}
+
+PHI_andres_bonifacio = {
+	age = 40
+}
+
+PHI_appolinario_de_la_cruz = {
+	age = 40
+}
+
+PHI_manuel_blanco_ramos = {
+	age = 40
+}
+
+PHI_pedro_pelaez = {
+	age = 40
+}
+
+PHI_jose_burgos = {
+	age = 40
+}
+
+PHI_jose_rizal = {
+	age = 40
+}
+
+POR_maria_ii_de_braganca = {
+	age = 40
+}
+
+POR_pedro_v_de_braganca_template = {
+	age = 40
+}
+
+POR_luis_i_de_braganca_template = {
+	age = 40
+}
+
+POR_carlos_i_de_braganca_template = {
+	age = 40
+}
+
+POR_manuel_ii_de_braganca_template = {
+	age = 40
+}
+
+POR_miguel_i_de_braganca_template = {
+	age = 40
+}
+
+POR_maria_das_neves_de_braganca_template = {
+	age = 40
+}
+
+POR_miguel_januario_de_braganca_template = {
+	age = 40
+}
+
+POR_duarte_nuno_de_braganca_template = {
+	age = 40
+}
+
+POR_ana_de_jesus_maria_de_braganca_template = {
+	age = 40
+}
+
+POR_fernando_de_saxe_coburg_gotha_template = {
+	age = 40
+}
+
+POR_afonso_de_braganca_template = {
+	age = 40
+}
+
+POR_sidonio_pais = {
+	age = 40
+}
+
+PRU_bruno_bauer = {
+	age = 40
+}
+
+RUS_alexander_ii = {
+	age = 40
+}
+
+RUS_tsarevich_nicholas_alexandrovich = {
+	age = 40
+}
+
+RUS_alexander_iii = {
+	age = 40
+}
+
+RUS_nicholas_ii = {
+	age = 40
+}
+
+RUS_george_i = {
+	age = 40
+}
+
+RUS_michael_ii = {
+	age = 40
+}
+
+RUS_alexei_ii = {
+	age = 40
+}
+
+RUS_alexander_fyodorovich_kerensky = {
+	age = 40
+}
+
+RUS_ivan_turgenev = {
+	age = 40
+}
+
+RUS_dimitry_pisarev = {
+	age = 40
+}
+
+RUS_varfolomey_zaitsev = {
+	age = 40
+}
+
+agitator_nestor_makhno = {
+	age = 40
+}
+
+agitator_dmitry_ivanovich_pisarev = {
+	age = 40
+}
+
+rus_leon_trotsky_character_template = {
+	age = 40
+}
+
+rus_jaroslaw_dabrowski_character_template = {
+	age = 40
+}
+
+rus_mikhail_bakunin_character_template = {
+	age = 40
+}
+
+rus_pyotr_kropotkin_character_template = {
+	age = 40
+}
+
+rus_lenin_character_template = {
+	age = 40
+}
+
+SAF_cecil_rhodes = {
+	age = 40
+}
+
+SER_mihailo_obrenovic = {
+	age = 40
+}
+
+SER_milos_obrenovic = {
+	age = 40
+}
+
+SER_milan_obrenovic = {
+	age = 40
+}
+
+SER_milan_iv_obrenovic = {
+	age = 40
+}
+
+SER_alexander_obrenovic = {
+	age = 40
+}
+
+SER_alexandar_karadordevic = {
+	age = 40
+}
+
+SER_petar_i_karadordevic = {
+	age = 40
+}
+
+SER_george_karadordevic = {
+	age = 40
+}
+
+SER_alexander_i_karadordevic = {
+	age = 40
+}
+
+SER_petar_ii_karadordevic = {
+	age = 40
+}
+
+spa_isabel_de_borbon_template = {
+	age = 40
+}
+
+spa_luisa_fernanda_de_borbon_template = {
+	age = 40
+}
+
+spa_isabel_francisca_de_borbon_template = {
+	age = 40
+}
+
+spa_alfonso_xii_de_borbon_template = {
+	age = 40
+}
+
+spa_alfonso_xiii_de_borbon_template = {
+	age = 40
+}
+
+SPA_baldomero_espartero = {
+	age = 40
+}
+
+SPA_ramon_maria_narvaez = {
+	age = 40
+}
+
+SPA_emilio_castelar = {
+	age = 40
+}
+
+SPA_pablo_iglesias_posse = {
+	age = 40
+}
+
+SPA_antonio_canovas = {
+	age = 40
+}
+
+SPA_praxedes_sagasta = {
+	age = 40
+}
+
+SPC_carlos_v_de_borbon_template = {
+	age = 40
+}
+
+SPC_carlos_vi_de_borbon_template = {
+	age = 40
+}
+
+SPC_juan_iii_de_borbon_template = {
+	age = 40
+}
+
+SPC_carlos_vii_de_borbon_template = {
+	age = 40
+}
+
+SPC_jaime_iii_de_borbon_template = {
+	age = 40
+}
+
+SPC_alfonso_i_de_borbon_template = {
+	age = 40
+}
+
+swe_oscar_bernadotte_template = {
+	age = 40
+}
+
+swe_charles_bernadotte_template = {
+	age = 40
+}
+
+swe_lars_magnus_ericsson = {
+	age = 40
+}
+
+tur_abdulmecid_osmanoglu_template = {
+	age = 40
+}
+
+tur_abdulaziz_osmanoglu_template = {
+	age = 40
+}
+
+tur_murad_v_osmanoglu_template = {
+	age = 40
+}
+
+tur_abdulhamid_ii_osmanoglu_template = {
+	age = 40
+}
+
+tur_reshad_osmanoglu_template = {
+	age = 40
+}
+
+tur_vahideddin_osmanoglu_template = {
+	age = 40
+}
+
+USA_robert_rantoul = {
+	age = 40
+}
+
+usa_lincoln_character_template = {
+	age = 40
+}
+
+usa_thomas_edison_character_template = {
+	age = 40
+}
+
+usa_robert_e_lee_wilson = {
+	age = 40
+}
+
+USA_benjamin_tucker = {
+	age = 40
+}
+
+zan_majid_bin_said = {
+	age = 40
+}
+
+zan_barghash_bin_said = {
+	age = 40
+}
+
+zan_suleiman_bin_hamid = {
+	age = 40
+}
+
+dynamic_legitimist_ruler_template = {
+	age = 40
+}
+
+dynamic_bonapartist_ruler_template = {
+	age = 40
+}
+
+dynamic_orleanist_ruler_template = {
+	age = 40
+}
+
+garibaldi_character_template = {
+	age = 40
+}
+
+agitator_pierre_joseph_proudhon = {
+	age = 40
+}
+
+agitator_errico_malatesta = {
+	age = 40
+}
+
+agitator_louise_michel = {
+	age = 40
+}
+
+agitator_emiliano_zapata = {
+	age = 40
+}
+
+agitator_ernst_rohm = {
+	age = 40
+}
+
+agitator_frederick_douglass = {
+	age = 40
+}
+
+agitator_alfred_hugenberg = {
+	age = 40
+}
+
+agitator_susan_b_anthony = {
+	age = 40
+}
+
+agitator_giovanni_gentile = {
+	age = 40
+}
+
+agitator_francisco_madero = {
+	age = 40
+}
+
+agitator_gabriele_d_annunzio = {
+	age = 40
+}
+
+agitator_alexis_de_tocqueville = {
+	age = 40
+}
+
+agitator_karl_liebknecht = {
+	age = 40
+}
+
+agitator_francesc_pi_i_margall = {
+	age = 40
+}
+
+agitator_manuel_ruiz_zorrilla = {
+	age = 40
+}
+
+agitator_antonio_sardinha = {
+	age = 40
+}
+
+agitator_alexandru_bogdan_pitesti = {
+	age = 40
+}
+
+agitator_jules_brunet = {
+	age = 40
+}
+
+fra_delescluze_character_template = {
+	age = 40
+}
+
+fra_blanqui_character_template = {
+	age = 40
+}
+
+usa_john_brown_character_template = {
+	age = 40
+}
+
+fra_maurras_character_template = {
+	age = 40
+}
+
+fra_napoleon_iii_character_template = {
+	age = 40
+}
+
+usa_joshua_norton_character_template = {
+	age = 40
+}
+
+fra_georges_sorel_character_template = {
+	age = 40
+}
+
+fra_georges_boulanger_character_template = {
+	age = 40
+}
+
+pru_ferdinand_lassalle_character_template = {
+	age = 40
+}
+
+brz_luis_gama_character_template = {
+	age = 40
+}
+
+fra_victor_hugo_character_template = {
+	age = 40
+}
+
+agitator_karl_marx = {
+	age = 40
+}
+
+agitator_charlie_marx = {
+	age = 40
+}
+
+ada_lovelace_template = {
+	age = 40
+}
+
+ibsen_character_template = {
+	age = 40
+}
+
+albert_einstein_template = {
+	age = 40
+}
+
+gwa_general_tope = {
+	age = 40
+}
+
+jhn_rani_of_jhansi = {
+	age = 40
+}
+
+BIK_rathan_singh_template = {
+	age = 40
+}
+
+GWA_jankoji_roa_scindia = {
+	age = 40
+}
+
+JAI_ram_singh_template = {
+	age = 40
+}
+
+JAS_gaj_singh_template = {
+	age = 40
+}
+
+JOD_man_singh_template = {
+	age = 40
+}
+
+SAT_nana_saheb_template = {
+	age = 40
+}
+
+SAT_baji_rao_template = {
+	age = 40
+}
+
+ruler_karl_marx = {
+	age = 40
+}
+
+ruler_abraham_lincoln = {
+	age = 40
+}
+
+ruler_ada_lovelace = {
+	age = 40
+}
+
+canonic_count_dracula = {
+	age = 40
+}
+
+exile_count_dracula = {
+	age = 40
+}
+
+adam_1 = {
+	age = 40
+}
+
+adam_2 = {
+	age = 40
+}

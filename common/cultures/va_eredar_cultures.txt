@@ -33,7 +33,7 @@
 		Zaedran Zelkhus Zorath Zythas
 	}
 	female_common_first_names = {
-		A’daara Aelina Akashah Althiel Aru’nel
+		A_daara Aelina Akashah Althiel Aru_nel
 		Baelira Beleska Brivana Brynara
 		Caeliah Celestri Cyranne
 		Daerila Delanys Deyara Dorithe
@@ -49,7 +49,7 @@
 		Naelene Neraya Neshira Nyrisse
 		Olaria Onethra Oryssae
 		Paelara Pelani Pyrissa
-		Qaelira Qel’sha Qyrine
+		Qaelira Qel_sha Qyrine
 		Raeliah Relisya Rhyssara
 		Saelune Selara Shyrela Sylune
 		Taelani Telessa Thyrala Tyrisse
@@ -128,7 +128,7 @@ eredar = {
 		Zaedran Zelkhus Zorath Zythas
 	}
 	female_common_first_names = {
-		A’daara Aelina Akashah Althiel Aru’nel
+		A_daara Aelina Akashah Althiel Aru_nel
 		Baelira Beleska Brivana Brynara
 		Caeliah Celestri Cyranne
 		Daerila Delanys Deyara Dorithe
@@ -144,7 +144,7 @@ eredar = {
 		Naelene Neraya Neshira Nyrisse
 		Olaria Onethra Oryssae
 		Paelara Pelani Pyrissa
-		Qaelira Qel’sha Qyrine
+		Qaelira Qel_sha Qyrine
 		Raeliah Relisya Rhyssara
 		Saelune Selara Shyrela Sylune
 		Taelani Telessa Thyrala Tyrisse
@@ -223,7 +223,7 @@ krokul = {
 		Zaedran Zelkhus Zorath Zythas
 	}
 	female_common_first_names = {
-		A’daara Aelina Akashah Althiel Aru’nel
+		A_daara Aelina Akashah Althiel Aru_nel
 		Baelira Beleska Brivana Brynara
 		Caeliah Celestri Cyranne
 		Daerila Delanys Deyara Dorithe
@@ -239,7 +239,7 @@ krokul = {
 		Naelene Neraya Neshira Nyrisse
 		Olaria Onethra Oryssae
 		Paelara Pelani Pyrissa
-		Qaelira Qel’sha Qyrine
+		Qaelira Qel_sha Qyrine
 		Raeliah Relisya Rhyssara
 		Saelune Selara Shyrela Sylune
 		Taelani Telessa Thyrala Tyrisse
