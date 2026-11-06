@@ -1,4 +1,4 @@
-# Testprotokoll
+﻿# Testprotokoll
 
 Jede Änderung, die Claude macht, bekommt hier einen Testfall. Kono testet im Spiel und hakt ab. Ein Ticket gilt erst als `erledigt`, wenn alle seine Testfälle **OK** sind.
 
@@ -490,3 +490,183 @@ Ticket: VA-043 (mit VA-003, VA-026, VA-014, VA-007, VA-055). Lint vor Freigabe: 
 - **Schritte:** Nach T-078 bis T-080 und T-082 Claude Bescheid geben.
 - **Erwartet:** Keine Zeilen zu `geographic_region_*`, `Invalid database object 'je_*'`, `country_law_manager`, `building_type.cpp` (fehlende Loc alter Gebäude), `modifier_type_definition_database`, `VA_pandaria.txt`, `VA_northrend_state.txt`, `23_north_kalimdor.txt`, `va_outlands.txt` (Pops), `infection_events.txt`, `VA_gilneas_infection.txt`, `Invalid character` in Loc-Keys, `bg_*_WIP`, `00_code_on_actions.txt`/`political_movements`/`flag_definitions` aus dem Mod. Keine `fortification_graphics`-Zeilen (VA-060), kein `Invalid right side during comparison 's'` (`08_monuments`, `10_canals`, `00_power_bloc_names`, `03_pan_national_movements`; Spiel dafür mindestens ein halbes Jahr laufen lassen), kein `Invalid building`, kein `does not have a valid namespace`/`unknown random event`, kein `is orphaned` (außer `french_pretenders.6`), kein `has_template … Invalid database object` (Erde-Vorlagen), keine `Failed to find country` aus `government_types`, keine Zeilen zu `common/achievements/`, `owned_*_region_states`, `iberian_treaty_ports`, `is_afghan_nation`, `company_is_zaibatsu`, keine Zeilen zu `00_spanish_new_world_scripted_effects`, `00_the_grand_collapse_scripted_effects`, `00_victoria_great_game_scripted_effects`, keine Meldung zu doppelt definierten Effekten aus `va_earth_effects.txt`, kein `already has a journal entry of type je_mana_hunger`. Gesamtzahl der Einträge deutlich unter 9.598 (Stand 03.11.).
 - **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+## Runde 17 – Provinz-Terrain Östliche Königreiche (Stand 2026-11-03)
+
+Ticket: VA-051. `map_data/province_terrains.txt` (Regionen 26–28), neu `common/terrain/va_terrain.txt` und `localization/replace/english/va_terrain_l_english.yml`. Lint 26–28: 0 neue Fehler (2026-11-04). Vorher `mod\warcraft` mit dieser Datei aktualisieren. Vergleichsbild (links alt, rechts neu): `.claude/regionen/va_terrain_ek_vorschau.png`.
+
+### T-083 Terrain in EK passt zur Karte (VA-051)
+- **Schritte:** Kampagne starten, Kartenmodus „Gelände“ bzw. Provinz-Tooltip in Elwynn, Westfall, Dun Morogh, Sumpfland, Alterac, Gilneas ansehen; 1–2 States mit Farmen anklicken (State-Bild).
+- **Erwartet:** Kein Absturz. Keine Tundra/Savanne mehr zufällig verstreut. Elwynn Wald, Dun Morogh Schnee, Sumpfland/Sümpfe des Elends Feuchtgebiet, Westfall Savanne, flache Täler Ebene, Gebirgsränder Gebirge, Ödland/Brennende Steppe Hügel. (2026-11-04 nachgebessert: deutlich mehr Hügel, Schlingendorntal Dschungel.) Farmland siehe T-085.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-084 Eigenes Terrain „Underwater“ in Vashj'ir (VA-051)
+- **Schritte:** In Vashj'ir (z. B. Konsole `observe`, dann State Vashj'ir/Abyssal Breach) Provinz-Tooltip und State-Fenster ansehen; eine Armee dorthin schicken.
+- **Erwartet:** Terrain heißt „Underwater (AI WRITTEN)“, State-Bild vorerst Feuchtgebiet (Platzhalter). Kein Absturz, Kampf funktioniert (schmale Front). error.log ohne Zeilen zu `va_underwater` oder `va_terrain.txt`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-085 Farmland, Forst, Bergbau erscheinen in EK (VA-051)
+- **Vorher:** `gfx/map/masks/mask_dynamic_farmland.png`, `mask_dynamic_forestry.png`, `mask_dynamic_mining.png` nach `mod\warcraft` kopieren.
+- **Schritte:** Kampagne starten, in Elwynn, Westfall, Lordaeron (Tirisfal/Westliche Pestländer), Arathi heranzoomen; 5–10 Jahre laufen lassen bzw. per Konsole Farmen bauen.
+- **Erwartet:** Felder (Bodentextur und Höfe/Windmühlen) erscheinen in Ebenen mit Farmen, schwächer in Hügeln, nicht in Gebirge, Schnee, Vashj'ir. Holzfäller zeigen Rodungen v. a. in Elwynn, Dämmerwald, Schlingendorntal; Minen Tagebau in Hügeln/Bergen nahe der Minen-Provinz. Keine Felder/Rodungen/Minen außerhalb von EK (andere Kontinente vorerst ohne). error.log: Warnung `terrain_manipulator.cpp … checksum no longer match` ist harmlos (Liste wird neu gebaut, verschwindet nach Speichern im Map-Editor).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+## Runde 18 – Todesschneise als Gebäude, Test East Sanctum (Stand 2026-11-04)
+
+Ticket: VA-062. Lint 26: 0 neue Fehler (2026-11-04). Vorher nach `mod\warcraft` kopieren: `common/terrain/`, `common/terrain_manipulators/` (neu), `common/buildings/va_dead_scar_buildings.txt`, `common/building_groups/va_building_groups.txt`, `common/production_method_groups/va_dead_scar_production_method_groups.txt`, `common/production_methods/va_dead_scar_production_methods.txt`, `common/scripted_effects/va_dead_scar_effects.txt`, `common/scripted_effects/va_quel_thalas_effects.txt`, `gfx/map/masks/manifest.json`, `gfx/map/masks/mask_dynamic_va_dead_scar.png` (neu), `gfx/map/terrain/mask_devastation_mud_01.png`, `localization/replace/english/va_dead_scar_regions_l_english.yml`, `localization/replace/english/va_terrain_l_english.yml`.
+
+### T-086 Schneise in East Sanctum kommt vom Gebäude (VA-062)
+- **Schritte:** Kampagne starten, East Sanctum und eine Nachbarregion (z. B. Tranquillien) heranzoomen; State-Fenster East Sanctum öffnen; Provinz-Tooltip auf der Schneise.
+- **Erwartet:** Kein Absturz. In East Sanctum ist die Schneise sichtbar wie vorher (Schlammtextur, kaum Bäume), in den anderen Regionen unverändert (noch fest gemalt). Im State-Fenster „Dead Scar (AI WRITTEN)“ mit Stufe 5. Gelände der Schneisen-Provinzen ggf. „Dead Scar (AI WRITTEN)“. error.log: keine Zeilen zu `mask_dynamic_va_dead_scar`, `va_dead_scar_land`, `building_va_dead_scar`, `va_terrain_manipulators.txt`; die `checksum no longer match`-Warnung ist harmlos.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-087 Schneise in East Sanctum schrumpft mit der Heilung (VA-062)
+- **Vorher (2026-11-04):** zusätzlich `common/terrain/va_terrain.txt` (Material wieder Schlamm), `common/scripted_effects/va_quel_thalas_effects.txt` und `va_dead_scar_effects.txt` (50 Stufen) kopieren; neue Kampagne. Nach dem ersten Abschnitt (4 Monate) Claude Bescheid geben (debug.log).
+- **Zuerst prüfen:** Schlamm deckt jetzt die ganze frühere Schneise in East Sanctum, auch x1C0EED und xF017F6.
+- **Schritte:** Als Besitzer von East Sanctum (Konsole `research quinine` falls nötig) das Ritual in East Sanctum starten, 20 Monate laufen lassen; alle 4 Monate Stufe im State-Fenster und die Karte ansehen.
+- **Erwartet:** Stufe 50 → 40 → 30 → 20 → 10 (seit 2026-11-04), die Schlammfläche wird jeweils kleiner (Provinzen fallen nacheinander weg). Nach der Heilung ist das Gebäude weg und keine Schneise mehr sichtbar; darunter der normale Boden. error.log ohne Zeilen zu `va_dead_scar_set_level_effect`, `create_building`, `remove_building`.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-04 Schrumpfen laut debug.log korrekt (50→10), Karte zeigt es erst nach Speichern/Laden – Engine-Verhalten, in Vanilla genauso (Kono). x1C0EED/xF017F6 nie umgewandelt (offen in VA-062).
+
+### T-088 Schneise über die Bergbau-Maske (VA-062)
+- **Vorher:** nach `mod\warcraft` kopieren: `gfx/map/masks/mask_dynamic_mining.png`, `common/terrain_manipulators/va_terrain_manipulators.txt`, `common/terrain/va_terrain.txt`, `common/buildings/va_dead_scar_buildings.txt`, `common/scripted_effects/va_quel_thalas_effects.txt`. In `mod\warcraft` `gfx/map/masks/mask_dynamic_va_dead_scar.png` löschen (gibt es im Repo nicht mehr).
+- **Schritte:** Neue Kampagne, East Sanctum heranzoomen; Gelände-Tooltip einer Provinz, auf der früher die Schneise lag.
+- **Erwartet:** Auf der früheren Schneise in East Sanctum erscheinen Felder (Test-Material statt Schlamm), Gelände „Dead Scar (AI WRITTEN)“. Keine Felder außerhalb der Schneise durch das Gebäude. debug.log: „VA-062: Dead Scar angelegt“.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-04 Felder in Schneisenform sichtbar (Kono). Danach Material auf Schlamm zurückgestellt.
+
+### T-089 Knopf „Refresh Terrain (TEST)“ zeichnet dynamisches Terrain neu (VA-062)
+- **Vorher:** `gui/va_terrain_refresh.gui` und `gui/ingame_hud.gui` (Override, 2026-11-04 nachgereicht: eigenes Fenster erschien nicht) nach `mod\warcraft` kopieren.
+- **Schritte:** Kampagne laden, oben rechts den Knopf „Refresh Terrain (TEST)“ suchen. Ritual East Sanctum laufen lassen, bis die Schneise laut State-Fenster kleiner ist (oder in Vanilla-Art Farmen bauen), dann Knopf drücken, einige Sekunden warten.
+- **Erwartet:** Knopf sichtbar. Nach dem Klick passt sich die Bodentextur ohne Neuladen an. error.log: keine Zeile zu `va_terrain_refresh.gui` oder `UpdateDynamicTerrainInAllProvinces` (Meldung „unknown function“ o. ä. hieße: Funktion nur im Map-Editor).
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-11-04 Knopf ohne Wirkung, error.log ohne Meldung (Kono). Knopf und Override `gui/ingame_hud.gui` wieder entfernt.
+
+### T-090 Mana-Icon (VA-027)
+- **Vorher:** `common/goods/va_goods.txt` und `gfx/interface/icons/goods_icons/va_mana.dds` nach `mod\warcraft` kopieren.
+- **Schritte:** Kampagne laden, Markt-/Güterübersicht öffnen, Gut „Mana“ suchen (z. B. Silbermond, Ley Line Tap).
+- **Erwartet:** blaue Mana-Kugel statt Strom-Blitz, auch klein in Gebäude-/Bedarfslisten erkennbar. error.log: nichts zu `va_mana.dds`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+## Runde 19 – Patch 1.15 (Stand 2026-11-06)
+
+Ticket: VA-063. Lint alle Regionen: 0 neue Fehler (2026-11-06). Vorher nach `mod\warcraft` kopieren: `common/travel_network/naval_network.txt` (neu), `common/flag_definitions/00_flag_definitions.txt` (neu), neu erzeugt aus Vanilla 1.15: `common/achievements/*.txt`, `common/government_types/01_monarchies.txt`, `01_regencies.txt`, `01_social_monarchies.txt`, `05_council_republics.txt`, `common/political_movements/03_pan_national_movements.txt`, `common/power_bloc_names/00_power_bloc_names.txt`, `common/buildings/08_monuments.txt`, `10_canals.txt`.
+
+### T-092 Flaggen ohne Erde-Abfragen (VA-063)
+- **Schritte:** Kampagne starten, ein paar Monate laufen lassen; Flaggen von Stormwind, Silvermoon, Orgrimmar und einem kleinen Land ansehen. Wenn möglich eine Revolution auslösen oder ein Land kommunistisch machen (Konsole) und dessen Flagge ansehen.
+- **Erwartet:** Flaggen wie vor dem Patch, Revolutionsflaggen funktionieren weiter. error.log ohne `00_flag_definitions.txt` (vorher 3.888 Zeilen `Invalid right side during comparison 's'`).
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz: 2026-11-06 error.log: 2 Zeilen übrig (Z. 294 `was_formed_from = HER`, Tag ohne `c:`, nur in Liste `AFG`, harmlos), sonst weg. Sichtprüfung der Flaggen steht aus.
+
+### T-093 Marine-Grafik aus Vanilla (VA-063/VA-059)
+- **Vorher:** in `mod\warcraft` den Ordner `gfx/map/spline_network/military_route_graphics/` löschen (im Repo gelöscht, alte Kopie von 2023; Vanilla heißt jetzt `route_graphics`).
+- **Schritte:** Kampagne starten, Flotte bewegen und eine Armee per Straße/Bahn verlegen; Fahrzeuge auf den Routen ansehen.
+- **Erwartet:** Schiffe, Wagen und Züge auf den Routen sichtbar. error.log ohne `03_naval_vehicles.txt` / `combat_unit_type_frigate`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-095 JEs im neuen outcome-Format und neue Erde-Hüllen (VA-063)
+- **Vorher:** nach `mod\warcraft` kopieren: `.metadata/metadata.json` (1.15.*), `common/journal_entries/` (ganzer Ordner: `VA_silvermoon.txt`, `va_dead_scar.txt`, `va_mana.txt`, `va_earth_je_stubs.txt`, neue leere `00_rlit_journal_entries.txt`, `08_*.txt`), `common/scripted_buttons/` (neu leer: `08_tsarpoints_buttons.txt`, `poland_buttons.txt`, `russia_civil_war_buttons.txt`), `common/company_types/00_companies_ip5.txt` (leer), `common/character_templates/` (neu leer: `country_abk/bko/mnl/pol/svn/tki.txt`, `easter egg templates.txt`; `va_earth_template_stubs.txt`), `events/` (neu leer: `rlit_cluster1_golden_age.txt`, `rlit_cluster2_crossroads.txt`, `russia_events/*.txt`; Ordner `va_earth_event_stubs/` komplett ersetzen), `common/geographic_regions/`. Lint alle Regionen: 0 neue Fehler.
+- **Schritte:** Neue Kampagne als Silvermoon. Journal öffnen: Mana-Hunger, Deathholme, Zul'Aman, Korridor, Wretched, Todesschneise (nach `research quinine`). Konsole: `kill_country DEATHHOLME` o. ä. bzw. Ziel per Konsole erfüllen und sehen, ob das JE abschließt (Event `silvermoon_events.2`, Modifier). Ein paar Jahre laufen lassen.
+- **Erwartet:** Alle JEs sichtbar mit Abschnitt „So erreichst du …“/„Bei Abschluss“ und Zeitlimit, wo vorher eins war. Abschluss löst Event und Modifier aus, abgeschlossene JEs stehen im Reiter „Abgeschlossen“. error.log ohne `Unexpected token: invalid`/`on_invalid`/`complete`, ohne Zeilen zu `va_earth_je_stubs.txt`; Gesamtzahl deutlich unter 4.300.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-094 Kupfer-Vorkommen in EK und Kalimdor (VA-064)
+- **Vorher:** nach `mod\warcraft` kopieren: `map_data/state_regions/23_va_north_kalimdor.txt`, `24_va_center_kalimdor.txt`, `26_va_north_eastern_kingdoms.txt`, `27_va_center_eastern_kingdoms.txt`, `28_va_south_eastern_kingdoms.txt`. Lint 23/24/26/27/28: 0 neue Fehler.
+- **Schritte:** Kampagne starten. State-Fenster von Gol'Bolar-Steinbruch (Dun Morogh), Thelsamar, Todesminen, Drygulch Ravine öffnen und die Ressourcen ansehen; Kartenmodus Ressourcen bzw. Bau-Menü „Kupfermine“ als Ironforge oder Orgrimmar (nach `shaft_mining`, Konsole `research shaft_mining`). Nach einigen Jahren Marktpreis Kupfer ansehen.
+- **Erwartet:** Kupfermine in 62 States baubar (Gol'Bolar 24, Thelsamar/Todesminen 20, …), andere Ressourcen unverändert. Kupfer nicht dauerhaft auf Höchstpreis. error.log ohne Zeilen zu `building_copper_mine` oder zu den fünf State-Dateien.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 „Kupfer passt“ (Kono).
+
+### T-091 Leeres Seewege-Netz (VA-063)
+- **Schritte:** Kampagne starten. Eine Flotte (z. B. Kul Tiras oder Stormwind) über mehrere Seezonen schicken; eine Armee per Schiff auf einen anderen Kontinent verlegen (Marine-Invasion oder Truppenverlegung).
+- **Erwartet:** Kein Absturz. error.log ohne `naval node`, `Harbor node … no port node` und ohne die ~3.300 `Referencing non-existent province!` mit leerem Dateinamen (Gesamtzahl deutlich unter 16.000). Offen ist, ob Schiffe ohne Netz noch Wege finden: Wenn Flotten nicht losfahren oder Seewege fehlen, Fehler notieren, dann baut Claude einen eigenen Generator.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 error.log 4.249 beim Start, 4.307 nach 1 Jahr (vorher ~16.000); naval-/harbor-Zeilen weg. Neu: ~150× `hq.cpp: Failed to find a travel position for HQ … no coastal state … has a port travel position` → Häfen haben ohne Netz keine Seeposition, Seefahrt vermutlich kaputt. 2026-11-06 Kono: in Silvermoon Flotte (2 Fregatten, 1 Großkampfschiff) gebaut, Truppentransport funktioniert, Truppen bleiben am Ziel → OK; die hq.cpp-Meldungen bleiben als Schönheitsfehler offen (VA-063).
+
+## Runde 20 – Todesschneise ganz, Deathholme-Fluch (Stand 2026-11-06)
+
+Ticket: VA-062. Lint 26: 0 neue Fehler. Nach `mod\warcraft` kopieren: `gfx/map/masks/mask_dynamic_mining.png`, `common/journal_entries/va_dead_scar.txt`, `common/scripted_buttons/va_dead_scar_buttons.txt`, `common/scripted_progress_bars/va_dead_scar_progress_bars.txt`, `common/scripted_effects/va_dead_scar_effects.txt`, `common/scripted_effects/va_quel_thalas_effects.txt`, `common/scripted_triggers/va_quel_thalas_triggers.txt`, `common/script_values/va_dead_scar_values.txt` (neu), `common/static_modifiers/va_quel_thalas_modifiers.txt`, `common/on_actions/va_on_actions_quel_thalas.txt`, `common/history/global/va_global_quel_thalas.txt`, `common/building_groups/va_building_groups.txt`, `localization/replace/english/va_dead_scar_regions_l_english.yml`. In `mod\warcraft` löschen: `gui/` (Test-Knopf). Neue Kampagne. Karte zeigt Änderungen erst nach Speichern/Laden.
+
+### T-096 Schneise in allen sechs Regionen, auch x1C0EED und xF017F6 (VA-062)
+- **Schritte:** Kampagne starten, die sechs Regionen ansehen; Gelände-Tooltip in x1C0EED und xF017F6 (East Sanctum); Infrastruktur eines Schneisen-States.
+- **Erwartet:** Schlamm auf der ganzen Schneise in allen sechs Regionen, auch in den beiden Provinzen (Gelände „Dead Scar (AI WRITTEN)“). Kein Schlamm in Silvermoon City. Infrastruktur nicht mehr durch „Dead Scar“ belegt. error.log ohne Zeilen zu `va_dead_scar`, `va_terrain`, `va_building_groups`.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 16 Provinzen fehlten (Farmen belegten sie). Nachbesserung siehe T-098. Nachtest 2026-11-06 (Kono): alle sechs Regionen mit Gelände und Modifier, Untote ohne Lebenden-Malus.
+
+### T-097 Deathholme: Fluch-Buff je Region, Heilung bei null (VA-062)
+- **Schritte:** Konsole `observe`/`play DEATHHOLME`: Landes-Modifier ansehen. Als Silvermoon im JE prüfen, dass es keinen Deathholme-Balken/-Schalter mehr gibt. Eine Region heilen (Ritual 20 Monate), Modifier erneut ansehen. Zum Schnelltest alle fünf Regionen heilen (oder per Konsole), dann Deathholme ansehen (nach Speichern/Laden).
+- **Erwartet:** Start: „Tide of the Scourge (AI WRITTEN)“ mit 5× Werten (Angriff +20 %, Verteidigung +40 %, Moral-Erholung +25 %, Durchsatz +30 %; seit 2026-11-06). Nach jeder geheilten Region ein Fünftel weniger, Schneise in Deathholme 10 Stufen kleiner. Bei null: Modifier weg, Deathholme ohne Schneisen-Modifier und ohne Schneise, JE „Curing the Path of Destruction“ erfüllt. Länder, die nur Deathholme-States haben, bekommen das Heil-JE nicht. error.log ohne Zeilen zu `va_update_deathholme_scourge_effect`, `va_dead_scar_cursed_regions`, `va_deathholme_scourge_tide`, `on_monthly_pulse`.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: Nachtest 2026-11-06 (Kono): Buff vorhanden, sinkt nach Heilung einer Region um den Betrag.
+
+### T-098 Fehlende Schneisen-Provinzen nachgebessert (VA-062)
+- **Vorher:** `gfx/map/masks/mask_dynamic_mining.png`, `mask_dynamic_farmland.png`, `mask_dynamic_forestry.png`, `common/static_modifiers/va_quel_thalas_modifiers.txt` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** Die 16 Provinzen aus T-096 ansehen (Sunwell x4E496D x3E6CAE xB6E6AB x21A7AB xEB9D1D, Ruins x6DAC1E, East x1C0EED xF017F6, Tranquillien x537223 x1F97B1, Deathholme x3AAD13 xF29779 x142D60 xA28A0D x203FF1 x9A04F7), Gelände-Tooltip.
+- **Erwartet:** Alle mit Schlamm und Gelände „Dead Scar (AI WRITTEN)“, keine Felder mehr auf der Schneise. Farmen der States erscheinen daneben. Fehlt eine Provinz weiter: Gelände im Tooltip notieren (Farmland/Mining/…).
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 sechs Provinzen fehlen weiter (x4E496D, x3E6CAE, x6DAC1E Bergbau, x3AAD13, xF29779, x142D60). Nachbesserung T-099. Nachtest 2026-11-06 (Kono): 16 Provinzen mit Schneise.
+
+### T-099 Vorrang vor Bergbau und mehr Stufen (VA-062)
+- **Vorher:** In `mod\warcraft` `common/terrain_manipulators/va_terrain_manipulators.txt` **löschen** und `00_va_terrain_manipulators.txt` kopieren; dazu `common/scripted_effects/va_quel_thalas_effects.txt`, `va_dead_scar_effects.txt`, `common/buildings/va_dead_scar_buildings.txt`. Neue Kampagne.
+- **Schritte:** x4E496D, x3E6CAE (Sunwell), x6DAC1E (Ruins), x3AAD13, xF29779, x142D60 (Deathholme) ansehen, Gelände-Tooltip; Leyline-Tap in Sunwell Plateau noch mit Bergbau-Optik?
+- **Erwartet:** Alle sechs mit Schlamm und Gelände „Dead Scar (AI WRITTEN)“. Bleibt eine mit „Mining“, entscheidet die Lade-Reihenfolge nicht; bleibt der Farm-Hub x4E496D leer, sind Hubs ausgenommen. Gelände je Provinz notieren.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 fast alles OK; x2B1415 zu schwach (nachgebessert), x6DAC1E weiter „Mining“ (Quelle offen). Nachtest 2026-11-06 (Kono): Leyline-Taps ohne Bergbau-Optik, alles Schlamm.
+
+### T-100 Leyline-Tap ohne Bergbau-Optik, Schneise vollständig (VA-062)
+- **Vorher:** `common/buildings/va_mana_buildings.txt`, `gfx/map/masks/mask_dynamic_mining.png`, `mask_dynamic_farmland.png`, `mask_dynamic_forestry.png` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** x2B1415 und x21A7AB (Sunwell), x6DAC1E (Ruins, Silvermoons Teil) ansehen; Gelände-Tooltip. Leyline-Tap in Sunwell bauen/ansehen.
+- **Erwartet:** Alle drei mit Schlamm und „Dead Scar (AI WRITTEN)“, kein „Mining“ mehr. Leyline-Taps funktionieren wie bisher, nur ohne Tagebau auf der Karte. error.log ohne Zeilen zu `va_mana_buildings.txt`.
+- **Ergebnis:** [x] OK  [ ] Fehler – Notiz: 2026-11-06 x6DAC1E weiter Mine (Kohlemine der Wretched). Nachbesserung T-101. Nachtest 2026-11-06 (Kono): sieht gut aus.
+
+### T-101 Minen weichen der Schneise aus; Forst/Bergbau in EK (VA-062, VA-061)
+- **Vorher:** `gfx/map/masks/mask_dynamic_mining.png`, `mask_dynamic_forestry.png`, `mask_dynamic_farmland.png` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** x6DAC1E (Ruins of Silvermoon) ansehen, einige Monate laufen lassen (Kohlemine der Wretched), speichern/laden. Stichproben in EK: Holzfäller (z. B. Elwynn) und Minen zeigen Rodung/Tagebau nahe ihrer Hubs.
+- **Erwartet:** x6DAC1E mit „Dead Scar (AI WRITTEN)“; Kohlemine zeigt Tagebau am Mine-Hub bzw. in den Bergen, nicht auf der Schneise. In EK mehr Rodungen und Tagebaue als vorher, keine auf der Schneise.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-11-06 x6DAC1E weiter Mine (Silvermoons Teil-State hatte keine andere Bergbaufläche). Nachbesserung T-102. Nachtest 2026-11-06 (Kono, Kohlemine per Fastbuild): Tagebau liegt woanders, gut. Aber West Sanctum x4BFDA4 und x5B9E0E zeigen Schneise – das sind die Ausweichflächen aus T-102 (Schneisen-Gebäude wandelt jede Bergbau-Fläche im State um). Nachbesserung T-105.
+
+### T-102 Ausweichflächen je Besitzer-Teil (VA-062)
+- **Vorher:** `gfx/map/masks/mask_dynamic_mining.png` (und die beiden anderen Masken) nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** Wie T-101: x6DAC1E nach Bau der Kohlemine ansehen (speichern/laden). Tagebau soll auf xDD304F oder xC63C98 liegen.
+- **Erwartet:** x6DAC1E „Dead Scar (AI WRITTEN)“, Tagebau auf einer der Ausweich-Provinzen.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-11-06 x6DAC1E weiter Kohlemine. Nachbesserung T-103.
+
+### T-103 Schneise schwächer als Minen-Ausweichflächen (VA-062)
+- **Vorher:** `gfx/map/masks/mask_dynamic_mining.png` (und die beiden anderen Masken) nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** x6DAC1E (Ruins of Silvermoon) ansehen, einige Monate laufen lassen bis die Kohlemine steht, speichern/laden, Gelände-Tooltip. Stichprobe: xCCFE72, x4E852C (Schneise im Wretched-Teil) ebenfalls ansehen.
+- **Erwartet:** Alle drei „Dead Scar (AI WRITTEN)“. Tagebau der Kohlemine auf Mine-Hub x33B5DA, einem Berg oder xDD304F/xC63C98.
+- **Ergebnis:** [ ] OK  [x] Fehler – Notiz: 2026-11-06 x6DAC1E weiter Kohlemine. Maskenstärke ist nicht die Ursache. Nachbesserung T-104.
+
+### T-104 Ruins of Silvermoon ohne Start-Kohlemine (VA-062)
+- **Vorher:** `common/history/buildings/26_north_eastern_kingdoms.txt`, `gfx/map/masks/*`, neu `tools/mapeditor/mask_painter/` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** State Ruins of Silvermoon (Wretched-Teil): Gebäudeliste. x6DAC1E ansehen, speichern/laden, Gelände-Tooltip. Map-Editor öffnen: zeigt die Bergbau-Maske jetzt die Schneise?
+- **Erwartet:** Keine Kohlemine beim Start; x6DAC1E „Dead Scar (AI WRITTEN)“. Editor zeigt unsere Masken statt der Erdmasken. error.log ohne neue Zeilen zu `26_north_eastern_kingdoms.txt`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-105 Keine Schneise außerhalb der Schneise (VA-062)
+- **Vorher:** `gfx/map/masks/mask_dynamic_*.png` und `tools/mapeditor/mask_painter/` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** West Sanctum x4BFDA4 und x5B9E0E ansehen (speichern/laden), Stichprobe xDD304F/xC63C98 (Ruins), xA9ACB2 (East Sanctum), xD6BF4D (Tranquillien). Schneise selbst kurz überfliegen.
+- **Erwartet:** Diese Provinzen ohne Schlamm und ohne „Dead Scar (AI WRITTEN)“; die Schneise selbst unverändert.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-106 Texte: Schneise stärkt Deathholme (VA-062)
+- **Vorher:** `localization/replace/english/va_dead_scar_regions_l_english.yml`, `va_silvermoon_l_english.yml` nach `mod\warcraft`.
+- **Schritte:** Als Silvermoon JE „Curing the Path of Destruction“ und „Drive Out Deathholme“ lesen; eine Region heilen (Event „The Scar Recedes“), per Konsole `event dead_scar_events.2` ansehen.
+- **Erwartet:** Alle vier Texte erwähnen, dass die Schneise Deathholme stärkt bzw. die Heilung es schwächt, mit „(AI WRITTEN)“; keine Loc-Keys im Klartext, error.log ohne Zeilen zu den beiden Dateien.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-107 Gebäude-Icon Ley Line Tap (VA-027)
+- **Vorher:** `common/buildings/va_mana_buildings.txt`, `gfx/interface/icons/building_icons/va_ley_line_tap.dds` nach `mod\warcraft`.
+- **Schritte:** Sunwell Plateau: Gebäudeliste und Bau-Menü, Ley Line Tap ansehen (groß und klein, z. B. Outliner/Tooltip).
+- **Erwartet:** Konos Bild statt Kohlemine, scharf, transparente Ecken; error.log ohne Zeilen zu `va_ley_line_tap.dds`.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-108 Ley Line Tap: Ausbaustufen (VA-019)
+- **Vorher:** `common/buildings/va_mana_buildings.txt`, `common/production_methods/va_mana_production_methods.txt`, `common/production_method_groups/va_mana_production_method_groups.txt`, `localization/replace/english/va_mana_l_english.yml` nach `mod\warcraft`; neue Kampagne als Silvermoon.
+- **Schritte:** Ley Line Tap in Sunwell öffnen: zwei Gruppen „Ley Line Focus“ und „Attunement“. Per Konsole `research atmospheric_engine`, `research empiricism`, `research electrical_generation`, dann umschalten und Tooltips lesen.
+- **Erwartet:** Start mit Focus Crystals / No Attunement. Nach Forschung lassen sich Arcane Conduits, Runic Resonators und Arcane Sigils wählen; Mana-Ausstoß 20 → 40 → 65 (+15 mit Sigils), Strom- und Papierbedarf erscheinen. Namen mit „(AI WRITTEN)“, keine Loc-Keys. error.log ohne Zeilen zu den drei Dateien.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-109 Rogue-Provinzen von Nord-Kalimdor-States gelöst (VA-031)
+- **Vorher:** `map_data/state_regions/23_va_north_kalimdor.txt`, `common/history/states/VA_kalimdor_states.txt` nach `mod\warcraft`; neue Kampagne.
+- **Schritte:** Spiel starten; Haufen im Südmeer ansehen und überfahren; Teldrassil- und Azuremyst-States öffnen (Marker, Bau-Menü Hafen bei Dolanaar); Wandering Isles unverändert?
+- **Hubs (Test 2026-11-06):** Dolanaar city/mine/wood → xD950C5/xFA8A80/x2750DE, Gnarlpine Hold city/farm/mine → x3489FE/x7CC77F/x22103F (trockene, passierbare GNARLPINE_FURBOLG-Provinzen auf Teldrassil). Ergebnis Kono: weiterhin Hafen. Zusätzlich Strategieregion Teldrassil `capital_province` → xD950C5.
+- **Erwartet:** Kein Absturz. Dolanaar und Gnarlpine Hold ohne Hafen (wie Shadowglen/Oracle Glade). error.log: Meldungen zu übrigen Hubs außerhalb ihres States, unzugeordneten Haufen-Provinzen und EXODAR/Nestlewood (Pops/Gebäude ohne State) sind erwartet; Rest notieren.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+
+### T-110 Oracle Glade neu geteilt (VA-031)
+- **Vorher:** Kono-Vorgabe 2026-11-06: 14 Provinzen im Süden (x3383E0 x8D801C x6703FD x8F553A x6849B4 xE35510 xAE038D x5CF8E8 x098E2F x577F5A, abgerundet mit x3FF213 xABDF84 xEC3DB7 x365308) an DARNASSUS, alle übrigen (auch die impassable) an BLOODFEATHER_HARPY. Pops/Gebäude wie zuvor: kal_dorei, Tee 2, Roggen 2 bei Darnassus; Harpyien, Holz, Roggen (Herrenhaus) bei Bloodfeather.
+- **Schritte:** Neue Kampagne, Oracle Glade ansehen (Besitzgrenze, Pops, Gebäude beider Anteile); als Bloodfeather und als Darnassus Bau-Menü nach Hafen prüfen.
+- **Erwartet:** Darnassus-Anteil im Süden wie gewünscht, keine fehlenden Provinzen, kein Hafen. error.log ohne neue Zeilen zu STATE_ORACLE_GLADE.
+- **Ergebnis:** [ ] OK  [ ] Fehler – Notiz:
+

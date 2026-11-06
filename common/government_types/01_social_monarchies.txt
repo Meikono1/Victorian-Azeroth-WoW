@@ -320,6 +320,7 @@ gov_social_monarchy_enlightened_despotate = {
 		NOT = { is_subject_type = subject_type_crown_land }
 		NOT = { has_journal_entry = je_spain_provisional_government }
 		has_gov_regency = no
+		NOT = { has_journal_entry = je_russia_provisional_government }
 	}
 
 	on_government_type_change = {
@@ -576,6 +577,7 @@ gov_social_monarchy_tsardom = {
 			}
 		}
 		NOT = { is_subject_type = subject_type_crown_land }
+		NOT = { has_journal_entry = je_russia_provisional_government }
 		has_gov_regency = no
 	}
 
@@ -1880,6 +1882,7 @@ gov_social_monarchy_enlightened_despotate_fascist = {
 		NOT = { is_subject_type = subject_type_crown_land }
 		NOT = { has_journal_entry = je_spain_provisional_government }
 		has_gov_regency = no
+		NOT = { has_journal_entry = je_russia_provisional_government }
 	}
 
 	on_government_type_change = {
@@ -2136,6 +2139,7 @@ gov_social_monarchy_tsardom_fascist = {
 			}
 		}
 		NOT = { is_subject_type = subject_type_crown_land }
+		NOT = { has_journal_entry = je_russia_provisional_government }
 		has_gov_regency = no
 	}
 
@@ -3425,6 +3429,7 @@ gov_social_monarchy_enlightened_despotate_absolutist = {
 		NOT = { is_subject_type = subject_type_crown_land }
 		NOT = { has_journal_entry = je_spain_provisional_government }
 		has_gov_regency = no
+		NOT = { has_journal_entry = je_russia_provisional_government }
 	}
 
 	on_government_type_change = {
@@ -3674,6 +3679,7 @@ gov_social_monarchy_tsardom_absolutist = {
 			}
 		}
 		NOT = { is_subject_type = subject_type_crown_land }
+		NOT = { has_journal_entry = je_russia_provisional_government }
 		has_gov_regency = no
 	}
 

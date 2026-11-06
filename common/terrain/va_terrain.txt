@@ -1,0 +1,52 @@
+﻿# Eigene Terrain-Typen (VA-051). Vorbild: Vanilla wetland (common/terrain/01_terrain.txt).
+# Zuweisung je Provinz in map_data/province_terrains.txt über .claude/tools/va_terrain.py (STATE_OVERRIDES).
+
+# Unterwasser (Vashj'ir): schwer zugänglich, enge Front, hohes Verlustrisiko. Keine gemalte Textur.
+va_underwater = {
+	label = label_hazardous
+	label = label_travel_harsh_environment
+	weight = 2
+	textures = {
+		{
+			weight = {
+				value = 1
+			}
+			# TODO: eigenes State-Bild Unterwasser (VA-027), bis dahin Vanilla-Feuchtgebiet
+			path = "gfx/state_pictures/wetland.dds"
+			effect = "vfx_entity_ui_state_wetland"
+		}
+	}
+
+	combat_width = 0.4
+	risk = 0.4
+	debug_color = hsv { 0.55 0.8 0.5 }
+
+	pollution_mask_strength = 0.5
+	devastation_mask_strength = 0.5
+}
+
+# Todesschneise (VA-062): entsteht nur über den Terrain-Manipulator va_dead_scar (building_va_dead_scar),
+# nie über province_terrains.txt. Vorbild: Vanilla farmland_rye (created_material) und desert.
+va_dead_scar_land = {
+	label = label_hazardous
+	weight = 2
+	textures = {
+		{
+			weight = {
+				value = 1
+			}
+			# TODO: eigenes State-Bild Todesschneise (VA-027), bis dahin Vanilla-Wüste
+			path = "gfx/state_pictures/desert.dds"
+			effect = "vfx_entity_ui_state_desert"
+		}
+	}
+
+	combat_width = 1.0
+	risk = 0.2
+	# TODO: eigenes Material DYNAMIC-VA_Dead_Scar_01 (VA-062, VA-027), bis dahin Vanilla-Kriegsschlamm. Test mit Feldern lief 2026-11-04.
+	created_material = DYNAMIC-Devastation_Mud_01
+	debug_color = hsv { 0.95 0.6 0.3 }
+
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}

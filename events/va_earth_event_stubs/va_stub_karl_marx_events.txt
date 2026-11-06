@@ -7,3 +7,17 @@ marx_events.1 = {
 	trigger = { always = no }
 	weight_multiplier = { factor = 0 }
 }
+
+marx_events.2 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
+marx_events.3 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

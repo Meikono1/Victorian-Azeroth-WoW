@@ -68,3 +68,35 @@ geographic_region_french_natural_borders = {
 geographic_region_greater_bulgaria = {
 	short_key = "greater_bulgaria"
 }
+
+geographic_region_northwestern_russia = {
+	short_key = "northwestern_russia"
+}
+
+geographic_region_central_russia = {
+	short_key = "central_russia"
+}
+
+geographic_region_southern_russia = {
+	short_key = "southern_russia"
+}
+
+geographic_region_russian_eurasia = {
+	short_key = "russian_eurasia"
+}
+
+geographic_region_russian_siberia = {
+	short_key = "russian_siberia"
+}
+
+geographic_region_priamurye = {
+	short_key = "priamurye"
+}
+
+geographic_region_transcaucasia = {
+	short_key = "transcaucasia"
+}
+
+geographic_region_austria = {
+	short_key = "austria"
+}

@@ -52,9 +52,12 @@ Start-JEs zum Spielstart in `common/history/global/va_global_<region>.txt` (`GLO
 
 ## Stolperfallen (aus error.log und Spieltests)
 
+- Gebäudegruppe mit `parent_group = bg_government` erbt 1 Infrastruktur und 20 Urbanisierung je Stufe. Reine Deko-/Script-Gebäude → eigene Gruppe wie Vanilla `bg_monuments_hidden` mit `infrastructure_usage_per_level = 0` (VA-062).
+- Die `.md`-Doku in Vanilla-Ordnern (z. B. `common/buildings/buildings.md`) ist teils veraltet: `generates_residences` gibt es nicht (VA-062). Felder immer an echten Vanilla-Objekten prüfen.
 - Ein Event-Namespace gehört in genau eine Datei (Vanilla teilt keinen). Neue Event-Datei → eigener Namespace (VA-021: `wretched_heal_events` usw.).
 - Vanilla vergleicht keine `flag:`-Werte in Variablen; lieber je Zustand eine eigene Variable (`va_wretched_hunt_thaelis`).
 - `scripted_progress_bar` → `monthly_progress`: Scope ist schon das Land. Kein `owner = { … }` drumherum (Balken blieben bei 0, VA-046).
+- Seit 1.15 gibt es kein `complete`/`fail`/`invalid`/`on_timeout` mehr (`Unexpected token: invalid`), nur `outcome = { … }`; mit `timeout` braucht das JE genau ein `outcome` mit `flags = { timeout }`. Muster in [vorlagen.md](vorlagen.md).
 - Balken haben kein Sichtbarkeitsfeld; mehrere Balken in einem JE sind erlaubt (`00_antarctica.txt`), aber immer alle sichtbar.
 - Stillstand muss im Spiel erkennbar sein: im Balken ein `add = { desc = …_stalled_desc value = 0 }`-Zweig plus Status-Text im JE.
 - Ungültig-/Bedingungs-Tooltips zeigen rohe Trigger („All SILVERMOON_ADJ States …“) → `custom_tooltip = { text = …_tt <trigger> }`.

@@ -77,3 +77,10 @@ russia_monarchy.11 = {
 	trigger = { always = no }
 	weight_multiplier = { factor = 0 }
 }
+
+russia_monarchy.12 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

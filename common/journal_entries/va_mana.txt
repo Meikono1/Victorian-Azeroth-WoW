@@ -24,12 +24,15 @@ je_mana_hunger = {
 		}
 	}
 
-	invalid = {
-		NOT = { va_country_mana_dependent_trigger = yes }
-	}
-
-	on_invalid = {
-		va_clear_mana_stages_effect = yes
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			NOT = { va_country_mana_dependent_trigger = yes }
+		}
+		effect = {
+			va_clear_mana_stages_effect = yes
+		}
 	}
 
 	status_desc = {

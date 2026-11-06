@@ -21,3 +21,9 @@ pm_ritual_circles_building_va_scar_ward = {
 		}
 	}
 }
+
+# PM der Todesschneise (VA-062): ohne Arbeiter, Inputs und Modifier; die Wirkung tragen die State-Modifier va_dead_scar*.
+# Vorbild: Vanilla pm_power_bloc_statue_sovereign_empire (08_monuments.txt), hier ganz leer.
+pm_blight_building_va_dead_scar = {
+	texture = "gfx/interface/icons/production_method_icons/horizontal_drawer_cabinets.dds" # TODO: eigenes Icon (VA-027)
+}

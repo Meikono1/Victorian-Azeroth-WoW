@@ -38,6 +38,7 @@ STATE_MENETHIL_KEEP = {
         bg_iron_mining = 6
         bg_logging = 13
         bg_fishing = 12
+        building_copper_mine = 5
     }
     naval_exit_id = 8065
 }
@@ -59,6 +60,7 @@ STATE_DUN_MODR = {
         bg_iron_mining = 22
         bg_coal_mining = 18
         bg_logging = 15
+        building_copper_mine = 5
     }
 }
 
@@ -77,6 +79,7 @@ STATE_WHELGARS_RETREAT = {
     capped_resources = {
         bg_lead_mining = 17
         bg_logging = 18
+        building_copper_mine = 5
     }
 }
 
@@ -424,6 +427,7 @@ STATE_STONEWROUGHT_DAM = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 14
+        building_copper_mine = 5
     }
 }
 
@@ -462,6 +466,7 @@ STATE_THELSAMAR = {
         bg_iron_mining = 36
         bg_sulfur_mining = 7
         bg_logging = 18
+        building_copper_mine = 20
     }
 }
 
@@ -480,6 +485,7 @@ STATE_NORTH_GATE_OUTPOST = {
     capped_resources = {
         bg_iron_mining = 25
         bg_logging = 7
+        building_copper_mine = 5
     }
 }
 
@@ -499,6 +505,7 @@ STATE_GOL_BOLAR_QUARRY = {
         bg_iron_mining = 39
         bg_coal_mining = 43
         bg_logging = 10
+        building_copper_mine = 24
     }
 }
 
@@ -534,6 +541,7 @@ STATE_KHARANOS = {
     capped_resources = {
         bg_iron_mining = 27
         bg_logging = 23
+        building_copper_mine = 8
     }
 }
 
@@ -554,6 +562,7 @@ STATE_SHIMMER_RIDGE = {
         bg_iron_mining = 18
         bg_lead_mining = 18
         bg_logging = 22
+        building_copper_mine = 5
     }
 }
 
@@ -592,6 +601,7 @@ STATE_GNOMEREGAN = {
         bg_iron_mining = 22
         bg_sulfur_mining = 18
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8064
 }
@@ -631,6 +641,7 @@ STATE_COLDRIDGE_VALLEY = {
         bg_iron_mining = 15
         bg_logging = 28
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8048
 }
@@ -765,6 +776,7 @@ STATE_ANGOR_FORTRESS = {
     capped_resources = {
         bg_iron_mining = 19
         bg_logging = 15
+        building_copper_mine = 10
     }
 }
 
@@ -785,6 +797,7 @@ STATE_ULDAMAN = {
         bg_coal_mining = 12
         bg_iron_mining = 16
         bg_logging = 7
+        building_copper_mine = 8
     }
 }
 
@@ -804,6 +817,7 @@ STATE_DUSTWIND_DIG = {
         bg_iron_mining = 8
         bg_lead_mining = 4
         bg_logging = 15
+        building_copper_mine = 5
     }
 }
 

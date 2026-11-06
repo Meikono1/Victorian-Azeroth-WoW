@@ -6,7 +6,12 @@ je_acw_countdown = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acw_war = {
@@ -14,7 +19,12 @@ je_acw_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acw_reconstruction = {
@@ -22,7 +32,12 @@ je_acw_reconstruction = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acw_reincorporate = {
@@ -30,7 +45,12 @@ je_acw_reincorporate = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acw_equality = {
@@ -38,7 +58,12 @@ je_acw_equality = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acw_wild_wild_west = {
@@ -46,7 +71,12 @@ je_acw_wild_wild_west = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sale_of_alaska = {
@@ -54,7 +84,12 @@ je_sale_of_alaska = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_alaska = {
@@ -62,7 +97,12 @@ je_alaska = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_antarctica = {
@@ -70,7 +110,12 @@ je_antarctica = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_belle_epoque = {
@@ -78,7 +123,12 @@ je_belle_epoque = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_boxer_rebellion = {
@@ -86,39 +136,38 @@ je_boxer_rebellion = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
-je_canada_can = {
+je_canada = {
 	group = je_group_historical_content
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
-je_canada_gbr = {
+je_australia = {
 	group = je_group_historical_content
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_australia_aus = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_australia_gbr = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_suez_survey = {
@@ -126,7 +175,12 @@ je_suez_survey = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_suez_canal = {
@@ -134,7 +188,12 @@ je_suez_canal = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_panama_survey = {
@@ -142,7 +201,12 @@ je_panama_survey = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_panama_canal = {
@@ -150,7 +214,12 @@ je_panama_canal = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_central_africa_expedition = {
@@ -158,7 +227,12 @@ je_central_africa_expedition = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_reunify_central_america = {
@@ -166,7 +240,12 @@ je_reunify_central_america = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_congo_expedition = {
@@ -174,7 +253,12 @@ je_congo_expedition = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_free_state = {
@@ -182,7 +266,12 @@ je_free_state = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_consolidate_colonial_rule = {
@@ -190,7 +279,12 @@ je_consolidate_colonial_rule = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_reform_indies = {
@@ -198,7 +292,12 @@ je_reform_indies = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_ethical_policy = {
@@ -206,7 +305,12 @@ je_ethical_policy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_colonial_administration = {
@@ -214,7 +318,12 @@ je_colonial_administration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_age_of_princes = {
@@ -222,7 +331,12 @@ je_age_of_princes = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_schleswig_holstein_question = {
@@ -230,7 +344,12 @@ je_schleswig_holstein_question = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_german_unification_idea = {
@@ -238,7 +357,12 @@ je_german_unification_idea = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_north_german_unification = {
@@ -246,7 +370,12 @@ je_north_german_unification = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_south_german_unification = {
@@ -254,7 +383,12 @@ je_south_german_unification = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_german_unification = {
@@ -262,7 +396,12 @@ je_german_unification = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_greek_nationalism = {
@@ -270,7 +409,12 @@ je_greek_nationalism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_hawaii = {
@@ -278,7 +422,12 @@ je_hawaii = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_hawaiian_interest = {
@@ -286,7 +435,12 @@ je_hawaiian_interest = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_indian_removal = {
@@ -294,7 +448,12 @@ je_indian_removal = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_risorgimento = {
@@ -302,7 +461,12 @@ je_risorgimento = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_krakatoa = {
@@ -310,7 +474,12 @@ je_krakatoa = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_land_reclamation = {
@@ -318,7 +487,12 @@ je_land_reclamation = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_trans_siberian_railway = {
@@ -326,7 +500,12 @@ je_trans_siberian_railway = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_trans_continental_railway = {
@@ -334,7 +513,12 @@ je_trans_continental_railway = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_canada_pacific_railway = {
@@ -342,7 +526,12 @@ je_canada_pacific_railway = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_manifest_destiny_mexico = {
@@ -350,7 +539,12 @@ je_manifest_destiny_mexico = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_manifest_destiny_frontier_wars = {
@@ -358,7 +552,12 @@ je_manifest_destiny_frontier_wars = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_restoration = {
@@ -366,7 +565,12 @@ je_meiji_restoration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_imperial_marriage = {
@@ -374,7 +578,12 @@ je_meiji_imperial_marriage = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_main = {
@@ -382,7 +591,12 @@ je_meiji_main = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_economy = {
@@ -390,7 +604,12 @@ je_meiji_economy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_army = {
@@ -398,7 +617,12 @@ je_meiji_army = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_meiji_diplomacy = {
@@ -406,7 +630,12 @@ je_meiji_diplomacy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_niger_river_expedition = {
@@ -414,7 +643,12 @@ je_niger_river_expedition = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_opium_obsession = {
@@ -422,7 +656,12 @@ je_opium_obsession = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_opium_wars = {
@@ -430,7 +669,12 @@ je_opium_wars = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_oregon = {
@@ -438,7 +682,12 @@ je_oregon = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_conquer_oregon = {
@@ -446,7 +695,12 @@ je_conquer_oregon = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_patagonia = {
@@ -454,7 +708,12 @@ je_patagonia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_springtime_of_the_peoples = {
@@ -462,7 +721,12 @@ je_springtime_of_the_peoples = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_red_summer = {
@@ -470,7 +734,12 @@ je_red_summer = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_game_control = {
@@ -478,39 +747,12 @@ je_great_game_control = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_secure_persian_border = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_pacify_kazakh_steppes = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_codify_chinese_border = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_consolidate_central_asia = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_chinese_concessions = {
@@ -518,7 +760,12 @@ je_chinese_concessions = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acquire_korean_protectorate = {
@@ -526,7 +773,12 @@ je_acquire_korean_protectorate = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_disrupt_russian_caucasus = {
@@ -534,7 +786,12 @@ je_disrupt_russian_caucasus = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_counter_russian_pacific_influence = {
@@ -542,7 +799,12 @@ je_counter_russian_pacific_influence = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_consolidate_british_india = {
@@ -550,7 +812,12 @@ je_consolidate_british_india = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_pamir_expedition_objective = {
@@ -558,7 +825,12 @@ je_pamir_expedition_objective = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_maintain_afghan_protectorate = {
@@ -566,15 +838,12 @@ je_maintain_afghan_protectorate = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_consolidate_afghanistan_objective = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_secure_influence_over_persia = {
@@ -582,15 +851,12 @@ je_secure_influence_over_persia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_unify_afghanistan_objective = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_consolidate_persia = {
@@ -598,7 +864,12 @@ je_consolidate_persia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_achieve_sovereignty = {
@@ -606,7 +877,12 @@ je_achieve_sovereignty = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_christ_of_nations = {
@@ -614,7 +890,12 @@ je_christ_of_nations = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_poland_lithuania = {
@@ -622,7 +903,12 @@ je_poland_lithuania = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_reunify_china = {
@@ -630,7 +916,38 @@ je_reunify_china = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_rlit_golden_age = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_rlit_crossroads = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_unite_the_principalities = {
@@ -638,7 +955,12 @@ je_unite_the_principalities = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_all_for_one = {
@@ -646,7 +968,12 @@ je_all_for_one = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_scramble_for_africa = {
@@ -654,7 +981,12 @@ je_scramble_for_africa = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_seminole_wars = {
@@ -662,7 +994,12 @@ je_seminole_wars = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_main = {
@@ -670,7 +1007,12 @@ je_sick_man_main = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_syria = {
@@ -678,7 +1020,12 @@ je_sick_man_syria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_egypt = {
@@ -686,7 +1033,12 @@ je_sick_man_egypt = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_economy = {
@@ -694,7 +1046,12 @@ je_sick_man_economy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_education = {
@@ -702,7 +1059,12 @@ je_sick_man_education = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_separatism = {
@@ -710,7 +1072,12 @@ je_sick_man_separatism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_army = {
@@ -718,7 +1085,12 @@ je_sick_man_army = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sick_man_bureaucracy = {
@@ -726,7 +1098,12 @@ je_sick_man_bureaucracy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_chinese_missions = {
@@ -734,7 +1111,12 @@ je_chinese_missions = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_heavenly_kingdom_main = {
@@ -742,7 +1124,12 @@ je_heavenly_kingdom_main = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_taiping = {
@@ -750,7 +1137,12 @@ je_taiping = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_taiping_revolution = {
@@ -758,7 +1150,12 @@ je_taiping_revolution = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_texas_tex = {
@@ -766,7 +1163,12 @@ je_texas_tex = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_texas_usa = {
@@ -774,7 +1176,12 @@ je_texas_usa = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_conference_of_london = {
@@ -782,7 +1189,12 @@ je_conference_of_london = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_unite_the_nations = {
@@ -790,7 +1202,12 @@ je_unite_the_nations = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_veiled_protectorate = {
@@ -798,7 +1215,12 @@ je_veiled_protectorate = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_victoria = {
@@ -806,7 +1228,12 @@ je_victoria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_warlord_china = {
@@ -814,7 +1241,12 @@ je_warlord_china = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_west_america_expedition = {
@@ -822,7 +1254,12 @@ je_west_america_expedition = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_splitting_oman = {
@@ -830,7 +1267,12 @@ je_splitting_oman = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_lion_of_the_zanj = {
@@ -838,7 +1280,12 @@ je_lion_of_the_zanj = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_conquest_of_algeria = {
@@ -846,7 +1293,12 @@ je_conquest_of_algeria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_algerian_departements = {
@@ -854,7 +1306,12 @@ je_the_algerian_departements = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_reconquest_of_algeria = {
@@ -862,7 +1319,12 @@ je_reconquest_of_algeria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_french_foreign_legion = {
@@ -870,7 +1332,12 @@ je_french_foreign_legion = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_dreyfus_affair = {
@@ -878,7 +1345,12 @@ je_dreyfus_affair = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_divided_monarchists = {
@@ -886,7 +1358,12 @@ je_divided_monarchists = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_cement_the_rightful_dynasty = {
@@ -894,7 +1371,12 @@ je_cement_the_rightful_dynasty = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_haitian_debt = {
@@ -902,7 +1384,12 @@ je_haitian_debt = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_indochina = {
@@ -910,7 +1397,12 @@ je_indochina = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_krakow_uprising = {
@@ -918,7 +1410,12 @@ je_the_krakow_uprising = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_french_natural_borders = {
@@ -926,7 +1423,12 @@ je_french_natural_borders = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_confederation_of_the_rhine = {
@@ -934,7 +1436,12 @@ je_confederation_of_the_rhine = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_paris_commune_display = {
@@ -942,23 +1449,25 @@ je_the_paris_commune_display = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
-je_the_paris_commune_france = {
+je_paris_commune = {
 	group = je_group_historical_content
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_the_paris_commune_communards = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_ryukyu_rivalry = {
@@ -966,7 +1475,12 @@ je_ryukyu_rivalry = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_acre_dispute = {
@@ -974,7 +1488,12 @@ je_acre_dispute = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_amazonas = {
@@ -982,7 +1501,12 @@ je_amazonas = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_brazil_navy = {
@@ -990,7 +1514,12 @@ je_brazil_navy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_brazilian_nation_building = {
@@ -998,7 +1527,12 @@ je_brazilian_nation_building = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_aberdeen_act = {
@@ -1006,7 +1540,12 @@ je_aberdeen_act = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_matter_of_slavery = {
@@ -1014,7 +1553,12 @@ je_matter_of_slavery = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_caudillo = {
@@ -1022,7 +1566,12 @@ je_caudillo = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_agricultural_development = {
@@ -1030,7 +1579,12 @@ je_agricultural_development = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_coffee_with_milk = {
@@ -1038,7 +1592,12 @@ je_coffee_with_milk = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_cristo_redentor = {
@@ -1046,7 +1605,12 @@ je_cristo_redentor = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_gran_colombia = {
@@ -1054,7 +1618,12 @@ je_gran_colombia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_la_plata = {
@@ -1062,7 +1631,12 @@ je_la_plata = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_andean_federation = {
@@ -1070,7 +1644,12 @@ je_andean_federation = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_francocracia = {
@@ -1078,7 +1657,12 @@ je_francocracia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_modernizing_paraguay = {
@@ -1086,7 +1670,12 @@ je_modernizing_paraguay = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_expanding_paraguay = {
@@ -1094,7 +1683,12 @@ je_expanding_paraguay = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_paraguayan_war = {
@@ -1102,7 +1696,12 @@ je_paraguayan_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_pedro_brazil = {
@@ -1110,7 +1709,12 @@ je_pedro_brazil = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_pedro_republic = {
@@ -1118,7 +1722,12 @@ je_pedro_republic = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_isabel = {
@@ -1126,7 +1735,12 @@ je_isabel = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_peru_bolivia = {
@@ -1134,7 +1748,12 @@ je_peru_bolivia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_positivist_movement = {
@@ -1142,7 +1761,12 @@ je_positivist_movement = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_south_america_migration = {
@@ -1150,7 +1774,12 @@ je_south_america_migration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_central_america_migration = {
@@ -1158,7 +1787,12 @@ je_central_america_migration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_american_west_migration = {
@@ -1166,7 +1800,12 @@ je_american_west_migration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_south_american_national_identity_emergence = {
@@ -1174,7 +1813,12 @@ je_south_american_national_identity_emergence = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_south_american_national_identity = {
@@ -1182,7 +1826,12 @@ je_south_american_national_identity = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_populist_unrest = {
@@ -1190,7 +1839,12 @@ je_populist_unrest = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_new_republic = {
@@ -1198,7 +1852,12 @@ je_new_republic = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_consolidate_afghanistan = {
@@ -1206,7 +1865,12 @@ je_consolidate_afghanistan = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_unify_afghanistan = {
@@ -1214,7 +1878,12 @@ je_unify_afghanistan = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_eastern_frontier = {
@@ -1222,7 +1891,12 @@ je_eastern_frontier = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_donghak_movement = {
@@ -1230,7 +1904,12 @@ je_donghak_movement = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_gyojo_shinwon = {
@@ -1238,7 +1917,12 @@ je_gyojo_shinwon = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_korean_rebellion = {
@@ -1246,7 +1930,12 @@ je_korean_rebellion = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_eastern_border = {
@@ -1254,7 +1943,12 @@ je_the_eastern_border = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_caucasian_war = {
@@ -1262,7 +1956,12 @@ je_caucasian_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_circassian_expulsions = {
@@ -1270,23 +1969,12 @@ je_circassian_expulsions = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_caucasian_war_circassia = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
-}
-
-je_caucasian_war_imamate = {
-	group = je_group_historical_content
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_pacify_the_steppes = {
@@ -1294,7 +1982,12 @@ je_pacify_the_steppes = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_last_kazakh_khan = {
@@ -1302,7 +1995,12 @@ je_the_last_kazakh_khan = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_conquest_of_central_asia = {
@@ -1310,7 +2008,12 @@ je_conquest_of_central_asia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_reformer = {
@@ -1318,7 +2021,12 @@ je_great_reformer = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_reforms_serfdom = {
@@ -1326,7 +2034,12 @@ je_great_reforms_serfdom = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_reforms_military = {
@@ -1334,7 +2047,12 @@ je_great_reforms_military = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_reforms_bureaucratic = {
@@ -1342,7 +2060,12 @@ je_great_reforms_bureaucratic = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_tibet_expedition = {
@@ -1350,7 +2073,12 @@ je_tibet_expedition = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_communal_divides = {
@@ -1358,7 +2086,12 @@ je_communal_divides = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_dravidian_movement = {
@@ -1366,7 +2099,12 @@ je_dravidian_movement = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_imperialism_of_promise = {
@@ -1374,7 +2112,12 @@ je_imperialism_of_promise = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_british_dictate_plantations = {
@@ -1382,7 +2125,12 @@ je_british_dictate_plantations = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_british_dictate_military = {
@@ -1390,7 +2138,12 @@ je_british_dictate_military = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_british_dictate_law = {
@@ -1398,7 +2151,12 @@ je_british_dictate_law = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_british_dictate_universities = {
@@ -1406,7 +2164,12 @@ je_british_dictate_universities = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_india_home_rule = {
@@ -1414,7 +2177,12 @@ je_india_home_rule = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_india_nationalism_britain = {
@@ -1422,7 +2190,12 @@ je_india_nationalism_britain = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_india_nationalism = {
@@ -1430,7 +2203,12 @@ je_india_nationalism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_india_non_cooperation_movement = {
@@ -1438,7 +2216,12 @@ je_india_non_cooperation_movement = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_india_railway = {
@@ -1446,7 +2229,12 @@ je_india_railway = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_indian_famines = {
@@ -1454,7 +2242,12 @@ je_indian_famines = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_federation_of_india = {
@@ -1462,7 +2255,12 @@ je_federation_of_india = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_mughal_hindustan = {
@@ -1470,7 +2268,12 @@ je_mughal_hindustan = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_princely_states = {
@@ -1478,7 +2281,12 @@ je_princely_states = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_uneasy_raj = {
@@ -1486,7 +2294,12 @@ je_uneasy_raj = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sepoy_mutiny = {
@@ -1494,7 +2307,12 @@ je_sepoy_mutiny = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sikh_sovereignty = {
@@ -1502,7 +2320,12 @@ je_sikh_sovereignty = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_victoria_terminus = {
@@ -1510,7 +2333,12 @@ je_victoria_terminus = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_matter_of_hungary = {
@@ -1518,7 +2346,12 @@ je_matter_of_hungary = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_austrian_neo_absolutism = {
@@ -1526,7 +2359,12 @@ je_austrian_neo_absolutism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_standestaat = {
@@ -1534,7 +2372,12 @@ je_standestaat = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_balkan_national_awakenings = {
@@ -1542,7 +2385,12 @@ je_balkan_national_awakenings = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_balkan_league = {
@@ -1550,7 +2398,12 @@ je_the_balkan_league = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spoils_of_war = {
@@ -1558,7 +2411,12 @@ je_spoils_of_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_prussia_of_the_balkans = {
@@ -1566,7 +2424,12 @@ je_prussia_of_the_balkans = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_yugoslavia = {
@@ -1574,7 +2437,12 @@ je_yugoslavia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_danubian_federation = {
@@ -1582,7 +2450,12 @@ je_danubian_federation = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_danubian_federation_observer = {
@@ -1590,7 +2463,12 @@ je_danubian_federation_observer = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_eastern_question_russia = {
@@ -1598,7 +2476,12 @@ je_eastern_question_russia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_eastern_question_austria = {
@@ -1606,7 +2489,12 @@ je_eastern_question_austria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_great_eastern_crisis = {
@@ -1614,7 +2502,12 @@ je_great_eastern_crisis = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_bavarocracy = {
@@ -1622,7 +2515,12 @@ je_bavarocracy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_hungarian_revolution = {
@@ -1630,7 +2528,12 @@ je_hungarian_revolution = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_metternich = {
@@ -1638,7 +2541,12 @@ je_metternich = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_montenegrin_raiding = {
@@ -1646,7 +2554,12 @@ je_montenegrin_raiding = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_mon_state_formation = {
@@ -1654,7 +2567,12 @@ je_mon_state_formation = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_mon_austria_alliance = {
@@ -1662,7 +2580,12 @@ je_mon_austria_alliance = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_mon_serb_unity = {
@@ -1670,7 +2593,12 @@ je_mon_serb_unity = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_tur_raided = {
@@ -1678,7 +2606,12 @@ je_tur_raided = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_kaiserforum = {
@@ -1686,7 +2619,12 @@ je_kaiserforum = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_serbian_throne = {
@@ -1694,7 +2632,12 @@ je_serbian_throne = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_struggle_for_the_highveld = {
@@ -1702,7 +2645,12 @@ je_struggle_for_the_highveld = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_grand_collapse = {
@@ -1710,7 +2658,12 @@ je_the_grand_collapse = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_cuba_la_vida_dulce = {
@@ -1718,7 +2671,12 @@ je_cuba_la_vida_dulce = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_cuba_espanol = {
@@ -1726,7 +2684,12 @@ je_cuba_espanol = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_cuba_independencia = {
@@ -1734,7 +2697,12 @@ je_cuba_independencia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_la_trinitaria = {
@@ -1742,7 +2710,12 @@ je_la_trinitaria = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_master = {
@@ -1750,7 +2723,12 @@ je_spa_economic_regeneration_master = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_mining = {
@@ -1758,7 +2736,12 @@ je_spa_economic_regeneration_mining = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_light_industry = {
@@ -1766,7 +2749,12 @@ je_spa_economic_regeneration_light_industry = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_land_reform = {
@@ -1774,7 +2762,12 @@ je_spa_economic_regeneration_land_reform = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_railways = {
@@ -1782,7 +2775,12 @@ je_spa_economic_regeneration_railways = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_modernise_agriculture = {
@@ -1790,7 +2788,12 @@ je_spa_economic_regeneration_modernise_agriculture = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spa_economic_regeneration_ultramar = {
@@ -1798,7 +2801,12 @@ je_spa_economic_regeneration_ultramar = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_iberia = {
@@ -1806,7 +2814,12 @@ je_iberia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sagrada_familia = {
@@ -1814,7 +2827,12 @@ je_sagrada_familia = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_pena_palace = {
@@ -1822,7 +2840,12 @@ je_pena_palace = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_gran_teatro = {
@@ -1830,7 +2853,12 @@ je_gran_teatro = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_atocha_railway = {
@@ -1838,7 +2866,12 @@ je_atocha_railway = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_manila_cathedral = {
@@ -1846,7 +2879,12 @@ je_manila_cathedral = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_vernacular_policy = {
@@ -1854,7 +2892,12 @@ je_vernacular_policy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_and_brazil = {
@@ -1862,7 +2905,12 @@ je_portugal_and_brazil = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_united_kingdom = {
@@ -1870,7 +2918,12 @@ je_portugal_united_kingdom = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_lands_of_anarchy = {
@@ -1878,7 +2931,12 @@ je_lands_of_anarchy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_philippines_development = {
@@ -1886,7 +2944,12 @@ je_philippines_development = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_philippines_main = {
@@ -1894,7 +2957,12 @@ je_philippines_main = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_filipino_ethnogenesis = {
@@ -1902,7 +2970,12 @@ je_filipino_ethnogenesis = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_devorismo = {
@@ -1910,7 +2983,12 @@ je_devorismo = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_second_liberalism = {
@@ -1918,7 +2996,12 @@ je_second_liberalism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_regeneration = {
@@ -1926,7 +3009,12 @@ je_portugal_regeneration = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_regeneration_public_works = {
@@ -1934,7 +3022,12 @@ je_portugal_regeneration_public_works = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_regeneration_agriculture = {
@@ -1942,7 +3035,12 @@ je_portugal_regeneration_agriculture = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portugal_regeneration_institutions = {
@@ -1950,7 +3048,12 @@ je_portugal_regeneration_institutions = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_portuguese_colonialism = {
@@ -1958,7 +3061,12 @@ je_portuguese_colonialism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_pink_map = {
@@ -1966,7 +3074,12 @@ je_the_pink_map = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spain_provisional_government = {
@@ -1974,7 +3087,12 @@ je_spain_provisional_government = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spain_glorious_revolution_dummy = {
@@ -1982,7 +3100,12 @@ je_spain_glorious_revolution_dummy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_conquest_of_tetouan = {
@@ -1990,7 +3113,12 @@ je_conquest_of_tetouan = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_western_saharan_conquest = {
@@ -1998,7 +3126,12 @@ je_western_saharan_conquest = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_guinean_conquest = {
@@ -2006,7 +3139,12 @@ je_guinean_conquest = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_moroccan_conquest = {
@@ -2014,7 +3152,12 @@ je_moroccan_conquest = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spanish_anarchism = {
@@ -2022,7 +3165,12 @@ je_spanish_anarchism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spanish_new_world_dummy = {
@@ -2030,7 +3178,12 @@ je_spanish_new_world_dummy = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_reconquista = {
@@ -2038,7 +3191,12 @@ je_reconquista = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_hispanoamerica = {
@@ -2046,7 +3204,12 @@ je_hispanoamerica = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_spanish_american_independence = {
@@ -2054,7 +3217,12 @@ je_spanish_american_independence = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_first_carlist_war = {
@@ -2062,7 +3230,12 @@ je_the_first_carlist_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_the_two_spains = {
@@ -2070,7 +3243,12 @@ je_the_two_spains = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_taming_the_north = {
@@ -2078,7 +3256,12 @@ je_taming_the_north = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_iwakura_mission = {
@@ -2086,7 +3269,12 @@ je_iwakura_mission = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_shinbutsu_bunri = {
@@ -2094,7 +3282,12 @@ je_shinbutsu_bunri = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_elevate_buddhism = {
@@ -2102,7 +3295,12 @@ je_elevate_buddhism = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_colonize_korea = {
@@ -2110,7 +3308,12 @@ je_colonize_korea = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_sakoku = {
@@ -2118,7 +3321,12 @@ je_sakoku = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_tenpo_crisis = {
@@ -2126,7 +3334,12 @@ je_tenpo_crisis = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_zaibatsu = {
@@ -2134,7 +3347,467 @@ je_zaibatsu = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_bolsheviks = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_ukraine_cultural_renaissance = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_belarus_cultural_renaissance = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_congress_poland = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_russia_provisional_government = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_russia_civil_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_russification = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_russian_revolution = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tsarpoints_master = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_tsar_gendarme_of_europe = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_tsar_great_reform = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_tsar_crown_of_perfection = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_tsar_unshakable_autocracy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_tsar_heir_of_alexander = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_establish_duma = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_bureaucratic_reform = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_educational_reform = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_citizenship_reform = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_decrease_landowner_influence = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_abolish_duma = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_secret_police = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_suppress_revolts = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_develop_capital = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_cultural_dominance = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_develop_frontier = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_build_army = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_pool_build_navy = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_finance = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_parochial = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_industry = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_social_justice = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_bootlicker = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_rasputin = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_worldwide = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
+}
+
+je_tp_fav_war = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }
 
 je_global_test = {
@@ -2142,5 +3815,10 @@ je_global_test = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = { always = no }
 	possible = { always = no }
-	invalid = { always = yes }
+	disable_evaluation = { always = yes }
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { always = yes }
+	}
 }

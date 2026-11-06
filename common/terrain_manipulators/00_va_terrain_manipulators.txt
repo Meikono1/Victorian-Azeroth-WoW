@@ -1,0 +1,16 @@
+﻿# Todesschneise als Terrain-Manipulator (VA-062): building_va_dead_scar wandelt die Provinzen unter
+# der Schneise (in mask_dynamic_mining, .claude/tools/va_scar_mask.py) in va_dead_scar_land um; weniger Stufen = kleinere Schneise.
+# Vorbild: Vanilla forestry/urban_city (common/terrain_manipulators/01_terrain_manipulators.txt).
+# Dateiname mit 00_, damit er vor Vanilla 01_terrain_manipulators.txt lädt: Versuch, ob die Lade-Reihenfolge entscheidet,
+# wer eine Provinz bekommt (Bergbau-Gebäude wie building_leyline_tap belegten Schneisen-Provinzen, VA-062).
+va_dead_scar = {
+	created_terrain = va_dead_scar_land
+	terrain_mask = "mask_dynamic_mining" # eigene Masken-Schlüssel kennt das Spiel nicht (VA-062), daher geteilt mit den Minen
+	city_type = city
+	toggle_map_object_layers = {
+		# Bäume und Kleinkram verschwinden auf der Schneise
+		"semidynamic" = { show_below = 0.3 }
+		"semidynamic_medium" = { show_below = 0.2 }
+		"semidynamic_high" = { show_below = 0.1 }
+	}
+}

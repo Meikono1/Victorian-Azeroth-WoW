@@ -15,6 +15,7 @@ GLOBAL = {
 		}
 		va_update_dead_scar_effect = yes
 	}
+	va_update_deathholme_scourge_effect = yes # Buff ab Tag 1 (VA-062)
 
 	# Mana-Abhängigkeit ab Tag 1 sichtbar (VA-019)
 	every_country = {
@@ -28,7 +29,7 @@ GLOBAL = {
 	# Todesschneise heilen: jedes Land mit State auf der Schneise und Quinine (VA-046, Kono 2026-11-01)
 	every_country = {
 		limit = {
-			any_scope_state = { va_state_on_dead_scar_trigger = yes }
+			any_scope_state = { va_state_on_healable_dead_scar_trigger = yes } # ohne Deathholme (VA-062)
 			has_technology_researched = quinine
 			NOT = { has_journal_entry = je_va_dead_scar } # on_state_created war schneller (error.log 01.11.)
 		}

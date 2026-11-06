@@ -41,7 +41,7 @@ achievement_im_feeling_hungary = {
 		}
 		custom_tooltip = {
 			text = achievement_not_a_subject_tt
-			is_subject = no
+			is_independent_and_not_being_subjugated = yes
 		}
 	}
 }
@@ -173,7 +173,7 @@ achievement_exactly_100 = { # If I were braver, I'd make the key all caps too.
 	happened = {
 		custom_tooltip = {
 			text = achievement_not_a_subject_tt
-			is_subject = no
+			is_independent_and_not_being_subjugated = yes
 		}
 		custom_tooltip = {
 			text = achievement_exactly_100_tt

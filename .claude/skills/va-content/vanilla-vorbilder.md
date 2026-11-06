@@ -83,3 +83,4 @@ Neues Vorbild gefunden → hier eintragen (Pflege durch Claude).
 | Charakter-Vorlage Agitator / General | `common/character_templates/country_arg.txt`, `country_ald.txt` | `is_agitator = yes` mit `ideology`, `is_general = yes`; erzeugen per `create_character = { template = … }` in `history/characters`, finden per `has_template` |
 | Land abspalten und zurückerobern | `events/brazil/brazilian_minors.txt`, `events/british_raj_events.txt` | `create_country = { tag origin state on_created }`, danach `create_diplomatic_play = { target_country type = dp_annex_war handle_annexation_as_civil_war = yes }` |
 | Verwüstung | `events/paris_commune_events.txt` | `add_devastation = 30` (State oder State-Region) |
+| Gebäude färbt Provinzen um | `common/terrain_manipulators/01_terrain_manipulators.txt`, `buildings/09_misc_resource.txt` | `terrain_manipulator`, `created_terrain`, `created_material` im Gelände (VA-062) |

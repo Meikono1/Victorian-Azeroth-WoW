@@ -21,3 +21,14 @@ va_dead_scar_land_restored = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
 	country_prestige_add = 50
 }
+
+# Deathholme zieht Kraft aus der Schneise (Kono 2026-11-06, VA-062): Werte je noch verdorbener Region (ohne Deathholme),
+# vergeben mit multiplier = va_dead_scar_cursed_regions (bis 5 Regionen). Angriff bewusst klein: Deathholme soll sich nicht ausbreiten (Kono).
+# Vorbild: Vanilla in_default (00_code_static_modifiers.txt) mit unit_*_mult und building_throughput_add auf Landesebene.
+va_deathholme_scourge_tide = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_offense_mult = 0.04
+	unit_defense_mult = 0.08 # verdoppelt (Kono 2026-11-06)
+	unit_morale_recovery_mult = 0.05
+	building_throughput_add = 0.06 # verdreifacht (Kono 2026-11-06)
+}

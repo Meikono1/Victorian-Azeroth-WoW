@@ -14,3 +14,10 @@ peoples_springtime.6 = {
 	trigger = { always = no }
 	weight_multiplier = { factor = 0 }
 }
+
+peoples_springtime.10 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

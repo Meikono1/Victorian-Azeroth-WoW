@@ -12,7 +12,6 @@ je_va_dead_scar = {
 	scripted_progress_bar = va_dead_scar_bar_west_sanctum
 	scripted_progress_bar = va_dead_scar_bar_east_sanctum
 	scripted_progress_bar = va_dead_scar_bar_tranquillien
-	scripted_progress_bar = va_dead_scar_bar_deathholme
 
 	scripted_button = va_dead_scar_start_sunwell_plateau_button
 	scripted_button = va_dead_scar_stop_sunwell_plateau_button
@@ -24,16 +23,14 @@ je_va_dead_scar = {
 	scripted_button = va_dead_scar_stop_east_sanctum_button
 	scripted_button = va_dead_scar_start_tranquillien_button
 	scripted_button = va_dead_scar_stop_tranquillien_button
-	scripted_button = va_dead_scar_start_deathholme_button
-	scripted_button = va_dead_scar_stop_deathholme_button
 
 	# Quinine-Sperre (Kono 2026-11-01): hier nötig, weil Vic3 das JE sonst selbst aktiviert, sobald possible erfüllt ist
 	is_shown_when_inactive = {
-		any_scope_state = { va_state_on_dead_scar_trigger = yes }
+		any_scope_state = { va_state_on_healable_dead_scar_trigger = yes } # Deathholme heilt nicht per Ritual (VA-062)
 	}
 
 	possible = {
-		any_scope_state = { va_state_on_dead_scar_trigger = yes }
+		any_scope_state = { va_state_on_healable_dead_scar_trigger = yes }
 		has_technology_researched = quinine
 	}
 
@@ -43,35 +40,43 @@ je_va_dead_scar = {
 		}
 	}
 
-	complete = {
-		custom_tooltip = {
-			text = je_va_dead_scar_complete_tt
-			NOT = {
-				any_state = { va_state_on_dead_scar_trigger = yes }
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			custom_tooltip = {
+				text = je_va_dead_scar_complete_tt
+				NOT = {
+					any_state = { va_state_on_dead_scar_trigger = yes }
+				}
 			}
 		}
-	}
-
-	on_complete = {
-		add_modifier = {
-			name = va_dead_scar_land_restored
-			years = 20
-		}
-		trigger_event = { id = dead_scar_events.2 popup = yes }
-	}
-
-	invalid = {
-		custom_tooltip = {
-			text = je_va_dead_scar_invalid_tt
-			NOT = { any_scope_state = { va_state_on_dead_scar_trigger = yes } }
+		effect = {
+			add_modifier = {
+				name = va_dead_scar_land_restored
+				years = 20
+			}
+			trigger_event = { id = dead_scar_events.2 popup = yes }
 		}
 	}
 
-	on_invalid = {
-		# Ritual Sites außerhalb der Schneise gibt es nicht; Abriss nur zur Sicherheit
-		every_scope_state = {
-			limit = { has_building = building_va_scar_ward }
-			remove_building = building_va_scar_ward
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			custom_tooltip = {
+				text = je_va_dead_scar_invalid_tt
+				NOT = { any_scope_state = { va_state_on_healable_dead_scar_trigger = yes } }
+			}
+		}
+		effect = {
+			# Ritual Sites außerhalb der Schneise gibt es nicht; Abriss nur zur Sicherheit
+			every_scope_state = {
+				limit = { has_building = building_va_scar_ward }
+				remove_building = building_va_scar_ward
+			}
 		}
 	}
 

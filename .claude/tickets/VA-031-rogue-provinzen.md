@@ -1,6 +1,6 @@
-# VA-031: Rogue-Provinzen im Süden entfernen oder wiederverwenden
+﻿# VA-031: Rogue-Provinzen im Süden entfernen oder wiederverwenden
 
-- **Status:** offen
+- **Status:** in Arbeit
 - **Typ:** technik
 - **Priorität:** mittel
 - **Erstellt:** 2026-10-30
@@ -54,3 +54,10 @@ Offen: `nodes.dat` (11 MB, vom Editor erzeugt) ändert sich bei Kono-Bearbeitung
 **Freigabe nötig:** provinces.png ist eine große Binärdatei (Projektregel: nur auf ausdrücklichen Wunsch). Kono entscheidet, ob Claude das Skript ausführt.
 
 ## Notizen
+- 2026-11-06: Dolanaar sollte keinen Hafen haben, war aber über seine Splitter im Haufen Küsten-State (8 passierbare Provinzen am Meer `x48FDFD`). Zwischenlösung (die 8 als `impassable` eintragen) auf Konos Wunsch wieder zurückgenommen. Vanilla-Nachweis: Kolyma grenzt nur über impassable Provinzen ans Meer und hat keinen Hafen, Kalmykia grenzt nur an einen `lakes`-See und hat keinen Hafen. Dasselbe Problem haben vermutlich alle 15 Nord-Kalimdor-States mit Splittern; beim Aufräumen verschwindet es.
+- 2026-11-06 (Kono: „von den States lösen, Pixel bleiben, keine Pop-/Gebäude-Anpassung“): Nur Nord-Kalimdor. 322 Haufen-Provinzen (alle ≤ 53 Pixel) aus `provinces`/`impassable` der 15 States in `23_va_north_kalimdor.txt` und 341 aus `owned_provinces` in `VA_kalimdor_states.txt` entfernt; leere `create_state` von EXODAR in STATE_NESTLEWOOD_HILLS gelöscht (Pops/Gebäude bleiben, Kono). Hubs **nicht** verschoben.
+  - **Stolperfalle:** Die Wandering Isles (Pandaria: Shang Xi, Wu-Song, Singing Pools …) liegen direkt neben dem Haufen (y bis ~3200). Ein zu großes Suchfenster hat sie mitgenommen; zurückgenommen. Pandaria nie zum Haufen zählen.
+  - Offen: Hubs, die noch auf entfernte Provinzen zeigen (Shadowglen mine; Dolanaar city/mine/wood; Gnarlpine city/farm/mine; Darnassus mine; Stillpine farm/port; Exodar mine; Azure Watch wood/port; Bristlelimb farm/port; Silvermyst mine; Odesyus farm; Nestlewood farm/wood) → Kono entscheidet; `capital_province` Teldrassil-Strategieregion = xD60BDF (im Haufen). Pixel und `province_terrains.txt` noch da. Test: T-109.
+- 2026-11-06 Hafen-Rätsel: Dolanaar und Gnarlpine Hold blieben hafenfähig, Shadowglen und Oracle Glade nicht (alle nur über impassable Provinzen am Teldrassil-Meer). Einziger gemeinsamer Unterschied: Stadt-Hub (und weitere Hubs) im Haufen. Kono: nach Annexion (kein Split-State mehr) stimmt es. Test: sechs Hubs der beiden States auf Teldrassil gesetzt (T-109). Ergebnis: weiterhin Hafen. Danach `capital_province` der Teldrassil-Strategieregion xD60BDF → xD950C5 (neuer Dolanaar-Stadt-Hub).
+- 2026-11-06: Oracle Glade nach Kono-Vorgabe neu geteilt (T-110): 14 südliche Provinzen an DARNASSUS (10 + Abrundung x3FF213 xABDF84 xEC3DB7 x365308), Rest an BLOODFEATHER_HARPY.
+

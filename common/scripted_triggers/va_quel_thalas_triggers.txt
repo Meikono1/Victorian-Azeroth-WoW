@@ -4,3 +4,10 @@
 va_state_on_dead_scar_trigger = {
 	state_region = { has_variable = va_dead_scar_region }
 }
+
+# State-Scope: Schneisen-State, den ein Ritual heilen kann. Deathholme nicht: dort hält der Fluch, solange eine andere
+# Region verdorben ist, und weicht dann von selbst (va_update_deathholme_scourge_effect, Kono 2026-11-06, VA-062).
+va_state_on_healable_dead_scar_trigger = {
+	va_state_on_dead_scar_trigger = yes
+	NOT = { state_region = s:STATE_DEATHHOLME }
+}

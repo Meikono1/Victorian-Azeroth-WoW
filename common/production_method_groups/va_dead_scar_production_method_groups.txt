@@ -5,3 +5,11 @@ pmg_base_building_va_scar_ward = {
 		pm_ritual_circles_building_va_scar_ward
 	}
 }
+
+# PM-Gruppe der Todesschneise (VA-062). Vorbild: Vanilla pmg_base_building_power_bloc_statue.
+pmg_base_building_va_dead_scar = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_blight_building_va_dead_scar
+	}
+}

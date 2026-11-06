@@ -1,4 +1,4 @@
-# VA-019: Quel'Thalas – Mana und Todesschneise (Grundbausteine)
+﻿# VA-019: Quel'Thalas – Mana und Todesschneise (Grundbausteine)
 
 - **Status:** wartet (Spieltest)
 - **Typ:** content
@@ -83,3 +83,4 @@ Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
 - 2026-10-30: JE läuft (Kono, Highvale in „Mana Withdrawal“). Tooltip „culture_this_equal has no localization“ behoben: `va_country_mana_dependent_trigger` und `va_state_undead_majority_trigger` in `custom_tooltip` gekapselt (Loc `_tt`, AI WRITTEN). Regel für künftige Listen-Trigger mit `this = cu:`: immer per `custom_tooltip` kapseln, wenn sie in JE/Entscheidung sichtbar sind.
 - **Stand zum Session-Schnitt (2026-10-30):** VA-019 inhaltlich fertig (Mana-Gut, Leylinien, Obsession als Stimulans, Start-Tap, Todesschneise, Mana-JE). Offen: Spieltests T-041, T-043, T-045, T-047 (Tooltip), T-048; danach Ticket auf `erledigt`. Nächste Content-Schritte laut Fokus: VA-020 (übrige Silvermoon-Ziele, Ablauf in `.claude/ablauf/silvermoon.md`), optional Erklär-Event beim ersten „Mana Withdrawal“.
 - 2026-11-03: Doppelte Vergabe von `je_mana_hunger` am Starttag (17× im error.log) behoben: Abfrage `NOT = { has_journal_entry = je_mana_hunger }` in `va_global_quel_thalas.txt` (VA-043, Test T-081).
+- 2026-11-06, Kono: Ausbaustufen für den Ley Line Tap. Basis-PMG: Focus Crystals (Start, 5 Werkzeug → 20 Mana), Arcane Conduits (`atmospheric_engine`, 10 Werkzeug → 40), Runic Resonators (`electrical_generation`, 10 Werkzeug + 10 Strom → 65). Neue PMG `pmg_attunement_building_leyline_tap`: No Attunement / Arcane Sigils (`empiricism`, 5 Papier → +15 Mana). Werte und Vanilla-Techs sind Platzhalter (TODO), Mana wird später ausgearbeitet. Icons in VA-027. T-108.

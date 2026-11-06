@@ -116,3 +116,7 @@ geographic_region_bombay_madras_line = {
 geographic_region_gujarat_bombay_line = {
 	short_key = "gujarat_bombay_line"
 }
+
+geographic_region_qing_empire = {
+	short_key = "qing_empire"
+}

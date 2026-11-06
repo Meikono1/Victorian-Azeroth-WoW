@@ -1,0 +1,26 @@
+﻿# Anzahl der noch verdorbenen Regionen der Todesschneise ohne Deathholme (VA-062), erzeugt von .claude/tools/va_gen_dead_scar.py.
+# Vorbild: Vanilla script_values mit if/add (z. B. common/script_values/00_infamy_values.txt).
+
+va_dead_scar_cursed_regions = {
+	value = 0
+	if = {
+		limit = { s:STATE_SUNWELL_PLATEAU = { has_variable = va_dead_scar_region } }
+		add = 1
+	}
+	if = {
+		limit = { s:STATE_RUINS_OF_SILVERMOON = { has_variable = va_dead_scar_region } }
+		add = 1
+	}
+	if = {
+		limit = { s:STATE_WEST_SANCTUM = { has_variable = va_dead_scar_region } }
+		add = 1
+	}
+	if = {
+		limit = { s:STATE_EAST_SANCTUM = { has_variable = va_dead_scar_region } }
+		add = 1
+	}
+	if = {
+		limit = { s:STATE_TRANQUILLIEN = { has_variable = va_dead_scar_region } }
+		add = 1
+	}
+}

@@ -1,5 +1,6 @@
 ﻿# Monatsprüfung der Todesschneisen-Heilung (VA-046), erzeugt von .claude/tools/va_gen_dead_scar.py.
 # Country-Scope aus je_va_dead_scar (on_monthly_pulse). Voller Balken + Region noch verdorben → Ritual Site weg, Region heilen, Event.
+# Dazwischen schrumpft building_va_dead_scar mit dem Balken (VA-062).
 # Vorbild: Balkenabfrage wie Vanilla je_expedition (00_antarctica.txt).
 
 va_dead_scar_heal_pulse_effect = {
@@ -27,6 +28,28 @@ va_dead_scar_heal_pulse_effect = {
 		}
 		trigger_event = { id = dead_scar_events.1 popup = yes }
 	}
+	every_scope_state = {
+		limit = {
+			state_region = s:STATE_SUNWELL_PLATEAU
+			has_building = building_va_dead_scar
+		}
+		if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_sunwell_plateau)" >= 16 } }
+			va_dead_scar_set_level_effect = { level = 20 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_sunwell_plateau)" >= 12 } }
+			va_dead_scar_set_level_effect = { level = 40 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_sunwell_plateau)" >= 8 } }
+			va_dead_scar_set_level_effect = { level = 60 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_sunwell_plateau)" >= 4 } }
+			va_dead_scar_set_level_effect = { level = 80 }
+		}
+	}
 	if = {
 		limit = {
 			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 20 }
@@ -50,6 +73,28 @@ va_dead_scar_heal_pulse_effect = {
 			va_heal_dead_scar_state_effect = yes
 		}
 		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	every_scope_state = {
+		limit = {
+			state_region = s:STATE_RUINS_OF_SILVERMOON
+			has_building = building_va_dead_scar
+		}
+		if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 16 } }
+			va_dead_scar_set_level_effect = { level = 20 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 12 } }
+			va_dead_scar_set_level_effect = { level = 40 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 8 } }
+			va_dead_scar_set_level_effect = { level = 60 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_ruins_of_silvermoon)" >= 4 } }
+			va_dead_scar_set_level_effect = { level = 80 }
+		}
 	}
 	if = {
 		limit = {
@@ -75,6 +120,28 @@ va_dead_scar_heal_pulse_effect = {
 		}
 		trigger_event = { id = dead_scar_events.1 popup = yes }
 	}
+	every_scope_state = {
+		limit = {
+			state_region = s:STATE_WEST_SANCTUM
+			has_building = building_va_dead_scar
+		}
+		if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_west_sanctum)" >= 16 } }
+			va_dead_scar_set_level_effect = { level = 20 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_west_sanctum)" >= 12 } }
+			va_dead_scar_set_level_effect = { level = 40 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_west_sanctum)" >= 8 } }
+			va_dead_scar_set_level_effect = { level = 60 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_west_sanctum)" >= 4 } }
+			va_dead_scar_set_level_effect = { level = 80 }
+		}
+	}
 	if = {
 		limit = {
 			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 20 }
@@ -98,6 +165,28 @@ va_dead_scar_heal_pulse_effect = {
 			va_heal_dead_scar_state_effect = yes
 		}
 		trigger_event = { id = dead_scar_events.1 popup = yes }
+	}
+	every_scope_state = {
+		limit = {
+			state_region = s:STATE_EAST_SANCTUM
+			has_building = building_va_dead_scar
+		}
+		if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 16 } }
+			va_dead_scar_set_level_effect = { level = 20 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 12 } }
+			va_dead_scar_set_level_effect = { level = 40 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 8 } }
+			va_dead_scar_set_level_effect = { level = 60 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_east_sanctum)" >= 4 } }
+			va_dead_scar_set_level_effect = { level = 80 }
+		}
 	}
 	if = {
 		limit = {
@@ -123,28 +212,83 @@ va_dead_scar_heal_pulse_effect = {
 		}
 		trigger_event = { id = dead_scar_events.1 popup = yes }
 	}
-	if = {
+	every_scope_state = {
 		limit = {
-			scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_deathholme)" >= 20 }
-			any_scope_state = {
-				state_region = s:STATE_DEATHHOLME
-				va_state_on_dead_scar_trigger = yes
-			}
+			state_region = s:STATE_TRANQUILLIEN
+			has_building = building_va_dead_scar
 		}
-		random_scope_state = {
+		if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_tranquillien)" >= 16 } }
+			va_dead_scar_set_level_effect = { level = 20 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_tranquillien)" >= 12 } }
+			va_dead_scar_set_level_effect = { level = 40 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_tranquillien)" >= 8 } }
+			va_dead_scar_set_level_effect = { level = 60 }
+		}
+		else_if = {
+			limit = { scope:journal_entry = { "scripted_bar_progress(va_dead_scar_bar_tranquillien)" >= 4 } }
+			va_dead_scar_set_level_effect = { level = 80 }
+		}
+	}
+}
+
+# Ohne Scope (on_monthly_pulse, Start, nach jeder Heilung). Zähler: Script-Wert va_dead_scar_cursed_regions.
+# Vorbild: add_modifier mit multiplier wie Vanilla raid_target (scripted_effects/00_chris_scripted_effects.txt).
+va_update_deathholme_scourge_effect = {
+	c:DEATHHOLME ?= {
+		if = {
+			limit = { has_modifier = va_deathholme_scourge_tide }
+			remove_modifier = va_deathholme_scourge_tide
+		}
+		if = {
 			limit = {
-				state_region = s:STATE_DEATHHOLME
-				va_state_on_dead_scar_trigger = yes
+				va_dead_scar_cursed_regions > 0
+				s:STATE_DEATHHOLME = { has_variable = va_dead_scar_region }
 			}
-			save_scope_as = va_healed_state
+			add_modifier = {
+				name = va_deathholme_scourge_tide
+				multiplier = va_dead_scar_cursed_regions
+			}
 		}
-		scope:va_healed_state = {
+	}
+	if = {
+		limit = { s:STATE_DEATHHOLME = { has_variable = va_dead_scar_region } }
+		if = {
+			limit = { va_dead_scar_cursed_regions = 0 }
+			s:STATE_DEATHHOLME = { remove_variable = va_dead_scar_region }
+			every_state = {
+				limit = { state_region = s:STATE_DEATHHOLME }
+				va_update_dead_scar_effect = yes
+			}
+		}
+		else = {
+			# Schneise in Deathholme schrumpft mit: 20 Stufen je verdorbener Region
+			every_state = {
+				limit = {
+					state_region = s:STATE_DEATHHOLME
+					has_building = building_va_dead_scar
+				}
 			if = {
-				limit = { has_building = building_va_scar_ward }
-				remove_building = building_va_scar_ward
+				limit = { va_dead_scar_cursed_regions <= 1 }
+				va_dead_scar_set_level_effect = { level = 20 }
 			}
-			va_heal_dead_scar_state_effect = yes
+			else_if = {
+				limit = { va_dead_scar_cursed_regions <= 2 }
+				va_dead_scar_set_level_effect = { level = 40 }
+			}
+			else_if = {
+				limit = { va_dead_scar_cursed_regions <= 3 }
+				va_dead_scar_set_level_effect = { level = 60 }
+			}
+			else_if = {
+				limit = { va_dead_scar_cursed_regions <= 4 }
+				va_dead_scar_set_level_effect = { level = 80 }
+			}
+			}
 		}
-		trigger_event = { id = dead_scar_events.1 popup = yes }
 	}
 }

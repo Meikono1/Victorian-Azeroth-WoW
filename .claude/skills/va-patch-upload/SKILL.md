@@ -39,6 +39,10 @@ Vorgehen beim Vergleich mit Vanilla: per `git diff --no-index <alt> <neu>` bzw. 
 
 Git bleibt dabei tabu für schreibende Aktionen (Commit, Tag macht Kono).
 
+## Stolperfalle: Reihenfolge beim Abschalten
+
+- Nach `va_common_folders.py common/journal_entries --stubs` zuerst `va_gen_earth_je_stubs.py --apply`, **dann** `va_events.py --stubs`. Sonst gelten allgemeine Events, die neue Erde-JEs nur erwähnen, als Erde und werden mit abgeschaltet (1.15: Revolutionen, Industrieunfälle, Lobbys, Gesellschafts-Technik). Neue Event-Stubs immer gegen die Liste prüfen, bevor sie bleiben.
+
 ## Stolperfalle: alte Grafik-Kopien
 
 - Vollkopien unter `gfx/map/` (z. B. `army_dioramas`, `front_entities`, `fleet_dioramas`) überdecken neue Vanilla-Stände und lassen nach Patches Soldaten bzw. Schiffe verschwinden (VA-058). Bei jedem Patch `gfx/map/`-Kopien gegen Vanilla diffen; ohne Mod-Inhalt löschen (auch in `mod\warcraft`).

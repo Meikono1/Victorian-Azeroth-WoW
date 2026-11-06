@@ -22,7 +22,7 @@ log = logging.getLogger("va_gen_earth_je_stubs")
 
 FOLDER = "common/journal_entries"
 OUT = REPO / FOLDER / "va_earth_je_stubs.txt"
-JE = re.compile(r'^\W*(je_\w+)\s*=\s*\{', re.M)
+JE = re.compile(r'^﻿?(je_\w+)\s*=\s*\{', re.M)  # nur erste Spalte; eingerückt sind Effekte wie je_tsarpoints_add_partial (1.15)
 STUB_LIMIT = 200  # Bytes; kleinere Mod-Dateien gelten als Abschalt-Stub
 GROUP = "je_group_historical_content"
 TEMPLATE = """
@@ -31,9 +31,16 @@ TEMPLATE = """
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	is_shown_when_inactive = {{ always = no }}
 	possible = {{ always = no }}
-	invalid = {{ always = yes }}
+	disable_evaluation = {{ always = yes }}
+	outcome = {{
+		flags = {{ hidden invalid_outcome }}
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {{ always = yes }}
+	}}
 }}
 """
+# Seit 1.15 ersetzt `outcome` die Blöcke complete/fail/invalid/timeout (Vanilla journal_entries.md). Die Hülle wird per
+# disable_evaluation nie geprüft; kommt sie doch per add_journal_entry, endet sie sofort still (Vorbild 00_abolish_monarchy.txt).
 
 
 def keys(path):

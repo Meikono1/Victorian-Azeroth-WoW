@@ -49,6 +49,10 @@ geographic_region_northern_mexico = {
 	short_key = "northern_mexico"
 }
 
+geographic_region_north_andes = {
+	short_key = "north_andes"
+}
+
 geographic_region_latin_america = {
 	short_key = "latin_america"
 }
@@ -57,8 +61,8 @@ geographic_region_greater_canada = {
 	short_key = "greater_canada"
 }
 
-geographic_region_north_andes = {
-	short_key = "north_andes"
+geographic_region_canadian_confederation = {
+	short_key = "canadian_confederation"
 }
 
 geographic_region_southern_cone = {

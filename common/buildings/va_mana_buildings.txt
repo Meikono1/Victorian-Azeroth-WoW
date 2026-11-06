@@ -2,14 +2,15 @@
 # Kein unlocking_technologies: Leylinien-Anzapfung ist von Spielbeginn an bekannt.
 building_leyline_tap = {
 	building_group = bg_leyline_tapping
-	icon = "gfx/interface/icons/building_icons/coal_mine.dds" # TODO: eigenes Icon (VA-027)
+	icon = "gfx/interface/icons/building_icons/va_ley_line_tap.dds" # Konos Bild (VA-027)
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
-	terrain_manipulator = mining
+	# kein terrain_manipulator: Bergbau-Optik belegte Provinzen der Todesschneise (gleiche Maske, VA-062, Kono 2026-11-06)
 
 	production_method_groups = {
 		pmg_base_building_leyline_tap
+		pmg_attunement_building_leyline_tap
 	}
 	ownership_type = self
 

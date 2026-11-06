@@ -7,3 +7,10 @@ german_unification.4 = {
 	trigger = { always = no }
 	weight_multiplier = { factor = 0 }
 }
+
+german_unification.6 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}

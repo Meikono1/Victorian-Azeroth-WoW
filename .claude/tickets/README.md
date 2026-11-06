@@ -46,7 +46,7 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-028](VA-028-vulkan-states.md) | Vulkangebiete Azeroths für Naturkatastrophen | content | niedrig | offen |
 | [VA-029](VA-029-start-gebaeude-hungersnot.md) | Ressourcen und Start-Gebäude außerhalb Nord-EK (Hungersnot) | content | hoch | in Arbeit |
 | [VA-030](VA-030-vashjir-provinzen.md) | Vashj'ir – Provinzen neu zeichnen, Ressourcen | grafik | mittel | offen |
-| [VA-031](VA-031-rogue-provinzen.md) | Rogue-Provinzen im Süden entfernen | technik | mittel | offen |
+| [VA-031](VA-031-rogue-provinzen.md) | Rogue-Provinzen im Süden entfernen | technik | mittel | in Arbeit |
 | [VA-032](VA-032-inseln-provinzen-unterteilen.md) | Zandalar, Kul Tiras, Verlorene Inseln, Draenor – Provinzen unterteilen | technik | mittel | offen |
 | [VA-033](VA-033-sued-ek-kartenbefunde.md) | Süd-EK – Hubs und State-History-Provinz bereinigen | bug | niedrig | offen |
 | [VA-034](VA-034-startevent-eventgruppen.md) | Startevent – Event-Übersicht und Zeitplan der Eventgruppen | content | mittel | offen |
@@ -66,7 +66,7 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-048](VA-048-untoten-system.md) | Untoten-System – Status, Ausrottung oder Inklusion | content | hoch | offen |
 | [VA-049](VA-049-bevoelkerung-vielfalt.md) | Bevölkerung weltweit zu eintönig | content | mittel | offen |
 | [VA-050](VA-050-blutelfen-koenigreich.md) | Blutelfen – Gründung eines eigenen Königreichs | content | mittel | offen |
-| [VA-051](VA-051-provinz-terrain.md) | Provinz-Terrain zufällig (Berg, Feld) | bug | mittel | offen |
+| [VA-051](VA-051-provinz-terrain.md) | Provinz-Terrain zufällig (Berg, Feld) | bug | mittel | wartet (Spieltest) |
 | [VA-052](archiv/VA-052-script-doku-veraltet.md) | Script-Doku (docs/*.log) älter als das Spiel | technik | mittel | erledigt |
 | [VA-053](VA-053-portale-verbindungen.md) | Portale und Verbindungen – Dunkles Portal, Dalaran, Tiefenbahn | content | mittel | offen |
 | [VA-054](VA-054-heldengruppen.md) | Heldengruppen – Menü für Kopfgeld und Dungeons (Machbarkeit) | technik | niedrig | offen |
@@ -76,3 +76,7 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-058](archiv/VA-058-einheiten-marker-krieg.md) | Einheiten-Icons im Krieg fehlen (alte Dioramen-Kopien) | bug | mittel | erledigt |
 | [VA-059](VA-059-gfx-map-altkopien.md) | Alte Vanilla-Kopien unter `gfx/map` aufräumen | technik | mittel | offen |
 | [VA-060](VA-060-festungs-locators.md) | Festungs-Locators für Azeroth (Vanilla-Erde-Positionen ersetzt) | grafik | niedrig | wartet (Spieltest) |
+| [VA-061](VA-061-dynamische-masken-erde.md) | Dynamische Masken für übrige Kontinente (EK fertig, Rest leer) | grafik | mittel | offen |
+| [VA-062](VA-062-todesschneise-sichtbar-heilen.md) | Todesschneise sichtbar heilen (unsichtbares Gebäude) | grafik | mittel | wartet (Spieltest) |
+| [VA-063](VA-063-patch-1-15.md) | Patch 1.15 (1.14 übersprungen) | technik | hoch | in Arbeit |
+| [VA-064](VA-064-kupfer-vorkommen.md) | Kupfer-Vorkommen in Azeroth (neues Gut seit Patch) | content | mittel | wartet (Spieltest) |

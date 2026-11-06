@@ -16,24 +16,35 @@ je_silvermoon_deathholme = {
 		s:STATE_SUNCROWN_VILLAGE = { add_claim = ROOT }
 	}
 
-	complete = {
-		NOT = { exists = c:DEATHHOLME }
-	}
-
-	on_complete = {
-		add_modifier = {
-			name = va_silvermoon_ghostlands_avenged
-			years = 10
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			NOT = { exists = c:DEATHHOLME }
 		}
-		trigger_event = { id = silvermoon_events.2 popup = yes }
+		effect = {
+			add_modifier = {
+				name = va_silvermoon_ghostlands_avenged
+				years = 10
+			}
+			trigger_event = { id = silvermoon_events.2 popup = yes }
+		}
 	}
 
 	timeout = 5475 # 15 Jahre
 
-	on_timeout = {
-		add_modifier = {
-			name = va_silvermoon_deathholme_endures
-			years = 10
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = {
+			add_modifier = {
+				name = va_silvermoon_deathholme_endures
+				years = 10
+			}
 		}
 	}
 
@@ -55,24 +66,37 @@ je_silvermoon_zul_aman = {
 		s:STATE_TOR_WATHA = { add_claim = ROOT }
 	}
 
-	complete = {
-		owns_entire_state_region = STATE_ZUL_AMAN
-		owns_entire_state_region = STATE_TOR_WATHA
-	}
-
-	on_complete = {
-		add_modifier = {
-			name = va_silvermoon_amani_broken
-			years = 10
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			owns_entire_state_region = STATE_ZUL_AMAN
+			owns_entire_state_region = STATE_TOR_WATHA
 		}
-		custom_tooltip = {
-			text = je_silvermoon_zul_aman_shatter_tt
-			set_global_variable = va_amani_claims_shattered
+		effect = {
+			add_modifier = {
+				name = va_silvermoon_amani_broken
+				years = 10
+			}
+			custom_tooltip = {
+				text = je_silvermoon_zul_aman_shatter_tt
+				set_global_variable = va_amani_claims_shattered
+			}
+			trigger_event = { id = silvermoon_events.3 popup = yes }
 		}
-		trigger_event = { id = silvermoon_events.3 popup = yes }
 	}
 
 	timeout = 7300 # 20 Jahre
+
+	# seit 1.15 Pflicht bei timeout; ohne Folgen wie vorher
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+	}
 
 	transferable = no
 	weight = 90
@@ -100,31 +124,42 @@ je_silvermoon_corridor = {
 		}
 	}
 
-	complete = {
-		va_silvermoon_corridor_open_trigger = yes
-	}
-
-	on_complete = {
-		if = {
-			limit = { has_modifier = va_silvermoon_corridor_logistics }
-			remove_modifier = va_silvermoon_corridor_logistics
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			va_silvermoon_corridor_open_trigger = yes
 		}
-		remove_variable = va_corridor_stage
-		add_modifier = {
-			name = va_silvermoon_road_to_tranquillien
-			years = 10
+		effect = {
+			if = {
+				limit = { has_modifier = va_silvermoon_corridor_logistics }
+				remove_modifier = va_silvermoon_corridor_logistics
+			}
+			remove_variable = va_corridor_stage
+			add_modifier = {
+				name = va_silvermoon_road_to_tranquillien
+				years = 10
+			}
+			trigger_event = { id = silvermoon_events.5 popup = yes }
 		}
-		trigger_event = { id = silvermoon_events.5 popup = yes }
 	}
 
 	timeout = 2920 # 8 Jahre, gedacht ca. 5
 
-	on_timeout = {
-		if = {
-			limit = { has_modifier = va_silvermoon_corridor_logistics }
-			remove_modifier = va_silvermoon_corridor_logistics
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = {
+			if = {
+				limit = { has_modifier = va_silvermoon_corridor_logistics }
+				remove_modifier = va_silvermoon_corridor_logistics
+			}
+			remove_variable = va_corridor_stage
 		}
-		remove_variable = va_corridor_stage
 	}
 
 	status_desc = {
@@ -184,34 +219,48 @@ je_silvermoon_wretched = {
 	}
 
 	# Gesetzt von va_silvermoon_wretched_absorb_effect bzw. _heal_complete_effect
-	complete = {
-		has_variable = va_wretched_united
-	}
-
-	on_complete = {
-		va_silvermoon_wretched_cleanup_effect = yes
-		va_silvermoon_wretched_complete_effect = yes
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			has_variable = va_wretched_united
+		}
+		effect = {
+			va_silvermoon_wretched_cleanup_effect = yes
+			va_silvermoon_wretched_complete_effect = yes
+		}
 	}
 
 	# Wretched anders untergegangen (Krieg, Dritte); Folgen nur, wenn Silvermoon ihr Land hält
-	invalid = {
-		NOT = { exists = c:WRETCHED_BLOODELFES }
-		NOT = { has_variable = va_wretched_united }
-	}
-
-	on_invalid = {
-		va_silvermoon_wretched_cleanup_effect = yes
-		va_silvermoon_wretched_conquered_effect = yes
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			NOT = { exists = c:WRETCHED_BLOODELFES }
+			NOT = { has_variable = va_wretched_united }
+		}
+		effect = {
+			va_silvermoon_wretched_cleanup_effect = yes
+			va_silvermoon_wretched_conquered_effect = yes
+		}
 	}
 
 	timeout = 7300 # 20 Jahre
 
 	# 20 Jahre ohne Lösung: Wretched bleiben, Silvermoon verliert Ansehen
-	on_timeout = {
-		va_silvermoon_wretched_cleanup_effect = yes
-		add_modifier = {
-			name = va_silvermoon_wretched_neglected
-			years = 10
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = {
+			va_silvermoon_wretched_cleanup_effect = yes
+			add_modifier = {
+				name = va_silvermoon_wretched_neglected
+				years = 10
+			}
 		}
 	}
 

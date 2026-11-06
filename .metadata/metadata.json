@@ -1,9 +1,9 @@
 {
   "name" : "Victorian Azeroth",
   "id" : "3300564446",
-  "version" : "1",
+  "version" : "2",
   "game_id": "victoria3",
-  "supported_game_version" : "1.13.*",
+  "supported_game_version" : "1.15.*",
   "short_description" : "Victorian Azeroth",
   "tags" : ["Alternative History", "Total Conversion"],
   "relationships" : [],

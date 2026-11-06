@@ -23,8 +23,22 @@ va_update_dead_scar_effect = {
 			limit = { has_modifier = va_dead_scar_living }
 			remove_modifier = va_dead_scar_living
 		}
+		# Sichtbare Schneise (VA-062): fehlt das Gebäude (Start, neuer Teil-State), mit voller Stärke anlegen.
+		# TODO: neuer Teil-State nach Teilheilung startet wieder bei voller Stärke; bei Bedarf Stufe an die Region hängen.
+		if = {
+			limit = { NOT = { has_building = building_va_dead_scar } }
+			create_building = {
+				building = building_va_dead_scar
+				level = 100 # = SCAR_LEVELS in .claude/tools/va_gen_dead_scar.py
+				activate_production_methods = { pm_blight_building_va_dead_scar } # wie Ritual Site (funktioniert)
+			}
+		}
 	}
 	else = {
+		if = {
+			limit = { has_building = building_va_dead_scar }
+			remove_building = building_va_dead_scar
+		}
 		if = {
 			limit = { has_modifier = va_dead_scar }
 			remove_modifier = va_dead_scar
@@ -40,4 +54,25 @@ va_update_dead_scar_effect = {
 va_heal_dead_scar_state_effect = {
 	state_region = { remove_variable = va_dead_scar_region }
 	va_update_dead_scar_effect = yes
+	va_update_deathholme_scourge_effect = yes # Buff sofort senken, Deathholme ggf. heilen (VA-062)
+}
+
+# State-Scope: Schneisen-Gebäude auf $level$ Stufen verkleinern (VA-062), nie vergrößern.
+# Es gibt keinen Effekt zum Abbauen einzelner Stufen, daher abreißen und kleiner neu anlegen. Aufruf aus va_dead_scar_heal_pulse_effect.
+# Die Karte zeigt die kleinere Schneise erst nach Speichern und Laden (Engine, auch Vanilla-Farmen; VA-062).
+va_dead_scar_set_level_effect = {
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_va_dead_scar
+				level > $level$
+			}
+		}
+		remove_building = building_va_dead_scar
+		create_building = {
+			building = building_va_dead_scar
+			level = $level$
+			activate_production_methods = { pm_blight_building_va_dead_scar }
+		}
+	}
 }

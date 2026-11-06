@@ -1,0 +1,2 @@
+﻿# Abgeschaltet: Vanilla-Seewege der Erde (11.000 Knoten, ~7.600 Fehler je Start) (VA-063). Vorbild: Vanilla common/travel_network/naval_network.txt (neu in 1.15).
+# TODO: eigenes Netz für Azeroth (TravelNetworkTools.GenerateNavalNetwork ist geblockt, sonst Python-Generator aus provinces.png).

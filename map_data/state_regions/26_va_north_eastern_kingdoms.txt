@@ -89,6 +89,7 @@ STATE_SUNSTRIDER_ISLE = {
         building_logging_camp = 18
         building_fishing_wharf = 14
         building_whaling_station = 8
+        building_copper_mine = 5
     }
     naval_exit_id = 8061
 }
@@ -367,6 +368,7 @@ STATE_SUNCROWN_VILLAGE = {
         building_iron_mine = 13
         building_logging_camp = 17
         building_fishing_wharf = 4
+        building_copper_mine = 5
     }
 }
 
@@ -388,6 +390,7 @@ STATE_DAWNSTAR_SPIRE = {
         building_iron_mine = 16
         building_logging_camp = 15
         building_fishing_wharf = 6
+        building_copper_mine = 5
     }
     naval_exit_id = 8059
 }
@@ -833,6 +836,7 @@ STATE_BRILL = {
     arable_resources = { "building_wheat_farm" "building_rye_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 14
+        building_copper_mine = 5
     }
 }
 
@@ -853,6 +857,7 @@ STATE_AGAMAND_MILLS = {
         building_iron_mine = 15
         building_sulfur_mine = 7
         building_logging_camp = 12
+        building_copper_mine = 8
     }
     naval_exit_id = 8062
 }
@@ -938,6 +943,7 @@ STATE_DEATHKNELL = {
         building_iron_mine = 30
         building_logging_camp = 19
         building_fishing_wharf = 8
+        building_copper_mine = 5
     }
     naval_exit_id = 8063
 }
@@ -1016,6 +1022,7 @@ STATE_SEPULCHER = {
         building_iron_mine = 35
         building_logging_camp = 33
         building_fishing_wharf = 8
+        building_copper_mine = 10
     }
     naval_exit_id = 8063
 }
@@ -1101,6 +1108,7 @@ STATE_PYREWOOD_VILLAGE = {
         building_sulfur_mine = 7
         building_logging_camp = 15
         building_fishing_wharf = 15
+        building_copper_mine = 5
     }
     naval_exit_id = 8063
 }
@@ -1184,6 +1192,7 @@ STATE_EMBERSTONE = {
         building_iron_mine = 70
         building_fishing_wharf = 10
         building_logging_camp = 10
+        building_copper_mine = 10
     }
     naval_exit_id = 8065
 }
@@ -1268,6 +1277,7 @@ STATE_STRAHNBRAD = {
         building_lead_mine = 20
         building_sulfur_mine = 16
         building_logging_camp = 4
+        building_copper_mine = 8
     }
 }
 
@@ -1305,6 +1315,7 @@ STATE_TARRENS_MILL = {
     arable_resources = { "building_wheat_farm" "building_rye_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" "building_dye_plantation" "building_sugar_plantation" }
     capped_resources = {
         building_logging_camp = 14
+        building_copper_mine = 5
     }
 }
 
@@ -1366,6 +1377,7 @@ STATE_RUINS_OF_SOUTHSHORE = {
         building_iron_mine = 8
         building_logging_camp = 14
         building_fishing_wharf = 8
+        building_copper_mine = 18
     }
     naval_exit_id = 8065
 }
@@ -1490,6 +1502,7 @@ STATE_AERIE_PEAK = {
         building_coal_mine = 60
         building_iron_mine = 55
         building_logging_camp = 25
+        building_copper_mine = 5
     }
 }
 
@@ -1588,6 +1601,7 @@ STATE_BOULDER_GOR = {
         building_coal_mine = 30
         building_logging_camp = 13
         building_iron_mine = 25
+        building_copper_mine = 8
     }
     resource = {
         type = "building_gold_field"
@@ -1614,6 +1628,7 @@ STATE_HAMMERFALL = {
         building_sulfur_mine = 10
         building_logging_camp = 10
         building_fishing_wharf = 10
+        building_copper_mine = 5
     }
     naval_exit_id = 8057
 }
@@ -1634,6 +1649,7 @@ STATE_WITHERBARK_VILLAGE = {
     capped_resources = {
         building_logging_camp = 10
         building_fishing_wharf = 10
+        building_copper_mine = 10
     }
     naval_exit_id = 8057
 }

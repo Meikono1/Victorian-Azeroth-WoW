@@ -73,6 +73,7 @@ STATE_SUN_ROCK_RETREAT = {
         bg_iron_mining = 28
         bg_lead_mining = 19
         bg_logging = 23
+        building_copper_mine = 10
     }
 }
 
@@ -90,6 +91,7 @@ STATE_WINDSHEAR_HOLD = {
     capped_resources = {
         bg_iron_mining = 12
         bg_logging = 25
+        building_copper_mine = 18
     }
 }
 
@@ -143,6 +145,7 @@ STATE_UNEARTHED_GROUNDS = {
         bg_iron_mining = 28
         bg_lead_mining = 28
         bg_logging = 23
+        building_copper_mine = 5
     }
 }
 
@@ -229,6 +232,7 @@ STATE_THORN_HILL = {
         bg_iron_mining = 18
         bg_coal_mining = 22
         bg_logging = 20
+        building_copper_mine = 5
     }
 }
 
@@ -248,6 +252,7 @@ STATE_WAILING_CAVERNS = {
         bg_coal_mining = 17
         bg_lead_mining = 23
         bg_logging = 33
+        building_copper_mine = 8
     }
 }
 
@@ -268,6 +273,7 @@ STATE_RATCHET = {
         bg_lead_mining = 15
         bg_logging = 15
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8037
 }
@@ -309,6 +315,7 @@ STATE_DRYGULCH_RAVINE = {
         bg_sulfur_mining = 20
         bg_logging = 8
         bg_fishing = 11
+        building_copper_mine = 18
     }
     naval_exit_id = 8039
 }
@@ -346,6 +353,7 @@ STATE_RAZOR_HILL = {
         bg_iron_mining = 15
         bg_logging = 10
         bg_fishing = 11
+        building_copper_mine = 10
     }
     naval_exit_id = 8038
 }
@@ -385,6 +393,7 @@ STATE_VALLEY_OF_TRIALS = {
         bg_lead_mining = 18
         bg_logging = 15
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8037
 }
@@ -665,6 +674,7 @@ STATE_BLOODHOOF_VILLAGE = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 33
+        building_copper_mine = 10
     }
 }
 
@@ -683,6 +693,7 @@ STATE_CAMP_NARACHE = {
         bg_iron_mining = 18
         bg_sulfur_mining = 8
         bg_logging = 33
+        building_copper_mine = 5
     }
 }
 

@@ -1,4 +1,4 @@
-# VA-027: Platzhalter-Grafiken durch eigene ersetzen
+﻿# VA-027: Platzhalter-Grafiken durch eigene ersetzen
 
 - **Status:** offen
 - **Typ:** grafik
@@ -9,15 +9,14 @@
 
 Sammelticket: Bilder, die Kono generieren soll. Im Script ist jeder Platzhalter mit `# TODO: eigenes …` markiert. Die Liste unten wird beim TODO-Durchgang (Ablaufplan, Checkliste Upload) aus dem Code nachgezogen. Fertige Bilder legt Kono als PNG ins Repo oder nennt den Pfad; Claude wandelt sie in DDS um, legt sie unter `gfx/…` ab, trägt die Pfade ein und entfernt das TODO.
 
-**Format der Vanilla-Vorbilder** (gemessen 2026-10-30): RGBA mit transparentem Hintergrund, DDS unkomprimiert mit Mipmaps. Stil wie Vanilla: gemalt, leichte Schrägansicht, kräftige Kontur, kein Text.
+**Format der Vanilla-Vorbilder** (gemessen 2026-10-30): RGBA mit transparentem Hintergrund, DDS unkomprimiert mit Mipmaps. Umwandlung: `python -I .claude/tools/va_icon.py <quelle.png> <ziel.dds> [--size N]`; Quell-PNGs nach `.claude/grafik_quellen/` (nicht in den Mod-Root, sonst landen sie im Upload). Stil wie Vanilla: gemalt, leichte Schrägansicht, kräftige Kontur, kein Text.
 
 ## Offene Grafiken
 
 | Was | Wo im Script | Platzhalter | Größe | Ziel-Datei (Vorschlag) | Ticket |
 |---|---|---|---|---|---|
-| Gebäude-Icon „Ley Line Tap“ | `common/buildings/va_mana_buildings.txt:5` | Kohlemine | 256×256 | `gfx/interface/icons/building_icons/va_ley_line_tap.dds` | VA-019 |
-| Gut „Mana“ | `common/goods/va_goods.txt:3` | Strom | 256×256 | `gfx/interface/icons/goods_icons/va_mana.dds` | VA-019 |
-| Produktionsmethode „Focus Crystals“ | `common/production_methods/va_mana_production_methods.txt:3` | Spitzhacke/Schaufel | 104×104 | `gfx/interface/icons/production_method_icons/va_focus_crystals.dds` | VA-019 |
+| Produktionsmethode „Focus Crystals“ | `common/production_methods/va_mana_production_methods.txt:5` | Spitzhacke/Schaufel | 104×104 | `gfx/interface/icons/production_method_icons/va_focus_crystals.dds` | VA-019 |
+| Produktionsmethoden „Arcane Conduits“, „Runic Resonators“, „No Attunement“, „Arcane Sigils“ | `common/production_methods/va_mana_production_methods.txt` | Pumpe, Kondensationspumpe, keine Sprengstoffe, Nitroglyzerin | 104×104 | `gfx/interface/icons/production_method_icons/va_arcane_conduits.dds`, `va_runic_resonators.dds`, `va_no_attunement.dds`, `va_arcane_sigils.dds` | VA-019 |
 | Modifier-Icon „The Dead Scar“ | `common/static_modifiers/va_quel_thalas_modifiers.txt:4` | Feuer (negativ) | wie Vanilla `modifier_fire_negative.dds` | `gfx/interface/icons/timed_modifier_icons/va_dead_scar.dds` | VA-019 |
 | Modifier-Icons „Arcane Abundance“, „Mana Scarcity“, „Mana Withdrawal“ | `common/static_modifiers/va_mana_modifiers.txt` | Glühbirne (pos./neg.), Feuer (neg.) | wie Vanilla `timed_modifier_icons` | `gfx/interface/icons/timed_modifier_icons/va_mana_*.dds` | VA-019 |
 | Modifier-Icon „Shadow of the Dead Scar“ | `common/static_modifiers/va_quel_thalas_modifiers.txt` | Feuer (negativ) | wie Vanilla `timed_modifier_icons` | `gfx/interface/icons/timed_modifier_icons/va_dead_scar_living.dds` | VA-019 |
@@ -28,11 +27,16 @@ Sammelticket: Bilder, die Kono generieren soll. Im Script ist jeder Platzhalter 
 | Korridor nach Tranquillien: JE-/Event-Icons (Karte), Modifier „Logistics Operation“ (Münzen neg.), „The Road to Tranquillien“ (Fahne), Event-Bilder `silvermoon_events.4`/`.5` (Vanilla-Videos Bau-Kolonie, Züge) | `common/journal_entries/VA_silvermoon.txt`, `common/static_modifiers/va_silvermoon_modifiers.txt`, `events/va_silvermoon_events.txt` | Karte, Münzen, Fahne, Vanilla-Videos | wie Vanilla | `gfx/…/va_silvermoon_corridor*.dds` | VA-047 |
 | Wretched (Schritt 2–4 ergänzt 2026-11-03: Sucht-Stufen, Etappen-, Kopfgeld-, Aufstand-Modifier und Events `wretched_heal_events`, `wretched_bounty_events`, `mana_uprising_events`; dazu Porträts für Thaelis, Aldaron, Felendren): JE-Icon (Porträt), Modifier „Wretched Addiction“/„Wretched Addicts“ (Feuer neg.), „Healing the Wretched“ (Münzen neg.), „The Wretched Absorbed“ (Faust neg.), „The Wretched Restored“ (Fahne), Event-Bilder/-Icons `wretched_events.1–5` und `.10–.16` (Vanilla-Videos Herrscherrede, Extremismus, Parade, Laden, Polizei, Schule, Seeschlacht, Krankenhaus, vor der Schlacht), Balken „Wretched Threat“, Modifier „Unsafe Road“, „Harbor Overrun“, „Breach in the Wall“, „Apprentices Disciplined“, „War against Our Own“, „Scars of the Kinslaying“ | `common/journal_entries/VA_silvermoon.txt`, `common/static_modifiers/va_wretched_modifiers.txt`, `va_silvermoon_modifiers.txt`, `events/va_wretched_events.txt` | Porträt, Feuer, Münzen, Faust, Fahne, Vanilla-Videos | wie Vanilla | `gfx/…/va_wretched_*.dds` | VA-021 |
 | Event-Bilder `silvermoon_events.2`/`.3` | `events/va_silvermoon_events.txt` | Vanilla-Videos (Leibeigene, vor der Schlacht, Parade, Herrscherrede) | wie Vanilla `event_image` (Bild statt Video möglich) | `gfx/event_pictures/va_silvermoon_*.dds` | VA-020 |
+| State-Bild Terrain „Underwater“ (Vashj'ir) | `common/terrain/va_terrain.txt` | Vanilla `wetland.dds` + `vfx_entity_ui_state_wetland` | wie Vanilla `gfx/state_pictures/*.dds` | `gfx/state_pictures/va_underwater.dds` | VA-051 |
 
 Bildideen (Vorschlag): Ley Line Tap = Kristallturm über leuchtender blauvioletter Leylinie, elfische Goldverzierung. Mana = schwebender, leuchtender Kristall bzw. Phiole mit arkaner Flüssigkeit. Focus Crystals = einzelner geschliffener Fokuskristall in Goldfassung.
 
 ## Notizen
 
+- 2026-11-05: Gut „Mana“ eingebaut: Konos `.claude/grafik_quellen/mana.png` (56×56) mit `.claude/tools/va_icon.py` → `gfx/interface/icons/goods_icons/va_mana.dds` (256×256, BGRA mit Mipmaps wie Vanilla). Quelle ist klein, hochskaliert etwas weich; bei Bedarf größere Fassung nachliefern. Test T-090.
+
 - Später (eigene Aufgabe, wenn gewünscht): Stadtgrafiken je Volk (Zwerge, Elfen, Orcs) über die Trigger in `common/scripted_triggers/00_gfx_buildings_graphics_triggers.txt` (TODO dort). Braucht 3D-Assets, nicht nur Bilder.
 
 - Ohne TODO-Markierung, aber mit Erde-Platzhaltern: Gilneas-Events (`events/gilneas_events/infection_events.txt`, 9× `event_image` mit Erde-Videos wie Amerikanischer Bürgerkrieg) und JE-Icons in `VA_gilneas_infection.txt`. Erst angehen, wenn der Inhalt mit VA-007 überarbeitet ist (`VA_silvermoon.txt` mit VA-020 erledigt); dann TODOs setzen und hier eintragen.
+- 2026-11-06 (VA-062): Icon für `va_deathholme_scourge_tide` (vorerst `modifier_fist_positive.dds`) und eigenes Schneisen-Material statt `DYNAMIC-Devastation_Mud_01` (`common/terrain/va_terrain.txt`).
+- 2026-11-06: Gebäude-Icon „Ley Line Tap“ eingebaut: Konos Bild (256×256, transparent; lag als `Mana Produktion.png` im Mod-Root, verschoben nach `.claude/grafik_quellen/va_ley_line_tap.png`) mit `va_icon.py` → `gfx/interface/icons/building_icons/va_ley_line_tap.dds`. Zeile aus der Tabelle entfernt. PM-Icon „Focus Crystals“ bleibt vorerst Platzhalter (Kono). Test T-107.

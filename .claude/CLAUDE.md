@@ -21,7 +21,7 @@ Claude pflegt Karte und Skills **eigenständig, ohne Nachfrage**, als Teil jeder
 | Vanilla-Spiel (nur lesen) | `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game` |
 | Vom Spiel geladener Mod / Upload-Stand | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\mod\warcraft` – bewusst eine **Kopie**, die Kono von Hand aus dem Repo befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`). Nur dieser Ordner wird hochgeladen. Weder lesen noch schreiben, außer Kono verlangt es ausdrücklich. |
 | Logs | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\logs\error.log` |
-| Script-Doku | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\docs\` (`effects.log`, `triggers.log`, `modifiers.log`, `on_actions.log`, `event_targets.log`); per Konsole `script_docs` neu erzeugen (Stand 2026-11-01, 1.13.11) |
+| Script-Doku | `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\docs\` (`effects.log`, `triggers.log`, `modifiers.log`, `on_actions.log`, `event_targets.log`); per Konsole `script_docs` neu erzeugen (Stand 2026-11-06, 1.15.0) |
 
 Zugriff unter `Documents\Paradox Interactive\Victoria 3`: nur `logs\` und `docs\` lesen (freigegeben 2026-10-29). Alles andere dort, insbesondere `mod\`, Spielstände und Einstellungen, nicht ohne ausdrückliche Erlaubnis öffnen.
 

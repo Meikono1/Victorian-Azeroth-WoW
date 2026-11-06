@@ -66,6 +66,8 @@ GENERIC = {
 	"events/standard_of_living_events.txt",
 	"events/urbanization_events.txt",
 	"events/soi_events/00_lobbies_events_04.txt",
+	# Nachgeprüft 2026-11-06 (VA-063, Patch 1.15): cu:russian nur als Sonderzweig
+	"events/autocracy_events.txt",
 	# Nachgeprüft 2026-10-30 (Hinweis Kono): Erde-Länder/-Kulturen nur als Namensverzweigung mit Fallback
 	"events/nihilism.txt",
 	"events/agitators_events/silkworm_diseases.txt",

@@ -18,3 +18,4 @@ Vorgehen: je Ordner diffen (Mod-Inhalt?), Liste an Kono, nach Freigabe löschen 
 
 ## Notizen
 - 2026-11-03, Claude: aus VA-058 abgespalten.
+- 2026-11-06 (VA-063): `spline_network/military_route_graphics/` gelöscht (Vanilla 1.15: `route_graphics`). Übrig in `spline_network`: `roadpaved_*.dds`, `roadpavedsandstone_diffuse.dds` (von Vanilla nicht mehr benutzt, dort `road_paved_*`), mit Vanilla identische `naval_route_*.dds`, `road_*.dds`, `game_road_data.txt`. Eigen und behalten: `spline_network.splnet`. Binärdateien nur mit Konos Freigabe löschen.

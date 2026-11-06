@@ -7,6 +7,19 @@ on_monthly_pulse_state = {
 	}
 }
 
+# Deathholme-Buff und Selbstheilung (VA-062)
+on_monthly_pulse = {
+	on_actions = {
+		va_on_monthly_deathholme_scourge
+	}
+}
+
+va_on_monthly_deathholme_scourge = {
+	effect = {
+		va_update_deathholme_scourge_effect = yes
+	}
+}
+
 on_state_owner_change = {
 	on_actions = {
 		va_on_state_dead_scar_check
@@ -25,7 +38,7 @@ va_on_state_dead_scar_check = {
 		# Besitzer eines Schneisen-States bekommt das Heil-JE, sobald Quinine erforscht ist (VA-046); Monatspuls fängt die Forschung ab
 		if = {
 			limit = {
-				va_state_on_dead_scar_trigger = yes
+				va_state_on_healable_dead_scar_trigger = yes # ohne Deathholme (VA-062)
 				owner = {
 					has_technology_researched = quinine
 					NOT = { has_journal_entry = je_va_dead_scar }

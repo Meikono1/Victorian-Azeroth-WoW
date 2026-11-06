@@ -1,4 +1,6 @@
-﻿# PMs der Leylinien-Anzapfung (VA-019). Vorbild: pm_picks_and_shovels_building_coal_mine.
+﻿# PMs der Leylinien-Anzapfung (VA-019). Vorbild: pm_picks_and_shovels/atmospheric_engine_pump/condensing_engine_pump_building_coal_mine,
+# Zusatzgruppe wie pm_no_explosives/pm_nitroglycerin_building_coal_mine (03_mines.txt).
+# TODO: Werte und Technologien sind Platzhalter (Vanilla-Techs); Mana wird später ausgearbeitet (Kono 2026-11-06).
 pm_focus_crystals_building_leyline_tap = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds" # TODO: eigenes Icon (VA-027)
 
@@ -14,6 +16,85 @@ pm_focus_crystals_building_leyline_tap = {
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_academics_add = 500
+		}
+	}
+}
+
+# Stufe 2: arkane Leitungen bündeln mehrere Leylinien-Adern
+pm_arcane_conduits_building_leyline_tap = {
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds" # TODO: eigenes Icon (VA-027)
+
+	unlocking_technologies = {
+		atmospheric_engine # TODO: eigene arkane Technologie
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+
+			# output goods
+			goods_output_mana_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_academics_add = 750
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+# Stufe 3: Runen-Resonatoren, mit Strom verstärkt
+pm_runic_resonators_building_leyline_tap = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds" # TODO: eigenes Icon (VA-027)
+
+	unlocking_technologies = {
+		electrical_generation # TODO: eigene arkane Technologie
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 10
+
+			# output goods
+			goods_output_mana_add = 65
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2750
+			building_employment_academics_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+# Zusatzgruppe Einstimmung: Standard ohne Wirkung
+pm_no_attunement_building_leyline_tap = {
+	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds" # TODO: eigenes Icon (VA-027)
+}
+
+# Arkane Siegel auf Papier binden zusätzliches Mana
+pm_arcane_sigils_building_leyline_tap = {
+	texture = "gfx/interface/icons/production_method_icons/nitroglycerin.dds" # TODO: eigenes Icon (VA-027)
+
+	unlocking_technologies = {
+		empiricism # TODO: eigene arkane Technologie
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_paper_add = 5
+
+			# output goods
+			goods_output_mana_add = 15
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 250
 		}
 	}
 }

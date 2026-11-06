@@ -1,4 +1,4 @@
-# Code-Karte Victorian Azeroth
+﻿# Code-Karte Victorian Azeroth
 
 Wo liegt was. **Vor jeder Suche hier nachsehen**, danach gezielt die genannten Dateien öffnen statt das Repo oder Vanilla zu durchsuchen.
 Pflege: Claude trägt jede neue Datei, jedes neue System und jedes umbenannte Objekt sofort hier ein (Regel in `CLAUDE.md`, Abschnitt „Wissenspflege“). Stand: 2026-11-03.
@@ -72,7 +72,7 @@ Weitere Karten-Dateien: `common/strategic_regions/va_*_strategic_regions.txt` (+
 ## Systeme (eigener Content)
 
 ### Quel'Thalas: Mana (VA-019)
-Gut `mana` (`common/goods/va_goods.txt`), Bedarf `common/pop_needs/va_pop_needs.txt`, Gebäude `building_leyline_tap` (`common/buildings/va_mana_buildings.txt`, PMG/PM `va_mana_production_method_groups.txt` / `va_mana_production_methods.txt`, Typen `va_mana_modifier_types.txt`).
+Gut `mana` (`common/goods/va_goods.txt`, Icon `gfx/interface/icons/goods_icons/va_mana.dds`), Bedarf `common/pop_needs/va_pop_needs.txt`, Gebäude `building_leyline_tap` (`common/buildings/va_mana_buildings.txt`, PMG/PM `va_mana_production_method_groups.txt` / `va_mana_production_methods.txt`: Stufen Focus Crystals → Arcane Conduits → Runic Resonators, Zusatz Attunement/Arcane Sigils, Typen `va_mana_modifier_types.txt`).
 JE `je_mana_hunger` (`common/journal_entries/va_mana.txt`) → `va_update_mana_dependency_effect` (`va_mana_effects.txt`) setzt eine von `va_mana_abundance` / `va_mana_scarcity` / `va_mana_withdrawal` (`va_mana_modifiers.txt`). Trigger `va_country_mana_dependent_trigger`, `va_is_mana_dependent_culture_trigger` (`va_mana_triggers.txt`). Loc `va_mana_l_english.yml`.
 
 ### Quel'Thalas: Todesschneise (VA-019) und Heilung (VA-046)
@@ -80,7 +80,8 @@ Start: `common/history/global/va_global_quel_thalas.txt` markiert State-Regionen
 Prüfung: `common/on_actions/va_on_actions_quel_thalas.txt` (monatlich, `on_state_owner_change`, `on_state_created`) → `va_update_dead_scar_effect` (`va_quel_thalas_effects.txt`) → Modifier `va_dead_scar`, `va_dead_scar_living`, `va_dead_scar_land_restored` (`va_quel_thalas_modifiers.txt`). Trigger `va_state_on_dead_scar_trigger`.
 Heilung: JE `je_va_dead_scar` (`va_dead_scar.txt`), je Region Schalter `va_dead_scar_start/stop_<region>_button` (`va_dead_scar_buttons.txt`), Balken `va_dead_scar_bar_<region>` (`va_dead_scar_progress_bars.txt`), Monatsprüfung `va_dead_scar_heal_pulse_effect` (`va_dead_scar_effects.txt`), Gebäude `building_va_scar_ward` + `pm_ritual_circles_building_va_scar_ward` (`va_dead_scar_*`), Events `dead_scar_events.1–2` (`events/va_dead_scar_events.txt`), Loc `va_dead_scar_regions_l_english.yml`.
 **Buttons, Balken und Heil-Effekt sind generiert** von `.claude/tools/va_gen_dead_scar.py`: dort ändern und neu erzeugen, nicht von Hand.
-Regionen: Sunwell Plateau, Ruins of Silvermoon, West Sanctum, East Sanctum, Tranquillien, Deathholme.
+Sichtbare Schneise (VA-062): unsichtbares `building_va_dead_scar` (100 Stufen, `va_dead_scar_buildings.txt`) → Manipulator `va_dead_scar` (`common/terrain_manipulators/00_va_terrain_manipulators.txt`) → Gelände `va_dead_scar_land` (`common/terrain/va_terrain.txt`) unter der Schneise in `gfx/map/masks/mask_dynamic_mining.png` (geteilt mit Minen; eigene Masken kennt das Spiel nicht). Form: `.claude/regionen/va_dead_scar_form.png`. Anlegen/Abreißen in `va_update_dead_scar_effect`, Schrumpfen `va_dead_scar_set_level_effect`. Feste Schneise in `gfx/map/terrain/mask_devastation_mud_01.png` entfernt Kono je Region im Map-Editor.
+Regionen: Sunwell Plateau, Ruins of Silvermoon, West Sanctum, East Sanctum, Tranquillien, Deathholme. Deathholme ohne Ritual (VA-062): `va_update_deathholme_scourge_effect` (generiert, `va_dead_scar_effects.txt`, Aufruf `on_monthly_pulse` in `va_on_actions_quel_thalas.txt`) gibt `c:DEATHHOLME` den Modifier `va_deathholme_scourge_tide` × Script-Wert `va_dead_scar_cursed_regions` (`common/script_values/va_dead_scar_values.txt`, generiert), Schneise dort schrumpft mit (20 Stufen je Region), bei 0 geheilt. Trigger `va_state_on_healable_dead_scar_trigger` (ohne Deathholme) für JE und Schalter.
 
 ### Silvermoon-Ziele (VA-020), Korridor (VA-047), Wretched (VA-021)
 JEs `je_silvermoon_deathholme`, `je_silvermoon_zul_aman`, `je_silvermoon_corridor` (`common/journal_entries/VA_silvermoon.txt`), Modifier `va_silvermoon_*` (`va_silvermoon_modifiers.txt`), Events `silvermoon_events.2–5` (`events/va_silvermoon_events.txt`), Global-Variable `va_amani_claims_shattered`.
@@ -101,6 +102,7 @@ Nur geplant: `.claude/ablauf/scarlet_crusade.md`.
 | Vanilla-Gebäude/PMs | Alte Vollkopien `common/buildings/01_…13_*.txt`, `production_methods/[01]*`, `production_method_groups/[01]*`, `building_groups/00_building_groups.txt` sind zum Löschen freigegeben (VA-043, Kono löscht); danach gilt Vanilla 1.13. History und `map_data` nutzen die echten 1.13-Namen; Vanilla-Aliase (`building_textile_mills`) gelten dort nicht |
 | KI | `common/ai_strategies/va_default_strategy.txt`, `common/history/ai/va_ai_strategy.txt`, `va_ai_triggers.txt` (REPLACE) |
 | Defines | `common/defines/va_OVERWRITE_defines.txt` (`WORLD_MARKET_LOCATION`) |
+| Terrain | Provinz-Terrain `map_data/province_terrains.txt` (erzeugt von `va_terrain.py`), eigene Typen `common/terrain/va_terrain.txt` (`va_underwater` für Vashj'ir), Loc `va_terrain_l_english.yml`; dynamische Masken `gfx/map/masks/mask_dynamic_*.png` (EK gemalt, Rest leer, VA-061), gleiche Kopie für den Map-Editor in `tools/mapeditor/mask_painter/` (schreiben die Masken-Skripte mit) (VA-051) |
 | Charakter-Traits | `common/character_traits/va_traits.txt` |
 | Sonstiges | `common/scripted_effects/VA_scripted_effects.txt` (Dublette eines Vanilla-Effekts, zum Löschen freigegeben, VA-043) |
 
@@ -112,7 +114,7 @@ Nur geplant: `.claude/ablauf/scarlet_crusade.md`.
 | Trigger auf „nie wahr“ (`REPLACE:`) | `va_earth_triggers.txt` (s:/sr: auf Erde-States), `va_geography_triggers.txt` (Erde-Kontinente) |
 | Effekte leer (`REPLACE:`) | `common/scripted_effects/va_earth_effects.txt` (Great Game, Orientkrise, Balkan-Beute, Ezo, Indien) |
 | `replace_paths` | `.metadata/metadata.json`: `common/history/*`, `common/strategic_regions`, `map_data` |
-| Leere Hüllen gleichen Namens (generiert) | `common/geographic_regions/0*.txt` (175 Erde-Regionen, `va_gen_geo_regions.py`), `common/journal_entries/va_earth_je_stubs.txt` (268 Erde-JEs, `va_gen_earth_je_stubs.py`), `common/character_templates/va_earth_template_stubs.txt` (328 Erde-Vorlagen, `va_gen_earth_template_stubs.py`), `events/va_earth_event_stubs/` (302 aufgerufene Erde-Events, `va_gen_earth_event_stubs.py`), `08_monuments.txt`, `10_canals.txt`, `power_bloc_names/00_power_bloc_names.txt`, `political_movements/03_pan_national_movements.txt`, `government_types/01_monarchies/01_regencies/01_social_monarchies/05_council_republics.txt`, `achievements/*.txt` (Vanilla mit `always = no`, `va_gen_earth_overrides.py`): Vanilla-Verweise bleiben gültig |
+| Leere Hüllen gleichen Namens (generiert) | `common/geographic_regions/0*.txt` (175 Erde-Regionen, `va_gen_geo_regions.py`), `common/journal_entries/va_earth_je_stubs.txt` (294 Erde-JEs, `va_gen_earth_je_stubs.py`), `common/character_templates/va_earth_template_stubs.txt` (341 Erde-Vorlagen, `va_gen_earth_template_stubs.py`), `events/va_earth_event_stubs/` (483 aufgerufene Erde-Events, `va_gen_earth_event_stubs.py`), `08_monuments.txt`, `10_canals.txt`, `power_bloc_names/00_power_bloc_names.txt`, `political_movements/03_pan_national_movements.txt`, `government_types/01_monarchies/01_regencies/01_social_monarchies/05_council_republics.txt`, `achievements/*.txt`, `flag_definitions/00_flag_definitions.txt` (Vanilla mit `always = no`, `va_gen_earth_overrides.py`): Vanilla-Verweise bleiben gültig; `common/travel_network/naval_network.txt` (leer, Erde-Seewege seit 1.15, VA-063) |
 | Festungs-Locators | `gfx/map/map_object_data/fortification_locators.txt` (eigene, bewusst leere Datei statt Vanillas Erde-Positionen, VA-060) |
 | On-Action-Trigger | `common/on_actions/va_on_actions_earth.txt` (`historical_agitators_yearly_events` aus) |
 | Bewusste Vollkopien | Liste im `ABLAUFPLAN.md` unter „Bewusste Vanilla-Overrides“ |
@@ -130,18 +132,22 @@ Nur geplant: `.claude/ablauf/scarlet_crusade.md`.
 | `va_fill_buildings.py NN [--apply]` | Start-Gebäude auffüllen (Profile in `va_profiles.py`) | mit `--apply` |
 | `va_add_gov_buildings.py`, `va_add_ports.py`, `va_add_trade_centers.py` | Verwaltung/Bausektor, Häfen, Handelszentralen ergänzen | mit `--apply` |
 | `va_country_overview.py [--md DATEI] [--tag TAG]` | Länderübersicht (Charaktere, JEs, Formables, eigene Gebäude, Politik, Subjekte, fehlende Namen/Flaggen) | nur `--md` |
+| `va_icon.py QUELLE ZIEL.dds [--size N]` | Bild → Vic3-Icon (DDS BGRA mit Mipmaps wie Vanilla), Quellen in `.claude/grafik_quellen/` (VA-027) | ja |
 | `va_gen_dead_scar.py` | Todesschneisen-Buttons, -Balken, -Effekt erzeugen | ja |
+| `va_terrain.py NN … [--png DATEI] [--apply]` | Provinz-Terrain aus Geländetexturen und Heightmap ableiten → `province_terrains.txt` (VA-051) | mit `--apply` |
+| `va_dynamic_masks.py NN … [--masks …] [--clear] [--png ORDNER] [--apply]` | Dynamische Masken `gfx/map/masks/mask_dynamic_farmland/forestry/mining.png` je Region aus Terrain und Ressourcen malen, `--clear` leert die ganze Karte (VA-051) | mit `--apply` |
+| `va_scar_mask.py NN STATE_… [--fill xRRGGBB …] [--free-others] [--scar-only] [--remove] [--apply]` | Todesschneise je State aus der Vorlage `.claude/regionen/va_dead_scar_form.png` in `mask_dynamic_mining.png` malen, `--fill` bemalt ganze Provinzen, `--free-others` leert dort Farmland/Forst, `--scar-only` lässt in den States nur die Schneise in der Bergbau-Maske (VA-062). Nach jedem `va_dynamic_masks.py`-Lauf über Region 26 erneut mit allen Optionen laufen lassen (Befehl im Ticket VA-062) | mit `--apply` |
 | `va_gen_geo_regions.py [--apply]` | leere Erde-`geographic_regions` erzeugen (bei Patches) | mit `--apply` |
 | `va_gen_earth_je_stubs.py [--apply]` | nie aktivierbare Hüllen für abgeschaltete Erde-JEs (bei Patches, nach neuen Stubs) | mit `--apply` |
 | `va_gen_earth_template_stubs.py [--apply]` | leere Hüllen für aufgerufene Erde-Charaktervorlagen | mit `--apply` |
 | `va_gen_earth_event_stubs.py [--apply]` | versteckte Hüllen für abgeschaltete Erde-Events → `events/va_earth_event_stubs/` | mit `--apply` |
-| `va_gen_earth_overrides.py [--apply]` | Vanilla-Dateien mit Erde-States in oft geprüften Bedingungen entschärft übernehmen (Liste `FILES`: Monumente, Kanäle, Machtblock-Namen, Pan-Bewegungen, Erde-Regierungsformen, Errungenschaften; erkennt States, `sr:` und `c:`-Tags) | mit `--apply` |
+| `va_gen_earth_overrides.py [--apply]` | Vanilla-Dateien mit Erde-States in oft geprüften Bedingungen entschärft übernehmen (Liste `FILES`: Monumente, Kanäle, Machtblock-Namen, Pan-Bewegungen, Erde-Regierungsformen, Errungenschaften, Flaggen; erkennt States, `sr:` und `c:`-Tags; Schlüssel als Pfad `flag_definition/trigger` für zweite Ebene) | mit `--apply` |
 | `va_script.py` | Bibliothek: Paradox-Script-Parser, wirksame Datei (Mod über Vanilla) | – |
 
 ## Vanilla und Script-Doku
 
 - Vanilla: `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game`. Jeder Ordner unter `common/` hat oft eine `*.md`-Doku (z. B. `journal_entries/journal_entries.md`, `scripted_buttons/scripted_buttons.md`, `on_actions/_on_actions.md`): die zuerst lesen.
-- Script-Doku: `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\docs\`, erzeugt 2026-11-01 mit 1.13.11 (VA-052). Groß (`effects.log` 920 KB, `triggers.log` 420 KB, `modifiers.log` 900 KB), deshalb nur gezielt greppen:
+- Script-Doku: `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\docs\`, erzeugt 2026-11-06 mit 1.15.0 (VA-063). Groß (`effects.log` 960 KB, `triggers.log` 450 KB, `modifiers.log` 960 KB), deshalb nur gezielt greppen:
   - Effekt/Trigger: `grep -n -A8 "^## <name>$" effects.log` bzw. `triggers.log`
   - Modifier: `grep -n -A4 "^<name>:" modifiers.log` (Felder `Mask`, `Name`, `Description`)
   - Scope-Wechsel: `grep -n -A4 "^### <name>$" event_targets.log`; On-Actions: `grep -n -A4 "^<name>:" on_actions.log`

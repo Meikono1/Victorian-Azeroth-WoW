@@ -35,6 +35,7 @@ STATE_NORTHSHIRE = {
     capped_resources = {
         bg_iron_mining = 12
         bg_logging = 16
+        building_copper_mine = 5
     }
 }
 
@@ -52,6 +53,7 @@ STATE_GOLDSHIRE = {
     capped_resources = {
         bg_gold_mining = 12
         bg_logging = 19
+        building_copper_mine = 5
     }
 }
 
@@ -122,6 +124,7 @@ STATE_TOWER_OF_AZORA = {
         bg_coal_mining = 12
         bg_iron_mining = 16
         bg_logging = 36
+        building_copper_mine = 8
     }
 }
 
@@ -142,6 +145,7 @@ STATE_REDRIDGE_CANYONS = {
         bg_lead_mining = 18
         bg_coal_mining = 29
         bg_logging = 12
+        building_copper_mine = 12
     }
 }
 
@@ -161,6 +165,7 @@ STATE_STONEWATCH = {
         bg_iron_mining = 22
         bg_coal_mining = 18
         bg_logging = 14
+        building_copper_mine = 5
     }
 }
 
@@ -219,6 +224,7 @@ STATE_LAKESHIRE = {
     capped_resources = {
         bg_sulfur_mining = 7
         bg_logging = 17
+        building_copper_mine = 5
     }
 }
 
@@ -239,6 +245,7 @@ STATE_JANSEN_STEAD = {
         bg_coal_mining = 18
         bg_logging = 12
         bg_fishing = 11
+        building_copper_mine = 8
     }
     naval_exit_id = 8049
 }
@@ -256,6 +263,7 @@ STATE_SENTINEN_HILL = {
     arable_resources = { "bg_wheat_farms" "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 14
+        building_copper_mine = 5
     }
 }
 
@@ -277,6 +285,7 @@ STATE_RAGING_CHASM = {
         bg_lead_mining = 18
         bg_logging = 8
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8049
 }
@@ -298,6 +307,7 @@ STATE_DAGGER_HILLS = {
         bg_iron_mining = 14
         bg_logging = 14
         bg_fishing = 11
+        building_copper_mine = 5
     }
     naval_exit_id = 8049
 }
@@ -322,6 +332,7 @@ STATE_DEADMINES = {
         bg_sulfur_mining = 16
         bg_logging = 5
         bg_fishing = 11
+        building_copper_mine = 20
     }
     naval_exit_id = 8049
 }
@@ -357,6 +368,7 @@ STATE_RAVEN_HILL = {
     capped_resources = {
         bg_iron_mining = 8
         bg_logging = 22
+        building_copper_mine = 5
     }
 }
 
@@ -732,6 +744,7 @@ STATE_KURZENS_COMPOUND = {
     arable_resources = { "bg_rice_farms" "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_coffee_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 37
+        building_copper_mine = 5
     }
 }
 

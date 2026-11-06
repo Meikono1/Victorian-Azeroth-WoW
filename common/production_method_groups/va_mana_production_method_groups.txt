@@ -3,6 +3,16 @@ pmg_base_building_leyline_tap = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_focus_crystals_building_leyline_tap
-		# TODO: weitere Stufen (z. B. arkane Leitungen) mit eigener Technologie (VA-019)
+		pm_arcane_conduits_building_leyline_tap
+		pm_runic_resonators_building_leyline_tap
+	}
+}
+
+# Vorbild: pmg_explosives_building_coal_mine
+pmg_attunement_building_leyline_tap = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_attunement_building_leyline_tap
+		pm_arcane_sigils_building_leyline_tap
 	}
 }

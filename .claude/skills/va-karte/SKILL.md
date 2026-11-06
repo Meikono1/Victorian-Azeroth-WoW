@@ -1,4 +1,4 @@
----
+﻿---
 name: va-karte
 description: Karten- und State-Arbeit im Victorian-Azeroth-Mod – State Regions, Provinzen (xRRGGBB), Hubs (city/port/farm/mine/wood), impassable, Besitz und State-History, Pops, Start-Gebäude, Ressourcen/arable_land, Häfen, Handelszentralen, Strategic Regions, provinces.png, Ingame-Map-Editor. Nutzen bei Tickets zu Regionen (Präfix 21–35), Hungersnot/Startwerten, Provinzen löschen oder verschieben und nach Kartenarbeit von Kono.
 ---
@@ -33,6 +33,8 @@ State-Dateien sind 40–130 KB, `province_terrains.txt` 560 KB, `provinces.png` 
 | Verwaltung und Bausektor | `va_add_gov_buildings.py NN … [--apply]` |
 | Häfen für Küstenländer | `va_add_ports.py NN … [--apply]` |
 | Handelszentralen | `va_add_trade_centers.py NN … [--apply]` |
+| Provinz-Terrain aus der gemalten Karte | `va_terrain.py NN … [--png DATEI] [--apply]` (Lore-Korrekturen in `STATE_OVERRIDES`) |
+| Farmland-/Forst-/Bergbau-Maske malen | `va_dynamic_masks.py NN … [--masks …] [--png ORDNER] [--apply]` (nach `va_terrain.py`; `--clear` leert die ganze Karte, nur einmal nötig gewesen) |
 
 Immer erst den Probelauf zeigen bzw. prüfen, dann `--apply`, danach `va_check_states.py NN` und `va_lint.py --regions NN`.
 
@@ -48,6 +50,12 @@ Immer erst den Probelauf zeigen bzw. prüfen, dann `--apply`, danach `va_check_s
 
 - Hubs zeigen nach Verschiebungen oft auf fremde oder gelöschte Provinzen (VA-015, VA-033) → `va_check_states.py` meldet das.
 - Nicht jede Bergprovinz ist `impassable`, dadurch springen Stadt-/Hafenmarker (VA-037).
+- Feste Masken `gfx/map/terrain/mask_*.png` nie per Skript ändern: sie ergeben je Pixel zusammen eine Gewichtung, Löschen ohne Ersatz macht im Map-Editor Fehler; die Darstellung kommt aus `detail_index.tga`/`detail_intensity.tga`, die erst der Map-Editor beim Speichern neu schreibt. Feste Bodentextur → Kono im Map-Editor (VA-062). Dynamische Masken `gfx/map/masks/` sind einzeln und per Skript ok (VA-061). Der Map-Editor schreibt `masks/manifest.json` neu, eigene Masken-Schlüssel fliegen raus.
+- Bodentextur per Script ändern: gemalte Masken (`gfx/map/terrain/mask_*.png`) sind fest; `set_devastation` wirkt auf den ganzen State. Pro Provinz nur über Gebäude mit `terrain_manipulator` und eigener Maske in `gfx/map/masks/` (Muster: Todesschneise VA-062, `va_scar_mask.py`).
+- Terrain-Manipulatoren: Die Karte zeigt Änderungen (Wachsen wie Schrumpfen, auch Vanilla-Farmen) erst einige Sekunden nach dem Laden eines Spielstands, nie live (Kono-Test 2026-11-04, VA-062). Eigene Masken-Schlüssel kennt das Spiel nicht, nur `mask_dynamic_farmland/forestry/mining`. Eine Provinz bekommt nur ein umgewandeltes Gelände; wer zuerst baut (Start-Farmen, Städte), gewinnt. Für exklusive Flächen die anderen dynamischen Masken dort leeren (`va_scar_mask.py --free-others`). Ein Gebäude mit Manipulator wandelt **jede** Fläche seiner Maske im State um, nicht nur die gemeinte (Ausweichflächen für Minen wurden zur Schneise, T-101). Wo die Schneise steht, darf die Bergbau-Maske daher nur die Schneise enthalten (`va_scar_mask.py --scar-only`); Minen dort überschreiben sie dann. Der Map-Editor malt nicht auf `gfx/map/masks`, sondern auf seiner Kopie `tools/mapeditor/mask_painter/` (`paths.settings`); fehlt sie im Mod, zeigt er die Vanilla-Erdmasken. Die Mod-Kopie halten `va_dynamic_masks.py`/`va_scar_mask.py` gleich, Handarbeit im Editor danach zurück ins Repo holen.
+- `capped_resources` gibt es mit `bg_…`- und mit `building_…`-Schlüsseln (EK, Kalimdor 23/24). Werkzeuge müssen beide lesen (VA-062 fand das in `va_terrain.load_states`).
+- Hafen baubar = `is_coastal` aus der Karte; kein Schalter in der State-Region. Nur `impassable`-Provinzen am Meer geben keinen Hafen (Shadowglen, Oracle Glade, Kono-Test 2026-11-06). Ob ein Ufer an einem `lakes`-See einen Hafen gibt, ist ungeklärt (Dolanaar, VA-031).
+- Rogue-Haufen (VA-031) liegt direkt neben den Wandering Isles (Pandaria). Haufen-Provinzen nur über Nord-Kalimdor-States bestimmen, nie per großem Pixelfenster; Hubs nicht eigenmächtig verschieben.
 - `navigation` Stufe 6/7 bekommt keinen Hafen, sonst Ladefehler „must have invented Navigation“.
 - 1.13 handelt nur über `building_trade_center`; ohne Zentrale kein Import/Export (VA-040).
 - Ohne Verwaltung und Bausektor in der Start-History stapelt die KI genau diese Gebäude (VA-044).
@@ -56,3 +64,4 @@ Immer erst den Probelauf zeigen bzw. prüfen, dann `--apply`, danach `va_check_s
 - Gebäude-History mit PMs eines anderen Gebäudes (Reisfarm mit `pm_saw_mills`) oder `add_ownership = { country = { type … } }` meldet error.log nur als „Invalid production method“/„Unexpected token“ → bei Kopien aus anderen Blöcken PMs prüfen (VA-043).
 - Vanilla-`aliases` (`building_barracks`, `building_subsistence_farms`) gelten nur für Spielstände, nicht in History/`map_data` → immer den echten 1.13-Namen schreiben (VA-043).
 - Startgesetze, die ein Land nicht halten darf (fehlende Technik), tauscht das Spiel beim Start aus und meldet `country_law_manager` → das gemeldete Ersatzgesetz direkt in die History schreiben (VA-014).
+- Farmland ist kein Eintrag in `province_terrains.txt`: Farmen wandeln Provinzen dynamisch um, aber nur, wo `gfx/map/masks/mask_dynamic_farmland.png` bemalt ist (`va_dynamic_masks.py`). `mask_farmlands_0*.png` sind nur die Feldtexturen. Die Masken unter `gfx/map/masks/` waren Erde-Kopien, seit 2026-11-04 geleert und nur EK gemalt (VA-051, VA-061).

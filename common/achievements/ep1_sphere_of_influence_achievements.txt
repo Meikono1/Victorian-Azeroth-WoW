@@ -65,7 +65,11 @@ achievement_new_order = {
 achievement_great_game_no_re = {
 	possible = {
 		has_dlc_feature = ep1_cosmetics
-		has_objective = objective_great_game
+		is_involved_in_journal_entry = je_great_game_control
+		OR = {
+			c:GBR ?= this
+			c:RUS ?= this
+		}
 	}
 	happened = {
 		hidden_trigger = {
@@ -220,7 +224,7 @@ achievement_declaration_of_independence = {
 		}
 	}
 	happened = {
-		is_subject = no
+		is_independent_and_not_being_subjugated = yes
 		hidden_trigger = {
 			has_variable = declaration_of_independence_ach_possible
 		}

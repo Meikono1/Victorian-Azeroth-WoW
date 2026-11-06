@@ -197,6 +197,9 @@ achievement_everyone_disliked_that = {
 		always = yes
 	}
 	happened = {
-		has_variable = achievement_everyone_disliked_that_var
+		custom_tooltip = {
+			text = achievement_everyone_disliked_that_tt
+			has_variable = achievement_everyone_disliked_that_var
+		}
 	}
 }

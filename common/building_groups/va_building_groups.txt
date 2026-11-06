@@ -28,3 +28,12 @@ bg_eternium_mining = {
 bg_va_dead_scar_healing = {
 	parent_group = bg_government
 }
+
+# Todesschneise als Gebäude (VA-062), nur Optik. Vorbild: Vanilla bg_monuments_hidden (Deko-Gebäude wie Machu Picchu).
+# Nicht unter bg_government: das kostete je Stufe 1 Infrastruktur und 20 Urbanisierung (Kono-Test 2026-11-04, 50 Stufen).
+bg_va_dead_scar = {
+	always_possible = yes
+	is_shown_in_outliner = no
+	infrastructure_usage_per_level = 0
+	urbanization = 0
+}

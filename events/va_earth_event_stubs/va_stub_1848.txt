@@ -22,6 +22,13 @@ namespace = 1848
 	weight_multiplier = { factor = 0 }
 }
 
+1848.4 = {
+	type = country_event
+	hidden = yes
+	trigger = { always = no }
+	weight_multiplier = { factor = 0 }
+}
+
 1848.6 = {
 	type = country_event
 	hidden = yes

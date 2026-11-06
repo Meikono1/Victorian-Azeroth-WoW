@@ -64,7 +64,7 @@ an_empire_under_the_pun = {
     happened = {
         hidden_trigger = {
             c:GBR ?= {
-                is_subject_of = ROOT
+                is_subject_of_and_not_being_freed = ROOT
             }
             has_variable = an_empire_under_the_pun_ach_possible
         }
@@ -188,7 +188,7 @@ bourbon_for_everyone = {
         custom_tooltip = {
             text = ruler_is_borbon_tt
             ruler = {
-                has_variable = house_bourbon
+                var:dynasty_var ?= flag:house_bourbon
             }
         }
         root.average_sol >= 20
@@ -209,7 +209,7 @@ american_territory = {
     }
     happened = {
         c:USA ?= {
-            is_subject_of = ROOT
+            is_subject_of_and_not_being_freed = ROOT
             custom_tooltip = {
                 text = american_territory_achievement_tt
                 any_scope_state = {

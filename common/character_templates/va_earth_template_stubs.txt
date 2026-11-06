@@ -285,6 +285,10 @@ eth_sahle_dengel_solomon = {
 	age = 40
 }
 
+fin_general_mannerheim = {
+	age = 40
+}
+
 FRA_ferdinand_philippe = {
 	age = 40
 }
@@ -841,6 +845,10 @@ PRU_bruno_bauer = {
 	age = 40
 }
 
+RUS_nicholas_i = {
+	age = 40
+}
+
 RUS_alexander_ii = {
 	age = 40
 }
@@ -869,6 +877,14 @@ RUS_alexei_ii = {
 	age = 40
 }
 
+rus_witte_character_template = {
+	age = 40
+}
+
+RUS_viktor_mikhailovich_chernov = {
+	age = 40
+}
+
 RUS_alexander_fyodorovich_kerensky = {
 	age = 40
 }
@@ -881,7 +897,23 @@ RUS_dimitry_pisarev = {
 	age = 40
 }
 
+rus_general_grand_duke_nicholas = {
+	age = 40
+}
+
+rus_general_wrangel = {
+	age = 40
+}
+
+rus_grand_duke_dmitri_pavlovich = {
+	age = 40
+}
+
 RUS_varfolomey_zaitsev = {
+	age = 40
+}
+
+RUS_nikolai_vasilyevich_tchaikovsky = {
 	age = 40
 }
 
@@ -910,6 +942,34 @@ rus_pyotr_kropotkin_character_template = {
 }
 
 rus_lenin_character_template = {
+	age = 40
+}
+
+RUS_alexander_pushkin = {
+	age = 40
+}
+
+RUS_maria_spiridonova = {
+	age = 40
+}
+
+RUS_alexander_kolchak = {
+	age = 40
+}
+
+RUS_anton_denikin = {
+	age = 40
+}
+
+RUS_iosif_dzhugashvili = {
+	age = 40
+}
+
+RUS_jozef_pilsudski = {
+	age = 40
+}
+
+RUS_grigoriy_rasputin = {
 	age = 40
 }
 
@@ -1093,6 +1153,14 @@ zan_suleiman_bin_hamid = {
 	age = 40
 }
 
+easteregg_bavo_devos = {
+	age = 40
+}
+
+easteregg_ea_nasir_template = {
+	age = 40
+}
+
 dynamic_legitimist_ruler_template = {
 	age = 40
 }
@@ -1229,7 +1297,7 @@ agitator_karl_marx = {
 	age = 40
 }
 
-agitator_charlie_marx = {
+agitator_kras_masov = {
 	age = 40
 }
 
@@ -1306,5 +1374,9 @@ adam_1 = {
 }
 
 adam_2 = {
+	age = 40
+}
+
+nemo_prince = {
 	age = 40
 }

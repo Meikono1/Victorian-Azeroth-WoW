@@ -262,6 +262,7 @@ gov_regency_enlightened_despotate = {
 		NOT = { is_subject_type = subject_type_crown_land }
 		NOT = { has_journal_entry = je_spain_provisional_government }
 		has_gov_regency = yes
+		NOT = { has_journal_entry = je_russia_provisional_government }
 	}
 
 	on_government_type_change = {
@@ -506,6 +507,7 @@ gov_regency_tsardom = {
 			}
 		}
 		NOT = { is_subject_type = subject_type_crown_land }
+		NOT = { has_journal_entry = je_russia_provisional_government }
 		has_gov_regency = yes
 	}
 
@@ -1153,6 +1155,25 @@ gov_regency_khanate = {
 	}
 }
 
+gov_regency_shamkhalate = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_REGENT"
+	female_ruler = "RULER_TITLE_REGENT"
+
+	male_heir = "RULER_TITLE_SHAMKHAL"
+	female_heir = "" # Empty on purpose
+
+	possible = { always = no } # VA: Erde-Bezug
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}
+
 gov_regency_ilkhanate = {
 	transfer_of_power = hereditary
 
@@ -1666,6 +1687,26 @@ gov_regency_city_state_constitutional = {
 	}
 	on_post_government_type_change = {
 		post_change_to_hereditary = yes
+	}
+}
+
+gov_provisional_government_russia = {
+	transfer_of_power = presidential_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_MINISTER_PRESIDENT"
+	female_ruler = "RULER_TITLE_MINISTER_PRESIDENT"
+
+	possible = {
+		c:RUS ?= this
+		has_journal_entry = je_russia_provisional_government
+	}
+
+	on_government_type_change = {
+		change_to_presidential_elective = yes
+	}
+	on_post_government_type_change = {
+		# Nothing, keeps current ruler
 	}
 }
 

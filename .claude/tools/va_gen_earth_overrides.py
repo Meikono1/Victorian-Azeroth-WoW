@@ -41,6 +41,9 @@ FILES = {
 	"common/achievements/ip2_pivot_of_empire_achievements.txt": (("possible", "happened"), ()),
 	"common/achievements/ip3_national_awakening_achievements.txt": (("possible", "happened"), ()),
 	"common/achievements/ip4_iberian_twilight_achievements.txt": (("possible", "happened"), ()),
+	# Flaggen: Liste DEFAULT gilt für jedes Land und fragt seit 1.15 Erde-States ab (~3.900 Zeilen je Start, VA-063).
+	# Ganze Datei leeren ginge, nähme aber die Revolutions-/Kommunisten-Flaggen aus DEFAULT mit
+	"common/flag_definitions/00_flag_definitions.txt": (("flag_definition/trigger",), ()),
 }
 STATE = re.compile(r"\bSTATE_[A-Z0-9_]+")
 REGION = re.compile(r"\bsr:(region_\w+)")
@@ -76,14 +79,21 @@ def earth(text, known):
 
 def block_end(text, open_pos):
 	"""Index hinter der schließenden Klammer zum '{' an open_pos."""
-	depth = 0
-	for i in range(open_pos, len(text)):
-		if text[i] == "{":
+	depth, i = 0, open_pos
+	while i < len(text):
+		c = text[i]
+		if c == "#":  # Kommentar bis Zeilenende, darin auskommentierte Klammern (00_flag_definitions.txt)
+			nl = text.find("\n", i)
+			i = len(text) if nl < 0 else nl
+			continue
+		if c == "{":
 			depth += 1
-		elif text[i] == "}":
+		elif c == "}":
 			depth -= 1
 			if depth == 0:
 				return i + 1
+		i += 1
+	log.error("Klammer ab Zeichen %d nicht geschlossen", open_pos)
 	raise ValueError(f"Klammer ab {open_pos} nicht geschlossen")
 
 
@@ -114,14 +124,27 @@ def first_level(body, key):
 def neutralize(body, keys, drop, states):
 	for key in drop:
 		body = re.sub(rf"^\t{key}\s*=\s*\S+[ \t]*\n", "", body, flags=re.M)
-	hits = []
+	hits, nested = [], []
 	for key in keys:
+		if "/" in key:  # Pfad: z. B. flag_definition/trigger = in jedem flag_definition-Block den trigger entschärfen
+			head, rest = key.split("/", 1)
+			for s, e in first_level(body, head):
+				if earth(body[s:e], states):
+					nested.append((s, e, rest))
+			continue
 		for s, e in first_level(body, key):
 			if earth(body[s:e], states):
 				hits.append((s, e, key))
-	for s, e, key in sorted(hits, reverse=True):
-		body = body[:s] + f"{key} = {{ always = no }} # VA: Erde-Bezug" + body[e:]
-	return body, bool(hits)
+	changed = False
+	for s, e, key in sorted(hits + nested, reverse=True):  # von hinten, damit die Positionen davor gültig bleiben
+		if (s, e, key) in nested:
+			sub, hit = neutralize(body[s:e], (key,), (), states)
+			body = body[:s] + sub + body[e:]
+			changed |= hit
+		else:
+			body = body[:s] + f"{key} = {{ always = no }} # VA: Erde-Bezug" + body[e:]
+			changed = True
+	return body, changed
 
 
 def convert(text, keys, drop, states):

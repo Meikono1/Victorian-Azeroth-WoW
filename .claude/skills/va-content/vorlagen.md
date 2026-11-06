@@ -56,15 +56,38 @@ je_<thema>_<ziel> = {
 	}
 
 	possible = { … }       # Sperren hier auch eintragen, Vic3 aktiviert JEs selbst
-	complete = { … }
 
-	on_complete = {
-		add_modifier = { name = va_<thema>_<belohnung> years = 10 }
-		trigger_event = { id = <thema>_events.1 popup = yes }
+	# seit 1.15: outcome statt complete/fail/invalid/timeout (Vanilla journal_entries.md)
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = { … }
+		effect = {
+			add_modifier = { name = va_<thema>_<belohnung> years = 10 }
+			trigger_event = { id = <thema>_events.1 popup = yes }
+		}
 	}
 
-	timeout = 5475 # 15 Jahre
-	on_timeout = { … }
+	# Scheitern sichtbar: header/effect_header je_standard_failure_header/je_standard_on_failure_header,
+	# color = "blue_negative", conclusion_desc = je_standard_failure_conclusion_desc
+	# Still ungültig (früher invalid/on_invalid):
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = { … }
+		effect = { … }
+	}
+
+	timeout = 5475 # 15 Jahre; braucht dann genau ein timeout-outcome
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = { … }
+	}
 
 	transferable = no
 	weight = 100

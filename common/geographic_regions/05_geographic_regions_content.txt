@@ -16,3 +16,95 @@ geographic_region_old_world = {
 geographic_region_krakatoa_tsunami_zone = {
 	short_key = "krakatoa_tsunami_zone"
 }
+
+geographic_region_east_slavic_states = {
+	short_key = "east_slavic_states"
+}
+
+geographic_region_diocese_of_kamchatka = {
+	short_key = "diocese_of_kamchatka"
+}
+
+geographic_region_baltic_governorates = {
+	short_key = "baltic_governorates"
+}
+
+geographic_region_congress_poland = {
+	short_key = "congress_poland"
+}
+
+geographic_region_finland = {
+	short_key = "finland"
+}
+
+geographic_region_russia_western_borderlands = {
+	short_key = "russia_western_borderlands"
+}
+
+geographic_region_trans_siberian_line = {
+	short_key = "trans_siberian_line"
+}
+
+geographic_region_french_revolution_zone = {
+	short_key = "french_revolution_zone"
+}
+
+geographic_region_rcw_north = {
+	short_key = "rcw_north"
+}
+
+geographic_region_rcw_petrograd = {
+	short_key = "rcw_petrograd"
+}
+
+geographic_region_rcw_central = {
+	short_key = "rcw_central"
+}
+
+geographic_region_rcw_volga = {
+	short_key = "rcw_volga"
+}
+
+geographic_region_rcw_urals = {
+	short_key = "rcw_urals"
+}
+
+geographic_region_rcw_south = {
+	short_key = "rcw_south"
+}
+
+geographic_region_rcw_ukraine = {
+	short_key = "rcw_ukraine"
+}
+
+geographic_region_rcw_west = {
+	short_key = "rcw_west"
+}
+
+geographic_region_rcw_baltic = {
+	short_key = "rcw_baltic"
+}
+
+geographic_region_rcw_west_siberia = {
+	short_key = "rcw_west_siberia"
+}
+
+geographic_region_rcw_east_siberia = {
+	short_key = "rcw_east_siberia"
+}
+
+geographic_region_rcw_far_east = {
+	short_key = "rcw_far_east"
+}
+
+geographic_region_rcw_steppe = {
+	short_key = "rcw_steppe"
+}
+
+geographic_region_rcw_turkestan = {
+	short_key = "rcw_turkestan"
+}
+
+geographic_region_rcw_transcaucasia = {
+	short_key = "rcw_transcaucasia"
+}

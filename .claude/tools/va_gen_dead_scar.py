@@ -11,10 +11,14 @@ REGIONS = [
     ('west_sanctum', 'STATE_WEST_SANCTUM', 'West Sanctum'),
     ('east_sanctum', 'STATE_EAST_SANCTUM', 'East Sanctum'),
     ('tranquillien', 'STATE_TRANQUILLIEN', 'Tranquillien'),
-    ('deathholme', 'STATE_DEATHHOLME', 'Deathholme'),
 ]
+# Deathholme hat kein Ritual (Kono 2026-11-06, VA-062): Der Fluch hält, solange eine Region aus REGIONS verdorben ist,
+# und stärkt DEATHHOLME je verdorbener Region; bei null weicht er von selbst.
+DEATHHOLME_REGION = 'STATE_DEATHHOLME'
 DURATION = 20  # Monate aktiver Heilung je Region
 START_COST = 100000  # Einmalkosten beim Einschalten eines Rituals (Kono 2026-10-31)
+SCAR_LEVELS = 100  # Stufen von building_va_dead_scar am Start (VA-062), gleich in va_update_dead_scar_effect; 5, 25 und 50 deckten nicht alle Provinzen
+SCAR_STEPS = 5  # in so vielen Abschnitten schrumpft die Schneise während der Heilung
 
 
 def write(path, text):
@@ -172,6 +176,7 @@ write('common/scripted_buttons/va_dead_scar_buttons.txt', ''.join(btn))
 # --- Monatsprüfung: volle Balken heilen die Region ---
 eff = ['# Monatsprüfung der Todesschneisen-Heilung (VA-046), erzeugt von .claude/tools/va_gen_dead_scar.py.\n'
        '# Country-Scope aus je_va_dead_scar (on_monthly_pulse). Voller Balken + Region noch verdorben → Ritual Site weg, Region heilen, Event.\n'
+       '# Dazwischen schrumpft building_va_dead_scar mit dem Balken (VA-062).\n'
        '# Vorbild: Balkenabfrage wie Vanilla je_expedition (00_antarctica.txt).\n\n'
        'va_dead_scar_heal_pulse_effect = {\n']
 for key, region, name in REGIONS:
@@ -200,8 +205,89 @@ for key, region, name in REGIONS:
 		trigger_event = {{ id = dead_scar_events.1 popup = yes }}
 	}}
 ''')
+    # Sichtbare Schneise schrumpft mit dem Balken (VA-062): SCAR_STEPS Abschnitte, je Abschnitt
+    # SCAR_LEVELS/SCAR_STEPS Stufen weniger.
+    steps = []
+    for step in range(1, SCAR_STEPS):
+        lvl = step * SCAR_LEVELS // SCAR_STEPS
+        need = (SCAR_STEPS - step) * DURATION // SCAR_STEPS
+        kw = 'if' if not steps else 'else_if'
+        steps.append(f'''		{kw} = {{
+			limit = {{ scope:journal_entry = {{ "scripted_bar_progress(va_dead_scar_bar_{key})" >= {need} }} }}
+			va_dead_scar_set_level_effect = {{ level = {lvl} }}
+		}}
+''')
+    eff.append(f'''	every_scope_state = {{
+		limit = {{
+			state_region = s:{region}
+			has_building = building_va_dead_scar
+		}}
+''' + ''.join(steps) + '''	}
+''')
 eff.append('}\n')
+
+# --- Deathholme: Buff je verdorbener Region, Schneise schrumpft mit, bei null geheilt (VA-062) ---
+per_region = SCAR_LEVELS // len(REGIONS)
+dh_steps = []
+for n in range(1, len(REGIONS)):
+    kw = 'if' if not dh_steps else 'else_if'
+    dh_steps.append(f'''			{kw} = {{
+				limit = {{ va_dead_scar_cursed_regions <= {n} }}
+				va_dead_scar_set_level_effect = {{ level = {n * per_region} }}
+			}}
+''')
+eff.append(f'''
+# Ohne Scope (on_monthly_pulse, Start, nach jeder Heilung). Zähler: Script-Wert va_dead_scar_cursed_regions.
+# Vorbild: add_modifier mit multiplier wie Vanilla raid_target (scripted_effects/00_chris_scripted_effects.txt).
+va_update_deathholme_scourge_effect = {{
+	c:DEATHHOLME ?= {{
+		if = {{
+			limit = {{ has_modifier = va_deathholme_scourge_tide }}
+			remove_modifier = va_deathholme_scourge_tide
+		}}
+		if = {{
+			limit = {{
+				va_dead_scar_cursed_regions > 0
+				s:{DEATHHOLME_REGION} = {{ has_variable = va_dead_scar_region }}
+			}}
+			add_modifier = {{
+				name = va_deathholme_scourge_tide
+				multiplier = va_dead_scar_cursed_regions
+			}}
+		}}
+	}}
+	if = {{
+		limit = {{ s:{DEATHHOLME_REGION} = {{ has_variable = va_dead_scar_region }} }}
+		if = {{
+			limit = {{ va_dead_scar_cursed_regions = 0 }}
+			s:{DEATHHOLME_REGION} = {{ remove_variable = va_dead_scar_region }}
+			every_state = {{
+				limit = {{ state_region = s:{DEATHHOLME_REGION} }}
+				va_update_dead_scar_effect = yes
+			}}
+		}}
+		else = {{
+			# Schneise in Deathholme schrumpft mit: {per_region} Stufen je verdorbener Region
+			every_state = {{
+				limit = {{
+					state_region = s:{DEATHHOLME_REGION}
+					has_building = building_va_dead_scar
+				}}
+''' + ''.join(dh_steps) + '''			}
+		}
+	}
+}
+''')
 write('common/scripted_effects/va_dead_scar_effects.txt', ''.join(eff))
+
+# --- Zähler der verdorbenen Regionen mit Ritual (ohne Deathholme) ---
+val = ['# Anzahl der noch verdorbenen Regionen der Todesschneise ohne Deathholme (VA-062), erzeugt von .claude/tools/va_gen_dead_scar.py.\n'
+       '# Vorbild: Vanilla script_values mit if/add (z. B. common/script_values/00_infamy_values.txt).\n\n'
+       'va_dead_scar_cursed_regions = {\n\tvalue = 0\n']
+for key, region, name in REGIONS:
+    val.append(f'\tif = {{\n\t\tlimit = {{ s:{region} = {{ has_variable = va_dead_scar_region }} }}\n\t\tadd = 1\n\t}}\n')
+val.append('}\n')
+write('common/script_values/va_dead_scar_values.txt', ''.join(val))
 
 # --- Loc ---
 loc = ['l_english:\n']
