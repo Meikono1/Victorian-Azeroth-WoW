@@ -37,3 +37,12 @@ bg_va_dead_scar = {
 	infrastructure_usage_per_level = 0
 	urbanization = 0
 }
+
+# Disenchantment-Werkstatt (VA-019, Kono 2026-11-12): eigene Gruppe ohne Infrastruktur/Urbanisierung und ohne Ressourcen-Deckel.
+# Vorbild: Vanilla bg_monuments_hidden, Werte wie bg_va_dead_scar; cash_reserves_max wie bg_extraction.
+bg_va_disenchantment = {
+	always_possible = yes
+	infrastructure_usage_per_level = 0
+	urbanization = 0
+	cash_reserves_max = 25000
+}

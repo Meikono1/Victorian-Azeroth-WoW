@@ -189,7 +189,7 @@ wretched_events.5 = {
 	flavor = wretched_events.5.f
 
 	event_image = {
-		video = "unspecific_military_parade" # TODO: eigenes Bild (VA-027)
+		texture = "gfx/event_pictures/va_eversong_road_home.dds" # Zeichnung von Konos Freund, Nutzung erlaubt (VA-027). Eventfenster: [Event.GetTexture]
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -527,5 +527,34 @@ wretched_events.16 = {
 	option = {
 		name = wretched_events.16.a
 		default_option = yes
+	}
+}
+
+# Die Wretched greifen an: Bedrohung 100 (va_silvermoon_wretched_frenzy_effect, Kono 2026-11-12). Vorbild: wretched_events.16.
+wretched_events.17 = {
+	type = country_event
+
+	title = wretched_events.17.t
+	desc = wretched_events.17.d
+	flavor = wretched_events.17.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_silvermoon_wretched_frenzy_effect
+	}
+
+	option = {
+		name = wretched_events.17.a
+		default_option = yes
+		custom_tooltip = va_wretched_frenzy_tt
 	}
 }

@@ -37,6 +37,7 @@ je_va_dead_scar = {
 	on_monthly_pulse = {
 		effect = {
 			va_dead_scar_heal_pulse_effect = yes
+			va_liadrin_ritual_wardens_effect = yes # VA-066
 		}
 	}
 
@@ -54,6 +55,10 @@ je_va_dead_scar = {
 			}
 		}
 		effect = {
+			if = {
+				limit = { has_modifier = va_silvermoon_blood_knight_wardens }
+				remove_modifier = va_silvermoon_blood_knight_wardens # VA-066
+			}
 			add_modifier = {
 				name = va_dead_scar_land_restored
 				years = 20

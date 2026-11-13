@@ -1,17 +1,10 @@
 ﻿BUILDINGS={
+	# Quel'Danas: Grundversorgung für die Pops aus VA-024 (2026-11-10), Muster Sunstrider Isle / Duskwither Spire
 	s:STATE_SUNS_REACH={
 		region_state:SILVERMOON={
-		}
-	}
-	s:STATE_MAGISTERS_TERRACE={
-		region_state:SILVERMOON={
-		}
-	}
-	s:STATE_SUNWELL_PLATEAU={
-		region_state:SILVERMOON={
-			# Start-Angebot Mana, deckt die Grundnachfrage im Silvermoon-Markt (VA-019)
+			# Hafen: Quel'Danas am Markt (Kono-Test 2026-11-12)
 			create_building={
-				building="building_leyline_tap"
+				building="building_port"
 				add_ownership={
 					country={
 						country="c:SILVERMOON"
@@ -19,7 +12,64 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_focus_crystals_building_leyline_tap" }
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SILVERMOON"
+						levels=1
+						region="STATE_SILVERMOON_CITY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:SILVERMOON"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+		}
+	}
+	s:STATE_MAGISTERS_TERRACE={
+		region_state:SILVERMOON={
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SILVERMOON"
+						levels=1
+						region="STATE_SILVERMOON_CITY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" }
+			}
+		}
+	}
+	s:STATE_SUNWELL_PLATEAU={
+		region_state:SILVERMOON={
+			# Start-Angebot Mana: 2 Stufen Arcane Conduits (Silvermoon hat atmospheric_engine) = 80 gegen rund 131 Bedarf → Scarcity zum Start (VA-019, Kono 2026-11-12)
+			create_building={
+				building="building_leyline_tap"
+				add_ownership={
+					country={
+						country="c:SILVERMOON"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_arcane_conduits_building_leyline_tap" "pm_no_attunement_building_leyline_tap" }
 			}
 		}
 	}
@@ -227,7 +277,7 @@
 				add_ownership={
 					country={
 						country="c:WRETCHED_BLOODELFES"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
@@ -283,6 +333,18 @@
 	}
 	s:STATE_SILVERMOON_CITY={
 		region_state:SILVERMOON={
+			# Bausektor (Kono-Test 2026-11-12)
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:SILVERMOON"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
@@ -376,7 +438,7 @@
 				add_ownership={
 					country={
 						country="c:SILVERMOON"
-						levels=4
+						levels=10 # Kono 2026-11-12: 13 → 10, Papierkosten trieben Silvermoon in den Bankrott
 					}
 				}
 				reserves=1
@@ -1131,7 +1193,7 @@
 				add_ownership={
 					country={
 						country="c:GRIMSCALE_MURLOCS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1165,6 +1227,18 @@
 			}
 		}
 		region_state:TRANQUILLIEN={
+			# Nahrung (Kono-Test 2026-11-12: Hungersnot)
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TRANQUILLIEN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -1181,7 +1255,7 @@
 				add_ownership={
 					country={
 						country="c:TRANQUILLIEN"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1191,6 +1265,30 @@
 	}
 	s:STATE_DEATHHOLME={
 		region_state:DEATHHOLME={
+			# Bürokratie (Kono-Test 2026-11-12: Defizit zum Start)
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:DEATHHOLME"
+						levels=9
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			# Bausektor (Kono-Test 2026-11-12)
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:DEATHHOLME"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
@@ -1453,6 +1551,18 @@
 			}
 		}
 		region_state:DARNASSUS_OUTPOST_EK={
+			# Nahrung zur Sicherheit (Kono-Test 2026-11-12)
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:DARNASSUS_OUTPOST_EK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -1480,7 +1590,7 @@
 				add_ownership={
 					country={
 						country="c:DARNASSUS_OUTPOST_EK"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -1497,30 +1607,20 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_dye_plantation"
-				add_ownership={
-					country={
-						country="c:DARNASSUS_OUTPOST_EK"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" }
-			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:DARNASSUS_OUTPOST_EK"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
 		}
 		region_state:TRANQUILLIEN={
+			# Nahrung (Kono-Test 2026-11-12: Hungersnot)
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					country={
+						country="c:TRANQUILLIEN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -1536,6 +1636,18 @@
 	}
 	s:STATE_ZUL_AMAN={
 		region_state:AMANI_TRIBE={
+			# Sklavenarbeit der Amani (Kono 2026-11-12: Arbeitslose in Zul'Aman)
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					country={
+						country="c:AMANI_TRIBE"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
+			}
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
@@ -1552,7 +1664,7 @@
 				add_ownership={
 					country={
 						country="c:AMANI_TRIBE"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
@@ -1618,18 +1730,18 @@
 				add_ownership={
 					country={
 						country="c:AMANI_TRIBE"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					country={
 						country="c:AMANI_TRIBE"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1

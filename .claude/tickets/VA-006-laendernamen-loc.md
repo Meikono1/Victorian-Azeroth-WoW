@@ -1,4 +1,4 @@
-# VA-006: Lokalisierung der Ländernamen
+﻿# VA-006: Lokalisierung der Ländernamen
 
 - **Status:** offen
 - **Typ:** content
@@ -16,3 +16,4 @@ Für die 319 Tags in `common/country_definitions/VA_eastern_kingdom.txt`, `VA_ka
 - 2026-10-30: T-009 OK (Zul'Jarra korrekt). Rest des Tickets weiter offen.
 - 2026-10-30: Im Mana-JE sichtbar: `HIGHVALE_HIGHELFES` und `HIGHVALE_HIGHELFES_ADJ` ohne Loc (Fund Kono, Screenshot).
 - 2026-11-01: Auch `SILVERMOON_ADJ` fehlt (Tooltip Heil-JE, Fund Kono).
+- 2026-11-13: Namen und Adjektive für die Quel'Thalas-Länder ergänzt (SILVERMOON, WRETCHED_BLOODELFES, TRANQUILLIEN, DEATHHOLME, SHADOWPINE_TRIBE, MOSSFLAYER_TROLLS, DARNASSUS_OUTPOST_EK, GRIMSCALE_MURLOCS) in `va_countries_l_english.yml`, von Kono abgenommen (2026-11-13), ohne Marker.

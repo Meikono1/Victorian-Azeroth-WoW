@@ -1,9 +1,15 @@
 ﻿POPS = {
+	# Quel'Thalas gemischt (VA-049, Kono-Test 2026-11-12): krumme Zahlen, Banshees in den Ghostlands vorn, Zombies in Deathholme stark,
+	# Elfen als Sklaven der Trolle (keine Troll-Sklaven, Kono 2026-11-12), Nachtelfen-Außenposten klein, Tranquillien kleiner. Goblins nur noch als Händler in Silvermoon City.
 	s:STATE_SUNS_REACH = {
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 10000
+				size = 151340
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 28760
 			}
 		}
 	}
@@ -11,15 +17,27 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 10000
+				size = 101870
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 14290
+			}
+			create_pop = {
+				culture = dalaranian
+				size = 4620
 			}
 		}
 	}
-	s:STATE_SUNWELL_PLATEAU = { 
+	s:STATE_SUNWELL_PLATEAU = {
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 10000
+				size = 49380
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 10940
 			}
 		}
 	}
@@ -27,7 +45,11 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 225000
+				size = 204730
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 20270
 			}
 		}
 		region_state:WRETCHED_BLOODELFES = {
@@ -41,13 +63,21 @@
 		region_state:WRETCHED_BLOODELFES = {
 			create_pop = {
 				culture = sin_dorei
-				size = 744000
+				size = 703460
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 40540
 			}
 		}
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 356000
+				size = 329180
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 26820
 			}
 		}
 	}
@@ -55,11 +85,35 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 829400
+				size = 713460
 			}
 			create_pop = {
 				culture = sin_dorei
-				size = 600600
+				size = 509870
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 91240
+			}
+			create_pop = {
+				culture = dalaranian
+				size = 31690
+			}
+			create_pop = {
+				culture = forsaken
+				size = 29380
+			}
+			create_pop = {
+				culture = orgrimmari
+				size = 24150
+			}
+			create_pop = {
+				culture = goblin
+				size = 16420
+			}
+			create_pop = {
+				culture = jungle_troll
+				size = 13790
 			}
 		}
 	}
@@ -67,7 +121,11 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 620000
+				size = 588610
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 31390
 			}
 		}
 		region_state:GRIMSCALE_MURLOCS = {
@@ -81,7 +139,11 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 345000
+				size = 327450
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 17550
 			}
 		}
 		region_state:WRETCHED_BLOODELFES = {
@@ -101,13 +163,21 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 423000
+				size = 394120
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 28880
 			}
 		}
 		region_state:DEATHHOLME = {
 			create_pop = {
 				culture = banshee
-				size = 653000
+				size = 512360
+			}
+			create_pop = {
+				culture = zombie
+				size = 140640
 			}
 		}
 	}
@@ -115,11 +185,15 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 320000
+				size = 297460
 			}
 			create_pop = {
 				culture = sin_dorei
-				size = 580000
+				size = 513180
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 89360
 			}
 		}
 	}
@@ -127,11 +201,15 @@
 		region_state:SILVERMOON = {
 			create_pop = {
 				culture = sin_dorei
-				size = 432000
+				size = 413720
 			}
 			create_pop = {
 				culture = sin_dorei
-				size = 270000
+				size = 238630
+			}
+			create_pop = {
+				culture = quel_dorei
+				size = 49650
 			}
 		}
 	}
@@ -139,12 +217,16 @@
 		region_state:AMANI_TRIBE = {
 			create_pop = {
 				culture = forest_troll
-				size = 320000
+				size = 271640
+			}
+			create_pop = {
+				culture = dire_troll
+				size = 27860
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sin_dorei
-				size = 120000
+				size = 140500
 			}
 		}
 	}
@@ -152,7 +234,11 @@
 		region_state:DEATHHOLME = {
 			create_pop = {
 				culture = banshee
-				size = 586000
+				size = 461270
+			}
+			create_pop = {
+				culture = zombie
+				size = 124730
 			}
 		}
 		region_state:GRIMSCALE_MURLOCS = {
@@ -166,13 +252,21 @@
 		region_state:DEATHHOLME = {
 			create_pop = {
 				culture = banshee
-				size = 860000
+				size = 667930
+			}
+			create_pop = {
+				culture = zombie
+				size = 192070
 			}
 		}
 		region_state:TRANQUILLIEN = {
 			create_pop = {
 				culture = sin_dorei
-				size = 230000
+				size = 148620
+			}
+			create_pop = {
+				culture = forsaken
+				size = 31470
 			}
 		}
 	}
@@ -180,7 +274,11 @@
 		region_state:DEATHHOLME = {
 			create_pop = {
 				culture = banshee
-				size = 1400000
+				size = 806410
+			}
+			create_pop = {
+				culture = zombie
+				size = 593590
 			}
 		}
 	}
@@ -188,18 +286,26 @@
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
 				culture = forest_troll
-				size = 280000
+				size = 241730
+			}
+			create_pop = {
+				culture = dire_troll
+				size = 18570
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sin_dorei
-				size = 80000
+				size = 99700
 			}
 		}
 		region_state:DEATHHOLME = {
 			create_pop = {
 				culture = banshee
-				size = 460000
+				size = 357180
+			}
+			create_pop = {
+				culture = zombie
+				size = 102820
 			}
 		}
 	}
@@ -207,7 +313,16 @@
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
 				culture = forest_troll
-				size = 350000
+				size = 296840
+			}
+			create_pop = {
+				culture = dire_troll
+				size = 28360
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sin_dorei
+				size = 24800
 			}
 		}
 	}
@@ -215,24 +330,28 @@
 		region_state:SHADOWPINE_TRIBE = {
 			create_pop = {
 				culture = forest_troll
-				size = 330000
+				size = 302270
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sin_dorei
-				size = 20000
+				size = 47730
 			}
 		}
 		region_state:TRANQUILLIEN = {
 			create_pop = {
 				culture = sin_dorei
-				size = 230000
+				size = 146380
+			}
+			create_pop = {
+				culture = forsaken
+				size = 28910
 			}
 		}
 		region_state:DARNASSUS_OUTPOST_EK = {
 			create_pop = {
 				culture = kal_dorei
-				size = 130000
+				size = 34860
 			}
 		}
 	}
@@ -240,22 +359,21 @@
 		region_state:AMANI_TRIBE = {
 			create_pop = {
 				culture = forest_troll
-				size = 980000
+				size = 983140
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = forest_troll
-				size = 1350000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = forest_troll
-				size = 350000
+				culture = dire_troll
+				size = 346860
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sin_dorei
-				size = 374000
+				size = 641790
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = quel_dorei
+				size = 169830
 			}
 		}
 	}

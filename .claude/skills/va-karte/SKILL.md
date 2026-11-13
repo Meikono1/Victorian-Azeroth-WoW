@@ -56,9 +56,12 @@ Immer erst den Probelauf zeigen bzw. prüfen, dann `--apply`, danach `va_check_s
 - `capped_resources` gibt es mit `bg_…`- und mit `building_…`-Schlüsseln (EK, Kalimdor 23/24). Werkzeuge müssen beide lesen (VA-062 fand das in `va_terrain.load_states`).
 - Hafen baubar = `is_coastal` aus der Karte; kein Schalter in der State-Region. Nur `impassable`-Provinzen am Meer geben keinen Hafen (Shadowglen, Oracle Glade, Kono-Test 2026-11-06). Ob ein Ufer an einem `lakes`-See einen Hafen gibt, ist ungeklärt (Dolanaar, VA-031).
 - Rogue-Haufen (VA-031) liegt direkt neben den Wandering Isles (Pandaria). Haufen-Provinzen nur über Nord-Kalimdor-States bestimmen, nie per großem Pixelfenster; Hubs nicht eigenmächtig verschieben.
+- Insel-States ohne eigenen Hafen hängen nicht am Markt, auch wenn `port`-Hub und `naval_exit_id` gesetzt sind (Quel'Danas, Kono-Test 2026-11-12). `va_add_ports.py` gibt je Land nur einen Hafen; Inseln eines Landes mit Festland-Hafen von Hand prüfen.
+- `26_north_eastern_kingdoms.txt` (Gebäude) hat CRLF-Zeilenenden: Skripte, die Text einfügen, müssen `\r\n` beachten.
 - `navigation` Stufe 6/7 bekommt keinen Hafen, sonst Ladefehler „must have invented Navigation“.
 - 1.13 handelt nur über `building_trade_center`; ohne Zentrale kein Import/Export (VA-040).
 - Ohne Verwaltung und Bausektor in der Start-History stapelt die KI genau diese Gebäude (VA-044).
+- Verwaltung braucht `tech_bureaucracy`, die 50er-Methode `pm_horizontal_drawer_cabinets` zusätzlich `centralization`; sonst gilt nur `pm_simple_organization` (10 je Stufe). Vanilla-Startstufen: 1–2 über `era_1` alles, 3–4 beides, 5 ohne `centralization`, 6–7 ohne beides. Fehlende Tech per `add_technology_researched` in die Länder-History (Kono-Test 2026-11-12, Deathholme/Grimscale). `va_add_gov_buildings.py` prüft nur eine Tech.
 - Tippfehler in Zahlen findet weder Lint noch error.log (`arable_land = 6a0`, `size = zombie` in VA-029) → bei Regionsarbeit `va_region_overview.py` auf Ausreißer ansehen.
 - `STATE_TEST` und leere States (0 Provinzen, z. B. `STATE_BARADIN_HOLD`) sind bekannte Altlasten (VA-018, VA-031).
 - Gebäude-History mit PMs eines anderen Gebäudes (Reisfarm mit `pm_saw_mills`) oder `add_ownership = { country = { type … } }` meldet error.log nur als „Invalid production method“/„Unexpected token“ → bei Kopien aus anderen Blöcken PMs prüfen (VA-043).

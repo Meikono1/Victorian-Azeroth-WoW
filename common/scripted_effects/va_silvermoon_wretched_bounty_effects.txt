@@ -43,21 +43,36 @@ va_silvermoon_wretched_bounty_pulse_effect = {
 		else_if = {
 			limit = { has_variable = va_wretched_hunt_thaelis }
 			random_list = {
-				15 = { va_silvermoon_wretched_slay_thaelis_effect = yes }
+				15 = {
+					modifier = {
+						if = { limit = { va_has_halduron_trigger = yes } add = 10 } # Halduron leitet die Jagd (VA-066)
+					}
+					va_silvermoon_wretched_slay_thaelis_effect = yes
+				}
 				85 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
 			}
 		}
 		else_if = {
 			limit = { has_variable = va_wretched_hunt_aldaron }
 			random_list = {
-				20 = { va_silvermoon_wretched_slay_aldaron_effect = yes }
+				20 = {
+					modifier = {
+						if = { limit = { va_has_halduron_trigger = yes } add = 10 } # Halduron leitet die Jagd (VA-066)
+					}
+					va_silvermoon_wretched_slay_aldaron_effect = yes
+				}
 				80 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
 			}
 		}
 		else_if = {
 			limit = { has_variable = va_wretched_hunt_felendren }
 			random_list = {
-				25 = { va_silvermoon_wretched_slay_felendren_effect = yes }
+				25 = {
+					modifier = {
+						if = { limit = { va_has_halduron_trigger = yes } add = 10 } # Halduron leitet die Jagd (VA-066)
+					}
+					va_silvermoon_wretched_slay_felendren_effect = yes
+				}
 				75 = { va_silvermoon_wretched_hunt_timeout_effect = yes }
 			}
 		}
@@ -144,6 +159,11 @@ va_silvermoon_wretched_slay_felendren_effect = {
 			limit = { has_template = va_wretched_felendren }
 			kill_character = yes
 		}
+	}
+	# im Exil (siehe va_wretched_felendren_alive_trigger)
+	random_character_in_exile_pool = {
+		limit = { has_template = va_wretched_felendren }
+		kill_character = yes
 	}
 	set_variable = { name = va_wretched_felendren_slain }
 	va_silvermoon_wretched_hunt_success_effect = yes

@@ -1,4 +1,4 @@
----
+﻿---
 name: va-patch-upload
 description: Checklisten für den Victorian-Azeroth-Mod bei einer neuen Victoria-3-Spielversion (Patch, Hotfix, supported_game_version) und vor einem Upload in den Steam Workshop (Release, neue Mod-Version, mod\warcraft befüllen, TODO-Durchgang). Nutzen, wenn Kono einen Patch meldet, die Spielversion sich geändert hat oder ein Upload ansteht.
 ---
@@ -36,8 +36,13 @@ Vorgehen beim Vergleich mit Vanilla: per `git diff --no-index <alt> <neu>` bzw. 
 - [ ] Mod-Ordner `mod\warcraft` vollständig aus dem Repo neu befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`; gelöschte Repo-Dateien auch dort löschen) – macht Kono, Werkzeug geplant in VA-010
 - [ ] Kurztest aus dem Mod-Ordner: Kampagne lädt
 - [ ] Änderungen seit dem letzten Upload als Workshop-Text zusammengefasst (Quelle: „Erledigt“ im `ABLAUFPLAN.md` seit dem letzten Upload-Ticket; `git log` nur lesen)
+- [ ] Inhaltszahlen fürs Release-Statement (Kono 2026-11-12): `python -I .claude/tools/va_release_stats.py --compare <letzter Stand>` (Markdown-Tabelle „Added / Total now“), danach `--save <neue Version>`. Stände in `.claude/releases/version_*.json`; Basis vor dem ersten Release mit Claude: `2025-12` (= `ae932e6`, letzter Commit vor der Pause)
 
 Git bleibt dabei tabu für schreibende Aktionen (Commit, Tag macht Kono).
+
+## Stolperfalle: Release-Zahlen
+
+- `va_release_stats.py` zählt Objekte, die es im heutigen Vanilla nicht gibt. Alte Vanilla-Kopien (Objekte inzwischen umbenannt) und Erde-Hüllen zählten deshalb fälschlich als Mod-Content (Basis 2025-12 zeigte 6 JEs/15 Events statt 2/1). Ausnahmen stehen in `VANILLA_RELICS`/`is_counted`; neue Funde dort eintragen und die Basis mit `--ref ae932e6 --save 2025-12` neu sichern. Zahlen vor dem Workshop-Text mit Kono plausibilisieren.
 
 ## Stolperfalle: Reihenfolge beim Abschalten
 

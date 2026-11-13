@@ -16,3 +16,11 @@ pmg_attunement_building_leyline_tap = {
 		pm_arcane_sigils_building_leyline_tap
 	}
 }
+
+# Disenchantment (VA-019). Vorbild: pmg_base_building_coal_mine.
+pmg_base_building_va_disenchantment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_heirloom_breaking_building_va_disenchantment
+	}
+}

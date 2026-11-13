@@ -1,0 +1,40 @@
+﻿# Formables von Victorian Azeroth (VA-017). Vorbild: Vanilla BYZ (common/country_formation/00_formable_countries.txt): feste State-Liste plus Bedingung über eine Variable.
+# Die Vanilla-Datei 00_formable_countries.txt ist im Mod geleert (Erde-Formables).
+
+# Amani-Reich: Zul'Jarra nach "Restore the Amani Empire" (je_amani_empire, VA-022). Kernland Zul'Aman, Shadowpine-Wälder, Zul'Mashar.
+AMANI_EMPIRE = {
+	states = {
+		STATE_ZUL_AMAN
+		STATE_TOR_WATHA
+		STATE_DAWNSTAR_SPIRE
+		STATE_SANCTUM_OF_SUN
+		STATE_SUNCROWN_VILLAGE
+		STATE_ZUL_MASHER
+		# Erweiterung Kono 2026-11-13: alte Amani-Gebiete in Eversong und den Pestländern (Claims nach der Formation)
+		STATE_NORTHPASS_TOWER
+		STATE_EAST_SANCTUM
+		STATE_SUNSAIL_ANCHORAGE
+		STATE_DUSKWITHER_SPIRE
+		# ganze Ghostlands (region_ghostlands, Kono 2026-11-13)
+		STATE_WINDRUNNER_VILLAGE
+		STATE_TRANQUILLIEN
+		STATE_DEATHHOLME
+	}
+
+	# 9 von 13 (Kono 2026-11-13): das Reich muss erst erkämpft werden; 9/13 = 0,692
+	required_states_fraction = 0.69
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		custom_tooltip = {
+			text = va_amani_empire_formable_tt
+			has_variable = va_amani_empire_restored # gesetzt von je_amani_empire
+		}
+		# Silvermoon hat Zul'Aman genommen (silvermoon_events.3): der Traum vom Reich ist zerschlagen
+		custom_tooltip = {
+			text = va_amani_empire_not_shattered_tt
+			NOT = { has_global_variable = va_amani_claims_shattered }
+		}
+	}
+}

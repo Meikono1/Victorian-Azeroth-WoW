@@ -1,0 +1,185 @@
+﻿# Schalter der Amani-Reihe von Zul'Jarra (VA-022): Shadowpine rufen, Gesandte zu den Mossflayer, vier Loa-Rituale.
+# Vorbild: Vanilla je_haitian_debt_payment_button (scripted_buttons/00_hispaniola_buttons.txt), Hausstil va_silvermoon_wretched_buttons.txt.
+
+# Shadowpine (Marionette) eingliedern: Tribut 50.000, Balken va_amani_shadowpine_bar 36 Monate, ruht im Krieg.
+va_amani_shadowpine_button = {
+	name = "va_amani_shadowpine_button"
+	desc = "va_amani_shadowpine_button_desc"
+
+	visible = {
+		exists = c:SHADOWPINE_TRIBE
+		NOT = { has_variable = va_amani_shadowpine_joined }
+		NOT = { has_modifier = va_amani_shadowpine_summons }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_amani_shadowpine_subject_tt
+			c:SHADOWPINE_TRIBE = { is_subject_of = ROOT }
+		}
+		custom_tooltip = {
+			text = va_amani_not_at_war_tt
+			is_at_war = no
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+
+	effect = {
+		add_treasury = -50000 # Tribut an die Häuptlinge (Kono-Test 2026-11-12)
+		add_modifier = { name = va_amani_shadowpine_summons }
+	}
+}
+
+# Gesandte nach Zul'Mashar: die Mossflayer entscheiden in amani_events.2, Abkühlung 1 Jahr.
+va_amani_mossflayer_button = {
+	name = "va_amani_mossflayer_button"
+	desc = "va_amani_mossflayer_button_desc"
+
+	visible = {
+		exists = c:MOSSFLAYER_TROLLS
+		NOT = { has_variable = va_amani_mossflayer_joined }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_amani_mossflayer_free_tt
+			c:MOSSFLAYER_TROLLS = { is_subject = no }
+		}
+		custom_tooltip = {
+			text = va_amani_mossflayer_peace_tt
+			NOT = { has_war_with = c:MOSSFLAYER_TROLLS }
+		}
+		custom_tooltip = {
+			text = va_amani_mossflayer_cooldown_tt
+			NOT = { has_variable = va_amani_mossflayer_cooldown }
+		}
+	}
+
+	ai_chance = {
+		value = 50
+	}
+
+	effect = {
+		set_variable = {
+			name = va_amani_mossflayer_cooldown
+			days = 365
+		}
+		save_scope_as = va_amani_envoy
+		c:MOSSFLAYER_TROLLS = {
+			trigger_event = { id = amani_events.2 popup = yes }
+		}
+	}
+}
+
+# Loa-Rituale: je Loa ein Schalter, immer nur eines zugleich. 25.000 Start, Autorität −100, Balken va_amani_loa_bar 24 Monate.
+
+# Akil'zon, der Adler
+va_amani_loa_akilzon_button = {
+	name = "va_amani_loa_akilzon_button"
+	desc = "va_amani_loa_akilzon_button_desc"
+
+	visible = {
+		NOT = { has_variable = va_amani_loa_akilzon_done }
+		NOT = { has_variable = va_amani_loa_ritual_akilzon }
+	}
+
+	possible = {
+		va_amani_loa_can_start_trigger = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 25
+		}
+	}
+
+	effect = {
+		va_amani_loa_start_effect = { LOA = akilzon }
+	}
+}
+
+# Nalorakk, der Bär
+va_amani_loa_nalorakk_button = {
+	name = "va_amani_loa_nalorakk_button"
+	desc = "va_amani_loa_nalorakk_button_desc"
+
+	visible = {
+		NOT = { has_variable = va_amani_loa_nalorakk_done }
+		NOT = { has_variable = va_amani_loa_ritual_nalorakk }
+	}
+
+	possible = {
+		va_amani_loa_can_start_trigger = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 25
+		}
+	}
+
+	effect = {
+		va_amani_loa_start_effect = { LOA = nalorakk }
+	}
+}
+
+# Jan'alai, der Drachenfalke
+va_amani_loa_janalai_button = {
+	name = "va_amani_loa_janalai_button"
+	desc = "va_amani_loa_janalai_button_desc"
+
+	visible = {
+		NOT = { has_variable = va_amani_loa_janalai_done }
+		NOT = { has_variable = va_amani_loa_ritual_janalai }
+	}
+
+	possible = {
+		va_amani_loa_can_start_trigger = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 25
+		}
+	}
+
+	effect = {
+		va_amani_loa_start_effect = { LOA = janalai }
+	}
+}
+
+# Halazzi, der Luchs
+va_amani_loa_halazzi_button = {
+	name = "va_amani_loa_halazzi_button"
+	desc = "va_amani_loa_halazzi_button_desc"
+
+	visible = {
+		NOT = { has_variable = va_amani_loa_halazzi_done }
+		NOT = { has_variable = va_amani_loa_ritual_halazzi }
+	}
+
+	possible = {
+		va_amani_loa_can_start_trigger = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { scaled_debt <= 0 }
+			add = 25
+		}
+	}
+
+	effect = {
+		va_amani_loa_start_effect = { LOA = halazzi }
+	}
+}

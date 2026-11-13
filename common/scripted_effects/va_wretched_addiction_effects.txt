@@ -53,7 +53,13 @@ va_silvermoon_wretched_addiction_pulse_effect = {
 			limit = { NOT = { has_variable = va_wretched_addiction_level } }
 			va_wretched_init_addiction_effect = yes
 		}
+		# Während der Heilung wirkt Entzug nur über den Rückfall (wretched_heal_events.3), sonst stieg die Sucht
+		# über 60 Monate wieder auf Stufe 3 (Kono-Test T-061/T-073 2026-11-12).
 		if = {
+			limit = { ROOT = { has_modifier = va_silvermoon_wretched_healing } }
+			set_variable = { name = va_wretched_withdrawal_months value = 0 }
+		}
+		else_if = {
 			limit = { has_modifier = va_mana_withdrawal }
 			change_variable = { name = va_wretched_withdrawal_months add = 1 }
 			if = {
@@ -84,15 +90,16 @@ va_silvermoon_wretched_addiction_pulse_effect = {
 
 # Country-Scope Silvermoon: Etappen-Modifier beider Länder nach va_wretched_heal_stage setzen.
 # Etappe 1: Silvermoon nur va_silvermoon_wretched_healing, Wretched "Entzug unter Aufsicht". 2: Hoffnung / Klarheit. 3: Familien / Heimweh.
+# has_variable vor var: der Schalter-Tooltip rechnet den Effekt ohne gesetzte Variable durch (1582 Log-Zeilen, 2026-11-12).
 va_silvermoon_wretched_heal_stage_effect = {
 	va_silvermoon_wretched_clear_stage_modifiers_effect = yes
 	if = {
-		limit = { var:va_wretched_heal_stage >= 3 }
+		limit = { has_variable = va_wretched_heal_stage var:va_wretched_heal_stage >= 3 }
 		add_modifier = { name = va_silvermoon_wretched_families }
 		c:WRETCHED_BLOODELFES ?= { add_modifier = { name = va_wretched_homesick } }
 	}
 	else_if = {
-		limit = { var:va_wretched_heal_stage >= 2 }
+		limit = { has_variable = va_wretched_heal_stage var:va_wretched_heal_stage >= 2 }
 		add_modifier = { name = va_silvermoon_wretched_hope }
 		c:WRETCHED_BLOODELFES ?= { add_modifier = { name = va_wretched_clarity } }
 	}
@@ -122,8 +129,17 @@ va_silvermoon_wretched_relapse_check_effect = {
 			set_variable = { name = va_wretched_relapse_months value = 0 }
 		}
 		change_variable = { name = va_wretched_relapse_months add = 1 }
+		# Rommath überwacht die Heilung: Rückfall erst nach 5 statt 3 Monaten Entzug (VA-066)
 		if = {
-			limit = { var:va_wretched_relapse_months >= 3 }
+			limit = {
+				OR = {
+					AND = {
+						NOT = { va_has_rommath_trigger = yes }
+						var:va_wretched_relapse_months >= 3
+					}
+					var:va_wretched_relapse_months >= 5
+				}
+			}
 			set_variable = { name = va_wretched_relapse_months value = 0 }
 			trigger_event = { id = wretched_heal_events.3 popup = yes }
 		}

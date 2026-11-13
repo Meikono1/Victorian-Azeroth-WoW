@@ -1,0 +1,354 @@
+﻿# Mana-Maßnahmen im je_mana_hunger (VA-019, Kono 2026-11-12): Disenchantment, Rationierung an/aus, Fauna aussaugen je Eversong-Region.
+# Vorbild: Vanilla je_haitian_debt_payment_button (scripted_buttons/00_hispaniola_buttons.txt), Hausstil va_silvermoon_wretched_buttons.txt.
+# Effekte: va_mana_relief_effects.txt. Die Regions-Schalter sind einmal per Skript aus einer Liste erzeugt (gleicher Aufbau je Region).
+
+# Disenchantment: Werkstatt mit 10 Mana für 1 Jahr, Prestige −10 für 2 Jahre, danach 2 Jahre gesperrt
+va_mana_disenchant_button = {
+	name = "va_mana_disenchant_button"
+	desc = "va_mana_disenchant_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_disenchant_cooldown_tt
+			NOT = { has_variable = va_mana_disenchant_cooldown }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_disenchant_effect = yes
+	}
+}
+
+# Rationierung an: −25 % Bedarf solange an, Lebensstandard −1, feste Radikale; dauerhaft haltbar
+va_mana_rationing_start_button = {
+	name = "va_mana_rationing_start_button"
+	desc = "va_mana_rationing_start_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		NOT = { has_modifier = va_mana_rationing }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_rationing_cooldown_tt
+			NOT = { has_variable = va_mana_rationing_cooldown }
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 40
+		}
+	}
+
+	effect = {
+		va_mana_rationing_start_effect = yes
+	}
+}
+
+# Rationierung aus, danach 1 Jahr gesperrt
+va_mana_rationing_stop_button = {
+	name = "va_mana_rationing_stop_button"
+	desc = "va_mana_rationing_stop_button_desc"
+
+	visible = {
+		has_modifier = va_mana_rationing
+	}
+
+	possible = {
+		always = yes
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				NOT = { has_modifier = va_mana_withdrawal }
+				NOT = { has_modifier = va_mana_scarcity }
+			}
+			add = 30
+		}
+	}
+
+	effect = {
+		va_mana_rationing_stop_effect = yes
+	}
+}
+
+# Fauna aussaugen: SUNSTRIDER_ISLE
+va_mana_drain_sunstrider_isle_button = {
+	name = "va_mana_drain_sunstrider_isle_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_SUNSTRIDER_ISLE }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_SUNSTRIDER_ISLE
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_SUNSTRIDER_ISLE }
+	}
+}
+
+# Fauna aussaugen: RUINS_OF_SILVERMOON
+va_mana_drain_ruins_of_silvermoon_button = {
+	name = "va_mana_drain_ruins_of_silvermoon_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_RUINS_OF_SILVERMOON }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_RUINS_OF_SILVERMOON
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_RUINS_OF_SILVERMOON }
+	}
+}
+
+# Fauna aussaugen: FARSTRIDER_RETREAT
+va_mana_drain_farstrider_retreat_button = {
+	name = "va_mana_drain_farstrider_retreat_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_FARSTRIDER_RETREAT }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_FARSTRIDER_RETREAT
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_FARSTRIDER_RETREAT }
+	}
+}
+
+# Fauna aussaugen: DUSKWITHER_SPIRE
+va_mana_drain_duskwither_spire_button = {
+	name = "va_mana_drain_duskwither_spire_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_DUSKWITHER_SPIRE }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_DUSKWITHER_SPIRE
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_DUSKWITHER_SPIRE }
+	}
+}
+
+# Fauna aussaugen: WEST_SANCTUM
+va_mana_drain_west_sanctum_button = {
+	name = "va_mana_drain_west_sanctum_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_WEST_SANCTUM }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_WEST_SANCTUM
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_WEST_SANCTUM }
+	}
+}
+
+# Fauna aussaugen: EAST_SANCTUM
+va_mana_drain_east_sanctum_button = {
+	name = "va_mana_drain_east_sanctum_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_EAST_SANCTUM }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_EAST_SANCTUM
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_EAST_SANCTUM }
+	}
+}
+
+# Fauna aussaugen: SUNSAIL_ANCHORAGE
+va_mana_drain_sunsail_anchorage_button = {
+	name = "va_mana_drain_sunsail_anchorage_button"
+	desc = "va_mana_drain_fauna_button_desc"
+
+	visible = {
+		va_country_mana_dependent_trigger = yes
+		any_scope_state = { state_region = s:STATE_SUNSAIL_ANCHORAGE }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = va_mana_drain_fauna_recovering_tt
+			any_scope_state = {
+				state_region = s:STATE_SUNSAIL_ANCHORAGE
+				NOT = { has_variable = va_mana_fauna_cooldown }
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = { has_modifier = va_mana_withdrawal }
+			add = 50
+		}
+		else_if = {
+			limit = { has_modifier = va_mana_scarcity }
+			add = 20
+		}
+	}
+
+	effect = {
+		va_mana_drain_fauna_effect = { REGION = STATE_SUNSAIL_ANCHORAGE }
+	}
+}

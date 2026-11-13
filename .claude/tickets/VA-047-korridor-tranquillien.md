@@ -1,4 +1,4 @@
-# VA-047: Silvermoon – Korridor nach Tranquillien
+﻿# VA-047: Silvermoon – Korridor nach Tranquillien
 
 - **Status:** wartet (Spieltest)
 - **Typ:** content
@@ -29,3 +29,5 @@ Danach bleibt Deathholme vertreiben bzw. eingliedern das größere Ziel (VA-048)
 - Offen für Kono: Kosten (100.000, −25/−25), Etappendauer (18 Monate), Belohnung, Malus bei Ablauf? Reaktion Deathholmes auf die Operationen (Grenzzwischenfall-Event)? Ob ein Protektorat schon ohne Landweg in Silvermoons Markt hängt, entscheidet der Spieltest (Marktzugang Tranquillien vorher/nachher ansehen).
 - Ungeprüft: Wie `set_owner_of_provinces` Pops und Gebäude der Teil-States aufteilt; Testfall T-057 achtet darauf.
 - 2026-10-31: Einmalkosten je Etappe auf Konos Wunsch 100.000 (Startwerte Silvermoon: ca. +10.000/Monat, Kreditlimit ca. 700.000).
+- 2026-11-12, Kono: T-056, T-057 OK; Bürokratie der Logistik-Operation zu billig → −50 in `va_silvermoon_corridor_logistics`. Nachtest T-127, danach erledigt.
+- 2026-11-12, Kono-Test: Korridor-JE blieb offen, obwohl Tranquillien schon von Zul'Jarra erobert war. Neues verstecktes Abbruch-Outcome in `je_silvermoon_corridor`: Stadt x1437EA gehört weder Silvermoon noch einem Untertan → JE endet, Logistik-Modifier weg. Test T-131 (3).

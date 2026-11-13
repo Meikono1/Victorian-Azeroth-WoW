@@ -1,0 +1,67 @@
+﻿# Balken der Amani-Reihe von Zul'Jarra (VA-022). Vorbild: Vanilla 00_greece_progress_bars.txt, Hausstil va_silvermoon_wretched_bars.txt.
+# Scope in monthly_progress: das Land selbst.
+
+# Eingliederung der Shadowpine: 36 Monate, ruht im Krieg (Kono-Test 2026-11-12: 24 zu schnell).
+va_amani_shadowpine_bar = {
+	name = "va_amani_shadowpine_bar"
+	desc = "va_amani_shadowpine_bar_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_modifier = va_amani_shadowpine_summons
+				is_at_war = no
+			}
+			add = {
+				desc = "va_amani_shadowpine_bar_progress_desc"
+				value = 1
+			}
+		}
+		# Stillstand im Tooltip sichtbar machen
+		else_if = {
+			limit = { has_modifier = va_amani_shadowpine_summons }
+			add = {
+				desc = "va_amani_shadowpine_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 36
+}
+
+# Laufendes Loa-Ritual: 24 Monate, ruht im Krieg. Wird nach jedem Ritual auf 0 gesetzt (va_amani_loa_pulse_effect).
+va_amani_loa_bar = {
+	name = "va_amani_loa_bar"
+	desc = "va_amani_loa_bar_desc"
+
+	default_green = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				has_modifier = va_amani_loa_ritual
+				is_at_war = no
+			}
+			add = {
+				desc = "va_amani_loa_bar_progress_desc"
+				value = 1
+			}
+		}
+		else_if = {
+			limit = { has_modifier = va_amani_loa_ritual }
+			add = {
+				desc = "va_amani_loa_bar_stalled_desc"
+				value = 0
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 24
+}

@@ -1,4 +1,4 @@
-# Tickets
+﻿# Tickets
 
 Eine Datei pro Ticket: `VA-<nr>-<kurztitel>.md`. Nummern fortlaufend, nie wiederverwenden.
 Erledigte und verworfene Tickets wandern nach `archiv/` (Historie). Die Tabelle unten listet weiter alle Tickets.
@@ -32,12 +32,12 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-014](VA-014-gesetze-history.md) | Unzulässige Start-Gesetze in der Länder-History | bug | mittel | wartet (Spieltest) |
 | [VA-015](VA-015-nord-ek-mechanik.md) | Nord-EK – Karte, Besitz, Ressourcen bereinigen | bug | hoch | wartet (Spieltest) |
 | [VA-016](VA-016-nord-ek-herrscher.md) | Nord-EK – historische Herrscher | content | hoch | offen |
-| [VA-017](VA-017-nord-ek-formables.md) | Nord-EK – Formables | content | hoch | offen |
+| [VA-017](VA-017-nord-ek-formables.md) | Nord-EK – Formables | content | hoch | in Arbeit |
 | [VA-018](VA-018-state-test-aufloesen.md) | STATE_TEST auflösen | bug | mittel | offen |
 | [VA-019](VA-019-quel-thalas-grundbausteine.md) | Quel'Thalas – Mana und Todesschneise (Grundbausteine) | content | hoch | wartet (Spieltest) |
-| [VA-020](VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | wartet (Spieltest) |
+| [VA-020](archiv/VA-020-silvermoon-jes.md) | Silvermoon – Journal Entries | content | hoch | erledigt |
 | [VA-021](VA-021-wretched-vereinigung.md) | Wretched – Mana-Hunger und Vereinigung mit Silvermoon | content | mittel | wartet (Spieltest) |
-| [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | offen |
+| [VA-022](VA-022-amani-deathholme-jes.md) | Amani und Deathholme – Journal Entries | content | mittel | wartet (Spieltest) |
 | [VA-023](VA-023-lint-altlasten.md) | Lint-Altlasten abbauen | aufraeumen | mittel | offen |
 | [VA-024](VA-024-nord-ek-startwerte.md) | Nord-EK – Pops, Start-Gebäude und Startwerte | content | hoch | offen |
 | [VA-025](archiv/VA-025-log-spam-vanilla-regionen.md) | Log-Spam durch Vanilla-Scripts mit realen Regionen | bug | hoch | erledigt |
@@ -61,10 +61,10 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-043](VA-043-errorlog-befunde-3010.md) | error.log 30.10. – Restbefunde aus Mod-Dateien | bug | mittel | wartet (Spieltest) |
 | [VA-044](archiv/VA-044-ki-verwaltung-bausektor.md) | KI stapelt Verwaltung und Bausektoren – Start-Gebäude fehlen | bug | hoch | erledigt |
 | [VA-045](VA-045-schiffsbau-test-icon.md) | Schiffsbau-Tab zeigt Test-Icon (Smiley) | grafik | niedrig | offen |
-| [VA-046](VA-046-todesschneise-heilung.md) | Todesschneise – Heilung je Region mit laufenden Kosten | content | hoch | wartet (Spieltest) |
+| [VA-046](archiv/VA-046-todesschneise-heilung.md) | Todesschneise – Heilung je Region mit laufenden Kosten | content | hoch | erledigt |
 | [VA-047](VA-047-korridor-tranquillien.md) | Silvermoon – Korridor nach Tranquillien | content | hoch | wartet (Spieltest) |
 | [VA-048](VA-048-untoten-system.md) | Untoten-System – Status, Ausrottung oder Inklusion | content | hoch | offen |
-| [VA-049](VA-049-bevoelkerung-vielfalt.md) | Bevölkerung weltweit zu eintönig | content | mittel | offen |
+| [VA-049](VA-049-bevoelkerung-vielfalt.md) | Bevölkerung weltweit zu eintönig | content | mittel | in Arbeit |
 | [VA-050](VA-050-blutelfen-koenigreich.md) | Blutelfen – Gründung eines eigenen Königreichs | content | mittel | offen |
 | [VA-051](VA-051-provinz-terrain.md) | Provinz-Terrain zufällig (Berg, Feld) | bug | mittel | wartet (Spieltest) |
 | [VA-052](archiv/VA-052-script-doku-veraltet.md) | Script-Doku (docs/*.log) älter als das Spiel | technik | mittel | erledigt |
@@ -80,3 +80,11 @@ Neues Ticket: Kono sagt „Ticket: …“, Claude legt die Datei an und trägt s
 | [VA-062](VA-062-todesschneise-sichtbar-heilen.md) | Todesschneise sichtbar heilen (unsichtbares Gebäude) | grafik | mittel | wartet (Spieltest) |
 | [VA-063](VA-063-patch-1-15.md) | Patch 1.15 (1.14 übersprungen) | technik | hoch | in Arbeit |
 | [VA-064](VA-064-kupfer-vorkommen.md) | Kupfer-Vorkommen in Azeroth (neues Gut seit Patch) | content | mittel | wartet (Spieltest) |
+| [VA-065](VA-065-silvermoon-horde.md) | Machtblöcke zerfallen (Horde, Allianz, …) | bug | hoch | wartet (Spieltest) |
+| [VA-066](VA-066-silvermoon-charaktere.md) | Silvermoon – eigene Charaktere | content | mittel | wartet (Spieltest) |
+| [VA-067](VA-067-lebensdauer-historische-figuren.md) | Sylvanas stirbt nach 3–4 Jahren | bug | hoch | offen |
+| [VA-068](VA-068-lorthemar-regent.md) | Lor'themar Theron ist Regent, nicht König | content | niedrig | wartet (Spieltest) |
+| [VA-069](VA-069-fehlende-namen-kulturmerkmale.md) | Fehlende Namen für Sprachen, Traditionen und Erbe-Merkmale | lokalisierung | mittel | offen |
+| [VA-070](VA-070-regionale-ressourcen.md) | Regionale Ressourcen je Kontinent (Fel Iron, Eternium, …) | content | niedrig | offen |
+| [VA-071](VA-071-wretched-nachricht-anfuehrer-tod.md) | Wretched erfahren vom Tod ihres Anführers | content | niedrig | offen |
+| [VA-072](VA-072-upload-version-3.md) | Upload Version 3 – Phase 1 Quel'Thalas | technik | hoch | in Arbeit |

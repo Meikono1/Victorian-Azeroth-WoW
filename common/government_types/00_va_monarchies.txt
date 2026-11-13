@@ -22,3 +22,25 @@ gov_archmage = {
 		post_change_to_dictatorial = yes
 	}
 }
+
+# Quel'Thalas unter einem Regenten (VA-068, Kono 2026-11-12): Lor'themar hat die Krone abgelehnt, Titel "Regent Lord".
+# Vorbild: Vanilla gov_regency_ethiopia_ras (01_regencies.txt), Rangfolge wie gov_archmage über das Präfix 00_.
+# TODO: Bedingung "kein Sunstrider auf dem Thron" ergänzen, sobald Kael'thas kommt (VA-056).
+gov_va_regency_quel_thalas = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_VA_REGENT_LORD"
+	female_ruler = "RULER_TITLE_VA_REGENT_LADY"
+
+	possible = {
+		country_has_monarchy_law = yes
+		c:SILVERMOON ?= this
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}

@@ -6,6 +6,18 @@ je_mana_hunger = {
 
 	group = je_group_internal_affairs
 
+	# Mana-Maßnahmen (Kono 2026-11-12), va_mana_buttons.txt
+	scripted_button = va_mana_disenchant_button
+	scripted_button = va_mana_rationing_start_button
+	scripted_button = va_mana_rationing_stop_button
+	scripted_button = va_mana_drain_sunstrider_isle_button
+	scripted_button = va_mana_drain_ruins_of_silvermoon_button
+	scripted_button = va_mana_drain_farstrider_retreat_button
+	scripted_button = va_mana_drain_duskwither_spire_button
+	scripted_button = va_mana_drain_west_sanctum_button
+	scripted_button = va_mana_drain_east_sanctum_button
+	scripted_button = va_mana_drain_sunsail_anchorage_button
+
 	is_shown_when_inactive = {
 		va_country_mana_dependent_trigger = yes
 	}
@@ -32,6 +44,8 @@ je_mana_hunger = {
 		}
 		effect = {
 			va_clear_mana_stages_effect = yes
+			va_clear_mana_upkeep_effect = yes
+			va_mana_relief_cleanup_effect = yes
 		}
 	}
 

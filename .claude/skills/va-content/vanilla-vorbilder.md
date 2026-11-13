@@ -1,4 +1,4 @@
-# Vanilla-Vorbilder je Mechanik
+﻿# Vanilla-Vorbilder je Mechanik
 
 Pfade relativ zu `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game`. Kleine Dateien zuerst, Zeilenzahl in Klammern. Geprüft für 1.13.11 (2026-11-01).
 Neues Vorbild gefunden → hier eintragen (Pflege durch Claude).
@@ -56,7 +56,7 @@ Neues Vorbild gefunden → hier eintragen (Pflege durch Claude).
 |---|---|---|
 | Einfache Decision | `common/decisions/korea_decisions.txt` (25) | `KOR_declare_korean_empire` |
 | Decision mit Provinzwechsel | `common/decisions/canal_decisions.txt` (357) | `set_owner_of_provinces`, Z. 144 |
-| Formable (normal) | `common/country_formation/00_formable_countries.txt` | |
+| Formable (normal) | `common/country_formation/00_formable_countries.txt` | `BYZ`: feste State-Liste + `possible` mit Variable (Vorbild für `AMANI_EMPIRE`) |
 | Major Formation | `common/country_formation/00_major_formables.txt` (296) | |
 | Diplomatic-Play-Typen | `common/diplomatic_plays/00_diplomatic_plays.txt` | |
 | War Goals | `common/war_goal_types/` | |

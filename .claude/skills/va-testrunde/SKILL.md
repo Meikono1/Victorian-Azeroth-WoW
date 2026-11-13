@@ -1,4 +1,4 @@
----
+﻿---
 name: va-testrunde
 description: Änderungen am Victorian-Azeroth-Mod prüfen und abschließen – Lint laufen lassen, Testfälle T-NNN in TESTPROTOKOLL.md anlegen, error.log nach einem Spielstart auswerten, Testergebnisse von Kono übernehmen, Ticket-Status und Übersicht nachziehen. Nutzen nach jeder Mod-Änderung, wenn Kono getestet hat ("hab getestet", "error.log", "T-0xx OK") oder ein Ticket fertig werden soll.
 ---
@@ -51,7 +51,7 @@ Ticket: VA-NNN. Lint vor Freigabe: 0 neue Fehler (JJJJ-MM-TT).
 4. **Fehler beheben** → neue Teilrunde oder Testfall erneut („T-054 danach erneut testen“), Ticket-Notiz mit Ursache.
 5. **Ticket schließen**: erst `erledigt`, wenn **alle** Testfälle des Tickets von Kono mit OK bestätigt sind. Dann Status im Ticket und in `tickets/README.md`, Testfälle in ABLAUFPLAN „Nächster Spieltest“ austragen.
 6. **Archivieren** (ohne Nachfrage):
-   - Runde, deren Testfälle alle OK, entfallen oder per Folgetest/Ticket erledigt sind → ganzen `## Runde`-Block ans Ende von `.claude/TESTPROTOKOLL_ARCHIV.md` verschieben (nach Rundennummer einsortiert). Runden mit offenem Fall bleiben ganz.
+   - Jeden Testfall mit OK (oder entfallen/per Folgetest erledigt) einzeln nach `.claude/TESTPROTOKOLL_ARCHIV.md` unter seine Runde verschieben (Kono 2026-11-12: im Protokoll nur Offenes). Runde ohne offene Fälle ganz verschieben, Archiv nach Rundennummer sortiert.
    - Ticket `erledigt` oder `verworfen` → Datei nach `.claude/tickets/archiv/`, relative Links darin `../` → `../../`, Link in `tickets/README.md` auf `archiv/…`. Die Tabelle behält alle Tickets.
    - Wird ein archiviertes Ticket wieder aufgemacht, zurück nach `tickets/`.
 

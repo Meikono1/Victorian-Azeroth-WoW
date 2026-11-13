@@ -1,10 +1,25 @@
-# Ablaufplan Victorian Azeroth
+﻿# Ablaufplan Victorian Azeroth
 
 Stand: 2026-10-29. Spiel: **1.13.11**, Mod deklariert: **1.13.\***. Letzter Commit: 2025-12-02.
 
 Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufgaben stehen als Tickets in [`tickets/`](tickets/README.md).
 
-**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md), abgeschlossene Runden (2, 3, 4, 7, 8) im [Archiv](TESTPROTOKOLL_ARCHIV.md), Runde 1 bis auf T-003 (Kono später, hängt an VA-037). Offen: Runde 5 (T-021, T-022), Runde 6 (T-024 bis T-030), Runde 9 (T-041, T-043, T-045, T-047, T-048: Mana-Angebot, Mana-Abhängigkeit), Runde 10 (T-049, T-051, T-052: Silvermoon-Ziele), Runde 11 (T-053 bis T-055: Todesschneise heilen), Runde 12 (T-056 bis T-058: Korridor nach Tranquillien), Runde 13 (T-061, T-062, T-064: Wretched Eingliedern, Heilen, Bedrohungsbalken), Runde 15 (T-071 bis T-077: Wretched Schritt 2–4), Runde 16 (T-078 bis T-082: error.log-Großputz, **vorher Kono: Alt-Kopien löschen**, Liste in VA-043).
+**Nächster Spieltest:** [Testprotokoll](TESTPROTOKOLL.md) enthält nur noch offene Testfälle (42); alles mit OK steht je Runde im [Archiv](TESTPROTOKOLL_ARCHIV.md) (Stand 2026-11-12). Release Quel'Thalas (Kono 2026-11-12: schnell, Blocker sind nur nicht feuernde Events und übrig gebliebene AI-WRITTEN-Texte): Sitzung 2 Wretched erledigt bis auf Rest (2026-11-12: T-073 Stufen-Frage, T-074/075 Felendren nach Exil-Fix, T-076 Mana-Aufstand), Sitzung 3 Zul'Jarra erledigt bis auf Rest (2026-11-12: T-113 drittes/viertes Loa, Nachtest T-131 Balance und Korridor-Abbruch), danach error.log (T-118, T-077) nach einem Silvermoon-Spiel. Formable Amani-Reich in Version 3 gescriptet (VA-017, Test T-132). Offene Buff-/Balance-Tests (T-108, T-120, T-129, T-130) blockieren den Release nicht. Rund 560 AI-WRITTEN-Texte in den Quel'Thalas-Loc-Dateien müssen vor dem Release von Kono abgenommen werden.
+
+## Fokus: Release Silvermoon und Zul'Jarra (Stand 2026-11-12, vor Session-Schnitt)
+
+Reihenfolge laut Kono:
+1. **Testphase** (Kono): Runden 21 und 22 im Testprotokoll (T-111 bis T-124), dazu ältere Quel'Thalas-Fälle (Mana T-041 bis T-048, Ziele T-049 bis T-052, Todesschneise, Korridor, Wretched, T-021). T-042 OK. **T-123 erneut** (Mana-Grundbedarf wirkte nicht: Modifier-Typ fehlte, behoben). Kono nennt OK-Nummern, Claude hakt ab; danach error.log-Fälle T-041, T-115, T-118 auswerten.
+2. **Texte** an die Ablaufdiagramme `ablauf/silvermoon.md` und `ablauf/amani.md` anpassen (Kono überarbeitet, Claude gleicht ab).
+3. **Version fertig:** Upload-Ticket [VA-072](tickets/VA-072-upload-version-3.md) (angelegt 2026-11-12: Lint 0 neu, TODOs zugeordnet, 569 AI-WRITTEN, Release-Zahlen; Blocker-Tests dort als Tabelle). VA-063 abschließen.
+
+Offen dabei: VA-067 (Sylvanas stirbt früh, Kono achtet auf Todesmeldung), VA-065 (Horde), VA-068 (Regent-Titel), VA-016 übrige Herrscher. Mana-Werte (Grundbedarf 3,0, Maßnahmen) sind Vorschläge, nach T-123/T-124 justieren (`common/script_values/va_mana_values.txt`).
+
+## Nach dem Release Version 3 (Kono 2026-11-13)
+
+1. Spieler-Feedback zum Release einsammeln; Nachtests T-073–T-076, T-113 (Rest), T-131, T-132, Log T-077/T-118. AI-WRITTEN-Abnahme (`abnahme/ai_written_version_3.md`).
+2. Übrige Nord-EK-States durchgehen (VA-016 Herrscher u. a.).
+3. Danach Content-Fokus: **Undercity** (dabei VA-067 Sylvanas stirbt früh), **Scarlet Crusade** (VA-041, VA-035) und **Gilneas** (VA-007), ggf. Gilneas als Schwerpunkt.
 
 ## Offene Entscheidungen
 
@@ -32,6 +47,7 @@ Hier stehen Fahrplan, offene Entscheidungen und Grundsätzliches. Konkrete Aufga
 
 ## Erledigt
 
+- 2026-11-13: **Release Version 3 vorbereitet** (VA-072): Zul'Jarra-Runde getestet, Balance Shadowpine/Schatzjäger, Korridor-Abbruch, Formable `AMANI_EMPIRE` (13 States, 9 nötig, Wappen getauscht), 554 von 571 AI-WRITTEN-Texten von Kono abgenommen (Troll-, Wretched- und Hochelfen-Ton, Stilregel im Skill `va-content`), Ländernamen Quel'Thalas, erstes eigenes Event-Bild (`va_eversong_road_home.dds`), `metadata.json` Version 3, Workshop-Text `releases/version_3_workshop.md`. Nachtests nach dem Release: T-073–T-076, T-113 Rest, T-131, Log T-077/T-118. Offen: 17 Texte außerhalb Quel'Thalas, `mod\warcraft` befüllen (Kono).
 - 2026-11-03: error.log-Großputz (VA-043/VA-003/VA-026/VA-014, wartet auf Spieltest): 30 alte Vanilla-Kopien gelöscht (On-Actions, politische Bewegungen, Scripted Effects, Flaggen, Machtblock-Namen, Custom Loc, Terrain …), 5 Erde-Decisions abgeschaltet, `gov_archmage` nach `00_va_monarchies.txt`; Erde-`geographic_regions` und 268 Erde-JEs als leere Hüllen (Werkzeuge `va_gen_geo_regions.py`, `va_gen_earth_je_stubs.py`); Startgesetze nach Spiel-Fallback, History-Provinzen in Pandaria/Northrend, Kalimdor-PMs, Gilneas-Kopien, Loc-Keys mit `’`/`Ö`. Gebäude-Kopien warten auf Löschung durch Kono.
 - 2026-11-01: Token-Optimierung: Code-Karte `KARTE.md` und vier Skills unter `skills/` (`va-content`, `va-testrunde`, `va-karte`, `va-patch-upload`); Checklisten in den Skill verschoben; `CLAUDE.md` gestrafft, Regel „Wissenspflege“ (Claude pflegt Karte und Skills selbst). `TESTPROTOKOLL.md` von 18.084 auf 516 Zeilen (Leerzeilen). `va_errlog.py --mod`. Vorlagen erfüllen VA-009 (wartet auf Kono). Script-Doku neu erzeugt (VA-052 erledigt). Archiv eingeführt: abgeschlossene Testrunden in `TESTPROTOKOLL_ARCHIV.md`, erledigte/verworfene Tickets in `tickets/archiv/`. Gefunden: veraltete Script-Doku (VA-052), Länderfarbe 487 (VA-043). Community Mod Framework geprüft und verworfen: Kompatibilitätsschicht für Erde-Mods, überschreibt Parteien/War Goals/GUI.
 - 2026-10-30: Todesschneise heilen (VA-046, wartet auf Spieltest): JE `je_va_dead_scar` für jeden Besitzer, sechs Balken à 20 Monate, Schalter je Region, Kosten über staatliche Ritual Site (Löhne, Mana, Bürokratie). Ersetzt das Silvermoon-Ritual aus VA-020. Werkzeug `va_gen_dead_scar.py`.

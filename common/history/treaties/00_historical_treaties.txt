@@ -1,2 +1,111 @@
-﻿TREATIES = {
+﻿# Verteidigungspakte Horde und Allianz zum Spielstart (VA-065): erzeugen dauerhaft Leverage (+300 je Pakt) und halten die Machtblöcke zusammen.
+# Vorbild: Vanilla common/history/treaties/00_historical_treaties.txt (Holy Alliance).
+TREATIES = {
+	### Horde – Orgrimmar mit jedem Mitglied
+	create_treaty = {
+		name = va_treaty_name_horde
+		first_country = c:ORGRIMMAR
+		second_country = c:THUNDERBLUFF
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_horde
+		first_country = c:ORGRIMMAR
+		second_country = c:SILVERMOON
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_horde
+		first_country = c:ORGRIMMAR
+		second_country = c:UNDERCITY
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_horde
+		first_country = c:ORGRIMMAR
+		second_country = c:DARKSPEAR
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+
+	### Allianz – Stormwind mit jedem Mitglied
+	create_treaty = {
+		name = va_treaty_name_alliance
+		first_country = c:STORMWIND
+		second_country = c:DARNASSUS
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_alliance
+		first_country = c:STORMWIND
+		second_country = c:GNOMEREGAN
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_alliance
+		first_country = c:STORMWIND
+		second_country = c:IRONFORGE
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
+	create_treaty = {
+		name = va_treaty_name_alliance
+		first_country = c:STORMWIND
+		second_country = c:EXODAR
+
+		is_draft = no
+		entered_into_force_on = 617.1.1
+		binding_period = { years = 20 }
+
+		articles_to_create = {
+			{ article = defensive_pact }
+		}
+	}
 }

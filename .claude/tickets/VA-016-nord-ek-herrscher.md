@@ -17,3 +17,5 @@ Kleine Stämme (Murlocs, Kobolde, Gnolle) dürfen Zufallsherrscher behalten.
 
 - Vorgeschlagen (Lore-Abgleich durch Kono): Silvermoon – Lor'themar Theron, Argent Crusade – Tirion Fordring, Ebon Blade – Darion Mograine, Wildhammer – Falstad Wildhammer, Amani – Zul'jin, Revantusk – Primal Torntusk, Hammerfall – Drum Fel, Scarlet Onslaught – Grand Admiral Westwind/Abbendis, Cult of the Damned – Kel'Thuzad, Deathholme – Dar'Khan Drathir, Tranquillien – Magister Sylastor? (offen).
 - 2026-10-30: Amani-Herrscher ist Zul'jin (bestätigt).
+- 2026-11-10: Quel'Thalas angelegt (`common/character_templates/va_quel_thalas_characters.txt`): Silvermoon Lor'themar Theron (Herrscher), Deathholme Dar'Khan Drathir, Zul'Jarra Zul'jin. Tranquillien weiterhin offen (Lore-Name unklar). Test T-117.
+- 2026-11-10: Tranquillien: Dame Auriferous (Herrscherin) und High Executor Mavren (General, Verlassener), laut warcraft.wiki.gg gemeinsame Anführer. Test T-117.

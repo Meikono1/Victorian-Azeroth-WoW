@@ -17,8 +17,8 @@
   tradition_jungle: "Jungle"
   tradition_lowlands: "Lowlands"
   magical_highlands: "Magical Highlands"
-  magical_lowlands: "Magical Lowlands"
-  marshland: "Marshland"
+  tradition_magical_lowlands: "Magical Lowlands"
+  tradition_marshland: "Marshland"
   tradition_mountains: "Mountain"
   murloc_heritage: "Murloc Heritage"
   tradition_oceanic: "Ocean"
@@ -32,6 +32,8 @@
   tradition_tropical: "Tropical"
   troll_heritage: "Trollish Heritage"
   undead_heritage: "Undead Heritage"
+  # language_elfen von Kono abgenommen 2026-11-12
+  language_elfen: "Elven"
   tradition_vulcanic: "Vulcanic"
   tradition_wasteland: "Wasteland"
   

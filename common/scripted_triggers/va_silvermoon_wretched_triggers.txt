@@ -41,9 +41,14 @@ va_wretched_aldaron_alive_trigger = {
 	}
 }
 
+# Agitator: kann zum Start oder später im Exil landen (Kono-Test T-074 2026-11-12: Schalter fehlte), daher auch der Exil-Pool.
 va_wretched_felendren_alive_trigger = {
-	c:WRETCHED_BLOODELFES ?= {
-		any_scope_character = { has_template = va_wretched_felendren }
+	exists = c:WRETCHED_BLOODELFES
+	OR = {
+		c:WRETCHED_BLOODELFES = {
+			any_scope_character = { has_template = va_wretched_felendren }
+		}
+		any_character_in_exile_pool = { has_template = va_wretched_felendren }
 	}
 }
 
@@ -69,5 +74,21 @@ va_silvermoon_wretched_can_hunt_trigger = {
 	custom_tooltip = {
 		text = va_silvermoon_wretched_no_hunt_tt
 		NOT = { va_silvermoon_wretched_hunting_trigger = yes }
+	}
+}
+
+# State-Scope (Silvermoon-State): Ziel der Wretched-Raserei (va_silvermoon_wretched_frenzy_effect). Silvermoons Teil einer Region,
+# in der die Wretched ebenfalls einen Teil halten (Kono 2026-11-12: Ruins of Silvermoon, Sunsail Anchorage).
+va_silvermoon_wretched_frenzy_target_trigger = {
+	is_capital = no
+	OR = {
+		AND = {
+			state_region = s:STATE_RUINS_OF_SILVERMOON
+			c:WRETCHED_BLOODELFES ?= { any_scope_state = { state_region = s:STATE_RUINS_OF_SILVERMOON } }
+		}
+		AND = {
+			state_region = s:STATE_SUNSAIL_ANCHORAGE
+			c:WRETCHED_BLOODELFES ?= { any_scope_state = { state_region = s:STATE_SUNSAIL_ANCHORAGE } }
+		}
 	}
 }

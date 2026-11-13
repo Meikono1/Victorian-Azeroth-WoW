@@ -1,0 +1,152 @@
+﻿# Historische Figuren in Quel'Thalas: Silvermoon, Deathholme, Zul'Jarra (VA-016, VA-066, VA-022).
+# Vorbild: Vanilla character_templates/country_gbr.txt (ruler, ig_leader), country_ald.txt (is_general); Hausstil va_wretched_characters.txt.
+# Erzeugt in common/history/characters/va_eastern_kingdom.txt. Events sprechen sie per has_template an. Rollen und Eigenschaften sind Vorschläge (Kono prüft).
+
+# --- Silvermoon
+
+# Regent Lord von Quel'Thalas, früher Waldläufer-General
+va_qt_lorthemar_theron = {
+	first_name = va_name_lorthemar
+	last_name = va_name_theron
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 560.5.14
+	interest_group = ig_armed_forces
+	traits = {
+		honorable
+		cautious
+		forest_commander
+	}
+	ruler = yes
+}
+
+# Großmagister, führt die Magister (Intelligenzija)
+va_qt_rommath = {
+	first_name = va_name_rommath
+	last_name = va_name_the_grand_magister
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 552.9.3
+	interest_group = ig_intelligentsia
+	traits = {
+		arrogant
+		ambitious
+		erudite
+	}
+	ig_leader = yes
+}
+
+# Waldläufer-General, Farstrider
+va_qt_halduron_brightwing = {
+	first_name = va_name_halduron
+	last_name = va_name_brightwing
+	historical = yes
+	culture = cu:sin_dorei
+	birth_date = 571.2.27
+	is_general = yes
+	interest_group = ig_armed_forces
+	traits = {
+		brave
+		forest_commander
+	}
+}
+
+# Matriarchin der Blutritter, führt die Frommen
+va_qt_liadrin = {
+	first_name = va_name_liadrin
+	last_name = va_name_the_blood_matriarch
+	historical = yes
+	female = yes
+	culture = cu:sin_dorei
+	birth_date = 584.6.9
+	interest_group = ig_devout
+	traits = {
+		ambitious
+		brave
+	}
+	ig_leader = yes
+}
+
+# --- Tranquillien (warcraft.wiki.gg: Dame Auriferous und High Executor Mavren führen den Ort gemeinsam)
+
+# Herrin von Tranquillien
+va_qt_auriferous = {
+	first_name = va_name_auriferous
+	last_name = va_name_dame
+	historical = yes
+	female = yes
+	culture = cu:sin_dorei
+	birth_date = 566.10.4
+	interest_group = ig_landowners
+	traits = {
+		stalwart_defender
+		cautious
+	}
+	ruler = yes
+}
+
+# Von Sylvanas gesandt gegen Dar'Khan und die Geißel
+va_qt_mavren = {
+	first_name = va_name_mavren
+	last_name = va_name_the_high_executor
+	historical = yes
+	culture = cu:forsaken
+	birth_date = 581.1.19
+	is_general = yes
+	interest_group = ig_armed_forces
+	traits = {
+		ruthless
+		basic_defensive_strategist
+	}
+}
+
+# --- Deathholme
+
+# Verräter von Quel'Thalas, Diener der Geißel
+va_qt_darkhan_drathir = {
+	first_name = va_name_darkhan
+	last_name = va_name_drathir
+	historical = yes
+	culture = cu:banshee
+	birth_date = 548.11.30
+	interest_group = ig_armed_forces
+	traits = {
+		cruel
+		ambitious
+	}
+	ruler = yes
+}
+
+# --- Zul'Jarra (Amani)
+
+# Kriegsherr der Amani, einäugig und einarmig seit dem Zweiten Krieg
+va_qt_zuljin = {
+	first_name = va_name_zuljin
+	last_name = va_name_the_warlord
+	historical = yes
+	culture = cu:forest_troll
+	birth_date = 570.3.1
+	interest_group = ig_armed_forces
+	traits = {
+		wrathful
+		brave
+		scarred
+		basic_offensive_planner
+	}
+	ruler = yes
+}
+
+# Hexlord, Priester der Loa (amani_loa_events)
+va_qt_malacrass = {
+	first_name = va_name_malacrass
+	last_name = va_name_the_hex_lord
+	historical = yes
+	culture = cu:forest_troll
+	birth_date = 574.8.18
+	interest_group = ig_devout
+	traits = {
+		ambitious
+		ruthless
+	}
+	ig_leader = yes
+}

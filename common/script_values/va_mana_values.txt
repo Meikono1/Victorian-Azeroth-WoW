@@ -1,0 +1,63 @@
+﻿# Mana-Grundbedarf je State nach Mana-abhängigen Pops (VA-019, Kono-Test 2026-11-12: Verbrauch zu gering, eine Tap-Stufe reichte).
+# Vorbild: Hausstil va_state_undead_share (va_undead_values.txt, every_scope_pop mit total_size).
+
+# Mana je 100.000 Blut- bzw. Hochelfen; Vorschlag Claude (Kono 2026-11-12: Bedarf extrem hoch, kurzfristig per Maßnahmen senkbar,
+# nicht an Forschung gekoppelt). 3,0 → Silvermoon (rund 5,2 Mio. Elfen) etwa 156 Mana, mit Pop-Bedarf rund 170.
+# Seit dem Nerf 2026-11-13 liefert der Start-Tap (2 Stufen Arcane Conduits) nur 48: Silvermoon startet im Entzug und muss Maßnahmen nutzen (Kono: erste 10 Jahre unangenehm).
+va_mana_upkeep_per_100k = 3
+
+# Abschläge der Mana-Maßnahmen (va_mana_relief_effects.txt, Schalter im je_mana_hunger).
+# Disenchantment senkt seit 2026-11-12 nicht mehr den Bedarf, sondern erzeugt Mana (building_va_disenchantment).
+va_mana_relief_rationing = 0.25
+va_mana_relief_fauna = 0.15
+
+# Country-Scope: Faktor auf den Grundbedarf, 1 minus laufende Abschläge, nie unter 0. Gespeichert als var:va_mana_relief_factor.
+va_country_mana_relief_factor = {
+	value = 1
+	if = {
+		limit = { has_modifier = va_mana_rationing }
+		subtract = va_mana_relief_rationing
+	}
+	every_scope_state = {
+		limit = { has_variable = va_mana_fauna_drained }
+		subtract = va_mana_relief_fauna
+	}
+	min = 0
+}
+
+# State-Scope: Multiplikator für va_mana_upkeep (= zusätzliche Mana-Kaufaufträge im State).
+va_state_mana_upkeep = {
+	value = 0
+	# Reichere Elfen verbrauchen mehr (Kono 2026-11-13, wie Stimulanzien): etwa +5 % je Lebensstandard über 10.
+	# standard_of_living gibt es nur als Vergleich im Pop-Scope, daher Stufen.
+	every_scope_pop = {
+		limit = {
+			culture = { va_is_mana_dependent_culture_trigger = yes }
+		}
+		if = {
+			limit = { standard_of_living >= 25 }
+			add = { value = total_size multiply = 1.75 }
+		}
+		else_if = {
+			limit = { standard_of_living >= 20 }
+			add = { value = total_size multiply = 1.5 }
+		}
+		else_if = {
+			limit = { standard_of_living >= 15 }
+			add = { value = total_size multiply = 1.25 }
+		}
+		else_if = {
+			limit = { standard_of_living >= 12 }
+			add = { value = total_size multiply = 1.1 }
+		}
+		else = {
+			add = total_size
+		}
+	}
+	divide = 100000
+	multiply = va_mana_upkeep_per_100k
+	if = {
+		limit = { owner ?= { has_variable = va_mana_relief_factor } }
+		multiply = owner.var:va_mana_relief_factor
+	}
+}

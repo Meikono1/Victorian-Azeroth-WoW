@@ -11,6 +11,12 @@ Sammelticket: Bilder, die Kono generieren soll. Im Script ist jeder Platzhalter 
 
 **Format der Vanilla-Vorbilder** (gemessen 2026-10-30): RGBA mit transparentem Hintergrund, DDS unkomprimiert mit Mipmaps. Umwandlung: `python -I .claude/tools/va_icon.py <quelle.png> <ziel.dds> [--size N]`; Quell-PNGs nach `.claude/grafik_quellen/` (nicht in den Mod-Root, sonst landen sie im Upload). Stil wie Vanilla: gemalt, leichte Schrägansicht, kräftige Kontur, kein Text.
 
+## Eigene Grafiken (eingebaut)
+
+| Was | Quelle | Datei | Rechte |
+|---|---|---|---|
+| Event-Bild „The Wretched Healed“ (`wretched_events.5`, `events/va_wretched_events.txt`) | `.claude/grafik_quellen/photo_2020-04-29_23-17-00.jpg` (1280×914) | `gfx/event_pictures/va_eversong_road_home.dds` (2026-11-13) | Zeichnung eines Freundes von Kono, Nutzung im Mod erlaubt (Kono 2026-11-13). Fremde Bilder (z. B. JJcanvas) nur mit Erlaubnis des Künstlers. |
+
 ## Offene Grafiken
 
 | Was | Wo im Script | Platzhalter | Größe | Ziel-Datei (Vorschlag) | Ticket |

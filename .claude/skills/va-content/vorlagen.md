@@ -1,4 +1,4 @@
-# Vorlagen im Hausstil
+﻿# Vorlagen im Hausstil
 
 Destilliert aus getesteten eigenen Dateien (`events/va_silvermoon_events.txt`, `common/journal_entries/VA_silvermoon.txt`, `va_silvermoon_corridor_*.txt`, `va_silvermoon_modifiers.txt`). `<…>` ersetzen. Kommentare deutsch, Loc-Texte englisch.
 
@@ -240,6 +240,8 @@ l_english:   # Datei mit BOM speichern
 ```
 
 ## Platzhalter-Grafik
+
+**`event_image` → `texture`** (eigenes Standbild, Vanilla nutzt nur Videos, das Eventfenster zeigt aber `[Event.GetTexture]`): `texture = "gfx/event_pictures/va_….dds"`, DDS per `va_icon.py --keep-aspect --size 1280`. Beispiel: `wretched_events.5` (`va_eversong_road_home.dds`).
 
 **`event_image` → `video`** (häufig in Vanilla): `unspecific_signed_contract`, `unspecific_politicians_arguing`, `unspecific_ruler_speaking_to_people`, `unspecific_military_parade`, `unspecific_trains`, `unspecific_world_fair`, `unspecific_sick_in_hospital`, `unspecific_gears_pistons`, `unspecific_vandalized_storefront`, `unspecific_naval_battle`, `europenorthamerica_before_the_battle`, `europenorthamerica_capitalists_meeting`, `europenorthamerica_political_extremism`, `europenorthamerica_rich_and_poor`, `europenorthamerica_springtime_of_nations`, `votp_monarch_holding_court`, `votp_conspiring`, `votp_agitator_speaking`, `votp_cops_march`, `middleeast_courtroom_upheaval`, `middleeast_battlefield_trenches`, `middleeast_jungle_expedition`, `africa_construction_colony`, `africa_diplomats_negotiating`, `africa_leader_arguing`, `asia_buddhism`, `africa_animism`, `ip3_village_school`, `ep1_transfer_of_authority`.
 

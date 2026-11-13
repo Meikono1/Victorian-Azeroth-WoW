@@ -1,0 +1,26 @@
+﻿# Abfragen: Lebt eine Quel'Thalas-Figur im Land (VA-066)? Vorlagen in va_quel_thalas_characters.txt.
+# Vorbild: Hausstil va_wretched_thaelis_alive_trigger (va_silvermoon_wretched_triggers.txt), has_template wie dort.
+
+# Country-Scope: Halduron Brightwing dient diesem Land (Korridor schneller, Kopfgeld wahrscheinlicher)
+va_has_halduron_trigger = {
+	custom_tooltip = {
+		text = va_has_halduron_tt
+		any_scope_character = { has_template = va_qt_halduron_brightwing }
+	}
+}
+
+# Country-Scope: Großmagister Rommath dient diesem Land (weniger Rückfälle bei der Wretched-Heilung)
+va_has_rommath_trigger = {
+	custom_tooltip = {
+		text = va_has_rommath_tt
+		any_scope_character = { has_template = va_qt_rommath }
+	}
+}
+
+# Country-Scope: Liadrin dient diesem Land (Blutritter bewachen die Rituale an der Todesschneise)
+va_has_liadrin_trigger = {
+	custom_tooltip = {
+		text = va_has_liadrin_tt
+		any_scope_character = { has_template = va_qt_liadrin }
+	}
+}

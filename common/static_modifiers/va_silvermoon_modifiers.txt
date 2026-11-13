@@ -18,10 +18,10 @@ va_silvermoon_amani_broken = {
 	country_prestige_add = 25
 }
 
-# Logistik-Operation für eine Korridor-Etappe läuft (VA-047)
+# Logistik-Operation für eine Korridor-Etappe läuft (VA-047). Bürokratie −25 → −50 (Kono-Test 2026-11-12: zu billig)
 va_silvermoon_corridor_logistics = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds # TODO: eigenes Icon (VA-027)
-	country_bureaucracy_add = -25
+	country_bureaucracy_add = -50
 	country_authority_add = -25
 }
 
@@ -131,6 +131,12 @@ va_silvermoon_wretched_absorbed_light = {
 va_silvermoon_wretched_neglected = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
 	country_prestige_mult = -0.1
+}
+
+# Liadrins Blutritter bewachen die Rituale an der Todesschneise (va_liadrin_ritual_wardens_effect, VA-066); gleicht Bürokratiekosten teilweise aus
+va_silvermoon_blood_knight_wardens = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds # TODO: eigenes Icon (VA-027)
+	country_bureaucracy_add = 10
 }
 
 # Nachspiel (wretched_heal_events.4 a): hart gegen plündernde Süchtige, 1 Jahr

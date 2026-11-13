@@ -1,0 +1,288 @@
+﻿# Events der Amani-Reihe von Zul'Jarra (VA-022). Vorbild: Vanilla romania.1/.2 (events/romania_events.txt), Hausstil va_wretched_events.txt.
+# Ausgelöst von den Schaltern in va_amani_buttons.txt, va_amani_tribes_pulse_effect bzw. den JEs in va_amani.txt.
+namespace = amani_events
+
+# Die Shadowpine gehen in Zul'Jarra auf (Empfänger: Zul'Jarra)
+amani_events.1 = {
+	type = country_event
+
+	title = amani_events.1.t
+	desc = amani_events.1.d
+	flavor = amani_events.1.f
+
+	event_image = {
+		video = "africa_leader_arguing" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_amani_tribes_pulse_effect
+	}
+
+	option = {
+		name = amani_events.1.a
+		default_option = yes
+	}
+}
+
+# Zul'jins Gesandte in Zul'Mashar (Empfänger: Mossflayer, scope:va_amani_envoy = Zul'Jarra)
+amani_events.2 = {
+	type = country_event
+
+	title = amani_events.2.t
+	desc = amani_events.2.d
+	flavor = amani_events.2.f
+
+	event_image = {
+		video = "africa_diplomats_negotiating" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_amani_mossflayer_button
+	}
+
+	# Annehmen: Marionette von Zul'Jarra
+	option = {
+		name = amani_events.2.a
+		default_option = yes
+		ai_chance = {
+			base = 30
+			modifier = {
+				trigger = { scope:va_amani_envoy = { has_variable = va_amani_shadowpine_joined } }
+				add = 20
+			}
+			modifier = {
+				trigger = {
+					scope:va_amani_envoy = {
+						has_variable = va_amani_loa_decided
+						var:va_amani_loa_decided >= 2
+					}
+				}
+				add = 20
+			}
+		}
+		scope:va_amani_envoy = {
+			create_diplomatic_pact = {
+				country = ROOT
+				type = puppet
+			}
+			trigger_event = { id = amani_events.3 popup = yes }
+		}
+	}
+
+	# Ablehnen
+	option = {
+		name = amani_events.2.b
+		ai_chance = {
+			base = 50
+		}
+		scope:va_amani_envoy = {
+			trigger_event = { id = amani_events.4 popup = yes }
+		}
+	}
+}
+
+# Die Mossflayer beugen das Knie (Empfänger: Zul'Jarra)
+amani_events.3 = {
+	type = country_event
+
+	title = amani_events.3.t
+	desc = amani_events.3.d
+	flavor = amani_events.3.f
+
+	event_image = {
+		video = "africa_diplomats_negotiating" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von amani_events.2
+	}
+
+	option = {
+		name = amani_events.3.a
+		default_option = yes
+	}
+}
+
+# Die Mossflayer lehnen ab (Empfänger: Zul'Jarra): Anspruch auf Zul'Mashar
+amani_events.4 = {
+	type = country_event
+
+	title = amani_events.4.t
+	desc = amani_events.4.d
+	flavor = amani_events.4.f
+
+	event_image = {
+		video = "africa_leader_arguing" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von amani_events.2
+	}
+
+	option = {
+		name = amani_events.4.a
+		default_option = yes
+		s:STATE_ZUL_MASHER = { add_claim = ROOT }
+	}
+}
+
+# Die Stämme sind geeint (Empfänger: Zul'Jarra)
+amani_events.5 = {
+	type = country_event
+
+	title = amani_events.5.t
+	desc = amani_events.5.d
+	flavor = amani_events.5.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_amani_tribes
+	}
+
+	option = {
+		name = amani_events.5.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_amani_tribes_united
+				years = 10
+			}
+		}
+	}
+}
+
+# Die Belagerung ist gebrochen (Empfänger: Zul'Jarra)
+amani_events.10 = {
+	type = country_event
+
+	title = amani_events.10.t
+	desc = amani_events.10.d
+	flavor = amani_events.10.f
+
+	event_image = {
+		video = "middleeast_jungle_expedition" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_amani_siege
+	}
+
+	option = {
+		name = amani_events.10.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_amani_siege_broken
+				years = 10
+			}
+		}
+	}
+}
+
+# Das Amani-Reich ist wiederhergestellt (Empfänger: Zul'Jarra)
+amani_events.11 = {
+	type = country_event
+
+	title = amani_events.11.t
+	desc = amani_events.11.d
+	flavor = amani_events.11.f
+
+	event_image = {
+		video = "unspecific_military_parade" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_amani_empire
+	}
+
+	option = {
+		name = amani_events.11.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_amani_empire_restored
+				years = 20
+			}
+		}
+		custom_tooltip = amani_events.11.a.tt
+	}
+}
+
+# Die Ghostlands gehören wieder den Amani (Empfänger: Zul'Jarra)
+amani_events.12 = {
+	type = country_event
+
+	title = amani_events.12.t
+	desc = amani_events.12.d
+	flavor = amani_events.12.f
+
+	event_image = {
+		video = "middleeast_jungle_expedition" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von je_amani_vengeance
+	}
+
+	option = {
+		name = amani_events.12.a
+		default_option = yes
+		show_as_tooltip = {
+			add_modifier = {
+				name = va_amani_forest_reclaimed
+				years = 20
+			}
+		}
+	}
+}

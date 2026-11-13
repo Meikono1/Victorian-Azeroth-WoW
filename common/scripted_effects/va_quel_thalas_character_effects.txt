@@ -1,0 +1,21 @@
+﻿# Buffs durch Quel'Thalas-Figuren (VA-066), monatlich aus den JEs. Trigger: va_quel_thalas_character_triggers.txt.
+# Vorbild: Hausstil va_silvermoon_wretched_war_effect (Modifier an/aus je nach Zustand, va_silvermoon_wretched_effects.txt).
+
+# Country-Scope aus je_va_dead_scar (on_monthly_pulse): Liadrins Blutritter bewachen die Rituale.
+# Solange sie dient und mindestens eine Ritual Site steht, gleicht va_silvermoon_blood_knight_wardens einen Teil der Bürokratiekosten aus.
+va_liadrin_ritual_wardens_effect = {
+	if = {
+		limit = {
+			va_has_liadrin_trigger = yes
+			any_scope_state = { has_building = building_va_scar_ward }
+		}
+		if = {
+			limit = { NOT = { has_modifier = va_silvermoon_blood_knight_wardens } }
+			add_modifier = { name = va_silvermoon_blood_knight_wardens }
+		}
+	}
+	else_if = {
+		limit = { has_modifier = va_silvermoon_blood_knight_wardens }
+		remove_modifier = va_silvermoon_blood_knight_wardens
+	}
+}

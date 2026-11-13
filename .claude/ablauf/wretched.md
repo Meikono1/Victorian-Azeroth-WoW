@@ -1,4 +1,4 @@
-# Ablauf: Wretched (Quel'Thalas) – VA-021
+﻿# Ablauf: Wretched (Quel'Thalas) – VA-021
 
 Entwurf 2026-11-03 (zweite Fassung) nach [konzepte/quel_thalas.md](../konzepte/quel_thalas.md) (Abschnitt Wretched) und der Quest-Recherche [recherche/quests_quel_thalas.md](../recherche/quests_quel_thalas.md) („Wretched – Anführer und Banden“). Alle Dauern, Kosten, Chancen und Schwellen sind **Vorschläge von Claude**, Kono passt an.
 
@@ -86,6 +86,7 @@ flowchart LR
 | `.12` Roadside Ambush | 9035, 9062, 9064, 9066 | Bedrohung ≥ 50 | a) **Lehrlinge bestrafen** (Instructor Antheol): Intelligenzija-Zustimmung +, Bedrohung unverändert. b) **Wachen zur Akademie**: −10.000, Bedrohung −5 |
 | `.13` Situation at Sunsail Anchorage | 8892, 8886 | Bedrohung ≥ 80 oder Zufall | Wretched überrennen den Hafen. Silvermoons Teil von Sunsail: Modifier „Hafen überrannt“ (Hafen/Handel −, bis Aldaron tot ist). Nebenbei stehlen Grimscale-Murlocs die Ladung (Flavour, Captain Kelisendra) |
 | `.14` Explosion an der Stadtmauer | Folge von 8463 | aus `.11` b) oder Bedrohung ≥ 80 | Ein Gebäude in Silvermoon City verliert Stufen bzw. State-Modifier „Bresche“ (Verteidigung −, Unruhe +, 2 Jahre). Legitimität −5 |
+| `.17` The Wretched March (Kono 2026-11-12) | – | Bedrohung 100, kein Pakt, kein Krieg/Play der Wretched, 5 J. Sperre | Wretched erklären Krieg (`dp_conquer_state`) um Silvermoons Teil von Ruins of Silvermoon oder Sunsail Anchorage (wo beide Teile halten). Raserei für die Wretched: Armee-Angriff/-Verteidigung +30 % → +20 % nach 6 Mon. → +10 % nach 1 J. → weg nach 2 J. Bedrohung −30. Silvermoon hält durch oder siegt (Eroberung → Bruderkrieg-Folgen, `.16`) |
 | `.15` Lehrlinge fallen der Sucht anheim | Duskwither Spire (8888–8891) | Silvermoon hat `va_mana_scarcity` oder `va_mana_withdrawal` | Ein Teil der Pops in Silvermoon wird unzufrieden; Option a) Mana für die Akademien (Kosten), b) Verbannung (Bedrohung +10: die Verbannten laufen zu den Wretched) |
 
 Aufwand Spieler: gering, Entscheidungen alle paar Jahre. Zweck: Druck aufbauen, damit Phase 2 nicht ignoriert wird.

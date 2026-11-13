@@ -1217,3 +1217,15 @@ ZANZIL_WITCHDOCTORS = {
 	cultures = { jungle_troll }
 	capital = STATE_EXPLORERS_LEAGUE_DIGSITE
 }
+
+# Formable Amani-Reich aus Zul'Jarra (VA-017), Formation in common/country_formation/va_formable_countries.txt
+AMANI_EMPIRE = {
+	color = { 24 92 70 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { forest_troll dire_troll }
+	capital = STATE_ZUL_AMAN
+}

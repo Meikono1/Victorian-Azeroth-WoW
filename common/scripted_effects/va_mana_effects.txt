@@ -28,6 +28,9 @@ va_update_mana_dependency_effect = {
 	else = {
 		va_clear_mana_stages_effect = yes
 	}
+	va_mana_rationing_pulse_effect = yes # Radikale bei Rationierung (va_mana_relief_effects.txt)
+	va_mana_disenchant_remove_effect = { FORCE = no } # Disenchantment-Werkstatt nach 1 Jahr abreißen
+	va_update_mana_upkeep_effect = yes # Grundbedarf je State (Kono-Test 2026-11-12)
 	va_mana_shortage_counter_effect = yes # Mana-Aufstand (VA-021), va_mana_uprising_effects.txt
 	va_silvermoon_wretched_aftermath_pulse_effect = yes # Nachspiel Wretched (VA-021)
 }
@@ -54,4 +57,34 @@ va_clear_mana_stages_effect = {
 	if = { limit = { has_modifier = va_mana_abundance } remove_modifier = va_mana_abundance }
 	if = { limit = { has_modifier = va_mana_scarcity } remove_modifier = va_mana_scarcity }
 	if = { limit = { has_modifier = va_mana_withdrawal } remove_modifier = va_mana_withdrawal }
+}
+
+# Country-Scope, monatlich aus va_update_mana_dependency_effect: Grundbedarf je eigenem State neu setzen (Pops ändern sich).
+# Vorbild Multiplikator: va_update_deathholme_scourge_effect (va_dead_scar_effects.txt).
+va_update_mana_upkeep_effect = {
+	set_variable = { name = va_mana_relief_factor value = va_country_mana_relief_factor } # Abschläge der Mana-Maßnahmen
+	every_scope_state = {
+		if = {
+			limit = { has_modifier = va_mana_upkeep }
+			remove_modifier = va_mana_upkeep
+		}
+		if = {
+			limit = {
+				ROOT = { va_country_mana_dependent_trigger = yes }
+				va_state_mana_upkeep > 0
+			}
+			add_modifier = {
+				name = va_mana_upkeep
+				multiplier = va_state_mana_upkeep
+			}
+		}
+	}
+}
+
+# Country-Scope: Grundbedarf ganz entfernen (je_mana_hunger endet).
+va_clear_mana_upkeep_effect = {
+	every_scope_state = {
+		limit = { has_modifier = va_mana_upkeep }
+		remove_modifier = va_mana_upkeep
+	}
 }

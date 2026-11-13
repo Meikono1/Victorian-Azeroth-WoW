@@ -1,0 +1,145 @@
+﻿# Modifier der Amani-Reihe von Zul'Jarra (VA-022). Vorbild: Vanilla sick_man_of_europe (static_modifiers/content_3_modifiers.txt), Hausstil va_silvermoon_modifiers.txt.
+# Alle Werte sind Vorschläge (V1), Ablauf: .claude/ablauf/amani.md.
+
+# --- je_amani_tribes
+
+# Eingliederung der Shadowpine läuft (va_amani_shadowpine_button)
+va_amani_shadowpine_summons = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds # TODO: eigenes Icon (VA-027)
+	country_authority_add = -50 # Kono-Test 2026-11-12: Eingliederung zu billig
+}
+
+# Shadowpine und Mossflayer folgen Zul'jin, 10 Jahre
+va_amani_tribes_united = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 25
+}
+
+# 15 Jahre ohne Einigung, 10 Jahre
+va_amani_tribes_divided = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -10
+}
+
+# --- je_amani_loa
+
+# Ein Ritual läuft (va_amani_loa_*_button); Gold kostet der Schalter. Autorität −25 → −100 (Kono-Test 2026-11-12: Zul'Jarra hat ~1500)
+va_amani_loa_ritual = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	country_authority_add = -100
+}
+
+# Akil'zon, der Adler: gebunden / geehrt
+va_amani_loa_akilzon_bound = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_offense_mult = 0.1
+}
+
+va_amani_loa_akilzon_honored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_offense_mult = 0.05
+}
+
+# Nalorakk, der Bär: gebunden / geehrt
+va_amani_loa_nalorakk_bound = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_defense_mult = 0.1
+}
+
+va_amani_loa_nalorakk_honored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_defense_mult = 0.05
+}
+
+# Jan'alai, der Drachenfalke: gebunden / geehrt
+va_amani_loa_janalai_bound = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_morale_loss_mult = -0.1
+}
+
+va_amani_loa_janalai_honored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_morale_loss_mult = -0.05
+}
+
+# Halazzi, der Luchs: gebunden / geehrt
+va_amani_loa_halazzi_bound = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds # TODO: eigenes Icon (VA-027)
+	building_training_rate_mult = 0.2
+}
+
+va_amani_loa_halazzi_honored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds # TODO: eigenes Icon (VA-027)
+	building_training_rate_mult = 0.1
+}
+
+# Interessengruppe der Priester: nach dem Binden bzw. Ehren eines Loa, 5 Jahre
+va_amani_priests_defied = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds # TODO: eigenes Icon (VA-027)
+	interest_group_approval_add = -2
+}
+
+va_amani_priests_honored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds # TODO: eigenes Icon (VA-027)
+	interest_group_approval_add = 2
+}
+
+# Alle vier Loa entschieden, 10 Jahre
+va_amani_power_of_the_loa = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 15
+}
+
+# Zorn der Loa (amani_loa_events.6): Malacrass geopfert, 5 Jahre
+va_amani_hexlord_sacrificed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
+	country_authority_add = -15
+}
+
+# Zorn der Loa (amani_loa_events.6): weitergemacht, 10 Jahre
+va_amani_loa_forsaken = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -10
+	state_radicals_from_political_movements_mult = 0.25
+}
+
+# --- je_amani_siege, je_amani_empire, je_amani_vengeance
+
+# Solange je_amani_siege läuft (V1 ohne Abfrage von Silvermoons Eindämmung)
+va_amani_besieged = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds # TODO: eigenes Icon (VA-027)
+	building_training_rate_mult = -0.1
+	country_influence_mult = -0.1
+}
+
+# Belagerung gebrochen, 10 Jahre
+va_amani_siege_broken = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 10
+}
+
+# Amani-Reich wiederhergestellt, 20 Jahre
+va_amani_empire_restored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 25
+}
+
+# Ghostlands zurückgeholt, 20 Jahre
+va_amani_forest_reclaimed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 50
+}
+
+# --- Schatzjäger (amani_treasure_events)
+
+# Eindringlinge hingerichtet, 5 Jahre
+va_amani_trespassers_executed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds # TODO: eigenes Icon (VA-027)
+	country_authority_add = 75 # Kono-Test 2026-11-12: 10 zu wenig (Beförderung kostet 100)
+}
+
+# Gestohlenes Relikt nicht zurückgeholt, 5 Jahre
+va_amani_relic_lost = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
+	country_legitimacy_base_add = -5
+}

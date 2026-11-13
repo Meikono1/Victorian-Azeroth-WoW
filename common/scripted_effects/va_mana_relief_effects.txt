@@ -1,0 +1,148 @@
+﻿# Mana-Maßnahmen im je_mana_hunger (VA-019, Kono 2026-11-12): Grundbedarf kurzfristig senken, während die Taps wachsen.
+# Abschläge rechnet va_country_mana_relief_factor (va_mana_values.txt). Vorbild: Hausstil va_silvermoon_corridor_effects.txt,
+# add_radicals wie Vanilla events/agitators_events/revolution_events_01.txt, gestaffelte Modifier mit days wie Vanilla add_modifier.
+
+# Country-Scope: Disenchantment (Kono 2026-11-12). Werkstatt building_va_disenchantment in der Hauptstadt erzeugt 10 Mana
+# für 1 Jahr (echtes Angebot, v. a. für kleine Hochelfen-Länder wie QUEL_DANIL), Prestige −10 für 2 Jahre, 2 Jahre gesperrt.
+va_mana_disenchant_effect = {
+	set_variable = { name = va_mana_disenchant_active days = 365 }
+	set_variable = { name = va_mana_disenchant_cooldown days = 730 }
+	add_modifier = {
+		name = va_mana_disenchant_shame
+		years = 2
+	}
+	capital = {
+		if = {
+			limit = { NOT = { has_building = building_va_disenchantment } }
+			create_building = {
+				building = building_va_disenchantment
+				level = 1
+				activate_production_methods = { pm_heirloom_breaking_building_va_disenchantment }
+			}
+		}
+	}
+}
+
+# Country-Scope, monatlich aus va_update_mana_dependency_effect: Werkstatt abreißen, sobald das Jahr um ist.
+# FORCE = yes reißt immer ab (Ende des JE).
+va_mana_disenchant_remove_effect = {
+	every_scope_state = {
+		limit = { has_building = building_va_disenchantment }
+		if = {
+			limit = {
+				OR = {
+					always = $FORCE$
+					NOT = { ROOT = { has_variable = va_mana_disenchant_active } }
+				}
+			}
+			remove_building = building_va_disenchantment
+		}
+	}
+}
+
+# Country-Scope: Rationierung an. −25 % solange an; Lebensstandard −1 (Modifier), sofort feste Radikale unter den Elfen.
+va_mana_rationing_start_effect = {
+	add_modifier = { name = va_mana_rationing }
+	set_variable = { name = va_mana_rationing_months value = 0 }
+	va_mana_rationing_radicals_effect = yes
+	va_update_mana_upkeep_effect = yes
+}
+
+# Country-Scope: Rationierung aus, danach 1 Jahr gesperrt.
+va_mana_rationing_stop_effect = {
+	if = {
+		limit = { has_modifier = va_mana_rationing }
+		remove_modifier = va_mana_rationing
+	}
+	if = {
+		limit = { has_variable = va_mana_rationing_months }
+		remove_variable = va_mana_rationing_months
+	}
+	set_variable = { name = va_mana_rationing_cooldown days = 365 }
+	va_update_mana_upkeep_effect = yes
+}
+
+# Country-Scope: feste Radikale unter Blut- und Hochelfen (beim Einschalten und alle 6 Monate).
+va_mana_rationing_radicals_effect = {
+	add_radicals = {
+		value = 0.05
+		culture = cu:sin_dorei
+	}
+	add_radicals = {
+		value = 0.05
+		culture = cu:quel_dorei
+	}
+}
+
+# Country-Scope, monatlich aus va_update_mana_dependency_effect: Rationierung zählt Monate, alle 6 Monate neue Radikale.
+va_mana_rationing_pulse_effect = {
+	if = {
+		limit = { has_modifier = va_mana_rationing }
+		if = {
+			limit = { NOT = { has_variable = va_mana_rationing_months } }
+			set_variable = { name = va_mana_rationing_months value = 0 }
+		}
+		change_variable = { name = va_mana_rationing_months add = 1 }
+		if = {
+			limit = { var:va_mana_rationing_months >= 6 }
+			set_variable = { name = va_mana_rationing_months value = 0 }
+			va_mana_rationing_radicals_effect = yes
+		}
+	}
+}
+
+# Country-Scope: Fauna einer eigenen Eversong-Region aussaugen (REGION = STATE_…). −15 % Bedarf für 1 Jahr (Kono 2026-11-12),
+# erneut möglich nach 1,5 Jahren. Agrar-Malus je Aussaugung gestaffelt: drei Modifier à −10 % mit 1,5 / 3 / 5 Jahren (−30/−20/−10 %).
+# Mehrfach aussaugen stapelt die Malusse: vier Modifier-Sätze _1 bis _4 (bei 1,5 J. Sperre überlappen höchstens vier), erster freier Satz.
+va_mana_drain_fauna_effect = {
+	every_scope_state = {
+		limit = {
+			state_region = s:$REGION$
+			NOT = { has_variable = va_mana_fauna_cooldown }
+		}
+		set_variable = { name = va_mana_fauna_drained days = 365 }
+		set_variable = { name = va_mana_fauna_cooldown days = 547 }
+		if = {
+			limit = { NOT = { has_modifier = va_mana_fauna_recovering_1 } }
+			add_modifier = { name = va_mana_fauna_drained_1 days = 547 }
+			add_modifier = { name = va_mana_fauna_depleted_1 days = 1095 }
+			add_modifier = { name = va_mana_fauna_recovering_1 days = 1825 }
+		}
+		else_if = {
+			limit = { NOT = { has_modifier = va_mana_fauna_recovering_2 } }
+			add_modifier = { name = va_mana_fauna_drained_2 days = 547 }
+			add_modifier = { name = va_mana_fauna_depleted_2 days = 1095 }
+			add_modifier = { name = va_mana_fauna_recovering_2 days = 1825 }
+		}
+		else_if = {
+			limit = { NOT = { has_modifier = va_mana_fauna_recovering_3 } }
+			add_modifier = { name = va_mana_fauna_drained_3 days = 547 }
+			add_modifier = { name = va_mana_fauna_depleted_3 days = 1095 }
+			add_modifier = { name = va_mana_fauna_recovering_3 days = 1825 }
+		}
+		else_if = {
+			limit = { NOT = { has_modifier = va_mana_fauna_recovering_4 } }
+			add_modifier = { name = va_mana_fauna_drained_4 days = 547 }
+			add_modifier = { name = va_mana_fauna_depleted_4 days = 1095 }
+			add_modifier = { name = va_mana_fauna_recovering_4 days = 1825 }
+		}
+	}
+	va_update_mana_upkeep_effect = yes
+}
+
+# Country-Scope: Maßnahmen beim Ende des JE aufräumen.
+va_mana_relief_cleanup_effect = {
+	if = {
+		limit = { has_modifier = va_mana_rationing }
+		remove_modifier = va_mana_rationing
+	}
+	if = {
+		limit = { has_variable = va_mana_disenchant_active }
+		remove_variable = va_mana_disenchant_active
+	}
+	va_mana_disenchant_remove_effect = { FORCE = yes }
+	if = {
+		limit = { has_variable = va_mana_relief_factor }
+		remove_variable = va_mana_relief_factor
+	}
+}

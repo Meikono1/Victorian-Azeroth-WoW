@@ -1,11 +1,11 @@
-AMANI_TRIBE = {
+AMANI_TRIBE = { # Zul'Jarra: tuerkis wie das Amani-Banner, Zul'jins Maske (Kono 2026-11-13; Adler-Wappen ging an AMANI_EMPIRE)
 	pattern = "pattern_solid.tga"
-	color1 = "green"
+	color1 = rgb { 38 150 130 }
 
 	colored_emblem = {
-		texture = "ce_troll_eagle_loa.dds"
+		texture = "ce_troll_mask_zuljin.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
-		color1 = rgb { 167 201 125 }
+		color1 = rgb { 236 228 205 }
 	}			
 }
 

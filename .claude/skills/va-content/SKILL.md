@@ -1,4 +1,4 @@
----
+﻿---
 name: va-content
 description: Content für Victorian Azeroth schreiben – Events, Journal Entries (JE), Decisions, Scripted Buttons, Progress Bars, Static Modifiers, Scripted Effects/Trigger, On-Actions, Diplomatic Plays, Formables und die zugehörige Lokalisierung. Nutzen, sobald Kono eine Content-Idee liefert, ein Ablaufdiagramm in .claude/ablauf/ geplant wird oder ein Content-Ticket umgesetzt wird.
 ---
@@ -13,7 +13,8 @@ Ziel: neues Script plus englische Loc in einem Durchgang, ohne Vanilla oder das 
 2. Ticket lesen (`.claude/tickets/VA-NNN-*.md`), bei Länder-Content `.claude/ablauf/<land>.md`.
 3. Vanilla-Vorbild aus [vanilla-vorbilder.md](vanilla-vorbilder.md) nehmen, **nicht** suchen. Erst wenn die Tabelle nichts hat: `grep -rl` in genau einem Vanilla-Ordner, und das Ergebnis danach in die Tabelle eintragen.
 4. Effekte, Trigger und Modifier in der Script-Doku prüfen, nur gezielt greppen (Befehle in `.claude/KARTE.md`, Abschnitt „Vanilla und Script-Doku“; die Dateien sind bis 920 KB groß). Verwendung in der Vorbild-Datei zeigt die Syntax im Zusammenhang.
-5. Eigene, schon getestete Dateien sind die beste Vorlage für den Hausstil (Kommentare, Reihenfolge der Felder): Muster in [vorlagen.md](vorlagen.md).
+5. JE-Anzeige (Panel-Aufbau, Ausgänge, Buttons, Balken, Widgets, Karten-Modus): [je-darstellung.md](je-darstellung.md).
+6. Eigene, schon getestete Dateien sind die beste Vorlage für den Hausstil (Kommentare, Reihenfolge der Felder): Muster in [vorlagen.md](vorlagen.md).
 
 ## 2. Erst planen (Event-Ablaufplan)
 
@@ -40,6 +41,7 @@ Start-JEs zum Spielstart in `common/history/global/va_global_<region>.txt` (`GLO
 - Datei `localization/replace/english/va_<thema>_l_english.yml`, UTF-8 mit BOM, erste Zeile `l_english:`, Einträge mit zwei Leerzeichen.
 - Jeder Key, den das Script nennt, bekommt Text, kein Text ohne Key. Pflicht-Keys je Typ in [vorlagen.md](vorlagen.md) (z. B. JE: Name, `_reason`, Button `_desc`, Modifier `_desc`, Event `.t .d .f .a`).
 - Jeder von Claude geschriebene Text endet mit ` (AI WRITTEN)`, auch Tooltips und Buttons. Ausnahme: von Kono vorgegebene oder abgenommene Texte (dann Marker entfernen, im Ticket notieren).
+- **Ton (Kono 2026-11-13):** Schalter, Schalter-`_desc`, Tooltips (`_tt`) und Balken sachlich und gut lesbar (Kosten, Dauer, Wirkung). JE-`_reason`, Modifier-`_desc`, Event-Texte, Optionen und Zitate im Ton des Volkes; Trolle sprechen Slang („da“, „dem“, „dey“, „be“, „mon“, „gonna“). Vorbild: abgenommene Texte in `va_amani_l_english.yml` (ohne Marker). Wretched: elfisch-gehoben, aber stotternd, drängend, besitzergreifend („…“, „More!“, „It burns!“, Kichern statt Schmerz); Silvermoon hochelfisch-höfisch, flüssig und leicht altertümlich („shall“, „once more“), Stolz und Trauer. Lore: Eversongs Wälder sind rot-golden, nicht grün (Kono 2026-11-13).
 - Keine eckigen Klammern im Freitext, `[…]` ist Script. Anführungszeichen im Text als `\"`.
 - Deutsch optional, nur wenn Kono es will.
 
@@ -51,6 +53,9 @@ Start-JEs zum Spielstart in `common/history/global/va_global_<region>.txt` (`GLO
 4. Ablaufdiagramm auf den gebauten Stand bringen (Knoten „geplant“ → „gescriptet“).
 
 ## Stolperfallen (aus error.log und Spieltests)
+
+- Ein Schalter- oder JE-`outcome`-Tooltip rechnet den `effect` durch, ohne dass `set_variable` vorher greift (auch nicht aus einem vorher aufgerufenen Effekt). Ein `var:x`-Vergleich in aufgerufenen Effekten braucht deshalb `has_variable = x` davor, sonst entstehen tausende Log-Zeilen (VA-021).
+- Agitatoren (`is_agitator`) können im Exil-Pool sitzen und fehlen dann in `any_scope_character`. Zusätzlich `any_character_in_exile_pool` bzw. `random_character_in_exile_pool` nutzen (VA-021).
 
 - Gebäudegruppe mit `parent_group = bg_government` erbt 1 Infrastruktur und 20 Urbanisierung je Stufe. Reine Deko-/Script-Gebäude → eigene Gruppe wie Vanilla `bg_monuments_hidden` mit `infrastructure_usage_per_level = 0` (VA-062).
 - Die `.md`-Doku in Vanilla-Ordnern (z. B. `common/buildings/buildings.md`) ist teils veraltet: `generates_residences` gibt es nicht (VA-062). Felder immer an echten Vanilla-Objekten prüfen.
@@ -64,9 +69,12 @@ Start-JEs zum Spielstart in `common/history/global/va_global_<region>.txt` (`GLO
 - `add_journal_entry` doppelt (Global-History und `on_state_created` am selben Tag) → error.log `already has a journal entry`. Immer `NOT = { has_journal_entry = … }`.
 - Zustand, der Eroberung und Teilung überleben soll, an die **State-Region** hängen (`s:STATE_X = { set_variable = … }` bzw. `state_region = { has_variable = … }`), nicht an den State.
 - Länder-Modifier wirken auf alle Pops des Landes; Kultur-Modifier gibt es nicht.
+- Je-Gut-Modifier wie `state_buy_orders_<gut>_add` stehen in `modifiers.log`, existieren aber nur mit eigener Definition in `common/modifier_type_definitions/` (error.log „Unknown modifier type … potential dynamic modifier“, VA-019). Für eigene Güter immer mitdefinieren.
+- Gleicher Modifier zweimal per `add_modifier` stapelt nicht, er verlängert nur. Stapeln: nummerierte Sätze (`va_mana_fauna_drained_1…4`, VA-019) oder ein Modifier mit `multiplier`.
 - Vanilla-Trigger mit Erde-Bezug spammen das Log in Sekunden voll (VA-025): neue Funde in `va_earth_triggers.txt` per `REPLACE:` auf `always = no` setzen.
 - Mod-Gebäudekopien kennen 1.13-Gebäude nicht (z. B. `building_art_academy` unbekannt) → VA-003, nicht im Event „reparieren“.
 - `navigation` Stufe 6/7 und Hafen in der History → Ladefehler „must have invented Navigation“.
 - Vanilla-Scripts fragen abgeschaltete Erde-JEs und -Regionen weiter ab (über 1.400 Zeilen `Invalid database object je_*`) → nicht die Aufrufer kopieren, sondern Hüllen neu erzeugen (`va_gen_earth_je_stubs.py`, `va_gen_geo_regions.py`, `va_gen_earth_event_stubs.py`, `va_gen_earth_template_stubs.py`, VA-043). Hüllen nur für **aufgerufene** Objekte, sonst meldet das Spiel z. B. `Event … is orphaned`.
 - `va_common_folders.py` empfiehlt bei Kernordnern (On-Actions, Bewegungen, Flaggen, Custom Loc) „kopie-erde → leeren“. Dort **löschen**, nicht leeren, sonst fehlen Mechaniken. Erde-Abschaltung einzelner On-Actions per `trigger` in `va_on_actions_earth.txt`.
+- `effects.log` listet Felder, die der Parser nicht annimmt: `handle_annexation_as_civil_war` in `create_diplomatic_play` → „Unexpected token“ (VA-021). Feld immer auch in einer Vanilla-Verwendung suchen.
 - Loc-Keys nur ASCII: `’`, `Ö` usw. im Key → „Invalid character“, Eintrag fehlt (Namenslisten, `STATE_SKÖRN`). Im Text sind sie erlaubt.

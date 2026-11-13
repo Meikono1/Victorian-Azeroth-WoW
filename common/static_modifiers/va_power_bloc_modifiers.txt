@@ -1,0 +1,7 @@
+﻿# Modifier für Machtblock-Anführer (VA-065). Vorbild: Vanilla modifier_india_company_rule (Start-Modifier aus der Länder-History).
+
+# Orgrimmar führt die Horde: Prestige, damit Orgrimmar zum Start Major Power ist (Schwelle 55, Start 40)
+va_warchief_of_the_horde = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = 30
+}

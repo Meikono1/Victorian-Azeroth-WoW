@@ -74,4 +74,45 @@
 			template = va_wretched_felendren
 		}
 	}
+
+	# Quel'Thalas (VA-016, VA-066): Vorlagen in va_quel_thalas_characters.txt
+	c:SILVERMOON ?= {
+		create_character = {
+			template = va_qt_lorthemar_theron
+		}
+		create_character = {
+			template = va_qt_rommath
+		}
+		create_character = {
+			template = va_qt_halduron_brightwing
+		}
+		create_character = {
+			template = va_qt_liadrin
+		}
+	}
+
+	c:TRANQUILLIEN ?= {
+		create_character = {
+			template = va_qt_auriferous
+		}
+		create_character = {
+			template = va_qt_mavren
+		}
+	}
+
+	c:DEATHHOLME ?= {
+		create_character = {
+			template = va_qt_darkhan_drathir
+		}
+	}
+
+	# Zul'Jarra (VA-022)
+	c:AMANI_TRIBE ?= {
+		create_character = {
+			template = va_qt_zuljin
+		}
+		create_character = {
+			template = va_qt_malacrass
+		}
+	}
 }

@@ -1,0 +1,128 @@
+﻿# Schatzjäger in Zul'Aman (VA-022): Fremde plündern die Gräber, solange Zul'Jarra isoliert ist.
+# Vorbild: Hausstil va_wretched_events.txt (Raub-Events). Ausgelöst von va_amani_treasure_hunters_effect (on_monthly_pulse_country).
+namespace = amani_treasure_events
+
+# Grabräuber gefasst
+amani_treasure_events.1 = {
+	type = country_event
+
+	title = amani_treasure_events.1.t
+	desc = amani_treasure_events.1.d
+	flavor = amani_treasure_events.1.f
+
+	event_image = {
+		video = "middleeast_jungle_expedition" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_amani_treasure_hunters_effect
+	}
+
+	# Hinrichten
+	option = {
+		name = amani_treasure_events.1.a
+		default_option = yes
+		add_modifier = {
+			name = va_amani_trespassers_executed
+			years = 5
+		}
+	}
+
+	# Lösegeld
+	option = {
+		name = amani_treasure_events.1.b
+		add_treasury = 15000
+	}
+}
+
+# Eine fremde Expedition bittet um Zutritt
+amani_treasure_events.2 = {
+	type = country_event
+
+	title = amani_treasure_events.2.t
+	desc = amani_treasure_events.2.d
+	flavor = amani_treasure_events.2.f
+
+	event_image = {
+		video = "africa_diplomats_negotiating" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_amani_treasure_hunters_effect
+	}
+
+	# Abweisen
+	option = {
+		name = amani_treasure_events.2.a
+		default_option = yes
+		ig:ig_devout ?= {
+			add_modifier = {
+				name = va_amani_priests_honored
+				years = 5
+			}
+		}
+	}
+
+	# Als Händler dulden
+	option = {
+		name = amani_treasure_events.2.b
+		add_treasury = 30000
+		ig:ig_devout ?= {
+			add_modifier = {
+				name = va_amani_priests_defied
+				years = 5
+			}
+		}
+	}
+}
+
+# Ein Relikt wurde gestohlen
+amani_treasure_events.3 = {
+	type = country_event
+
+	title = amani_treasure_events.3.t
+	desc = amani_treasure_events.3.d
+	flavor = amani_treasure_events.3.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront" # TODO: eigenes Bild (VA-027)
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	duration = 3
+
+	trigger = {
+		# ausgelöst von va_amani_treasure_hunters_effect
+	}
+
+	# Jäger hinterherschicken
+	option = {
+		name = amani_treasure_events.3.a
+		default_option = yes
+		add_treasury = -15000
+	}
+
+	# Ziehen lassen
+	option = {
+		name = amani_treasure_events.3.b
+		add_modifier = {
+			name = va_amani_relic_lost
+			years = 5
+		}
+	}
+}

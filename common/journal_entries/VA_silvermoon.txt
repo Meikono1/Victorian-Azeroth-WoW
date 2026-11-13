@@ -146,6 +146,22 @@ je_silvermoon_corridor = {
 		}
 	}
 
+	# Tranquillien (Stadt x1437EA) gehört weder Silvermoon noch einem Untertan, z. B. von Zul'Jarra erobert (Kono-Test 2026-11-12)
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			NOT = { va_silvermoon_corridor_province_ours_trigger = { PROV = x1437EA } }
+		}
+		effect = {
+			if = {
+				limit = { has_modifier = va_silvermoon_corridor_logistics }
+				remove_modifier = va_silvermoon_corridor_logistics
+			}
+			remove_variable = va_corridor_stage
+		}
+	}
+
 	timeout = 2920 # 8 Jahre, gedacht ca. 5
 
 	outcome = {
@@ -214,6 +230,7 @@ je_silvermoon_wretched = {
 			va_silvermoon_wretched_pulse_effect = yes
 			va_silvermoon_wretched_war_effect = yes
 			va_silvermoon_wretched_raid_effect = yes
+			va_silvermoon_wretched_frenzy_effect = yes # Bedrohung 100 → Krieg (Kono 2026-11-12)
 			va_silvermoon_wretched_bounty_pulse_effect = yes
 		}
 	}

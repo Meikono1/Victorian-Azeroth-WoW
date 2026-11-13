@@ -1,7 +1,7 @@
 {
   "name" : "Victorian Azeroth",
   "id" : "3300564446",
-  "version" : "2",
+  "version" : "3",
   "game_id": "victoria3",
   "supported_game_version" : "1.15.*",
   "short_description" : "Victorian Azeroth",

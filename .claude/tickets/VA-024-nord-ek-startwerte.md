@@ -1,4 +1,4 @@
-# VA-024: Nord-EK – Pops, Start-Gebäude und Startwerte prüfen und anpassen
+﻿# VA-024: Nord-EK – Pops, Start-Gebäude und Startwerte prüfen und anpassen
 
 - **Status:** offen
 - **Typ:** content
@@ -59,3 +59,9 @@ Nord-EK gesamt 16.800, also **insgesamt nicht zu karg**. Das Problem sind einzel
 - Im selben Screenshot (Blood-Elf-Land, 5,15 Mio.): nur 235 Tsd. Beschäftigte, 3,86 Mio. Abhängige, Lebensstandard 8,8 – es fehlen Arbeitsplätze, nicht nur Nahrung.
 - **Pops gekürzt 2026-10-30** (Kono: „Ja, kürzen“), `common/history/pops/va_north_eastern_kingdoms.txt`: Undercity 3,5 → 2,0 Mio., Scholomance 1,58 → 0,6 Mio., Shadowfang Keep 1,7 → 1,0 Mio. Je State nur ein `create_pop`, Kultur/Religion unverändert. Nord-EK jetzt 80,2 Mio. Pops. Gebäude unverändert (Auffüllen meldet 0). Lint 0 neue Fehler. Test: T-030.
 - Archerus bleibt (VA-035). Mittel-EK-Städte (Ironforge, Gnomeregan, Grim Batol) noch offen, hängen an VA-036.
+- 2026-11-10: Quel'Danas-Platzhalter ersetzt: Sun's Reach 180.000, Magisters' Terrace 120.000, Sunwell Plateau 60.000 (Sin'dorei, Quel'dorei, wenige Dalaraner). Gebäude dort weiter leer. Test T-116.
+- 2026-11-10: Sun's Reach (Reisfarm 1, Fischerei 1) und Magisters' Terrace (Reisfarm 1) hatten keine Start-Gebäude; ergänzt nach Muster Sunstrider Isle / Duskwither Spire. `va_check_states.py 26` meldet keine State ohne Gebäude mehr. Test T-119.
+- 2026-11-12, Kono-Test: Sunwell Plateau ohne Marktanbindung (keine Häfen auf Quel'Danas). Hafen 1 in Sun's Reach (Hub `x4DFB26`). Hungersnot Tranquillien/Sanctum of Sun: Tranquillien hatte gar keine Nahrung → Roggenfarm 2 (Tranquillien) und 1 (Sanctum, Tranquillien-Teil), Außenposten Roggenfarm 1. Test T-121.
+- 2026-11-12, Kono: Nachtelfen-Außenposten (Sanctum of Sun) hatte zu viele Gebäude für 35.000 Pops: Färberei und Verwaltung entfernt, Baumwolle 2 → 1. Test T-121.
+- 2026-11-12, Kono-Test: Bürokratie zum Start zu niedrig (Silvermoon ~−400, Deathholme ~−400, Zul'Jarra ~−100, Grimscale ~−80, Wretched ~−50, Tranquillien ~−40); KI baute nur Verwaltung/Bausektor, kein Mana. Ursachen: Deathholme (Tech-Stufe 6) hat weder `tech_bureaucracy` noch `centralization`; Grimscale (Stufe 5) ohne `centralization`, seine Drawer-Cabinets-Verwaltung lief nur mit 10; Zul'Jarra mit `pm_simple_organization` (10 je Stufe). Fix: Deathholme +2 Techs, Verwaltung 9, Bausektor 1; Grimscale +centralization, Verwaltung 2; Zul'Jarra 3 Stufen Drawer Cabinets; Silvermoon City Verwaltung 4 → 13, Bausektor 2; Wretched 2 → 4; Tranquillien 1 → 2. Test T-122.
+- 2026-11-12, Kono: Silvermoon fast bankrott durch Papierkosten der Verwaltung. Government Administration in Silvermoon City 13 → 10 (`26_north_eastern_kingdoms.txt`). Test T-126.

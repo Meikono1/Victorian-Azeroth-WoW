@@ -384,6 +384,7 @@
 	c:ORGRIMMAR ?= {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		add_modifier = { name = va_warchief_of_the_horde } # VA-065: Major Power, damit Orgrimmar die Horde führen darf
 	}
 
 	c:PALEMANE_GNOLL ?= {

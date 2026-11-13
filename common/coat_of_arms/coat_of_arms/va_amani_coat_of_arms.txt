@@ -1,0 +1,13 @@
+﻿# Wappen des Amani-Reichs (Formable AMANI_EMPIRE, VA-017). Vorbild: AMANI_TRIBE in NewFlags.txt.
+# Kono 2026-11-13: Zul'Jarras bisheriges Wappen (grün, Adler-Loa) passt zum Reich und wurde getauscht; Zul'Jarra trägt jetzt Türkis mit Zul'jins Maske (NewFlags.txt).
+AMANI_EMPIRE = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_troll_eagle_loa.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+		color1 = rgb { 167 201 125 }
+	}
+}
+

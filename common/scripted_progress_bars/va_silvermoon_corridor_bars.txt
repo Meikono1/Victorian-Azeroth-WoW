@@ -17,6 +17,14 @@ va_silvermoon_corridor_bar = {
 				desc = "va_silvermoon_corridor_bar_progress_desc"
 				value = 1
 			}
+			# Halduron führt die Waldläufer: 18 Monate → 15 Monate je Etappe (VA-066)
+			if = {
+				limit = { va_has_halduron_trigger = yes }
+				add = {
+					desc = "va_silvermoon_corridor_bar_halduron_desc"
+					value = 0.2
+				}
+			}
 		}
 		# Stillstand im Tooltip sichtbar machen
 		else_if = {

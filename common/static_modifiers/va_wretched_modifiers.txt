@@ -54,3 +54,24 @@ va_mana_crackdown = {
 	country_authority_add = -50
 	state_turmoil_effects_mult = 0.1
 }
+
+# Raserei der Wretched bei Bedrohung 100 (VA-021, Kono 2026-11-12): drei gleichzeitig vergebene Stufen à +10 %,
+# laufen nach 6 / 12 / 24 Monaten aus (+30 % → +20 % → +10 % → 0). Vergabe: va_silvermoon_wretched_frenzy_effect.
+# Vorbild: Stufung wie va_mana_fauna_drained/depleted/recovering, Werte wie va_amani_loa_akilzon_bound.
+va_wretched_frenzy_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_offense_mult = 0.1
+	unit_army_defense_mult = 0.1
+}
+
+va_wretched_frenzy_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_offense_mult = 0.1
+	unit_army_defense_mult = 0.1
+}
+
+va_wretched_frenzy_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds # TODO: eigenes Icon (VA-027)
+	unit_army_offense_mult = 0.1
+	unit_army_defense_mult = 0.1
+}

@@ -66,7 +66,16 @@
 				add_principle = principle_police_coordination_1
 			}
 		}
-	}	
+
+		# Start-Leverage, damit die Mitglieder nicht in den ersten Monaten austreten (VA-065).
+		# Austritt ist ab Leverage-Vorteil <= 30 möglich (can_leave der Identität). Vorbild: Vanilla 05_austria_buttons.txt.
+		power_bloc = {
+			add_leverage = { target = c:DARNASSUS value = 500 }
+			add_leverage = { target = c:GNOMEREGAN value = 500 }
+			add_leverage = { target = c:IRONFORGE value = 500 }
+			add_leverage = { target = c:EXODAR value = 500 }
+		}
+	}
 
 	c:ORGRIMMAR = {
 		create_power_bloc = {
@@ -92,6 +101,14 @@
 			power_bloc = {
 				add_principle = principle_military_industry_2
 			}
+		}
+
+		# Start-Leverage wie bei der Allianz (VA-065)
+		power_bloc = {
+			add_leverage = { target = c:THUNDERBLUFF value = 500 }
+			add_leverage = { target = c:SILVERMOON value = 500 }
+			add_leverage = { target = c:UNDERCITY value = 500 }
+			add_leverage = { target = c:DARKSPEAR value = 500 }
 		}
 	}
 

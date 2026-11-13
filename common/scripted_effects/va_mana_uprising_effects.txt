@@ -105,7 +105,7 @@ va_mana_uprising_create_wretched_effect = {
 	create_diplomatic_play = {
 		target_country = scope:va_uprising_wretched
 		type = dp_annex_war
-		handle_annexation_as_civil_war = yes
+		escalation = 60 # wie Vanilla ezo_republic (ep2_ezo_republic.txt); handle_annexation_as_civil_war steht in der Doku, der Parser lehnt es ab (error.log 06.11.)
 	}
 }
 

@@ -47,6 +47,14 @@ GLOBAL = {
 		}
 	}
 
+	# Amani-Reihe von Zul'Jarra (VA-022); je_amani_vengeance folgt aus je_amani_empire
+	c:AMANI_TRIBE ?= {
+		add_journal_entry = { type = je_amani_tribes }
+		add_journal_entry = { type = je_amani_loa }
+		add_journal_entry = { type = je_amani_siege }
+		add_journal_entry = { type = je_amani_empire }
+	}
+
 	# Mana-Sucht der Wretched (VA-021), Stufe 3 von 3, endet mit der Vereinigung
 	c:WRETCHED_BLOODELFES ?= {
 		va_wretched_init_addiction_effect = yes

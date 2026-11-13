@@ -1,0 +1,31 @@
+{
+  "version": "3",
+  "source": "Arbeitsstand",
+  "date": "2026-11-13",
+  "stats": {
+    "Journal Entries": 12,
+    "Events": 50,
+    "Decisions": 0,
+    "Scripted Buttons": 33,
+    "Progress Bars": 10,
+    "Modifiers": 81,
+    "Scripted Effects": 65,
+    "Scripted Triggers": 61,
+    "Script Values": 4,
+    "Diplomatic Plays": 0,
+    "Buildings": 6,
+    "Production Methods": 8,
+    "Goods": 1,
+    "Countries": 329,
+    "States": 796,
+    "Cultures": 86,
+    "Religions": 35,
+    "Character Templates": 25,
+    "Government Types": 2,
+    "Cultural Traits": 314,
+    "Text Entries": 13160,
+    "Words of Text": 24038,
+    "Texts marked AI WRITTEN": 17,
+    "Graphics": 413
+  }
+}

@@ -1,0 +1,158 @@
+﻿# Effekte der Amani-Reihe von Zul'Jarra (VA-022): Stämme sammeln, Loa-Rituale, Schatzjäger.
+# Vorbild: Hausstil va_silvermoon_corridor_effects.txt (Balkenabfrage, set_bar_progress) und va_silvermoon_wretched_effects.txt (annex_with_incorporation, random_list).
+
+# Country-Scope aus je_amani_tribes (on_monthly_pulse).
+va_amani_tribes_pulse_effect = {
+	if = {
+		limit = { has_modifier = va_amani_shadowpine_summons }
+		# Shadowpine nicht mehr Untertan (Unabhängigkeit, Dritte): Eingliederung bricht ab, Balken bleibt stehen
+		if = {
+			limit = {
+				NOT = { c:SHADOWPINE_TRIBE ?= { is_subject_of = ROOT } }
+			}
+			remove_modifier = va_amani_shadowpine_summons
+		}
+		else_if = {
+			limit = {
+				scope:journal_entry = { "scripted_bar_progress(va_amani_shadowpine_bar)" >= 36 }
+			}
+			remove_modifier = va_amani_shadowpine_summons
+			annex_with_incorporation = c:SHADOWPINE_TRIBE
+			set_variable = { name = va_amani_shadowpine_joined }
+			trigger_event = { id = amani_events.1 popup = yes }
+		}
+	}
+	# Shadowpine anders untergegangen: zählt, wenn Zul'Jarra Land in ihren Regionen hält
+	if = {
+		limit = {
+			NOT = { has_variable = va_amani_shadowpine_joined }
+			NOT = { exists = c:SHADOWPINE_TRIBE }
+			va_amani_holds_shadowpine_land_trigger = yes
+		}
+		set_variable = { name = va_amani_shadowpine_joined }
+	}
+	# Mossflayer: Untertan (Gesandte, Krieg) oder Zul'Mashar erobert
+	if = {
+		limit = {
+			NOT = { has_variable = va_amani_mossflayer_joined }
+			OR = {
+				c:MOSSFLAYER_TROLLS ?= { is_subject_of = ROOT }
+				AND = {
+					NOT = { exists = c:MOSSFLAYER_TROLLS }
+					any_scope_state = { state_region = s:STATE_ZUL_MASHER }
+				}
+			}
+		}
+		set_variable = { name = va_amani_mossflayer_joined }
+	}
+}
+
+# Country-Scope (Schalter): Ritual für einen Loa beginnen. LOA = akilzon / nalorakk / janalai / halazzi.
+va_amani_loa_start_effect = {
+	add_treasury = -25000
+	add_modifier = { name = va_amani_loa_ritual }
+	set_variable = { name = va_amani_loa_ritual_$LOA$ }
+}
+
+# Country-Scope aus je_amani_loa (on_monthly_pulse): Ritual fertig → Entscheidungs-Event des Loa, Balken zurück auf 0.
+va_amani_loa_pulse_effect = {
+	if = {
+		limit = {
+			has_modifier = va_amani_loa_ritual
+			scope:journal_entry = { "scripted_bar_progress(va_amani_loa_bar)" >= 24 }
+		}
+		remove_modifier = va_amani_loa_ritual
+		scope:journal_entry = {
+			set_bar_progress = { value = 0 name = va_amani_loa_bar }
+		}
+		if = {
+			limit = { has_variable = va_amani_loa_ritual_akilzon }
+			remove_variable = va_amani_loa_ritual_akilzon
+			trigger_event = { id = amani_loa_events.1 popup = yes }
+		}
+		else_if = {
+			limit = { has_variable = va_amani_loa_ritual_nalorakk }
+			remove_variable = va_amani_loa_ritual_nalorakk
+			trigger_event = { id = amani_loa_events.2 popup = yes }
+		}
+		else_if = {
+			limit = { has_variable = va_amani_loa_ritual_janalai }
+			remove_variable = va_amani_loa_ritual_janalai
+			trigger_event = { id = amani_loa_events.3 popup = yes }
+		}
+		else_if = {
+			limit = { has_variable = va_amani_loa_ritual_halazzi }
+			remove_variable = va_amani_loa_ritual_halazzi
+			trigger_event = { id = amani_loa_events.4 popup = yes }
+		}
+	}
+	# Zorn der Loa: einmalig ab drei Bindungen
+	if = {
+		limit = {
+			has_variable = va_amani_loa_wrath
+			var:va_amani_loa_wrath >= 3
+			NOT = { has_variable = va_amani_loa_wrath_judged }
+		}
+		set_variable = { name = va_amani_loa_wrath_judged }
+		trigger_event = { id = amani_loa_events.6 popup = yes }
+	}
+}
+
+# Country-Scope (Event-Option): Essenz eines Loa binden. Starker Bonus, Priester verärgert, Zorn +1.
+va_amani_loa_bind_effect = {
+	add_modifier = { name = va_amani_loa_$LOA$_bound }
+	ig:ig_devout ?= {
+		add_modifier = {
+			name = va_amani_priests_defied
+			years = 5
+		}
+	}
+	custom_tooltip = {
+		text = va_amani_loa_wrath_up_tt
+		change_variable = { name = va_amani_loa_wrath add = 1 }
+	}
+	set_variable = { name = va_amani_loa_$LOA$_done }
+	change_variable = { name = va_amani_loa_decided add = 1 }
+}
+
+# Country-Scope (Event-Option): Loa ehren. Halber Bonus, Priester zufrieden.
+va_amani_loa_honor_effect = {
+	add_modifier = { name = va_amani_loa_$LOA$_honored }
+	ig:ig_devout ?= {
+		add_modifier = {
+			name = va_amani_priests_honored
+			years = 5
+		}
+	}
+	set_variable = { name = va_amani_loa_$LOA$_done }
+	change_variable = { name = va_amani_loa_decided add = 1 }
+}
+
+# Country-Scope: laufendes Ritual abbrechen (Ende des JE).
+va_amani_loa_cleanup_effect = {
+	if = {
+		limit = { has_modifier = va_amani_loa_ritual }
+		remove_modifier = va_amani_loa_ritual
+	}
+}
+
+# Country-Scope aus on_monthly_pulse_country (va_on_actions_amani.txt): Schatzjäger, solange Zul'Jarra isoliert ist.
+# Etwa 3 % je Monat, danach 3 Jahre Ruhe. Vorbild: va_silvermoon_wretched_raid_effect.
+va_amani_treasure_hunters_effect = {
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_isolationism
+			NOT = { has_variable = va_amani_treasure_cooldown }
+			any_scope_state = { state_region = s:STATE_ZUL_AMAN }
+		}
+		random = {
+			chance = 3
+			set_variable = { name = va_amani_treasure_cooldown days = 1095 }
+			random_list = {
+				1 = { trigger_event = { id = amani_treasure_events.1 popup = yes } }
+				1 = { trigger_event = { id = amani_treasure_events.2 popup = yes } }
+				1 = { trigger_event = { id = amani_treasure_events.3 popup = yes } }
+			}
+		}
+	}
+}

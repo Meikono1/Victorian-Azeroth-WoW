@@ -1,5 +1,6 @@
 ﻿# PMs der Leylinien-Anzapfung (VA-019). Vorbild: pm_picks_and_shovels/atmospheric_engine_pump/condensing_engine_pump_building_coal_mine,
 # Zusatzgruppe wie pm_no_explosives/pm_nitroglycerin_building_coal_mine (03_mines.txt).
+# Balance Kono 2026-11-13: Ausstoß etwa 60 % der Kohlemine, Belegschaft 7.000 wie Tabakplantage (04_plantations.txt), viele Akademiker.
 # TODO: Werte und Technologien sind Platzhalter (Vanilla-Techs); Mana wird später ausgearbeitet (Kono 2026-11-06).
 pm_focus_crystals_building_leyline_tap = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds" # TODO: eigenes Icon (VA-027)
@@ -10,12 +11,12 @@ pm_focus_crystals_building_leyline_tap = {
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_mana_add = 20
+			goods_output_mana_add = 12 # Kono 2026-11-13: Nerf von 20, Vergleich Tabak/Kohle
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_academics_add = 500
+			building_employment_laborers_add = 5500
+			building_employment_academics_add = 1500
 		}
 	}
 }
@@ -34,12 +35,12 @@ pm_arcane_conduits_building_leyline_tap = {
 			goods_input_tools_add = 10
 
 			# output goods
-			goods_output_mana_add = 40
+			goods_output_mana_add = 24 # Nerf von 40
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 3500
-			building_employment_academics_add = 750
+			building_employment_laborers_add = 5000
+			building_employment_academics_add = 1750
 			building_employment_engineers_add = 250
 		}
 	}
@@ -56,17 +57,17 @@ pm_runic_resonators_building_leyline_tap = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 10
+			goods_input_tools_add = 15 # wie Vanilla condensing_engine_pump
 			goods_input_electricity_add = 10
 
 			# output goods
-			goods_output_mana_add = 65
+			goods_output_mana_add = 36 # Nerf von 65
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 2750
-			building_employment_academics_add = 1000
-			building_employment_engineers_add = 500
+			building_employment_laborers_add = 4250
+			building_employment_academics_add = 2000
+			building_employment_engineers_add = 750
 		}
 	}
 }
@@ -90,11 +91,27 @@ pm_arcane_sigils_building_leyline_tap = {
 			goods_input_paper_add = 5
 
 			# output goods
-			goods_output_mana_add = 15
+			goods_output_mana_add = 6 # Nerf von 15
 		}
 
 		level_scaled = {
 			building_employment_academics_add = 250
+		}
+	}
+}
+
+# Disenchantment (VA-019, Kono 2026-11-12): 10 Mana ohne Inputs, kleine Belegschaft (Ausgabe hängt in Vic3 an Arbeitern).
+# Vorbild: default_building_gold_field (03_mines.txt).
+pm_heirloom_breaking_building_va_disenchantment = {
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds" # TODO: eigenes Icon (VA-027)
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_mana_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
 		}
 	}
 }

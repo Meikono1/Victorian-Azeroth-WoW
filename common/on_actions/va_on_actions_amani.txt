@@ -1,0 +1,16 @@
+﻿# Schatzjäger in Zul'Aman (VA-022): monatliche Prüfung für Zul'Jarra, unabhängig von den JEs.
+# Vorbild: Vanilla on_monthly_pulse_country (common/on_actions/00_code_on_actions.txt), Hausstil va_on_actions_quel_thalas.txt.
+on_monthly_pulse_country = {
+	on_actions = {
+		va_on_monthly_amani_treasure_hunters
+	}
+}
+
+va_on_monthly_amani_treasure_hunters = {
+	trigger = {
+		c:AMANI_TRIBE ?= THIS
+	}
+	effect = { # prüft selbst Isolationismus und Abkühlung
+		va_amani_treasure_hunters_effect = yes
+	}
+}

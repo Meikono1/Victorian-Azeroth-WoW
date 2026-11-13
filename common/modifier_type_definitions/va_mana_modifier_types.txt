@@ -23,3 +23,13 @@ building_leyline_tap_throughput_add={
 		ai_value=0
 	}
 }
+
+# Mana-Grundbedarf (va_mana_upkeep, VA-019): Kaufaufträge je State. Vanilla definiert state_buy_orders_*_add nur für einzelne Güter
+# (00_modifier_types.txt: ammunition, small_arms, artillery); ohne Definition "Unknown modifier type" (error.log 2026-11-12).
+state_buy_orders_mana_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}

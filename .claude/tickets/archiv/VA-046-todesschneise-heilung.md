@@ -1,6 +1,6 @@
-# VA-046: Todesschneise – Heilung je Region mit laufenden Kosten
+﻿# VA-046: Todesschneise – Heilung je Region mit laufenden Kosten
 
-- **Status:** wartet (Spieltest)
+- **Status:** erledigt
 - **Typ:** content
 - **Priorität:** hoch
 - **Erstellt:** 2026-10-30
@@ -14,7 +14,7 @@ Ersetzt die einfache Heilung aus VA-020 (`je_silvermoon_dead_scar`, Knopf mit Ei
 - Solange aktiv: **laufende monatliche Kosten** an Gold, Mana und Bürokratie. Nach **20 Monaten** aktiver Heilung ist die Region (der Abschnitt) geheilt.
 - Insgesamt schwerer als bisher.
 
-Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md), Abschnitt „Überarbeitung nach Kono-Feedback“.
+Konzept: [../konzepte/quel_thalas.md](../../konzepte/quel_thalas.md), Abschnitt „Überarbeitung nach Kono-Feedback“.
 
 ## Notizen
 
@@ -37,3 +37,4 @@ Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md), Abschnitt „
 - 2026-11-01: Kono-Test: Balken läuft (East Sanctum), aber Stillstand war nicht erkennbar. Ergänzt: Balken-Tooltip „Stalled: Mana Withdrawal“, deutlicherer Status-Text, kurze Balken-Beschriftung (Regionsname statt abgeschnittenem Satz). Quinine-Sperre zusätzlich im `possible` des JE (Vic3 aktiviert JEs selbst, sobald `possible` erfüllt ist; vorher erschien es trotzdem). „Halt Healing“-Tooltip zeigte Vanilla-Fehler `BUG: remove_building missing perspective` → eigener `custom_tooltip` + `hidden_effect`.
 - 2026-11-01: Stillstand hängt jetzt an der Versorgung der Ritual Site (`building_has_goods_shortage`, Mana oder Papier fehlt) statt am Modifier Mana Withdrawal. Grund (Kono): Untote haben keinen Entzug und heilten mit 0 Mana. Invalid-Tooltip zeigte rohen Trigger („All SILVERMOON_ADJ States …“) → `custom_tooltip`. Fehlendes `SILVERMOON_ADJ` gehört zu VA-006.
 - 2026-11-01: Texte mit Kono finalisiert (JE-Titel „Curing the Path of Destruction“, Beschreibung, Schalter „Start/Stop Ritual“, Status, Gebäude, Modifier, Events). Balken-Texte ebenfalls bestätigt; Todesschneise ohne AI WRITTEN.
+- 2026-11-12, Kono: T-053, T-054, T-055 OK. Ticket erledigt.

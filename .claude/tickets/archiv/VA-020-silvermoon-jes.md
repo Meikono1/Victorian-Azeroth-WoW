@@ -1,6 +1,6 @@
-# VA-020: Silvermoon – Journal Entries
+﻿# VA-020: Silvermoon – Journal Entries
 
-- **Status:** wartet (Spieltest)
+- **Status:** erledigt
 - **Typ:** content
 - **Priorität:** hoch
 - **Erstellt:** 2026-10-30
@@ -9,7 +9,7 @@
 
 Fünf Ziele: Deathholme vertreiben, Zul'Aman zerstören, Wretched heilen (zusammen mit VA-021), Todesschneise heilen, Mana-Problem (Dauer-JE). Datei `common/journal_entries/VA_silvermoon.txt`, Events `namespace = silvermoon_events`.
 
-Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
+Konzept: [../konzepte/quel_thalas.md](../../konzepte/quel_thalas.md)
 
 ## Notizen
 - 2026-10-30 (Log Runde 4): Bestehende `common/journal_entries/VA_silvermoon.txt` hat kein BOM und nutzt `should_be_pinned_by_default` (Zeile 15), das 1.13 nicht mehr kennt. Beim Neuaufbau mitbeheben.
@@ -28,3 +28,4 @@ Konzept: [../konzepte/quel_thalas.md](../konzepte/quel_thalas.md)
   - Zul'Aman → Eindämmung statt Zerstörung, Eventreihe mit Zul'jin (VA-022), wartet auf Kono.
   - Fehlende JEs: Wretched (VA-021, Annexion oder Heilung) und eigenes Königreich (VA-050).
   Die gescripteten Stände bleiben bis zum Umbau als Testbasis.
+- 2026-11-12, Kono: T-049, T-051, T-052 OK. Ticket erledigt.

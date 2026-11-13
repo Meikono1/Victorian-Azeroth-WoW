@@ -24,3 +24,86 @@ va_mana_withdrawal = {
 	state_mortality_mult = 0.05
 	building_throughput_add = -0.1
 }
+
+# Mana-Grundbedarf: State-Modifier mit multiplier = va_state_mana_upkeep (va_update_mana_upkeep_effect, monatlich aus je_mana_hunger).
+# Vorbild: Vanilla state_buy_orders_small_arms_add (static_modifiers/00_ip4_04_modifiers.txt).
+va_mana_upkeep = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds # TODO: eigenes Mana-Icon (VA-027)
+	state_buy_orders_mana_add = 1
+}
+
+# --- Mana-Maßnahmen (va_mana_relief_effects.txt, Kono 2026-11-12). Vorbild Agrar-Malus: va_dead_scar (va_quel_thalas_modifiers.txt).
+
+# Disenchantment: zerstörtes Kulturerbe, 2 Jahre
+va_mana_disenchant_shame = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds # TODO: eigenes Icon (VA-027)
+	country_prestige_add = -10
+}
+
+# Rationierung, solange an
+va_mana_rationing = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds # TODO: eigenes Icon (VA-027)
+	state_standard_of_living_add = -1
+}
+
+# Fauna ausgesaugt: je Aussaugung drei gestaffelte State-Modifier à −10 % Agrar-Durchsatz (1,5 / 3 / 5 Jahre), vier Sätze zum Stapeln
+
+va_mana_fauna_drained_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_depleted_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_recovering_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_drained_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_depleted_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_recovering_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_drained_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_depleted_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_recovering_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_drained_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_depleted_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}
+
+va_mana_fauna_recovering_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds # TODO: eigenes Icon (VA-027)
+	building_group_bg_agriculture_throughput_add = -0.1
+}

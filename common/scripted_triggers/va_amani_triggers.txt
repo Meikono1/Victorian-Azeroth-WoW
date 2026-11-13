@@ -1,0 +1,29 @@
+﻿# Abfragen der Amani-Reihe von Zul'Jarra (VA-022). Vorbild: Hausstil va_silvermoon_wretched_triggers.txt.
+
+# Country-Scope: hält Land in einer der drei Shadowpine-Regionen.
+va_amani_holds_shadowpine_land_trigger = {
+	any_scope_state = {
+		OR = {
+			state_region = s:STATE_SUNCROWN_VILLAGE
+			state_region = s:STATE_DAWNSTAR_SPIRE
+			state_region = s:STATE_SANCTUM_OF_SUN
+		}
+	}
+}
+
+# Country-Scope: Es läuft gerade ein Loa-Ritual.
+va_amani_loa_ritual_running_trigger = {
+	has_modifier = va_amani_loa_ritual
+}
+
+# Country-Scope: Voraussetzungen jedes Loa-Rituals (kein anderes Ritual, kein Bankrott).
+va_amani_loa_can_start_trigger = {
+	custom_tooltip = {
+		text = va_amani_loa_one_ritual_tt
+		NOT = { va_amani_loa_ritual_running_trigger = yes }
+	}
+	custom_tooltip = {
+		text = va_amani_not_bankrupt_tt
+		NOT = { has_modifier = declared_bankruptcy }
+	}
+}

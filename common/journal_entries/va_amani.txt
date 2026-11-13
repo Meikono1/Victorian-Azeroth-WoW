@@ -1,0 +1,385 @@
+﻿# Amani-Reihe von Zul'Jarra (VA-022): Stämme sammeln, Loa-Rituale, Belagerung, Amani-Reich, Rache an Quel'Thalas.
+# Vorbild: Vanilla je_sick_man_syria (journal_entries/00_sick_man.txt), Hausstil VA_silvermoon.txt (Schalter + Balken wie je_silvermoon_corridor).
+# Ablauf: .claude/ablauf/amani.md. Schalter, Balken, Effekte, Trigger: va_amani_*.txt. Alle JEs enden, sobald va_amani_claims_shattered gesetzt ist.
+
+# Ziel 1: Die Stämme sammeln. Shadowpine (Marionette) eingliedern, Mossflayer unterwerfen.
+je_amani_tribes = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	scripted_progress_bar = va_amani_shadowpine_bar
+	scripted_button = va_amani_shadowpine_button
+	scripted_button = va_amani_mossflayer_button
+
+	on_monthly_pulse = {
+		effect = {
+			va_amani_tribes_pulse_effect = yes
+		}
+	}
+
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			custom_tooltip = {
+				text = je_amani_tribes_shadowpine_tt
+				has_variable = va_amani_shadowpine_joined
+			}
+			custom_tooltip = {
+				text = je_amani_tribes_mossflayer_tt
+				has_variable = va_amani_mossflayer_joined
+			}
+		}
+		effect = {
+			set_variable = { name = va_amani_tribes_gathered }
+			add_modifier = {
+				name = va_amani_tribes_united
+				years = 10
+			}
+			trigger_event = { id = amani_events.5 popup = yes }
+		}
+	}
+
+	# Zul'Aman und Tor'Watha verloren
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			has_global_variable = va_amani_claims_shattered
+		}
+		effect = {
+			if = {
+				limit = { has_modifier = va_amani_shadowpine_summons }
+				remove_modifier = va_amani_shadowpine_summons
+			}
+		}
+	}
+
+	timeout = 5475 # 15 Jahre, gedacht 5–10
+
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = {
+			if = {
+				limit = { has_modifier = va_amani_shadowpine_summons }
+				remove_modifier = va_amani_shadowpine_summons
+			}
+			set_variable = { name = va_amani_tribes_failed } # beendet je_amani_empire
+			add_modifier = {
+				name = va_amani_tribes_divided
+				years = 10
+			}
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_amani_tribes_status_war
+				trigger = {
+					has_modifier = va_amani_shadowpine_summons
+					is_at_war = yes
+				}
+			}
+			triggered_desc = {
+				desc = je_amani_tribes_status_summons
+				trigger = { has_modifier = va_amani_shadowpine_summons }
+			}
+			triggered_desc = {
+				desc = je_amani_tribes_status_idle
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 110
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Ziel 2: Malacrass und die Loa. Vier Rituale nacheinander, je Loa die Wahl binden oder ehren (amani_loa_events.1–4).
+je_amani_loa = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	scripted_progress_bar = va_amani_loa_bar
+	scripted_button = va_amani_loa_akilzon_button
+	scripted_button = va_amani_loa_nalorakk_button
+	scripted_button = va_amani_loa_janalai_button
+	scripted_button = va_amani_loa_halazzi_button
+
+	immediate = {
+		set_variable = { name = va_amani_loa_decided value = 0 }
+		set_variable = { name = va_amani_loa_wrath value = 0 }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			va_amani_loa_pulse_effect = yes
+		}
+	}
+
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			custom_tooltip = {
+				text = je_amani_loa_all_decided_tt
+				var:va_amani_loa_decided >= 4
+			}
+		}
+		effect = {
+			va_amani_loa_cleanup_effect = yes
+			add_modifier = {
+				name = va_amani_power_of_the_loa
+				years = 10
+			}
+			trigger_event = { id = amani_loa_events.5 popup = yes }
+		}
+	}
+
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			has_global_variable = va_amani_claims_shattered
+		}
+		effect = {
+			va_amani_loa_cleanup_effect = yes
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_amani_loa_status_war
+				trigger = {
+					has_modifier = va_amani_loa_ritual
+					is_at_war = yes
+				}
+			}
+			triggered_desc = {
+				desc = je_amani_loa_status_ritual
+				trigger = { has_modifier = va_amani_loa_ritual }
+			}
+			triggered_desc = {
+				desc = je_amani_loa_status_idle
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	transferable = no
+	weight = 100
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Ziel 3: Die Belagerung. Gegenstück zu je_silvermoon_zul_aman.
+# V1: va_amani_besieged gilt, solange das JE läuft; die Abfrage von Silvermoons Eindämmung folgt mit dem Umbau von je_silvermoon_zul_aman.
+je_amani_siege = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	immediate = {
+		add_modifier = { name = va_amani_besieged }
+		s:STATE_SANCTUM_OF_SUN = { add_claim = ROOT } # Ziel des Ausbruchs
+	}
+
+	# Ausbruch: Kernland halten und das Sanctum of the Sun vor Zul'Aman ganz einnehmen,
+	# samt Anteilen von Tranquillien und dem Nachtelfen-Außenposten (Kono 2026-11-10)
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			owns_entire_state_region = STATE_ZUL_AMAN
+			owns_entire_state_region = STATE_TOR_WATHA
+			owns_entire_state_region = STATE_SANCTUM_OF_SUN
+		}
+		effect = {
+			remove_modifier = va_amani_besieged
+			set_variable = { name = va_amani_siege_over }
+			add_modifier = {
+				name = va_amani_siege_broken
+				years = 10
+			}
+			trigger_event = { id = amani_events.10 popup = yes }
+		}
+	}
+
+	# Zul'Aman und Tor'Watha verloren (auch an Dritte): Amani gebrochen, alle Amani-JEs enden
+	outcome = {
+		header = je_standard_failure_header
+		effect_header = je_standard_on_failure_header
+		color = "blue_negative"
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			OR = {
+				has_global_variable = va_amani_claims_shattered
+				custom_tooltip = {
+					text = je_amani_siege_heartland_lost_tt
+					NOT = {
+						any_scope_state = {
+							OR = {
+								state_region = s:STATE_ZUL_AMAN
+								state_region = s:STATE_TOR_WATHA
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			remove_modifier = va_amani_besieged
+			if = {
+				limit = { NOT = { has_global_variable = va_amani_claims_shattered } }
+				set_global_variable = va_amani_claims_shattered
+			}
+		}
+	}
+
+	timeout = 7300 # 20 Jahre, gedacht 5–15
+
+	# Ausgehalten: kein Malus, zählt für je_amani_empire
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+		effect = {
+			remove_modifier = va_amani_besieged
+			set_variable = { name = va_amani_siege_over }
+		}
+	}
+
+	transferable = no
+	weight = 90
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Dach-Ziel: Das Amani-Reich wiederherstellen. Fasst die drei Ziele zusammen.
+# Die Variable va_amani_empire_restored schaltet das Formable AMANI_EMPIRE frei (common/country_formation/va_formable_countries.txt, VA-017).
+je_amani_empire = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			custom_tooltip = {
+				text = je_amani_empire_tribes_tt
+				has_variable = va_amani_tribes_gathered
+			}
+			custom_tooltip = {
+				text = je_amani_empire_siege_tt
+				has_variable = va_amani_siege_over
+			}
+			custom_tooltip = {
+				text = je_amani_empire_loa_tt
+				has_variable = va_amani_loa_decided
+				var:va_amani_loa_decided >= 2
+			}
+		}
+		effect = {
+			set_variable = { name = va_amani_empire_restored }
+			add_modifier = {
+				name = va_amani_empire_restored
+				years = 20
+			}
+			trigger_event = { id = amani_events.11 popup = yes }
+			if = {
+				limit = { NOT = { has_journal_entry = je_amani_vengeance } }
+				add_journal_entry = { type = je_amani_vengeance }
+			}
+		}
+	}
+
+	# Kernland verloren oder die Stämme blieben zerstritten
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			OR = {
+				has_global_variable = va_amani_claims_shattered
+				has_variable = va_amani_tribes_failed
+			}
+		}
+	}
+
+	transferable = no
+	weight = 120
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+# Nach der Reichsgründung: Rache an Quel'Thalas. Ansprüche auf die Ghostlands, Ziel Tranquillien und Suncrown Village.
+je_amani_vengeance = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds" # TODO: eigenes Icon (VA-027)
+
+	group = je_group_historical_content
+
+	immediate = {
+		s:STATE_TRANQUILLIEN = { add_claim = ROOT }
+		s:STATE_SUNCROWN_VILLAGE = { add_claim = ROOT }
+		s:STATE_EAST_SANCTUM = { add_claim = ROOT }
+		s:STATE_WINDRUNNER_VILLAGE = { add_claim = ROOT }
+	}
+
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			owns_entire_state_region = STATE_TRANQUILLIEN
+			owns_entire_state_region = STATE_SUNCROWN_VILLAGE
+		}
+		effect = {
+			add_modifier = {
+				name = va_amani_forest_reclaimed
+				years = 20
+			}
+			trigger_event = { id = amani_events.12 popup = yes }
+		}
+	}
+
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			has_global_variable = va_amani_claims_shattered
+		}
+	}
+
+	timeout = 7300 # 20 Jahre, gedacht 10–15
+
+	outcome = {
+		header = JOURNAL_ENTRY_TIMEOUT
+		effect_header = JOURNAL_ENTRY_ON_TIMEOUT
+		flags = { timeout }
+		conclusion_desc = JOURNAL_ENTRY_TIMEOUT_CONCLUSION_DESC
+	}
+
+	transferable = no
+	weight = 100
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

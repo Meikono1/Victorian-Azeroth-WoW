@@ -99,16 +99,22 @@ va_silvermoon_wretched_pulse_effect = {
 va_silvermoon_wretched_complete_effect = {
 	if = {
 		limit = { has_variable = va_wretched_absorbed }
-		va_silvermoon_wretched_addicts_aftermath_effect = yes
+		va_silvermoon_wretched_addicts_aftermath_effect = yes # setzt va_wretched_last_level, falls es fehlt
+		# Tooltip führt set_variable nicht aus: ohne Variable gilt Stufe 3 (error.log 2026-11-12 17:16, 80 Zeilen)
 		if = {
-			limit = { var:va_wretched_last_level >= 3 }
+			limit = {
+				OR = {
+					NOT = { has_variable = va_wretched_last_level }
+					var:va_wretched_last_level >= 3
+				}
+			}
 			add_modifier = {
 				name = va_silvermoon_wretched_absorbed
 				years = 10
 			}
 		}
 		else_if = {
-			limit = { var:va_wretched_last_level >= 2 }
+			limit = { has_variable = va_wretched_last_level var:va_wretched_last_level >= 2 }
 			add_modifier = {
 				name = va_silvermoon_wretched_absorbed_mild
 				years = 6
@@ -129,9 +135,17 @@ va_silvermoon_wretched_complete_effect = {
 
 # Country-Scope (Silvermoon): "Wretched Addicts" auf das ehemalige Wretched-Land, Dauer nach letzter Sucht-Stufe (3: 10 J., 2: 6 J., 1: keine).
 va_silvermoon_wretched_addicts_aftermath_effect = {
+	# Eroberung/Zerfall ohne vorherigen Monats-Puls: Stufe erst merken, sonst "variable not set" (error.log 2026-11-12)
+	va_silvermoon_wretched_store_level_effect = yes
 	set_variable = { name = va_wretched_aftermath_cooldown days = 730 }
+	# Tooltip führt set_variable nicht aus: ohne Variable gilt Stufe 3
 	if = {
-		limit = { var:va_wretched_last_level >= 3 }
+		limit = {
+			OR = {
+				NOT = { has_variable = va_wretched_last_level }
+				var:va_wretched_last_level >= 3
+			}
+		}
 		every_scope_state = {
 			limit = {
 				state_region = { has_variable = va_wretched_homeland }
@@ -143,7 +157,7 @@ va_silvermoon_wretched_addicts_aftermath_effect = {
 		}
 	}
 	else_if = {
-		limit = { var:va_wretched_last_level >= 2 }
+		limit = { has_variable = va_wretched_last_level var:va_wretched_last_level >= 2 }
 		every_scope_state = {
 			limit = {
 				state_region = { has_variable = va_wretched_homeland }
@@ -316,5 +330,42 @@ va_silvermoon_wretched_conquered_effect = {
 		}
 		va_silvermoon_wretched_addicts_aftermath_effect = yes
 		trigger_event = { id = wretched_events.16 popup = yes }
+	}
+}
+
+# Country-Scope (Silvermoon) aus je_silvermoon_wretched (on_monthly_pulse): Bedrohung 100 → die Wretched greifen an (Kono 2026-11-12).
+# Ziel: Silvermoons Teil einer Region, die sie sich mit den Wretched teilt (Ruins of Silvermoon, Sunsail Anchorage).
+# Wretched bekommen va_wretched_frenzy_1–3 (schnell nachlassend), Bedrohung sinkt auf 70, danach 5 Jahre Ruhe.
+# Vorbild: Vanilla create_diplomatic_play mit target_state (events/soi_events/00_ep1_kazakh_events.txt), dp_conquer_state.
+va_silvermoon_wretched_frenzy_effect = {
+	if = {
+		limit = {
+			exists = c:WRETCHED_BLOODELFES
+			NOT = { va_silvermoon_wretched_partner_trigger = yes }
+			NOT = { has_variable = va_wretched_frenzy_cooldown }
+			NOT = { c:WRETCHED_BLOODELFES = { has_war_with = ROOT } }
+			c:WRETCHED_BLOODELFES = { is_diplomatic_play_committed_participant = no }
+			je:je_silvermoon_wretched ?= { "scripted_bar_progress(va_silvermoon_wretched_threat_bar)" >= 100 }
+			any_scope_state = { va_silvermoon_wretched_frenzy_target_trigger = yes }
+		}
+		random_scope_state = {
+			limit = { va_silvermoon_wretched_frenzy_target_trigger = yes }
+			save_scope_as = va_wretched_frenzy_target
+		}
+		set_variable = { name = va_wretched_frenzy_cooldown years = 5 }
+		je:je_silvermoon_wretched ?= { add_progress = { value = -30 name = va_silvermoon_wretched_threat_bar } }
+		c:WRETCHED_BLOODELFES = {
+			add_modifier = { name = va_wretched_frenzy_1 months = 6 }
+			add_modifier = { name = va_wretched_frenzy_2 months = 12 }
+			add_modifier = { name = va_wretched_frenzy_3 months = 24 }
+			create_diplomatic_play = {
+				name = va_wretched_frenzy_play
+				target_country = ROOT
+				type = dp_conquer_state
+				target_state = scope:va_wretched_frenzy_target
+				escalation = 100
+			}
+		}
+		trigger_event = { id = wretched_events.17 popup = yes }
 	}
 }
