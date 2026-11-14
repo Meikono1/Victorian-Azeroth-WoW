@@ -9,7 +9,7 @@ Ziel: neues Script plus englische Loc in einem Durchgang, ohne Vanilla oder das 
 
 ## 1. Orientieren (billig zuerst)
 
-1. `.claude/KARTE.md` lesen: wo das betroffene System liegt, welche Objekte es schon gibt.
+1. `.claude/KARTE.md` (Index) und die passende Teilkarte lesen, meist `karte/content_systeme.md`: wo das betroffene System liegt, welche Objekte es schon gibt.
 2. Ticket lesen (`.claude/tickets/VA-NNN-*.md`), bei Länder-Content `.claude/ablauf/<land>.md`.
 3. Vanilla-Vorbild aus [vanilla-vorbilder.md](vanilla-vorbilder.md) nehmen, **nicht** suchen. Erst wenn die Tabelle nichts hat: `grep -rl` in genau einem Vanilla-Ordner, und das Ergebnis danach in die Tabelle eintragen.
 4. Effekte, Trigger und Modifier in der Script-Doku prüfen, nur gezielt greppen (Befehle in `.claude/KARTE.md`, Abschnitt „Vanilla und Script-Doku“; die Dateien sind bis 920 KB groß). Verwendung in der Vorbild-Datei zeigt die Syntax im Zusammenhang.
@@ -18,7 +18,7 @@ Ziel: neues Script plus englische Loc in einem Durchgang, ohne Vanilla oder das 
 
 ## 2. Erst planen (Event-Ablaufplan)
 
-Neue JEs und Events zuerst in `.claude/ablauf/<land>.md` eintragen (Mermaid plus Tabelle). Je Knoten: Bedingung/Auslöser, Folge (Folge-JE, Event, Diplomatic Play, Modifier), Dauer im Spiel (`timeout`), gedachter Aufwand für den Spieler. Pro Land 25–40 Jahre JE-Inhalt, danach Übergang zu globalen Eventgruppen (VA-034). Vorlage: `.claude/ablauf/silvermoon.md`. Werte als Vorschlag kennzeichnen, offene Punkte unter „Offen“ für Kono.
+Neue JEs und Events zuerst in `.claude/ablauf/<land>.md` eintragen (Mermaid plus Tabelle). Je Knoten: Bedingung/Auslöser, Folge (Folge-JE, Event, Diplomatic Play, Modifier), Dauer im Spiel (`timeout`), gedachter Aufwand für den Spieler. Pro Land 25–40 Jahre JE-Inhalt, danach Übergang zu globalen Eventgruppen (VA-034). Vorlage: `.claude/ablauf/silvermoon.md`. Jeder Plan führt eine Tabelle „Alle Events auf einen Blick“ (ID, Titel, Auslöser, Optionen/Folge) und wird nach jedem Release mit dem Script abgeglichen (Kono 2026-11-14). Werte als Vorschlag kennzeichnen, offene Punkte unter „Offen“ für Kono. Im Ablauf stehen nur Entscheidungen, Mechanik, Diagramm und Offenes; Lore-Recherche (Wiki, Videos, mit Quelle und Datum) gehört nach `.claude/ablauf/lore/<land>.md` (VA-074). Ablauf unter 25.000 Zeichen halten: Sobald Tickets je JE existieren, Details dorthin verschieben und im Ablauf nur verweisen.
 
 ## 3. Scripten
 
@@ -49,7 +49,7 @@ Start-JEs zum Spielstart in `common/history/global/va_global_<region>.txt` (`GLO
 
 1. `python -I .claude/tools/va_lint.py` (mit `--regions NN`, wenn States betroffen) → 0 neue Fehler.
 2. Testfälle anlegen und Ticket nachziehen: Skill `va-testrunde`.
-3. `.claude/KARTE.md` um neue Dateien/Objekte ergänzen; neue Vorbilder in `vanilla-vorbilder.md`; neue Stolperfalle unten eintragen.
+3. Passende Teilkarte unter `.claude/karte/` um neue Dateien/Objekte ergänzen (neues System: eigener Abschnitt, neues großes Thema: neue Teilkarte plus Zeile im Index `KARTE.md`); neue Vorbilder in `vanilla-vorbilder.md`; neue Stolperfalle unten eintragen.
 4. Ablaufdiagramm auf den gebauten Stand bringen (Knoten „geplant“ → „gescriptet“).
 
 ## Stolperfallen (aus error.log und Spieltests)

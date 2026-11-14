@@ -17,8 +17,10 @@ Es gibt keinen Build. Verlässlich sind nur Lint (statisch) und `error.log` (Spi
    - Nächste Rundennummer ebenso: `grep -ho "^## Runde [0-9]*" .claude/TESTPROTOKOLL*.md | sort -k3 -n | tail -1`
    - Neue Runde unten anhängen (Format unten), oder an die offene Runde desselben Tickets anhängen.
    - Jede Runde endet mit einem Log-Testfall „error.log: … (Claude)“, der die betroffenen Dateien und Objektnamen aufzählt.
+   - Je Testfall höchstens 3–5 Zeilen (Schritte, Erwartet, Ergebnis). Hintergründe, Ursachen und Werte-Herleitungen gehören ins Ticket (VA-074).
 3. **Ticket**: Status `wartet (Spieltest)`, Notiz mit Datum, Dateien, offenen Punkten und den Test-IDs. Tabelle in `.claude/tickets/README.md` gleich ziehen.
-4. **ABLAUFPLAN.md**: Zeile „Nächster Spieltest“ um die neue Runde ergänzen; bei größeren Schritten Eintrag unter „Erledigt“ (Datum, Ticket, ein Satz, „wartet auf Spieltest“).
+   Danach `python -I .claude/tools/va_doku_check.py`: 0 Dateien über der Grenze, sonst aufteilen bzw. archivieren (Grenzen in `CLAUDE.md`).
+4. **ABLAUFPLAN.md**: Zeile „Nächster Spieltest“ um die neue Runde ergänzen; bei größeren Schritten Eintrag oben in `.claude/ERLEDIGT.md` (Datum, Ticket, ein Satz, „wartet auf Spieltest“).
 5. Kono sagen: welche Runde, was zu tun ist, Lint-Ergebnis.
 
 Format einer Runde:
@@ -49,13 +51,13 @@ Ticket: VA-NNN. Lint vor Freigabe: 0 neue Fehler (JJJJ-MM-TT).
 2. **Bewerten**: Relevant sind Zeilen mit Dateien dieser Runde. Bekannte Altlasten nicht neu melden: alte Vollkopien (`00_*`, `01_*`: VA-003), Erde-Bezüge (`je_acw_*`, `country_is_in_europe`: VA-002/VA-025/VA-026), `fleet_dioramas`, Fortification-Locator (Karte). Neue Fehlergruppen außerhalb der Runde → Ticket anlegen bzw. VA-043 ergänzen.
 3. **Ergebnis eintragen**: Beim Log-Testfall `[x] OK` oder `[x] Fehler – Notiz: <Datum>, <Befund>`. Konos Ergebnisse übernimmt Claude nur, wenn Kono sie nennt; Konos eigene Häkchen nicht ändern.
 4. **Fehler beheben** → neue Teilrunde oder Testfall erneut („T-054 danach erneut testen“), Ticket-Notiz mit Ursache.
-5. **Ticket schließen**: erst `erledigt`, wenn **alle** Testfälle des Tickets von Kono mit OK bestätigt sind. Dann Status im Ticket und in `tickets/README.md`, Testfälle in ABLAUFPLAN „Nächster Spieltest“ austragen.
+5. **Ticket schließen**: erst `erledigt`, wenn **alle** Testfälle des Tickets von Kono mit OK bestätigt sind. Dann Status im Ticket, Testfälle in ABLAUFPLAN „Nächster Spieltest“ austragen.
 6. **Archivieren** (ohne Nachfrage):
    - Jeden Testfall mit OK (oder entfallen/per Folgetest erledigt) einzeln nach `.claude/TESTPROTOKOLL_ARCHIV.md` unter seine Runde verschieben (Kono 2026-11-12: im Protokoll nur Offenes). Runde ohne offene Fälle ganz verschieben, Archiv nach Rundennummer sortiert.
-   - Ticket `erledigt` oder `verworfen` → Datei nach `.claude/tickets/archiv/`, relative Links darin `../` → `../../`, Link in `tickets/README.md` auf `archiv/…`. Die Tabelle behält alle Tickets.
-   - Wird ein archiviertes Ticket wieder aufgemacht, zurück nach `tickets/`.
+   - Ticket `erledigt` oder `verworfen` → Datei nach `.claude/tickets/archiv/`, relative Links darin `../` → `../../`; Tabellenzeile aus `tickets/README.md` nach `tickets/archiv/README.md` verschieben (Übersicht zeigt nur Offenes, Kono 2026-11-14). In `tickets/README.md` „Als Nächstes“ nachziehen (Erledigtes raus, nächstes einreihen) und Themen-Tabelle anpassen.
+   - Wird ein archiviertes Ticket wieder aufgemacht, Datei und Tabellenzeile zurück nach `tickets/`.
 
 ## C. Nebenbei
 
 - Fallen beim Auswerten wiederkehrende Fehlerursachen auf, in den Stolperfallen des passenden Skills eintragen (`va-content`, `va-karte`).
-- Neue Dateien/Objekte aus dem Fix in `.claude/KARTE.md` nachtragen.
+- Neue Dateien/Objekte aus dem Fix in der passenden Teilkarte unter `.claude/karte/` nachtragen.

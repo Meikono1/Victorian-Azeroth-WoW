@@ -16,7 +16,7 @@ Normaler Zeitplan der Eventgruppen (Jahre nach Spielbeginn):
 
 | Eventgruppe | Standard |
 |---|---|
-| Deathwings Flug (Kataklysmus) | Spielstart, die Karte basiert auf Cataclysm |
+| Deathwings Flug (Kataklysmus) | ~+10 Jahre (Kono 2026-11-14), obwohl die Karte schon nach Cataclysm gebaut ist |
 | Outland – Dunkles Portal öffnet sich | ~+15 Jahre (Kono, 2026-11-02; vorher +25) |
 | Northrend | +50 Jahre |
 | Draenor – Portal öffnet sich | +60 Jahre |
@@ -37,3 +37,4 @@ Normaler Zeitplan der Eventgruppen (Jahre nach Spielbeginn):
 
 - 2026-10-30 (Kono): Vor den globalen Eventgruppen bekommt jedes relevante Land 25–40 Jahre Journal Entries (Partie: 100 Jahre). Die Zeitpunkte der Eventgruppen oben sollten dazu passen, also die erste globale Gruppe frühestens ab etwa +25 Jahren. Ablaufdiagramme je Land unter `.claude/ablauf/` (Regel in `.claude/CLAUDE.md`, Content-Ablauf Punkt 5).
 - 2026-10-30 (aus VA-044): Kono beobachtet, dass der KI Geldabflüsse fehlen. Ohne Probleme, die Geld kosten, steckt sie den Überschuss in Bausektoren. Eventgruppen sollten auch Kosten bringen (Wiederaufbau, Seuchen, Kriegsfolgen, Unterhalt).
+- 2026-11-14 (Kono): Kataklysmus nach etwa 10 Jahren als Weltevent, betrifft alle Länder (Quel'Thalas kaum). Gilneas: Mauer bricht, Isolationismus fällt, Undercity greift an, Nachtelfen kommen (`.claude/ablauf/gilneas.md`).

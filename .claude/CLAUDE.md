@@ -1,17 +1,25 @@
 # Victorian Azeroth – Projektregeln
 
 Total-Conversion-Mod für Victoria 3: Azeroth (World of Warcraft) statt der realen Welt.
-Workshop-ID `3300564446`. Fahrplan und offene Entscheidungen stehen in `.claude/ABLAUFPLAN.md`, konkrete Aufgaben als Tickets in `.claude/tickets/` (Format und Übersicht in `.claude/tickets/README.md`). Projekt-Doku gehört nach `.claude/`, nicht in den Mod-Root. Vor größerer Arbeit dort reinschauen; danach Ticket-Status, Notizen und die Übersichtstabelle aktualisieren. Neue Aufgaben, die nebenbei auffallen, als Ticket anlegen statt sie nur im Chat zu erwähnen.
+Workshop-ID `3300564446`. Fahrplan und offene Entscheidungen stehen in `.claude/ABLAUFPLAN.md`, konkrete Aufgaben als Tickets in `.claude/tickets/` (Format und Übersicht in `.claude/tickets/README.md`). Projekt-Doku gehört nach `.claude/`, nicht in den Mod-Root. Vor größerer Arbeit dort reinschauen; danach Ticket-Status, Notizen und die Übersichtstabelle aktualisieren. Neue Aufgaben, die nebenbei auffallen, als Ticket anlegen statt sie nur im Chat zu erwähnen. **„Nimm das nächste Ticket“** = oberstes Ticket aus „Als Nächstes“ in `tickets/README.md`; ein genanntes Thema über die Themen-Tabelle dort. Claude pflegt beide Listen nach jedem Abschluss.
 
 ## Zuerst: Karte und Skills (Token sparen)
 
-- **`.claude/KARTE.md`** sagt, wo jedes System, jede Region und jedes Werkzeug liegt. Vor jeder Suche dort nachsehen, dann gezielt öffnen. Repo und Vanilla nicht breit durchsuchen.
+- **Einstieg jeder Session:** `CLAUDE.md` → `KARTE.md` (Index) → Ticket bzw. `ablauf/<land>.md`. Damit muss jede neue Session allein arbeitsfähig sein, unabhängig von Modell oder Werkzeug.
+- **`.claude/KARTE.md`** ist der Index: Regionen, Projekt-Doku und Teilkarten unter `karte/` (Content-Systeme, Länder/Wirtschaft, Erde abschalten, Werkzeuge). Vor jeder Suche dort nachsehen, nur die passende Teilkarte öffnen, dann gezielt die Dateien. Repo und Vanilla nicht breit durchsuchen.
 - **Skills** (`.claude/skills/`) enthalten die Abläufe: `va-content` (Events, JEs, Loc, Vanilla-Vorbilder), `va-testrunde` (Lint, Testfälle, error.log, Ticket schließen), `va-karte` (States, Provinzen, Startwerte), `va-patch-upload` (Checklisten).
-- Große Dateien nie ganz lesen: `TESTPROTOKOLL.md` (per `grep -n "^## Runde\|^### T-"` springen), State-/History-Dateien, Loc-Namenslisten, `province_terrains.txt`, `error.log` (über `va_errlog.py --mod`), `va_lint_baseline.txt`, `TESTPROTOKOLL_ARCHIV.md` und `tickets/archiv/` (nur für Historie).
+- Große Dateien nie ganz lesen: `TESTPROTOKOLL.md` (per `grep -n "^## Runde\|^### T-"` springen), State-/History-Dateien, Loc-Namenslisten, `province_terrains.txt`, `error.log` (über `va_errlog.py --mod`), `va_lint_baseline.txt`, `TESTPROTOKOLL_ARCHIV.md`, `ERLEDIGT.md`, `tickets/archiv/` (nur für Historie) und `ablauf/lore/` (nur bei Lore-Fragen).
 
 ## Wissenspflege (Kono, 2026-11-01)
 
-Claude pflegt Karte und Skills **eigenständig, ohne Nachfrage**, als Teil jeder Aufgabe: neue/umbenannte/gelöschte Dateien und Objekte → `KARTE.md`; neues Vanilla-Vorbild → `skills/va-content/vanilla-vorbilder.md`; Fehler mit allgemeiner Ursache → „Stolperfallen“ im passenden Skill; geänderter Ablauf oder neues Werkzeug → Skill. Skills knapp halten (unter 150 Zeilen, Details in Zusatzdateien), nichts doppelt führen. Im Chat nur kurz erwähnen.
+Claude pflegt Karte und Skills **eigenständig, ohne Nachfrage**, als Teil jeder Aufgabe: neue/umbenannte/gelöschte Dateien und Objekte → passende Teilkarte in `karte/` (neues Thema: neue Teilkarte plus Zeile in `KARTE.md`); neues Vanilla-Vorbild → `skills/va-content/vanilla-vorbilder.md`; Fehler mit allgemeiner Ursache → „Stolperfallen“ im passenden Skill; geänderter Ablauf oder neues Werkzeug → Skill. Skills knapp halten (unter 150 Zeilen, Details in Zusatzdateien), nichts doppelt führen. Im Chat nur kurz erwähnen.
+
+## Doku schlank halten (Kono, 2026-11-14, VA-074)
+
+Die Doku ist das Projektgedächtnis für Jahre; keine Entscheidung nur im Chat lassen. Grenzen in Zeichen, Prüfung mit `python -I .claude/tools/va_doku_check.py` in jeder Testrunde (Skill `va-testrunde`):
+- Index-Dateien (`CLAUDE.md`, `KARTE.md`, `karte/*`, `ABLAUFPLAN.md`, `tickets/README.md`, `SKILL.md`) unter 15.000; Skills unter 150 Zeilen.
+- `ablauf/<land>.md` unter 25.000, offene Tickets unter 10.000, `TESTPROTOKOLL.md` unter 50.000.
+- Darüber aufteilen statt kürzen: Index + Teildatei, Erledigtes ins Archiv (`tickets/archiv/` samt Tabellenzeile, `TESTPROTOKOLL_ARCHIV.md`, `ERLEDIGT.md`), Lore nach `ablauf/lore/`. Übersichten zeigen nur Offenes. Tickets klein: in einer Session erledigbar, Aufbau Beschreibung/Stand/Offen/Notizen, Größeres als Sammelticket mit Teiltickets, langer Verlauf wortgleich nach `tickets/verlauf/`. Testfälle höchstens 3–5 Zeilen, Hintergründe ins Ticket.
 
 ## Pfade
 

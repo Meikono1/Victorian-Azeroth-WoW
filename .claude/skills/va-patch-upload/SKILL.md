@@ -35,7 +35,7 @@ Vorgehen beim Vergleich mit Vanilla: per `git diff --no-index <alt> <neu>` bzw. 
 - [ ] `.metadata/metadata.json`: `version` hochgezählt, `supported_game_version` stimmt
 - [ ] Mod-Ordner `mod\warcraft` vollständig aus dem Repo neu befüllt (ohne `.git`, `.claude`, `.gitignore`, `map_data/provinces.xcf`; gelöschte Repo-Dateien auch dort löschen) – macht Kono, Werkzeug geplant in VA-010
 - [ ] Kurztest aus dem Mod-Ordner: Kampagne lädt
-- [ ] Änderungen seit dem letzten Upload als Workshop-Text zusammengefasst (Quelle: „Erledigt“ im `ABLAUFPLAN.md` seit dem letzten Upload-Ticket; `git log` nur lesen)
+- [ ] Änderungen seit dem letzten Upload als Workshop-Text zusammengefasst (Quelle: `.claude/ERLEDIGT.md` seit dem letzten Upload-Ticket; `git log` nur lesen)
 - [ ] Inhaltszahlen fürs Release-Statement (Kono 2026-11-12): `python -I .claude/tools/va_release_stats.py --compare <letzter Stand>` (Markdown-Tabelle „Added / Total now“), danach `--save <neue Version>`. Stände in `.claude/releases/version_*.json`; Basis vor dem ersten Release mit Claude: `2025-12` (= `ae932e6`, letzter Commit vor der Pause)
 
 Git bleibt dabei tabu für schreibende Aktionen (Commit, Tag macht Kono).

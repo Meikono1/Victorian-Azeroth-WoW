@@ -1,6 +1,6 @@
 ﻿# VA-062: Todesschneise sichtbar heilen (unsichtbares Gebäude + Terrain-Manipulator)
 
-- **Status:** wartet (Spieltest)
+- **Status:** erledigt
 - **Typ:** grafik
 - **Priorität:** mittel
 - **Erstellt:** 2026-11-04
@@ -77,3 +77,4 @@ Lösung (Kono 2026-11-04): Die Schneise ist ein **unsichtbares Gebäude**, das l
   - Vollständiger Befehl ab jetzt: `python -I .claude/tools/va_scar_mask.py 26 STATE_SUNWELL_PLATEAU STATE_RUINS_OF_SILVERMOON STATE_WEST_SANCTUM STATE_EAST_SANCTUM STATE_TRANQUILLIEN STATE_DEATHHOLME --fill x2B1415 x4E496D x3E6CAE xB6E6AB x21A7AB xEB9D1D x6DAC1E x1C0EED xF017F6 x537223 x1F97B1 x3AAD13 xF29779 x142D60 xA28A0D x203FF1 x9A04F7 --free-others --scar-only --apply`
 - 2026-11-06, Kono: Texte ergänzt, dass die Schneise Deathholme stärkt (`je_va_dead_scar_reason`, `dead_scar_events.1.d`/`.d_undead`/`.2.d`, `je_silvermoon_deathholme_reason`), jeweils angehängter Satz mit (AI WRITTEN). T-106.
 - 2026-11-06, Kono hat die fünf Deathholme-Texte umformuliert und abgenommen (ohne AI-WRITTEN-Markierung); nur Tippfehler/Grammatik geglättet.
+- 2026-11-14, Claude (VA-074): Alle Testfälle (T-086 bis T-106) von Kono mit OK bzw. per Folgetest erledigt, keiner mehr offen → erledigt. Restpunkte: eigenes Schneisen-Material und Icon → VA-027; Teil-State nach Teilheilung startet mit voller Stufe (TODO in `va_quel_thalas_effects.txt`, nur bei Bedarf); geheilten Boden gestaltet Kono im Map-Editor. Abschnitt „Offen“ oben ist überholt (Stand 2026-11-04).

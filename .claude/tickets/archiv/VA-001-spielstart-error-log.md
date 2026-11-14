@@ -1,6 +1,6 @@
-# VA-001: Spielstart mit Mod und error.log auswerten
+﻿# VA-001: Spielstart mit Mod und error.log auswerten
 
-- **Status:** in Arbeit
+- **Status:** erledigt
 - **Typ:** technik
 - **Priorität:** hoch
 - **Erstellt:** 2026-10-29
@@ -88,3 +88,6 @@ Das Log enthält jetzt die Ladefehler vom Start. Fehlergruppen nach Größe, mit
 - `history/characters/va_eastern_kingdom.txt:60` ungültige Kultur, `history/pops/va_outlands.txt:1618` Kultur `zombie` fehlt.
 - 29× Archerus `building_company_basic_fishing` → VA-024.
 
+### 2026-11-14 – Abschluss (Claude, VA-074)
+
+- Ziel erreicht: Kampagne lädt ohne Absturz, Log läuft nicht mehr über, jede Fehlerursache hat ein Ticket (VA-003, VA-011, VA-012, VA-014, VA-023, VA-024, VA-026, VA-043, VA-055, VA-060). Laufende Log-Auswertung geschieht je Testrunde (Skill `va-testrunde`, `va_errlog.py --mod`), nicht mehr in diesem Ticket.

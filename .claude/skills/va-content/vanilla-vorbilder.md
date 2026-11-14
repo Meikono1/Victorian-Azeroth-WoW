@@ -17,6 +17,7 @@ Neues Vorbild gefunden → hier eintragen (Pflege durch Claude).
 | Diplomatic Play aus Event | `events/iberia_events/ip4_lusosphere_events.txt` (405) | `create_diplomatic_play`, Z. 394 |
 | Neues Land abspalten | `events/brazil/brazilian_minors.txt` (418) | `create_country` |
 | Subjekt machen | `events/brazil/patagonia_events.txt` (96) | `create_diplomatic_pact = { … type = <subjekttyp> }` |
+| Drei Fraktionen mit je einem Balken, Schaltern, Status-Text (Gilneas) | `common/journal_entries/01_french_monarchism.txt` | `je_divided_monarchists`, Balken in `scripted_progress_bars/00_victoria_progress_bars.txt`, Pulse `french_pretenders_pulse` |
 | Angebot an anderes Land, Antwort per Event, KI-Gewichtung | `events/romania_events.txt` | `romania.1`/`.2`, `ai_chance = { base modifier = { trigger add } }` |
 | Land friedlich annektieren | `events/canada_australia_events.txt` | `annex_with_incorporation = <land>` (`can_aus.1`) |
 | JE-Balken aus Event ändern bzw. abfragen | `events/agitators_events/algeria_events.txt`, `events/brazil/misc_events.txt` | `je:<je> ?= { add_progress = { value = 15 name = <bar> } }`, Abfrage `je:<je> ?= { "scripted_bar_progress(<bar>)" >= 50 }` |
@@ -71,6 +72,7 @@ Neues Vorbild gefunden → hier eintragen (Pflege durch Claude).
 | Gut | `common/goods/00_goods.txt` | `coal` |
 | Pop-Bedarf | `common/pop_needs/00_pop_needs.txt` | `popneed_stimulants` |
 | Script-Wert (Summe über States) | `common/script_values/building_values.txt` | `every_scope_state`, `divide = state_population` |
+| Erzwungene Abschottung als Gesetzesvariante plus JE (Gilneas-Mauer) | `common/laws/01_trade_policy.txt`, `common/journal_entries/07_sakoku.txt`, `common/history/countries/jap - japan.txt` | `law_sakoku` (`parent = law_isolationism`), `je_sakoku`; Protektionismus und Isolationismus liegen beide in `lawgroup_trade_policy` |
 
 ## On-Actions und History
 
